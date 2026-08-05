@@ -1,0 +1,13 @@
+{
+  "name": "k-baby-made",
+  "version": "1.0.0",
+  "private": true,
+  "description": "대한민국 제조 0~35개월 영유아 제품 공식 근거 검증 DB",
+  "scripts": {
+    "check": "python scripts/build_assets.py && python scripts/validate_data.py",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.30.0"
+  }
+}
