@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "rawRecords": 9,
+  "uniqueProducts": 9,
+  "duplicateRecords": 0,
+  "statusCounts": {"포함": 9},
+  "categoryCounts": {"구강치발기": 9},
+  "includedEvidenceViolations": 0,
+  "recovery": {
+    "sourceRecords": 230,
+    "previousKnownUniqueProducts": 455,
+    "missingFromCurrentRecovery": 225,
+    "complete": false,
+    "bootstrapPending": true
+  }
+}
