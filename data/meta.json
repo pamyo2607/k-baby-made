@@ -1,0 +1,20 @@
+{
+  "project": "K-Baby Made",
+  "recoveredAt": "2026-08-05",
+  "source": "K-Baby Made Live DB Google Sheet export",
+  "sourceSheetId": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
+  "rawRecords": 230,
+  "uniqueProducts": 230,
+  "previousKnownUniqueProducts": 455,
+  "recoveryGap": 225,
+  "statusCounts": {"포함": 9, "보류": 200, "제외": 21},
+  "categoryCounts": {"완구": 200, "구강치발기": 30},
+  "policy": {
+    "domesticSaleRequired": true,
+    "ageUnder36MonthsRequired": true,
+    "madeInKoreaRequired": true,
+    "exactSafetyKoreaRequiredForEveryIncludedProduct": true,
+    "genericRecoveryReasonForbidden": true
+  },
+  "bootstrapPending": true
+}
