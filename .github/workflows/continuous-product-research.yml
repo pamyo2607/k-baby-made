@@ -1,9 +1,11 @@
-name: K-Baby Made strict product research
+name: K-Baby Made ultra-strict product research
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    # GitHub Actions가 허용하는 최단 간격 5분.
+    # 매시 정각 혼잡을 피하기 위해 2분부터 5분 간격으로 실행한다.
+    - cron: "2-59/5 * * * *"
   push:
     branches: [main]
     paths:
@@ -20,7 +22,11 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 330
+    env:
+      KBABY_QUALITY_MODE: ultra
+      PYTHONUNBUFFERED: "1"
+
     steps:
       - name: Checkout cumulative database
         uses: actions/checkout@v4
@@ -39,13 +45,24 @@ jobs:
         run: python scripts/bootstrap_from_sheet.py
 
       - name: Revalidate 50 pending products and discover 20 candidates per category
-        run: python scripts/research_runner.py --pending-limit 50 --new-per-category 20 --all-categories
+        run: >
+          python scripts/research_runner.py
+          --pending-limit 50
+          --new-per-category 20
+          --all-categories
+          --quality ultra
+
+      - name: Enforce ultra-quality inclusion gate
+        run: python scripts/enforce_ultra_quality.py
 
       - name: Rebuild deployable assets
         run: python scripts/build_assets.py
 
-      - name: Strict validation
+      - name: Existing strict validation
         run: python scripts/validate_data.py
+
+      - name: Final ultra-quality verification
+        run: python scripts/verify_ultra_quality.py
 
       - name: Commit verified cumulative changes
         shell: bash
@@ -58,6 +75,6 @@ jobs:
             echo "No verified changes"
             exit 0
           fi
-          git commit -m "data: update strict product research results"
+          git commit -m "data: update ultra-strict product research results"
           git pull --rebase origin main
           git push
