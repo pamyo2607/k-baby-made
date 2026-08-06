@@ -48,6 +48,9 @@ jobs:
         run: >
           python scripts/run_ultra_parallel.py
 
+      - name: Sanitize generic and duplicate candidates
+        run: python scripts/sanitize_discovered_candidates.py
+
       - name: Verify effective research progress
         run: python scripts/verify_research_effectiveness.py
 
