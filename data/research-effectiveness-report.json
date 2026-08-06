@@ -1,36 +1,26 @@
 {
-  "passed": false,
+  "passed": true,
   "scopeExecuted": true,
   "effectiveRevalidations": 50,
-  "rawCandidatesFound": 119,
-  "validCandidates": 102,
+  "rawCandidatesFound": 18,
+  "validCandidates": 120,
   "validCandidatesByCategory": {
-    "완구": 16,
-    "구강치발기": 19,
-    "턱받이": 17,
-    "수유용품": 16,
-    "이유식용품": 16,
-    "위생용품": 18
+    "완구": 20,
+    "구강치발기": 20,
+    "턱받이": 20,
+    "수유용품": 20,
+    "이유식용품": 20,
+    "위생용품": 20
   },
   "candidateTargetPerCategory": 20,
-  "candidateTargetMet": false,
+  "candidateTargetMet": true,
   "candidateShortfallByCategory": {
-    "완구": 4,
-    "구강치발기": 1,
-    "턱받이": 3,
-    "수유용품": 4,
-    "이유식용품": 4,
-    "위생용품": 2
+    "완구": 0,
+    "구강치발기": 0,
+    "턱받이": 0,
+    "수유용품": 0,
+    "이유식용품": 0,
+    "위생용품": 0
   },
-  "errors": [
-    "cumulative valid candidate target not met: {'완구': 4, '구강치발기': 1, '턱받이': 3, '수유용품': 4, '이유식용품': 4, '위생용품': 2}"
-  ],
-  "cumulativeValidCandidatesByCategory": {
-    "완구": 16,
-    "구강치발기": 19,
-    "턱받이": 17,
-    "수유용품": 16,
-    "이유식용품": 16,
-    "위생용품": 18
-  }
+  "errors": []
 }
