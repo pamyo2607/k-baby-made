@@ -1,0 +1,683 @@
+{
+  "checkedAt": "2026-08-06T04:10:24.958215+00:00",
+  "providers": {
+    "완구": {
+      "google": {
+        "status": 200,
+        "finalUrl": "https://www.google.com/search?hl=ko&gl=kr&num=30&filter=0&q=%22%EC%99%84%EA%B5%AC%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 90484,
+        "title": "Google Search",
+        "results": []
+      },
+      "naver": {
+        "status": 200,
+        "finalUrl": "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=%22%EC%99%84%EA%B5%AC%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 290964,
+        "title": "\"완구\" 아기 국내제조 KC 제품 구매 : 네이버 검색",
+        "results": [
+          {
+            "title": "NAVER",
+            "url": "https://www.naver.com"
+          },
+          {
+            "title": "어학사전",
+            "url": "https://dict.naver.com/dict.search?query=\"완구\" 아기 국내제조 KC 제품 구매&from=tsearch"
+          },
+          {
+            "title": "지도",
+            "url": "https://map.naver.com/v5/search/\"완구\" 아기 국내제조 KC 제품 구매"
+          },
+          {
+            "title": "검색옵션 가이드",
+            "url": "https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+          },
+          {
+            "title": "도움말",
+            "url": "https://ads.naver.com/help/faq/1011?t=1778046083628"
+          },
+          {
+            "title": "네이버 아이디 하나로 간편구매 Naver Pay 서비스 보기",
+            "url": "https://m.pay.naver.com/mobile/about"
+          },
+          {
+            "title": "코니스",
+            "url": "https://ader.naver.com/v1/KjRlY91WY4aifW1DZGX6nQxDsFnlj1Cmb-nSrkF1cLEfviiEswADHWn8NGZyU_FBC3So99y80b4y8pVbggIjAXXUKs5ki_KKVcwvGyPQYuQwZsSR11yXjLc9A99HY0ZocKb-AubUV1EEpasv-oFiBpt7_tbtgx-ID6xbtLvciLW8XeBXuLP0VJSpX9d8U8vTIBybHKK4jFYALpJbWMN8j0eulKc9IGN9V01-T14kbcc2TddPiq-LnavjesL8CHmTz3i17vqYWgdNZfOXAyU-JqeHn-VTw_C2aJzh-6ifgQq-4NTQzuTW-JB3BJ_jZ-ghPt4NacrNkk3g0ZSOrQnzR-TnBjAUJwUtXCippGyv9tcMgk6VVCwatPE5WSjjYbxs?c=naver.search.pc.plsearch&t=0"
+          },
+          {
+            "title": "도매꾹",
+            "url": "https://ader.naver.com/v1/fA8FIoqFsRdOev_3HaN-2AWBusfJqGgyD3QKKlDQrvn2hT-vJSNO-564a0sry_db1cdYoQAiYtd-Ejyjr0_FY6IkvfKUrvuXqZnIYW7cVi4NvxpZsIJv3sKCf86FMsw-EqqS5rr4TQFFps3hiC3_zv8FmzxTV3R30r0RZQryDakBfZckdlvqFgEn7KT0SigwdubKr6KHgAxrGr5MHcvkrHkS6iXZ2rvg-2ZDBZy-WBbISa0kIajjwgAuJ6y5_P_IOxuhijwpJNEAzGzMyPnXCDiyRHpORO8nCVqd5f3934enu3MAJyoK2M_FB-86CokJ_5c87XGJa2yNtURoEmCUZzUNQ9paDE_3zmW2FjuRqigGgZQYsiU8evbCj7rtFYnvperYl5M2S5DFfX4pdmtQ_8nG71iYVmpGMXUDBmr8_Zb32lcth1xPUW1PeNm5OQlpW0ekmhrRMer1xWmMnQQMXZttNz"
+          },
+          {
+            "title": "패션소품",
+            "url": "https://ader.naver.com/v1/uqt_EEYCoPXqFM6qcmcL1vlPIbfDps2rYOC05XNIyXzvjP2pDwmBY87M0r3TuN3qluE9kWGBg8Mlbs0G8pt-qoGqf5km6hX_UMLp2LbolL4YRhL8q6Yfu6KXrfSFHkUZW8L3eXreZK52gE9BD5-jZTna641RFjv0BffWNFpkpoFHSbCq8kYBQEQ4yb9_FkvjHzRRgOpNoQkXq_YBzbIVImRhxyXNBltOMzCcoZaPM0MfSeq03Nw8Bx4eIWQAQP_LVKM8Rv7gshkzj59JZSE6Qo3y2NokXZb3MhmSyZ1hqGj0zJ24g_F-58YstifUv0u7VyKGGtWafvkAw7c39uC_Ju9MQwkNyvaIenG2I7JSQrCkqSM-xPlT7LOUpnZq5bfZr0-eLKLc9mf02boIsABndK_vnyo7BabYHl7LxSXUGY-NeABaWXrYM6T_as1nzpT6mnH_2PEElan55W4vAT2WWahu1g"
+          },
+          {
+            "title": "화장품",
+            "url": "https://ader.naver.com/v1/uqt_EEYCoPXqFM6qcmcL1kpx6P4cyOoPo1Drl1e3P65mXz6W1khRBJiQlULlXl_IieyCd1Vme3dniwH5Aj_jnVONwS0J-N_HgrikD51hVp7xVvcUOi3LW003VPeSNdqr8pbaeLa2s_blE9013hGTqtbfgR2NdNPEXvsOlvGwqJMt1lxEsw4HaxEj884z1hvie2qPd5iuV5ZptHgOD3nUPyv5CQGimQxGVZ_ryOeqoyT2_TGAqbDVhRFEr4dDpS1IclI4xMzIF5vMfB99JcFy41tSAKHHkEHPtIHVSLmxiWna5XAbMOADqtGTLdmeuXockbXNCYHWSGyu7ixJdNiC9RJ6jV3X6kw5UYepNzazw-5oanNLtuAJ6VjTiR01QSdQ-DC_MRWQXosS2nECegOibmvJShlbv9sJVnoWOcEpXH4Ff8TeK2TnjMQ87KoP8Th5QnzjGMTsZ0ngb6SpRVdmkpmN-Z"
+          },
+          {
+            "title": "남성의류",
+            "url": "https://ader.naver.com/v1/H9ukQFCY6lK6kOlsRJEuVpvxfFhIJpwF3xAh4B7098Em0QCJHmtXl8gq2qRR6NN7Hvv470etU1lO49BeISWq8iF5hN5mX_xyP13wq30WpnyWYjWul_e2UbAihyA_nKJKpxiXUSc-QFBXrISYjgJvv0T0YTOw-lAS8BN_7UQHj15nrigSeX67xnW2zaDuFiveFEkJSsFclkFS_nBHbYHLpdt-GRDAms-a26XyY1CC0U89OoW0xw-Z82pPLdU00W__5U5RHhcUbENXnZYXw6x_cvP-WTmSVHCeZCFl0W8jw5gTZ0NulDInY3c6o8N33iEUkSwGckRfIcKZC5uLMIDt_63Rq2FT9EtSsG5n7Q_ed4M32cmDmTtKVvlJEP8PxhHB2XT_Tm67ZbKYYWru59c-XBGkE0CpHD9yErZhonzJslWioeL-muRcgmyoKgkpoQH52gzNh7rNohocypfvvkxOR35Ipz"
+          },
+          {
+            "title": "모아모아기프트",
+            "url": "https://ader.naver.com/v1/NlpUQIVGM0-rbrO_RnxicBrlrD1vTfcafZo8mBofgh5kgOuN5-V_HgazmMY2mtVGk954ZzeAMpjKYfVrq87t1osjSSgf7oS-qFDzk5WNVo6mYDg8gRUqL1UXOHEW7ReZDBy4IAMfpcrzoJkF3hrdBL3dGj0JMCWNMX5WYaROoe6XV7ylrGGfkj4PUPPJZA7j8P7-8D9Kcu2Db_RNr7hyU50UFD2-1iq2u3l2X_XOUfElAI-QrWAH9_qftK-Y_TC-Q4m7dqkb4g6PAZ7ywe7HxYS6iBsy7FUM5Sw7QpXfg6rQgYr3W3xRIMdRGwPFSY1A5cfQbr6qEqO7bHnASSrhQMEtdM4NKXDletWxMwDthaUuzi-smCuxhq04qp6C6Lj27HwcfsoUT0mND-H94XXib1NUhid0_VTNWav9OcsFuxct7Wf3ZSyLl_djuliRN950XBXWobOinyVbO5nvlOnITFseLh"
+          },
+          {
+            "title": "쿠팡 특가 바로가기",
+            "url": "https://ader.naver.com/v1/C9jcnSkfDsk24a8sYNKfs3C3FtUdgN0GpRMGygpbIocj7o-6dm55pib23MFgZt9eNxrBLeV6ZP6PjbvSPHpRE-cDqCnXKjDISwIhQaly8j0xxtVLxMykR8sq95D9l-C_etN6k3VMbncpkVhl9xph9hfJoCyPbPCPGSSfVKFbK8NTRjR2lHogXlB7dpaYh6RlzavBcnALFHHY5uZJSPWBwZ50wipbosL159pPF3RASFRhewX7YNOvLT-xLA_34J5-tP40OpL-zfRjpQd_ZOjbj9Esl6TejyMnxvCyreYCslR56cKqyL1TiaDhF-IEYIBvBSmBEzktSXQLFC7BsrlVP_npkcd6A9Nkdvagtvvm_3GsQUj0pF9vqZQ-RRVIfvYDfAF-GWzaE4oTRc9hScclE-1JjTfdwtSYJxKOwxji8Kg5zp4lsVQK-QICCKmzZxNNdWjj7f3tnEYj-tr_HLyF8MteWu"
+          },
+          {
+            "title": "마켓비POFFIA 애착인형 곰 토끼 고양이 인형 백일 아기 유아 신생아선물 KC제품 4종",
+            "url": "https://ader.naver.com/v1/qKMWA9pbxdiaQzXHbNV2YQlcRU-LCulYsSj3S1N6oMFKrOA3i_nmYKgRKlmiGlfdbRI9sN5_K13dTQQUIKO51nokKHJkZB2Kz0SDj3vJelTsDbl-4QRKBWs3RPUVKcBDOc7oe9MI7IYMQkNAY6YuhFgYz3jzzyQYLXm3XFcUwn0TdcbJHWllXSuskF_eEideAcS4nzYOT48zZaglk2sh_SROWKAoi7ba712Sh_WsW5JirLGENfCxLW1VBmUZJRp7JFcLhUKXXIcNRbQ56KNrj7TjtJxq-bsfUhxiQ0bVcetAN56dfPpExDX5gYIxoPN0ZzsJTcU2L3_d45bOxQ1Zmm-KO0PBefL80quUVGVI9IVzYTk9pfqojhZ05dJkSXFgjx9cqH8PzzxHreidXkli_7P9DxCj6fYOn_ZkyeyT-CE=?c=naver.search.pc.npla&t=0&ui=GUIDE"
+          },
+          {
+            "title": "베베아인 아기 볼풀공 국내 생산 KC 인증 8.5cm",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=80060387568&cat_id=50004232&query=\"완구\" 아기 국내제조 KC 제품 구매&t=msgzzp35&h=66a171b86e7f65ca274d78c38927e8223219fc9b&frm=NVSCPRO"
+          }
+        ]
+      },
+      "brave": {
+        "status": 429,
+        "finalUrl": "https://search.brave.com/search?source=web&q=%22%EC%99%84%EA%B5%AC%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 79426,
+        "title": "Brave Search",
+        "results": [
+          {
+            "title": "safest",
+            "url": "https://tb-manual.torproject.org/security-settings/#safest"
+          }
+        ]
+      }
+    },
+    "구강치발기": {
+      "google": {
+        "status": 200,
+        "finalUrl": "https://www.google.com/search?hl=ko&gl=kr&num=30&filter=0&q=%22%EA%B5%AC%EA%B0%95%EC%B9%98%EB%B0%9C%EA%B8%B0%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 90245,
+        "title": "Google Search",
+        "results": []
+      },
+      "naver": {
+        "status": 200,
+        "finalUrl": "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=%22%EA%B5%AC%EA%B0%95%EC%B9%98%EB%B0%9C%EA%B8%B0%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 269975,
+        "title": "\"구강치발기\" 아기 국내제조 KC 제품 구매 : 네이버 검색",
+        "results": [
+          {
+            "title": "NAVER",
+            "url": "https://www.naver.com"
+          },
+          {
+            "title": "어학사전",
+            "url": "https://dict.naver.com/dict.search?query=\"구강치발기\" 아기 국내제조 KC 제품 구매&from=tsearch"
+          },
+          {
+            "title": "지도",
+            "url": "https://map.naver.com/v5/search/\"구강치발기\" 아기 국내제조 KC 제품 구매"
+          },
+          {
+            "title": "검색옵션 가이드",
+            "url": "https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+          },
+          {
+            "title": "도움말",
+            "url": "https://ads.naver.com/help/faq/1011?t=1778046083628"
+          },
+          {
+            "title": "네이버 아이디 하나로 간편구매 Naver Pay 서비스 보기",
+            "url": "https://m.pay.naver.com/mobile/about"
+          },
+          {
+            "title": "코니스",
+            "url": "https://ader.naver.com/v1/l2vmYjLSYoZiEJkpSizpKKO--A7yOtWU-CxyeehUvSbGjSkPbWtfKNTrO_oc8SCDdsT3LHpiNdDmnMDyYbXyRrGAX-cdDrxsvseSqa9_S_-TXLmc8ZaAsKhVPET9Ny5QFYvAr-sDNGJECbn3LQwezfRCggJtxL3ueERK7IBekkIB6i6yrsJMiMOmsTwIt9LJuBr3Ttz20x1-0VI6oidoNrjOQxDyqfYyjWT1yIEWnQSOfT8f8FXcDdme7uXQciI4ds5hJr-1I5zDNChXXfGVLK9OrMGv_aeh5Sts8t0yS1ozkg-jFOKHj6b8wH2uYcXgSEWnaU5LojdN6PzMV9VRHOQEut0GnySsEqYwAbHRkoXVOe6DLtpbm8xSsypl2c6g?c=naver.search.pc.plsearch&t=0"
+          },
+          {
+            "title": "도매꾹",
+            "url": "https://ader.naver.com/v1/E7Yv5lpwwEIyNtM9Mn-um42TC_kcCPjUVV46qrG72x9SYupKXGaQwLqq7eBaYd6-XEOaILrm3V5wdCXSZLRXwPr3P-HwaS8CG3pl3mwoUcm3gTMqCjoYSjscHOo2qMEjp1Wmnl_5SvrPCCXpA5mtqn8vIEimraXdHBuLX00exXkeV7C5ent11X01nx6Yg95Hq8eQRWoAMot7pY4Jc-ddBS02-9rckPKDtUm12msJVtekhuQAWWsjLuPqUdJfjphhP0WuxMp7fLEvCC8yeX4_pO57Ia-fZ5WOZd9kpVp_dMMVvwD36xdMjQmpDCNAoFIqtVgYt3HWWYbeS9pjzLjmdYA9eGWVzoKaOEDLI6I-lQDlZU-O-gNme-bGY-0f3Dp3pWQ2B4VAfq21BmPbU0eGO6ZKYY8011LkSQlHL5O6JXeQ6I8KBh4XsFNrGQubAC9b_kNcmPWmvzfzvvM0TezgqD-LgH"
+          },
+          {
+            "title": "패션소품",
+            "url": "https://ader.naver.com/v1/h3dgOy6RuCnAxzdLhqr_dX2a3fVC_1sEFZElpqqZi2hqC0EVP5EDDOdDU5AaS_vhsMtkv-ohYdOMrt8IyHqA3gM9wOHYqNXL8x8cUCAWAQjYiNETzX4-cOMrMhmgrrdfNZkIMPfPDVaFkOo_yrD9XsQuW_k_kKhrvlkWtqq7v260RukpPOD3GdFrxpHtxCp7RlaPQhmnTUMU-JNo6qcmDosq9A7TeWRbVNBSt3jWXFQz81WX7tgGhaJTRd-GBD4V0RpZXwMXll5t5MJ2Y9VhGmspfZ_PkLXVYSHHy0UY2GsYJrpCoC_-9lEBMiiq21zVHSFKRXmHLTv5_F_QFQoxECY2DaFzuiZzJZITKnh5U7XxieJ0kUu3Tw_Ruqb3y3_43gKcYkX0EK6TSfNP_Bmrmi-wlIjIiPxrOv2D4sqK_MVxkmpPRTzkNq681kYhpxvpiBfgBIe0kG8P8uTlszCpZmh0Uh"
+          },
+          {
+            "title": "화장품",
+            "url": "https://ader.naver.com/v1/QBDx6M3qVhlCA0LqYYQkZ1AD5RdkJBghZxPSBvoRtoaJIpwbGNXmXD6W6jr4Ro_HKvjV1ZoI1H6DBqS1WyJGzftraDhPv9mmdnp4UbB2WSuwziGR-kNcwG7dSzUYg6XecuYrX_vxM7XgSPPY2pITQxBUUM3z7rugKgsfkQbkuVIlL8x2dsUZz6B7eIe4nPvhnFGPKiOOTeK6-ABzYSvHh_bdOUMf8AKTOrTs4UAnPqdzDJk0-aJ25QNhagN9HiMicqXg7eimSa8Kqc7Ww6PaS8Qrsfl7qkmZZOhqPsy9geZL60pMfU7iyZgvt27dDEoB_xtWXluBw447B2L0GY8OHZZKw75F3Y1haDRmPDaVyzERxAWIDpl7ahW6V0fnIiDndH2AGrh_LdEGFzVQzk4COHgWtzgJcy2PeToE_XcV8u9NqoM66jpjz60av3-yR2nxsQayb28n5eZcUt9xhOZXLpBuJG"
+          },
+          {
+            "title": "남성의류",
+            "url": "https://ader.naver.com/v1/h3dgOy6RuCnAxzdLhqr_deCOVzciIR1lRueYbTr65z3T3_yHlQ5tU0pPPgQCYlLdeqgReN4epFku-N-HdvzF86CjyJL8_L_VxDa9qWaTBAFOD-AR0_WVCmLTVUC9fk_o0FAHzYPPfwjE9AjdvXxTGU93kixCTWyXks4lMPVgRqnAc5rwKL7kOVfHqAM8Q5_t0VcVOAmidrszoS4GCx9mMQhV5mIuhpMc_A5jk9D5TGtY-COi6RYWIoEZyuVCgsimNdfG2bOUpkPvK-QkZ4MAH0Bh_XtvnptuBwHVgCNuemnoHqub9chehXojlsasBTIGLYq_hhWj08wlsiRpGBCZ6UVRBPm42WcbgHEb8iMsxenBOjs98INOBnO3tcYPTqgOFrkNCldkZquCtSafZUgvQZpoVAdBCcptG1kje5_HSloejDPr82jbyDN0Y4Lu63GB7MCm7zBkLuVULxxMxSsmF0GizK"
+          },
+          {
+            "title": "마마스템",
+            "url": "https://ader.naver.com/v1/20-7AaaeZbJVBsBYSAhANKsbZ4Svgw3dXLAnAHbpjymkP0LtA1DHwU5CnYoqaQgn-Oo5XIX-wGuVHiW4G66KIxqI_7uOHxdtn2YxeS1ikz0lcs71AihVtRY5oV24MXR2Zr14ZhRr3wDimM1GXFoo1iOThGYPieiQeLgI61N9o4pf2lVaYSb6gZbUdHlUJvhrvQTLAVjshYW7wYKL8KftzgACljFCidOOmDyecZM8kTE3BOtqK6IZOVHu41EDwQVj-HKWP7t7QRAwF8USY9HGhMZY-qRnLy6nwOpYSOcm_O4kjwdiRUD4k8PxuOKpL3LCtROluuYRh6Qocw2Sioc_t__WIJEHcoktwajwWo06ARXSyFjvJ96Wemq09XHngXxliKACuiYkI5xboJ9nMsLYfRDIMOmz7S4oJwdoQa369khqjj_h-ukb-zEjDPJEjJamGdg_wsL9bfSukM8KPiDsn8OmPe"
+          },
+          {
+            "title": "KC 인증 베이비온리 실리콘 치발기 볼 구강 발달 1개",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=54569249421&cat_id=50004424&query=\"구강치발기\" 아기 국내제조 KC 제품 구매&t=msgzzqdb&h=5568986468a72b80bf82452464e80e01fe4c0745&frm=NVSCPRO"
+          },
+          {
+            "title": "쿠팡",
+            "url": "https://link.coupang.com/re/PCSNAVERMALLLOGO"
+          },
+          {
+            "title": "잭앤질 자일리톨 무맛 치약+ 치발기 실리콘 핑거칫솔 (에코서트 승인) 선천치, 신생치 관리",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=88735527191&cat_id=50000620&query=\"구강치발기\" 아기 국내제조 KC 제품 구매&t=msgzzqdb&h=b1a6588d93a3a49a14f2687c30fbe2ff9bba769f&frm=NVSCPRO"
+          }
+        ]
+      },
+      "brave": {
+        "status": 200,
+        "finalUrl": "https://search.brave.com/search?source=web&q=%22%EA%B5%AC%EA%B0%95%EC%B9%98%EB%B0%9C%EA%B8%B0%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 247189,
+        "title": "\"구강치발기\" 아기 국내제조 KC 제품 구매 - Brave Search",
+        "results": [
+          {
+            "title": "Moyuum m.moyuum.com › 모윰 › 모윰 › 어린이제품 › 별 손목 치발기(스탠드형) - 컬러 선택 상품정보",
+            "url": "https://m.moyuum.com/views/shop/shopview?iniCategory=690&thisCategory=1124&pack_content_id=14617"
+          },
+          {
+            "title": "Cjonstyle display.cjonstyle.com › nfront › content › pick › 유아-치발기-추천 › index.html 유아 치발기 추천 BEST 8, 종류별 선택 가이드 - CJ온스타일",
+            "url": "https://display.cjonstyle.com/nfront/content/pick/유아-치발기-추천/index.html"
+          },
+          {
+            "title": "Costco costco.co.kr › 메인 › 화장품/미용/제지 › 바디/구강케어 › 구강케어 구강케어 | 코스트코 코리아",
+            "url": "https://www.costco.co.kr/BeautyHouseholdPersonal-Care/BathBodyOral-Care/Oral-Care/c/cos_8.1.4"
+          },
+          {
+            "title": "Gmarket gmarket.co.kr › n › search G마켓 - 아기치발기 검색결과",
+            "url": "https://www.gmarket.co.kr/n/search?keyword=아기치발기"
+          },
+          {
+            "title": "Tistory jkdkr.tistory.com › 41 중국 구매대행 유아용품 KC 인증 :: 중국 배대지 구매대행 대팔이닷컴",
+            "url": "https://jkdkr.tistory.com/41"
+          },
+          {
+            "title": "Motherkmall motherkmall.co.kr › category › 구강케어 › 45 마더케이몰 - 구강케어",
+            "url": "https://motherkmall.co.kr/category/구강케어/45/"
+          },
+          {
+            "title": "Unpacosmetics unpacosmetics.com › category › 구강케어 › 232 모든 제품 - 구강케어",
+            "url": "https://unpacosmetics.com/category/구강케어/232/"
+          },
+          {
+            "title": "KTR m.ktr.or.kr › certification › kc › contentsid › 808 › index.do 공급자적합성확인 | 어린이제품 | KC인증 | 인증 · 검사 | KTR",
+            "url": "https://m.ktr.or.kr/certification/kc/contentsid/808/index.do"
+          },
+          {
+            "title": "Naver Blog m.blog.naver.com › secure-net › 222109385595 어린이제품 수입통관 KC인증 안내_시큐어넷 : 네이버 블로그",
+            "url": "https://m.blog.naver.com/secure-net/222109385595"
+          },
+          {
+            "title": "Dusonsenior dusonsenior.com › category › 구강케어용품 › 111 구강케어용품 - 두손시니어",
+            "url": "https://dusonsenior.com/category/구강케어용품/111/"
+          },
+          {
+            "title": "Babyan babyan.co.kr 베이비앙( Babyan)",
+            "url": "https://babyan.co.kr"
+          },
+          {
+            "title": "KTR m.ktr.or.kr › certification › kc › contentsid › 807 › index.do 안전확인 | 어린이제품 | KC인증 | 인증 · 검사 | KTR",
+            "url": "https://m.ktr.or.kr/certification/kc/contentsid/807/index.do"
+          },
+          {
+            "title": "Mulzoo mulzoo.com › bbs › board.php 어린이 제품 KC인증 대행 안내 > 공지사항 | 물주",
+            "url": "https://www.mulzoo.com/bbs/board.php?bo_table=notice&wr_id=83"
+          },
+          {
+            "title": "Safechemicals safechemicals.net › ko (국내) KC인증",
+            "url": "http://www.safechemicals.net/ko/?c=178"
+          },
+          {
+            "title": "Kcresearch kcresearch.co.kr › home › 어린이제품 인증 대행 어린이제품 인증 대행 - 한국인증연구소",
+            "url": "https://kcresearch.co.kr/어린이제품-인증-대행/"
+          }
+        ]
+      }
+    },
+    "턱받이": {
+      "google": {
+        "status": 200,
+        "finalUrl": "https://www.google.com/search?hl=ko&gl=kr&num=30&filter=0&q=%22%ED%84%B1%EB%B0%9B%EC%9D%B4%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 90266,
+        "title": "Google Search",
+        "results": []
+      },
+      "naver": {
+        "status": 200,
+        "finalUrl": "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=%22%ED%84%B1%EB%B0%9B%EC%9D%B4%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 274870,
+        "title": "\"턱받이\" 아기 국내제조 KC 제품 구매 : 네이버 검색",
+        "results": [
+          {
+            "title": "NAVER",
+            "url": "https://www.naver.com"
+          },
+          {
+            "title": "어학사전",
+            "url": "https://dict.naver.com/dict.search?query=\"턱받이\" 아기 국내제조 KC 제품 구매&from=tsearch"
+          },
+          {
+            "title": "지도",
+            "url": "https://map.naver.com/v5/search/\"턱받이\" 아기 국내제조 KC 제품 구매"
+          },
+          {
+            "title": "검색옵션 가이드",
+            "url": "https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+          },
+          {
+            "title": "도움말",
+            "url": "https://ads.naver.com/help/faq/1011?t=1778046083628"
+          },
+          {
+            "title": "도매꾹",
+            "url": "https://ader.naver.com/v1/SEB9gw5TFzKJtl-iNLXxReWFFcMpBrsa2tdO1fLEnwRMnW5RZBjQCoDl_5WkggB2hpAAKnyTD8XI86GEOpEOpx-HdGLz6hWcyOyyw_KuoV8LJZg_Wx70bVn_nckLqx-pv4I-BAkAiSNsH0TqcdJa_JPrSuI8cw5ekxJL6nBfioGQ6whZUoFcVxr8DHt1kd7GGiwkBx67JiRfLwiv99-qwmkd9cft8clFX6PbjdybKBidgzegJRFjylX42UWjNS9GVw5-8cibUhkXuWnPdYmiD-UV4ysg8tIbeXWgsmgOZolJk99aBb0mOarBbfwdwWIa3qq2Jmio19Qc69dhSIr1zYodMubs0d01bpj-tt0wEExRVKIAxoAYvGFwa2K0WOcpIIzuD9uIJWq9YPgOM5UdMVXhe5qk2LotI2aYGOXLstJHYWZrTICVbyW2X6iMOD8oebY5Hje6Xg4vcs75Lv2LekrTXH"
+          },
+          {
+            "title": "패션소품",
+            "url": "https://ader.naver.com/v1/mMP2Enq8UU9kbIp29y8dj3_vQsNTf8_6_pz2NIGHVJP5IVd7H8VAv_6dkdth_fZfyDeSjXGxb83c0DcHARslH0O4S2ik9FlQ29nR8t5eJ0gn1PUgn8sjT7A-yJXzvIN5wtjqApVHaqKFXbI9sgJ8qTxgvkRbfg5I5XJgpuSqBWu0q9fd8Egb9EAGfcw8fvC81R_McMyFb2ZhRGhH0LBLlwrotIgiFyY7CpHMTVKvCC6d9JyvR43aMDYbVQZo9rTuMYQrnueHXqIvq-Q1Z537iBwjA1QSrDLzis3VhO-dKHkmKxrT8FWZoLM8tlcPbMwYz1LF_9B0m7XEXBzufdP6FFDdKmkelXDQ_dXcBcgRL1MPHIfMY7wXCw0izmElmzr3h24n_rrWadqfqdr5pjvT0G1BC8cUzFX8GXhAmkujviQZPu9jaUB7WaoPhkmAEGcjeS640zoD6gU4SceQj77rH18pkH"
+          },
+          {
+            "title": "화장품",
+            "url": "https://ader.naver.com/v1/--GZHjC7klqizTcqJBwVsafsiOR79RIhvFyeBKUxU4LqSQM4YElHjG2gz_sB_NVNPeSYmg_K2wNLNIIe5aL2Tk3uGdgPJL3mw6uO-7ArqfDG4GhPowLpQsdCG0-3XE5SNB3jLEZIZ7y235CIoVFRzOXKlR4ozSS_p1wjLVWyr3fP4pixvE5XxQ05A8S0m8j8eLdQQbCKOwumPCmclO0sp9jo54BBXIUn973U0y8CqMayjnSI_-nVUAErpXooX3I8QsNT_2m1EEuI5XdnTJ6Xq0Gl5iTffA_cWdEWasyt6tliNRTnw1gE3uqBZs_v-MhXoCYJXjCIsBHcT39-ZvBx-H2JX4yYRyX7GUZdQ9cKcH2CStCuW3CbT71rgKLkit57d_Otb3qSc5WcaYGQAwt94wd4LJXzVAFsit7V6L84iYiwPPjNdfGILDlu7VKjd4JFaVbi4vbPiAlhZgugNiL_8NRxkN"
+          },
+          {
+            "title": "남성의류",
+            "url": "https://ader.naver.com/v1/h3dgOy6RuCnAxzdLhqr_dejm-RGRqtu8YyhKFPtIlWz3qZteB-4CGB_5SZUk2nZXevSCXWkE_mM9BleZ0hjdFri3bUKPqbdE2oaGOGrD0SGpxnZttpxAAiwk0n3dW39OA15Rapiy89BoSuR_qtixSiGwNeiYiZhHxrrxTaXunB-Co4z4Q5XrR34Ocqc_aqZg0ti5O1_Q9WkMpkenI1bPOTYpfM_y6vtQe0sSfPDl3cgTKy33AzJ4Obz6ibyJN-0CP4KUYyp6pltL3y8b83lPPyynOi4etWlwymqxVCWXYvSZhR2YN3x89X6njt6y0uQBc9Qvpu2xJSCxx-HAvwoSpNsjrkt3GsBwaUfsbhZen4tiOEShg_XZ4eombWqdsUcYFeY2mEyppy3axO8bzDcM_-OraaRlAZifTJMiLdieqIF1NCwedDo-OvchXuKvZG-FhclpZn-eEo4aZ2OUA4n7BpyClx"
+          },
+          {
+            "title": "모아모아기프트",
+            "url": "https://ader.naver.com/v1/Lh7maJeETwE7CLt9s7hOpsEB4_1mD4CjEGx04pQwayNxUTdXNU-JAr6rG4YJGjSrWXcSQ45RFcMRYfmnh5HXhP-9fuKgpetmz52ve3vv9sAiy5L_QH3WWsT00JB6iRIDNXX2PhrxmoR4Vx-UggwrROTaHABw0-zKgzRt2gxcmd7P_htXbfh8Cv4wYYaADN5OxGkb74xRQoZiLdvIb7g2cunzZIAR3isTFxoPjkZd548lO5_eOm0n4MSsIdEsW9VO2CXjsnvSX_yRqf_e0ET_B5rWWOKtyV2M4pdVnR3_vtLcwhy0Zjc7QB-N90Ph7m1jq6XCCi5xn6iTRm13Mv3oVotKQ3zWVhenn-p-IVTT3gzrEEZqC2iLG0SgFyWPgl_-rv4HyvSOdvmr9JhilhogKAINkUnGrd7u8FLwnh0gaQM1qVKPQQSUUJdN_rCVsP6wx6Vh91GcMElRf5gzMrIpGNkgvx"
+          },
+          {
+            "title": "네이버 아이디 하나로 간편구매 Naver Pay 서비스 보기",
+            "url": "https://m.pay.naver.com/mobile/about"
+          },
+          {
+            "title": "베이비붐",
+            "url": "https://ader.naver.com/v1/RmUGIbc2EQPq3HHlUfVr449a689h8iCFVnKHyVQV5HQ70RRyimk32Tn9CXZjukRdLxmfzb7s4HbxKIaHvVIVsAJ1x5wM2tfJ3ltx3BqnGeFpHZCYGwTzpbMZwhIq7Gwmu631qbyiawYPgLaXhOoiufr8xx4sfwHNepj2QQMwIHdSNMt-3SnynHjEaWDtg0M6kzpdaw5MT4DRrEepNJA_LOGAxkTIKYA1UmtkZYpHW-Z57PFjlGTmEVPjC4cjKX-tkFLX4RgOLLYfT3IDUIdb3vqR8p1fDhbg5nq5tW7ifgwp6DP1uG2imyZlai1RZ744YFBAa8QqKEcr2lfT5GcJLTbx1XAMFklK_mqV67mQxxRhoDJTGI4DFIBqCx-IKRzhkldpUX69xQa_-UKtdF20WjG4w4VO1NwkwhIY590m5-vuOgL4Q9q2BcRL_ITpnAbthkcSJiauSqEhgWB2geV-RQcWl_"
+          },
+          {
+            "title": "출산준비물",
+            "url": "https://ader.naver.com/v1/daH-J2mcAi-RwSgn284ngbaz0T5vOJdsm5HHOi1Kk9wq9hQMScxtjQUyk8qcRVGgi4bOeQmYxYL-w_Wf0hkYohuymnTh1T6Mz4BadyJEP8dUmrt0pB9SKloVz0XQFiJQdfhLUi1EYw9Dqh3HEP4AALL25b3CIy6kSB5sDFU9fr1-s_Je4mKtdWYyjl9OV1Q8rYLJOZCh_WwgfuEBnJhslPKaix0aFpv5_8qEEpMBuGROckFMYvluNBQkRvmAfphrXo6ziYGcobZ97nuKePpSzLpPE6cNr8X_AMyQF6Zy40DkBfWR1SFERsQLmkQttXzhkRXNslF1zodg8OfdDoAdhZX3U9bVT-2enADGyIyn942Z2myWBj4S9zaImNUNExn84PRWJHxSF956HlX3LOAN_43uYUBjf11u-YCz9uVJII0PLHpDMnWb2cw-5c7f6vCaXx6rimb61IRyVwDbRsCGOuumMk"
+          },
+          {
+            "title": "내복",
+            "url": "https://ader.naver.com/v1/2RKdDEdUx_sj4ifvyzsviATFQONhvWtgb4EbBHDq2Cv_h1WWlgZ1tpcAboul89Ox73AdOIb3TOFm8-raM7kMrjA-C3WEA8ROTTWpgI5-TkD6pShlni-hrMQ0PAbp4sQRdtBzIy6BWFeKl3VeZWMAdPQvQDKZj1PrAsV6A3TF6DKGSu6KdypxHreUXDSQisCAEhu6maKgZ7aEXSv0JAyFjMbwq8E2nQPRX0nqNBXF7hTiiILFELNVBx9ua7A7CAfLu8Qw8LqQpeMbBXLq2FZCUyJbO83fpdFzLoGBXvWq9jZIxx9beh9FA7U_BTJGa4orI221B4GheoEsafiPlNl-aC7zpTsjEOhWsdnJWJJl2I0ZpjwQzHFwAZKL9fU3jJzg5lyiI2xqku0LF3n5TdeNRGNwQOiMz33uZuuB0Nv2Utdb18pIgwORcYwP4zUS5WznnJCuuWjZrRHGWd3vE2EafUEHeA"
+          },
+          {
+            "title": "우주복",
+            "url": "https://ader.naver.com/v1/RyKfrkzH69dQxY717iwiZegiK7VdYIZXHbiFhH-seeFbTvQA9vPZsgqz9TDxCe_vgKS8kQLnZu17i6JTx7HM0DNISGJIlMZRf8vEygk9hy7Bxwzl7FBD24mh65_3pANLi2iUlHfQ35Ausv_umDjFn_sxrP4EZqGEUT7dd9xTpdNVnc8CcjvQfAXRaDlK3xZoQ2ASsKCvbbsTZpmpMuqUS79RY4uN9gqIYkXr8EoKbLIBrAxdJfGKNtLqc31KJxLqRxVRwc0Vsv8icuvMItvM2aujL_a4Tid0lI_-C8znERJrZS7521IW2T3HsRezArOIXN62JXFO_NwHWoo7_96NKJGiwQ46QDyyZgPkILqLF6Mop0RXcJZ2jjhsaL7frIn6RE3H5Me_H49kPyziFxhe1MNijGnb_z5EA65dkeDOB37-g_96po-rVmDnqB23MQczDVd7JneKrIAVh4jHKXlnjKACQk"
+          }
+        ]
+      },
+      "brave": {
+        "status": 429,
+        "finalUrl": "https://search.brave.com/search?source=web&q=%22%ED%84%B1%EB%B0%9B%EC%9D%B4%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 79426,
+        "title": "Brave Search",
+        "results": [
+          {
+            "title": "safest",
+            "url": "https://tb-manual.torproject.org/security-settings/#safest"
+          }
+        ]
+      }
+    },
+    "수유용품": {
+      "google": {
+        "status": 200,
+        "finalUrl": "https://www.google.com/search?hl=ko&gl=kr&num=30&filter=0&q=%22%EC%88%98%EC%9C%A0%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 90279,
+        "title": "Google Search",
+        "results": []
+      },
+      "naver": {
+        "status": 200,
+        "finalUrl": "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=%22%EC%88%98%EC%9C%A0%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 229303,
+        "title": "\"수유용품\" 아기 국내제조 KC 제품 구매 : 네이버 검색",
+        "results": [
+          {
+            "title": "NAVER",
+            "url": "https://www.naver.com"
+          },
+          {
+            "title": "어학사전",
+            "url": "https://dict.naver.com/dict.search?query=\"수유용품\" 아기 국내제조 KC 제품 구매&from=tsearch"
+          },
+          {
+            "title": "지도",
+            "url": "https://map.naver.com/v5/search/\"수유용품\" 아기 국내제조 KC 제품 구매"
+          },
+          {
+            "title": "검색옵션 가이드",
+            "url": "https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+          },
+          {
+            "title": "닥터브라운 내로우넥 통기시스템 3개",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60833969658&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzsp9&h=4c27e1093a0683edb9e78f5ffcbf254b9d6e85af&frm=NVSCPRO"
+          },
+          {
+            "title": "오보기 엄마턱받이",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60887647762&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzsp9&h=8fca1c1fc12773cd2c4f98b8b9b404499125cd19&frm=NVSCPRO"
+          },
+          {
+            "title": "/100% 국내제조 하이비 추빨대추달린스트로우2P 더블하트젖병 및 다양한호환 모윰추빨대",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=80708807055&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzspa&h=e2dfa8d2721be805c842ec9c73699cbb14b0570d&frm=NVSCPRO"
+          },
+          {
+            "title": "귀여운아기",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/prettybaby?nl-ts-pid=jFd5LlqosNossT4KBcs-410425&tr=slsmn"
+          },
+          {
+            "title": "쭈니네 엄마턱받이 모달 거즈 트림패드 수유 가리개 무형광 숏",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=88679367305&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzspa&h=87c54f6f79382610fa865b41b5d078d1cf22b25a&frm=NVSCPRO"
+          },
+          {
+            "title": "쭈니네 : 쭈니네스토리",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/jjunine-jjuninestory?nl-ts-pid=jFd5LlqosNossT4KBcs-410425&tr=slsmn"
+          },
+          {
+            "title": "토비앤몰리 젖꼭지 추키트 더블하트 모윰 호환 자기주도 셀프 수유 3단계",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60977899155&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzspa&h=4e14aaf25ff80cabe96f441808277b5e510d2213&frm=NVSCPRO"
+          },
+          {
+            "title": "우쭈쭈베이비 엄마턱받이 트림패드 아기 침받이 수유 가리개",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82431104884&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzspb&h=fdeb9fc5b966f4f7a4c3b8e57d3b22ef5e357c9b&frm=NVSCPRO"
+          },
+          {
+            "title": "woochuchu baby",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/woochuchu1015?nl-ts-pid=jFd5LlqosNossT4KBcs-410425&tr=slsmn"
+          },
+          {
+            "title": "쭈니네스토리 엄마턱받이 트림패드 무형광 순면 오가닉 아기 침받이 수유 패드 1개",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=60643927096&cat_id=50000685&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzspb&h=6c8da49929037e11d07550e146ab4b74c44a36cc&frm=NVSCPRO"
+          },
+          {
+            "title": "머미쿨쿨베드 커버 only",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=85869993932&cat_id=50000679&query=\"수유용품\" 아기 국내제조 KC 제품 구매&t=msgzzspb&h=8ff5cebbac578cb499a2ed8f68b4bbfc74f6b0d0&frm=NVSCPRO"
+          }
+        ]
+      },
+      "brave": {
+        "status": 200,
+        "finalUrl": "https://search.brave.com/search?source=web&q=%22%EC%88%98%EC%9C%A0%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 109840,
+        "title": "\"수유용품\" 아기 국내제조 KC 제품 구매 - Brave Search",
+        "results": [
+          {
+            "title": "Tistory knowledge-repository230726.tistory.com › entry › 2025년-아기용품-필수템-체크리스트-출산-준비부터-100일까지 2025년 아기용품 필수템 체크리스트 | 출산 준비부터 100일까지",
+            "url": "https://knowledge-repository230726.tistory.com/entry/2025년-아기용품-필수템-체크리스트-출산-준비부터-100일까지"
+          },
+          {
+            "title": "보안 문제 신고",
+            "url": "https://hackerone.com/brave"
+          },
+          {
+            "title": "상태",
+            "url": "https://status.brave.app/"
+          }
+        ]
+      }
+    },
+    "이유식용품": {
+      "google": {
+        "status": 200,
+        "finalUrl": "https://www.google.com/search?hl=ko&gl=kr&num=30&filter=0&q=%22%EC%9D%B4%EC%9C%A0%EC%8B%9D%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 90177,
+        "title": "Google Search",
+        "results": []
+      },
+      "naver": {
+        "status": 200,
+        "finalUrl": "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=%22%EC%9D%B4%EC%9C%A0%EC%8B%9D%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 248528,
+        "title": "\"이유식용품\" 아기 국내제조 KC 제품 구매 : 네이버 검색",
+        "results": [
+          {
+            "title": "NAVER",
+            "url": "https://www.naver.com"
+          },
+          {
+            "title": "어학사전",
+            "url": "https://dict.naver.com/dict.search?query=\"이유식용품\" 아기 국내제조 KC 제품 구매&from=tsearch"
+          },
+          {
+            "title": "지도",
+            "url": "https://map.naver.com/v5/search/\"이유식용품\" 아기 국내제조 KC 제품 구매"
+          },
+          {
+            "title": "검색옵션 가이드",
+            "url": "https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+          },
+          {
+            "title": "[3+1 이벤트] 턱받이 아기 침받이 자수 이니셜 국내 생산 KC 인증 면100%",
+            "url": "https://ader.naver.com/v1/fUj-4G4YF94ttx21UD165rBk7kJsXHYd8DgHJ8wk4g14IyoqN05mQn0XPul5t-J4IatP7p6GNDkIQaF1wa2yt0e9qGv6HoJc-XvaXqitewL1KDWDI2S0EuGH1aEnbfeeWyDLw6_0GGMV3KmwWF-kFMkyf-K4d6AqlNqN0j1rLFvpA7BAUU-XZzeNojP-QCuAkBLMGCBkQJdZmstZ5sAT_x5SI320DibVDDDxp-MDkzvz-86aIkUnsupS-8I5rAH6cENe7eutvN9_eVFZyL-HSAyIaBEPD-P3vC8qQt4cZJrLLAf2LEnJ03iGuKjnaHx4I6lnWxK5gE-mDOwLX4_b9dKz9HpdzxeJsiigsTspygy6LKrgQZEax7Ll8rpnmBufG1os6-1S0mrSuqbOHSSoq60tpRRIWp9zox37JftdZD4=?c=naver.search.pc.npla&t=0&ui=GUIDE"
+          },
+          {
+            "title": "해피프린스 스노우 바나나빕 스카프 빕 아기 턱받이 신생아턱받이 이유식 목도리 넥 워머 따뜻한 머플러 돌 침 똑딱이 입는 극세사 국내 자체 제작 KC 인증",
+            "url": "https://ader.naver.com/v1/FCWUKtSwt8OV_VX_SddI2puUCBanayw_PGNJmdz4gSrMWLp-xeOhmUek25Bm0vsds1hMfh9xPRMC7Tf3iyihUVeXmSBVxYJZHK40jiZtzTSkal01f1mQLyE6ATHh950wv5aPCnL5S8U7L6zeChVV__F1wYy-CuSoDDnBIdAuepA4xr-bvdHg4u_7EH6dvUK-nTHgT6w_fky24NLcNwiObLHgXAFiki-QdLvhb4xLIM5in-lGYOr3OK2UrkEbD3llfeSNfbmWuN8titx4ee9e4_J9bMV3GMHIJVTpwqzgbk_DSNpmg59lBzvBTLBo59Ogvca64C4cT8fb-gyDeLcduRBGvGyLn0i79lgaVRZDO1y2TcCk7Z233cff-qkTsOJ-JJW2JG9vgzUbIzjj3N8HgrrJg6RLsPbOzSgIt2a9ImUiA3WwvNwSYxpoIKYM-zNtdP0EKC4Z641JzHEHcx9jDxmNtO"
+          },
+          {
+            "title": "초기 이유식 거름망 스파츌라 스푼",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=81300591730&cat_id=50000483&query=\"이유식용품\" 아기 국내제조 KC 제품 구매&t=msgzztyu&h=dd3e76d8d980ed69abd41d736191a865aa6051d1&frm=NVSCPRO"
+          },
+          {
+            "title": "어울",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/eoul?nl-ts-pid=jFd5MsqosNossT46pPl-269692&tr=slsmn"
+          },
+          {
+            "title": "무연마제 초기 이유식 조리도구 세트 준비물 채망 찜기 매셔 스텐304",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=90212238769&cat_id=50000483&query=\"이유식용품\" 아기 국내제조 KC 제품 구매&t=msgzztyu&h=5ca766613eefdbf312b8b8a8f8d6128088a72504&frm=NVSCPRO"
+          },
+          {
+            "title": "키친블루밍",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/cheongsolart?nl-ts-pid=jFd5MsqosNossT46pPl-269692&tr=slsmn"
+          },
+          {
+            "title": "디자인앤쿠 올인원 실리콘 이유식 용기 중탕 열탕 전자레인지 오븐 아기 반찬 보관",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82349677615&cat_id=50000478&query=\"이유식용품\" 아기 국내제조 KC 제품 구매&t=msgzztyv&h=12b1b85264d3eec8c30aeaf15070fc18fd064851&frm=NVSCPRO"
+          },
+          {
+            "title": "디자인앤쿠",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/samchon?nl-ts-pid=jFd5MsqosNossT46pPl-269692&tr=slsmn"
+          },
+          {
+            "title": "마미스테이블 한술 최상급 식품등급 실리콘 아기 스푼 이유식 용기 돌 백일선물",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82723980450&cat_id=50000479&query=\"이유식용품\" 아기 국내제조 KC 제품 구매&t=msgzztyv&h=c27a1c05440696bbe9ad348c54db6ece2357831c&frm=NVSCPRO"
+          },
+          {
+            "title": "마미스테이블",
+            "url": "https://smartstore.naver.com/inflow/outlink/url?url=https://smartstore.naver.com/mommystable_?nl-ts-pid=jFd5MsqosNossT46pPl-269692&tr=slsmn"
+          },
+          {
+            "title": "디자인앤쿠 이유식 조리도구 실리콘 국자",
+            "url": "https://cr3.shopping.naver.com/v2/bridge/searchGate?nv_mid=82460507255&cat_id=50000483&query=\"이유식용품\" 아기 국내제조 KC 제품 구매&t=msgzztyw&h=e44749e05e13b36255bb380e3bb1c5b86fc13b7b&frm=NVSCPRO"
+          }
+        ]
+      },
+      "brave": {
+        "status": 200,
+        "finalUrl": "https://search.brave.com/search?source=web&q=%22%EC%9D%B4%EC%9C%A0%EC%8B%9D%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 203204,
+        "title": "\"이유식용품\" 아기 국내제조 KC 제품 구매 - Brave Search",
+        "results": [
+          {
+            "title": "Consumer consumer.go.kr › user › ftc › consumer › crtfc › 73 › selectCrtfcInfoList.do 인증-KC인증 | 생활용품/가전 | 상품·안전정보 | 소비자24",
+            "url": "https://www.consumer.go.kr/user/ftc/consumer/crtfc/73/selectCrtfcInfoList.do?crtfcCdS=03"
+          },
+          {
+            "title": "KTR m.ktr.or.kr › certification › kc › contentsid › 808 › index.do 공급자적합성확인 | 어린이제품 | KC인증 | 인증 · 검사 | KTR",
+            "url": "https://m.ktr.or.kr/certification/kc/contentsid/808/index.do"
+          },
+          {
+            "title": "Kats kats.go.kr › content.do 국가기술표준원 > 정책 > 제품안전 > 어린이제품 > 공급자적합성확인",
+            "url": "https://www.kats.go.kr/content.do?cmsid=501"
+          },
+          {
+            "title": "Element Korea elementkorea.kr › 홈 › 모르고 제품 팔았다가 영업정지? 어린이제품 안전 특별법과 kc인증 핵심 모르고 제품 팔았다가 영업정지? 어린이제품 안전 특별법과 KC인증 핵심 - Element Korea | 글로벌 시험·인증 전문 기업",
+            "url": "https://elementkorea.kr/어린이제품-안전-특별법-kc인증/"
+          },
+          {
+            "title": "Kosoa kosoa.co.kr › board › bbs › board.php [알림] 한국제품안전관리원 KC 미인증 어린이제품 구매대행 ...",
+            "url": "http://kosoa.co.kr/board/bbs/board.php?bo_table=policy_1&wr_id=394"
+          },
+          {
+            "title": "Tistory airlife7.tistory.com › 18 [구매대행] 어린이제품 구매대행이 가능할까요? - 하늘라이프",
+            "url": "https://airlife7.tistory.com/18"
+          },
+          {
+            "title": "Kcl kcl.re.kr › site › homepage › menu › viewMenu.do 안전인증(KC) | 어린이제품 | 시험·검사·연구 | KCL",
+            "url": "https://www.kcl.re.kr/site/homepage/menu/viewMenu.do?menuid=001012006001"
+          },
+          {
+            "title": "KTR m.ktr.or.kr › certification › kc › contentsid › 807 › index.do 안전확인 | 어린이제품 | KC인증 | 인증 · 검사 | KTR",
+            "url": "https://m.ktr.or.kr/certification/kc/contentsid/807/index.do"
+          },
+          {
+            "title": "Kotiti-global kotiti-global.com › ko › certification › kc_child.do KOTITI시험연구원 | 주요사업 | 제품안전·인증·검증 | 제품안전(KC) | 어린이제품안전특별법",
+            "url": "https://www.kotiti-global.com/ko/certification/kc_child.do"
+          },
+          {
+            "title": "W-kcc w-kcc.co.kr › certification › kc_child.php 어린이제품·생활용품·레저스포츠용품 - 한국시험인증원",
+            "url": "http://w-kcc.co.kr/certification/kc_child.php"
+          },
+          {
+            "title": "Kipo kipo.go.kr › ko › kpoBultnDetail.do 지식재산처 > 소식알림 > 보도자료 > 보도자료(상세)",
+            "url": "https://www.kipo.go.kr/ko/kpoBultnDetail.do?menuCd=SCD0200618&ntatcSeq=20110&sysCd=SCD02&aprchId=BUT0000029"
+          },
+          {
+            "title": "Moyuum m.moyuum.com › 모윰 › 모윰 › 어린이제품 › 별 손목 치발기(스탠드형) - 컬러 선택 상품정보",
+            "url": "https://m.moyuum.com/views/shop/shopview?iniCategory=690&thisCategory=1124&pack_content_id=14617"
+          },
+          {
+            "title": "Certinara certinara.co.kr › 38 인증나라 - KC어린이제품 공급자적합성확인 KC인증 솔루션 소개입니다.",
+            "url": "https://www.certinara.co.kr/38"
+          },
+          {
+            "title": "Tistory jkdkr.tistory.com › 41 중국 구매대행 유아용품 KC 인증 :: 중국 배대지 구매대행 대팔이닷컴",
+            "url": "https://jkdkr.tistory.com/41"
+          },
+          {
+            "title": "Safetykorea safetykorea.kr › policy › targetsSafetyCheck3 안전한 제품, 행복한 국민 제품안전정보센터입니다.",
+            "url": "https://www.safetykorea.kr/policy/targetsSafetyCheck3"
+          }
+        ]
+      }
+    },
+    "위생용품": {
+      "google": {
+        "status": 200,
+        "finalUrl": "https://www.google.com/search?hl=ko&gl=kr&num=30&filter=0&q=%22%EC%9C%84%EC%83%9D%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 90153,
+        "title": "Google Search",
+        "results": []
+      },
+      "naver": {
+        "status": 200,
+        "finalUrl": "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=%22%EC%9C%84%EC%83%9D%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 531290,
+        "title": "\"위생용품\" 아기 국내제조 KC 제품 구매 : 네이버 검색",
+        "results": [
+          {
+            "title": "NAVER",
+            "url": "https://www.naver.com"
+          },
+          {
+            "title": "어학사전",
+            "url": "https://dict.naver.com/dict.search?query=\"위생용품\" 아기 국내제조 KC 제품 구매&from=tsearch"
+          },
+          {
+            "title": "지도",
+            "url": "https://map.naver.com/v5/search/\"위생용품\" 아기 국내제조 KC 제품 구매"
+          },
+          {
+            "title": "검색옵션 가이드",
+            "url": "https://help.naver.com/support/alias/search/integration/intergration_84.naver"
+          },
+          {
+            "title": "네이버 메이트 바로가기 새 창 열림",
+            "url": "https://mate.naver.com/#partners"
+          },
+          {
+            "title": "은쟈랍니다 블로그 14.3만 인용 육아와 일상생활에 유용한 정보를 제공하는 블로그입니다. 새 창 열림",
+            "url": "https://blog.naver.com/454525"
+          },
+          {
+            "title": "맘이베베 (핫딜, 육아, 놀이) 카페 4,103만 인용 아이의 건강 상태, 발달 고민, 어린이집 및 학원 선택 등 실질적인 육아 고민을 나누고 해결책을 찾는 소통 공간 새 창 열림",
+            "url": "https://cafe.naver.com/skybluezw4rh"
+          },
+          {
+            "title": "아이와차 (카시트/패밀리카/유모차/승객 안전 커뮤니티) 카페 17만 인용 연령별 카시트 선택 가이드와 차량 모델별 설치 호환성 및 사용 경험을 공유하는 정보 교류 공간 새 창 열림",
+            "url": "https://cafe.naver.com/iwacha"
+          },
+          {
+            "title": "레몬핑 블로그 8.4만 인용 육아 준비와 육아 경험에 대한 다양한 정보를 공유하는 블로그입니다. 새 창 열림",
+            "url": "https://blog.naver.com/makelemonadepj"
+          },
+          {
+            "title": "맘스홀릭 베이비 (360만 엄마들의 임신, 육아 지식in 카페) 카페 6,061만 인용 이유식 시기 결정부터 식기 준비물, 조리 도구 활용법 및 시판 제품 비교까지 육아 선배들의 실전 노하우를 공유하는 공간 새 창 열림",
+            "url": "https://cafe.naver.com/imsanbu"
+          },
+          {
+            "title": "크림하우스프렌즈 블로그 15.6만 인용 크림하우스의 육아 및 홈 스타일링 정보를 공유하는 블로그입니다. 새 창 열림",
+            "url": "https://blog.naver.com/creamyfriend"
+          },
+          {
+            "title": "뺑구닷컴 [아동도서, 책육아] 카페 157만 인용 연령별 아기 전집 구매 후기와 실제 독서 활용 사례를 공유하는 육아 정보 게시판 새 창 열림",
+            "url": "https://cafe.naver.com/qormsrnr"
+          },
+          {
+            "title": "blog_seoul-center 블로그 630만 인용 서울특별시육아종합지원센터의 육아 정보 및 보육 관련 콘텐츠 제공 새 창 열림",
+            "url": "https://blog.naver.com/seoul-center"
+          },
+          {
+            "title": "느린걸음(장애 보호자 및 재활 전문가 모임 ) 카페 267만 인용 뇌출혈, 션트 수술, 거대세포바이러스 등 고위험군 영유아의 질환 관리와 재활 정보를 공유하는 공간 새 창 열림",
+            "url": "https://cafe.naver.com/loosebaby"
+          },
+          {
+            "title": "찌니어스 JJINIUS 블로그 72.3만 인용 찌니어스 JJINIUS의 매일 기록하는 육아일기 블로그는 육아 경험과 육아 정보를 공유하는 블로그입니다. 새 창 열림",
+            "url": "https://blog.naver.com/jjinius_kwon"
+          }
+        ]
+      },
+      "brave": {
+        "status": 200,
+        "finalUrl": "https://search.brave.com/search?source=web&q=%22%EC%9C%84%EC%83%9D%EC%9A%A9%ED%92%88%22%20%EC%95%84%EA%B8%B0%20%EA%B5%AD%EB%82%B4%EC%A0%9C%EC%A1%B0%20KC%20%EC%A0%9C%ED%92%88%20%EA%B5%AC%EB%A7%A4",
+        "bytes": 132437,
+        "title": "\"위생용품\" 아기 국내제조 KC 제품 구매 - Brave Search",
+        "results": [
+          {
+            "title": "Kipo kipo.go.kr › ko › kpoBultnDetail.do 지식재산처 > 소식알림 > 보도자료 > 보도자료(상세)",
+            "url": "https://www.kipo.go.kr/ko/kpoBultnDetail.do?menuCd=SCD0200618&ntatcSeq=20110&sysCd=SCD02&aprchId=BUT0000029"
+          },
+          {
+            "title": "KTR ktr.or.kr › certification › kc › contentsid › 442 › index.do 안전확인 | 어린이제품 | KC인증 - 한국화학융합시험연구원",
+            "url": "https://www.ktr.or.kr/certification/kc/contentsid/442/index.do"
+          },
+          {
+            "title": "KTR ktr.or.kr › certification › kc › contentsid › 441 › index.do 안전인증 | 어린이제품 | KC인증 | 인증 · 검사 | KTR",
+            "url": "https://www.ktr.or.kr/certification/kc/contentsid/441/index.do"
+          },
+          {
+            "title": "Herald Corp biz.heraldcorp.com › article › 3395239 어린이용 34개 제품, KC인증 없으면 ‘직구 금지’ - 헤럴드경제",
+            "url": "https://biz.heraldcorp.com/article/3395239"
+          },
+          {
+            "title": "KTR ktr.or.kr › certification › kc › contentsid › 444 › index.do 안전확인대상생활화학제품 | 인증 · 검사 | KTR",
+            "url": "https://www.ktr.or.kr/certification/kc/contentsid/444/index.do"
+          },
+          {
+            "title": "보안 문제 신고",
+            "url": "https://hackerone.com/brave"
+          },
+          {
+            "title": "상태",
+            "url": "https://status.brave.app/"
+          }
+        ]
+      }
+    }
+  }
+}
