@@ -1,1420 +1,185 @@
 {
   "inputCount": 349,
-  "outputCount": 230,
-  "removedCount": 119,
-  "remainingCandidateCount": 0,
-  "remainingCandidatesByCategory": {},
+  "outputCount": 332,
+  "removedCount": 17,
+  "remainingCandidateCount": 102,
+  "remainingCandidatesByCategory": {
+    "완구": 16,
+    "구강치발기": 19,
+    "턱받이": 17,
+    "수유용품": 16,
+    "이유식용품": 16,
+    "위생용품": 18
+  },
   "removed": [
     {
-      "id": "DISC-FF4CB604E857",
+      "id": "DISC-67F85E199841",
       "category": "완구",
-      "brand": "Used",
-      "name": "Used Jeep Grand Cherokee for Sale Near Me",
-      "key": "used|usedjeepgrandcherokeeforsalenearme",
+      "brand": "애착인형",
+      "name": "애착인형",
+      "key": "애착인형|애착인형",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-A7D0C4CB3739",
+      "id": "DISC-DD0CB903D28D",
       "category": "완구",
-      "brand": "Used",
-      "name": "Used Jeep Grand Cherokee L for Sale Near Me",
-      "key": "used|usedjeepgrandcherokeelforsalenearme",
+      "brand": "흑백모빌",
+      "name": "흑백모빌",
+      "key": "흑백모빌|흑백모빌",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-B1ED836119A1",
+      "id": "DISC-56F6264F8083",
       "category": "완구",
-      "brand": "Jeep",
-      "name": "Jeep Cherokee Classic Cars for Sale",
-      "key": "jeep|jeepcherokeeclassiccarsforsale",
+      "brand": "모빌",
+      "name": "모빌",
+      "key": "모빌|모빌",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-265FAD3C4694",
+      "id": "DISC-29E9D062D580",
       "category": "완구",
-      "brand": "Jeep",
-      "name": "Jeep Classic Cars for Sale",
-      "key": "jeep|jeepclassiccarsforsale",
+      "brand": "휴대용모빌",
+      "name": "휴대용모빌",
+      "key": "휴대용모빌|휴대용모빌",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-FBD44F8CA1D1",
-      "category": "완구",
-      "brand": "Used",
-      "name": "Used Jeep Trackhawk for Sale Near Me",
-      "key": "used|usedjeeptrackhawkforsalenearme",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-0A472830115C",
-      "category": "완구",
-      "brand": "Used",
-      "name": "Used Jeep Grand Cherokee SRT for Sale Near Me",
-      "key": "used|usedjeepgrandcherokeesrtforsalenearme",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-4A108C6B7487",
-      "category": "완구",
-      "brand": "Used",
-      "name": "Used Jeep Grand Cherokee L Overland for Sale Near Me",
-      "key": "used|usedjeepgrandcherokeeloverlandforsalenearme",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-0A04DC550D12",
-      "category": "완구",
-      "brand": "Used",
-      "name": "Used 2022 Jeep Grand Cherokee Summit for Sale Near Me",
-      "key": "used|used2022jeepgrandcherokeesummitforsalenearme",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-94F99D1B5096",
-      "category": "완구",
-      "brand": "Used",
-      "name": "Used 2019 Jeep Grand Cherokee for Sale Near Me",
-      "key": "used|used2019jeepgrandcherokeeforsalenearme",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B56E7AF804AC",
-      "category": "완구",
-      "brand": "New",
-      "name": "New Jeep Grand Cherokee for Sale Near Me",
-      "key": "new|newjeepgrandcherokeeforsalenearme",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-363034BB6878",
-      "category": "완구",
-      "brand": "Southwest",
-      "name": "Southwest Airlines",
-      "key": "southwest|southwestairlines",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-3C0FC10420BB",
-      "category": "완구",
-      "brand": "Book",
-      "name": "Book a Flight",
-      "key": "book|bookaflight",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-A41C5702A4D8",
-      "category": "완구",
-      "brand": "Online",
-      "name": "Online Check",
-      "key": "online|onlinecheck",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-85A2983203AB",
-      "category": "완구",
-      "brand": "Checked",
-      "name": "Checked Bag Policy",
-      "key": "checked|checkedbagpolicy",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-94E5E54EFF76",
-      "category": "완구",
-      "brand": "Southwest",
-      "name": "Southwest Airlines Rapid Rewards Shopping",
-      "key": "southwest|southwestairlinesrapidrewardsshopping",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-3C9F10D0E8B1",
-      "category": "완구",
-      "brand": "Southwest",
-      "name": "Southwest",
-      "key": "southwest|southwest",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-A7E1BDA61B10",
-      "category": "완구",
-      "brand": "Login",
-      "name": "Login Template Title",
-      "key": "login|logintemplatetitle",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-2B2B399E6E97",
-      "category": "완구",
-      "brand": "Southwest",
-      "name": "Southwest Airlines Co. (LUV)",
-      "key": "southwest|southwestairlinescoluv",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-911D119CCAD9",
-      "category": "완구",
-      "brand": "Información",
-      "name": "Información de contacto",
-      "key": "informacin|informacindecontacto",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-DF58E17EE248",
-      "category": "완구",
-      "brand": "PTL",
-      "name": "PTL Project Team Lead",
-      "key": "ptl|ptlprojectteamlead",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-75C14E930903",
+      "id": "DISC-CBFA13A73938",
       "category": "구강치발기",
-      "brand": "Microsoft",
-      "name": "Microsoft",
-      "key": "microsoft|microsoft",
+      "brand": "손목치발기",
+      "name": "손목치발기",
+      "key": "손목치발기|손목치발기",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-568F01EB5CB0",
-      "category": "구강치발기",
-      "brand": "Sign",
-      "name": "Sign in to your account",
-      "key": "sign|signintoyouraccount",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-F11A2CF62342",
-      "category": "구강치발기",
-      "brand": "Microsoft",
-      "name": "Microsoft 365 for Individuals",
-      "key": "microsoft|microsoft365forindividuals",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-38AEF91CB444",
-      "category": "구강치발기",
-      "brand": "Home",
-      "name": "Home",
-      "key": "home|home",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-C7B744389592",
-      "category": "구강치발기",
-      "brand": "Create",
-      "name": "Create your Microsoft account",
-      "key": "create|createyourmicrosoftaccount",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-BA52472D8B2D",
-      "category": "구강치발기",
-      "brand": "Microsoft",
-      "name": "Microsoft Store",
-      "key": "microsoft|microsoftstore",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B0E74F52908A",
-      "category": "구강치발기",
-      "brand": "Check",
-      "name": "Check Your United Flight Status",
-      "key": "check|checkyourunitedflightstatus",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-111CCAC266FE",
-      "category": "구강치발기",
-      "brand": "UA2199",
-      "name": "UA2199 (UAL2199 ) United Flight Tracking and History",
-      "key": "ua2199|ua2199ual2199unitedflighttrackingandhistory",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-3E387549E40B",
-      "category": "구강치발기",
-      "brand": "United",
-      "name": "United Airlines UA2199 Flight Status",
-      "key": "united|unitedairlinesua2199flightstatus",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-5E7B78817607",
-      "category": "구강치발기",
-      "brand": "(",
-      "name": "( UA ) United Airlines 2199 Flight Details",
-      "key": "|uaunitedairlines2199flightdetails",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-47C6D4C80E6A",
-      "category": "구강치발기",
-      "brand": "Track",
-      "name": "Track UA 2199 — LGA to ORD Flight Tracker",
-      "key": "track|trackua2199lgatoordflighttracker",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-EC2D927F919B",
-      "category": "구강치발기",
-      "brand": "UA2199",
-      "name": "UA2199 United Flight Status & Tracker",
-      "key": "ua2199|ua2199unitedflightstatustracker",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-ADCFBE6C3D64",
-      "category": "구강치발기",
-      "brand": "Flightradar24",
-      "name": "Flightradar24",
-      "key": "flightradar24|flightradar24",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-63DF06EF7F34",
-      "category": "구강치발기",
-      "brand": "Flight",
-      "name": "Flight history for United Airlines flight UA2199",
-      "key": "flight|flighthistoryforunitedairlinesflightua2199",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-AD330D64D320",
-      "category": "구강치발기",
-      "brand": "UA2199",
-      "name": "UA2199 Flight Status United Airlines",
-      "key": "ua2199|ua2199flightstatusunitedairlines",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-D31388AF391B",
-      "category": "구강치발기",
-      "brand": "United",
-      "name": "United Airlines Flight UA2199 History",
-      "key": "united|unitedairlinesflightua2199history",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-FA60A1FECFC4",
-      "category": "구강치발기",
-      "brand": "44",
-      "name": "44 Cozy Reading Nook Ideas You'll Want to Curl Up in With a Good …",
-      "key": "44|44cozyreadingnookideasyoullwanttocurlupinwithagood",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6BD525E45893",
-      "category": "구강치발기",
-      "brand": "12",
-      "name": "12 Reading Nook Ideas for Stylish and Cozy Corners",
-      "key": "12|12readingnookideasforstylishandcozycorners",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-D32B78471613",
-      "category": "구강치발기",
-      "brand": "﻿13",
-      "name": "﻿13 Reading Nook Ideas That Are Cozy and Stylish",
-      "key": "13|13readingnookideasthatarecozyandstylish",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-91F7E76D57A3",
-      "category": "구강치발기",
-      "brand": "40",
-      "name": "40 Reading Nook Ideas for the Perfect Cozy Corner",
-      "key": "40|40readingnookideasfortheperfectcozycorner",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-212E457AF02F",
+      "id": "DISC-48340F7B4E55",
       "category": "턱받이",
-      "brand": "The",
-      "name": "The 21 best destinations for summer 2026",
-      "key": "the|the21bestdestinationsforsummer2026",
+      "brand": "인기빕혜택가",
+      "name": "인기빕혜택가",
+      "key": "인기빕혜택가|인기빕혜택가",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-F5E7013853D7",
+      "id": "DISC-989E8D12D74D",
       "category": "턱받이",
-      "brand": "Summer",
-      "name": "Summer Vacation Ideas",
-      "key": "summer|summervacationideas",
+      "brand": "퍼스널턱받이",
+      "name": "퍼스널턱받이",
+      "key": "퍼스널턱받이|퍼스널턱받이",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-CDA0109CB724",
+      "id": "DISC-ADA3A1B41B4A",
       "category": "턱받이",
-      "brand": "33",
-      "name": "33 Stunning Places to Visit in Summer in the USA (Vacation ...",
-      "key": "33|33stunningplacestovisitinsummerintheusavacation",
+      "brand": "링크빕",
+      "name": "링크빕",
+      "key": "링크빕|링크빕",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-3C15B5ED3FB3",
-      "category": "턱받이",
-      "brand": "23",
-      "name": "23 Best Summer Vacation Destinations",
-      "key": "23|23bestsummervacationdestinations",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-2D47D061C763",
-      "category": "턱받이",
-      "brand": "14",
-      "name": "14 Best Summer Travel Destinations for Your Bucket List",
-      "key": "14|14bestsummertraveldestinationsforyourbucketlist",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-40BDA4C4CF19",
-      "category": "턱받이",
-      "brand": "27",
-      "name": "27 Best Places To Visit In Summer In The USA (2025 Vacation ...",
-      "key": "27|27bestplacestovisitinsummerintheusa2025vacation",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-93B13750E536",
-      "category": "턱받이",
-      "brand": "Best",
-      "name": "Best places to visit in the summer worldwide",
-      "key": "best|bestplacestovisitinthesummerworldwide",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-4EDA01DFF152",
-      "category": "턱받이",
-      "brand": "Best",
-      "name": "Best Summer Vacation Spots in the World",
-      "key": "best|bestsummervacationspotsintheworld",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-2E266B574923",
-      "category": "턱받이",
-      "brand": "20",
-      "name": "20 Places to Visit in July for Your Summer Escape",
-      "key": "20|20placestovisitinjulyforyoursummerescape",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-11AC18BCEDDF",
-      "category": "턱받이",
-      "brand": "Best",
-      "name": "Best Summer Family Vacations for 2026",
-      "key": "best|bestsummerfamilyvacationsfor2026",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6DA2C4FEF2BA",
-      "category": "턱받이",
-      "brand": "ヘルプについて",
-      "name": "ヘルプについて",
-      "key": "|",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-67B5B472C9F1",
-      "category": "턱받이",
-      "brand": "About",
-      "name": "About Get Help",
-      "key": "about|aboutgethelp",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-2AAB6921BC09",
-      "category": "턱받이",
-      "brand": "激活",
-      "name": "激活 Windows",
-      "key": "|windows",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-3FD408D6AE8B",
-      "category": "턱받이",
-      "brand": "Windows",
-      "name": "Windows Update Troubleshooter",
-      "key": "windows|windowsupdatetroubleshooter",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-8BAEA808EED2",
-      "category": "턱받이",
-      "brand": "在",
-      "name": "在 Windows 中如何获取帮助",
-      "key": "|windows",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-C442283F4B45",
-      "category": "턱받이",
-      "brand": "释放",
-      "name": "释放 Windows 中的驱动器空间",
-      "key": "|windows",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-77539305814A",
-      "category": "턱받이",
-      "brand": "Fix",
-      "name": "Fix sound or audio problems in Windows",
-      "key": "fix|fixsoundoraudioproblemsinwindows",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-A63148B8AD49",
-      "category": "턱받이",
-      "brand": "Activer",
-      "name": "Activer Windows",
-      "key": "activer|activerwindows",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-04259408776F",
-      "category": "턱받이",
-      "brand": "Create",
-      "name": "Create installation media for Windows",
-      "key": "create|createinstallationmediaforwindows",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-FE37656F5320",
-      "category": "턱받이",
-      "brand": "Get",
-      "name": "Get help with Windows activation errors",
-      "key": "get|gethelpwithwindowsactivationerrors",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-333D4C424B66",
+      "id": "DISC-E484E7DE41C9",
       "category": "수유용품",
-      "brand": "Free",
-      "name": "Free Microsoft 365 Online",
-      "key": "free|freemicrosoft365online",
+      "brand": "젖병",
+      "name": "젖병",
+      "key": "젖병|젖병",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-25CC6C9A3ED2",
+      "id": "DISC-4B6071B66B3A",
       "category": "수유용품",
-      "brand": "Free",
-      "name": "Free Online Document Editing with Microsoft Word",
-      "key": "free|freeonlinedocumenteditingwithmicrosoftword",
+      "brand": "젖병건조대",
+      "name": "젖병건조대",
+      "key": "젖병건조대|젖병건조대",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-8D5868E5784A",
+      "id": "DISC-795131DA0FB1",
       "category": "수유용품",
-      "brand": "Bezpłatna",
-      "name": "Bezpłatna platforma Microsoft 365 Online",
-      "key": "bezpatna|bezpatnaplatformamicrosoft365online",
+      "brand": "젖병빨대",
+      "name": "젖병빨대",
+      "key": "젖병빨대|젖병빨대",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-1EA81445264E",
+      "id": "DISC-7A16D1E05E52",
       "category": "수유용품",
-      "brand": "Microsoft",
-      "name": "Microsoft 365 online gratuito",
-      "key": "microsoft|microsoft365onlinegratuito",
+      "brand": "젖병솔",
+      "name": "젖병솔",
+      "key": "젖병솔|젖병솔",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-BBB5612B76CE",
-      "category": "수유용품",
-      "brand": "Gratis",
-      "name": "Gratis Microsoft 365 online",
-      "key": "gratis|gratismicrosoft365online",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-5315FDC79F29",
-      "category": "수유용품",
-      "brand": "Edição",
-      "name": "Edição de documentos online gratuita com o Microsoft Word",
-      "key": "edio|ediodedocumentosonlinegratuitacomomicrosoftword",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-DAC3FBE6ADB9",
-      "category": "수유용품",
-      "brand": "Microsoft",
-      "name": "Microsoft Word",
-      "key": "microsoft|microsoftword",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-7E046F732211",
-      "category": "수유용품",
-      "brand": "使用",
-      "name": "使用 Microsoft Word 可以免費在線上編輯文件",
-      "key": "|microsoftword",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-64EBA190DCF3",
-      "category": "수유용품",
-      "brand": "Δωρεάν",
-      "name": "Δωρεάν Microsoft 365 Online",
-      "key": "|microsoft365online",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-46EE4544FC94",
-      "category": "수유용품",
-      "brand": "NCAA",
-      "name": "NCAA College Football FBS Standings",
-      "key": "ncaa|ncaacollegefootballfbsstandings",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6C5CDBB1E3D6",
-      "category": "수유용품",
-      "brand": "NCAA",
-      "name": "NCAA College Football news, scores, stats and FBS rankings",
-      "key": "ncaa|ncaacollegefootballnewsscoresstatsandfbsrankings",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-745C87E13A90",
-      "category": "수유용품",
-      "brand": "FBS",
-      "name": "FBS Football Rankings",
-      "key": "fbs|fbsfootballrankings",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-1B1038F15031",
-      "category": "수유용품",
-      "brand": "DIII",
-      "name": "DIII Football Rankings",
-      "key": "diii|diiifootballrankings",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-4944CFFDA30D",
-      "category": "수유용품",
-      "brand": "FCS",
-      "name": "FCS College Football",
-      "key": "fcs|fcscollegefootball",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-2EB8325FC75A",
-      "category": "수유용품",
-      "brand": "College",
-      "name": "College Football Playoff bracket, schedule, scores, rankings",
-      "key": "college|collegefootballplayoffbracketschedulescoresrankings",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-786389CE08B9",
-      "category": "수유용품",
-      "brand": "DII",
-      "name": "DII College Football",
-      "key": "dii|diicollegefootball",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-E4C9F9C092E4",
-      "category": "수유용품",
-      "brand": "NCAA",
-      "name": "NCAA College Standings",
-      "key": "ncaa|ncaacollegestandings",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-0EB714093EC6",
-      "category": "수유용품",
-      "brand": "University",
-      "name": "University of Alabama",
-      "key": "university|universityofalabama",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-97844FA5F6B9",
-      "category": "수유용품",
-      "brand": "Al",
-      "name": "Al Gore",
-      "key": "al|algore",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B054ABA43027",
+      "id": "DISC-C7C2285F1F3B",
       "category": "이유식용품",
-      "brand": "Real",
-      "name": "Real Estate & Homes For Sale",
-      "key": "real|realestatehomesforsale",
+      "brand": "이유식매트",
+      "name": "이유식매트",
+      "key": "이유식매트|이유식매트",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-88DA6EBA6359",
+      "id": "DISC-63EF59A77D69",
       "category": "이유식용품",
-      "brand": "Rental",
-      "name": "Rental Listings",
-      "key": "rental|rentallistings",
+      "brand": "'[",
+      "name": "'[ 국내 생산 ] 티지엠 실리콘 조가비 흡착 식판 자기주도 이유식 아기 이유 식판 흡착 트레이 ( 식판 커....",
+      "key": "|국내생산티지엠실리콘조가비흡착식판자기주도이유식아기이유식판흡착트레이식판커",
       "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-78E009CBCF70",
+      "id": "DISC-323D4CC88ACD",
       "category": "이유식용품",
-      "brand": "Zillow",
-      "name": "Zillow",
-      "key": "zillow|zillow",
+      "brand": "냥냥흡착식판",
+      "name": "냥냥흡착식판",
+      "key": "냥냥흡착식판|냥냥흡착식판",
       "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-D4C59D61566C",
-      "category": "이유식용품",
-      "brand": "United",
-      "name": "United States Real Estate & Homes For Sale",
-      "key": "united|unitedstatesrealestatehomesforsale",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-D5264E4DC556",
-      "category": "이유식용품",
-      "brand": "PA",
-      "name": "PA Real Estate",
-      "key": "pa|parealestate",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6324AF79C0C9",
-      "category": "이유식용품",
-      "brand": "TX",
-      "name": "TX Real Estate",
-      "key": "tx|txrealestate",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-E3C6A901A6E3",
-      "category": "이유식용품",
-      "brand": "NH",
-      "name": "NH Real Estate",
-      "key": "nh|nhrealestate",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-49510681D6E7",
-      "category": "이유식용품",
-      "brand": "San",
-      "name": "San Antonio TX Real Estate & Homes For Sale",
-      "key": "san|sanantoniotxrealestatehomesforsale",
-      "reasons": [
-        "category_term_mismatch",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-51D8BCA6F88E",
-      "category": "이유식용품",
-      "brand": "What",
-      "name": "What Is National Financial Services LLC ? [Explained]",
-      "key": "what|whatisnationalfinancialservicesllcexplained",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-7D5F1F113CE7",
-      "category": "이유식용품",
-      "brand": "NATIONAL",
-      "name": "NATIONAL FINANCIAL SERVICES LLC",
-      "key": "national|nationalfinancialservicesllc",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-0B0A4BCAE1D9",
-      "category": "이유식용품",
-      "brand": "National",
-      "name": "National Financial Services",
-      "key": "national|nationalfinancialservices",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B11F432B19F1",
-      "category": "이유식용품",
-      "brand": "Bank",
-      "name": "Bank Wire Instructions",
-      "key": "bank|bankwireinstructions",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-08A61925995E",
-      "category": "이유식용품",
-      "brand": "NATL",
-      "name": "NATL FIN SVC LLC EFT Charge on Bank Statement [Explained]",
-      "key": "natl|natlfinsvcllceftchargeonbankstatementexplained",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-97CC8AE1DC18",
-      "category": "이유식용품",
-      "brand": "Global",
-      "name": "Global Shared Services and Outsourcing Survey",
-      "key": "global|globalsharedservicesandoutsourcingsurvey",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-BC67B9358E7C",
-      "category": "이유식용품",
-      "brand": "Profiles",
-      "name": "Profiles",
-      "key": "profiles|profiles",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-5671E9077E4F",
-      "category": "이유식용품",
-      "brand": "Legacy",
-      "name": "Legacy system modernization",
-      "key": "legacy|legacysystemmodernization",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-DC1926191335",
-      "category": "이유식용품",
-      "brand": "Advancing",
-      "name": "Advancing connected care",
-      "key": "advancing|advancingconnectedcare",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B7F48E8A6CC7",
-      "category": "이유식용품",
-      "brand": "Consumer",
-      "name": "Consumer audio market",
-      "key": "consumer|consumeraudiomarket",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-91BA1AD69F11",
-      "category": "이유식용품",
-      "brand": "Ethical",
-      "name": "Ethical dilemmas in technology",
-      "key": "ethical|ethicaldilemmasintechnology",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6E39F02A7E26",
-      "category": "이유식용품",
-      "brand": "Tax（税務）",
-      "name": "Tax（税務）",
-      "key": "tax|tax",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-F0E7537BEA1B",
+      "id": "DISC-62163DAEA141",
       "category": "위생용품",
-      "brand": "Pinterest",
-      "name": "Pinterest",
-      "key": "pinterest|pinterest",
+      "brand": "'[",
+      "name": "'[ 국내생산 ] 휴대용 물티슈 가방 물티슈 파우치 물티슈 케이스 물티슈 커버 아기 엄마선물 10color 휴대....",
+      "key": "|국내생산휴대용물티슈가방물티슈파우치물티슈케이스물티슈커버아기엄마선물10color휴대",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     },
     {
-      "id": "DISC-C98975294184",
+      "id": "DISC-848F5E2A05AA",
       "category": "위생용품",
-      "brand": "Craft",
-      "name": "Craft Ideas (craft_ideas)",
-      "key": "craft|craftideascraftideas",
+      "brand": "캐릭터물티슈",
+      "name": "캐릭터물티슈",
+      "key": "캐릭터물티슈|캐릭터물티슈",
       "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-A458FF8CF801",
-      "category": "위생용품",
-      "brand": "(use_account)",
-      "name": "(use_account) – Profile",
-      "key": "useaccount|useaccountprofile",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-CEA343F102A2",
-      "category": "위생용품",
-      "brand": "Pinterest",
-      "name": "Pinterest UK (PinterestUK) – Profile",
-      "key": "pinterest|pinterestukpinterestukprofile",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-47ADFCFC203E",
-      "category": "위생용품",
-      "brand": "fr.pinterest.com",
-      "name": "fr.pinterest.com",
-      "key": "frpinterestcom|frpinterestcom",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-5D854F3A5F48",
-      "category": "위생용품",
-      "brand": "Home",
-      "name": "Home Account (home_account)",
-      "key": "home|homeaccounthomeaccount",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-F5AC0A14BEE6",
-      "category": "위생용품",
-      "brand": "Pinterest",
-      "name": "Pinterest India (pinterestindia) – Profile",
-      "key": "pinterest|pinterestindiapinterestindiaprofile",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-F92B765BE300",
-      "category": "위생용품",
-      "brand": "About",
-      "name": "About Pinterest",
-      "key": "about|aboutpinterest",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-61C7E400932B",
-      "category": "위생용품",
-      "brand": "Peru",
-      "name": "Peru (peru)",
-      "key": "peru|peruperu",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6BBEF8695B00",
-      "category": "위생용품",
-      "brand": "Sign",
-      "name": "Sign in (sign_i) – Profile",
-      "key": "sign|signinsigniprofile",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-ECCA1E1BF5E3",
-      "category": "위생용품",
-      "brand": "BingHomepageQuiz",
-      "name": "BingHomepageQuiz",
-      "key": "binghomepagequiz|binghomepagequiz",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-17D97219E600",
-      "category": "위생용품",
-      "brand": "Bing",
-      "name": "Bing Homepage Quiz not working",
-      "key": "bing|binghomepagequiznotworking",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-0164018A7A2F",
-      "category": "위생용품",
-      "brand": "Start",
-      "name": "Start home page daily quiz",
-      "key": "start|starthomepagedailyquiz",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-6E4D5D47EEDF",
-      "category": "위생용품",
-      "brand": "discoverbits",
-      "name": "discoverbits (u/discoverbits)",
-      "key": "discoverbits|discoverbitsudiscoverbits",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-88B5313FFF8D",
-      "category": "위생용품",
-      "brand": "Quizzes",
-      "name": "Quizzes Not Giving Full Points?",
-      "key": "quizzes|quizzesnotgivingfullpoints",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-0D789F5FC5E7",
-      "category": "위생용품",
-      "brand": "BingQuizEveryDay",
-      "name": "BingQuizEveryDay",
-      "key": "bingquizeveryday|bingquizeveryday",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B7E1D6B5E0B9",
-      "category": "위생용품",
-      "brand": "[US]",
-      "name": "[US] In 2016, the American bison was declared what?",
-      "key": "us|usin2016theamericanbisonwasdeclaredwhat",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-AD4431B6EB68",
-      "category": "위생용품",
-      "brand": "Microsoft",
-      "name": "Microsoft Rewards Bing Homepage Quiz Answers Today",
-      "key": "microsoft|microsoftrewardsbinghomepagequizanswerstoday",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-EE56E9324A65",
-      "category": "위생용품",
-      "brand": "Bing",
-      "name": "Bing homepage quiz",
-      "key": "bing|binghomepagequiz",
-      "reasons": [
-        "category_term_mismatch",
-        "generic_or_short_title",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
-      ]
-    },
-    {
-      "id": "DISC-B12A05536794",
-      "category": "위생용품",
-      "brand": "[US]",
-      "name": "[US] Bing Homepage Quiz (12",
-      "key": "us|usbinghomepagequiz12",
-      "reasons": [
-        "category_term_mismatch",
-        "no_direct_korean_sales_candidate_url",
-        "no_korean_product_identity"
+        "generic_or_short_title"
       ]
     }
   ]
