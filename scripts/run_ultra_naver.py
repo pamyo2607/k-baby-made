@@ -1,9 +1,22 @@
 #!/usr/bin/env python3
-"""Run the ultra pipeline with real Naver product-detail discovery."""
+"""Run the ultra pipeline with real Naver discovery and sale rechecks."""
 from __future__ import annotations
 
+import naver_pending_revalidation as pending
 import naver_product_discovery as naver
 import run_ultra_parallel as pipeline
+
+_original_revalidate = pipeline.safe_revalidate
+
+
+def revalidate(product: dict) -> dict:
+    try:
+        result = _original_revalidate(product)
+    except Exception:
+        result = {"checked": False, "changed": False, "errors": ["primary_revalidation_exception"]}
+    if result.get("checked"):
+        return result
+    return pending.revalidate(product)
 
 
 def discover(category: str, products: list[dict]) -> list[dict]:
@@ -14,5 +27,6 @@ def discover(category: str, products: list[dict]) -> list[dict]:
         return []
 
 
+pipeline.safe_revalidate = revalidate
 pipeline.safe_discover = discover
 pipeline.main()
