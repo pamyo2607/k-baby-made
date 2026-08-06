@@ -1,0 +1,58 @@
+name: K-Baby Made discovered candidate cleanup
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "cleanup-trigger.txt"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: k-baby-made-candidate-cleanup
+  cancel-in-progress: true
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout cumulative database
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sanitize auto-discovered candidates
+        run: python scripts/sanitize_discovered_candidates.py
+
+      - name: Rebuild deployable assets
+        run: python scripts/build_assets.py
+
+      - name: Existing strict validation
+        run: python scripts/validate_data.py
+
+      - name: Final ultra-quality verification
+        run: python scripts/verify_ultra_quality.py
+
+      - name: Commit cleanup results
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "k-baby-made-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data public fallback-products.json kbaby-data.js meta.json health.json
+          if git diff --cached --quiet; then
+            echo "No cleanup changes"
+            exit 0
+          fi
+          git commit -m "data: remove invalid auto-discovered candidates"
+          git pull --rebase origin main
+          git push
