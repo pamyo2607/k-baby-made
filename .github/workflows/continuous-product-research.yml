@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: k-baby-made-research
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   research:
