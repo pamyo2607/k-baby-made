@@ -1,8 +1,1469 @@
 {
-  "inputCount": 230,
+  "inputCount": 350,
   "outputCount": 230,
-  "removedCount": 0,
+  "removedCount": 120,
   "remainingCandidateCount": 0,
   "remainingCandidatesByCategory": {},
-  "removed": []
+  "removed": [
+    {
+      "id": "DISC-58FB4892C8C0",
+      "category": "완구",
+      "brand": "The",
+      "name": "The Home Depot",
+      "key": "the|thehomedepot",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F2884D19C23D",
+      "category": "완구",
+      "brand": "Search",
+      "name": "Search Jobs",
+      "key": "search|searchjobs",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-9AAD48E6FEF9",
+      "category": "완구",
+      "brand": "Hiring",
+      "name": "Hiring",
+      "key": "hiring|hiring",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-897711601CE6",
+      "category": "완구",
+      "brand": "Blinds",
+      "name": "Blinds",
+      "key": "blinds|blinds",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E5EC084729F0",
+      "category": "완구",
+      "brand": "The",
+      "name": "The Home Depot Careers",
+      "key": "the|thehomedepotcareers",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-07386C420FBB",
+      "category": "완구",
+      "brand": "The",
+      "name": "The Home Depot Foundation",
+      "key": "the|thehomedepotfoundation",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B031F7C4EDF1",
+      "category": "완구",
+      "brand": "Grants",
+      "name": "Grants",
+      "key": "grants|grants",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C82AA0F7B437",
+      "category": "완구",
+      "brand": "Tax",
+      "name": "Tax Exempt",
+      "key": "tax|taxexempt",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7DCE9B83CEEC",
+      "category": "완구",
+      "brand": "Board",
+      "name": "Board of Directors",
+      "key": "board|boardofdirectors",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-0CA88E996ED6",
+      "category": "완구",
+      "brand": "Stock",
+      "name": "Stock Quote & Chart",
+      "key": "stock|stockquotechart",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-73F6F9571198",
+      "category": "완구",
+      "brand": "NewsNation",
+      "name": "NewsNation",
+      "key": "newsnation|newsnation",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-BE9FB7BDCF6E",
+      "category": "완구",
+      "brand": "NewsNation",
+      "name": "NewsNation Streaming Live",
+      "key": "newsnation|newsnationstreaminglive",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-234281184EBC",
+      "category": "완구",
+      "brand": "News",
+      "name": "News",
+      "key": "news|news",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-78C11FA45443",
+      "category": "완구",
+      "brand": "News",
+      "name": "News Nation Latest News , Breaking News Headlines from India",
+      "key": "news|newsnationlatestnewsbreakingnewsheadlinesfromindia",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-AA396D289784",
+      "category": "완구",
+      "brand": "NewsNation",
+      "name": "NewsNation Live",
+      "key": "newsnation|newsnationlive",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7E96ACC90582",
+      "category": "완구",
+      "brand": "U.S.",
+      "name": "U.S.",
+      "key": "us|us",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C84F17997911",
+      "category": "완구",
+      "brand": "Différents",
+      "name": "Différents problème sur Yaris 2009 D4D",
+      "key": "diffrents|diffrentsproblmesuryaris2009d4d",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-402EDA6DB145",
+      "category": "완구",
+      "brand": "HDJ80",
+      "name": "HDJ80 lève vitre électrique",
+      "key": "hdj80|hdj80lvevitrelectrique",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CF3435880C4B",
+      "category": "완구",
+      "brand": "Avensis",
+      "name": "Avensis 2.4 Automatik",
+      "key": "avensis|avensis24automatik",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-28F0755E2459",
+      "category": "완구",
+      "brand": "Fahrbericht",
+      "name": "Fahrbericht zum Urban Cruiser",
+      "key": "fahrbericht|fahrberichtzumurbancruiser",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CDD52BBB3E68",
+      "category": "구강치발기",
+      "brand": "Google",
+      "name": "Google Earth",
+      "key": "google|googleearth",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-3783601C836F",
+      "category": "구강치발기",
+      "brand": "Earth",
+      "name": "Earth Versions – Google Earth",
+      "key": "earth|earthversionsgoogleearth",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5E607B9C469B",
+      "category": "구강치발기",
+      "brand": "Google",
+      "name": "Google Earth Preview",
+      "key": "google|googleearthpreview",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F30B49F5BB23",
+      "category": "구강치발기",
+      "brand": "Google",
+      "name": "Google Earth Plans & Rate Card",
+      "key": "google|googleearthplansratecard",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D6DBE5C0400B",
+      "category": "구강치발기",
+      "brand": "Remove",
+      "name": "Remove Computer Entries from Remote Desktop Connection in …",
+      "key": "remove|removecomputerentriesfromremotedesktopconnectionin",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4CAFE0363BC4",
+      "category": "구강치발기",
+      "brand": "Remote",
+      "name": "Remote Desktop",
+      "key": "remote|remotedesktop",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-0FA6757B2CAB",
+      "category": "구강치발기",
+      "brand": "Add",
+      "name": "Add Remote Desktop Connection in Remote Desktop app on Windows …",
+      "key": "add|addremotedesktopconnectioninremotedesktopapponwindows",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-2BC43A33ED75",
+      "category": "구강치발기",
+      "brand": "Remove",
+      "name": "Remove Remote Desktop Connection in Remote Desktop app on …",
+      "key": "remove|removeremotedesktopconnectioninremotedesktopappon",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A5F4B44B6AFC",
+      "category": "구강치발기",
+      "brand": "Cannot",
+      "name": "Cannot Remote Desktop Connect Solved",
+      "key": "cannot|cannotremotedesktopconnectsolved",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C6D80B0A7EF8",
+      "category": "구강치발기",
+      "brand": "Unable",
+      "name": "Unable to Connect to PC Using Remote Desktop App",
+      "key": "unable|unabletoconnecttopcusingremotedesktopapp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F8E5D67F0EB3",
+      "category": "구강치발기",
+      "brand": "Remote",
+      "name": "Remote Desktop Issue with \"Other User\"",
+      "key": "remote|remotedesktopissuewithotheruser",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4E91EA3BCF8C",
+      "category": "구강치발기",
+      "brand": "Remote",
+      "name": "Remote access without local user account?",
+      "key": "remote|remoteaccesswithoutlocaluseraccount",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8F8B45C77EB7",
+      "category": "구강치발기",
+      "brand": "Enable",
+      "name": "Enable or Disable Remote Desktop Connections to Windows 10 PC",
+      "key": "enable|enableordisableremotedesktopconnectionstowindows10pc",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-359DADF99036",
+      "category": "구강치발기",
+      "brand": "Central",
+      "name": "Central Texas College",
+      "key": "central|centraltexascollege",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-445B62333D0E",
+      "category": "구강치발기",
+      "brand": "Online",
+      "name": "Online Course Schedule",
+      "key": "online|onlinecourseschedule",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7EBBE4F2CAB9",
+      "category": "구강치발기",
+      "brand": "CTC",
+      "name": "CTC Online Courses",
+      "key": "ctc|ctconlinecourses",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A30697621796",
+      "category": "구강치발기",
+      "brand": "Faculty",
+      "name": "Faculty POCs",
+      "key": "faculty|facultypocs",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-37829E03BA0A",
+      "category": "구강치발기",
+      "brand": "Blackboard",
+      "name": "Blackboard Login Instructions",
+      "key": "blackboard|blackboardlogininstructions",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6A1BC6CB0C54",
+      "category": "구강치발기",
+      "brand": "Contact",
+      "name": "Contact Us",
+      "key": "contact|contactus",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-507158E1E657",
+      "category": "구강치발기",
+      "brand": "AI",
+      "name": "AI Levels of Usage",
+      "key": "ai|ailevelsofusage",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F151B9309AEB",
+      "category": "턱받이",
+      "brand": "【2026.04.20】剪映",
+      "name": "【2026.04.20】剪映 国际版 CapCut v8.5.0",
+      "key": "20260420|20260420capcutv850",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D8C1F6159DD4",
+      "category": "턱받이",
+      "brand": "剪映专业版",
+      "name": "剪映专业版 v9.7",
+      "key": "|v97",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E7FDD16C84DF",
+      "category": "턱받이",
+      "brand": "capcutについて教えてくださいAI動画（画像から動画にする機能方",
+      "name": "capcutについて教えてくださいAI動画（画像から動画にする機能方 …",
+      "key": "capcutai|capcutai",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-3E8E1D509F94",
+      "category": "턱받이",
+      "brand": "ノートPCでcapcutを快適に使うにはどの程度のスペックが必要にな.",
+      "name": "ノートPCでcapcutを快適に使うにはどの程度のスペックが必要にな.",
+      "key": "pccapcut|pccapcut",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-17FA0A1E0599",
+      "category": "턱받이",
+      "brand": "至急です！！capcutで動画を作ってるんですけど、使う写真.",
+      "name": "至急です！！capcutで動画を作ってるんですけど、使う写真.",
+      "key": "capcut|capcut",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-277EA81A2F15",
+      "category": "턱받이",
+      "brand": "CapCutで編集したものをYouTubeに投稿する",
+      "name": "CapCutで編集したものをYouTubeに投稿する (収益化して...",
+      "key": "capcutyoutube|capcutyoutube",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7292999FF32B",
+      "category": "턱받이",
+      "brand": "CapCutという編集アプリは危険なのでしょうか？",
+      "name": "CapCutという編集アプリは危険なのでしょうか？",
+      "key": "capcut|capcut",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-575965CFBF48",
+      "category": "턱받이",
+      "brand": "PC版CapCutを使用しています。CapCutの危険性について...",
+      "name": "PC版CapCutを使用しています。CapCutの危険性について...",
+      "key": "pccapcutcapcut|pccapcutcapcut",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F0BB109AF78A",
+      "category": "턱받이",
+      "brand": "CapCutって無料じゃないの？無料版のCapCutを使用しています.",
+      "name": "CapCutって無料じゃないの？無料版のCapCutを使用しています.",
+      "key": "capcutcapcut|capcutcapcut",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4BC1C2425082",
+      "category": "턱받이",
+      "brand": "動画編集ソフト「CapCut」のPC版を入れたいと考えています。下記",
+      "name": "動画編集ソフト「CapCut」のPC版を入れたいと考えています。下記 …",
+      "key": "capcutpc|capcutpc",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-037A340A881A",
+      "category": "턱받이",
+      "brand": "Stream",
+      "name": "Stream Live News, Sports, TV Shows & Entertainment",
+      "key": "stream|streamlivenewssportstvshowsentertainment",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6F8BBF8CBCD6",
+      "category": "턱받이",
+      "brand": "Stream",
+      "name": "Stream Movies, Shows, Series, and Latest Episodes",
+      "key": "stream|streammoviesshowsseriesandlatestepisodes",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-2E47110FD7DA",
+      "category": "턱받이",
+      "brand": "FOX",
+      "name": "FOX One Launches Today — Stream FOX Live News, Sports",
+      "key": "fox|foxonelaunchestodaystreamfoxlivenewssports",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1B7CB640A7B3",
+      "category": "턱받이",
+      "brand": "Activate",
+      "name": "Activate FOX One on Your Device",
+      "key": "activate|activatefoxoneonyourdevice",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-0824BC42EB04",
+      "category": "턱받이",
+      "brand": "FOX",
+      "name": "FOX One",
+      "key": "fox|foxone",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-588F99BB3681",
+      "category": "턱받이",
+      "brand": "Stream",
+      "name": "Stream Live Sports NFL, College Football, MLB and More",
+      "key": "stream|streamlivesportsnflcollegefootballmlbandmore",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7E4A496D29A2",
+      "category": "턱받이",
+      "brand": "FOX",
+      "name": "FOX One + ESPN Bundle",
+      "key": "fox|foxoneespnbundle",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-ECE05A94A6F1",
+      "category": "턱받이",
+      "brand": "Watch",
+      "name": "Watch Live FOX News, Weather and Business",
+      "key": "watch|watchlivefoxnewsweatherandbusiness",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-74CB71A45DA3",
+      "category": "턱받이",
+      "brand": "Chris",
+      "name": "Chris Gotterup 2026 Golf Tournaments Played",
+      "key": "chris|chrisgotterup2026golftournamentsplayed",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B380B5B6E7BF",
+      "category": "턱받이",
+      "brand": "Chris",
+      "name": "Chris Gotterup 2026 Rocket Classic Results",
+      "key": "chris|chrisgotterup2026rocketclassicresults",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4585E8343D12",
+      "category": "수유용품",
+      "brand": "F1",
+      "name": "F1 's 2026 rule tweaks",
+      "key": "f1|f1s2026ruletweaks",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4D632ABE0BDA",
+      "category": "수유용품",
+      "brand": "FIA",
+      "name": "FIA announce tweaks to F1 rules as new regulations confirmed",
+      "key": "fia|fiaannouncetweakstof1rulesasnewregulationsconfirmed",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-19DB149ADA85",
+      "category": "수유용품",
+      "brand": "FIA",
+      "name": "FIA opens up on F1 's 2026 rule issues – Here's why it couldn't ...",
+      "key": "fia|fiaopensuponf1s2026ruleissueshereswhyitcouldnt",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E701232965CA",
+      "category": "수유용품",
+      "brand": "Formula",
+      "name": "Formula 1 confirms rule tweaks in time for Miami Grand Prix",
+      "key": "formula|formula1confirmsruletweaksintimeformiamigrandprix",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8CA76DCA22CD",
+      "category": "수유용품",
+      "brand": "James",
+      "name": "James Vowles drops 2027 F1 rule change bombshell",
+      "key": "james|jamesvowlesdrops2027f1rulechangebombshell",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-88C6659B53F0",
+      "category": "수유용품",
+      "brand": "F1",
+      "name": "F1 2026 Regulations Explained",
+      "key": "f1|f12026regulationsexplained",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7B974BFB2DB4",
+      "category": "수유용품",
+      "brand": "2026",
+      "name": "2026 vs 2025",
+      "key": "2026|2026vs2025",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F90083195919",
+      "category": "수유용품",
+      "brand": "Why",
+      "name": "Why Mercedes has changed its F1 car after FIA/Ferrari intervention",
+      "key": "why|whymercedeshaschangeditsf1carafterfiaferrariintervention",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4D12421DEE65",
+      "category": "수유용품",
+      "brand": "Everything",
+      "name": "Everything you need to know about the new F1 rules for 2026",
+      "key": "everything|everythingyouneedtoknowaboutthenewf1rulesfor2026",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-650467F29FE7",
+      "category": "수유용품",
+      "brand": "F1",
+      "name": "F1 's 'refinements' explained",
+      "key": "f1|f1srefinementsexplained",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D689B37B2246",
+      "category": "수유용품",
+      "brand": "Open",
+      "name": "Open Broadcaster Software",
+      "key": "open|openbroadcastersoftware",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CD5059CF374B",
+      "category": "수유용품",
+      "brand": "YouTube",
+      "name": "YouTube Creator Awards",
+      "key": "youtube|youtubecreatorawards",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4B41CD34A7EC",
+      "category": "수유용품",
+      "brand": "تنزيل",
+      "name": "تنزيل YouTube للأجهزة الجوّالة",
+      "key": "|youtube",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5754720EDB6A",
+      "category": "수유용품",
+      "brand": "Closed",
+      "name": "Closed Captioning via Google Speech Recognition",
+      "key": "closed|closedcaptioningviagooglespeechrecognition",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7C8B6B6E4F1F",
+      "category": "수유용품",
+      "brand": "Manage",
+      "name": "Manage your YouTube channel’s profile",
+      "key": "manage|manageyouryoutubechannelsprofile",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-3BE64C349F13",
+      "category": "수유용품",
+      "brand": "Add",
+      "name": "Add subtitles & captions",
+      "key": "add|addsubtitlescaptions",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CDC91C0F23DA",
+      "category": "수유용품",
+      "brand": "YouTube",
+      "name": "YouTube Ajuda",
+      "key": "youtube|youtubeajuda",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-354C3EECA12B",
+      "category": "수유용품",
+      "brand": "YouTube",
+      "name": "YouTube コミュニティ",
+      "key": "youtube|youtube",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A6272BC11EE6",
+      "category": "수유용품",
+      "brand": "YouTube",
+      "name": "YouTube Help",
+      "key": "youtube|youtubehelp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-0584FC088BAF",
+      "category": "수유용품",
+      "brand": "Google",
+      "name": "Google Help",
+      "key": "google|googlehelp",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F65CBFB726B8",
+      "category": "이유식용품",
+      "brand": "Math",
+      "name": "Math Calculator",
+      "key": "math|mathcalculator",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-BF2831C3DF11",
+      "category": "이유식용품",
+      "brand": "Math",
+      "name": "Math Calculators",
+      "key": "math|mathcalculators",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E715DA4202B0",
+      "category": "이유식용품",
+      "brand": "Online",
+      "name": "Online Calculator",
+      "key": "online|onlinecalculator",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7E2DDD0C24C0",
+      "category": "이유식용품",
+      "brand": "Math",
+      "name": "Math Solver",
+      "key": "math|mathsolver",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CE4DDA2F761A",
+      "category": "이유식용품",
+      "brand": "Calculator",
+      "name": "Calculator",
+      "key": "calculator|calculator",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B744618473D6",
+      "category": "이유식용품",
+      "brand": "Calculator",
+      "name": "Calculator to Add and Subtract Integers Showing the Work",
+      "key": "calculator|calculatortoaddandsubtractintegersshowingthework",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-58AAAA61F86E",
+      "category": "이유식용품",
+      "brand": "Integer",
+      "name": "Integer Calculator",
+      "key": "integer|integercalculator",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-052069DBD66D",
+      "category": "이유식용품",
+      "brand": "How",
+      "name": "How 2 + 2 = 5",
+      "key": "how|how225",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4B790CBFE376",
+      "category": "이유식용품",
+      "brand": "Mathway",
+      "name": "Mathway",
+      "key": "mathway|mathway",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-2CF1F967027E",
+      "category": "이유식용품",
+      "brand": "Maps",
+      "name": "Maps",
+      "key": "maps|maps",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-EAB176D379AB",
+      "category": "이유식용품",
+      "brand": "Map",
+      "name": "Map of Seattle, Washington",
+      "key": "map|mapofseattlewashington",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8571EB937B58",
+      "category": "이유식용품",
+      "brand": "Large",
+      "name": "Large Detailed Street Map of Seattle",
+      "key": "large|largedetailedstreetmapofseattle",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A06A46E1CD24",
+      "category": "이유식용품",
+      "brand": "Seattle,",
+      "name": "Seattle, WA Map & Directions",
+      "key": "seattle|seattlewamapdirections",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6BF67D7154D7",
+      "category": "이유식용품",
+      "brand": "Seattle",
+      "name": "Seattle WA city map . Free printable detailed map of Seattle city Washington",
+      "key": "seattle|seattlewacitymapfreeprintabledetailedmapofseattlecitywashington",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8E67FFA31286",
+      "category": "이유식용품",
+      "brand": "Seattle",
+      "name": "Seattle , Washington",
+      "key": "seattle|seattlewashington",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-BDAFD3661D88",
+      "category": "이유식용품",
+      "brand": "Map",
+      "name": "Map of Seattle , Washington – City Guide & Location",
+      "key": "map|mapofseattlewashingtoncityguidelocation",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-74B45B0D4AC4",
+      "category": "이유식용품",
+      "brand": "Map",
+      "name": "Map of Seattle – City Maps and Neighborhoods",
+      "key": "map|mapofseattlecitymapsandneighborhoods",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-3D81882939F9",
+      "category": "이유식용품",
+      "brand": "Seattle",
+      "name": "Seattle Map",
+      "key": "seattle|seattlemap",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CCD4B7E7CD84",
+      "category": "이유식용품",
+      "brand": "Email",
+      "name": "Email",
+      "key": "email|email",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8A96829ED287",
+      "category": "이유식용품",
+      "brand": "Welcome",
+      "name": "Welcome to BT’s official support community.",
+      "key": "welcome|welcometobtsofficialsupportcommunity",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1735E6C56818",
+      "category": "위생용품",
+      "brand": "Anmelden",
+      "name": "Anmelden bei Hotmail",
+      "key": "anmelden|anmeldenbeihotmail",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-37B58671B4F6",
+      "category": "위생용품",
+      "brand": "What’s",
+      "name": "What’s New in Microsoft 365 Copilot",
+      "key": "whats|whatsnewinmicrosoft365copilot",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-9462B3A3479A",
+      "category": "위생용품",
+      "brand": "Released",
+      "name": "Released",
+      "key": "released|released",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-623A5A1A63EB",
+      "category": "위생용품",
+      "brand": "Turn",
+      "name": "Turn sound effects on or off in Outlook",
+      "key": "turn|turnsoundeffectsonoroffinoutlook",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B32D548F647F",
+      "category": "위생용품",
+      "brand": "Remove",
+      "name": "Remove a page break in Word",
+      "key": "remove|removeapagebreakinword",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A78A42A48A72",
+      "category": "위생용품",
+      "brand": "Close",
+      "name": "Close your Outlook.com account",
+      "key": "close|closeyouroutlookcomaccount",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D55CA1839A5A",
+      "category": "위생용품",
+      "brand": "What's",
+      "name": "What's New in Excel (January 2026)",
+      "key": "whats|whatsnewinexceljanuary2026",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CC053E222938",
+      "category": "위생용품",
+      "brand": "BitLocker",
+      "name": "BitLocker overview",
+      "key": "bitlocker|bitlockeroverview",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A0D9310A1520",
+      "category": "위생용품",
+      "brand": "Share",
+      "name": "Share your calendar in Outlook",
+      "key": "share|shareyourcalendarinoutlook",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-668A9B66AEDD",
+      "category": "위생용품",
+      "brand": "Exchange",
+      "name": "Exchange Online EWS, Your Time is Almost Up",
+      "key": "exchange|exchangeonlineewsyourtimeisalmostup",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-89A777C46D71",
+      "category": "위생용품",
+      "brand": "Chrome",
+      "name": "Chrome Web Store",
+      "key": "chrome|chromewebstore",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-862160D20407",
+      "category": "위생용품",
+      "brand": "Chrome",
+      "name": "Chrome Web Store Help",
+      "key": "chrome|chromewebstorehelp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-12EBFC073A7E",
+      "category": "위생용품",
+      "brand": "Google",
+      "name": "Google Chrome Web Browser",
+      "key": "google|googlechromewebbrowser",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-600C313CB533",
+      "category": "위생용품",
+      "brand": "What",
+      "name": "What is the Chrome Web Store ?",
+      "key": "what|whatisthechromewebstore",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A6B181D11EE6",
+      "category": "위생용품",
+      "brand": "301",
+      "name": "301 Moved",
+      "key": "301|301moved",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5FD39657450F",
+      "category": "위생용품",
+      "brand": "Google",
+      "name": "Google Chrome",
+      "key": "google|googlechrome",
+      "reasons": [
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6ECFFD3ACAE6",
+      "category": "위생용품",
+      "brand": "Sound",
+      "name": "Sound Bars",
+      "key": "sound|soundbars",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-36392497ED31",
+      "category": "위생용품",
+      "brand": "Amazon.com",
+      "name": "Amazon.com",
+      "key": "amazoncom|amazoncom",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-47F00C8826B5",
+      "category": "위생용품",
+      "brand": "Sound",
+      "name": "Sound Bar",
+      "key": "sound|soundbar",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-04B8D413E2FE",
+      "category": "위생용품",
+      "brand": "The",
+      "name": "The Best Soundbars We've Tested for 2026",
+      "key": "the|thebestsoundbarswevetestedfor2026",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    }
+  ]
 }
