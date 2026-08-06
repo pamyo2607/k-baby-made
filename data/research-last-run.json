@@ -2,7 +2,7 @@
   "state": {
     "lastRun": "2026-08-06",
     "qualityMode": "ultra",
-    "executionMode": "bounded-parallel",
+    "executionMode": "alternate-url-bounded-parallel",
     "scheduleTarget": "5분 최단 주기",
     "currentCategories": [
       "완구",
@@ -15,19 +15,20 @@
     "nextCategory": "완구",
     "categoryIndex": 0,
     "pendingSelected": 50,
+    "effectiveRevalidations": 0,
     "verifiedThisRun": 0,
     "includedThisRun": 9,
-    "newCandidates": 0,
+    "newCandidates": 119,
     "newCandidatesByCategory": {
-      "완구": 0,
-      "구강치발기": 0,
-      "턱받이": 0,
-      "수유용품": 0,
-      "이유식용품": 0,
-      "위생용품": 0
+      "완구": 20,
+      "구강치발기": 20,
+      "턱받이": 20,
+      "수유용품": 20,
+      "이유식용품": 19,
+      "위생용품": 20
     },
     "errors": 50,
-    "totalProducts": 230
+    "totalProducts": 349
   },
   "products": [
     {
@@ -36,7 +37,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -45,7 +46,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -54,7 +55,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -63,7 +64,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -72,7 +73,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -81,7 +82,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -90,7 +91,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -99,7 +100,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -108,7 +109,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -117,7 +118,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -126,7 +127,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -135,7 +136,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -144,7 +145,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -153,7 +154,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -162,7 +163,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -171,7 +172,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -180,7 +181,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -189,7 +190,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -198,7 +199,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -207,7 +208,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -216,7 +217,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -225,7 +226,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -234,7 +235,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -243,7 +244,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -252,7 +253,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -261,7 +262,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -270,7 +271,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -279,7 +280,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -288,7 +289,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -297,7 +298,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -306,7 +307,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -315,7 +316,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -324,7 +325,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -333,7 +334,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -342,7 +343,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -351,7 +352,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -360,7 +361,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -369,7 +370,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -378,7 +379,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -387,7 +388,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -396,7 +397,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -405,7 +406,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -414,7 +415,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -423,7 +424,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -432,7 +433,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -441,7 +442,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -450,7 +451,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -459,7 +460,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -468,7 +469,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     },
     {
@@ -477,7 +478,7 @@
       "changed": false,
       "quality": "ultra",
       "errors": [
-        "sale_0"
+        "all_sales_urls_unreachable"
       ]
     }
   ]
