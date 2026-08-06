@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import sanitize_discovered_candidates as sanitizer
 
+sanitizer.DIRECT_HINTS = tuple(dict.fromkeys(sanitizer.DIRECT_HINTS + ("/catalog/",)))
 sanitizer.CATEGORY_TERMS = {
     "완구": (
         "완구", "장난감", "딸랑이", "모빌", "촉감", "래틀", "놀이",
