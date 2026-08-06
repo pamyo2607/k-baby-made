@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Recover the cumulative database from the public K-Baby Made Google Sheet.
+"""Reconcile the cumulative database with the public K-Baby Made Google Sheet.
 
-This bootstrap is intentionally fail-closed. Rows are included only when they
-match a locally reviewed verified seed containing exact Safety Korea evidence.
-All other recovered rows remain pending or excluded until strict revalidation.
+The sheet is a recovery source only. Existing reviewed values remain authoritative.
+New sheet rows are appended as pending or excluded and blank fields in existing
+rows are backfilled. Included decisions are never promoted from the sheet unless
+they match the locally reviewed verified seed.
 """
 from __future__ import annotations
 
@@ -18,6 +19,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/master-products.json"
 SEED = ROOT / "data/verified-seed.json"
+REPORT = ROOT / "data/bootstrap-report.json"
 SHEET_ID = "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I"
 MASTER_GID = "344727200"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={MASTER_GID}"
@@ -31,8 +33,12 @@ def text(row: dict[str, str], *names: str) -> str:
     return ""
 
 
-def normalize(value: str) -> str:
-    return re.sub(r"[^0-9a-z가-힣]", "", value.lower())
+def normalize(value: object) -> str:
+    return re.sub(r"[^0-9a-z가-힣]+", "", str(value or "").lower())
+
+
+def product_key(item: dict) -> tuple[str, str]:
+    return normalize(item.get("brand")), normalize(item.get("name"))
 
 
 def urls(row: dict[str, str]) -> list[str]:
@@ -97,50 +103,122 @@ def recovered_product(row: dict[str, str], index: int) -> dict:
     }
 
 
+def merge_backfill(existing: dict, recovered: dict) -> dict:
+    """Preserve reviewed data and fill only blanks from the sheet."""
+    merged = dict(existing)
+    for key, value in recovered.items():
+        if key == "evidenceUrls":
+            current = [str(item) for item in merged.get(key, []) if str(item).strip()]
+            incoming = [str(item) for item in value if str(item).strip()]
+            merged[key] = list(dict.fromkeys(current + incoming))
+            continue
+        current = merged.get(key)
+        if current in (None, "", [], {}):
+            merged[key] = value
+    return merged
+
+
 def main() -> None:
-    existing = []
+    existing: list[dict] = []
     if SOURCE.exists():
         existing = json.loads(SOURCE.read_text(encoding="utf-8"))
-    if len(existing) >= 230:
-        print(json.dumps({"status": "already_recovered", "products": len(existing)}, ensure_ascii=False))
-        return
 
-    response = requests.get(CSV_URL, timeout=45, headers={"User-Agent": "KBabyMadeRecovery/1.0"})
+    response = requests.get(
+        CSV_URL,
+        timeout=45,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; KBabyMadeRecovery/2.0)",
+            "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
+        },
+    )
     response.raise_for_status()
     response.encoding = "utf-8"
     rows = list(csv.DictReader(io.StringIO(response.text)))
     if len(rows) < 200:
         raise SystemExit(f"recovery source unexpectedly small: {len(rows)} rows")
 
-    products = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
-    verified = json.loads(SEED.read_text(encoding="utf-8"))
+    recovered_rows = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
+    verified = json.loads(SEED.read_text(encoding="utf-8")) if SEED.exists() else []
     verified_by_id = {str(item.get("id")): item for item in verified if item.get("id")}
-    verified_by_key = {
-        (normalize(str(item.get("brand", ""))), normalize(str(item.get("name", "")))): item
-        for item in verified
+    verified_by_key = {product_key(item): item for item in verified if all(product_key(item))}
+
+    products = [dict(item) for item in existing]
+    index_by_id = {
+        str(item.get("id")): index
+        for index, item in enumerate(products)
+        if str(item.get("id", "")).strip()
+    }
+    index_by_key = {
+        product_key(item): index
+        for index, item in enumerate(products)
+        if all(product_key(item))
     }
 
-    for index, product in enumerate(products):
-        seed = verified_by_id.get(str(product.get("id"))) or verified_by_key.get(
-            (normalize(str(product.get("brand", ""))), normalize(str(product.get("name", ""))))
-        )
-        if not seed:
+    added = 0
+    merged_count = 0
+    duplicate_source_rows = 0
+    seen_source_ids: set[str] = set()
+    seen_source_keys: set[tuple[str, str]] = set()
+
+    for recovered in recovered_rows:
+        pid = str(recovered.get("id", "")).strip()
+        key = product_key(recovered)
+        if (pid and pid in seen_source_ids) or (all(key) and key in seen_source_keys):
+            duplicate_source_rows += 1
             continue
-        merged = dict(product)
-        merged.update(seed)
-        merged["id"] = product["id"]
-        products[index] = merged
+        if pid:
+            seen_source_ids.add(pid)
+        if all(key):
+            seen_source_keys.add(key)
+
+        seed = verified_by_id.get(pid) or verified_by_key.get(key)
+        if seed:
+            promoted = dict(recovered)
+            promoted.update(seed)
+            promoted["id"] = recovered["id"]
+            recovered = promoted
+
+        match_index = index_by_id.get(pid) if pid else None
+        if match_index is None and all(key):
+            match_index = index_by_key.get(key)
+
+        if match_index is not None:
+            products[match_index] = merge_backfill(products[match_index], recovered)
+            merged_count += 1
+            continue
+
+        products.append(recovered)
+        new_index = len(products) - 1
+        if pid:
+            index_by_id[pid] = new_index
+        if all(key):
+            index_by_key[key] = new_index
+        added += 1
 
     SOURCE.parent.mkdir(parents=True, exist_ok=True)
-    SOURCE.write_text(json.dumps(products, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({
-        "status": "recovered",
-        "products": len(products),
+    SOURCE.write_text(
+        json.dumps(products, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    report = {
+        "status": "reconciled",
+        "sourceRows": len(rows),
+        "sourceUniqueRows": len(rows) - duplicate_source_rows,
+        "duplicateSourceRows": duplicate_source_rows,
+        "existingBefore": len(existing),
+        "matchedAndBackfilled": merged_count,
+        "addedFromSheet": added,
+        "productsAfter": len(products),
         "included": sum(item.get("status") == "포함" for item in products),
         "pending": sum(item.get("status") == "보류" for item in products),
         "excluded": sum(item.get("status") == "제외" for item in products),
         "source": CSV_URL,
-    }, ensure_ascii=False))
+    }
+    REPORT.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(json.dumps(report, ensure_ascii=False))
 
 
 if __name__ == "__main__":
