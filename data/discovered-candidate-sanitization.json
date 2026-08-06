@@ -1,184 +1,1224 @@
 {
-  "inputCount": 349,
-  "outputCount": 332,
-  "removedCount": 17,
-  "remainingCandidatesByCategory": {
-    "완구": 19,
-    "구강치발기": 20,
-    "턱받이": 14,
-    "수유용품": 17,
-    "이유식용품": 13,
-    "위생용품": 19
-  },
+  "inputCount": 332,
+  "outputCount": 230,
+  "removedCount": 102,
+  "remainingCandidatesByCategory": {},
   "removed": [
     {
-      "id": "DISC-72889066B675",
+      "id": "DISC-1A28DFA5FFB6",
       "category": "완구",
-      "brand": "News",
-      "name": "News Programs",
-      "key": "news|newsprograms",
+      "brand": "1952",
+      "name": "1952 in American television",
+      "key": "1952|1952inamericantelevision",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-2FFBBFF60F7E",
+      "id": "DISC-4F7BF05C61A2",
+      "category": "완구",
+      "brand": "CBS",
+      "name": "CBS News",
+      "key": "cbs|cbsnews",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1D9C240E967D",
+      "category": "완구",
+      "brand": "Early",
+      "name": "Early Anchors",
+      "key": "early|earlyanchors",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CE259E7304BA",
+      "category": "완구",
+      "brand": "Morning",
+      "name": "Morning News ( TV Series 1952 –1954)",
+      "key": "morning|morningnewstvseries19521954",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6405A91CCEE3",
+      "category": "완구",
+      "brand": "TeleTales",
+      "name": "TeleTales #56…Network Television ’s First News Program",
+      "key": "teletales|teletales56networktelevisionsfirstnewsprogram",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8B494CA840D5",
+      "category": "완구",
+      "brand": "Looking",
+      "name": "Looking Back 60 Years On The \" CBS TV News \"",
+      "key": "looking|lookingback60yearsonthecbstvnews",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A49AE860FC1E",
+      "category": "완구",
+      "brand": "The",
+      "name": "The Early Years",
+      "key": "the|theearlyyears",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6DD241F65D35",
+      "category": "완구",
+      "brand": "List",
+      "name": "List of Shows",
+      "key": "list|listofshows",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-29728F9FCA41",
+      "category": "완구",
+      "brand": "SEPTEMBER",
+      "name": "SEPTEMBER 4, 1962… CBS NEWS EXPANDS TO 30 MINUTES",
+      "key": "september|september41962cbsnewsexpandsto30minutes",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-F2BA707A39B8",
+      "category": "완구",
+      "brand": "Lorem",
+      "name": "Lorem Ipsum Generator for Interactive Poll Results Pages",
+      "key": "lorem|loremipsumgeneratorforinteractivepollresultspages",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-921CE1DDAEA4",
+      "category": "완구",
+      "brand": "Lorem",
+      "name": "Lorem Ipsum Question Generator",
+      "key": "lorem|loremipsumquestiongenerator",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-757CC0B42282",
+      "category": "완구",
+      "brand": "Placeholder",
+      "name": "Placeholder Query Data",
+      "key": "placeholder|placeholderquerydata",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-72BDAE0DABBC",
+      "category": "완구",
+      "brand": "Diseña",
+      "name": "Diseña placeholders accesibles",
+      "key": "disea|diseaplaceholdersaccesibles",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-2B639283D328",
+      "category": "완구",
+      "brand": "Utilizar",
+      "name": "Utilizar Placeholder con jQuery",
+      "key": "utilizar|utilizarplaceholderconjquery",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-204D0A34F1C4",
+      "category": "완구",
+      "brand": "Placeholders",
+      "name": "Placeholders · PlaceholderAPI/PlaceholderAPI Wiki · GitHub",
+      "key": "placeholders|placeholdersplaceholderapiplaceholderapiwikigithub",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6C3900EDF151",
+      "category": "완구",
+      "brand": "Guía",
+      "name": "Guía completa sobre el uso adecuado del placeholder en diseño web",
+      "key": "gua|guacompletasobreelusoadecuadodelplaceholderendiseoweb",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-0C3C9125EB67",
+      "category": "완구",
+      "brand": "El",
+      "name": "El atributo Placeholder en HTML",
+      "key": "el|elatributoplaceholderenhtml",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-BFD01748B88F",
+      "category": "완구",
+      "brand": "Placeholders",
+      "name": "Placeholders",
+      "key": "placeholders|placeholders",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7496D42BB373",
+      "category": "완구",
+      "brand": "Fútbol",
+      "name": "Fútbol Libre",
+      "key": "ftbol|ftbollibre",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4794C730E062",
+      "category": "구강치발기",
+      "brand": "Podrían",
+      "name": "Podrían invertir hasta 1.5 millones para plantar arboles en el jardín ...",
+      "key": "podran|podraninvertirhasta15millonesparaplantararboleseneljardn",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5ED1C9DCC3FD",
+      "category": "구강치발기",
+      "brand": "Pasado",
+      "name": "Pasado mañana inicia rehabilitación del jardín principal",
+      "key": "pasado|pasadomaanainiciarehabilitacindeljardnprincipal",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1C22B643FCDB",
+      "category": "구강치발기",
+      "brand": "“REHABILITACIÓN",
+      "name": "“REHABILITACIÓN DE JARDÍN PRINCIPAL SERÁ AL GUSTO DE LA GENTE DE SAN ...",
+      "key": "rehabilitacin|rehabilitacindejardnprincipalseralgustodelagentedesan",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C9391D24ECFB",
+      "category": "구강치발기",
+      "brand": "Descubren",
+      "name": "Descubren ‘tesoros’ bajo el Jardín Principal de San José Iturbide ...",
+      "key": "descubren|descubrentesorosbajoeljardnprincipaldesanjositurbide",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-021AEF948AAB",
+      "category": "구강치발기",
+      "brand": "Jardín",
+      "name": "Jardín Principal San José de Iturbide, Pl. Principal 22",
+      "key": "jardn|jardnprincipalsanjosdeiturbideplprincipal22",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-087D621CE265",
+      "category": "구강치발기",
+      "brand": "Con",
+      "name": "Con inversión estatal, buscan ‘rescatar’ el Jardín Principal de San ...",
+      "key": "con|coninversinestatalbuscanrescatareljardnprincipaldesan",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-14AB9E649EE2",
+      "category": "구강치발기",
+      "brand": "Acusan",
+      "name": "Acusan presencia de enormes ratas en jardín de San José de Iturbide ...",
+      "key": "acusan|acusanpresenciadeenormesratasenjardndesanjosdeiturbide",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C0E994E57CAC",
+      "category": "구강치발기",
+      "brand": "Anuncian",
+      "name": "Anuncian proyecto de mejora urbana en jardín principal de San José",
+      "key": "anuncian|anuncianproyectodemejoraurbanaenjardnprincipaldesanjos",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-3CDEA4EE9E0B",
+      "category": "구강치발기",
+      "brand": "ARRANCA",
+      "name": "ARRANCA REHABILITACIÓN DEL JARDÍN DE SAN JOSÉ ITIRBIDE",
+      "key": "arranca|arrancarehabilitacindeljardndesanjositirbide",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-938209FDE2BF",
+      "category": "구강치발기",
+      "brand": "San",
+      "name": "San José de Iturbide será sede de la Segunda Feria Nacional de ...",
+      "key": "san|sanjosdeiturbidesersededelasegundaferianacionalde",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B085CAB26B51",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft charges more for Copilot while only 1% use it weekly",
+      "key": "microsoft|microsoftchargesmoreforcopilotwhileonly1useitweekly",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-3264084A483D",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft 365 Copilot and the end of the single",
+      "key": "microsoft|microsoft365copilotandtheendofthesingle",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-120F361D6DDA",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft eyes DeepSeek for enterprise AI",
+      "key": "microsoft|microsofteyesdeepseekforenterpriseai",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-2B8863A8E052",
+      "category": "구강치발기",
+      "brand": "Return",
+      "name": "Return on investment for Copilot ? Microsoft has work to do",
+      "key": "return|returnoninvestmentforcopilotmicrosofthasworktodo",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-530E17D3D2DB",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft rolls out Copilot to Accenture’s 743,000 employees, its ...",
+      "key": "microsoft|microsoftrollsoutcopilottoaccentures743000employeesits",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-403613BC094F",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft is moving the best Copilot features in Office behind a ...",
+      "key": "microsoft|microsoftismovingthebestcopilotfeaturesinofficebehinda",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-024455D097D5",
+      "category": "구강치발기",
+      "brand": "This",
+      "name": "This Copilot vulnerability could expose emails, 2FA codes, and ...",
+      "key": "this|thiscopilotvulnerabilitycouldexposeemails2facodesand",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-95681BDDF129",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft merges consumer and enterprise Copilot teams under new …",
+      "key": "microsoft|microsoftmergesconsumerandenterprisecopilotteamsundernew",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4193EAC1471C",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft 365 business customers are running out of places to ...",
+      "key": "microsoft|microsoft365businesscustomersarerunningoutofplacesto",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-94324B184597",
+      "category": "구강치발기",
+      "brand": "Microsoft",
+      "name": "Microsoft declares bring your Copilot to work day, usurping IT ...",
+      "key": "microsoft|microsoftdeclaresbringyourcopilottoworkdayusurpingit",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D2CE88AE0840",
+      "category": "턱받이",
+      "brand": "Wat",
+      "name": "Wat is een query ? Simpele uitleg + Leer zelf queries maken!",
+      "key": "wat|watiseenquerysimpeleuitlegleerzelfqueriesmaken",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CE334F665F86",
+      "category": "턱받이",
+      "brand": "Inleiding",
+      "name": "Inleiding tot query 's",
+      "key": "inleiding|inleidingtotquerys",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-9323FE993AC0",
+      "category": "턱받이",
+      "brand": "Wat",
+      "name": "Wat is een databasequery + praktijkvoorbeelden van querygebruik",
+      "key": "wat|watiseendatabasequerypraktijkvoorbeeldenvanquerygebruik",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B46BED98D770",
+      "category": "턱받이",
+      "brand": "Wat",
+      "name": "Wat is een Query ?",
+      "key": "wat|watiseenquery",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-05D4609DD0D0",
       "category": "턱받이",
       "brand": "Query",
-      "name": "Query",
-      "key": "query|query",
+      "name": "Query Betekenis",
+      "key": "query|querybetekenis",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "generic_or_short_title",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-5D31A486AF45",
+      "id": "DISC-89D8BF9BD62E",
       "category": "턱받이",
-      "brand": "Home",
-      "name": "Home",
-      "key": "home|home",
+      "brand": "The",
+      "name": "The American Express® Gold Card",
+      "key": "the|theamericanexpressgoldcard",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-442F6014FF52",
+      "id": "DISC-D7383A607A35",
       "category": "턱받이",
-      "brand": "パソコンのホーム画面を",
-      "name": "パソコンのホーム画面を",
-      "key": "|",
+      "brand": "American",
+      "name": "American Express® Gold Card",
+      "key": "american|americanexpressgoldcard",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-2337E216C3CD",
+      "id": "DISC-CAE42886D83D",
       "category": "턱받이",
-      "brand": "パソコン版Yahoo!メールのログイン/ログアウト方法",
-      "name": "パソコン版Yahoo!メールのログイン/ログアウト方法",
-      "key": "yahoo|yahoo",
+      "brand": "16",
+      "name": "16 Amex Gold Card Benefits – Forbes Advisor",
+      "key": "16|16amexgoldcardbenefitsforbesadvisor",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-9E64ADA6D693",
+      "id": "DISC-944E9BC6B5A8",
       "category": "턱받이",
-      "brand": "ヤフー画面の文字の大きさを変える方法を教えてください",
-      "name": "ヤフー画面の文字の大きさを変える方法を教えてください",
-      "key": "|",
+      "brand": "American",
+      "name": "American Express Gold Card review",
+      "key": "american|americanexpressgoldcardreview",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-06BD4903429B",
+      "id": "DISC-813C7BFEC951",
       "category": "턱받이",
-      "brand": "ログアウトするには",
-      "name": "ログアウトするには",
-      "key": "|",
+      "brand": "14",
+      "name": "14 Benefits of the American Express Gold Card",
+      "key": "14|14benefitsoftheamericanexpressgoldcard",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-994D8DF96A05",
+      "id": "DISC-4256415B8B2C",
+      "category": "턱받이",
+      "brand": "American",
+      "name": "American Express® Gold Card Review 2026",
+      "key": "american|americanexpressgoldcardreview2026",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-CD16F95873B6",
+      "category": "턱받이",
+      "brand": "American",
+      "name": "American Express® Gold Card 2026 Review",
+      "key": "american|americanexpressgoldcard2026review",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E3A6C60A91DC",
+      "category": "턱받이",
+      "brand": "最初に表示されるページ（ホームページ）をYahoo!",
+      "name": "最初に表示されるページ（ホームページ）をYahoo! JAPANに ...",
+      "key": "yahoo|yahoojapan",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-7DD83C18B11A",
+      "category": "턱받이",
+      "brand": "Yahoo!JAPANの背景色を変えるにはどのおように設定を変えれ",
+      "name": "Yahoo!JAPANの背景色を変えるにはどのおように設定を変えれ ...",
+      "key": "yahoojapan|yahoojapan",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-739025B9857B",
       "category": "수유용품",
-      "brand": "【科研工具箱】图说ELISA数据处理之",
-      "name": "【科研工具箱】图说ELISA数据处理之 Curve Expert1.4",
+      "brand": "ELISA数据处理软件之",
+      "name": "ELISA数据处理软件之 Curve Expert1.4及使用方法",
       "key": "elisa|elisacurveexpert14",
       "reasons": [
-        "duplicates_discovered_candidate"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-ED826BD5D9C9",
+      "id": "DISC-2D3D9CAB43E2",
       "category": "수유용품",
-      "brand": "ELISA标准曲线绘制详细教程",
-      "name": "ELISA标准曲线绘制详细教程",
-      "key": "elisa|elisa",
+      "brand": "Curve",
+      "name": "Curve Expert 画ELISA曲线保姆级教程",
+      "key": "curve|curveexpertelisa",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-E4E8D50747EF",
+      "id": "DISC-8B66314A6FEB",
+      "category": "수유용품",
+      "brand": "Hyams",
+      "name": "Hyams Development – Curve fitting and scientific graphing/plotting ...",
+      "key": "hyams|hyamsdevelopmentcurvefittingandscientificgraphingplotting",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5948E23586E9",
+      "category": "수유용품",
+      "brand": "Curve",
+      "name": "Curve Expert Software",
+      "key": "curve|curveexpertsoftware",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5799DB857B69",
+      "category": "수유용품",
+      "brand": "CurveExpert",
+      "name": "CurveExpert 下载",
+      "key": "curveexpert|curveexpert",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-43B652D24390",
+      "category": "수유용품",
+      "brand": "ELISA",
+      "name": "ELISA Kit操作视频及标准曲线绘制",
+      "key": "elisa|elisakit",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-81F90B71CBF4",
+      "category": "수유용품",
+      "brand": "CurveExpert",
+      "name": "CurveExpert Pro 2.6.5版",
+      "key": "curveexpert|curveexpertpro265",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C307EA55036B",
+      "category": "수유용품",
+      "brand": "CurveExpert",
+      "name": "CurveExpert Professional – Hyams Development",
+      "key": "curveexpert|curveexpertprofessionalhyamsdevelopment",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-725D1FED4907",
+      "category": "수유용품",
+      "brand": "Teams",
+      "name": "Teams Developer Portal and bots",
+      "key": "teams|teamsdeveloperportalandbots",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-ED746E2331AE",
       "category": "수유용품",
       "brand": "Discord",
-      "name": "Discord",
-      "key": "discord|discord",
+      "name": "Discord Developer Portal Easter Egg?!",
+      "key": "discord|discorddeveloperportaleasteregg",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-FE8387180342",
+      "id": "DISC-2DC37B7EC9FD",
+      "category": "수유용품",
+      "brand": "Discord",
+      "name": "Discord Unable To Remove App In Discord Developer Portal",
+      "key": "discord|discordunabletoremoveappindiscorddeveloperportal",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C0128EEE6276",
+      "category": "수유용품",
+      "brand": "Discord",
+      "name": "Discord OAuth2 Redirect URI says \"Invalid OAuth2 redirect_uri\"",
+      "key": "discord|discordoauth2redirecturisaysinvalidoauth2redirecturi",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-5E1E8704E449",
+      "category": "수유용품",
+      "brand": "Discord",
+      "name": "Discord API",
+      "key": "discord|discordapi",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-C63E527AFB6F",
+      "category": "수유용품",
+      "brand": "Discord",
+      "name": "Discord Developer Portal",
+      "key": "discord|discorddeveloperportal",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-03477ABD2A54",
+      "category": "수유용품",
+      "brand": "What",
+      "name": "What is this? I didn't create an application in Developer Portal.",
+      "key": "what|whatisthisididntcreateanapplicationindeveloperportal",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-96723F31D3D3",
+      "category": "수유용품",
+      "brand": "Discord",
+      "name": "Discord Developer Portal Sign in Loop",
+      "key": "discord|discorddeveloperportalsigninloop",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-8707F048B829",
+      "category": "수유용품",
+      "brand": "Trying",
+      "name": "Trying to access discord developer portal",
+      "key": "trying|tryingtoaccessdiscorddeveloperportal",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1192B3CF2A28",
       "category": "이유식용품",
-      "brand": "احجز",
-      "name": "احجز تذاكر طيران مخفّضة مع الطيران الأفضل",
-      "key": "|",
+      "brand": "Book",
+      "name": "Book A Flight",
+      "key": "book|bookaflight",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-CE320FE96B51",
+      "id": "DISC-D4D639F5ECD4",
       "category": "이유식용품",
       "brand": "flynas",
-      "name": "flynas",
-      "key": "flynas|flynas",
+      "name": "flynas Career",
+      "key": "flynas|flynascareer",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-F0E38B10F32C",
+      "id": "DISC-3D480360826D",
       "category": "이유식용품",
-      "brand": "القوائم",
-      "name": "القوائم المالية",
-      "key": "|",
+      "brand": "flynas",
+      "name": "flynas Self Service Portal",
+      "key": "flynas|flynasselfserviceportal",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-85FD8D03E18B",
+      "id": "DISC-5847C7FCE4CA",
       "category": "이유식용품",
-      "brand": "اللجان",
-      "name": "اللجان",
-      "key": "|",
+      "brand": "NASW",
+      "name": "NASW Home",
+      "key": "nasw|naswhome",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-79FEDB3E58FD",
+      "id": "DISC-71A72B01AC7E",
       "category": "이유식용품",
-      "brand": "ساϨ",
-      "name": "ساϨ Ϧارϵς Ϣ اϝحأ Ϯ ςϮرش",
-      "key": "|",
+      "brand": "Code",
+      "name": "Code of Ethics",
+      "key": "code|codeofethics",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-9669125C0880",
+      "id": "DISC-EA3A800D4413",
       "category": "이유식용품",
-      "brand": "Baixar",
-      "name": "Baixar",
-      "key": "baixar|baixar",
+      "brand": "National",
+      "name": "National Association of Social Workers",
+      "key": "national|nationalassociationofsocialworkers",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
       ]
     },
     {
-      "id": "DISC-519C35730201",
+      "id": "DISC-A9C45304BCDF",
+      "category": "이유식용품",
+      "brand": "DroidCam",
+      "name": "DroidCam OBS Camera",
+      "key": "droidcam|droidcamobscamera",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-53D782CA2086",
+      "category": "이유식용품",
+      "brand": "Facebook",
+      "name": "Facebook verrouillé et code reçu par whatsapp",
+      "key": "facebook|facebookverrouilletcodereuparwhatsapp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4C9B84F10DD3",
+      "category": "이유식용품",
+      "brand": "Facebook",
+      "name": "Facebook trop lent [Résolu]",
+      "key": "facebook|facebooktroplentrsolu",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-47BD514D483C",
+      "category": "이유식용품",
+      "brand": "OBS",
+      "name": "OBS Studio Ideas and Suggestions",
+      "key": "obs|obsstudioideasandsuggestions",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B123430B462E",
+      "category": "이유식용품",
+      "brand": "Download",
+      "name": "Download",
+      "key": "download|download",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B22BE4E76995",
+      "category": "이유식용품",
+      "brand": "Windows",
+      "name": "Windows Installation",
+      "key": "windows|windowsinstallation",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-789692620CD2",
+      "category": "이유식용품",
+      "brand": "Background",
+      "name": "Background Removal / Virtual Green",
+      "key": "background|backgroundremovalvirtualgreen",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6DED9111C28B",
       "category": "위생용품",
-      "brand": "Help",
-      "name": "Help",
-      "key": "help|help",
+      "brand": "Arrow",
+      "name": "Arrow (TV Series 2012–2020)",
+      "key": "arrow|arrowtvseries20122020",
       "reasons": [
-        "generic_or_short_title"
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D52ADA13D3DB",
+      "category": "위생용품",
+      "brand": "Katrina",
+      "name": "Katrina Law",
+      "key": "katrina|katrinalaw",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A4B06FB1896D",
+      "category": "위생용품",
+      "brand": "Jack",
+      "name": "Jack Wright",
+      "key": "jack|jackwright",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E5FB0DDADC6F",
+      "category": "위생용품",
+      "brand": "Justin",
+      "name": "Justin Hartley",
+      "key": "justin|justinhartley",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-04A994494882",
+      "category": "위생용품",
+      "brand": "Austin",
+      "name": "Austin Butler",
+      "key": "austin|austinbutler",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-E07B04B55952",
+      "category": "위생용품",
+      "brand": "Jamey",
+      "name": "Jamey Sheridan",
+      "key": "jamey|jameysheridan",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-D7A1B2814093",
+      "category": "위생용품",
+      "brand": "Top",
+      "name": "Top 100 most watched tv shows of all time",
+      "key": "top|top100mostwatchedtvshowsofalltime",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A1B055B6A4F8",
+      "category": "위생용품",
+      "brand": "Arrowverse",
+      "name": "Arrowverse Crossovers",
+      "key": "arrowverse|arrowversecrossovers",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A840E81CC0D3",
+      "category": "위생용품",
+      "brand": "Mergers",
+      "name": "Mergers and acquisitions involving UK companies",
+      "key": "mergers|mergersandacquisitionsinvolvingukcompanies",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1895FC8BC04B",
+      "category": "위생용품",
+      "brand": "Mergers",
+      "name": "Mergers and Acquisitions review",
+      "key": "mergers|mergersandacquisitionsreview",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B830B4BE34E5",
+      "category": "위생용품",
+      "brand": "ONS",
+      "name": "ONS > Mergers and Acquisitions involving UK companies @ 377",
+      "key": "ons|onsmergersandacquisitionsinvolvingukcompanies377",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-4AADB7EC73EB",
+      "category": "위생용품",
+      "brand": "Top",
+      "name": "Top M&A Consulting Firms in the UK",
+      "key": "top|topmaconsultingfirmsintheuk",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-B253133714D6",
+      "category": "위생용품",
+      "brand": "Top",
+      "name": "Top Mergers & Acquisitions consulting firms in the UK 2025",
+      "key": "top|topmergersacquisitionsconsultingfirmsintheuk2025",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-686131A4706C",
+      "category": "위생용품",
+      "brand": "Descargar",
+      "name": "Descargar WhatsApp",
+      "key": "descargar|descargarwhatsapp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-907294A229C9",
+      "category": "위생용품",
+      "brand": "Download",
+      "name": "Download WhatsApp for Android",
+      "key": "download|downloadwhatsappforandroid",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-04E357763FBB",
+      "category": "위생용품",
+      "brand": "Download",
+      "name": "Download WhatsApp",
+      "key": "download|downloadwhatsapp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-A81E8FE4F395",
+      "category": "위생용품",
+      "brand": "WhatsApp",
+      "name": "WhatsApp",
+      "key": "whatsapp|whatsapp",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-1B85D858F36B",
+      "category": "위생용품",
+      "brand": "How",
+      "name": "How to download WhatsApp Desktop",
+      "key": "how|howtodownloadwhatsappdesktop",
+      "reasons": [
+        "category_term_mismatch",
+        "no_direct_korean_sales_candidate_url",
+        "no_korean_product_identity"
+      ]
+    },
+    {
+      "id": "DISC-6DEF73FB909C",
+      "category": "위생용품",
+      "brand": "Descarga",
+      "name": "Descarga WhatsApp para Android",
+      "key": "descarga|descargawhatsappparaandroid",
+      "reasons": [
+        "category_term_mismatch",
+        "no_korean_product_identity"
       ]
     }
   ]
