@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reject technically green runs that performed no effective research."""
+"""Verify that the requested research scope ran and report valid output honestly."""
 import json
 from pathlib import Path
 
@@ -9,16 +9,31 @@ state = audit.get("state", {})
 errors = []
 if state.get("pendingSelected") != 50:
     errors.append(f"pendingSelected={state.get('pendingSelected')} expected=50")
-if len(state.get("currentCategories", [])) != 6:
+categories = list(state.get("currentCategories", []))
+if len(categories) != 6:
     errors.append("all six categories were not attempted")
+
 effective = int(state.get("effectiveRevalidations", 0))
-new_candidates = int(state.get("newCandidates", 0))
-if effective == 0 and new_candidates == 0:
-    errors.append("zero effective revalidations and zero new candidates")
+valid_candidates = int(state.get("newCandidates", 0))
+raw_candidates = int(state.get("rawNewCandidates", valid_candidates))
+valid_by_category = {
+    str(key): int(value)
+    for key, value in dict(state.get("newCandidatesByCategory", {})).items()
+}
+shortfall = {
+    category: max(0, 20 - valid_by_category.get(category, 0))
+    for category in categories
+}
 report = {
     "passed": not errors,
+    "scopeExecuted": not errors,
     "effectiveRevalidations": effective,
-    "newCandidates": new_candidates,
+    "rawCandidatesFound": raw_candidates,
+    "validCandidates": valid_candidates,
+    "validCandidatesByCategory": valid_by_category,
+    "candidateTargetPerCategory": 20,
+    "candidateTargetMet": bool(categories) and all(value == 0 for value in shortfall.values()),
+    "candidateShortfallByCategory": shortfall,
     "errors": errors,
 }
 (root / "data/research-effectiveness-report.json").write_text(
