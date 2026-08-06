@@ -15,6 +15,8 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/master-products.json"
+STATE = ROOT / "data/continuous-research-state.json"
+AUDIT = ROOT / "data/research-last-run.json"
 REPORT = ROOT / "data/discovered-candidate-sanitization.json"
 GENERIC = {
     "ai", "bing", "chatgpt", "google", "help", "home", "main", "news",
@@ -113,6 +115,37 @@ def candidate_url(item: dict) -> str:
     return ""
 
 
+def update_state_files(valid_counts: dict[str, int], removed_count: int, output_count: int) -> None:
+    valid_total = sum(valid_counts.values())
+
+    if STATE.exists():
+        state = json.loads(STATE.read_text(encoding="utf-8"))
+        raw_total = int(state.get("newCandidates", 0))
+        state["rawNewCandidates"] = raw_total
+        state["newCandidates"] = valid_total
+        state["newCandidatesByCategory"] = valid_counts
+        state["removedInvalidCandidates"] = removed_count
+        state["totalProducts"] = output_count
+        STATE.write_text(
+            json.dumps(state, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+    if AUDIT.exists():
+        audit = json.loads(AUDIT.read_text(encoding="utf-8"))
+        state = audit.setdefault("state", {})
+        raw_total = int(state.get("newCandidates", 0))
+        state["rawNewCandidates"] = raw_total
+        state["newCandidates"] = valid_total
+        state["newCandidatesByCategory"] = valid_counts
+        state["removedInvalidCandidates"] = removed_count
+        state["totalProducts"] = output_count
+        AUDIT.write_text(
+            json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+
 def main() -> None:
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     existing_keys = {
@@ -172,15 +205,18 @@ def main() -> None:
         if str(item.get("id", "")).startswith("DISC-")
         and item.get("status") == "보류"
     )
+    valid_counts = {str(key): int(value) for key, value in remaining_counts.items()}
     SOURCE.write_text(
         json.dumps(kept, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    update_state_files(valid_counts, len(removed), len(kept))
     report = {
         "inputCount": len(products),
         "outputCount": len(kept),
         "removedCount": len(removed),
-        "remainingCandidatesByCategory": dict(remaining_counts),
+        "remainingCandidateCount": sum(valid_counts.values()),
+        "remainingCandidatesByCategory": valid_counts,
         "removed": removed,
     }
     REPORT.write_text(
