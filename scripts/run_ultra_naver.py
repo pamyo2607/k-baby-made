@@ -6,6 +6,7 @@ from urllib.parse import parse_qs, urlparse
 
 import naver_pending_revalidation as pending
 import naver_product_discovery as naver
+import naver_product_discovery_paced as paced
 import run_ultra_parallel as pipeline
 
 _original_revalidate = pipeline.safe_revalidate
@@ -33,7 +34,7 @@ def revalidate(product: dict) -> dict:
 
 def discover(category: str, products: list[dict]) -> list[dict]:
     try:
-        return naver.discover(category, products, pipeline.NEW_PER_CATEGORY)
+        return paced.discover(category, products, pipeline.NEW_PER_CATEGORY)
     except Exception as exc:
         print(f"naver discovery failed for {category}: {type(exc).__name__}: {exc}")
         return []
