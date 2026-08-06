@@ -1,5 +1,8 @@
 {
   "lastRun": "2026-08-06",
+  "qualityMode": "ultra",
+  "executionMode": "bounded-parallel",
+  "scheduleTarget": "5분 최단 주기",
   "currentCategories": [
     "완구",
     "구강치발기",
@@ -8,11 +11,20 @@
     "이유식용품",
     "위생용품"
   ],
-  "nextCategory": "구강치발기",
-  "categoryIndex": 1,
+  "nextCategory": "완구",
+  "categoryIndex": 0,
   "pendingSelected": 50,
   "verifiedThisRun": 0,
+  "includedThisRun": 9,
   "newCandidates": 0,
+  "newCandidatesByCategory": {
+    "완구": 0,
+    "구강치발기": 0,
+    "턱받이": 0,
+    "수유용품": 0,
+    "이유식용품": 0,
+    "위생용품": 0
+  },
   "errors": 50,
   "totalProducts": 230
 }
