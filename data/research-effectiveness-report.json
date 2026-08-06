@@ -1,5 +1,5 @@
 {
-  "passed": true,
+  "passed": false,
   "scopeExecuted": true,
   "effectiveRevalidations": 50,
   "rawCandidatesFound": 119,
@@ -22,5 +22,15 @@
     "이유식용품": 4,
     "위생용품": 2
   },
-  "errors": []
+  "errors": [
+    "cumulative valid candidate target not met: {'완구': 4, '구강치발기': 1, '턱받이': 3, '수유용품': 4, '이유식용품': 4, '위생용품': 2}"
+  ],
+  "cumulativeValidCandidatesByCategory": {
+    "완구": 16,
+    "구강치발기": 19,
+    "턱받이": 17,
+    "수유용품": 16,
+    "이유식용품": 16,
+    "위생용품": 18
+  }
 }
