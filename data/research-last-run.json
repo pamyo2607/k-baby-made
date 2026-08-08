@@ -1,6 +1,6 @@
 {
   "state": {
-    "lastRun": "2026-08-07",
+    "lastRun": "2026-08-08",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "scheduleTarget": "5분 최단 주기",
@@ -40,7 +40,7 @@
       "quality": "ultra",
       "errors": [],
       "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://smartstore.naver.com/main/products/13423665772"
+      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/61140838782"
     },
     {
       "id": "TOY-20260729-002",
@@ -49,7 +49,7 @@
       "quality": "ultra",
       "errors": [],
       "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000834297093"
+      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/60591366329"
     },
     {
       "id": "TOY-20260729-005",
@@ -211,10 +211,9 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [
-        "current_sale_listing_not_confirmed"
-      ],
-      "saleListingConfirmed": false
+      "errors": [],
+      "saleListingConfirmed": true,
+      "replacementSalesUrl": "https://www.sweet-heart.co.kr/product/detail.html"
     },
     {
       "id": "TOY-20260729-035",
@@ -298,9 +297,10 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/57992063572"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-045",
