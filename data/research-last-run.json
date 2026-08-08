@@ -27,7 +27,7 @@
       "이유식용품": 20,
       "위생용품": 20
     },
-    "errors": 31,
+    "errors": 30,
     "totalProducts": 350,
     "rawNewCandidates": 0,
     "removedInvalidCandidates": 0
@@ -268,10 +268,9 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [
-        "current_sale_listing_not_confirmed"
-      ],
-      "saleListingConfirmed": false
+      "errors": [],
+      "saleListingConfirmed": true,
+      "replacementSalesUrl": "https://www.coupang.com/vp/products/7756347065"
     },
     {
       "id": "TOY-20260729-041",
