@@ -27,7 +27,7 @@
       "이유식용품": 20,
       "위생용품": 20
     },
-    "errors": 29,
+    "errors": 31,
     "totalProducts": 350,
     "rawNewCandidates": 0,
     "removedInvalidCandidates": 0
@@ -177,7 +177,7 @@
       "quality": "ultra",
       "errors": [],
       "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/61148931073"
+      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/61242752340"
     },
     {
       "id": "TOY-20260729-031",
@@ -221,9 +221,10 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/59716790621"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-036",
@@ -427,9 +428,10 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000553280466"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-060",
