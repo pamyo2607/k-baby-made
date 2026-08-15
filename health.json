@@ -1,26 +1,29 @@
 {
   "status": "ok",
-  "rawRecords": 350,
-  "uniqueProducts": 350,
+  "rawRecords": 573,
+  "uniqueProducts": 573,
   "duplicateRecords": 0,
   "statusCounts": {
-    "보류": 305,
-    "제외": 36,
+    "보류": 496,
+    "제외": 68,
     "포함": 9
   },
   "categoryCounts": {
     "완구": 220,
     "구강치발기": 50,
-    "턱받이": 20,
-    "수유용품": 20,
+    "턱받이": 29,
+    "수유용품": 74,
     "이유식용품": 20,
-    "위생용품": 20
+    "위생용품": 20,
+    "위생·기저귀": 53,
+    "이유식·식기": 71,
+    "구강·치발기": 36
   },
   "includedEvidenceViolations": 0,
   "recovery": {
-    "sourceRecords": 350,
+    "sourceRecords": 573,
     "previousKnownUniqueProducts": 455,
-    "missingFromCurrentRecovery": 105,
-    "complete": false
+    "missingFromCurrentRecovery": 0,
+    "complete": true
   }
 }
