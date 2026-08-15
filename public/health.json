@@ -1,9 +1,9 @@
 {
   "status": "ok",
-  "build": "20260815-live459-recovery2",
-  "rawRecords": 459,
+  "build": "20260815-dedup449-final1",
+  "rawRecords": 449,
   "uniqueProducts": 449,
-  "duplicateRecords": 10,
+  "duplicateRecords": 0,
   "fullRevalidationTargetRows": 403,
   "strict419TargetRows": 403,
   "statusCounts": {
@@ -14,12 +14,12 @@
   "rawStatusCounts": {
     "포함": 21,
     "보류": 382,
-    "제외": 56
+    "제외": 46
   },
-  "sha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
-  "fallbackSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
-  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d",
-  "excludedAndDuplicate": 56,
+  "sha256": "1fe816db20b85846ccc4449a5281728b0cb11718ad29632a008e3a0831c8edde",
+  "fallbackSha256": "1fe816db20b85846ccc4449a5281728b0cb11718ad29632a008e3a0831c8edde",
+  "csvSha256": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e",
+  "excludedAndDuplicate": 46,
   "transport": "verified-csv",
   "lastUpdated": "2026-08-15",
   "quarantinedCandidates": 120,

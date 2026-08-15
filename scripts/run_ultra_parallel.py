@@ -46,6 +46,7 @@ HEADERS = {
 LOW_PRIORITY_DOMAINS = ("coupang.com", "gmarket.co.kr", "ssg.com", "danawa.com")
 PLACEHOLDER_BRANDS = {"", "브랜드 확인 중", "확인 중", "미상"}
 STAGING = rr.ROOT / "data/discovered-candidate-staging.json"
+TOMBSTONES = rr.ROOT / "data/deleted-duplicate-tombstones.json"
 FIELD_PRIORITY = {
     "safetyKoreaSameModel": 0,
     "countryOfManufacture": 1,
@@ -272,6 +273,24 @@ def pending_priority(item: dict) -> tuple:
     )
 
 
+def tombstone_dedupe_rows() -> list[dict]:
+    if not TOMBSTONES.exists():
+        return []
+    document = json.loads(TOMBSTONES.read_text(encoding="utf-8"))
+    rows: list[dict] = []
+    for item in document.get("records", []):
+        brands = [item.get("brand", ""), *item.get("brandAliases", [])]
+        for brand in dict.fromkeys(str(value).strip() for value in brands if str(value).strip()):
+            rows.append({
+                "id": item.get("deletedId", ""),
+                "brand": brand,
+                "name": item.get("name", ""),
+                "officialUrls": list(item.get("evidenceUrls", [])),
+                "evidenceUrls": list(item.get("evidenceUrls", [])),
+            })
+    return rows
+
+
 def main() -> None:
     if not 0 <= PENDING_LIMIT <= 50:
         raise SystemExit(f"KBABY_PENDING_LIMIT must be between 0 and 50: {PENDING_LIMIT}")
@@ -285,6 +304,7 @@ def main() -> None:
     rr.ddg_results = multi_search
     products = json.loads(rr.SOURCE.read_text(encoding="utf-8"))
     staged = json.loads(STAGING.read_text(encoding="utf-8")) if STAGING.exists() else []
+    dedupe_universe = products + staged + tombstone_dedupe_rows()
 
     previous_state = (
         json.loads(rr.STATE.read_text(encoding="utf-8"))
@@ -333,17 +353,17 @@ def main() -> None:
         thread_name_prefix="discover",
     ) as executor:
         batches = list(executor.map(
-            lambda category: safe_discover(category, products + staged),
+            lambda category: safe_discover(category, dedupe_universe),
             categories,
         ))
 
     raw_candidates_found = sum(len(batch) for batch in batches)
     seen_urls = {
         url
-        for item in products + staged
+        for item in dedupe_universe
         for url in list(item.get("officialUrls", [])) + list(item.get("evidenceUrls", []))
     }
-    seen_keys = {normalized_key(item) for item in products + staged}
+    seen_keys = {normalized_key(item) for item in dedupe_universe}
     per_category = {category: 0 for category in categories}
     discovered: list[dict] = []
     for batch in batches:

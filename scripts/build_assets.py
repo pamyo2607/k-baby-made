@@ -17,7 +17,8 @@ PUBLIC = ROOT / "public"
 SOURCE = DATA / "master-products.json"
 OVERRIDES = DATA / "codex-revalidation-overrides.json"
 RECOVERY_REPORT = DATA / "live-recovery-report.json"
-BUILD = "20260815-live459-recovery2"
+TOMBSTONES = DATA / "deleted-duplicate-tombstones.json"
+BUILD = "20260815-dedup449-final1"
 CATEGORIES = ["완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀"]
 CSV_FIELDS = [
     "순번", "ID", "제품군", "세부 유형", "브랜드", "정확한 제품명", "현재 판정", "완제품 제조국",
@@ -197,11 +198,27 @@ def main() -> None:
     canonical_sha = sha(SOURCE.read_bytes())
 
     override_doc = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8"))
+    tombstone_by_id = {
+        item["deletedId"]: item for item in tombstone_doc.get("records", [])
+    }
     recovery_report = json.loads(RECOVERY_REPORT.read_text(encoding="utf-8"))
     history: list[dict] = []
     by_id = {item["id"]: item for item in products}
     for change in override_doc.get("changes", []):
-        product = by_id[change["id"]]
+        product = by_id.get(change["id"])
+        if product is None:
+            tombstone = tombstone_by_id.get(change["id"])
+            if tombstone is None:
+                raise SystemExit(f"override references missing non-tombstoned product: {change['id']}")
+            history.append({
+                "date": "2026-08-15",
+                "productId": change["id"],
+                "productName": tombstone.get("name", ""),
+                "newStatus": "중복 행 삭제",
+                "summary": change.get("historyEntry", ""),
+            })
+            continue
         history.append({
             "date": "2026-08-15",
             "productId": product["id"],
@@ -209,6 +226,16 @@ def main() -> None:
             "newStatus": product.get("status", ""),
             "summary": change.get("historyEntry", ""),
         })
+    historical_reviewed_count = len(history)
+    active_reviewed_count = sum(change.get("id") in by_id for change in override_doc.get("changes", []))
+    deleted_duplicate_review_count = historical_reviewed_count - active_reviewed_count
+    history.insert(0, {
+        "date": "2026-08-15",
+        "productId": "DB-DEDUP-20260815",
+        "productName": "확정 중복 활성 행 10개 삭제",
+        "newStatus": "완료",
+        "summary": "백업 후 검증 근거를 9개 유지 canonical에 병합하고 중복 활성 행 10개를 삭제함",
+    })
 
     missing_counter: Counter[str] = Counter()
     queue: list[dict] = []
@@ -362,7 +389,9 @@ def main() -> None:
         },
         "reportScope": "closed 2026-08-15 recovery batch plus current generated inventory",
         "recoveryBatch": {
-            "reviewedExistingProducts": len(history),
+            "reviewedExistingProducts": historical_reviewed_count,
+            "activeReviewedProducts": active_reviewed_count,
+            "deletedDuplicateReviewEntries": deleted_duplicate_review_count,
             "newProductsReviewed": 0,
             "statusTransitions": {
                 "pendingToIncluded": int(transitions.get("보류→포함", 0)),
@@ -371,7 +400,7 @@ def main() -> None:
                 "includedToExcluded": int(transitions.get("포함→제외", 0)),
                 "pendingMaintained": int(transitions.get("보류→보류", 0)),
             },
-            "changedProducts": len(history),
+            "changedProducts": historical_reviewed_count,
             "statusChangedProducts": sum(
                 int(count)
                 for transition, count in transitions.items()
@@ -409,22 +438,8 @@ def main() -> None:
     dump(DATA / "full-revalidation-v3-summary.json", summary)
     dump(DATA / "full-revalidation-v3-report.json", missing_report)
 
-    previous_proof_path = DATA / "codex-production-verification.json"
-    previous_proof = {}
-    if previous_proof_path.exists():
-        try:
-            previous_proof = json.loads(previous_proof_path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            previous_proof = {}
-    deployment_verification = str(
-        previous_proof.get("deploymentVerification", "pending")
-    )
     proof = {
-        "status": (
-            str(previous_proof.get("status", "passed"))
-            if deployment_verification != "pending"
-            else "passed"
-        ),
+        "status": "pending",
         "build": BUILD,
         "legacyStrict419Filename": True,
         "rawRecords": len(products),
@@ -436,7 +451,7 @@ def main() -> None:
         "uniqueExcluded": unique_status["제외"],
         "verifiedTotal": len(unique_products),
         "transport": "verified-csv",
-        "liveConnected": True,
+        "liveConnected": False,
         "buildError": None,
         "expectedRenderedCards": 24,
         "includedTile": unique_status["포함"],
@@ -444,18 +459,9 @@ def main() -> None:
         "excludedAndDuplicateTile": excluded_and_duplicate,
         "dataSha256": compact_sha,
         "csvSha256": csv_sha,
-        "deploymentVerification": deployment_verification,
+        "deploymentVerification": "pending",
+        "blockingIssue": "Production deploy and cache-busted endpoint/browser verification required",
     }
-    for key in ("requestedProduction", "blockingIssue"):
-        if key in previous_proof:
-            proof[key] = previous_proof[key]
-    if isinstance(previous_proof.get("verifiedDeployment"), dict):
-        verified_deployment = dict(previous_proof["verifiedDeployment"])
-        verified_deployment["artifactMatchesCurrentBuild"] = bool(
-            previous_proof.get("dataSha256") == compact_sha
-            and previous_proof.get("csvSha256") == csv_sha
-        )
-        proof["verifiedDeployment"] = verified_deployment
     for name in (
         "strict-419-production-final-proof.json",
         "strict-419-live-sync-proof.json",

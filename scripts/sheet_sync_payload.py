@@ -13,6 +13,7 @@ CSV_PATH = DATA / "master-db-419-final.csv"
 ORDER_PATH = DATA / "sheet-sync-order.json"
 PRODUCTS_PATH = DATA / "master-products.json"
 OVERRIDES_PATH = DATA / "codex-revalidation-overrides.json"
+TOMBSTONES_PATH = DATA / "deleted-duplicate-tombstones.json"
 
 
 def cell(value: object) -> dict:
@@ -95,22 +96,34 @@ def queue_rows() -> list[dict]:
 def history_rows() -> list[dict]:
     products = {item["id"]: item for item in json.loads(PRODUCTS_PATH.read_text(encoding="utf-8"))}
     changes = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))["changes"]
+    tombstone_doc = json.loads(TOMBSTONES_PATH.read_text(encoding="utf-8"))
+    tombstones = {item["deletedId"]: item for item in tombstone_doc.get("records", [])}
     duplicate_count = sum(bool(item.get("duplicateOf")) for item in products.values())
     output = [row([
         "2026-08-15 16:31",
         "운영 DB 복구·기준 정정",
-        f"라이브 {len(products)}행 복구, {duplicate_count}개 중복 구조화, 공식 우선 재검증 {len(changes)}건 반영",
+        f"활성 DB {len(products)}행, 중복 연결 {duplicate_count}개, 중복 활성행 {len(tombstones)}개 삭제, 공식 우선 재검증 {len(changes)}건 이력 보존",
         "대한민국 완제품 제조 · 현재 판매 · 0~35개월 · 제품별 적용 법령 · 동일 모델 공식 근거",
         "Master DB · 재검증 대기열 · 웹앱",
     ])]
+    output.append(row([
+        "2026-08-15 19:30",
+        "확정 중복 활성 행 삭제",
+        "; ".join(f"{deleted_id} → {item['retainedId']}" for deleted_id, item in tombstones.items()),
+        "삭제 전 Google Sheet 전체 사본 보관 · 신뢰 근거와 별칭은 유지 canonical에 병합 · 중복만으로 포함 승격 금지",
+        tombstone_doc.get("sheetBackup", {}).get("url", ""),
+    ]))
     for change in changes:
-        item = products[change["id"]]
+        item = products.get(change["id"])
+        tombstone = tombstones.get(change["id"])
+        if item is None and tombstone is None:
+            raise SystemExit(f"history references missing non-tombstoned product: {change['id']}")
         output.append(row([
             "2026-08-15 16:31",
-            "제품 재검증",
-            f"{item['id']} · {item.get('name', '')} · {change.get('historyEntry', '')}",
+            "중복 행 삭제 이력" if tombstone else "제품 재검증",
+            f"{change['id']} · {(item or tombstone).get('name', '')} · {change.get('historyEntry', '')}",
             "공식 동일 제품 근거 우선 · 근거 부족은 보류",
-            item.get("category", ""),
+            item.get("category", "") if item else f"삭제 → {tombstone['retainedId']}",
         ]))
     return output
 
@@ -131,7 +144,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("mode", choices=("master", "queue", "history"))
     parser.add_argument("--start", type=int, default=0)
-    parser.add_argument("--count", type=int, default=459)
+    parser.add_argument("--count", type=int, default=449)
     args = parser.parse_args()
     emit(args.mode, args.start, args.count)
 

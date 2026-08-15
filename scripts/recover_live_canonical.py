@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recover the verified 459-row production payload without losing partial-main work.
+"""Recover the verified source payload into the deduplicated active database.
 
 The deployed gzip payload is the only complete surviving canonical dataset.  This
 script verifies its exact baseline hash, preserves the previous partial recovery,
@@ -25,19 +25,22 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 SOURCE = DATA / "master-products.json"
 OVERRIDES = DATA / "codex-revalidation-overrides.json"
+ORDER = DATA / "sheet-sync-order.json"
+TOMBSTONES = DATA / "deleted-duplicate-tombstones.json"
 LIVE_URL = "https://k-baby-made.pamyo-2607.workers.dev/kbaby-data.js?recovery=20260815"
 LIVE_CSV_URL = "https://k-baby-made.pamyo-2607.workers.dev/data/master-db-419-final.csv?recovery=20260815"
 EXPECTED_BUILD = "20260804-strict419-fix1"
-EXPECTED_RAW = 459
+EXPECTED_SOURCE_RAW = 459
+EXPECTED_ACTIVE_RAW = 449
 EXPECTED_SOURCE_UNIQUE = 455
-EXPECTED_UNIQUE = 449
+EXPECTED_ACTIVE_UNIQUE = 449
 EXPECTED_DATA_SHA = "077d487e57f585c2954de2639922ec4fb9aefb7e28e8de71fb351a3699b528b7"
 EXPECTED_SCRIPT_SHA = "3acd800d737b9077e5fdcb5a2fd148c6f4ba03ad1ce9c564654ddd8ac3404088"
 EXPECTED_CSV_SHA = "9edfbc3526cfb38e297b3ad9893fcdf6573100cd1f1a8a0a9688ca0cb69bde43"
 KC_PATTERN = re.compile(r"^[A-Z]{1,3}\d[A-Z0-9-]*[A-Z0-9]$", re.I)
 PLACEHOLDER = re.compile(r"미확인|확인\s*중|확인\s*필요|후보|부족|해당\s*없음|^-$")
 GENERIC_PATHS = ("/search", "/category", "/categories", "/certificationsearch", "/itemsearch")
-DUPLICATES = {
+DELETED_DUPLICATES = {
     "TOY-20260729-115": "TOY-20260729-024",
     "TOY-20260729-124": "TOY-20260729-123",
     "TOY-20260729-125": "TOY-20260729-053",
@@ -49,9 +52,62 @@ DUPLICATES = {
     "RUN18-012": "MASTER-0197",
     "TEETHER-20260801-026": "MASTER-0135",
 }
-NEWLY_STRUCTURED_DUPLICATES = {
-    "TEETHER-20260801-015", "RUN18-011", "TEETHER-20260801-005",
-    "RUN18-013", "RUN18-012", "TEETHER-20260801-026",
+RETAINED_EVIDENCE = {
+    "TOY-20260729-123": {
+        "clear": ("officialModel",),
+        "clearCertification": ("modelName",),
+    },
+    "TOY-20260729-154": {
+        "clear": ("manufacturer",),
+        "clearCertification": ("manufacturer",),
+        "clearOcrFields": ("manufacturer",),
+    },
+    "MASTER-0195": {
+        "clear": ("officialModel", "manufacturer"),
+        "fields": {
+            "subtype": "고리형",
+            "countryOfManufacture": "대한민국 🇰🇷",
+            "officialModel": "도토링 고리 치발기 24P + 파우치",
+            "kcNumber": "CB061E006-8002R",
+            "saleStatus": "국내 동일 24P + 파우치 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
+        },
+        "urls": ("https://www.coupang.com/vp/products/6423855983",),
+        "removeUrls": (
+            "https://live.ecomm-data.com/report/labang/ff175af2a4554c5c01755fb2c9037237",
+        ),
+        "clearCertification": ("modelName", "manufacturer"),
+    },
+    "MASTER-0196": {
+        "fields": {
+            "countryOfManufacture": "대한민국 🇰🇷",
+            "officialModel": "도토링 고리 치발기 애드 박스 24P",
+            "kcNumber": "CB061E006-8002R",
+            "saleStatus": "국내 동일 애드 박스 24P 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
+        },
+        "urls": ("https://www.coupang.com/vp/products/8750527041",),
+    },
+    "MASTER-0197": {
+        "fields": {
+            "countryOfManufacture": "대한민국 🇰🇷",
+            "officialModel": "도토링 고리 치발기 애디 8P",
+            "kcNumber": "CB061E006-8002R",
+            "saleStatus": "국내 동일 애디 8P 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
+        },
+        "urls": ("https://www.coupang.com/vp/products/8750563443",),
+    },
+    "MASTER-0135": {
+        "fields": {
+            "subtype": "링형",
+            "countryOfManufacture": "대한민국 🇰🇷",
+            "officialModel": "앙쥬 베스트 치발기 오렌지링",
+            "kcNumber": "CB065B0002-9001R",
+            "saleStatus": "국내 동일 오렌지링 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
+        },
+        "urls": (
+            "https://www.coupang.com/vp/products/8272631902",
+            "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
+        ),
+    },
 }
 
 
@@ -85,7 +141,7 @@ def decode_script(script: bytes) -> tuple[dict, list[dict], bytes]:
     if data_sha != EXPECTED_DATA_SHA:
         raise SystemExit(f"unexpected decoded data SHA: {data_sha}")
     products = json.loads(raw)
-    if len(products) != EXPECTED_RAW:
+    if len(products) != EXPECTED_SOURCE_RAW:
         raise SystemExit(f"unexpected production rows: {len(products)}")
     return payload, products, raw
 
@@ -102,7 +158,7 @@ def read_verified_csv(path: str | None) -> list[dict[str, str]]:
         raise SystemExit(f"unexpected production CSV SHA: {csv_sha}")
     text = content.decode("utf-8-sig")
     rows = list(csv.DictReader(text.splitlines()))
-    if len(rows) != EXPECTED_RAW or any(not row.get("ID") for row in rows):
+    if len(rows) != EXPECTED_SOURCE_RAW or any(not row.get("ID") for row in rows):
         raise SystemExit(f"unexpected production CSV rows: {len(rows)}")
     return rows
 
@@ -196,6 +252,87 @@ def unique_urls(*groups: object) -> list[str]:
             if url.startswith(("https://", "http://")) and url not in output:
                 output.append(url)
     return output
+
+
+def merge_deleted_duplicate_evidence(products: list[dict]) -> None:
+    """Preserve trustworthy evidence on the retained row before deletion."""
+    by_id = {item["id"]: item for item in products}
+    tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8"))
+    tombstones = {
+        str(item.get("deletedId", "")): item
+        for item in tombstone_doc.get("records", [])
+    }
+    if set(tombstones) != set(DELETED_DUPLICATES):
+        raise SystemExit("duplicate tombstone records do not match deletion map")
+    grouped: dict[str, list[str]] = {}
+    for deleted_id, retained_id in DELETED_DUPLICATES.items():
+        deleted = by_id.get(deleted_id)
+        retained = by_id.get(retained_id)
+        if deleted is None or retained is None:
+            raise SystemExit(f"duplicate deletion target missing: {deleted_id} -> {retained_id}")
+        grouped.setdefault(retained_id, []).append(deleted_id)
+        trusted_urls = list(tombstones[deleted_id].get("evidenceUrls", []))
+        retained["officialUrls"] = unique_urls(retained.get("officialUrls"), trusted_urls)
+        retained["saleUrls"] = unique_urls(retained.get("saleUrls"), trusted_urls)
+        aliases = [str(value).strip() for value in retained.get("aliases", []) if str(value).strip()]
+        if deleted_id not in aliases:
+            aliases.append(deleted_id)
+        deleted_name = str(deleted.get("name", "")).strip()
+        if deleted_name and deleted_name != retained.get("name") and deleted_name not in aliases:
+            aliases.append(deleted_name)
+        retained["aliases"] = aliases
+
+    for retained_id, deleted_ids in grouped.items():
+        retained = by_id[retained_id]
+        retained["deletedDuplicateIds"] = sorted(set(
+            [str(value) for value in retained.get("deletedDuplicateIds", [])]
+            + deleted_ids
+        ))
+        note = (
+            "2026-08-15 중복 활성 행 삭제 병합 · "
+            + ", ".join(sorted(deleted_ids))
+            + f" → {retained_id}"
+        )
+        history = str(retained.get("historySummary", "")).strip()
+        if note not in history:
+            retained["historySummary"] = " | ".join(value for value in (history, note) if value)
+
+    for retained_id, spec in RETAINED_EVIDENCE.items():
+        retained = by_id[retained_id]
+        for key in spec.get("clear", ()):
+            retained[key] = ""
+        for certification in retained.get("certifications", []):
+            if not isinstance(certification, dict):
+                continue
+            for key in spec.get("clearCertification", ()):
+                certification[key] = ""
+            number = str(certification.get("certNumber", ""))
+            detail_url = str(certification.get("url", ""))
+            if not KC_PATTERN.fullmatch(number) or "/release/certDetail" not in detail_url:
+                certification["found"] = False
+        cleaned_ocr: list[dict] = []
+        for evidence in retained.get("ocrEvidence", []):
+            if not isinstance(evidence, dict):
+                continue
+            fields = dict(evidence.get("fields", {}))
+            for key in spec.get("clearOcrFields", ()):
+                fields.pop(key, None)
+            if fields:
+                evidence["fields"] = fields
+                cleaned_ocr.append(evidence)
+        if spec.get("clearOcrFields"):
+            retained["ocrEvidence"] = cleaned_ocr
+        retained.update(spec.get("fields", {}))
+        removed_urls = set(spec.get("removeUrls", ()))
+        if removed_urls:
+            retained["officialUrls"] = [
+                url for url in retained.get("officialUrls", []) if url not in removed_urls
+            ]
+            retained["saleUrls"] = [
+                url for url in retained.get("saleUrls", []) if url not in removed_urls
+            ]
+        retained["officialUrls"] = unique_urls(retained.get("officialUrls"), list(spec.get("urls", ())))
+        retained["saleUrls"] = unique_urls(retained.get("saleUrls"), list(spec.get("urls", ())))
 
 
 def direct_url(url: str) -> bool:
@@ -358,26 +495,68 @@ def main() -> None:
     previous_by_id = {item.get("id"): item for item in previous}
     for product in products:
         local = previous_by_id.get(product.get("id"), {})
-        product["officialUrls"] = unique_urls(product.get("officialUrls"), local.get("evidenceUrls"))
-        product["saleUrls"] = unique_urls(product.get("saleUrls"), local.get("evidenceUrls"))
-        product["duplicateOf"] = DUPLICATES.get(product["id"], str(product.get("duplicateOf", "")))
-        product["canonicalProductId"] = product["duplicateOf"] or product["id"]
+        product["officialUrls"] = unique_urls(
+            product.get("officialUrls"), local.get("officialUrls"), local.get("evidenceUrls")
+        )
+        product["saleUrls"] = unique_urls(
+            product.get("saleUrls"), local.get("saleUrls"), local.get("evidenceUrls")
+        )
 
     override_doc = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    source_by_id = {item["id"]: item for item in products}
+    active_changes = [
+        change for change in override_doc.get("changes", [])
+        if change.get("id") not in DELETED_DUPLICATES
+    ]
+    active_before: dict[str, dict[str, object]] = {}
+    tracked_fields = (
+        "status", "kcNumber", "countryOfManufacture", "ageRange",
+        "saleStatus", "manufacturer", "importer",
+    )
+    for change in override_doc.get("changes", []):
+        pid = change["id"]
+        if pid not in source_by_id:
+            raise SystemExit(f"override references unknown product: {pid}")
+        if pid not in DELETED_DUPLICATES:
+            active_before[pid] = {
+                key: source_by_id[pid].get(key) for key in tracked_fields
+            }
+        apply_override(source_by_id[pid], change)
+
+    merge_deleted_duplicate_evidence(products)
+    products = [item for item in products if item["id"] not in DELETED_DUPLICATES]
+    for sequence, product in enumerate(products, 1):
+        product["sequence"] = sequence
+        product["duplicateOf"] = ""
+        product["canonicalProductId"] = product["id"]
+
+    order_doc = json.loads(ORDER.read_text(encoding="utf-8"))
+    order_ids = [value for value in order_doc.get("ids", []) if value not in DELETED_DUPLICATES]
+    active_ids = {item["id"] for item in products}
+    if len(order_ids) != EXPECTED_ACTIVE_RAW or set(order_ids) != active_ids:
+        raise SystemExit("deduplicated Sheet order does not match active canonical IDs")
+    order_doc.update({
+        "status": "deduplicated",
+        "strategy": "기존 동기화 순서를 보존하되 확정 중복 10행만 제거",
+        "existingRows": 223,
+        "appendedRows": 226,
+        "totalRows": len(order_ids),
+        "removedDuplicateRows": len(DELETED_DUPLICATES),
+        "removedDuplicateMap": DELETED_DUPLICATES,
+        "ids": order_ids,
+    })
+    dump(ORDER, order_doc)
+
     by_id = {item["id"]: item for item in products}
     transitions: Counter[str] = Counter()
     changed_fields: Counter[str] = Counter()
     reviewed_metrics: Counter[str] = Counter()
-    for change in override_doc.get("changes", []):
+    for change in active_changes:
         pid = change["id"]
         if pid not in by_id:
             raise SystemExit(f"override references unknown product: {pid}")
         product = by_id[pid]
-        before = {
-            key: product.get(key)
-            for key in ("status", "kcNumber", "countryOfManufacture", "ageRange", "saleStatus", "manufacturer", "importer")
-        }
-        apply_override(by_id[pid], change)
+        before = active_before[pid]
         after = {key: product.get(key) for key in before}
         transitions[f"{before['status']}→{after['status']}"] += 1
         for key in before:
@@ -409,17 +588,17 @@ def main() -> None:
         product["strict419Applied"] = product.get("status") == "보류"
         product["strict419Status"] = (
             "검증 완료" if product.get("status") == "포함"
-            else "기준 제외·중복" if product.get("status") == "제외"
+            else "기준 제외" if product.get("status") == "제외"
             else "추가 확인 중"
         )
         product["statusDisplay"] = (
             "기준 충족" if product.get("status") == "포함"
-            else "기준 제외·중복" if product.get("status") == "제외"
+            else "기준 제외" if product.get("status") == "제외"
             else "추가 확인 중"
         )
 
     unique_count = sum(not item.get("duplicateOf") for item in products)
-    if len(products) != EXPECTED_RAW or unique_count != EXPECTED_UNIQUE:
+    if len(products) != EXPECTED_ACTIVE_RAW or unique_count != EXPECTED_ACTIVE_UNIQUE:
         raise SystemExit(f"recovery invariant failed: {len(products)}/{unique_count}")
     dump(SOURCE, products)
     dump(DATA / "live-recovery-report.json", {
@@ -429,7 +608,7 @@ def main() -> None:
         "sourceBuild": payload["build"],
         "sourceScriptSha256": EXPECTED_SCRIPT_SHA,
         "sourceDecodedSha256": EXPECTED_DATA_SHA,
-        "sourceRawRecords": EXPECTED_RAW,
+        "sourceRawRecords": EXPECTED_SOURCE_RAW,
         "sourceUniqueProducts": EXPECTED_SOURCE_UNIQUE,
         "repositoryBaseline": {
             "mainSha": "01900b1050ee866cc646b283c5d63a9fd254a5cb",
@@ -443,9 +622,10 @@ def main() -> None:
         "recoveryRunInputSha256": previous_sha,
         "recoveryRunInputRecords": len(previous),
         "quarantinedNonProducts": len(quarantine),
-        "reviewedOverrides": len(override_doc.get("changes", [])),
+        "reviewedOverrides": len(active_changes),
         "normalizedNonKcRecords": normalized_non_kc,
-        "newlyStructuredDuplicateRecords": len(NEWLY_STRUCTURED_DUPLICATES),
+        "removedDuplicateRecords": len(DELETED_DUPLICATES),
+        "removedDuplicateMap": DELETED_DUPLICATES,
         "statusTransitions": dict(sorted(transitions.items())),
         "changedFieldCounts": dict(sorted(changed_fields.items())),
         "reviewedEvidenceMetrics": dict(sorted(reviewed_metrics.items())),
@@ -457,7 +637,7 @@ def main() -> None:
         "raw": len(products),
         "unique": unique_count,
         "quarantined": len(quarantine),
-        "overrides": len(override_doc.get("changes", [])),
+        "overrides": len(active_changes),
     }, ensure_ascii=False))
 
 

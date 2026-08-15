@@ -6,6 +6,7 @@
   "scripts": {
     "check": "python3 scripts/build_assets.py && python3 scripts/validate_data.py && node --check public/app.js && node --check public/kbaby-data.js",
     "verify:assets": "python3 scripts/validate_data.py && node --check public/app.js && node --check public/kbaby-data.js",
+    "verify:external": "python3 scripts/validate_data.py --require-external-proof",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {

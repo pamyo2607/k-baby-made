@@ -1,47 +1,25 @@
 {
-  "status": "recovered-and-verified",
-  "recoveredAt": "2026-08-15T19:14:00+09:00",
+  "status": "recovered-deduplicated-and-verified",
+  "verifiedAt": "2026-08-15T19:48:00+09:00",
   "targetRepository": "pamyo2607/k-baby-made",
   "sources": [
-    {
-      "type": "production-embedded-payload",
-      "build": "20260804-strict419-fix1",
-      "rawRecords": 459,
-      "uniqueProducts": 455,
-      "sha256": "077d487e57f585c2954de2639922ec4fb9aefb7e28e8de71fb351a3699b528b7"
-    },
-    {
-      "type": "Google Sheet",
-      "title": "K-Baby Made Live DB",
-      "id": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
-      "syncedProducts": 459,
-      "backupId": "1JlhWaOBq2VzF-kK959E0KAH671ALRssQ-dC_GyFIVuY"
-    }
+    {"type": "production-embedded-payload", "build": "20260804-strict419-fix1", "rawRecords": 459, "uniqueProducts": 455, "sha256": "077d487e57f585c2954de2639922ec4fb9aefb7e28e8de71fb351a3699b528b7"},
+    {"type": "Google Sheet", "title": "K-Baby Made Live DB", "id": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I", "activeProducts": 449, "duplicateRecords": 0, "preDeletionBackupId": "1rzRmdvMM9ILRkxYGu7PSt3-rmAubnlBA5eigbxFsJCc"}
   ],
-  "rawRecords": 459,
+  "activeRawRecords": 449,
   "uniqueProducts": 449,
-  "duplicateRecords": 10,
+  "duplicateRecords": 0,
+  "deletedDuplicateRecords": 10,
   "missingFromCurrentSources": 0,
   "missingProductsFabricated": false,
-  "uniqueStatusCounts": {
-    "included": 21,
-    "pending": 382,
-    "excluded": 46
-  },
+  "uniqueStatusCounts": {"included": 21, "pending": 382, "excluded": 46},
   "quarantinedNonProducts": 120,
-  "policy": "Only products with current domestic sale evidence, 0–35 month eligibility, finished-product manufacture in Korea, manufacturer/importer, applicable law, official evidence, and an exact Safety Korea same-model detail when KC applies may be included.",
-  "mergeRules": [
-    "Preserve every recovered source ID and history entry",
-    "Keep raw, unique, duplicate, and excluded-plus-duplicate counts separate",
-    "Downgrade insufficient evidence to pending",
-    "Preserve excluded records and reasons",
-    "Never promote unverified discovered candidates into canonical data",
-    "Rebuild all public assets from one canonical source"
-  ],
+  "policy": "Included requires current Korean sale, official 0–35 month applicability, Korean finished-product manufacture, manufacturer/importer, applicable law, official evidence, and exact active Safety Korea same-model detail when KC applies.",
+  "deduplicationPolicy": "Back up first, merge only verified evidence into one retained canonical row, delete confirmed redundant active rows, preserve tombstones and audit mapping, and never promote the retained row solely because it was selected as canonical.",
   "nextActions": [
     "Revalidate up to 50 pending products per hourly run",
     "Stage up to 30 new candidates in total and at most 5 per category",
-    "Require exact product identity and official evidence before any canonical promotion",
-    "Run all data, JavaScript, deployment, and Chromium gates before release"
+    "Block deleted duplicate IDs and identities from Sheet bootstrap and discovery",
+    "Run every data, JavaScript, deployment, and browser gate before release"
   ]
 }

@@ -66,6 +66,8 @@ canonical, staging, quarantine를 함께 비교한다.
 
 색상, 판매처, 단순 수량 묶음, 포장 디자인만 다른 동일 모델은 새 ID를 만들지 않는다. 기존 제품의 alias·sale URL·구성 정보로 누적한다. 서로 다른 제품임을 입증하지 못하면 신규가 아니라 `sameProductIdentity` 보류 또는 quarantine다.
 
+신규 발견 단계의 중복 후보는 canonical에 넣지 않고 quarantine에 둔다. 이미 canonical에 별도 행으로 존재하는 중복이 확인되면 먼저 canonical과 Google Sheet를 복구 가능하게 백업하고, 검증된 근거·별칭·URL만 유지할 1개 canonical 행에 병합한다. 그 뒤 중복 활성 행을 삭제하고 `삭제 ID → 유지 ID`, 삭제 전후 수, 백업 위치를 감사 이력에 기록한다. 유지 행은 중복이라는 이유만으로 `포함`으로 승격하지 않는다.
+
 ## staging 후 검증
 
 각 후보에 대해 다음 순서로 조사한다.
@@ -149,9 +151,9 @@ KC가 필요 없는 위생용품·화장품·식품 접촉 제품에 어린이�
 1. 실행 시작 시 canonical·staging·state·audit의 SHA와 현재 ID 집합을 기록한다.
 2. 발견 결과는 staging에만 쓴다.
 3. sanitation, direct URL, identity, dedupe, 범위, 카테고리별/전체 상한 검증을 통과시킨다.
-4. 승격할 행만 별도 diff로 canonical에 추가하거나 기존 ID에 alias/evidence를 병합한다.
+4. 승격할 행만 별도 diff로 canonical에 추가하거나 기존 ID에 alias/evidence를 병합한다. 기존 canonical 중복 정리는 백업·근거 병합·삭제 매핑 감사 절차를 모두 통과한 경우에만 함께 반영한다.
 5. 예상 밖 예외나 상한 위반 시 네 파일을 실행 전 상태로 복원하고 실패한다.
-6. 삭제 대신 quarantine와 사유를 남긴다.
+6. 발견 단계에서 탈락하거나 중복인 후보는 삭제 대신 quarantine와 사유를 남긴다. 단, 이미 canonical에 잘못 중복 승격된 활성 행은 위 절차에 따라 삭제하고 별도 감사 이력으로 복구 가능성을 보장한다.
 7. 빌드·품질 검증이 끝난 뒤 한 개의 커밋으로 반영한다.
 
 ## 실행 지표
@@ -170,7 +172,7 @@ KC가 필요 없는 위생용품·화장품·식품 접촉 제품에 어린이�
 - quarantine 수
 - 신규 canonical ID 목록
 - 네트워크 오류 수
-- 실행 전후 raw·unique·duplicate 및 상태 수
+- 실행 전후 수집 원본·활성 canonical·unique·삭제 중복 및 상태 수
 
 `newCandidates`는 누적 후보 수가 아니라 이번 실행에서 발견한 수다. 판매 listing 발견을 검증 성공이나 canonical 승격으로 계산하지 않는다.
 
@@ -191,7 +193,7 @@ git diff --check
 
 push 직전 origin/main과 실행 중 Actions를 다시 확인한다. force-push하지 않는다. 자동 실행끼리는 concurrency lock으로 직렬화하고, 원격 main이 이동했으면 최신 이력을 보존한 뒤 검증된 tree만 병합한다.
 
-배포 뒤 정적 파일 SHA와 Chromium의 통계·초기 24개 카드·검색·필터·상세·공식 링크·console error 0을 검증한다. Google Sheet는 백업과 ID 기반 diff 후에만 동기화한다.
+배포 뒤 정적 파일 SHA와 Chromium의 통계·초기 24개 카드·검색·필터·상세·공식 링크·console error 0을 검증한다. Google Sheet는 백업과 ID 기반 diff 후에만 동기화하며, 중복 삭제가 있으면 삭제 ID 0건·유지 ID 1건을 readback으로 확인한다.
 
 ## 반복 규칙과 중단 조건
 
@@ -200,4 +202,3 @@ push 직전 origin/main과 실행 중 Actions를 다시 확인한다. force-push
 한 실행의 완료는 상한·staging·승격·검증·감사 지표가 모두 일치하는 것이다. “신규 없음”은 허용되지만, 조사하지 않고 누적 후보 수를 재사용해 성공으로 표시하는 것은 금지한다.
 
 지금 실행 시점의 저장소와 운영 기준선을 확인한 뒤 조사부터 시작하라.
-

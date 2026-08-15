@@ -71,9 +71,10 @@ GitHub 사용자명과 Workers 서브도메인은 별개다. `pamyo-2607` GitHub
 - 36개월 이상 전용
 - 공식 판매 종료·단종 또는 해외 직구 전용
 - 프로젝트 범위 밖 제품군
-- 구조화된 중복 연결
 
 검색 실패, 404 한 곳, 품절 한 곳, 가격비교 중지, 미확인은 제외 근거가 아니다. 이런 경우 `보류`다.
+
+동일 제품 중복이 확인되면 중복 행을 `제외`로 누적하지 않는다. 삭제 전에 canonical과 Google Sheet의 복구 가능한 백업을 만들고, 신뢰할 수 있는 근거 URL·별칭·확인 이력만 유지할 1개 canonical 행에 병합한다. 그 뒤 중복 활성 행을 삭제하고 `삭제 ID → 유지 ID`, 삭제 전후 수, 백업 위치를 별도 감사 이력에 기록한다. 중복 판정만으로 유지 행을 `포함`으로 바꾸지 않는다.
 
 ## 근거와 동일제품 규칙
 
@@ -129,12 +130,12 @@ OCR은 제품정보고시·라벨·설명서의 보조 추출에만 쓰며, OCR 
 
 각 묶음은 ID 기반으로 반영한다.
 
-1. 원본 row를 보존한 채 확인된 필드만 갱신한다.
+1. 확인된 중복 삭제 절차를 제외하면 원본 row를 보존한 채 확인된 필드만 갱신한다.
 2. 상태·missing fields·판정 사유·공식 URL·누적 이력을 함께 갱신한다.
 3. 일시적 네트워크 오류나 예상 밖 parser 오류가 나면 해당 row를 실행 전 상태로 복원하고 감사 오류를 기록한다.
-4. 중복은 삭제하지 않고 `duplicateOf`와 `canonicalProductId`를 유지한다.
+4. 확인된 중복은 백업 후 검증 근거를 유지할 1개 행에 병합하고, 중복 활성 행을 삭제한다. 유지 행의 `duplicateOf`는 비우고 `canonicalProductId`는 자기 ID로 맞추며 삭제 매핑은 별도 감사 이력에 보존한다.
 5. canonical과 생성 자산 사이에 직접 수작업 복사를 만들지 말고 생성기를 사용한다.
-6. Google Sheet는 전체 교체하지 않는다. 쓰기 전 백업과 diff를 만들고 ID로 행을 찾아 Master DB·재검증 대기열·변경 이력을 갱신한다.
+6. Google Sheet는 전체 교체하지 않는다. 쓰기 전 백업과 diff를 만들고 ID로 행을 찾아 Master DB·재검증 대기열·변경 이력을 갱신한다. 확인된 중복 행만 정확한 ID로 삭제하고 readback으로 삭제 ID 0건과 유지 ID 1건을 확인한다.
 
 ## 검증과 게시
 
@@ -148,7 +149,7 @@ npx wrangler deploy --dry-run
 git diff --check
 ```
 
-raw = unique + duplicate, 상태 합계, 전체 ID, 중복 맵, JSON/CSV/embedded payload, SHA, canonical·fallback·Sheet 일치 여부를 검증한다. push 직전 origin/main과 실행 중 Actions를 다시 확인하고 force-push하지 않는다.
+수집 원본 수·활성 canonical 수·고유 제품 수·삭제된 중복 수, 상태 합계, 전체 활성 ID, 삭제 매핑, JSON/CSV/embedded payload, SHA, canonical·fallback·Sheet 일치 여부를 검증한다. 중복 정리 뒤 활성 canonical의 `duplicateOf` 행은 0건이어야 한다. push 직전 origin/main과 실행 중 Actions를 다시 확인하고 force-push하지 않는다.
 
 배포 뒤 운영 정적 파일의 HTTP 200과 SHA를 비교하고 Chromium으로 초기 24개 카드, 검색, 포함·보류·제외 필터, 상세, KC/비KC 필드, 공식 링크, console error 0을 검증한다.
 
@@ -174,4 +175,3 @@ raw = unique + duplicate, 상태 합계, 전체 ID, 중복 맵, JSON/CSV/embedde
 최종 완료 선언은 시작 시점의 모든 보류 ID가 최소 한 번 조사되고, 모든 변경이 검증·Sheet·GitHub·Cloudflare·Chromium에 일치할 때만 한다. 여전히 보류인 제품은 실패로 숨기지 말고 정확한 blocker와 다음 조사 경로를 보고한다.
 
 지금 설명만 하지 말고 기준선 조사부터 실행하라.
-

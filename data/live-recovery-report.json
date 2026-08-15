@@ -16,38 +16,49 @@
     "pending": 305,
     "uniqueExcluded": 32
   },
-  "recoveryRunInputSha256": "b0f722bac30c53c2e07acbd0b588f1485e7ca2c705577a5b7309827261aca4be",
-  "recoveryRunInputRecords": 459,
+  "recoveryRunInputSha256": "221994798407cc0126c791fff4ddafe42cd4d1714f7c82e347110d0f089f1f0c",
+  "recoveryRunInputRecords": 449,
   "quarantinedNonProducts": 120,
-  "reviewedOverrides": 42,
+  "reviewedOverrides": 36,
   "normalizedNonKcRecords": 130,
-  "newlyStructuredDuplicateRecords": 6,
+  "removedDuplicateRecords": 10,
+  "removedDuplicateMap": {
+    "TOY-20260729-115": "TOY-20260729-024",
+    "TOY-20260729-124": "TOY-20260729-123",
+    "TOY-20260729-125": "TOY-20260729-053",
+    "TOY-20260729-155": "TOY-20260729-154",
+    "TEETHER-20260801-015": "RUN18-008",
+    "RUN18-011": "MASTER-0195",
+    "TEETHER-20260801-005": "MASTER-0195",
+    "RUN18-013": "MASTER-0196",
+    "RUN18-012": "MASTER-0197",
+    "TEETHER-20260801-026": "MASTER-0135"
+  },
   "statusTransitions": {
     "보류→보류": 11,
-    "보류→제외": 15,
+    "보류→제외": 10,
     "보류→포함": 13,
-    "제외→제외": 1,
     "포함→제외": 1,
     "포함→포함": 1
   },
   "changedFieldCounts": {
-    "ageRange": 29,
+    "ageRange": 28,
     "countryOfManufacture": 12,
-    "importer": 23,
+    "importer": 22,
     "kcNumber": 24,
-    "manufacturer": 25,
+    "manufacturer": 24,
     "saleStatus": 35,
-    "status": 29
+    "status": 24
   },
   "reviewedEvidenceMetrics": {
-    "countryOfManufactureReviewed": 37,
+    "countryOfManufactureReviewed": 36,
     "currentSaleReviewed": 35,
     "kcNumberNewOrCorrected": 2,
-    "manufacturerOrImporterReviewed": 29,
-    "officialAgeReviewed": 36,
-    "safetyKoreaSameModelReviewed": 14
+    "manufacturerOrImporterReviewed": 28,
+    "officialAgeReviewed": 35,
+    "safetyKoreaSameModelReviewed": 13
   },
-  "finalRawRecords": 459,
+  "finalRawRecords": 449,
   "finalUniqueProducts": 449,
-  "duplicateRecords": 10
+  "duplicateRecords": 0
 }

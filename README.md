@@ -4,19 +4,21 @@
 
 ## 현재 검증 상태
 
-- 운영 build: `20260815-live459-recovery2`
-- 원본 레코드 459 / 고유 제품 449 / 구조화 중복 10
+- 운영 build: `20260815-dedup449-final1`
+- 활성 레코드 449 / 고유 제품 449 / 활성 중복 0 / 삭제 이력 10
 - 고유 판정: 포함 21 / 보류 382 / 제외 46
-- UI `❗ 기준 제외·중복`: 56 = 고유 제외 46 + 중복 연결 10
+- UI `❗ 기준 제외`: 46
 - 보수적으로 확인된 현재 판매: 210
 - 전수 재검증 대상: 403 = 포함 21 + 보류 382
-- canonical JSON 파일 SHA-256: `0b2338245935229bf67dc03aa8fc5589384a22f236923b54dce9e027a7afa677`
-- compact payload SHA-256: `726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767`
-- verified CSV SHA-256: `69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d`
+- canonical JSON 파일 SHA-256: `969644332c25fb2adac1b0163dbf478d6335441f11cc07ed6b1473cc1df2c56d`
+- compact payload SHA-256: `1fe816db20b85846ccc4449a5281728b0cb11718ad29632a008e3a0831c8edde`
+- verified CSV SHA-256: `41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e`
 
-중복 행은 삭제하지 않습니다.
+동일 제품으로 확인된 중복 행은 canonical과 Google Sheet를 백업한 뒤, 검증된 근거를 유지할 1개 행에 병합하고 활성 데이터에서 삭제합니다. 삭제 ID와 유지 ID의 매핑은 복구용 감사 이력으로 보존하며, 중복 판정만으로 유지 행을 `포함`으로 승격하지 않습니다.
 
-| 중복 ID | canonical ID |
+### 2026-08-15 중복 삭제 이력
+
+| 삭제 ID | 유지 canonical ID |
 | --- | --- |
 | `TOY-20260729-115` | `TOY-20260729-024` |
 | `TOY-20260729-124` | `TOY-20260729-123` |
@@ -42,7 +44,7 @@
 
 웹앱은 검증 CSV를 우선 사용하고 내장 fallback을 장애 복구용으로 사용합니다. Live snapshot은 raw 수, 전체 ID 집합, 중복 맵과 unique 수를 모두 통과해야 연결 성공으로 인정합니다. 과거 파일명 `master-db-419-final.csv`는 하위호환 때문에 유지되지만 현재 재검증 대상은 403입니다.
 
-Google Sheet `K-Baby Made Live DB`도 459행·38열로 동기화됐습니다. 기존 230행의 ID 위치와 누적 이력은 보존하고 누락 229행을 추가했습니다. 쓰기 전 백업과 검증 결과는 `data/google-sheet-sync-proof.json`에 기록돼 있습니다.
+Google Sheet `K-Baby Made Live DB`도 활성 449행·38열로 동기화됐습니다. 확정 중복 10행은 삭제 전 전체 사본을 만든 뒤 `Master DB`와 `__strict_sync`에서 제거했고, queue의 Master행 참조도 382건 전부 다시 계산했습니다. 백업·삭제 매핑·전 셀 readback 결과는 `data/google-sheet-sync-proof.json`과 `data/duplicate-deletion-proof.json`에 기록돼 있습니다.
 
 ## 로컬 검증
 
@@ -54,6 +56,8 @@ npx wrangler deploy --dry-run
 ```
 
 `npm run check`는 모든 생성물을 다시 만든 뒤 canonical/JSON/CSV/embedded payload/중복/상태/필수 근거/SHA/build 및 JavaScript 문법을 fail-closed로 검증합니다.
+
+Google Sheet와 운영 배포를 확인한 최종 릴리스에서는 `npm run verify:external`로 외부 readback proof까지 별도로 검증합니다. 시간당 자동 조사는 외부 동기화가 끝나기 전의 로컬 자산 검증 때문에 정상 연구 결과를 버리지 않도록 `npm run check`만 실행합니다.
 
 `scripts/recover_live_canonical.py`는 2026-08-15 복구용 일회성 도구입니다. 고정된 과거 운영 payload와 CSV SHA를 검증하므로 정상 빌드나 시간당 자동 조사에서 실행하지 않습니다.
 
@@ -94,6 +98,7 @@ npx wrangler deploy
 - `data/live-recovery-report.json`: 고정 운영 payload 복구와 120개 오염 후보 격리
 - `data/missing-fields-report.json`: 382개 보류 제품의 구조화 missing fields
 - `data/google-sheet-sync-proof.json`: Sheet 백업·ID 기반 동기화·readback
+- `data/duplicate-deletion-proof.json`: 삭제 10건·유지 9건·백업·활성 중복 0 검증
 - `data/codex-production-verification.json`: 운영 배포·브라우저 최종 proof
 
 운영 규칙은 `AGENTS.md`를 따릅니다. credential, token, cookie, `.env`는 저장소나 proof에 기록하지 않습니다.

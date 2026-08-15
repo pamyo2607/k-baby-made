@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "build": "20260815-live459-recovery2",
+  "build": "20260815-dedup449-final1",
   "baseline": {
     "build": "20260804-strict419-fix1",
     "rawRecords": 459,
@@ -40,57 +40,59 @@
   "reportScope": "closed 2026-08-15 recovery batch plus current generated inventory",
   "recoveryBatch": {
     "reviewedExistingProducts": 42,
+    "activeReviewedProducts": 36,
+    "deletedDuplicateReviewEntries": 6,
     "newProductsReviewed": 0,
     "statusTransitions": {
       "pendingToIncluded": 13,
       "includedToPending": 0,
-      "pendingToExcluded": 15,
+      "pendingToExcluded": 10,
       "includedToExcluded": 1,
       "pendingMaintained": 11
     },
     "changedProducts": 42,
-    "statusChangedProducts": 29,
+    "statusChangedProducts": 24,
     "verifiedFields": {
       "kcNumberNewOrCorrected": 2,
-      "safetyKoreaSameModel": 14,
-      "countryOfManufacture": 37,
-      "officialAge": 36,
+      "safetyKoreaSameModel": 13,
+      "countryOfManufacture": 36,
+      "officialAge": 35,
       "currentSale": 35,
-      "manufacturerOrImporter": 29
+      "manufacturerOrImporter": 28
     },
     "changedFieldCounts": {
-      "ageRange": 29,
+      "ageRange": 28,
       "countryOfManufacture": 12,
-      "importer": 23,
+      "importer": 22,
       "kcNumber": 24,
-      "manufacturer": 25,
+      "manufacturer": 24,
       "saleStatus": 35,
-      "status": 29
+      "status": 24
     }
   },
   "final": {
-    "rawRecords": 459,
+    "rawRecords": 449,
     "uniqueProducts": 449,
     "included": 21,
     "pending": 382,
     "excluded": 46,
-    "duplicateRecords": 10,
-    "excludedAndDuplicate": 56,
+    "duplicateRecords": 0,
+    "excludedAndDuplicate": 46,
     "fullRevalidationTargetRows": 403
   },
   "missingFields": {
     "pendingProducts": 382,
     "structured": 382,
     "counts": {
-      "countryOfManufacture": 325,
-      "manufacturerOrImporter": 291,
+      "countryOfManufacture": 324,
+      "manufacturerOrImporter": 292,
       "safetyKoreaSameModel": 227,
       "officialAge": 195,
-      "exactKcNumber": 189,
+      "exactKcNumber": 186,
       "currentSale": 46,
       "officialEvidence": 30
     }
   },
-  "dataSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
-  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d"
+  "dataSha256": "1fe816db20b85846ccc4449a5281728b0cb11718ad29632a008e3a0831c8edde",
+  "csvSha256": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e"
 }

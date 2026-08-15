@@ -1,15 +1,15 @@
 {
   "status": "passed",
-  "build": "20260815-live459-recovery2",
+  "build": "20260815-dedup449-final1",
   "generatedAt": "2026-08-15T00:00:00+09:00",
   "pendingProducts": 382,
   "pendingWithStructuredMissingFields": 382,
   "missingFieldCounts": {
-    "countryOfManufacture": 325,
-    "manufacturerOrImporter": 291,
+    "countryOfManufacture": 324,
+    "manufacturerOrImporter": 292,
     "safetyKoreaSameModel": 227,
     "officialAge": 195,
-    "exactKcNumber": 189,
+    "exactKcNumber": 186,
     "currentSale": 46,
     "officialEvidence": 30
   },
@@ -1286,6 +1286,22 @@
       "priority": 2
     },
     {
+      "id": "MASTER-0197",
+      "category": "구강·치발기",
+      "brand": "꼬꼬노리",
+      "name": "도토링 고리 치발기 애디 8P",
+      "checkedAt": "2026-08-04",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 2
+    },
+    {
       "id": "RUN18-015",
       "category": "구강·치발기",
       "brand": "꼬꼬노리",
@@ -2198,6 +2214,24 @@
       "priority": 3
     },
     {
+      "id": "MASTER-0135",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "베스트 치발기 오렌지링",
+      "checkedAt": "2026-08-04",
+      "missingFields": [
+        "officialAge",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 3
+    },
+    {
       "id": "MASTER-0145",
       "category": "이유식·식기",
       "brand": "티지엠",
@@ -2565,29 +2599,29 @@
       "checkedAt": "2026-08-04",
       "missingFields": [
         "officialAge",
-        "exactKcNumber",
+        "manufacturerOrImporter",
         "safetyKoreaSameModel"
       ],
       "missingFieldLabels": [
         "0~35개월 공식 월령",
-        "동일 제품 KC 인증번호",
+        "제조사 또는 수입업체",
         "Safety Korea 동일 모델 연결"
       ],
       "priority": 3
     },
     {
-      "id": "MASTER-0197",
+      "id": "MASTER-0196",
       "category": "구강·치발기",
       "brand": "꼬꼬노리",
-      "name": "도토링 고리 치발기 애디 8P",
+      "name": "도토링 고리 치발기 애드 박스 24개입",
       "checkedAt": "2026-08-04",
       "missingFields": [
-        "countryOfManufacture",
+        "officialAge",
         "manufacturerOrImporter",
         "safetyKoreaSameModel"
       ],
       "missingFieldLabels": [
-        "완제품 제조국",
+        "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "Safety Korea 동일 모델 연결"
       ],
@@ -3462,26 +3496,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0135",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "베스트 치발기 오렌지링",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0136",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -3576,26 +3590,6 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0196",
-      "category": "구강·치발기",
-      "brand": "꼬꼬노리",
-      "name": "도토링 고리 치발기 애드 박스 24개입",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
       ],

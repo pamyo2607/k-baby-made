@@ -15,7 +15,7 @@ const esc = (value = "") => String(value).replace(/[&<>"']/g, char => ({ "&": "&
 const norm = value => String(value || "").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
 const uniq = items => [...new Set(items.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), "ko"));
 const fmt = number => Number(number || 0).toLocaleString("ko-KR");
-const STATUS_LABELS = { "포함": "완료", "보류": "ing", "제외": "❗ 기준 제외·중복" };
+const STATUS_LABELS = { "포함": "완료", "보류": "ing", "제외": "❗ 기준 제외" };
 const displayStatus = statusValue => STATUS_LABELS[statusValue] || "ing";
 const exactSafetyKoreaDetailUrl = (...values) => values
   .flat()
@@ -160,7 +160,6 @@ function liveProducts(rows) {
   return rows.slice(1).filter(row => get(row, I.id) && get(row, I.name)).map(row => {
     const historySummary = get(row, I.history);
     const reason = get(row, I.reason);
-    const duplicateMatch = (historySummary + reason).match(/(TOY-\d{8}-\d{3}).*통합/);
     const urls = get(row, I.url).split(/\n+/).filter(Boolean);
     return {
       id: get(row, I.id), category: normalizeCategory(get(row, I.cat) || "기타"), subtype: get(row, I.sub) || get(row, I.group) || "미확인",
@@ -171,7 +170,7 @@ function liveProducts(rows) {
       testInstitute: "미확인", platform: get(row, I.platform) || "미확인", checkedAt: get(row, I.checkedAt), reason: reason || "판정 사유 확인 중",
       officialUrls: urls, saleUrls: urls, quality: get(row, I.quality) || "확인 중", historySummary,
       dashboardGroup: get(row, I.group) || get(row, I.sub),
-      duplicateOf: get(row, I.duplicateOf) || (duplicateMatch ? duplicateMatch[1] : ""),
+      duplicateOf: get(row, I.duplicateOf),
       canonicalProductId: get(row, I.canonicalProductId) || get(row, I.duplicateOf) || get(row, I.id),
       source: "현재 Google Sheet Master DB", sourcePriority: 1, archive: false, aliases: []
     };
@@ -258,8 +257,9 @@ const evidence = product => (declaredNonKc(product) ? (product.regulatoryRegime 
 const blob = product => norm([product.id, product.name, product.brand, product.manufacturer, product.officialModel, product.officialSku, product.kcNumber, product.certStatusSummary, product.certTypeSummary, product.certAuthoritySummary, product.countryOfManufacture, product.subtype, ...(product.aliases || [])].join(" "));
 
 function filters() {
+  const rawQuery = String($("searchInput").value || "").normalize("NFKC").toLowerCase().trim();
   return {
-    q: norm($("searchInput").value), cat: $("categoryFilter").value, st: $("statusFilter").value, sub: $("subtypeFilter").value,
+    q: norm(rawQuery), rawQuery, cat: $("categoryFilter").value, st: $("statusFilter").value, sub: $("subtypeFilter").value,
     age: $("ageFilter").value, country: $("countryFilter").value, kc: $("kcFilter").value, sale: $("saleFilter").value,
     quality: $("qualityFilter").value, sort: $("sortFilter").value, excluded: $("showExcluded").checked
   };
@@ -268,6 +268,13 @@ function filters() {
 function list() {
   const filter = filters();
   const directSearch = filter.q.length > 1;
+  const exactIdentityMatches = new Set(
+    filter.rawQuery
+      ? S.products.filter(product => [product.id, ...(product.aliases || [])].some(
+          value => String(value || "").normalize("NFKC").toLowerCase().trim() === filter.rawQuery
+        )).map(product => product.id)
+      : []
+  );
   const products = S.products.filter(product => {
     const showExcluded = filter.excluded || filter.st === "제외";
     if (product.duplicateOf && !directSearch && !showExcluded) return false;
@@ -276,7 +283,11 @@ function list() {
     if (filter.cat && product.category !== filter.cat) return false;
     if (filter.sub && product.subtype !== filter.sub) return false;
     if (filter.country && product.countryOfManufacture !== filter.country) return false;
-    if (filter.q && !filter.q.split(" ").every(term => blob(product).includes(term))) return false;
+    if (filter.q && (
+      exactIdentityMatches.size
+        ? !exactIdentityMatches.has(product.id)
+        : !filter.q.split(" ").every(term => blob(product).includes(term))
+    )) return false;
     if (filter.sale === "current" && !current(product)) return false;
     if (filter.sale === "archive" && !product.archive) return false;
     if (filter.kc === "verified" && !certificationInfo(product).found.length) return false;
@@ -670,7 +681,7 @@ async function init() {
   try {
     const embedded = window.KBABY_DATA;
     if (!embedded?.fallback) throw new Error("내장 검증 DB가 없습니다.");
-    if (!["20260802-full-revalidation2", "20260802-full-revalidation3", "20260804-strict419", "20260804-strict419-fix1", "20260815-live459-recovery1", "20260815-live459-recovery2"].includes(embedded.build)) throw new Error(`빌드 불일치: ${embedded.build}`);
+    if (!["20260802-full-revalidation2", "20260802-full-revalidation3", "20260804-strict419", "20260804-strict419-fix1", "20260815-live459-recovery1", "20260815-live459-recovery2", "20260815-dedup449-final1"].includes(embedded.build)) throw new Error(`빌드 불일치: ${embedded.build}`);
     KBABY_EXPECTED_RAW = Number(embedded.validation?.rawRecords || embedded.fallback?.records || 0);
     KBABY_EXPECTED_UNIQUE = Number(embedded.validation?.uniqueProducts || 0);
     if (!Number.isInteger(KBABY_EXPECTED_RAW) || KBABY_EXPECTED_RAW < 1 || !Number.isInteger(KBABY_EXPECTED_UNIQUE) || KBABY_EXPECTED_UNIQUE < 1) throw new Error("내장 검증 메타데이터 불일치");

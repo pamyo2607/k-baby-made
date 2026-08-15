@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "active-denylist",
+  "deletedAt": "2026-08-15T19:30:00+09:00",
+  "sourceCommit": "3159688dda039ba3362c8392bac2fb16a6640371",
+  "sourceCanonicalSha256": "0b2338245935229bf67dc03aa8fc5589384a22f236923b54dce9e027a7afa677",
+  "sourceSheetOrderSha256": "f5c86a15d90c8eaaa4200f4aa518c355c22380efc417a55da11133455e9228ee",
+  "sheetBackup": {
+    "id": "1rzRmdvMM9ILRkxYGu7PSt3-rmAubnlBA5eigbxFsJCc",
+    "url": "https://docs.google.com/spreadsheets/d/1rzRmdvMM9ILRkxYGu7PSt3-rmAubnlBA5eigbxFsJCc/edit?usp=drivesdk"
+  },
+  "before": {
+    "rawRecords": 459,
+    "uniqueProducts": 449,
+    "duplicateRecords": 10
+  },
+  "expectedAfter": {
+    "rawRecords": 449,
+    "uniqueProducts": 449,
+    "duplicateRecords": 0,
+    "included": 21,
+    "pending": 382,
+    "excluded": 46
+  },
+  "records": [
+    {"deletedId": "TOY-20260729-115", "retainedId": "TOY-20260729-024", "formerSequence": 115, "formerSheetRow": 116, "formerStatus": "제외", "retainedStatus": "제외", "brand": "쎄씨", "brandAliases": ["Sassy"], "name": "스퀴시 차임볼 SSG 직영 판매", "evidenceUrls": ["https://www.safetykorea.kr/release/certDetail?certNum=CB062R654-3001"], "reason": "판매처 문구만 다른 동일 제품"},
+    {"deletedId": "TOY-20260729-124", "retainedId": "TOY-20260729-123", "formerSequence": 124, "formerSheetRow": 125, "formerStatus": "제외", "retainedStatus": "보류", "brand": "해피플레이", "brandAliases": ["키저스"], "name": "파닥파닥 오리 화이트 1000553280442", "evidenceUrls": ["https://emart.ssg.com/item/itemView.ssg?itemId=1000553280442&siteNo=6001&salestrNo=6005"], "reason": "판매 상품번호만 다른 동일 제품"},
+    {"deletedId": "TOY-20260729-125", "retainedId": "TOY-20260729-053", "formerSequence": 125, "formerSheetRow": 126, "formerStatus": "제외", "retainedStatus": "제외", "brand": "피노키오", "brandAliases": ["핑크퐁"], "name": "핑크퐁 아기상어 샤워놀이 522557", "evidenceUrls": ["https://prod.danawa.com/info/?pcode=100021361"], "reason": "유통 모델 표기만 다른 동일 제품"},
+    {"deletedId": "TOY-20260729-155", "retainedId": "TOY-20260729-154", "formerSequence": 155, "formerSheetRow": 156, "formerStatus": "제외", "retainedStatus": "보류", "brand": "하늘썬별", "brandAliases": ["윈펀"], "name": "팝업 워커 롤링 걸음마 밀기 HUANHE0818 패키지", "evidenceUrls": ["https://emart.ssg.com/item/itemView.ssg?itemId=1000432593860&siteNo=6001&salestrNo=6005"], "reason": "패키지 표기만 다른 동일 모델"},
+    {"deletedId": "RUN18-011", "retainedId": "MASTER-0195", "formerSequence": 424, "formerSheetRow": 455, "formerStatus": "제외", "retainedStatus": "보류", "brand": "꼬꼬노리", "name": "도토링 고리 치발기 24P + 파우치", "evidenceUrls": ["https://www.coupang.com/vp/products/6423855983"], "reason": "정확한 이름과 24P+파우치 구성이 같은 동일 제품"},
+    {"deletedId": "RUN18-012", "retainedId": "MASTER-0197", "formerSequence": 425, "formerSheetRow": 456, "formerStatus": "제외", "retainedStatus": "보류", "brand": "꼬꼬노리", "name": "도토링 고리 치발기 애디 8P", "evidenceUrls": ["https://www.coupang.com/vp/products/8750563443"], "reason": "정확한 이름과 8P 구성이 같은 동일 제품"},
+    {"deletedId": "RUN18-013", "retainedId": "MASTER-0196", "formerSequence": 426, "formerSheetRow": 457, "formerStatus": "제외", "retainedStatus": "보류", "brand": "꼬꼬노리", "name": "도토링 고리 치발기 애드 박스 24개입", "evidenceUrls": ["https://www.coupang.com/vp/products/8750527041"], "reason": "정확한 이름과 24개입 구성이 같은 동일 제품"},
+    {"deletedId": "TEETHER-20260801-005", "retainedId": "MASTER-0195", "formerSequence": 434, "formerSheetRow": 206, "formerStatus": "제외", "retainedStatus": "보류", "brand": "꼬꼬노리", "name": "도토링 고리 치발기 24P + 파우치", "evidenceUrls": ["https://www.coupang.com/vp/products/6423855983"], "reason": "RUN18-011 및 MASTER-0195와 같은 동일 제품"},
+    {"deletedId": "TEETHER-20260801-015", "retainedId": "RUN18-008", "formerSequence": 444, "formerSheetRow": 216, "formerStatus": "제외", "retainedStatus": "포함", "brand": "앙쥬", "name": "3D 딸기 치발기", "evidenceUrls": ["https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"], "reason": "제품명·KC·제조사·공식 근거가 모두 같은 동일 제품"},
+    {"deletedId": "TEETHER-20260801-026", "retainedId": "MASTER-0135", "formerSequence": 455, "formerSheetRow": 227, "formerStatus": "제외", "retainedStatus": "보류", "brand": "앙쥬", "name": "베스트 치발기 오렌지링", "evidenceUrls": ["https://www.coupang.com/vp/products/8272631902", "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"], "reason": "제품명·오렌지링 옵션·KC가 같은 동일 제품"}
+  ]
+}

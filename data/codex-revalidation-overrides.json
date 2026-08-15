@@ -1236,7 +1236,7 @@
         "certDateSummary": "2024-04-05",
         "activeCertificateCount": 1,
         "expiredCertificateCount": 0,
-        "reason": "RUN18-008과 브랜드·정확한 제품명·KC CB065B0002-9001R·제조사·공식 근거가 모두 같은 동일 제품이다. 원본 행은 보존하고 RUN18-008을 canonical로 연결한 중복 레코드로 제외한다.",
+        "reason": "RUN18-008과 브랜드·정확한 제품명·KC CB065B0002-9001R·제조사·공식 근거가 모두 같은 동일 제품이다. 검증 근거는 RUN18-008에 병합하고 이 중복 활성 행은 백업과 tombstone 매핑을 남긴 뒤 삭제한다.",
         "quality": "동일 제품명·KC·제조사·공식 근거 일치 · 중복 연결"
       },
       "officialUrls": [
@@ -1270,7 +1270,7 @@
       "fields": {
         "status": "제외",
         "checkedAt": "2026-08-15",
-        "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0195를 canonical로 연결한 중복 레코드로 제외한다.",
+        "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 신뢰 근거는 MASTER-0195에 병합하고 이 중복 활성 행은 백업과 tombstone 매핑을 남긴 뒤 삭제한다.",
         "quality": "동일 제품명·구성·공식 URL 일치 · 중복 연결"
       },
       "historyEntry": "2026-08-15 Codex 중복 재검증 · RUN18-011 → MASTER-0195 구조화 연결"
@@ -1280,7 +1280,7 @@
       "fields": {
         "status": "제외",
         "checkedAt": "2026-08-15",
-        "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0195를 canonical로 연결한 중복 레코드로 제외한다.",
+        "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 신뢰 근거는 MASTER-0195에 병합하고 이 중복 활성 행은 백업과 tombstone 매핑을 남긴 뒤 삭제한다.",
         "quality": "동일 제품명·구성·공식 URL 일치 · 중복 연결"
       },
       "historyEntry": "2026-08-15 Codex 중복 재검증 · TEETHER-20260801-005 → MASTER-0195 구조화 연결"
@@ -1290,7 +1290,7 @@
       "fields": {
         "status": "제외",
         "checkedAt": "2026-08-15",
-        "reason": "MASTER-0196과 브랜드·정확한 제품명·애드 박스 24개입 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0196을 canonical로 연결한 중복 레코드로 제외한다.",
+        "reason": "MASTER-0196과 브랜드·정확한 제품명·애드 박스 24개입 구성·공식 근거가 같은 동일 제품이다. 신뢰 근거는 MASTER-0196에 병합하고 이 중복 활성 행은 백업과 tombstone 매핑을 남긴 뒤 삭제한다.",
         "quality": "동일 제품명·포장·공식 URL 일치 · 중복 연결"
       },
       "historyEntry": "2026-08-15 Codex 중복 재검증 · RUN18-013 → MASTER-0196 구조화 연결"
@@ -1300,7 +1300,7 @@
       "fields": {
         "status": "제외",
         "checkedAt": "2026-08-15",
-        "reason": "MASTER-0197과 브랜드·정확한 제품명·애디 8P 구성·KC CB061E006-8002·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0197을 canonical로 연결한 중복 레코드로 제외한다.",
+        "reason": "MASTER-0197과 브랜드·정확한 제품명·애디 8P 구성·KC CB061E006-8002·공식 근거가 같은 동일 제품이다. 신뢰 근거는 MASTER-0197에 병합하고 이 중복 활성 행은 백업과 tombstone 매핑을 남긴 뒤 삭제한다.",
         "quality": "동일 제품명·8P 구성·KC·공식 URL 일치 · 중복 연결"
       },
       "historyEntry": "2026-08-15 Codex 중복 재검증 · RUN18-012 → MASTER-0197 구조화 연결"
@@ -1310,7 +1310,7 @@
       "fields": {
         "status": "제외",
         "checkedAt": "2026-08-15",
-        "reason": "MASTER-0135와 브랜드·정확한 제품명·오렌지링 옵션·KC CB065B0002-9001R·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0135를 canonical로 연결한 중복 레코드로 제외한다.",
+        "reason": "MASTER-0135와 브랜드·정확한 제품명·오렌지링 옵션·KC CB065B0002-9001R·공식 근거가 같은 동일 제품이다. 신뢰 근거는 MASTER-0135에 병합하고 이 중복 활성 행은 백업과 tombstone 매핑을 남긴 뒤 삭제한다.",
         "quality": "동일 제품명·옵션·KC·공식 URL 일치 · 중복 연결"
       },
       "historyEntry": "2026-08-15 Codex 중복 재검증 · TEETHER-20260801-026 → MASTER-0135 구조화 연결"

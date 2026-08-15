@@ -19,6 +19,7 @@ STAGING = ROOT / "data/discovered-candidate-staging.json"
 STATE = ROOT / "data/continuous-research-state.json"
 AUDIT = ROOT / "data/research-last-run.json"
 REPORT = ROOT / "data/discovered-candidate-sanitization.json"
+TOMBSTONES = ROOT / "data/deleted-duplicate-tombstones.json"
 GENERIC = {
     "ai", "bing", "chatgpt", "google", "help", "home", "main", "news",
     "query", "search", "shop", "shopping", "검색", "뉴스", "메인", "쇼핑",
@@ -190,11 +191,21 @@ def update_state_files(
 def main() -> None:
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     candidates = json.loads(STAGING.read_text(encoding="utf-8")) if STAGING.exists() else []
+    tombstones = (
+        json.loads(TOMBSTONES.read_text(encoding="utf-8")).get("records", [])
+        if TOMBSTONES.exists() else []
+    )
     existing_keys = {
         product_key(item)
         for item in products
         if not str(item.get("id", "")).startswith("DISC-")
     }
+    existing_keys.update(
+        product_key({"brand": brand, "name": item.get("name", "")})
+        for item in tombstones
+        for brand in [item.get("brand", ""), *item.get("brandAliases", [])]
+        if brand and item.get("name")
+    )
     seen_discovered: set[str] = set()
     kept: list[dict] = []
     removed: list[dict] = []

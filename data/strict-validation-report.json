@@ -1,9 +1,9 @@
 {
   "status": "passed",
-  "build": "20260815-live459-recovery2",
-  "rawRecords": 459,
+  "build": "20260815-dedup449-final1",
+  "rawRecords": 449,
   "uniqueProducts": 449,
-  "duplicateRecords": 10,
+  "duplicateRecords": 0,
   "uniqueStatusCounts": {
     "포함": 21,
     "보류": 382,
@@ -12,7 +12,8 @@
   "rawStatusCounts": {
     "포함": 21,
     "보류": 382,
-    "제외": 56
+    "제외": 46
   },
+  "externalProofRequired": false,
   "violations": []
 }

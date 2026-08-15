@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-08-15T20:11:00+09:00",
+  "build": "20260815-dedup449-final1",
+  "sourceCommit": "3159688dda039ba3362c8392bac2fb16a6640371",
+  "recoverableBackups": {
+    "gitCommit": "3159688dda039ba3362c8392bac2fb16a6640371",
+    "googleSheet": "https://docs.google.com/spreadsheets/d/1rzRmdvMM9ILRkxYGu7PSt3-rmAubnlBA5eigbxFsJCc/edit?usp=drivesdk"
+  },
+  "deletedRecords": 10,
+  "retainedCanonicalRecords": 9,
+  "activeDuplicateRecords": 0,
+  "before": {"rawRecords": 459, "uniqueProducts": 449, "duplicateRecords": 10},
+  "after": {"rawRecords": 449, "uniqueProducts": 449, "duplicateRecords": 0, "included": 21, "pending": 382, "excluded": 46, "currentSale": 210, "fullRevalidationTargetRows": 403},
+  "sheetReadback": {"masterCellDiffs": 0, "strictSyncCellDiffs": 0, "queueCellDiffs": 0, "deletedIdsFound": 0, "retainedIdsFound": 9},
+  "localValidation": {"npmCheck": "passed", "ultraQuality": "passed", "includedViolations": 0, "unresolvedDuplicateGroups": 0},
+  "deploymentVerification": "pending",
+  "production": {"url": "https://k-baby-made.pamyo26.workers.dev/", "status": "pending"}
+}

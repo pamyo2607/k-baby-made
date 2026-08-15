@@ -433,7 +433,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [
@@ -535,7 +535,7 @@
       "CB065R0700-4013"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "TOY-20260729-004"
   },
@@ -936,7 +936,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "공식 제조사 모델 MP367과 국내 판매 제품 식별은 완료. 동일 모델의 국내 유효 KC와 완제품 제조국 확인 전 보류",
     "certifications": [
@@ -1028,7 +1028,7 @@
       "B361R4846-4001"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-008"
   },
@@ -1571,7 +1571,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품 안전 특별법상 제품별 KC 확인",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -1698,7 +1698,7 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "importer": "매직캐슬",
     "canonicalProductId": "TOY-20260729-013"
@@ -1995,7 +1995,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "판매처 KC 번호는 Safety Korea 동일 모델의 인증상태와 인증기관 확인 전 최종 확정 근거로 사용하지 않음",
     "certifications": [
@@ -2053,7 +2053,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "importer": "(주)원앤원",
     "canonicalProductId": "TOY-20260729-016"
@@ -2200,7 +2200,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "동일 인증번호의 공식 모델명은 봉제인형이며 제조국 중국과 수입업체 비앤비플러스가 판매 고시와 일치. 인증상태 기간만료로 최신 유효 인증 확인 전 보류",
     "certifications": [
@@ -2265,7 +2265,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "importer": "비앤비플러스",
     "canonicalProductId": "TOY-20260729-018"
@@ -2805,7 +2805,10 @@
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "TOY-20260729-115",
+      "스퀴시 차임볼 SSG 직영 판매"
+    ],
     "id": "TOY-20260729-024",
     "category": "완구",
     "subtype": "차임볼",
@@ -2830,13 +2833,13 @@
       "https://shop.zambus.co.kr/product/%EC%8E%84%EC%94%A8-%EC%8A%A4%ED%80%B4%EC%8B%9C-%EC%B0%A8%EC%9E%84%EB%B3%BC/1181/"
     ],
     "quality": "명확한 제외 근거",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 제외",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 제외 | 2026-08-15 중복 활성 행 삭제 병합 · TOY-20260729-115 → TOY-20260729-024",
     "dashboardGroup": "딸랑이·촉감·래틀",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법상 기구·용기·포장 기준 우선 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [
@@ -2924,9 +2927,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "importer": "잼버스코리아(주)",
+    "deletedDuplicateIds": [
+      "TOY-20260729-115"
+    ],
     "canonicalProductId": "TOY-20260729-024"
   },
   {
@@ -2986,7 +2992,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "유통채널의 10개월 이상 표기는 현재 판매와 우선순위 판단에만 사용 · 동일 모델 공식 KC와 제조국과 월령 확인 전 보류",
     "certifications": [
@@ -3159,7 +3165,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "TOY-20260729-025"
   },
@@ -3331,7 +3337,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "동일 모델명 기준 국내 판매 상품고시와 Safety Korea 공식 인증 상세 URL 교차 확인",
     "certifications": [
@@ -3408,7 +3414,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "importer": "굿줄라이",
     "canonicalProductId": "TOY-20260729-027"
@@ -5261,7 +5267,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 완구 안전확인",
     "regulatoryNote": "동일 모델 기준 Safety Korea와 제조사 직영 판매와 상품고시 교차 확인",
     "certifications": [
@@ -5358,7 +5364,7 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "importer": "주식회사 아이존",
     "canonicalProductId": "TOY-20260729-043"
@@ -6280,12 +6286,16 @@
       "https://www.toybox.kr/shop/shopdetail.html?branduid=1813994",
       "https://moonbird1001.github.io/shopping/2023/12/05/%EC%95%84%EA%B8%B0%EC%83%81%EC%96%B4%EB%AA%A9%EC%9A%95-%EC%9D%B8%EA%B8%B0-%EB%A7%8E%EC%9D%80-%EC%83%81%ED%92%88-TOP10-!.html",
       "http://xn--bh3bl9fh7v.xn--h32bi4v.xn--3e0b707e/%EC%9C%A0%EC%A0%9C%ED%92%88-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC/114770",
-      "https://animalmap.crimm.me/%EA%B0%80%EA%B5%AC/103259"
+      "https://animalmap.crimm.me/%EA%B0%80%EA%B5%AC/103259",
+      "https://prod.danawa.com/info/?pcode=100021361"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "TOY-20260729-125",
+      "핑크퐁 아기상어 샤워놀이 522557"
+    ],
     "id": "TOY-20260729-053",
     "category": "완구",
     "subtype": "샤워 목욕완구",
@@ -6309,16 +6319,17 @@
       "https://www.toybox.kr/shop/shopdetail.html?branduid=1813994",
       "https://moonbird1001.github.io/shopping/2023/12/05/%EC%95%84%EA%B8%B0%EC%83%81%EC%96%B4%EB%AA%A9%EC%9A%95-%EC%9D%B8%EA%B8%B0-%EB%A7%8E%EC%9D%80-%EC%83%81%ED%92%88-TOP10-!.html",
       "http://xn--bh3bl9fh7v.xn--h32bi4v.xn--3e0b707e/%EC%9C%A0%EC%A0%9C%ED%92%88-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC/114770",
-      "https://animalmap.crimm.me/%EA%B0%80%EA%B5%AC/103259"
+      "https://animalmap.crimm.me/%EA%B0%80%EA%B5%AC/103259",
+      "https://prod.danawa.com/info/?pcode=100021361"
     ],
     "quality": "명확한 제외 근거",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 제외",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 제외 | 2026-08-15 중복 활성 행 삭제 병합 · TOY-20260729-125 → TOY-20260729-053",
     "dashboardGroup": "목욕완구",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -6407,8 +6418,11 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
+    "deletedDuplicateIds": [
+      "TOY-20260729-125"
+    ],
     "canonicalProductId": "TOY-20260729-053"
   },
   {
@@ -8020,7 +8034,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -8078,7 +8092,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-066"
   },
@@ -8757,7 +8771,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -8843,7 +8857,7 @@
       "CB067R2486-4001"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-071"
   },
@@ -8894,7 +8908,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -9000,7 +9014,7 @@
       "CB067R2485-4001"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-072"
   },
@@ -9049,7 +9063,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -9141,7 +9155,7 @@
       "KBN1576-1579"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-073"
   },
@@ -9295,7 +9309,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -9366,7 +9380,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-075"
   },
@@ -9413,7 +9427,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -9499,7 +9513,7 @@
       "CB067R2486-4001"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-076"
   },
@@ -10646,7 +10660,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -10755,7 +10769,7 @@
       "CB063M001-20004"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "TOY-20260729-086"
   },
@@ -11153,7 +11167,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "0~35개월 대상 기준을 초과한 36개월 이상 제품",
     "certifications": [
@@ -11248,7 +11262,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-089"
   },
@@ -11295,7 +11309,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -11366,7 +11380,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-090"
   },
@@ -12266,7 +12280,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [],
@@ -12304,7 +12318,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-097"
   },
@@ -12790,7 +12804,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "판매처 KC 표기는 참고만 사용 · 동일 모델 Safety Korea 상세 직접 확인 필요",
     "certifications": [
@@ -12957,7 +12971,7 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "TOY-20260729-101"
   },
@@ -14328,97 +14342,6 @@
   },
   {
     "sequence": 115,
-    "manufacturer": "미확인",
-    "officialModel": "미확인",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "미확인",
-    "saleUrls": [
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB062R654-3001"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "TOY-20260729-115",
-    "category": "완구",
-    "subtype": "차임볼",
-    "rawCategory": "완구",
-    "brand": "쎄씨",
-    "name": "스퀴시 차임볼 SSG 직영 판매",
-    "status": "제외",
-    "countryOfManufacture": "중국 🇨🇳",
-    "saleStatus": "중복 통합",
-    "ageRange": "3세 미만",
-    "ageEvidence": "원본 제품 TOY-20260729-024에 동일 모델과 인증정보 통합",
-    "kcApplicable": "어린이제품 안전확인 대상",
-    "kcNumber": "CB062R654-3001",
-    "platform": "Safety Korea",
-    "checkedAt": "2026-08-02",
-    "reason": "스퀴시 차임볼은 원본 제품 TOY-20260729-024와 동일 제품이며 판매처 문구만 다른 중복 행이다. Safety Korea 인증번호 CB062R654-3001은 원본 제품에 통합하고 이 행은 중복 제외를 유지한다.",
-    "officialUrls": [
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB062R654-3001"
-    ],
-    "quality": "동일 제품 중복 확인 및 원본 행 인증정보 통합 완료",
-    "historySummary": "2026-08-02 전수 재검증 · 중복 제외 유지",
-    "dashboardGroup": "딸랑이·촉감·래틀",
-    "duplicateOf": "TOY-20260729-024",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 완구 안전확인",
-    "regulatoryNote": "판매처만 다른 동일 제품은 별도 제품으로 집계하지 않음",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "CB062R654-3001",
-        "status": "확인 필요",
-        "certDate": "",
-        "changedDate": "",
-        "certType": "",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "",
-        "modelName": "",
-        "manufacturer": "",
-        "country": "중국 🇨🇳",
-        "importer": "",
-        "classification": "",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB062R654-3001"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB062R654-3001",
-    "safetyKoreaCheckedAt": "2026-08-02",
-    "certStatusSummary": "상세 조회 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260804-strict419",
-    "revalidationAttempted": false,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"쎄씨\" \"스퀴시 차임볼 SSG 직영 판매\"",
-      "\"스퀴시 차임볼 SSG 직영 판매\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"스퀴시 차임볼 SSG 직영 판매\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "revalidationState": "재검증 완료 · 중복 제외 확정",
-    "canonicalProductId": "TOY-20260729-024"
-  },
-  {
-    "sequence": 116,
     "manufacturer": "신상품",
     "officialModel": "제조사",
     "officialSku": "미확인",
@@ -14552,7 +14475,7 @@
     "canonicalProductId": "TOY-20260729-116"
   },
   {
-    "sequence": 117,
+    "sequence": 116,
     "manufacturer": "미확인",
     "officialModel": "MP102",
     "officialSku": "미확인",
@@ -14606,7 +14529,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -14699,12 +14622,12 @@
       "B361U009-0002"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "TOY-20260729-117"
   },
   {
-    "sequence": 118,
+    "sequence": 117,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -14764,7 +14687,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "동일 모델 Safety Korea 유효 번호 확정 전 판매처 KC 번호 채택 금지",
     "certifications": [
@@ -14912,12 +14835,12 @@
       "B362R136-8001A"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-118"
   },
   {
-    "sequence": 119,
+    "sequence": 118,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -14961,7 +14884,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -15036,12 +14959,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-119"
   },
   {
-    "sequence": 120,
+    "sequence": 119,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -15167,7 +15090,7 @@
     "canonicalProductId": "TOY-20260729-120"
   },
   {
-    "sequence": 121,
+    "sequence": 120,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -15307,7 +15230,7 @@
     "canonicalProductId": "TOY-20260729-121"
   },
   {
-    "sequence": 122,
+    "sequence": 121,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -15465,21 +15388,26 @@
     "canonicalProductId": "TOY-20260729-122"
   },
   {
-    "sequence": 123,
+    "sequence": 122,
     "manufacturer": "미확인",
-    "officialModel": "뽀득뽀득 싱크대 (3세대 리뉴얼버전)",
+    "officialModel": "",
     "officialSku": "미확인",
     "brandCountry": "미확인",
     "kcType": "미확인",
     "testInstitute": "미확인",
     "saleUrls": [
       "https://www.safetykorea.kr/release/certSearch",
-      "https://kidzmall.co.kr/"
+      "https://kidzmall.co.kr/",
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000709728334&siteNo=6001&salestrNo=6005",
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000553280442&siteNo=6001&salestrNo=6005"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "TOY-20260729-124",
+      "파닥파닥 오리 화이트 1000553280442"
+    ],
     "id": "TOY-20260729-123",
     "category": "완구",
     "subtype": "목욕 태엽완구",
@@ -15498,10 +15426,12 @@
     "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
     "officialUrls": [
       "https://www.safetykorea.kr/release/certSearch",
-      "https://kidzmall.co.kr/"
+      "https://kidzmall.co.kr/",
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000709728334&siteNo=6001&salestrNo=6005",
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000553280442&siteNo=6001&salestrNo=6005"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 중복 활성 행 삭제 병합 · TOY-20260729-124 → TOY-20260729-123",
     "dashboardGroup": "목욕완구",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -15512,7 +15442,7 @@
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
       {
-        "found": true,
+        "found": false,
         "certNumber": "미확인",
         "status": "확인 필요",
         "certDate": "",
@@ -15522,7 +15452,7 @@
         "changedReason": "",
         "recallStatus": "",
         "itemName": "",
-        "modelName": "뽀득뽀득 싱크대 (3세대 리뉴얼버전)",
+        "modelName": "",
         "manufacturer": "",
         "country": "미확인 ❓",
         "importer": "",
@@ -15585,180 +15515,13 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "deletedDuplicateIds": [
+      "TOY-20260729-124"
+    ],
     "canonicalProductId": "TOY-20260729-123"
   },
   {
-    "sequence": 124,
-    "manufacturer": "미확인",
-    "officialModel": "미확인",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "미확인",
-    "saleUrls": [
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000709728334&siteNo=6001&salestrNo=6005",
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000553280442&siteNo=6001&salestrNo=6005"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "TOY-20260729-124",
-    "category": "완구",
-    "subtype": "목욕 태엽완구",
-    "rawCategory": "완구",
-    "brand": "해피플레이",
-    "name": "파닥파닥 오리 화이트 1000553280442",
-    "status": "제외",
-    "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "중복 제품 제외",
-    "ageRange": "0~35개월",
-    "ageEvidence": "유아 물놀이 상품명 · TOY-20260729-123과 제품명·색상 동일",
-    "kcApplicable": "원본 제품 행에서 관리",
-    "kcNumber": "미확인",
-    "platform": "이마트몰 SSG.COM",
-    "checkedAt": "2026-07-31",
-    "reason": "TOY-20260729-123과 정확한 제품명 '파닥파닥 오리 화이트'와 브랜드가 같고 차이는 SSG 판매 상품번호뿐임. 판매처 상품번호 차이는 실제 모델·SKU 차이의 공식 근거가 아니므로 중복 행으로 제외하고 원본 행 TOY-20260729-123으로 통합함.",
-    "officialUrls": [
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000709728334&siteNo=6001&salestrNo=6005",
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000553280442&siteNo=6001&salestrNo=6005"
-    ],
-    "quality": "동일 브랜드·제품명·색상 중복 제외 · 원본 제품 TOY-20260729-123으로 통합",
-    "historySummary": "2026-07-31 중복 정리: TOY-20260729-123으로 통합",
-    "dashboardGroup": "목욕완구",
-    "duplicateOf": "TOY-20260729-123",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
-    "certifications": [],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certificationsearch",
-    "safetyKoreaCheckedAt": "2026-07-31",
-    "certStatusSummary": "인증번호 확인 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260804-strict419",
-    "revalidationAttempted": false,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"해피플레이\" \"파닥파닥 오리 화이트 1000553280442\"",
-      "\"파닥파닥 오리 화이트 1000553280442\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"파닥파닥 오리 화이트 1000553280442\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "revalidationState": "재검증 완료 · 기준 제외",
-    "canonicalProductId": "TOY-20260729-123"
-  },
-  {
-    "sequence": 125,
-    "manufacturer": "미확인",
-    "officialModel": "미확인",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "KOTITI 시험연구원",
-    "saleUrls": [
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB067R595-1002",
-      "https://www.ssg.com/item/itemView.ssg?itemId=1000536822977",
-      "https://prod.danawa.com/info/?pcode=100021361"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "TOY-20260729-125",
-    "category": "완구",
-    "subtype": "샤워 목욕완구",
-    "rawCategory": "완구",
-    "brand": "피노키오",
-    "name": "핑크퐁 아기상어 샤워놀이 522557",
-    "status": "제외",
-    "countryOfManufacture": "중국 🇨🇳",
-    "saleStatus": "국내 현재 판매 확인 · 동일 제품 중복 행",
-    "ageRange": "4세 이상",
-    "ageEvidence": "동일 제품명 '핑크퐁 아기상어 샤워놀이'의 공식 상품고시에서 권장사용연령 4세 이상 확인",
-    "kcApplicable": "어린이제품 안전확인 대상",
-    "kcNumber": "CB067R595-1002",
-    "platform": "Safety Korea · SSG.COM · 다나와",
-    "checkedAt": "2026-08-01",
-    "reason": "피노키오 모델 522557은 TOY-20260729-053과 동일한 '핑크퐁 아기상어 샤워놀이' 제품으로 확인됨. 동일 제품의 공식 상품고시에서 KC 안전확인번호 CB067R595-1002와 제조국 중국 및 권장사용연령 4세 이상을 확인함. 0~35개월 대상이 아니며 판매처 또는 유통 모델 표기만 다른 중복 행이므로 포함에서 제외로 변경하고 원본 행 TOY-20260729-053에 통합함.",
-    "officialUrls": [
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB067R595-1002",
-      "https://www.ssg.com/item/itemView.ssg?itemId=1000536822977",
-      "https://prod.danawa.com/info/?pcode=100021361"
-    ],
-    "quality": "동일 제품 KC 번호·제조국·권장연령·국내 현재 판매 확인 완료 · 0~35개월 대상 아님 · 중복 행 제외",
-    "historySummary": "완구 공식 검증 31차 · 포함 → 제외 · TOY-20260729-053과 동일 제품 통합",
-    "dashboardGroup": "목욕완구",
-    "duplicateOf": "TOY-20260729-053",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "CB067R595-1002",
-        "status": "확인 필요",
-        "certDate": "",
-        "changedDate": "",
-        "certType": "",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "",
-        "modelName": "",
-        "manufacturer": "",
-        "country": "중국 🇨🇳",
-        "importer": "",
-        "classification": "",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB067R595-1002"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB067R595-1002",
-    "safetyKoreaCheckedAt": "2026-08-01",
-    "certStatusSummary": "상세 조회 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260804-strict419",
-    "revalidationAttempted": false,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"피노키오\" \"핑크퐁 아기상어 샤워놀이 522557\"",
-      "\"핑크퐁 아기상어 샤워놀이 522557\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"핑크퐁 아기상어 샤워놀이 522557\""
-    ],
-    "revalidationEvidenceUrls": [
-      "https://prod.danawa.com/info/?pcode=100021361"
-    ],
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "revalidationState": "재검증 완료 · 기준 제외",
-    "canonicalProductId": "TOY-20260729-053"
-  },
-  {
-    "sequence": 126,
+    "sequence": 123,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -15860,7 +15623,7 @@
     "canonicalProductId": "TOY-20260729-126"
   },
   {
-    "sequence": 127,
+    "sequence": 124,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -15962,7 +15725,7 @@
     "canonicalProductId": "TOY-20260729-127"
   },
   {
-    "sequence": 128,
+    "sequence": 125,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16058,7 +15821,7 @@
     "canonicalProductId": "TOY-20260729-128"
   },
   {
-    "sequence": 129,
+    "sequence": 126,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16172,7 +15935,7 @@
     "canonicalProductId": "TOY-20260729-129"
   },
   {
-    "sequence": 130,
+    "sequence": 127,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16323,7 +16086,7 @@
     "canonicalProductId": "TOY-20260729-130"
   },
   {
-    "sequence": 131,
+    "sequence": 128,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16418,7 +16181,7 @@
     "canonicalProductId": "TOY-20260729-131"
   },
   {
-    "sequence": 132,
+    "sequence": 129,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16507,7 +16270,7 @@
     "canonicalProductId": "TOY-20260729-132"
   },
   {
-    "sequence": 133,
+    "sequence": 130,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16678,7 +16441,7 @@
     "canonicalProductId": "TOY-20260729-133"
   },
   {
-    "sequence": 134,
+    "sequence": 131,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16766,7 +16529,7 @@
     "canonicalProductId": "TOY-20260729-134"
   },
   {
-    "sequence": 135,
+    "sequence": 132,
     "manufacturer": "확인중",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -16902,7 +16665,7 @@
     "canonicalProductId": "TOY-20260729-135"
   },
   {
-    "sequence": 136,
+    "sequence": 133,
     "manufacturer": "베이비",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17031,7 +16794,7 @@
     "canonicalProductId": "TOY-20260729-136"
   },
   {
-    "sequence": 137,
+    "sequence": 134,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17129,7 +16892,7 @@
     "canonicalProductId": "TOY-20260729-137"
   },
   {
-    "sequence": 138,
+    "sequence": 135,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17233,7 +16996,7 @@
     "canonicalProductId": "TOY-20260729-138"
   },
   {
-    "sequence": 139,
+    "sequence": 136,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17323,7 +17086,7 @@
     "canonicalProductId": "TOY-20260729-139"
   },
   {
-    "sequence": 140,
+    "sequence": 137,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17445,7 +17208,7 @@
     "canonicalProductId": "TOY-20260729-140"
   },
   {
-    "sequence": 141,
+    "sequence": 138,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17534,7 +17297,7 @@
     "canonicalProductId": "TOY-20260729-141"
   },
   {
-    "sequence": 142,
+    "sequence": 139,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17632,7 +17395,7 @@
     "canonicalProductId": "TOY-20260729-142"
   },
   {
-    "sequence": 143,
+    "sequence": 140,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17742,7 +17505,7 @@
     "canonicalProductId": "TOY-20260729-143"
   },
   {
-    "sequence": 144,
+    "sequence": 141,
     "manufacturer": "파스텔",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -17871,7 +17634,7 @@
     "canonicalProductId": "TOY-20260729-144"
   },
   {
-    "sequence": 145,
+    "sequence": 142,
     "manufacturer": "확인중",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -18001,7 +17764,7 @@
     "canonicalProductId": "TOY-20260729-145"
   },
   {
-    "sequence": 146,
+    "sequence": 143,
     "manufacturer": "확인중",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -18125,7 +17888,7 @@
     "canonicalProductId": "TOY-20260729-146"
   },
   {
-    "sequence": 147,
+    "sequence": 144,
     "manufacturer": "확인중",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -18258,7 +18021,7 @@
     "canonicalProductId": "TOY-20260729-147"
   },
   {
-    "sequence": 148,
+    "sequence": 145,
     "manufacturer": "확인중",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -18375,7 +18138,7 @@
     "canonicalProductId": "TOY-20260729-148"
   },
   {
-    "sequence": 149,
+    "sequence": 146,
     "manufacturer": "확인중",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -18498,7 +18261,7 @@
     "canonicalProductId": "TOY-20260729-149"
   },
   {
-    "sequence": 150,
+    "sequence": 147,
     "manufacturer": "확인중",
     "officialModel": "[상품01]",
     "officialSku": "미확인",
@@ -18631,7 +18394,7 @@
     "canonicalProductId": "TOY-20260729-150"
   },
   {
-    "sequence": 151,
+    "sequence": 148,
     "manufacturer": "확인중",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -18774,7 +18537,7 @@
     "canonicalProductId": "TOY-20260729-151"
   },
   {
-    "sequence": 152,
+    "sequence": 149,
     "manufacturer": "확인중",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -18903,7 +18666,7 @@
     "canonicalProductId": "TOY-20260729-152"
   },
   {
-    "sequence": 153,
+    "sequence": 150,
     "manufacturer": ", 수입품의 경우",
     "officialModel": "소프트 몬스터자동차5p",
     "officialSku": "미확인",
@@ -19089,8 +18852,8 @@
     "canonicalProductId": "TOY-20260729-153"
   },
   {
-    "sequence": 154,
-    "manufacturer": "확인중",
+    "sequence": 151,
+    "manufacturer": "",
     "officialModel": "미확인",
     "officialSku": "미확인",
     "brandCountry": "미확인",
@@ -19098,12 +18861,16 @@
     "testInstitute": "미확인",
     "saleUrls": [
       "https://emart.ssg.com/item/itemView.ssg?itemId=1000039235931&siteNo=6001&salestrNo=6005",
-      "https://prod.danawa.com/info/?pcode=20847926"
+      "https://prod.danawa.com/info/?pcode=20847926",
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000432593860&siteNo=6001&salestrNo=6005"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "TOY-20260729-155",
+      "팝업 워커 롤링 걸음마 밀기 HUANHE0818 패키지"
+    ],
     "id": "TOY-20260729-154",
     "category": "완구",
     "subtype": "걸음마 밀기",
@@ -19122,10 +18889,11 @@
     "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
     "officialUrls": [
       "https://emart.ssg.com/item/itemView.ssg?itemId=1000039235931&siteNo=6001&salestrNo=6005",
-      "https://prod.danawa.com/info/?pcode=20847926"
+      "https://prod.danawa.com/info/?pcode=20847926",
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000432593860&siteNo=6001&salestrNo=6005"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 중복 활성 행 삭제 병합 · TOY-20260729-155 → TOY-20260729-154",
     "dashboardGroup": "오뚝이·걸음마·러닝",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -19136,7 +18904,7 @@
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
       {
-        "found": true,
+        "found": false,
         "certNumber": "미확인",
         "status": "확인 필요",
         "certDate": "",
@@ -19147,7 +18915,7 @@
         "recallStatus": "",
         "itemName": "",
         "modelName": "",
-        "manufacturer": "확인중",
+        "manufacturer": "",
         "country": "미확인 ❓",
         "importer": "",
         "classification": "",
@@ -19198,103 +18966,19 @@
       }
     ],
     "ocrFallbackAttempted": true,
-    "ocrEvidence": [
-      {
-        "sourceUrl": "https://prod.danawa.com/info/?pcode=20847926",
-        "pageTitle": "플레이베이비  하늘썬별 팝업 워커 롤링 걸음마 밀기 huanhe0818 : 다나와 가격비교",
-        "sourceType": "retailer",
-        "method": "detail-page-html",
-        "identityScore": 1.0,
-        "fields": {
-          "manufacturer": "확인중"
-        },
-        "checkedAt": "2026-08-03",
-        "textSha256": "d0a0354636420e638ba469c56ab30eb439898104550965ba6a251133a829e31f"
-      }
-    ],
+    "ocrEvidence": [],
     "ocrPagesChecked": 2,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "deletedDuplicateIds": [
+      "TOY-20260729-155"
+    ],
     "canonicalProductId": "TOY-20260729-154"
   },
   {
-    "sequence": 155,
-    "manufacturer": "미확인",
-    "officialModel": "미확인",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "미확인",
-    "saleUrls": [
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000039235931&siteNo=6001&salestrNo=6005",
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000432593860&siteNo=6001&salestrNo=6005"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "TOY-20260729-155",
-    "category": "완구",
-    "subtype": "걸음마 밀기",
-    "rawCategory": "완구",
-    "brand": "하늘썬별",
-    "name": "팝업 워커 롤링 걸음마 밀기 HUANHE0818 패키지",
-    "status": "제외",
-    "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "중복 제품 제외",
-    "ageRange": "9~35개월",
-    "ageEvidence": "걸음마 밀기·동일 모델 HUANHE0818",
-    "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
-    "platform": "이마트몰 SSG.COM",
-    "checkedAt": "2026-07-30",
-    "reason": "TOY-20260729-154와 정확한 모델번호 HUANHE0818이 같으며 판매 페이지와 패키지 표기만 다른 중복 행임. 동일 모델의 판매처·패키지 차이는 별도 제품으로 집계하지 않는 기준에 따라 제외하고 원본 행 TOY-20260729-154로 통합함.",
-    "officialUrls": [
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000039235931&siteNo=6001&salestrNo=6005",
-      "https://emart.ssg.com/item/itemView.ssg?itemId=1000432593860&siteNo=6001&salestrNo=6005"
-    ],
-    "quality": "동일 모델번호 중복 제외 · 원본 제품 TOY-20260729-154로 통합",
-    "historySummary": "2026-07-30 중복 정리: TOY-20260729-154로 통합",
-    "dashboardGroup": "오뚝이·걸음마·러닝",
-    "duplicateOf": "TOY-20260729-154",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
-    "certifications": [],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certificationsearch",
-    "safetyKoreaCheckedAt": "2026-07-30",
-    "certStatusSummary": "인증번호 확인 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260804-strict419",
-    "revalidationAttempted": false,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"하늘썬별\" \"HUANHE0818\"",
-      "\"하늘썬별\" \"팝업 워커 롤링 걸음마 밀기 HUANHE0818 패키지\"",
-      "\"팝업 워커 롤링 걸음마 밀기 HUANHE0818 패키지\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"팝업 워커 롤링 걸음마 밀기 HUANHE0818 패키지\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "revalidationState": "재검증 완료 · 기준 제외",
-    "canonicalProductId": "TOY-20260729-154"
-  },
-  {
-    "sequence": 156,
+    "sequence": 152,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -19469,7 +19153,7 @@
     "canonicalProductId": "TOY-20260729-156"
   },
   {
-    "sequence": 157,
+    "sequence": 153,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -19509,7 +19193,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -19583,12 +19267,12 @@
       "CB063R1777-8010"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-157"
   },
   {
-    "sequence": 158,
+    "sequence": 154,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -19698,7 +19382,7 @@
     "canonicalProductId": "TOY-20260729-158"
   },
   {
-    "sequence": 159,
+    "sequence": 155,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -19799,7 +19483,7 @@
     "canonicalProductId": "TOY-20260729-159"
   },
   {
-    "sequence": 160,
+    "sequence": 156,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -19894,7 +19578,7 @@
     "canonicalProductId": "TOY-20260729-160"
   },
   {
-    "sequence": 161,
+    "sequence": 157,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20006,7 +19690,7 @@
     "canonicalProductId": "TOY-20260729-161"
   },
   {
-    "sequence": 162,
+    "sequence": 158,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20104,7 +19788,7 @@
     "canonicalProductId": "TOY-20260729-162"
   },
   {
-    "sequence": 163,
+    "sequence": 159,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20201,7 +19885,7 @@
     "canonicalProductId": "TOY-20260729-163"
   },
   {
-    "sequence": 164,
+    "sequence": 160,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20339,7 +20023,7 @@
     "canonicalProductId": "TOY-20260729-164"
   },
   {
-    "sequence": 165,
+    "sequence": 161,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20444,7 +20128,7 @@
     "canonicalProductId": "TOY-20260729-165"
   },
   {
-    "sequence": 166,
+    "sequence": 162,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20532,7 +20216,7 @@
     "canonicalProductId": "TOY-20260729-166"
   },
   {
-    "sequence": 167,
+    "sequence": 163,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20620,7 +20304,7 @@
     "canonicalProductId": "TOY-20260729-167"
   },
   {
-    "sequence": 168,
+    "sequence": 164,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20708,7 +20392,7 @@
     "canonicalProductId": "TOY-20260729-168"
   },
   {
-    "sequence": 169,
+    "sequence": 165,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20804,7 +20488,7 @@
     "canonicalProductId": "TOY-20260729-169"
   },
   {
-    "sequence": 170,
+    "sequence": 166,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -20921,7 +20605,7 @@
     "canonicalProductId": "TOY-20260729-170"
   },
   {
-    "sequence": 171,
+    "sequence": 167,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -21030,7 +20714,7 @@
     "canonicalProductId": "TOY-20260729-171"
   },
   {
-    "sequence": 172,
+    "sequence": 168,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -21118,7 +20802,7 @@
     "canonicalProductId": "TOY-20260729-172"
   },
   {
-    "sequence": 173,
+    "sequence": 169,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -21208,7 +20892,7 @@
     "canonicalProductId": "TOY-20260729-173"
   },
   {
-    "sequence": 174,
+    "sequence": 170,
     "manufacturer": "미확인",
     "officialModel": "(현대Hmall)클래식월드 마린 비즈 원목 롤러코스터 돌 선물 유아 아기 장난감 소근육 발달 놀이 교구. 12%원가80,000원12%할인가70,400원.(현대Hm",
     "officialSku": "미확인",
@@ -21310,7 +20994,7 @@
     "canonicalProductId": "TOY-20260729-174"
   },
   {
-    "sequence": 175,
+    "sequence": 171,
     "manufacturer": "사정상 색상 및 사 양 이 예고 없이",
     "officialModel": "제조사",
     "officialSku": "미확인",
@@ -21352,7 +21036,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -21438,12 +21122,12 @@
     "ocrPagesChecked": 4,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-175"
   },
   {
-    "sequence": 176,
+    "sequence": 172,
     "manufacturer": "/브랜드",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -21566,7 +21250,7 @@
     "canonicalProductId": "TOY-20260729-176"
   },
   {
-    "sequence": 177,
+    "sequence": 173,
     "manufacturer": "확인중",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -21679,7 +21363,7 @@
     "canonicalProductId": "TOY-20260729-177"
   },
   {
-    "sequence": 178,
+    "sequence": 174,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -21792,7 +21476,7 @@
     "canonicalProductId": "TOY-20260729-178"
   },
   {
-    "sequence": 179,
+    "sequence": 175,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -21923,7 +21607,7 @@
     "canonicalProductId": "TOY-20260729-179"
   },
   {
-    "sequence": 180,
+    "sequence": 176,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22036,7 +21720,7 @@
     "canonicalProductId": "TOY-20260729-180"
   },
   {
-    "sequence": 181,
+    "sequence": 177,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22076,7 +21760,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -22162,12 +21846,12 @@
       "CB067R2484-4002"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-181"
   },
   {
-    "sequence": 182,
+    "sequence": 178,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22207,7 +21891,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [],
@@ -22258,12 +21942,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-182"
   },
   {
-    "sequence": 183,
+    "sequence": 179,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22410,7 +22094,7 @@
     "canonicalProductId": "TOY-20260729-183"
   },
   {
-    "sequence": 184,
+    "sequence": 180,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22525,7 +22209,7 @@
     "canonicalProductId": "TOY-20260729-184"
   },
   {
-    "sequence": 185,
+    "sequence": 181,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22622,7 +22306,7 @@
     "canonicalProductId": "TOY-20260729-185"
   },
   {
-    "sequence": 186,
+    "sequence": 182,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22739,7 +22423,7 @@
     "canonicalProductId": "TOY-20260729-186"
   },
   {
-    "sequence": 187,
+    "sequence": 183,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -22848,7 +22532,7 @@
     "canonicalProductId": "TOY-20260729-187"
   },
   {
-    "sequence": 188,
+    "sequence": 184,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "에그 샤워기",
     "officialSku": "미확인",
@@ -23002,7 +22686,7 @@
     "canonicalProductId": "TOY-20260729-188"
   },
   {
-    "sequence": 189,
+    "sequence": 185,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "플레이맥스 헤엄치는 거북이 3종세트 / 목욕놀이 장난감 물놀이용품",
     "officialSku": "미확인",
@@ -23196,7 +22880,7 @@
     "canonicalProductId": "TOY-20260729-189"
   },
   {
-    "sequence": 190,
+    "sequence": 186,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -23284,7 +22968,7 @@
     "canonicalProductId": "TOY-20260729-190"
   },
   {
-    "sequence": 191,
+    "sequence": 187,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -23328,7 +23012,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -23393,12 +23077,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-191"
   },
   {
-    "sequence": 192,
+    "sequence": 188,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -23486,7 +23170,7 @@
     "canonicalProductId": "TOY-20260729-192"
   },
   {
-    "sequence": 193,
+    "sequence": 189,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -23530,7 +23214,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -23588,12 +23272,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-193"
   },
   {
-    "sequence": 194,
+    "sequence": 190,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -23688,7 +23372,7 @@
     "canonicalProductId": "TOY-20260729-194"
   },
   {
-    "sequence": 195,
+    "sequence": 191,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -23776,7 +23460,7 @@
     "canonicalProductId": "TOY-20260729-195"
   },
   {
-    "sequence": 196,
+    "sequence": 192,
     "manufacturer": "미확인",
     "officialModel": "토이다락방 해피프로그 개구리 목욕장난감 소재 플라스틱",
     "officialSku": "미확인",
@@ -23915,7 +23599,7 @@
     "canonicalProductId": "TOY-20260729-196"
   },
   {
-    "sequence": 197,
+    "sequence": 193,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -24004,7 +23688,7 @@
     "canonicalProductId": "TOY-20260729-197"
   },
   {
-    "sequence": 198,
+    "sequence": 194,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -24100,7 +23784,7 @@
     "canonicalProductId": "TOY-20260729-198"
   },
   {
-    "sequence": 199,
+    "sequence": 195,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -24236,7 +23920,7 @@
     "canonicalProductId": "TOY-20260729-199"
   },
   {
-    "sequence": 200,
+    "sequence": 196,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -24276,7 +23960,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [],
@@ -24333,12 +24017,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TOY-20260729-200"
   },
   {
-    "sequence": 201,
+    "sequence": 197,
     "manufacturer": "/브랜드",
     "officialModel": "상품수",
     "officialSku": "미확인",
@@ -24517,7 +24201,7 @@
     "canonicalProductId": "MASTER-0001"
   },
   {
-    "sequence": 202,
+    "sequence": 198,
     "manufacturer": ", 브랜드, 상품명, 상품설명 내 키워드",
     "officialModel": ", 상품설명 내 키워드",
     "officialSku": "미확인",
@@ -24659,7 +24343,7 @@
     "canonicalProductId": "MASTER-0002"
   },
   {
-    "sequence": 203,
+    "sequence": 199,
     "manufacturer": "/브랜드",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -24766,7 +24450,7 @@
     "canonicalProductId": "MASTER-0003"
   },
   {
-    "sequence": 204,
+    "sequence": 200,
     "manufacturer": "깨끗한나라",
     "officialModel": "상품페이지 참고",
     "officialSku": "미확인",
@@ -24944,7 +24628,7 @@
     "canonicalProductId": "MASTER-0004"
   },
   {
-    "sequence": 205,
+    "sequence": 201,
     "manufacturer": "미확인",
     "officialModel": "보솜이 모달썸머 팬티 기저귀",
     "officialSku": "미확인",
@@ -25129,7 +24813,7 @@
     "canonicalProductId": "MASTER-0005"
   },
   {
-    "sequence": 206,
+    "sequence": 202,
     "manufacturer": "깨끗한나라",
     "officialModel": "상품페이지 참고",
     "officialSku": "미확인",
@@ -25372,7 +25056,7 @@
     "canonicalProductId": "MASTER-0006"
   },
   {
-    "sequence": 207,
+    "sequence": 203,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -25492,7 +25176,7 @@
     "canonicalProductId": "MASTER-0007"
   },
   {
-    "sequence": 208,
+    "sequence": 204,
     "manufacturer": "미확인",
     "officialModel": "[1박스] 킨도 뉴올데이 팬티형 기저귀 5단계 24매x4팩",
     "officialSku": "미확인",
@@ -25715,7 +25399,7 @@
     "canonicalProductId": "MASTER-0008"
   },
   {
-    "sequence": 209,
+    "sequence": 205,
     "manufacturer": "미확인",
     "officialModel": "[1박스+1박스] 킨도 오슬림 썸머 팬티형 기저귀 4단계 36매x8팩",
     "officialSku": "미확인",
@@ -25763,7 +25447,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "위생용품관리법 · 일회용 기저귀 기준·규격 및 품목제조보고 확인",
     "regulatoryNote": "2018년 4월 19일부터 어린이제품 KC 대상에서 삭제되어 위생용품 기준·규격과 품목제조보고로 관리",
     "certifications": [
@@ -25858,12 +25542,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0009"
   },
   {
-    "sequence": 210,
+    "sequence": 206,
     "manufacturer": "미확인",
     "officialModel": "킨도 프리미엄 뉴올데이 팬티형 기저귀 남녀공용, 4단계, 104매",
     "officialSku": "미확인",
@@ -26001,7 +25685,7 @@
     "canonicalProductId": "MASTER-0010"
   },
   {
-    "sequence": 211,
+    "sequence": 207,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -26206,7 +25890,7 @@
     "canonicalProductId": "MASTER-0011"
   },
   {
-    "sequence": 212,
+    "sequence": 208,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -26365,7 +26049,7 @@
     "canonicalProductId": "MASTER-0012"
   },
   {
-    "sequence": 213,
+    "sequence": 209,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -26500,7 +26184,7 @@
     "canonicalProductId": "MASTER-0013"
   },
   {
-    "sequence": 214,
+    "sequence": 210,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -26727,7 +26411,7 @@
     "canonicalProductId": "MASTER-0014"
   },
   {
-    "sequence": 215,
+    "sequence": 211,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -26827,7 +26511,7 @@
     "canonicalProductId": "MASTER-0015"
   },
   {
-    "sequence": 216,
+    "sequence": 212,
     "manufacturer": "유한킴벌리(주) 대전공장",
     "officialModel": "하기스 네이처메이드 팬티 여아 5단계 88매",
     "officialSku": "미확인",
@@ -26964,11 +26648,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0016",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0016"
   },
   {
-    "sequence": 217,
+    "sequence": 213,
     "manufacturer": "유한킴벌리",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -27201,7 +26885,7 @@
     "canonicalProductId": "MASTER-0017"
   },
   {
-    "sequence": 218,
+    "sequence": 214,
     "manufacturer": "유한킴벌리",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -27332,7 +27016,7 @@
     "canonicalProductId": "MASTER-0018"
   },
   {
-    "sequence": 219,
+    "sequence": 215,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -27513,7 +27197,7 @@
     "canonicalProductId": "MASTER-0019"
   },
   {
-    "sequence": 220,
+    "sequence": 216,
     "manufacturer": "유한킴벌리",
     "officialModel": "상품페이지 참고",
     "officialSku": "미확인",
@@ -27666,7 +27350,7 @@
     "canonicalProductId": "MASTER-0020"
   },
   {
-    "sequence": 221,
+    "sequence": 217,
     "manufacturer": "유한킴벌리",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -27915,7 +27599,7 @@
     "canonicalProductId": "MASTER-0021"
   },
   {
-    "sequence": 222,
+    "sequence": 218,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -28077,7 +27761,7 @@
     "canonicalProductId": "MASTER-0022"
   },
   {
-    "sequence": 223,
+    "sequence": 219,
     "manufacturer": "델리프",
     "officialModel": "할인율",
     "officialSku": "미확인",
@@ -28233,7 +27917,7 @@
     "canonicalProductId": "MASTER-0023"
   },
   {
-    "sequence": 224,
+    "sequence": 220,
     "manufacturer": "미확인",
     "officialModel": "리벤스 시그니처 블랙라벨 아기 물티슈",
     "officialSku": "미확인",
@@ -28407,7 +28091,7 @@
     "canonicalProductId": "MASTER-0024"
   },
   {
-    "sequence": 225,
+    "sequence": 221,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -28601,7 +28285,7 @@
     "canonicalProductId": "MASTER-0025"
   },
   {
-    "sequence": 226,
+    "sequence": 222,
     "manufacturer": "(주)에이제이",
     "officialModel": "베베숲 시그니처 블루 에코 캡 70매",
     "officialSku": "미확인",
@@ -28797,11 +28481,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0026",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0026"
   },
   {
-    "sequence": 227,
+    "sequence": 223,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -28995,7 +28679,7 @@
     "canonicalProductId": "MASTER-0027"
   },
   {
-    "sequence": 228,
+    "sequence": 224,
     "manufacturer": "(주)에이제이",
     "officialModel": "베베숲 시그니처 위드 블루 캡 70매",
     "officialSku": "미확인",
@@ -29150,11 +28834,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0028",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0028"
   },
   {
-    "sequence": 229,
+    "sequence": 225,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -29342,7 +29026,7 @@
     "canonicalProductId": "MASTER-0029"
   },
   {
-    "sequence": 230,
+    "sequence": 226,
     "manufacturer": "미확인",
     "officialModel": "베베숲 오리진 유아물티슈 캡형",
     "officialSku": "미확인",
@@ -29524,7 +29208,7 @@
     "canonicalProductId": "MASTER-0030"
   },
   {
-    "sequence": 231,
+    "sequence": 227,
     "manufacturer": "미확인",
     "officialModel": "베베앙 120 유아물티슈 캡형",
     "officialSku": "미확인",
@@ -29671,7 +29355,7 @@
     "canonicalProductId": "MASTER-0031"
   },
   {
-    "sequence": 232,
+    "sequence": 228,
     "manufacturer": "깨끗한나라(주)",
     "officialModel": "보솜이 펀앤플레이 아기물티슈 캡 70매",
     "officialSku": "미확인",
@@ -29794,11 +29478,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0032",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0032"
   },
   {
-    "sequence": 233,
+    "sequence": 229,
     "manufacturer": "미확인",
     "officialModel": "브라운 러브 빌리프 골드 핑크 아기물티슈 캡형 70평량,70매,10팩",
     "officialSku": "미확인",
@@ -29920,7 +29604,7 @@
     "canonicalProductId": "MASTER-0033"
   },
   {
-    "sequence": 234,
+    "sequence": 230,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -30020,7 +29704,7 @@
     "canonicalProductId": "MASTER-0034"
   },
   {
-    "sequence": 235,
+    "sequence": 231,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -30183,7 +29867,7 @@
     "canonicalProductId": "MASTER-0035"
   },
   {
-    "sequence": 236,
+    "sequence": 232,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -30373,7 +30057,7 @@
     "canonicalProductId": "MASTER-0036"
   },
   {
-    "sequence": 237,
+    "sequence": 233,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -30486,7 +30170,7 @@
     "canonicalProductId": "MASTER-0037"
   },
   {
-    "sequence": 238,
+    "sequence": 234,
     "manufacturer": "(주)지앤티클린",
     "officialModel": "아이러브베베 아이보리 아기물티슈 캡형 72매",
     "officialSku": "미확인",
@@ -30661,11 +30345,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0038",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0038"
   },
   {
-    "sequence": 239,
+    "sequence": 235,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -30763,7 +30447,7 @@
     "canonicalProductId": "MASTER-0039"
   },
   {
-    "sequence": 240,
+    "sequence": 236,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -30918,7 +30602,7 @@
     "canonicalProductId": "MASTER-0040"
   },
   {
-    "sequence": 241,
+    "sequence": 237,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -31097,7 +30781,7 @@
     "canonicalProductId": "MASTER-0041"
   },
   {
-    "sequence": 242,
+    "sequence": 238,
     "manufacturer": "더퍼스트터치",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -31219,7 +30903,7 @@
     "canonicalProductId": "MASTER-0042"
   },
   {
-    "sequence": 243,
+    "sequence": 239,
     "manufacturer": "미확인",
     "officialModel": "은 페넬로페 아기물티슈 본보야지 퐁피두 캡형, 10팩, 70매 이며 이 퀄 좋은 제품(6135464588)은 이번만 특별한 가격으로 23,900원에 판매되고 있고",
     "officialSku": "미확인",
@@ -31454,7 +31138,7 @@
     "canonicalProductId": "MASTER-0043"
   },
   {
-    "sequence": 244,
+    "sequence": 240,
     "manufacturer": "더퍼스트터치",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -31620,7 +31304,7 @@
     "canonicalProductId": "MASTER-0044"
   },
   {
-    "sequence": 245,
+    "sequence": 241,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -31708,7 +31392,7 @@
     "canonicalProductId": "MASTER-0045"
   },
   {
-    "sequence": 246,
+    "sequence": 242,
     "manufacturer": "그로미미",
     "officialModel": "상세참조",
     "officialSku": "미확인",
@@ -31847,7 +31531,7 @@
     "canonicalProductId": "MASTER-0046"
   },
   {
-    "sequence": 247,
+    "sequence": 243,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -31926,7 +31610,7 @@
     "canonicalProductId": "MASTER-0047"
   },
   {
-    "sequence": 248,
+    "sequence": 244,
     "manufacturer": "GoGreenlife Co., Ltd.",
     "officialModel": "상세참조",
     "officialSku": "미확인",
@@ -32177,7 +31861,7 @@
     "canonicalProductId": "MASTER-0048"
   },
   {
-    "sequence": 249,
+    "sequence": 245,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -32283,7 +31967,7 @@
     "canonicalProductId": "MASTER-0049"
   },
   {
-    "sequence": 250,
+    "sequence": 246,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -32395,7 +32079,7 @@
     "canonicalProductId": "MASTER-0050"
   },
   {
-    "sequence": 251,
+    "sequence": 247,
     "manufacturer": "락앤락",
     "officialModel": "락앤락 리틀럽 실리콘 빨대컵 200ml 세트 일반형 + 스파우트형, 크림, 베이지, 1세트♥",
     "officialSku": "미확인",
@@ -32593,7 +32277,7 @@
     "canonicalProductId": "MASTER-0051"
   },
   {
-    "sequence": 252,
+    "sequence": 248,
     "manufacturer": "인기상품",
     "officialModel": "낮은가격",
     "officialSku": "미확인",
@@ -32811,7 +32495,7 @@
     "canonicalProductId": "MASTER-0052"
   },
   {
-    "sequence": 253,
+    "sequence": 249,
     "manufacturer": "리틀밥독",
     "officialModel": "토비앤몰리 유아용 PPSU 원터치락 빨대컵",
     "officialSku": "미확인",
@@ -32957,7 +32641,7 @@
     "canonicalProductId": "MASTER-0053"
   },
   {
-    "sequence": 254,
+    "sequence": 250,
     "manufacturer": "",
     "officialModel": "마더케이 369 PPSU 빨대컵 200ml",
     "officialSku": "미확인",
@@ -33146,11 +32830,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0054",
-    "importer": ""
+    "importer": "",
+    "canonicalProductId": "MASTER-0054"
   },
   {
-    "sequence": 255,
+    "sequence": 251,
     "manufacturer": "확인중",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -33293,7 +32977,7 @@
     "canonicalProductId": "MASTER-0055"
   },
   {
-    "sequence": 256,
+    "sequence": 252,
     "manufacturer": "상세페이지 참조",
     "officialModel": "상품페이지 참고",
     "officialSku": "미확인",
@@ -33415,7 +33099,7 @@
     "canonicalProductId": "MASTER-0056"
   },
   {
-    "sequence": 257,
+    "sequence": 253,
     "manufacturer": "미확인",
     "officialModel": "인기상품",
     "officialSku": "미확인",
@@ -33536,7 +33220,7 @@
     "canonicalProductId": "MASTER-0057"
   },
   {
-    "sequence": 258,
+    "sequence": 254,
     "manufacturer": "미확인",
     "officialModel": "리틀포니 PPSU 빨대컵 200ml 초코(1P)",
     "officialSku": "미확인",
@@ -33684,7 +33368,7 @@
     "canonicalProductId": "MASTER-0058"
   },
   {
-    "sequence": 259,
+    "sequence": 255,
     "manufacturer": ", 수입품의 경우",
     "officialModel": "유비맘 스테인리스 원터치 빨대컵 220ml 1+1",
     "officialSku": "미확인",
@@ -33746,7 +33430,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법상 기구·용기·포장 기준 우선 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -33863,12 +33547,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0059"
   },
   {
-    "sequence": 260,
+    "sequence": 256,
     "manufacturer": "보령메디앙스",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -33988,7 +33672,7 @@
     "canonicalProductId": "MASTER-0060"
   },
   {
-    "sequence": 261,
+    "sequence": 257,
     "manufacturer": ", 브랜드, 상품명, 상품설명 내 키워드",
     "officialModel": ", 상품설명 내 키워드",
     "officialSku": "미확인",
@@ -34127,7 +33811,7 @@
     "canonicalProductId": "MASTER-0061"
   },
   {
-    "sequence": 262,
+    "sequence": 258,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -34223,7 +33907,7 @@
     "canonicalProductId": "MASTER-0062"
   },
   {
-    "sequence": 263,
+    "sequence": 259,
     "manufacturer": "하이비",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -34331,7 +34015,7 @@
     "canonicalProductId": "MASTER-0063"
   },
   {
-    "sequence": 264,
+    "sequence": 260,
     "manufacturer": "유비맘",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -34505,7 +34189,7 @@
     "canonicalProductId": "MASTER-0064"
   },
   {
-    "sequence": 265,
+    "sequence": 261,
     "manufacturer": ", 수입품의 경우",
     "officialModel": "유비맘 빨대컵 뚜껑세트",
     "officialSku": "미확인",
@@ -34674,7 +34358,7 @@
     "canonicalProductId": "MASTER-0065"
   },
   {
-    "sequence": 266,
+    "sequence": 262,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -34817,7 +34501,7 @@
     "canonicalProductId": "MASTER-0066"
   },
   {
-    "sequence": 267,
+    "sequence": 263,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "모니 유아식기 이유식기 멀티 이유식볼 150ml 전용 스낵컵 뚜껑",
     "officialSku": "미확인",
@@ -34859,7 +34543,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "KC 비대상",
     "regulatoryNote": "제품명과 용도와 재질을 기준으로 적용 법령과 공식 인증 정보를 제품별 확인",
     "certifications": [],
@@ -35005,12 +34689,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0067"
   },
   {
-    "sequence": 268,
+    "sequence": 264,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -35089,7 +34773,7 @@
     "canonicalProductId": "MASTER-0068"
   },
   {
-    "sequence": 269,
+    "sequence": 265,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -35206,7 +34890,7 @@
     "canonicalProductId": "MASTER-0069"
   },
   {
-    "sequence": 270,
+    "sequence": 266,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -35328,7 +35012,7 @@
     "canonicalProductId": "MASTER-0070"
   },
   {
-    "sequence": 271,
+    "sequence": 267,
     "manufacturer": "(주)고그린라이프",
     "officialModel": "그로미미 스테인리스 흡착 식판 3구·5구",
     "officialSku": "미확인",
@@ -35437,11 +35121,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0071",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0071"
   },
   {
-    "sequence": 272,
+    "sequence": 268,
     "manufacturer": "(주)이투컬렉션",
     "officialModel": "데일리라이크 봉봉 스텐 식판 스푼포크 세트",
     "officialSku": "미확인",
@@ -35564,11 +35248,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0072",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0072"
   },
   {
-    "sequence": 273,
+    "sequence": 269,
     "manufacturer": "리파코 주식회사",
     "officialModel": "모모빈 블라썸 냠냠 이유식 흡착 식판",
     "officialSku": "미확인",
@@ -35669,11 +35353,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0073",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0073"
   },
   {
-    "sequence": 274,
+    "sequence": 270,
     "manufacturer": "미확인",
     "officialModel": "이유식 냄비 스텐316 찜기 겸용 통5중 무연마제",
     "officialSku": "미확인",
@@ -35769,7 +35453,7 @@
     "canonicalProductId": "MASTER-0074"
   },
   {
-    "sequence": 275,
+    "sequence": 271,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -35857,7 +35541,7 @@
     "canonicalProductId": "MASTER-0075"
   },
   {
-    "sequence": 276,
+    "sequence": 272,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -36065,7 +35749,7 @@
     "canonicalProductId": "MASTER-0076"
   },
   {
-    "sequence": 277,
+    "sequence": 273,
     "manufacturer": "인 에디슨모터스 지분을 인수했다 이에 따라 그 자회사들인 자동차부품업체 에디슨건강기차와 에디슨엠에스오 자율주행개발업체 에디슨에",
     "officialModel": "후기제목",
     "officialSku": "미확인",
@@ -36208,7 +35892,7 @@
     "canonicalProductId": "MASTER-0077"
   },
   {
-    "sequence": 278,
+    "sequence": 274,
     "manufacturer": "(주)맘스트레져",
     "officialModel": "유비맘 꿀떡꿀떡 플래티넘 실리콘 흡착식판 뚜껑 세트",
     "officialSku": "미확인",
@@ -36365,11 +36049,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0078",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0078"
   },
   {
-    "sequence": 279,
+    "sequence": 275,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -36461,7 +36145,7 @@
     "canonicalProductId": "MASTER-0080"
   },
   {
-    "sequence": 280,
+    "sequence": 276,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -36588,7 +36272,7 @@
     "canonicalProductId": "MASTER-0081"
   },
   {
-    "sequence": 281,
+    "sequence": 277,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "탁가온 1.2.3 실리콘 2구 흡착식판+롱볼+식판뚜껑 세트",
     "officialSku": "미확인",
@@ -36754,7 +36438,7 @@
     "canonicalProductId": "MASTER-0082"
   },
   {
-    "sequence": 282,
+    "sequence": 278,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "탁가온 1.2.3 실리콘 흡착식판 1구 식판",
     "officialSku": "미확인",
@@ -36917,7 +36601,7 @@
     "canonicalProductId": "MASTER-0083"
   },
   {
-    "sequence": 283,
+    "sequence": 279,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -37027,7 +36711,7 @@
     "canonicalProductId": "MASTER-0084"
   },
   {
-    "sequence": 284,
+    "sequence": 280,
     "manufacturer": "HONG SUNG Co., Ltd. / (주)홍성",
     "officialModel": "홍스파파 실리콘 빠네 흡착식판",
     "officialSku": "미확인",
@@ -37184,11 +36868,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0085",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0085"
   },
   {
-    "sequence": 285,
+    "sequence": 281,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -37228,7 +36912,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장 기준 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -37345,12 +37029,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0086"
   },
   {
-    "sequence": 286,
+    "sequence": 282,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -37498,7 +37182,7 @@
     "canonicalProductId": "MASTER-0087"
   },
   {
-    "sequence": 287,
+    "sequence": 283,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -37584,7 +37268,7 @@
     "canonicalProductId": "MASTER-0088"
   },
   {
-    "sequence": 288,
+    "sequence": 284,
     "manufacturer": "의 지침에 따라 세척하세요.",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -37777,7 +37461,7 @@
     "canonicalProductId": "MASTER-0089"
   },
   {
-    "sequence": 289,
+    "sequence": 285,
     "manufacturer": "주식회사 비비또",
     "officialModel": "비비또 실리콘 초기 이유식 스푼",
     "officialSku": "미확인",
@@ -37940,11 +37624,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0090",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0090"
   },
   {
-    "sequence": 290,
+    "sequence": 286,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38065,7 +37749,7 @@
     "canonicalProductId": "MASTER-0091"
   },
   {
-    "sequence": 291,
+    "sequence": 287,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38185,7 +37869,7 @@
     "canonicalProductId": "MASTER-0092"
   },
   {
-    "sequence": 292,
+    "sequence": 288,
     "manufacturer": "미확인",
     "officialModel": "크림 실리콘 이유식스푼 2종세트 WSB2352",
     "officialSku": "미확인",
@@ -38284,7 +37968,7 @@
     "canonicalProductId": "MASTER-0093"
   },
   {
-    "sequence": 293,
+    "sequence": 289,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38372,7 +38056,7 @@
     "canonicalProductId": "MASTER-0094"
   },
   {
-    "sequence": 294,
+    "sequence": 290,
     "manufacturer": "미확인",
     "officialModel": "잼먹 대용량 이유식찜기 2종세트 1300ml",
     "officialSku": "미확인",
@@ -38498,7 +38182,7 @@
     "canonicalProductId": "MASTER-0095"
   },
   {
-    "sequence": 295,
+    "sequence": 291,
     "manufacturer": "미확인",
     "officialModel": "잼먹 대용량 이유식찜기 2종세트 1300ml",
     "officialSku": "미확인",
@@ -38594,7 +38278,7 @@
     "canonicalProductId": "MASTER-0096"
   },
   {
-    "sequence": 296,
+    "sequence": 292,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38685,7 +38369,7 @@
     "canonicalProductId": "MASTER-0097"
   },
   {
-    "sequence": 297,
+    "sequence": 293,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38781,7 +38465,7 @@
     "canonicalProductId": "MASTER-0098"
   },
   {
-    "sequence": 298,
+    "sequence": 294,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38910,7 +38594,7 @@
     "canonicalProductId": "MASTER-0099"
   },
   {
-    "sequence": 299,
+    "sequence": 295,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -38956,7 +38640,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장 기준 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -39073,12 +38757,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0100"
   },
   {
-    "sequence": 300,
+    "sequence": 296,
     "manufacturer": "미확인",
     "officialModel": "인기상품",
     "officialSku": "미확인",
@@ -39244,7 +38928,7 @@
     "canonicalProductId": "MASTER-0101"
   },
   {
-    "sequence": 301,
+    "sequence": 297,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -39342,7 +39026,7 @@
     "canonicalProductId": "MASTER-0102"
   },
   {
-    "sequence": 302,
+    "sequence": 298,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -39476,7 +39160,7 @@
     "canonicalProductId": "MASTER-0103"
   },
   {
-    "sequence": 303,
+    "sequence": 299,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -39568,7 +39252,7 @@
     "canonicalProductId": "MASTER-0104"
   },
   {
-    "sequence": 304,
+    "sequence": 300,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -39662,7 +39346,7 @@
     "canonicalProductId": "MASTER-0105"
   },
   {
-    "sequence": 305,
+    "sequence": 301,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -39708,7 +39392,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장 기준 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -39795,12 +39479,12 @@
     "revalidationAttempted": true,
     "revalidationResolved": true,
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0106"
   },
   {
-    "sequence": 306,
+    "sequence": 302,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -39909,7 +39593,7 @@
     "canonicalProductId": "MASTER-0107"
   },
   {
-    "sequence": 307,
+    "sequence": 303,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40005,7 +39689,7 @@
     "canonicalProductId": "MASTER-0108"
   },
   {
-    "sequence": 308,
+    "sequence": 304,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40084,7 +39768,7 @@
     "canonicalProductId": "MASTER-0109"
   },
   {
-    "sequence": 309,
+    "sequence": 305,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40201,7 +39885,7 @@
     "canonicalProductId": "MASTER-0110"
   },
   {
-    "sequence": 310,
+    "sequence": 306,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40398,7 +40082,7 @@
     "canonicalProductId": "MASTER-0111"
   },
   {
-    "sequence": 311,
+    "sequence": 307,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40486,7 +40170,7 @@
     "canonicalProductId": "MASTER-0112"
   },
   {
-    "sequence": 312,
+    "sequence": 308,
     "manufacturer": "(주)한성컴퍼니",
     "officialModel": "쁘띠누베 실리콘 이유식 멀티큐브 12구",
     "officialSku": "미확인",
@@ -40647,11 +40331,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0113",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0113"
   },
   {
-    "sequence": 313,
+    "sequence": 309,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40795,7 +40479,7 @@
     "canonicalProductId": "MASTER-0114"
   },
   {
-    "sequence": 314,
+    "sequence": 310,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -40898,7 +40582,7 @@
     "canonicalProductId": "MASTER-0115"
   },
   {
-    "sequence": 315,
+    "sequence": 311,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -41002,7 +40686,7 @@
     "canonicalProductId": "MASTER-0116"
   },
   {
-    "sequence": 316,
+    "sequence": 312,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -41096,7 +40780,7 @@
     "canonicalProductId": "MASTER-0117"
   },
   {
-    "sequence": 317,
+    "sequence": 313,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -41208,7 +40892,7 @@
     "canonicalProductId": "MASTER-0118"
   },
   {
-    "sequence": 318,
+    "sequence": 314,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -41343,7 +41027,7 @@
     "canonicalProductId": "MASTER-0119"
   },
   {
-    "sequence": 319,
+    "sequence": 315,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -41482,7 +41166,7 @@
     "canonicalProductId": "MASTER-0120"
   },
   {
-    "sequence": 320,
+    "sequence": 316,
     "manufacturer": "/브랜드",
     "officialModel": ", 상품설명 내 키워드",
     "officialSku": "미확인",
@@ -41697,7 +41381,7 @@
     "canonicalProductId": "MASTER-0121"
   },
   {
-    "sequence": 321,
+    "sequence": 317,
     "manufacturer": "(주)소셜빈 (위탁제조)",
     "officialModel": "퍼기 이중밀폐 이유식큐브 4구 50ml 2P",
     "officialSku": "미확인",
@@ -41902,11 +41586,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0122",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0122"
   },
   {
-    "sequence": 322,
+    "sequence": 318,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -42078,7 +41762,7 @@
     "canonicalProductId": "MASTER-0123"
   },
   {
-    "sequence": 323,
+    "sequence": 319,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "모니 삼중밀폐 실리콘 이유식큐브 6구 12구 유아식기 이유식기 큐브 트레이 이유식 보관용기",
     "officialSku": "미확인",
@@ -42187,7 +41871,7 @@
     "canonicalProductId": "MASTER-0124"
   },
   {
-    "sequence": 324,
+    "sequence": 320,
     "manufacturer": "하이비",
     "officialModel": "하이비 소프트필 젖꼭지2P",
     "officialSku": "미확인",
@@ -42391,7 +42075,7 @@
     "canonicalProductId": "MASTER-0125"
   },
   {
-    "sequence": 325,
+    "sequence": 321,
     "manufacturer": "미확인",
     "officialModel": "PPSU 젖병 트윈팩 체리쉬 로즈골드 200ml",
     "officialSku": "미확인",
@@ -42514,7 +42198,7 @@
     "canonicalProductId": "MASTER-0126"
   },
   {
-    "sequence": 326,
+    "sequence": 322,
     "manufacturer": "(주)모윰",
     "officialModel": "모윰 3세대 NEW PPSU 노꼭지 올인원 베이직 젖병 170ml",
     "officialSku": "미확인",
@@ -42679,7 +42363,7 @@
     "canonicalProductId": "MASTER-0127"
   },
   {
-    "sequence": 327,
+    "sequence": 323,
     "manufacturer": "(주)모윰",
     "officialModel": "모윰 3세대 NEW PPSU 올인원 베이직 젖병 170ml 젖꼭지 세트",
     "officialSku": "미확인",
@@ -42792,11 +42476,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0128",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0128"
   },
   {
-    "sequence": 328,
+    "sequence": 324,
     "manufacturer": "(주)유진메디케어",
     "officialModel": "스펙트라 올셋 PPSU 젖병 260ml",
     "officialSku": "미확인",
@@ -42915,11 +42599,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0129",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0129"
   },
   {
-    "sequence": 329,
+    "sequence": 325,
     "manufacturer": "(주)하이비코리아",
     "officialModel": "하이비 PP 에잇벤트 신생아 젖병 130ml 젖꼭지 포함",
     "officialSku": "미확인",
@@ -43042,11 +42726,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0130",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0130"
   },
   {
-    "sequence": 330,
+    "sequence": 326,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -43155,7 +42839,7 @@
     "canonicalProductId": "MASTER-0131"
   },
   {
-    "sequence": 331,
+    "sequence": 327,
     "manufacturer": "하이비코리아 는 원래 젖병과 같은 유아용 사출품을 만드는 곳입니다 내 것이 없는 서러움에 제품 개발을 시작하여 이제는 제",
     "officialModel": "하이비 PPSU 에잇벤트 배앓이방지 젖병 170ml 트리플팩 여름에디션 야자수",
     "officialSku": "미확인",
@@ -43282,7 +42966,7 @@
     "canonicalProductId": "MASTER-0132"
   },
   {
-    "sequence": 332,
+    "sequence": 328,
     "manufacturer": "모윰",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -43461,7 +43145,7 @@
     "canonicalProductId": "MASTER-0133"
   },
   {
-    "sequence": 333,
+    "sequence": 329,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -43542,9 +43226,9 @@
     "canonicalProductId": "MASTER-0134"
   },
   {
-    "sequence": 334,
+    "sequence": 330,
     "manufacturer": "미확인",
-    "officialModel": "미확인",
+    "officialModel": "앙쥬 베스트 치발기 오렌지링",
     "officialSku": "미확인",
     "brandCountry": "미확인",
     "kcType": "미확인",
@@ -43554,25 +43238,29 @@
       "https://mom-mom.net/shop/products/131782566",
       "https://linklabblog.kr/%EC%95%99%EC%A5%AC%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8-%EC%95%84%EA%B8%B0-%EC%B2%AB-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%A1%9C-%EA%B4%9C%EC%B0%AE%EC%9D%84%EA%B9%8C-%EC%A7%81%EC%A0%91/",
       "https://angemall.com/",
-      "https://www.kurly.com/goods/1001396453"
+      "https://www.kurly.com/goods/1001396453",
+      "https://www.coupang.com/vp/products/8272631902",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "TEETHER-20260801-026"
+    ],
     "id": "MASTER-0135",
     "category": "구강·치발기",
-    "subtype": "치발기",
+    "subtype": "링형",
     "rawCategory": "구강·치발기",
     "brand": "앙쥬",
     "name": "베스트 치발기 오렌지링",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "국내 동일 오렌지링 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
+    "kcNumber": "CB065B0002-9001R",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-08-04",
     "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
@@ -43581,10 +43269,12 @@
       "https://mom-mom.net/shop/products/131782566",
       "https://linklabblog.kr/%EC%95%99%EC%A5%AC%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8-%EC%95%84%EA%B8%B0-%EC%B2%AB-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%A1%9C-%EA%B4%9C%EC%B0%AE%EC%9D%84%EA%B9%8C-%EC%A7%81%EC%A0%91/",
       "https://angemall.com/",
-      "https://www.kurly.com/goods/1001396453"
+      "https://www.kurly.com/goods/1001396453",
+      "https://www.coupang.com/vp/products/8272631902",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 · 오염 또는 동일 제품 직접 근거 부족으로 자동 상태 전환 차단 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 · 오염 또는 동일 제품 직접 근거 부족으로 자동 상태 전환 차단 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 중복 활성 행 삭제 병합 · TEETHER-20260801-026 → MASTER-0135",
     "dashboardGroup": "치발기",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -43607,7 +43297,6 @@
     "revalidationMissingFields": [
       "officialAge",
       "manufacturerOrImporter",
-      "exactKcNumber",
       "safetyKoreaSameModel"
     ],
     "revalidationQueries": [
@@ -43702,10 +43391,13 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "deletedDuplicateIds": [
+      "TEETHER-20260801-026"
+    ],
     "canonicalProductId": "MASTER-0135"
   },
   {
-    "sequence": 335,
+    "sequence": 331,
     "manufacturer": "자체제작",
     "officialModel": "앙쥬 과일링",
     "officialSku": "미확인",
@@ -43824,7 +43516,7 @@
     "canonicalProductId": "MASTER-0136"
   },
   {
-    "sequence": 336,
+    "sequence": 332,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -43936,7 +43628,7 @@
     "canonicalProductId": "MASTER-0079"
   },
   {
-    "sequence": 337,
+    "sequence": 333,
     "manufacturer": "자체제작",
     "officialModel": "[⭐️신규가입 첫구매 5000원 할인쿠폰 증정⭐️]앙쥬 입술 + 치발기 2종 세트",
     "officialSku": "미확인",
@@ -44040,7 +43732,7 @@
     "canonicalProductId": "MASTER-0137"
   },
   {
-    "sequence": 338,
+    "sequence": 334,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -44234,7 +43926,7 @@
     "canonicalProductId": "MASTER-0138"
   },
   {
-    "sequence": 339,
+    "sequence": 335,
     "manufacturer": "미확인",
     "officialModel": "낮은가격",
     "officialSku": "미확인",
@@ -44352,7 +44044,7 @@
     "canonicalProductId": "MASTER-0139"
   },
   {
-    "sequence": 340,
+    "sequence": 336,
     "manufacturer": "미확인",
     "officialModel": "퍼기 큐피드 손목 치발기 세트",
     "officialSku": "미확인",
@@ -44536,7 +44228,7 @@
     "canonicalProductId": "MASTER-0140"
   },
   {
-    "sequence": 341,
+    "sequence": 337,
     "manufacturer": "에디슨",
     "officialModel": "상품 상세페이지 참고",
     "officialSku": "미확인",
@@ -44767,7 +44459,7 @@
     "canonicalProductId": "MASTER-0141"
   },
   {
-    "sequence": 342,
+    "sequence": 338,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "써니흡착볼-420ml",
     "officialSku": "미확인",
@@ -44880,7 +44572,7 @@
     "canonicalProductId": "MASTER-0142"
   },
   {
-    "sequence": 343,
+    "sequence": 339,
     "manufacturer": "베베락",
     "officialModel": "베베락 국내 제조 유아용 엘파 실리콘 흡착볼 세트, 민트그린, 1세트",
     "officialSku": "미확인",
@@ -45013,7 +44705,7 @@
     "canonicalProductId": "MASTER-0143"
   },
   {
-    "sequence": 344,
+    "sequence": 340,
     "manufacturer": "미확인",
     "officialModel": "잼먹 대용량 이유식찜기 2종세트 1300ml",
     "officialSku": "미확인",
@@ -45170,7 +44862,7 @@
     "canonicalProductId": "MASTER-0144"
   },
   {
-    "sequence": 345,
+    "sequence": 341,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -45268,7 +44960,7 @@
     "canonicalProductId": "MASTER-0145"
   },
   {
-    "sequence": 346,
+    "sequence": 342,
     "manufacturer": "상품페이지 참고",
     "officialModel": "상품페이지 참고",
     "officialSku": "미확인",
@@ -45413,7 +45105,7 @@
     "canonicalProductId": "MASTER-0146"
   },
   {
-    "sequence": 347,
+    "sequence": 343,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -45561,7 +45253,7 @@
     "canonicalProductId": "MASTER-0147"
   },
   {
-    "sequence": 348,
+    "sequence": 344,
     "manufacturer": "깨끗한나라",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -45736,7 +45428,7 @@
     "canonicalProductId": "MASTER-0148"
   },
   {
-    "sequence": 349,
+    "sequence": 345,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -45850,7 +45542,7 @@
     "canonicalProductId": "MASTER-0149"
   },
   {
-    "sequence": 350,
+    "sequence": 346,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -45974,7 +45666,7 @@
     "canonicalProductId": "MASTER-0150"
   },
   {
-    "sequence": 351,
+    "sequence": 347,
     "manufacturer": "미확인",
     "officialModel": "상품페이지 참고",
     "officialSku": "미확인",
@@ -46128,7 +45820,7 @@
     "canonicalProductId": "MASTER-0151"
   },
   {
-    "sequence": 352,
+    "sequence": 348,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -46238,7 +45930,7 @@
     "canonicalProductId": "MASTER-0152"
   },
   {
-    "sequence": 353,
+    "sequence": 349,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -46383,7 +46075,7 @@
     "canonicalProductId": "MASTER-0153"
   },
   {
-    "sequence": 354,
+    "sequence": 350,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -46535,7 +46227,7 @@
     "canonicalProductId": "MASTER-0154"
   },
   {
-    "sequence": 355,
+    "sequence": 351,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -46681,7 +46373,7 @@
     "canonicalProductId": "MASTER-0155"
   },
   {
-    "sequence": 356,
+    "sequence": 352,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -46871,7 +46563,7 @@
     "canonicalProductId": "MASTER-0156"
   },
   {
-    "sequence": 357,
+    "sequence": 353,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -46993,7 +46685,7 @@
     "canonicalProductId": "MASTER-0157"
   },
   {
-    "sequence": 358,
+    "sequence": 354,
     "manufacturer": "신아기업",
     "officialModel": "맘위즈 PPSU 빨대컵 200ml",
     "officialSku": "미확인",
@@ -47172,11 +46864,11 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "공식 근거 추가 확인 중",
-    "canonicalProductId": "MASTER-0158",
-    "importer": ""
+    "importer": "",
+    "canonicalProductId": "MASTER-0158"
   },
   {
-    "sequence": 359,
+    "sequence": 355,
     "manufacturer": "미확인",
     "officialModel": "인기상품",
     "officialSku": "미확인",
@@ -47300,7 +46992,7 @@
     "canonicalProductId": "MASTER-0159"
   },
   {
-    "sequence": 360,
+    "sequence": 356,
     "manufacturer": "기준에 따릅니다.)",
     "officialModel": "판매가",
     "officialSku": "미확인",
@@ -47413,7 +47105,7 @@
     "canonicalProductId": "MASTER-0160"
   },
   {
-    "sequence": 361,
+    "sequence": 357,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -47499,7 +47191,7 @@
     "canonicalProductId": "MASTER-0161"
   },
   {
-    "sequence": 362,
+    "sequence": 358,
     "manufacturer": "미확인",
     "officialModel": "순수아 빨대컵 스파우트컵 모음전 240ml",
     "officialSku": "미확인",
@@ -47607,7 +47299,7 @@
     "canonicalProductId": "MASTER-0162"
   },
   {
-    "sequence": 363,
+    "sequence": 359,
     "manufacturer": "미확인",
     "officialModel": "낮은가격",
     "officialSku": "미확인",
@@ -47731,7 +47423,7 @@
     "canonicalProductId": "MASTER-0163"
   },
   {
-    "sequence": 364,
+    "sequence": 360,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -47820,7 +47512,7 @@
     "canonicalProductId": "MASTER-0164"
   },
   {
-    "sequence": 365,
+    "sequence": 361,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -47988,7 +47680,7 @@
     "canonicalProductId": "MASTER-0165"
   },
   {
-    "sequence": 366,
+    "sequence": 362,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -48170,7 +47862,7 @@
     "canonicalProductId": "MASTER-0166"
   },
   {
-    "sequence": 367,
+    "sequence": 363,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -48343,7 +48035,7 @@
     "canonicalProductId": "MASTER-0167"
   },
   {
-    "sequence": 368,
+    "sequence": 364,
     "manufacturer": "미확인",
     "officialModel": "무쉬턱받이",
     "officialSku": "미확인",
@@ -48578,7 +48270,7 @@
     "canonicalProductId": "MASTER-0168"
   },
   {
-    "sequence": 369,
+    "sequence": 365,
     "manufacturer": "미확인",
     "officialModel": "베베그로우 국내생산 실리콘 똑딱이 턱받이",
     "officialSku": "미확인",
@@ -48758,7 +48450,7 @@
     "canonicalProductId": "MASTER-0169"
   },
   {
-    "sequence": 370,
+    "sequence": 366,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -48852,7 +48544,7 @@
     "canonicalProductId": "MASTER-0170"
   },
   {
-    "sequence": 371,
+    "sequence": 367,
     "manufacturer": "티지엠",
     "officialModel": "티지엠 실리콘 조가비 이유식 턱받이",
     "officialSku": "미확인",
@@ -49023,7 +48715,7 @@
     "canonicalProductId": "MASTER-0171"
   },
   {
-    "sequence": 372,
+    "sequence": 368,
     "manufacturer": "HONG SUNG Co., Ltd.",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49260,7 +48952,7 @@
     "canonicalProductId": "MASTER-0172"
   },
   {
-    "sequence": 373,
+    "sequence": 369,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49352,7 +49044,7 @@
     "canonicalProductId": "MASTER-0173"
   },
   {
-    "sequence": 374,
+    "sequence": 370,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49452,7 +49144,7 @@
     "canonicalProductId": "MASTER-0174"
   },
   {
-    "sequence": 375,
+    "sequence": 371,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49588,7 +49280,7 @@
     "canonicalProductId": "MASTER-0175"
   },
   {
-    "sequence": 376,
+    "sequence": 372,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49704,7 +49396,7 @@
     "canonicalProductId": "MASTER-0176"
   },
   {
-    "sequence": 377,
+    "sequence": 373,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49752,7 +49444,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장 기준 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -49833,12 +49525,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0177"
   },
   {
-    "sequence": 378,
+    "sequence": 374,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -49997,7 +49689,7 @@
     "canonicalProductId": "MASTER-0178"
   },
   {
-    "sequence": 379,
+    "sequence": 375,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -50041,7 +49733,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장 기준 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -50128,12 +49820,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0179"
   },
   {
-    "sequence": 380,
+    "sequence": 376,
     "manufacturer": "에그디자인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -50240,7 +49932,7 @@
     "canonicalProductId": "MASTER-0180"
   },
   {
-    "sequence": 381,
+    "sequence": 377,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -50325,7 +50017,7 @@
     "canonicalProductId": "MASTER-0181"
   },
   {
-    "sequence": 382,
+    "sequence": 378,
     "manufacturer": "미확인",
     "officialModel": "쁘띠누베 국내생산 실리콘 눈금 완전밀폐 이유식큐브 멀티큐브 6구",
     "officialSku": "미확인",
@@ -50455,7 +50147,7 @@
     "canonicalProductId": "MASTER-0182"
   },
   {
-    "sequence": 383,
+    "sequence": 379,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -50583,7 +50275,7 @@
     "canonicalProductId": "MASTER-0183"
   },
   {
-    "sequence": 384,
+    "sequence": 380,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -50761,7 +50453,7 @@
     "canonicalProductId": "MASTER-0184"
   },
   {
-    "sequence": 385,
+    "sequence": 381,
     "manufacturer": "(주)고그린라이프",
     "officialModel": "그로미미 PPSU 젖병 300ml",
     "officialSku": "미확인",
@@ -50954,11 +50646,11 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0185",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "canonicalProductId": "MASTER-0185"
   },
   {
-    "sequence": 386,
+    "sequence": 382,
     "manufacturer": "고그린라이프",
     "officialModel": "그로미미 스파우트 젖병 세트 구매처 그로미미 쇼핑몰 가격 추빨대 젖병 20 700원 실리콘 스파우트 8 550원 컬러 핸들 4 000원 원터치",
     "officialSku": "미확인",
@@ -51089,7 +50781,7 @@
     "canonicalProductId": "MASTER-0186"
   },
   {
-    "sequence": 387,
+    "sequence": 383,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -51141,7 +50833,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법상 기구·용기·포장 기준 우선 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -51216,12 +50908,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0187"
   },
   {
-    "sequence": 388,
+    "sequence": 384,
     "manufacturer": "미확인",
     "officialModel": "더블하트 모유실감 3세대 PPSU 베이직 트윈팩 160ml+젖꼭지(2입)",
     "officialSku": "미확인",
@@ -51281,7 +50973,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법 · 기구 및 용기·포장 기준",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -51368,12 +51060,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "MASTER-0188"
   },
   {
-    "sequence": 389,
+    "sequence": 385,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -51417,7 +51109,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법상 기구·용기·포장 기준 우선 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -51486,12 +51178,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0189"
   },
   {
-    "sequence": 390,
+    "sequence": 386,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -51636,7 +51328,7 @@
     "canonicalProductId": "MASTER-0190"
   },
   {
-    "sequence": 391,
+    "sequence": 387,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -51730,7 +51422,7 @@
     "canonicalProductId": "MASTER-0191"
   },
   {
-    "sequence": 392,
+    "sequence": 388,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -51854,7 +51546,7 @@
     "canonicalProductId": "MASTER-0192"
   },
   {
-    "sequence": 393,
+    "sequence": 389,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -51916,7 +51608,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법상 기구·용기·포장 기준 우선 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -51997,12 +51689,12 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0193"
   },
   {
-    "sequence": 394,
+    "sequence": 390,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -52056,7 +51748,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "식품위생법상 기구·용기·포장 기준 우선 확인",
     "regulatoryNote": "식품과 직접 접촉하는 제품은 식품용 기구·용기·포장 기준을 우선 확인하고 완구 기능 등 별도 어린이제품 요건은 제품별 병행 확인",
     "certifications": [],
@@ -52173,14 +51865,14 @@
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "not-applicable",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "MASTER-0194"
   },
   {
-    "sequence": 395,
-    "manufacturer": "사용후기",
-    "officialModel": "낮은가격",
+    "sequence": 391,
+    "manufacturer": "",
+    "officialModel": "도토링 고리 치발기 24P + 파우치",
     "officialSku": "미확인",
     "brandCountry": "미확인",
     "kcType": "미확인",
@@ -52189,25 +51881,30 @@
       "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
       "https://coconory.com/",
       "https://blog.naver.com/PostView.naver?blogId=daya2023&logNo=224250648043",
-      "https://coconory.com/category/%EC%B9%98%EB%B0%9C%EA%B8%B0/29/"
+      "https://coconory.com/category/%EC%B9%98%EB%B0%9C%EA%B8%B0/29/",
+      "https://coconory.com/category/%EC%95%84%EA%B8%B0%EB%86%80%EC%9E%87%EA%B0%90/24/",
+      "https://www.coupang.com/vp/products/6423855983"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "RUN18-011",
+      "TEETHER-20260801-005"
+    ],
     "id": "MASTER-0195",
     "category": "구강·치발기",
-    "subtype": "치발기",
+    "subtype": "고리형",
     "rawCategory": "구강·치발기",
     "brand": "꼬꼬노리",
     "name": "도토링 고리 치발기 24P + 파우치",
     "status": "보류",
-    "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "countryOfManufacture": "대한민국 🇰🇷",
+    "saleStatus": "국내 동일 24P + 파우치 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
+    "kcNumber": "CB061E006-8002R",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-08-04",
     "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
@@ -52215,10 +51912,12 @@
       "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
       "https://coconory.com/",
       "https://blog.naver.com/PostView.naver?blogId=daya2023&logNo=224250648043",
-      "https://coconory.com/category/%EC%B9%98%EB%B0%9C%EA%B8%B0/29/"
+      "https://coconory.com/category/%EC%B9%98%EB%B0%9C%EA%B8%B0/29/",
+      "https://coconory.com/category/%EC%95%84%EA%B8%B0%EB%86%80%EC%9E%87%EA%B0%90/24/",
+      "https://www.coupang.com/vp/products/6423855983"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 중복 활성 행 삭제 병합 · RUN18-011, TEETHER-20260801-005 → MASTER-0195",
     "dashboardGroup": "치발기",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -52229,7 +51928,7 @@
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
       {
-        "found": true,
+        "found": false,
         "certNumber": "미확인",
         "status": "확인 필요",
         "certDate": "",
@@ -52239,8 +51938,8 @@
         "changedReason": "",
         "recallStatus": "",
         "itemName": "",
-        "modelName": "낮은가격",
-        "manufacturer": "사용후기",
+        "modelName": "",
+        "manufacturer": "",
         "country": "대한민국",
         "importer": "",
         "classification": "",
@@ -52263,7 +51962,7 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "officialAge",
-      "exactKcNumber",
+      "manufacturerOrImporter",
       "safetyKoreaSameModel"
     ],
     "revalidationSearchQueries": [
@@ -52307,23 +52006,30 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "deletedDuplicateIds": [
+      "RUN18-011",
+      "TEETHER-20260801-005"
+    ],
     "canonicalProductId": "MASTER-0195"
   },
   {
-    "sequence": 396,
+    "sequence": 392,
     "manufacturer": "미확인",
-    "officialModel": "미확인",
+    "officialModel": "도토링 고리 치발기 애드 박스 24P",
     "officialSku": "미확인",
     "brandCountry": "미확인",
     "kcType": "미확인",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/"
+      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
+      "https://www.coupang.com/vp/products/8750527041"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "RUN18-013"
+    ],
     "id": "MASTER-0196",
     "category": "구강·치발기",
     "subtype": "치발기",
@@ -52331,20 +52037,21 @@
     "brand": "꼬꼬노리",
     "name": "도토링 고리 치발기 애드 박스 24개입",
     "status": "보류",
-    "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "countryOfManufacture": "대한민국 🇰🇷",
+    "saleStatus": "국내 동일 애드 박스 24P 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
+    "kcNumber": "CB061E006-8002R",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-08-04",
     "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
     "officialUrls": [
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/"
+      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
+      "https://www.coupang.com/vp/products/8750527041"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 중복 활성 행 삭제 병합 · RUN18-013 → MASTER-0196",
     "dashboardGroup": "치발기",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -52370,7 +52077,6 @@
     "revalidationMissingFields": [
       "officialAge",
       "manufacturerOrImporter",
-      "exactKcNumber",
       "safetyKoreaSameModel"
     ],
     "revalidationSearchQueries": [
@@ -52414,12 +52120,15 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "deletedDuplicateIds": [
+      "RUN18-013"
+    ],
     "canonicalProductId": "MASTER-0196"
   },
   {
-    "sequence": 397,
+    "sequence": 393,
     "manufacturer": "미확인",
-    "officialModel": "미확인",
+    "officialModel": "도토링 고리 치발기 애디 8P",
     "officialSku": "미확인",
     "brandCountry": "미확인",
     "kcType": "미확인",
@@ -52428,12 +52137,15 @@
       "https://coconory.com/",
       "https://momiliter.co.kr/shop/item.php?it_id=1679906528",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209340788",
-      "https://www.wrapuppro.com/partner/view/srch_6NWOooYrwCZtOXM"
+      "https://www.wrapuppro.com/partner/view/srch_6NWOooYrwCZtOXM",
+      "https://www.coupang.com/vp/products/8750563443"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "RUN18-012"
+    ],
     "id": "MASTER-0197",
     "category": "구강·치발기",
     "subtype": "치발기",
@@ -52441,12 +52153,12 @@
     "brand": "꼬꼬노리",
     "name": "도토링 고리 치발기 애디 8P",
     "status": "보류",
-    "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "countryOfManufacture": "대한민국 🇰🇷",
+    "saleStatus": "국내 동일 애디 8P 상품의 현재 판매 확인 · 공식 월령·제조사·유효 KC 재검증 필요",
     "ageRange": "0개월 이상",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "CB061E006-8002",
+    "kcNumber": "CB061E006-8002R",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-08-04",
     "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
@@ -52454,10 +52166,11 @@
       "https://coconory.com/",
       "https://momiliter.co.kr/shop/item.php?it_id=1679906528",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209340788",
-      "https://www.wrapuppro.com/partner/view/srch_6NWOooYrwCZtOXM"
+      "https://www.wrapuppro.com/partner/view/srch_6NWOooYrwCZtOXM",
+      "https://www.coupang.com/vp/products/8750563443"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 중복 활성 행 삭제 병합 · RUN18-012 → MASTER-0197",
     "dashboardGroup": "치발기",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -52501,7 +52214,6 @@
     "revalidationAttempted": true,
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "countryOfManufacture",
       "manufacturerOrImporter",
       "safetyKoreaSameModel"
     ],
@@ -52546,10 +52258,13 @@
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "deletedDuplicateIds": [
+      "RUN18-012"
+    ],
     "canonicalProductId": "MASTER-0197"
   },
   {
-    "sequence": 398,
+    "sequence": 394,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -52715,7 +52430,7 @@
     "canonicalProductId": "MASTER-0198"
   },
   {
-    "sequence": 399,
+    "sequence": 395,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -52847,7 +52562,7 @@
     "canonicalProductId": "MASTER-0199"
   },
   {
-    "sequence": 400,
+    "sequence": 396,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -52959,7 +52674,7 @@
     "canonicalProductId": "MASTER-0200"
   },
   {
-    "sequence": 401,
+    "sequence": 397,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -53009,7 +52724,7 @@
     "source": "배포 검증 DB · strict 419",
     "sourcePriority": 0,
     "archive": false,
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
     "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
     "certifications": [
@@ -53095,12 +52810,12 @@
       "CB065R3172-26002"
     ],
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "검증 완료",
     "canonicalProductId": "MASTER-0201"
   },
   {
-    "sequence": 402,
+    "sequence": 398,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -53269,7 +52984,7 @@
     "canonicalProductId": "MASTER-0202"
   },
   {
-    "sequence": 403,
+    "sequence": 399,
     "manufacturer": "자체제작",
     "officialModel": "앙쥬 바나나 3D수박 베스트 2종 세트",
     "officialSku": "미확인",
@@ -53430,7 +53145,7 @@
     "canonicalProductId": "MASTER-0203"
   },
   {
-    "sequence": 404,
+    "sequence": 400,
     "manufacturer": "자체제작",
     "officialModel": "앙쥬 바나나 포도 베스트 2종 세트",
     "officialSku": "미확인",
@@ -53581,7 +53296,7 @@
     "canonicalProductId": "MASTER-0204"
   },
   {
-    "sequence": 405,
+    "sequence": 401,
     "manufacturer": "자체제작",
     "officialModel": "앙쥬 바나나 포도 베스트 2종 세트",
     "officialSku": "미확인",
@@ -53736,7 +53451,7 @@
     "canonicalProductId": "MASTER-0205"
   },
   {
-    "sequence": 406,
+    "sequence": 402,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -53823,7 +53538,7 @@
     "canonicalProductId": "MASTER-0206"
   },
   {
-    "sequence": 407,
+    "sequence": 403,
     "manufacturer": "미확인",
     "officialModel": "앙쥬 바나나 포도 베스트 2종 세트",
     "officialSku": "미확인",
@@ -54003,7 +53718,7 @@
     "canonicalProductId": "MASTER-0207"
   },
   {
-    "sequence": 408,
+    "sequence": 404,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54104,7 +53819,7 @@
     "canonicalProductId": "MASTER-0208"
   },
   {
-    "sequence": 409,
+    "sequence": 405,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54208,7 +53923,7 @@
     "canonicalProductId": "MASTER-0209"
   },
   {
-    "sequence": 410,
+    "sequence": 406,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54352,7 +54067,7 @@
     "canonicalProductId": "MASTER-0210"
   },
   {
-    "sequence": 411,
+    "sequence": 407,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54452,7 +54167,7 @@
     "canonicalProductId": "MASTER-0211"
   },
   {
-    "sequence": 412,
+    "sequence": 408,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54561,7 +54276,7 @@
     "canonicalProductId": "MASTER-0212"
   },
   {
-    "sequence": 413,
+    "sequence": 409,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54721,7 +54436,7 @@
     "canonicalProductId": "MASTER-0213"
   },
   {
-    "sequence": 414,
+    "sequence": 410,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54809,7 +54524,7 @@
     "canonicalProductId": "RUN18-001"
   },
   {
-    "sequence": 415,
+    "sequence": 411,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -54924,7 +54639,7 @@
     "canonicalProductId": "RUN18-002"
   },
   {
-    "sequence": 416,
+    "sequence": 412,
     "manufacturer": "한성컴퍼니",
     "officialModel": "티지엠 과일 치발기 수박",
     "officialSku": "미확인",
@@ -55054,7 +54769,7 @@
     "canonicalProductId": "RUN18-003"
   },
   {
-    "sequence": 417,
+    "sequence": 413,
     "manufacturer": "자체제작",
     "officialModel": "앙쥬 3D 손목치발기",
     "officialSku": "미확인",
@@ -55215,7 +54930,7 @@
     "canonicalProductId": "RUN18-004"
   },
   {
-    "sequence": 418,
+    "sequence": 414,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -55303,7 +55018,7 @@
     "canonicalProductId": "RUN18-005"
   },
   {
-    "sequence": 419,
+    "sequence": 415,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -55403,7 +55118,7 @@
     "canonicalProductId": "RUN18-006"
   },
   {
-    "sequence": 420,
+    "sequence": 416,
     "manufacturer": "자체제작",
     "officialModel": "앙쥬 베스트 치발기 세트",
     "officialSku": "미확인",
@@ -55530,7 +55245,7 @@
     "canonicalProductId": "RUN18-007"
   },
   {
-    "sequence": 421,
+    "sequence": 417,
     "manufacturer": "앙쥬 주식회사",
     "officialModel": "앙쥬 3D 딸기 치발기",
     "officialSku": "미확인",
@@ -55549,12 +55264,18 @@
       "https://www.fallcent.com/product/Z0bwlL6cu2XPea9AnCMkF7x3DfRVTQUz/",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
       "https://www.ssg.com/item/itemView.ssg?itemId=1000538183301",
-      "https://www.coupang.com/vp/products/8589848399?categoryId=331697&itemId=24165739170&sourceType=CATEGORY&vendorItemId=91184137442"
+      "https://www.coupang.com/vp/products/8589848399?categoryId=331697&itemId=24165739170&sourceType=CATEGORY&vendorItemId=91184137442",
+      "https://angemall.com/",
+      "https://www.safetykorea.kr/search/searchPop?certNum=CB065B0002-9001r",
+      "http://www.angekorea.com/ko/products/products.html?&sca=10&sca=10&save_stx=&page=3",
+      "https://angemall.com/category/3d%EA%B3%BC%EC%9D%BC%EC%B9%98%EB%B0%9C%EA%B8%B06m/405/"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
     "duplicateRule": "",
-    "aliases": [],
+    "aliases": [
+      "TEETHER-20260801-015"
+    ],
     "id": "RUN18-008",
     "category": "구강·치발기",
     "subtype": "치발기",
@@ -55583,10 +55304,14 @@
       "http://www.angekorea.com/board/bbs/board.php?bo_table=review&wr_id=8",
       "https://takos5050.cafe24.com/",
       "https://www.lowchart.com/8284227946-23885696540",
-      "https://www.fallcent.com/product/Z0bwlL6cu2XPea9AnCMkF7x3DfRVTQUz/"
+      "https://www.fallcent.com/product/Z0bwlL6cu2XPea9AnCMkF7x3DfRVTQUz/",
+      "https://angemall.com/",
+      "https://www.safetykorea.kr/search/searchPop?certNum=CB065B0002-9001r",
+      "http://www.angekorea.com/ko/products/products.html?&sca=10&sca=10&save_stx=&page=3",
+      "https://angemall.com/category/3d%EA%B3%BC%EC%9D%BC%EC%B9%98%EB%B0%9C%EA%B8%B06m/405/"
     ],
     "quality": "추가 확인 필요",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 · 오염 또는 동일 제품 직접 근거 부족으로 자동 상태 전환 차단 | 2026-08-15 Codex 우선 재검증 · 보류 → 포함 · 동일 제품·유효 KC·3개월 이상 확인",
+    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 · 오염 또는 동일 제품 직접 근거 부족으로 자동 상태 전환 차단 | 2026-08-15 Codex 우선 재검증 · 보류 → 포함 · 동일 제품·유효 KC·3개월 이상 확인 | 2026-08-15 중복 활성 행 삭제 병합 · TEETHER-20260801-015 → RUN18-008",
     "dashboardGroup": "치발기",
     "duplicateOf": "",
     "source": "배포 검증 DB · strict 419",
@@ -55755,11 +55480,14 @@
     "strict419Applied": false,
     "strict419Status": "검증 완료",
     "revalidationState": "검증 완료",
-    "canonicalProductId": "RUN18-008",
-    "importer": "해당 없음"
+    "importer": "해당 없음",
+    "deletedDuplicateIds": [
+      "TEETHER-20260801-015"
+    ],
+    "canonicalProductId": "RUN18-008"
   },
   {
-    "sequence": 422,
+    "sequence": 418,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -55865,7 +55593,7 @@
     "canonicalProductId": "RUN18-009"
   },
   {
-    "sequence": 423,
+    "sequence": 419,
     "manufacturer": "자체제작",
     "officialModel": "[※비밀링크 한정 56% 할인※] - 앙쥬 베스트 치발기 세트",
     "officialSku": "미확인",
@@ -56049,369 +55777,7 @@
     "canonicalProductId": "RUN18-010"
   },
   {
-    "sequence": 424,
-    "manufacturer": "미확인",
-    "officialModel": "[꼬꼬노리] 맘마홈 흡착식판+빨대컵 2종 세트(식판+빨대컵)",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "미확인",
-    "saleUrls": [
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-      "https://coconory.com/",
-      "https://live.ecomm-data.com/report/labang/ff175af2a4554c5c01755fb2c9037237",
-      "https://blog.naver.com/PostView.naver?blogId=daya2023&logNo=224250648043"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "RUN18-011",
-    "category": "구강·치발기",
-    "subtype": "치발기",
-    "rawCategory": "구강·치발기",
-    "brand": "꼬꼬노리",
-    "name": "도토링 고리 치발기 24P + 파우치",
-    "status": "제외",
-    "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
-    "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
-    "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-15",
-    "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0195를 canonical로 연결한 중복 레코드로 제외한다.",
-    "officialUrls": [
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-      "https://coconory.com/",
-      "https://live.ecomm-data.com/report/labang/ff175af2a4554c5c01755fb2c9037237",
-      "https://blog.naver.com/PostView.naver?blogId=daya2023&logNo=224250648043"
-    ],
-    "quality": "동일 제품명·구성·공식 URL 일치 · 중복 연결",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 Codex 중복 재검증 · RUN18-011 → MASTER-0195 구조화 연결",
-    "dashboardGroup": "치발기",
-    "duplicateOf": "MASTER-0195",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "미확인",
-        "status": "확인 필요",
-        "certDate": "",
-        "changedDate": "",
-        "certType": "",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "",
-        "modelName": "[꼬꼬노리] 맘마홈 흡착식판+빨대컵 2종 세트(식판+빨대컵)",
-        "manufacturer": "",
-        "country": "대한민국",
-        "importer": "",
-        "classification": "",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certificationsearch"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certificationsearch",
-    "safetyKoreaCheckedAt": "2026-08-03",
-    "certStatusSummary": "인증번호 확인 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260815-codex-live-recovery1",
-    "revalidationAttempted": true,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 24P + 파우치\"",
-      "\"도토링 고리 치발기 24P + 파우치\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"도토링 고리 치발기 24P + 파우치\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "revalidationQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 24P + 파우치\"",
-      "\"도토링 고리 치발기 24P + 파우치\" 구매",
-      "\"도토링 고리 치발기 24P + 파우치\" 제조국 사용연령",
-      "site:safetykorea.kr/release/itemSearch \"도토링 고리 치발기 24P + 파우치\"",
-      "site:coupang.com OR site:smartstore.naver.com OR site:gmarket.co.kr \"도토링 고리 치발기 24P + 파우치\"",
-      "꼬꼬노리 도토링 고리 치발기 24P + 파우치"
-    ],
-    "revalidationMatchedPages": [
-      {
-        "url": "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-        "title": "추천 솔직 후기 BEST | 꼬꼬노리고리 할인 상품 탑 10 - 파워 홈쇼핑",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://coconory.com/",
-        "title": "꼬꼬노리COCONORY",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://live.ecomm-data.com/report/labang/ff175af2a4554c5c01755fb2c9037237",
-        "title": "2026-02-24 [꼬꼬노리] 봄맞이 봄나들이 꿀템 쇼핑라이브~❤️ 라이브방송의 21개 상품의 판매량과 매출액을 확인해보세요.",
-        "score": 0.756,
-        "retail": false
-      },
-      {
-        "url": "https://alzam.cafe24.com/",
-        "title": "알잠몰",
-        "score": 0.756,
-        "retail": false
-      }
-    ],
-    "ocrFallbackAttempted": true,
-    "ocrEvidence": [],
-    "ocrPagesChecked": 0,
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0195"
-  },
-  {
-    "sequence": 425,
-    "manufacturer": "미확인",
-    "officialModel": "미확인",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "미확인",
-    "saleUrls": [
-      "https://coconory.com/",
-      "https://momiliter.co.kr/shop/item.php?it_id=1679906528",
-      "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209340788"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "RUN18-012",
-    "category": "구강·치발기",
-    "subtype": "치발기",
-    "rawCategory": "구강·치발기",
-    "brand": "꼬꼬노리",
-    "name": "도토링 고리 치발기 애디 8P",
-    "status": "제외",
-    "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "0개월 이상",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
-    "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "CB061E006-8002",
-    "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-15",
-    "reason": "MASTER-0197과 브랜드·정확한 제품명·애디 8P 구성·KC CB061E006-8002·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0197을 canonical로 연결한 중복 레코드로 제외한다.",
-    "officialUrls": [
-      "https://coconory.com/",
-      "https://momiliter.co.kr/shop/item.php?it_id=1679906528",
-      "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209340788"
-    ],
-    "quality": "동일 제품명·8P 구성·KC·공식 URL 일치 · 중복 연결",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 Codex 중복 재검증 · RUN18-012 → MASTER-0197 구조화 연결",
-    "dashboardGroup": "치발기",
-    "duplicateOf": "MASTER-0197",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "CB061E006-8002",
-        "status": "확인 필요",
-        "certDate": "",
-        "changedDate": "",
-        "certType": "",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "",
-        "modelName": "",
-        "manufacturer": "",
-        "country": "대한민국 🇰🇷",
-        "importer": "",
-        "classification": "",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB061E006-8002"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB061E006-8002",
-    "safetyKoreaCheckedAt": "2026-08-03",
-    "certStatusSummary": "상세 조회 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260815-codex-live-recovery1",
-    "revalidationAttempted": true,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 애디 8P\"",
-      "\"도토링 고리 치발기 애디 8P\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"도토링 고리 치발기 애디 8P\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "revalidationQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 애디 8P\"",
-      "\"도토링 고리 치발기 애디 8P\" 구매",
-      "\"도토링 고리 치발기 애디 8P\" 제조국 사용연령",
-      "site:safetykorea.kr/release/itemSearch \"도토링 고리 치발기 애디 8P\"",
-      "site:coupang.com OR site:smartstore.naver.com OR site:gmarket.co.kr \"도토링 고리 치발기 애디 8P\"",
-      "꼬꼬노리 도토링 고리 치발기 애디 8P"
-    ],
-    "revalidationMatchedPages": [
-      {
-        "url": "https://coconory.com/",
-        "title": "꼬꼬노리COCONORY",
-        "score": 0.756,
-        "retail": false
-      },
-      {
-        "url": "https://momiliter.co.kr/shop/item.php?it_id=1679906528",
-        "title": "꼬꼬노리 도토링 고리 치발기세트 > 리빙&잡화 | 마미리터 | 임신출산육아필수앱",
-        "score": 0.756,
-        "retail": false
-      },
-      {
-        "url": "https://alzam.cafe24.com/",
-        "title": "알잠몰",
-        "score": 0.756,
-        "retail": false
-      }
-    ],
-    "ocrFallbackAttempted": true,
-    "ocrEvidence": [],
-    "ocrPagesChecked": 0,
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0197"
-  },
-  {
-    "sequence": 426,
-    "manufacturer": "미확인",
-    "officialModel": "미확인",
-    "officialSku": "미확인",
-    "brandCountry": "미확인",
-    "kcType": "미확인",
-    "testInstitute": "미확인",
-    "saleUrls": [
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/"
-    ],
-    "estimatedRank": "미공개",
-    "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
-    "duplicateRule": "",
-    "aliases": [],
-    "id": "RUN18-013",
-    "category": "구강·치발기",
-    "subtype": "치발기",
-    "rawCategory": "구강·치발기",
-    "brand": "꼬꼬노리",
-    "name": "도토링 고리 치발기 애드 박스 24개입",
-    "status": "제외",
-    "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
-    "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
-    "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-15",
-    "reason": "MASTER-0196과 브랜드·정확한 제품명·애드 박스 24개입 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0196을 canonical로 연결한 중복 레코드로 제외한다.",
-    "officialUrls": [
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/"
-    ],
-    "quality": "동일 제품명·포장·공식 URL 일치 · 중복 연결",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 Codex 중복 재검증 · RUN18-013 → MASTER-0196 구조화 연결",
-    "dashboardGroup": "치발기",
-    "duplicateOf": "MASTER-0196",
-    "source": "배포 검증 DB · strict 419",
-    "sourcePriority": 0,
-    "archive": false,
-    "statusDisplay": "기준 제외·중복",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "Safety Korea에서 동일 모델의 인증·신고번호와 상태를 확인하고 공식 판매 제품과 연결",
-    "certifications": [],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certificationsearch",
-    "safetyKoreaCheckedAt": "2026-08-03",
-    "certStatusSummary": "인증번호 확인 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "revalidationVersion": "20260815-codex-live-recovery1",
-    "revalidationAttempted": true,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 애드 박스 24개입\"",
-      "\"도토링 고리 치발기 애드 박스 24개입\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"도토링 고리 치발기 애드 박스 24개입\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "revalidationQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 애드 박스 24개입\"",
-      "\"도토링 고리 치발기 애드 박스 24개입\" 구매",
-      "\"도토링 고리 치발기 애드 박스 24개입\" 제조국 사용연령",
-      "site:safetykorea.kr/release/itemSearch \"도토링 고리 치발기 애드 박스 24개입\"",
-      "site:coupang.com OR site:smartstore.naver.com OR site:gmarket.co.kr \"도토링 고리 치발기 애드 박스 24개입\"",
-      "꼬꼬노리 도토링 고리 치발기 애드 박스 24개입"
-    ],
-    "revalidationMatchedPages": [
-      {
-        "url": "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-        "title": "추천 솔직 후기 BEST | 꼬꼬노리고리 할인 상품 탑 10 - 파워 홈쇼핑",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://greatmart.kr/%EC%95%84%EA%B8%B0%EC%B2%B4%EC%9C%A1%EA%B4%80-%EA%B3%A0%EB%A6%AC%EC%9E%A5%EB%82%9C%EA%B0%90-202412022322/",
-        "title": "유용한 아기체육관 고리장난감 인기 아이템 TOP 6 • 그레잇마트",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://pusandate.com/2035",
-        "title": "치발기 추천 (순위, 구매가이드, 후기, 가격 장점 단점)",
-        "score": 0.9,
-        "retail": false
-      }
-    ],
-    "ocrFallbackAttempted": true,
-    "ocrEvidence": [],
-    "ocrPagesChecked": 0,
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0196"
-  },
-  {
-    "sequence": 427,
+    "sequence": 420,
     "manufacturer": "사용후기",
     "officialModel": "낮은가격",
     "officialSku": "미확인",
@@ -56597,7 +55963,7 @@
     "canonicalProductId": "RUN18-014"
   },
   {
-    "sequence": 428,
+    "sequence": 421,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -56772,7 +56138,7 @@
     "canonicalProductId": "RUN18-015"
   },
   {
-    "sequence": 429,
+    "sequence": 422,
     "manufacturer": "미확인",
     "officialModel": "미확인",
     "officialSku": "미확인",
@@ -57109,7 +56475,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 430,
+    "sequence": 423,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -57190,7 +56556,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 431,
+    "sequence": 424,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -57330,7 +56696,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 432,
+    "sequence": 425,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -57499,142 +56865,12 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 433,
+    "sequence": 426,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
     "canonicalProductId": "TEETHER-20260801-004"
-  },
-  {
-    "id": "TEETHER-20260801-005",
-    "archive": false,
-    "aliases": [],
-    "officialUrls": [
-      "https://coconory.com/",
-      "https://coconory.com/category/%EC%95%84%EA%B8%B0%EB%86%80%EC%9E%87%EA%B0%90/24/",
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-      "https://blog.naver.com/PostView.naver?blogId=daya2023&logNo=224250648043"
-    ],
-    "saleUrls": [
-      "https://coconory.com/",
-      "https://coconory.com/category/%EC%95%84%EA%B8%B0%EB%86%80%EC%9E%87%EA%B0%90/24/",
-      "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-      "https://blog.naver.com/PostView.naver?blogId=daya2023&logNo=224250648043"
-    ],
-    "duplicateOf": "MASTER-0195",
-    "sourcePriority": 0,
-    "source": "배포 검증 DB · strict 419",
-    "category": "구강·치발기",
-    "subtype": "고리형",
-    "brand": "꼬꼬노리",
-    "name": "도토링 고리 치발기 24P + 파우치",
-    "status": "제외",
-    "countryOfManufacture": "대한민국",
-    "saleStatus": "꼬꼬노리 공식몰 및 국내 주요 유통채널 현재 판매 확인 · 국내 유통채널 종합 상위권",
-    "ageRange": "0~35개월",
-    "ageEvidence": "아기 치발기 제품",
-    "kcApplicable": "어린이제품 확인 필요",
-    "kcNumber": "미확인",
-    "platform": "꼬꼬노리 공식몰 · 국내 주요 유통채널",
-    "checkedAt": "2026-08-15",
-    "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0195를 canonical로 연결한 중복 레코드로 제외한다.",
-    "quality": "동일 제품명·구성·공식 URL 일치 · 중복 연결",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 Codex 중복 재검증 · TEETHER-20260801-005 → MASTER-0195 구조화 연결",
-    "dashboardGroup": "구강치발기",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "미확인",
-        "status": "확인 필요",
-        "certDate": "",
-        "changedDate": "",
-        "certType": "",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "",
-        "modelName": "낮은가격",
-        "manufacturer": "사용후기",
-        "country": "대한민국",
-        "importer": "",
-        "classification": "",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certificationsearch"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certificationsearch",
-    "safetyKoreaCheckedAt": "2026-08-03",
-    "certStatusSummary": "인증번호 확인 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "statusDisplay": "기준 제외·중복",
-    "revalidationVersion": "20260815-codex-live-recovery1",
-    "revalidationAttempted": true,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 24P + 파우치\"",
-      "\"도토링 고리 치발기 24P + 파우치\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"도토링 고리 치발기 24P + 파우치\""
-    ],
-    "revalidationEvidenceUrls": [
-      "https://coconory.com/category/%EC%95%84%EA%B8%B0%EB%86%80%EC%9E%87%EA%B0%90/24/",
-      "https://coconory.com/"
-    ],
-    "revalidationQueries": [
-      "\"꼬꼬노리\" \"도토링 고리 치발기 24P + 파우치\"",
-      "\"도토링 고리 치발기 24P + 파우치\" 구매",
-      "\"도토링 고리 치발기 24P + 파우치\" 제조국 사용연령",
-      "site:safetykorea.kr/release/itemSearch \"도토링 고리 치발기 24P + 파우치\"",
-      "site:coupang.com OR site:smartstore.naver.com OR site:gmarket.co.kr \"도토링 고리 치발기 24P + 파우치\"",
-      "꼬꼬노리 도토링 고리 치발기 24P + 파우치"
-    ],
-    "revalidationMatchedPages": [
-      {
-        "url": "https://coconory.com/category/%EC%95%84%EA%B8%B0%EB%86%80%EC%9E%87%EA%B0%90/24/",
-        "title": "치발기·쪽쪽이 | 아기에게 부드러운 첫 순간 – 꼬꼬노리",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://infocavehub.com/%EA%BC%AC%EA%BC%AC%EB%85%B8%EB%A6%AC%EA%B3%A0%EB%A6%AC-202407251348/",
-        "title": "추천 솔직 후기 BEST | 꼬꼬노리고리 할인 상품 탑 10 - 파워 홈쇼핑",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://coconory.com/",
-        "title": "꼬꼬노리COCONORY",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://alzam.cafe24.com/",
-        "title": "알잠몰",
-        "score": 0.756,
-        "retail": false
-      }
-    ],
-    "ocrFallbackAttempted": true,
-    "ocrEvidence": [],
-    "ocrPagesChecked": 0,
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 434,
-    "rawCategory": "구강·치발기",
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "revalidationState": "검증 완료",
-    "officialModel": "낮은가격",
-    "manufacturer": "사용후기",
-    "canonicalProductId": "MASTER-0195"
   },
   {
     "id": "TEETHER-20260801-006",
@@ -57808,7 +57044,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 435,
+    "sequence": 427,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -57952,7 +57188,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 436,
+    "sequence": 428,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -58036,7 +57272,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 437,
+    "sequence": 429,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -58132,7 +57368,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "KOTITI 시험연구원",
     "statusDisplay": "기준 충족",
-    "sequence": 438,
+    "sequence": 430,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -58223,7 +57459,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 439,
+    "sequence": 431,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -58311,7 +57547,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 440,
+    "sequence": 432,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260815-codex-live-recovery1",
     "revalidationAttempted": true,
@@ -58403,7 +57639,7 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
-    "statusDisplay": "기준 제외·중복",
+    "statusDisplay": "기준 제외",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": true,
     "revalidationResolved": true,
@@ -58491,10 +57727,10 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 441,
+    "sequence": 433,
     "rawCategory": "구강·치발기",
     "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
+    "strict419Status": "기준 제외",
     "revalidationState": "재검증 완료",
     "canonicalProductId": "TEETHER-20260801-012"
   },
@@ -58678,7 +57914,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 442,
+    "sequence": 434,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -58687,8 +57923,8 @@
     "kcType": "어린이제품 특별법 대상 · 안전확인 대상",
     "revalidationState": "공식 근거 추가 확인 중",
     "importer": "한성인터내셔날",
-    "canonicalProductId": "TEETHER-20260801-013",
-    "manufacturer": "한성인터내셔날"
+    "manufacturer": "한성인터내셔날",
+    "canonicalProductId": "TEETHER-20260801-013"
   },
   {
     "id": "TEETHER-20260801-014",
@@ -58762,7 +57998,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 443,
+    "sequence": 435,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -58776,193 +58012,6 @@
     "revalidationState": "재검증 완료 · 기준 충족",
     "canonicalProductId": "TEETHER-20260801-014",
     "revalidationMissingFields": []
-  },
-  {
-    "id": "TEETHER-20260801-015",
-    "archive": false,
-    "aliases": [],
-    "officialUrls": [
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
-      "http://www.angekorea.com/ko/m/products/product_view.php?it_id=1573809466",
-      "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-%EB%94%B8%EA%B8%B0-%EA%B8%B0%EB%A6%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
-      "https://angemall.com/",
-      "https://www.safetykorea.kr/search/searchPop?certNum=CB065B0002-9001r",
-      "http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
-      "http://www.angekorea.com/ko/products/products.html?&sca=10&sca=10&save_stx=&page=3",
-      "https://takos5050.cafe24.com/",
-      "https://angemall.com/category/3d%EA%B3%BC%EC%9D%BC%EC%B9%98%EB%B0%9C%EA%B8%B06m/405/"
-    ],
-    "saleUrls": [
-      "https://angemall.com/",
-      "https://www.safetykorea.kr/search/searchPop?certNum=CB065B0002-9001r",
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
-      "http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
-      "http://www.angekorea.com/ko/products/products.html?&sca=10&sca=10&save_stx=&page=3",
-      "https://takos5050.cafe24.com/",
-      "https://angemall.com/category/3d%EA%B3%BC%EC%9D%BC%EC%B9%98%EB%B0%9C%EA%B8%B06m/405/",
-      "http://www.angekorea.com/ko/m/products/product_view.php?it_id=1573809466",
-      "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-%EB%94%B8%EA%B8%B0-%EA%B8%B0%EB%A6%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/"
-    ],
-    "duplicateOf": "RUN18-008",
-    "sourcePriority": 0,
-    "source": "배포 검증 DB · strict 419",
-    "category": "구강·치발기",
-    "subtype": "과일형",
-    "brand": "앙쥬",
-    "name": "3D 딸기 치발기",
-    "status": "제외",
-    "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "앙쥬 공식몰 및 국내 주요 유통채널 현재 판매 확인",
-    "ageRange": "3개월 이상",
-    "ageEvidence": "앙쥬 공식 현행 제품과 동일 KC 판매 정보의 3개월 이상",
-    "kcApplicable": "어린이제품 안전확인 대상",
-    "kcNumber": "CB065B0002-9001R",
-    "platform": "앙쥬 공식몰 · Safety Korea · 국내 주요 유통채널",
-    "checkedAt": "2026-08-15",
-    "reason": "RUN18-008과 브랜드·정확한 제품명·KC CB065B0002-9001R·제조사·공식 근거가 모두 같은 동일 제품이다. 원본 행은 보존하고 RUN18-008을 canonical로 연결한 중복 레코드로 제외한다.",
-    "quality": "동일 제품명·KC·제조사·공식 근거 일치 · 중복 연결",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 제외 | 2026-08-15 Codex 중복 재검증 · TEETHER-20260801-015 → RUN18-008 구조화 연결",
-    "dashboardGroup": "구강치발기",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "CB065B0002-9001R",
-        "status": "적합",
-        "certDate": "2024-04-05",
-        "changedDate": "",
-        "certType": "안전확인",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "치아발육기",
-        "modelName": "3D 딸기 치발기",
-        "manufacturer": "앙쥬 주식회사",
-        "country": "대한민국",
-        "importer": "",
-        "classification": "어린이제품",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
-    "safetyKoreaCheckedAt": "2026-08-03",
-    "certStatusSummary": "적합",
-    "certDateSummary": "2024-04-05",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 1,
-    "expiredCertificateCount": 0,
-    "testInstitute": "FITI시험연구원(FITI)",
-    "statusDisplay": "기준 제외·중복",
-    "revalidationVersion": "20260815-codex-live-recovery1",
-    "revalidationAttempted": true,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"앙쥬\" \"3D 딸기 치발기\"",
-      "\"3D 딸기 치발기\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"3D 딸기 치발기\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "revalidationQueries": [
-      "\"앙쥬\" \"3D 딸기 치발기\"",
-      "\"3D 딸기 치발기\" 구매",
-      "\"3D 딸기 치발기\" 제조국 사용연령",
-      "site:safetykorea.kr/release/itemSearch \"3D 딸기 치발기\"",
-      "site:coupang.com OR site:smartstore.naver.com OR site:gmarket.co.kr \"3D 딸기 치발기\"",
-      "앙쥬 3D 딸기 치발기"
-    ],
-    "revalidationMatchedPages": [
-      {
-        "url": "https://angemall.com/",
-        "title": "앙쥬몰 | 아기의 안전한 첫 친구",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://hongshinpark.me/29864",
-        "title": "2024년 6월 딸랑이 치발기 가격비교사이트 제품들 – hongshinpark.me",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://doripress.mycafe24.com/%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%83%81%ED%92%88-%EC%B6%94%EC%B2%9C-top10-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EC%A0%9C%ED%92%88-%ED%9B%84%EA%B8%B0%EC%99%80-%EC%B6%94%EC%B2%9C-%EB%AA%A9%EB%A1%9D/",
-        "title": "치발기 상품 추천 Top10 – 최고의 제품 후기와 추천 목록 - 알뜰쇼핑정보",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://bestgoodnice.com/%ED%8B%B0%EC%A7%80%EC%97%A0-%EC%9C%A0%EC%95%84%EC%9A%A9-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EA%B8%80%EB%9F%AC%EB%B8%8C%ED%98%95-%EA%B3%B0%EB%8F%8C%EC%9D%B4-%EC%86%90/",
-        "title": "티지엠 유아용 플래티넘 실리콘 글러브형 곰돌이 손목치발기, 본품+케이스, 코튼블루, 1세트",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
-        "title": "앙쥬 주식회사 공식 홈페이지입니다.",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://blog.fullnesscat.com/%EC%95%84%EA%B8%B0-%EB%B0%9C%EC%9C%A1%EA%B8%B0/",
-        "title": "아기 발육기 추천 순위 구매가이드 - FULLNESSCAT blog",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "http://www.angekorea.com/ko/products/products.html?&sca=10&sca=10&save_stx=&page=3",
-        "title": "앙쥬 주식회사 공식 홈페이지입니다.",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://doridori.oopy.io/210ddde3-24c1-814a-ac5b-ca56426daba1",
-        "title": "치발기 추천 top10! 최고의 제품 후기와 함께",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://item.kr-inside.com/2026/01/best-5-2026.html",
-        "title": "올리앤캐롤치발기 인기 추천 BEST 5, 2026년 최신 출산/육아 아이템 총정리",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://slampanic.co.kr/%EC%95%84%EA%B8%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%B6%94%EC%B2%9C-%EC%88%9C%EC%9C%84-%EB%B9%84%EA%B5%90-top-10/",
-        "title": "아기 치발기 추천 순위 비교 TOP 10 » 취향의시작",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://rochestergroove.com/%EC%B9%98%EB%B0%9C%EA%B8%B0-a-to-z-2025-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EB%AA%A8%EB%93%A0-%EC%A0%95%EB%B3%B4/",
-        "title": "치발기 A to Z: 2025 알아야 할 모든 정보 - 테크트레킹",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://takos5050.cafe24.com/",
-        "title": "앙쥬몰 | 아기의 안전한 첫 친구",
-        "score": 0.9,
-        "retail": false
-      }
-    ],
-    "ocrFallbackAttempted": true,
-    "ocrEvidence": [],
-    "ocrPagesChecked": 0,
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 444,
-    "rawCategory": "구강·치발기",
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "revalidationState": "검증 완료",
-    "canonicalProductId": "RUN18-008",
-    "manufacturer": "앙쥬 주식회사",
-    "importer": "해당 없음",
-    "officialModel": "앙쥬 3D 딸기 치발기"
   },
   {
     "id": "TEETHER-20260801-016",
@@ -59104,7 +58153,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 445,
+    "sequence": 436,
     "rawCategory": "구강·치발기",
     "strict419Applied": false,
     "strict419Status": "검증 완료",
@@ -59284,7 +58333,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 446,
+    "sequence": 437,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -59400,7 +58449,7 @@
     "ocrPagesChecked": 2,
     "certificationEvidenceLevel": "safety-korea-detail",
     "officialModel": "평점",
-    "sequence": 447,
+    "sequence": 438,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -59533,7 +58582,7 @@
     ],
     "ocrPagesChecked": 4,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 448,
+    "sequence": 439,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -59708,7 +58757,7 @@
     "certificationEvidenceLevel": "safety-korea-detail",
     "officialModel": "판매가",
     "manufacturer": "로 저희를 선택해야 하는 이유",
-    "sequence": 449,
+    "sequence": 440,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -59843,7 +58892,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 4,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 450,
+    "sequence": 441,
     "rawCategory": "구강·치발기",
     "strict419Applied": false,
     "strict419Status": "검증 완료",
@@ -60051,7 +59100,7 @@
     "revalidatedCertificationNumbers": [
       "CB061H387-1001"
     ],
-    "sequence": 451,
+    "sequence": 442,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -60171,7 +59220,7 @@
     "ocrPagesChecked": 4,
     "certificationEvidenceLevel": "safety-korea-detail",
     "officialModel": "평점",
-    "sequence": 452,
+    "sequence": 443,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -60286,7 +59335,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 4,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 453,
+    "sequence": 444,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -60429,190 +59478,12 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 454,
+    "sequence": 445,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
     "revalidationState": "엄격 근거 부족 · 추가 확인 중",
     "canonicalProductId": "TEETHER-20260801-025"
-  },
-  {
-    "id": "TEETHER-20260801-026",
-    "archive": false,
-    "aliases": [],
-    "officialUrls": [
-      "https://www.coupang.com/vp/products/8272631902",
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
-      "https://bestgoodnice.com/%EC%95%99%EC%A5%AC-%EC%B9%98%EB%B0%9C%EA%B8%B02%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EC%9B%90%EC%88%AD%EC%9D%B4/",
-      "https://mom-mom.net/shop/products/131782566",
-      "https://linklabblog.kr/%EC%95%99%EC%A5%AC%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8-%EC%95%84%EA%B8%B0-%EC%B2%AB-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%A1%9C-%EA%B4%9C%EC%B0%AE%EC%9D%84%EA%B9%8C-%EC%A7%81%EC%A0%91/",
-      "https://www.kurly.com/goods/1001396453"
-    ],
-    "saleUrls": [
-      "https://www.coupang.com/vp/products/8272631902",
-      "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
-      "https://bestgoodnice.com/%EC%95%99%EC%A5%AC-%EC%B9%98%EB%B0%9C%EA%B8%B02%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EC%9B%90%EC%88%AD%EC%9D%B4/",
-      "https://mom-mom.net/shop/products/131782566",
-      "https://linklabblog.kr/%EC%95%99%EC%A5%AC%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8-%EC%95%84%EA%B8%B0-%EC%B2%AB-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%A1%9C-%EA%B4%9C%EC%B0%AE%EC%9D%84%EA%B9%8C-%EC%A7%81%EC%A0%91/",
-      "https://www.kurly.com/goods/1001396453"
-    ],
-    "duplicateOf": "MASTER-0135",
-    "sourcePriority": 0,
-    "source": "배포 검증 DB · strict 419",
-    "category": "구강·치발기",
-    "subtype": "링형",
-    "brand": "앙쥬",
-    "name": "베스트 치발기 오렌지링",
-    "status": "제외",
-    "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "국내 판매 확인",
-    "ageRange": "3개월 이상",
-    "ageEvidence": "앙쥬 베스트 제품군",
-    "kcApplicable": "어린이제품 안전확인 대상",
-    "kcNumber": "CB065B0002-9001R",
-    "platform": "쿠팡·네이버쇼핑·Google",
-    "checkedAt": "2026-08-15",
-    "reason": "MASTER-0135와 브랜드·정확한 제품명·오렌지링 옵션·KC CB065B0002-9001R·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0135를 canonical로 연결한 중복 레코드로 제외한다.",
-    "quality": "동일 제품명·옵션·KC·공식 URL 일치 · 중복 연결",
-    "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류 | 2026-08-15 Codex 중복 재검증 · TEETHER-20260801-026 → MASTER-0135 구조화 연결",
-    "dashboardGroup": "구강치발기",
-    "regulatoryRegime": "어린이제품안전특별법 · 제품별 안전확인 인증 조회",
-    "regulatoryNote": "",
-    "certifications": [
-      {
-        "found": true,
-        "certNumber": "CB065B0002-9001R",
-        "status": "확인 필요",
-        "certDate": "",
-        "changedDate": "",
-        "certType": "",
-        "authority": "",
-        "changedReason": "",
-        "recallStatus": "",
-        "itemName": "",
-        "modelName": "",
-        "manufacturer": "",
-        "country": "대한민국 🇰🇷",
-        "importer": "",
-        "classification": "",
-        "relatedCertificates": [],
-        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
-      }
-    ],
-    "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001R",
-    "safetyKoreaCheckedAt": "2026-08-03",
-    "certStatusSummary": "상세 조회 중",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certChangedDateSummary": "",
-    "certChangedReasonSummary": "",
-    "activeCertificateCount": 0,
-    "expiredCertificateCount": 0,
-    "testInstitute": "FITI시험연구원(FITI)",
-    "statusDisplay": "기준 제외·중복",
-    "revalidationVersion": "20260815-codex-live-recovery1",
-    "revalidationAttempted": true,
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "revalidationSearchQueries": [
-      "\"앙쥬\" \"베스트 치발기 오렌지링\"",
-      "\"베스트 치발기 오렌지링\" KC 제조국 대상연령",
-      "site:safetykorea.kr \"베스트 치발기 오렌지링\""
-    ],
-    "revalidationEvidenceUrls": [],
-    "revalidationQueries": [
-      "\"앙쥬\" \"베스트 치발기 오렌지링\"",
-      "\"베스트 치발기 오렌지링\" 구매",
-      "\"베스트 치발기 오렌지링\" 제조국 사용연령",
-      "site:safetykorea.kr/release/itemSearch \"베스트 치발기 오렌지링\"",
-      "site:coupang.com OR site:smartstore.naver.com OR site:gmarket.co.kr \"베스트 치발기 오렌지링\"",
-      "앙쥬 베스트 치발기 오렌지링"
-    ],
-    "revalidationMatchedPages": [
-      {
-        "url": "https://bestgoodnice.com/%EC%95%99%EC%A5%AC-%EC%B9%98%EB%B0%9C%EA%B8%B02%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EC%9B%90%EC%88%AD%EC%9D%B4/",
-        "title": "앙쥬 치발기2종세트 바나나+팔찌, 바나나+팔찌 (원숭이블루), 1개",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://bestgoodnice.com/%EC%8A%A4%ED%85%8C%EB%B9%84%EC%95%84-%EB%B0%A9%EC%9A%B8-%ED%86%A0%EB%A7%88%ED%86%A0-%EC%99%84%EC%88%99-%ED%86%A0%EB%A7%88%ED%86%A0-%ED%86%A0%EB%A7%9D%EA%B3%A0-500g-1kg-1%EA%B0%9C-%EB%B0%A9%EC%9A%B8/",
-        "title": "스테비아 방울 토마토 완숙 토마토 토망고 500g 1kg, 1개, 방울토마토500g",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://bestgoodnice.com/%EB%B0%B1%ED%98%B8%EC%83%81%EB%8B%A8-%EB%8B%AC%EB%8B%AC%ED%95%9C-%ED%9D%91%EB%8B%B9-%EC%8A%A4%ED%85%8C%EB%B9%84%EC%95%84-%EB%B0%A9%EC%9A%B8%ED%86%A0%EB%A7%88%ED%86%A0-500g-500g-2%ED%8C%A9-1%EA%B0%9C/",
-        "title": "백호상단 달달한 흑당 스테비아 방울토마토 500G, 500G 2팩, 1개",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://bestgoodnice.com/%EC%9E%A5%EC%82%AC%EB%B6%80-%EB%B4%84-%EA%B0%80%EC%9D%84-%EC%8A%A4%ED%8C%90-%EC%A0%84%EC%88%A0-%ED%83%9D%ED%8B%B0%EC%BB%AC-%EC%B9%B4%EA%B3%A0-%EB%B0%94%EC%A7%80-ix7-%EB%93%B1%EC%82%B0%EB%B0%94/",
-        "title": "장사부 봄 가을 스판 전술 택티컬 카고 바지 IX7 등산바지",
-        "score": 0.9,
-        "retail": false
-      },
-      {
-        "url": "https://m.blog.naver.com/driari/223223946797",
-        "title": "3개월, 4개월 아기가 좋아하는 치발기 사용 후기 및 추천 (모윰, 앙쥬, 더블하트) : 네이버 블로그",
-        "score": 0.66,
-        "retail": true
-      },
-      {
-        "url": "https://item.kr-inside.com/2026/01/best-5-2026.html",
-        "title": "올리앤캐롤치발기 인기 추천 BEST 5, 2026년 최신 출산/육아 아이템 총정리",
-        "score": 0.66,
-        "retail": false
-      },
-      {
-        "url": "https://mom-mom.net/shop/products/131782566",
-        "title": "[앙쥬] 국민 베스트 치발기 3종 세트 - 맘맘 쇼케이스",
-        "score": 0.66,
-        "retail": false
-      },
-      {
-        "url": "https://bizmark.co.kr/household-goods/%EC%B4%88%EB%8C%80%EB%B0%95-%EC%83%81%ED%92%88-%EC%B9%98%EB%B0%9C%EA%B8%B0-best-10/",
-        "title": "초대박 상품 치발기 BEST 10 - BIZMARK",
-        "score": 0.66,
-        "retail": false
-      },
-      {
-        "url": "https://www.kurly.com/goods/1001396453",
-        "title": "[앙쥬] 베스트 치발기 세트 (케이스 포함) (택1) - 마켓컬리",
-        "score": 0.66,
-        "retail": true
-      },
-      {
-        "url": "https://linklabblog.kr/%EC%95%99%EC%A5%AC%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8-%EC%95%84%EA%B8%B0-%EC%B2%AB-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%A1%9C-%EA%B4%9C%EC%B0%AE%EC%9D%84%EA%B9%8C-%EC%A7%81%EC%A0%91/",
-        "title": "앙쥬치발기 2종 세트, 아기 첫 치발기로 괜찮을까? 직접 고를 때 체크할 포인트 정리 - 일상생활의 정보 링크랩",
-        "score": 0.66,
-        "retail": false
-      },
-      {
-        "url": "https://slampanic.co.kr/%EC%95%84%EA%B8%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%B6%94%EC%B2%9C-%EC%88%9C%EC%9C%84-%EB%B9%84%EA%B5%90-top-10/",
-        "title": "아기 치발기 추천 순위 비교 TOP 10 » 취향의시작",
-        "score": 0.66,
-        "retail": false
-      },
-      {
-        "url": "https://doridori.oopy.io/210ddde3-24c1-814a-ac5b-ca56426daba1",
-        "title": "치발기 추천 top10! 최고의 제품 후기와 함께",
-        "score": 0.66,
-        "retail": false
-      }
-    ],
-    "ocrFallbackAttempted": true,
-    "ocrEvidence": [],
-    "ocrPagesChecked": 0,
-    "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 455,
-    "rawCategory": "구강·치발기",
-    "strict419Applied": false,
-    "strict419Status": "기준 제외·중복",
-    "revalidationState": "검증 완료",
-    "canonicalProductId": "MASTER-0135"
   },
   {
     "id": "TEETHER-20260801-027",
@@ -60803,7 +59674,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 456,
+    "sequence": 446,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
@@ -60885,7 +59756,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 457,
+    "sequence": 447,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -60974,7 +59845,7 @@
     "expiredCertificateCount": 0,
     "testInstitute": "한국건설생활환경시험연구원(KCL)",
     "statusDisplay": "기준 충족",
-    "sequence": 458,
+    "sequence": 448,
     "rawCategory": "구강·치발기",
     "revalidationVersion": "20260804-strict419",
     "revalidationAttempted": false,
@@ -61205,7 +60076,7 @@
     "ocrEvidence": [],
     "ocrPagesChecked": 0,
     "certificationEvidenceLevel": "safety-korea-detail",
-    "sequence": 459,
+    "sequence": 449,
     "rawCategory": "구강·치발기",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",

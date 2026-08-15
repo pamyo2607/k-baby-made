@@ -2,6 +2,7 @@
 """Fail closed on canonical, generated-asset, and evidence invariants."""
 from __future__ import annotations
 
+import argparse
 import base64
 import csv
 import gzip
@@ -16,12 +17,23 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 PUBLIC = ROOT / "public"
 SOURCE = DATA / "master-products.json"
-EXPECTED_BUILD = "20260815-live459-recovery2"
-MINIMUM_RECOVERED_RECORDS = 459
+ORDER = DATA / "sheet-sync-order.json"
+TOMBSTONES = DATA / "deleted-duplicate-tombstones.json"
+EXPECTED_BUILD = "20260815-dedup449-final1"
+EXPECTED_ACTIVE_RECORDS = 449
+EXPECTED_STATUS = {"포함": 21, "보류": 382, "제외": 46}
+EXPECTED_CATEGORIES = {
+    "완구": 196,
+    "구강·치발기": 66,
+    "턱받이": 9,
+    "수유용품": 54,
+    "이유식·식기": 71,
+    "위생·기저귀": 53,
+}
 CANONICAL_CATEGORIES = {
     "완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀",
 }
-EXPECTED_DUPLICATES = {
+REMOVED_DUPLICATES = {
     "TOY-20260729-115": "TOY-20260729-024",
     "TOY-20260729-124": "TOY-20260729-123",
     "TOY-20260729-125": "TOY-20260729-053",
@@ -32,6 +44,21 @@ EXPECTED_DUPLICATES = {
     "RUN18-013": "MASTER-0196",
     "RUN18-012": "MASTER-0197",
     "TEETHER-20260801-026": "MASTER-0135",
+}
+TOMBSTONE_SOURCE_COMMIT = "3159688dda039ba3362c8392bac2fb16a6640371"
+TOMBSTONE_SOURCE_CANONICAL_SHA = "0b2338245935229bf67dc03aa8fc5589384a22f236923b54dce9e027a7afa677"
+TOMBSTONE_SOURCE_ORDER_SHA = "f5c86a15d90c8eaaa4200f4aa518c355c22380efc417a55da11133455e9228ee"
+EXPECTED_TOMBSTONE_IDENTITY = {
+    "TOY-20260729-115": (116, "쎄씨", ("Sassy",)),
+    "TOY-20260729-124": (125, "해피플레이", ("키저스",)),
+    "TOY-20260729-125": (126, "피노키오", ("핑크퐁",)),
+    "TOY-20260729-155": (156, "하늘썬별", ("윈펀",)),
+    "RUN18-011": (455, "꼬꼬노리", ()),
+    "RUN18-012": (456, "꼬꼬노리", ()),
+    "RUN18-013": (457, "꼬꼬노리", ()),
+    "TEETHER-20260801-005": (206, "꼬꼬노리", ()),
+    "TEETHER-20260801-015": (216, "앙쥬", ()),
+    "TEETHER-20260801-026": (227, "앙쥬", ()),
 }
 KC_PATTERN = re.compile(r"^[A-Z]{1,3}\d[A-Z0-9-]*[A-Z0-9]$", re.I)
 PLACEHOLDER = re.compile(r"미확인|확인\s*중|확인\s*필요|후보|부족|^-$")
@@ -111,6 +138,13 @@ def included_errors(product: dict) -> list[str]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--require-external-proof",
+        action="store_true",
+        help="also require current Google Sheet and production deployment proofs",
+    )
+    args = parser.parse_args()
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     errors: list[str] = []
     ids = [str(product.get("id", "")) for product in products]
@@ -118,19 +152,53 @@ def main() -> None:
         errors.append("blank canonical ID")
     if len(ids) != len(set(ids)):
         errors.append("exact canonical ID duplicate")
-    if len(products) < MINIMUM_RECOVERED_RECORDS:
-        errors.append(
-            f"raw count {len(products)} is below recovered floor {MINIMUM_RECOVERED_RECORDS}"
-        )
+    if len(products) != EXPECTED_ACTIVE_RECORDS:
+        errors.append(f"active raw count {len(products)} != {EXPECTED_ACTIVE_RECORDS}")
+    if [product.get("sequence") for product in products] != list(range(1, EXPECTED_ACTIVE_RECORDS + 1)):
+        errors.append("canonical sequence is not contiguous 1..449")
 
     by_id = {product.get("id"): product for product in products}
+    tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8"))
+    if (
+        tombstone_doc.get("sourceCommit") != TOMBSTONE_SOURCE_COMMIT
+        or tombstone_doc.get("sourceCanonicalSha256") != TOMBSTONE_SOURCE_CANONICAL_SHA
+        or tombstone_doc.get("sourceSheetOrderSha256") != TOMBSTONE_SOURCE_ORDER_SHA
+    ):
+        errors.append("duplicate tombstone source snapshot metadata mismatch")
+    tombstone_records = {
+        item.get("deletedId"): item for item in tombstone_doc.get("records", [])
+    }
+    tombstone_map = {
+        item.get("deletedId"): item.get("retainedId")
+        for item in tombstone_doc.get("records", [])
+    }
+    if tombstone_map != REMOVED_DUPLICATES:
+        errors.append("duplicate tombstone map mismatch")
+    for deleted_id, (sheet_row, brand, brand_aliases) in EXPECTED_TOMBSTONE_IDENTITY.items():
+        record = tombstone_records.get(deleted_id, {})
+        if (
+            record.get("formerSheetRow") != sheet_row
+            or record.get("brand") != brand
+            or tuple(record.get("brandAliases", [])) != brand_aliases
+        ):
+            errors.append(f"{deleted_id}: tombstone source identity mismatch")
+    order_doc = json.loads(ORDER.read_text(encoding="utf-8"))
+    order_ids = list(order_doc.get("ids", []))
+    if (
+        order_doc.get("totalRows") != EXPECTED_ACTIVE_RECORDS
+        or len(order_ids) != EXPECTED_ACTIVE_RECORDS
+        or len(set(order_ids)) != EXPECTED_ACTIVE_RECORDS
+        or set(order_ids) != set(ids)
+    ):
+        errors.append("Sheet sync order does not match active canonical IDs")
     duplicate_map = {product["id"]: product.get("duplicateOf") for product in products if product.get("duplicateOf")}
-    for product_id, canonical_id in EXPECTED_DUPLICATES.items():
-        if duplicate_map.get(product_id) != canonical_id:
-            errors.append(
-                f"known duplicate mapping mismatch: {product_id} -> "
-                f"{duplicate_map.get(product_id)!r}, expected {canonical_id!r}"
-            )
+    if duplicate_map:
+        errors.append(f"active duplicate links remain: {duplicate_map}")
+    for product_id, canonical_id in REMOVED_DUPLICATES.items():
+        if product_id in by_id:
+            errors.append(f"deleted duplicate remains active: {product_id}")
+        if canonical_id not in by_id:
+            errors.append(f"retained canonical missing: {canonical_id}")
     for product in products:
         expected_canonical = product.get("duplicateOf") or product.get("id")
         if product.get("canonicalProductId") != expected_canonical:
@@ -148,6 +216,11 @@ def main() -> None:
                 errors.append(f"{product.get('id')}: {failure}")
         if product.get("status") == "제외" and not str(product.get("reason", "")).strip():
             errors.append(f"{product.get('id')}: excluded reason is absent")
+        if product.get("status") == "제외" and (
+            product.get("statusDisplay") != "기준 제외"
+            or product.get("strict419Status") != "기준 제외"
+        ):
+            errors.append(f"{product.get('id')}: excluded display still mentions duplicate")
         if declared_non_kc(product):
             if str(product.get("kcNumber", "")).strip() or product.get("certifications"):
                 errors.append(f"{product.get('id')}: non-KC product retains certification data")
@@ -158,17 +231,43 @@ def main() -> None:
             if product.get("certificationEvidenceLevel") != "not-applicable":
                 errors.append(f"{product.get('id')}: non-KC evidence level mismatch")
 
+    nested_text = lambda value: json.dumps(value, ensure_ascii=False)
+    if "뽀득뽀득 싱크대" in nested_text(by_id.get("TOY-20260729-123", {})):
+        errors.append("TOY-20260729-123: unrelated certification model remains")
+    toy_154 = by_id.get("TOY-20260729-154", {})
+    if any(
+        str(cert.get("manufacturer", "")).strip() == "확인중"
+        for cert in toy_154.get("certifications", []) if isinstance(cert, dict)
+    ) or any(
+        str(evidence.get("fields", {}).get("manufacturer", "")).strip() == "확인중"
+        for evidence in toy_154.get("ocrEvidence", []) if isinstance(evidence, dict)
+    ):
+        errors.append("TOY-20260729-154: placeholder manufacturer evidence remains")
+    master_195 = by_id.get("MASTER-0195", {})
+    master_195_text = nested_text(master_195)
+    if any(value in master_195_text for value in (
+        "낮은가격", "사용후기", "live.ecomm-data.com/report/labang/ff175af2a4554c5c01755fb2c9037237",
+    )):
+        errors.append("MASTER-0195: unrelated merged evidence remains")
+    if "manufacturerOrImporter" not in master_195.get("revalidationMissingFields", []):
+        errors.append("MASTER-0195: manufacturer/importer blocker is not structured")
+
     unique_products = [product for product in products if not product.get("duplicateOf")]
     duplicate_count = len(products) - len(unique_products)
     unique_status = Counter(product.get("status") for product in unique_products)
     raw_status = Counter(product.get("status") for product in products)
+    if {key: unique_status[key] for key in EXPECTED_STATUS} != EXPECTED_STATUS:
+        errors.append(f"migration status counts mismatch: {dict(unique_status)}")
+    category_counts = Counter(product.get("category") for product in unique_products)
+    if {key: category_counts[key] for key in EXPECTED_CATEGORIES} != EXPECTED_CATEGORIES:
+        errors.append(f"migration category counts mismatch: {dict(category_counts)}")
     if len(products) != len(unique_products) + duplicate_count:
         errors.append(
             f"raw/unique/duplicate invariant failed: "
             f"{len(products)}/{len(unique_products)}/{duplicate_count}"
         )
-    if duplicate_count < len(EXPECTED_DUPLICATES):
-        errors.append(f"duplicate count {duplicate_count} is below known floor 4")
+    if duplicate_count != 0:
+        errors.append(f"active duplicate count must be zero, got {duplicate_count}")
     if sum(unique_status.values()) != len(unique_products) or sum(raw_status.values()) != len(products):
         errors.append("status totals do not reconcile")
 
@@ -232,6 +331,12 @@ def main() -> None:
     for key, value in expected_counts.items():
         if meta.get(key) != value:
             errors.append(f"meta {key} {meta.get(key)} != {value}")
+    if meta.get("currentSale") != 210:
+        errors.append(f"meta currentSale {meta.get('currentSale')} != 210")
+    if meta.get("fullRevalidationTargetRows") != 403:
+        errors.append("meta full revalidation target must remain 403")
+    if meta.get("categories") != EXPECTED_CATEGORIES:
+        errors.append("meta category counts mismatch")
     if meta.get("build") != EXPECTED_BUILD:
         errors.append("meta build mismatch")
 
@@ -247,6 +352,8 @@ def main() -> None:
         errors.append("missingFields report pending count mismatch")
     if missing_report.get("pendingWithStructuredMissingFields") != unique_status["보류"]:
         errors.append("not every pending product has structured missingFields")
+    if len(missing_report.get("queue", [])) != 382:
+        errors.append("revalidation queue must contain 382 pending products")
 
     proof = json.loads((DATA / "strict-419-production-final-proof.json").read_text(encoding="utf-8"))
     if any(proof.get(key) != value for key, value in {
@@ -259,6 +366,56 @@ def main() -> None:
     }.items()):
         errors.append("production proof counts mismatch")
 
+    if args.require_external_proof:
+        sheet_proof = json.loads((DATA / "google-sheet-sync-proof.json").read_text(encoding="utf-8"))
+        if (
+            sheet_proof.get("status") != "passed"
+            or sheet_proof.get("duplicateMap") != {}
+            or sheet_proof.get("deletedDuplicateMap") != REMOVED_DUPLICATES
+            or sheet_proof.get("after", {}).get("rawRecords") != EXPECTED_ACTIVE_RECORDS
+            or sheet_proof.get("readback", {}).get("masterDb", {}).get("cellDiffs") != 0
+            or sheet_proof.get("readback", {}).get("strictSync", {}).get("cellDiffs") != 0
+            or sheet_proof.get("readback", {}).get("revalidationQueue", {}).get("cellDiffs") != 0
+            or sheet_proof.get("dataSha256") != meta.get("dataSha256")
+            or sheet_proof.get("canonicalSha256") != sha(SOURCE)
+            or sheet_proof.get("csvSha256") != meta.get("csvSha256")
+        ):
+            errors.append("Google Sheet deletion/sync proof mismatch")
+
+    deletion_proof = json.loads((DATA / "duplicate-deletion-proof.json").read_text(encoding="utf-8"))
+    if (
+        deletion_proof.get("deletedRecords") != len(REMOVED_DUPLICATES)
+        or deletion_proof.get("activeDuplicateRecords") != 0
+        or deletion_proof.get("after", {}).get("rawRecords") != EXPECTED_ACTIVE_RECORDS
+        or deletion_proof.get("sheetReadback", {}).get("deletedIdsFound") != 0
+    ):
+        errors.append("duplicate deletion proof mismatch")
+    if args.require_external_proof and (
+        deletion_proof.get("deploymentVerification") != "passed"
+        or deletion_proof.get("sheetReadback", {}).get("masterCellDiffs") != 0
+        or deletion_proof.get("sheetReadback", {}).get("strictSyncCellDiffs") != 0
+        or deletion_proof.get("sheetReadback", {}).get("queueCellDiffs") != 0
+        or deletion_proof.get("production", {}).get("liveRows") != EXPECTED_ACTIVE_RECORDS
+        or deletion_proof.get("production", {}).get("liveDuplicateRows") != 0
+        or deletion_proof.get("production", {}).get("liveDeletedIdsFound") != 0
+    ):
+        errors.append("external duplicate deletion proof mismatch")
+
+    if args.require_external_proof:
+        production_proof = json.loads(
+            (DATA / "codex-production-verification.json").read_text(encoding="utf-8")
+        )
+        if (
+            production_proof.get("status") != "passed"
+            or production_proof.get("deploymentVerification") != "passed"
+            or production_proof.get("liveConnected") is not True
+            or production_proof.get("build") != EXPECTED_BUILD
+            or production_proof.get("dataSha256") != meta.get("dataSha256")
+            or production_proof.get("csvSha256") != meta.get("csvSha256")
+            or production_proof.get("verifiedDeployment", {}).get("artifactMatchesCurrentBuild") is not True
+        ):
+            errors.append("production deployment proof mismatch")
+
     report = {
         "status": "failed" if errors else "passed",
         "build": EXPECTED_BUILD,
@@ -267,6 +424,7 @@ def main() -> None:
         "duplicateRecords": duplicate_count,
         "uniqueStatusCounts": {key: unique_status[key] for key in ("포함", "보류", "제외")},
         "rawStatusCounts": {key: raw_status[key] for key in ("포함", "보류", "제외")},
+        "externalProofRequired": args.require_external_proof,
         "violations": errors,
     }
     (DATA / "strict-validation-report.json").write_text(

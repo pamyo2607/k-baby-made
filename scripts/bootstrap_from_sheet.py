@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Reconcile the cumulative database with the public K-Baby Made Google Sheet.
 
-The sheet is a recovery source only. Existing reviewed values remain authoritative.
-New sheet rows are appended as pending or excluded and blank fields in existing
-rows are backfilled. Included decisions are never promoted from the sheet unless
-they match the locally reviewed verified seed.
+The sheet is a recovery source only. Existing reviewed rows remain byte-for-byte
+authoritative; the Sheet may contribute only previously unseen IDs. Included
+decisions are never promoted from the Sheet.
 """
 from __future__ import annotations
 
@@ -19,6 +18,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/master-products.json"
 REPORT = ROOT / "data/bootstrap-report.json"
+TOMBSTONES = ROOT / "data/deleted-duplicate-tombstones.json"
 SHEET_ID = "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I"
 MASTER_GID = "344727200"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={MASTER_GID}"
@@ -152,33 +152,8 @@ def recovered_product(row: dict[str, str], index: int) -> dict:
 
 
 def merge_backfill(existing: dict, recovered: dict) -> dict:
-    """Preserve reviewed data and fill only blanks from the sheet."""
-    merged = dict(existing)
-    intentionally_empty = {
-        "aliases", "duplicateOf", "revalidationMissingFields", "officialModel",
-        "manufacturer", "importer", "kcNumber", "certifications",
-    }
-    for key, value in recovered.items():
-        if key in {"officialUrls", "saleUrls"}:
-            current = [str(item) for item in merged.get(key, []) if str(item).strip()]
-            incoming = [
-                str(item) for item in value
-                if str(item).strip() and "/certificationsearch" not in str(item)
-            ]
-            # A nonblank reviewed local URL set is authoritative. Sheet URLs
-            # only recover a genuinely empty list; they never expand it with
-            # generic searches or older evidence.
-            if not current and incoming:
-                merged[key] = list(dict.fromkeys(incoming))
-            continue
-        if key in intentionally_empty and key in merged:
-            continue
-        if value in (None, "", [], {}):
-            continue
-        current = merged.get(key)
-        if current in (None, "", [], {}):
-            merged[key] = value
-    return merged
+    """Existing canonical rows are authoritative; Sheet may only add new IDs."""
+    return dict(existing)
 
 
 def main() -> None:
@@ -201,6 +176,24 @@ def main() -> None:
         raise SystemExit(f"recovery source unexpectedly small: {len(rows)} rows")
 
     recovered_rows = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
+    tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8")) if TOMBSTONES.exists() else {}
+    tombstone_records = tombstone_doc.get("records", [])
+    deleted_ids = {
+        str(item.get("deletedId", "")).strip()
+        for item in tombstone_records
+        if str(item.get("deletedId", "")).strip()
+    }
+    retained_ids = {
+        str(item.get("retainedId", "")).strip()
+        for item in tombstone_records
+        if str(item.get("retainedId", "")).strip()
+    }
+    tombstone_keys = {
+        product_key({"brand": brand, "name": item.get("name", "")})
+        for item in tombstone_records
+        for brand in [item.get("brand", ""), *item.get("brandAliases", [])]
+        if brand and item.get("name")
+    }
     products = [dict(item) for item in existing]
     index_by_id = {
         str(item.get("id")): index
@@ -216,12 +209,18 @@ def main() -> None:
     added = 0
     merged_count = 0
     duplicate_source_rows = 0
+    tombstoned_source_rows = 0
     seen_source_ids: set[str] = set()
     seen_source_keys: set[tuple[str, str]] = set()
 
     for recovered in recovered_rows:
         pid = str(recovered.get("id", "")).strip()
         key = product_key(recovered)
+        if pid in deleted_ids or (
+            pid not in retained_ids and all(key) and key in tombstone_keys
+        ):
+            tombstoned_source_rows += 1
+            continue
         if (pid and pid in seen_source_ids) or (
             not pid and all(key) and key in seen_source_keys
         ):
@@ -257,6 +256,7 @@ def main() -> None:
         "sourceRows": len(rows),
         "sourceUniqueRows": len(rows) - duplicate_source_rows,
         "duplicateSourceRows": duplicate_source_rows,
+        "tombstonedSourceRows": tombstoned_source_rows,
         "existingBefore": len(existing),
         "matchedAndBackfilled": merged_count,
         "addedFromSheet": added,

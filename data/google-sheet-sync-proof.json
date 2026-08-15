@@ -1,72 +1,54 @@
 {
   "status": "passed",
-  "verifiedAt": "2026-08-15T19:20:30+09:00",
+  "verifiedAt": "2026-08-15T20:11:00+09:00",
   "spreadsheetId": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
   "spreadsheetTitle": "K-Baby Made Live DB",
   "backup": {
-    "status": "created-before-write",
-    "fileId": "1JlhWaOBq2VzF-kK959E0KAH671ALRssQ-dC_GyFIVuY",
-    "url": "https://docs.google.com/spreadsheets/d/1JlhWaOBq2VzF-kK959E0KAH671ALRssQ-dC_GyFIVuY/edit?usp=drivesdk"
+    "status": "created-before-duplicate-deletion",
+    "fileId": "1rzRmdvMM9ILRkxYGu7PSt3-rmAubnlBA5eigbxFsJCc",
+    "url": "https://docs.google.com/spreadsheets/d/1rzRmdvMM9ILRkxYGu7PSt3-rmAubnlBA5eigbxFsJCc/edit?usp=drivesdk",
+    "sourceRows": 459
   },
-  "previousRecoveryBackup": {
-    "fileId": "1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4",
-    "url": "https://docs.google.com/spreadsheets/d/1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4/edit?usp=drivesdk"
-  },
-  "before": {
-    "masterRawRecords": 230,
-    "masterUniqueProductsAfterKnownDuplicateMapping": 226,
-    "included": 15,
-    "pending": 204,
-    "uniqueExcluded": 7,
-    "duplicateRecords": 4,
-    "strictSyncError": "#REF!",
-    "queueRows": 219
-  },
-  "strategy": "기존 230개 ID의 물리 행 위치와 누적 이력을 보존하고, 누락 229개 ID만 추가한 뒤 검증된 canonical 값을 ID 기준으로 동기화",
+  "before": {"rawRecords": 459, "uniqueProducts": 449, "duplicateRecords": 10, "included": 21, "pending": 382, "excluded": 46},
+  "strategy": "실시간 ID 위치를 재조회하고 확정 중복 10행만 양쪽 탭에서 내림차순 삭제한 뒤, 남은 ID 순서를 보존해 canonical 값과 queue를 전체 재동기화",
   "after": {
-    "masterRange": "A1:AL460",
+    "masterRange": "A1:AL450",
+    "strictSyncRange": "A1:AL450",
     "masterColumns": 38,
-    "rawRecords": 459,
-    "distinctIds": 459,
+    "rawRecords": 449,
+    "distinctIds": 449,
     "uniqueProducts": 449,
     "included": 21,
     "pending": 382,
-    "uniqueExcluded": 46,
-    "duplicateRecords": 10,
-    "excludedAndDuplicate": 56,
+    "excluded": 46,
+    "duplicateRecords": 0,
+    "excludedAndDuplicate": 46,
     "fullRevalidationTargetRows": 403,
     "revalidationQueueRows": 382,
     "revalidationQueueDistinctIds": 382,
-    "strictSync": "459-row verified snapshot; no external IMPORTDATA authorization dependency",
-    "dashboardFormulaCounts": {
-      "rawRecords": 459,
-      "uniqueProducts": 449,
-      "included": 21,
-      "pending": 382,
-      "uniqueExcluded": 46,
-      "duplicateRecords": 10,
-      "excludedAndDuplicate": 56,
-      "fullRevalidationTargetRows": 403
-    }
+    "dashboardFormulaCounts": {"rawRecords": 449, "uniqueProducts": 449, "included": 21, "pending": 382, "excluded": 46, "duplicateRecords": 0, "excludedAndDuplicate": 46, "fullRevalidationTargetRows": 403}
   },
-  "duplicateMap": {
+  "duplicateMap": {},
+  "deletedDuplicateMap": {
     "TOY-20260729-115": "TOY-20260729-024",
     "TOY-20260729-124": "TOY-20260729-123",
     "TOY-20260729-125": "TOY-20260729-053",
     "TOY-20260729-155": "TOY-20260729-154",
-    "TEETHER-20260801-015": "RUN18-008",
     "RUN18-011": "MASTER-0195",
-    "TEETHER-20260801-005": "MASTER-0195",
-    "RUN18-013": "MASTER-0196",
     "RUN18-012": "MASTER-0197",
+    "RUN18-013": "MASTER-0196",
+    "TEETHER-20260801-005": "MASTER-0195",
+    "TEETHER-20260801-015": "RUN18-008",
     "TEETHER-20260801-026": "MASTER-0135"
   },
-  "dataSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
-  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d",
+  "dataSha256": "1fe816db20b85846ccc4449a5281728b0cb11718ad29632a008e3a0831c8edde",
+  "canonicalSha256": "969644332c25fb2adac1b0163dbf478d6335441f11cc07ed6b1473cc1df2c56d",
+  "csvSha256": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e",
   "readback": {
-    "masterDb": {"range": "A1:AL460", "rows": 460, "columns": 38, "cellDiffs": 0},
-    "strictSync": {"range": "A1:AL460", "rows": 460, "columns": 38, "cellDiffs": 0},
-    "revalidationQueue": {"range": "A1:X383", "rows": 383, "columns": 24, "cellDiffs": 0}
+    "masterDb": {"range": "A1:AL450", "rows": 450, "columns": 38, "cellDiffs": 0, "deletedIdsFound": 0, "retainedIdsFound": 9},
+    "strictSync": {"range": "A1:AL450", "rows": 450, "columns": 38, "cellDiffs": 0, "deletedIdsFound": 0, "retainedIdsFound": 9},
+    "revalidationQueue": {"range": "A1:X383", "rows": 383, "columns": 24, "cellDiffs": 0},
+    "clearedTails": ["Master DB!A451:AL460", "__strict_sync!A451:AL460", "재검증 대기열!A384:X400"]
   },
   "remainingBlockers": []
 }
