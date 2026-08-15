@@ -1,34 +1,11 @@
 {
-  "passed": true,
-  "scopeExecuted": true,
-  "effectiveRevalidations": 50,
-  "rawCandidatesFound": 0,
-  "validCandidates": 120,
-  "validCandidatesByCategory": {
-    "완구": 20,
-    "구강치발기": 20,
-    "턱받이": 20,
-    "수유용품": 20,
-    "이유식용품": 20,
-    "위생용품": 20
-  },
-  "candidateTargetPerCategory": 20,
-  "candidateTargetMet": true,
-  "candidateShortfallByCategory": {
-    "완구": 0,
-    "구강치발기": 0,
-    "턱받이": 0,
-    "수유용품": 0,
-    "이유식용품": 0,
-    "위생용품": 0
-  },
+  "status": "awaiting-first-metrics-v2-hourly-run",
+  "metricsVersion": 2,
+  "passed": null,
+  "scopeExecuted": false,
+  "pendingLimit": 50,
+  "newCandidateLimit": 30,
+  "newCandidateLimitPerCategory": 5,
   "errors": [],
-  "cumulativeValidCandidatesByCategory": {
-    "완구": 20,
-    "구강치발기": 20,
-    "턱받이": 20,
-    "수유용품": 20,
-    "이유식용품": 20,
-    "위생용품": 20
-  }
+  "note": "복구 이후 자동 조사 실행 전 상태다. 다음 실행은 누적 총계가 아닌 해당 실행의 실제 성공·오류·전환·정제 전후 후보 수만 검증한다."
 }

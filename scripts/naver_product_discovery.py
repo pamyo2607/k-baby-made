@@ -29,7 +29,7 @@ CATEGORY_QUERIES = {
         "아기 촉감 장난감", "아기 원목 장난감", "아기 목욕 장난감",
         "아기 에듀볼", "영아 완구", "신생아 장난감",
     ],
-    "구강치발기": [
+    "구강·치발기": [
         "아기 치발기", "손목 치발기", "실리콘 치발기", "과즙망 치발기",
         "신생아 치발기", "아기 티더", "잇몸 마사지 치발기",
         "아기 구강발달 완구", "아기 과일 치발기", "아기 치발기 세트",
@@ -44,12 +44,12 @@ CATEGORY_QUERIES = {
         "젖병 건조대", "모유 저장팩", "수유패드", "젖병 손잡이",
         "아기 물병", "신생아 수유용품",
     ],
-    "이유식용품": [
+    "이유식·식기": [
         "아기 흡착식판", "이유식 스푼", "이유식 용기", "이유식 큐브",
         "아기 식기", "유아 식판", "이유식 도마", "이유식 조리도구",
         "아기 빨대컵", "이유식 보관용기",
     ],
-    "위생용품": [
+    "위생·기저귀": [
         "아기 물티슈", "아기 기저귀", "아기 면봉", "아기 목욕타월",
         "아기 손수건", "아기 욕조", "아기 세정제", "아기 샴푸캡",
         "아기 목욕장갑", "아기 위생용품",
@@ -57,11 +57,11 @@ CATEGORY_QUERIES = {
 }
 CATEGORY_TERMS = {
     "완구": ("완구", "장난감", "딸랑이", "모빌", "인형", "볼풀", "에듀볼", "촉감", "원목", "놀이"),
-    "구강치발기": ("치발기", "티더", "teether", "잇몸", "구강발달", "과즙망"),
+    "구강·치발기": ("치발기", "티더", "teether", "잇몸", "구강발달", "과즙망"),
     "턱받이": ("턱받이", "빕", "bib"),
     "수유용품": ("젖병", "빨대컵", "수유", "분유", "유축", "모유", "수유패드"),
-    "이유식용품": ("이유식", "식판", "스푼", "숟가락", "아기식기", "유아식기", "큐브", "보관용기"),
-    "위생용품": ("물티슈", "기저귀", "면봉", "목욕", "타월", "손수건", "욕조", "세정", "샴푸캡", "위생"),
+    "이유식·식기": ("이유식", "식판", "스푼", "숟가락", "아기식기", "유아식기", "큐브", "보관용기"),
+    "위생·기저귀": ("물티슈", "기저귀", "면봉", "목욕", "타월", "손수건", "욕조", "세정", "샴푸캡", "위생"),
 }
 SEARCH_SUFFIXES = (
     "국내생산 KC 구매",
@@ -229,7 +229,7 @@ def discover(category: str, existing: list[dict], limit: int = 20) -> list[dict]
     existing_urls = {
         canonicalize(str(url))
         for item in existing
-        for url in item.get("evidenceUrls", [])
+        for url in list(item.get("officialUrls", [])) + list(item.get("evidenceUrls", []))
         if str(url).startswith(("http://", "https://"))
     }
     existing_keys = {
@@ -268,37 +268,49 @@ def discover(category: str, existing: list[dict], limit: int = 20) -> list[dict]
         ):
             continue
         digest = hashlib.sha1(f"{category}|{final_url}".encode()).hexdigest()[:12].upper()
+        product_id = f"DISC-{digest}"
         added.append({
-            "id": f"DISC-{digest}",
+            "id": product_id,
             "category": category,
             "subtype": "",
             "brand": brand,
             "name": title,
             "status": "보류",
-            "origin": "확인 중",
+            "countryOfManufacture": "확인 중",
             "saleStatus": "네이버 검색에서 국내 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
-            "age": "확인 중",
-            "ageBasis": "",
+            "ageRange": "확인 중",
+            "ageEvidence": "",
+            "kcApplicable": "제품별 법령 확인 필요",
             "kcNumber": "",
-            "kcStatus": "",
-            "kcDate": "",
             "kcType": "",
-            "kcAuthority": "",
-            "kcItem": "",
-            "kcModel": "",
+            "certStatusSummary": "",
+            "certDateSummary": "",
+            "certTypeSummary": "",
+            "certAuthoritySummary": "",
+            "certifications": [],
+            "officialModel": "",
             "manufacturer": "",
-            "safetyKoreaUrl": "",
+            "importer": "",
+            "safetyKoreaSearchUrl": "",
             "checkedAt": date.today().isoformat(),
             "reason": (
                 f"네이버 검색어 '{query}'에서 카테고리가 일치하는 실제 상품 상세 URL을 확인했다. "
                 "국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 "
                 "Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다."
             ),
-            "evidenceUrls": [final_url],
+            "officialUrls": [final_url],
+            "saleUrls": [final_url],
             "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
-            "history": f"{date.today().isoformat()} 네이버 상품 상세 후보 조사",
-            "researchStatus": "최극상 전면 재검증 대기",
-            "group": category,
+            "historySummary": f"{date.today().isoformat()} 네이버 상품 상세 후보 조사",
+            "revalidationState": "최극상 전면 재검증 대기",
+            "revalidationResolved": False,
+            "revalidationMissingFields": [
+                "currentSale", "officialAge", "countryOfManufacture",
+                "manufacturerOrImporter", "regulatoryRegime", "officialEvidence",
+            ],
+            "dashboardGroup": category,
+            "canonicalProductId": product_id,
+            "duplicateOf": "",
             "discoveryProvider": "Naver",
         })
         seen_urls.add(final_url)

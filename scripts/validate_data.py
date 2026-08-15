@@ -1,103 +1,258 @@
 #!/usr/bin/env python3
-"""Fail closed when a public included product lacks exact official evidence."""
+"""Fail closed on canonical, generated-asset, and evidence invariants."""
 from __future__ import annotations
+
+import base64
+import csv
+import gzip
+import hashlib
 import json
 import re
+from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data/master-products.json"
-BANNED_UI_TERMS = [
-    "공식 SKU","제품 ID","세부 유형","추정 판매 순위","추정 판매 순위 미공개",
-    "모델 정보","KC 비대상","인증 대상 아님"
-]
-GENERIC_REASONS = [
-    "원본 Master DB에서 기준 충족 판정을 완료한 제품으로 기존 판정과 근거 URL을 보존해 복원함",
-    "원본 압축 DB 복원 · 포함 판정 유지",
-    "기존 조사 결과 유지",
-    "공식 근거 확인 완료",
-    "KC 인증 확인",
-]
+DATA = ROOT / "data"
+PUBLIC = ROOT / "public"
+SOURCE = DATA / "master-products.json"
+EXPECTED_BUILD = "20260815-live459-recovery1"
+MINIMUM_RECOVERED_RECORDS = 459
+CANONICAL_CATEGORIES = {
+    "완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀",
+}
+EXPECTED_DUPLICATES = {
+    "TOY-20260729-115": "TOY-20260729-024",
+    "TOY-20260729-124": "TOY-20260729-123",
+    "TOY-20260729-125": "TOY-20260729-053",
+    "TOY-20260729-155": "TOY-20260729-154",
+}
 KC_PATTERN = re.compile(r"^[A-Z]{1,3}\d[A-Z0-9-]*[A-Z0-9]$", re.I)
+PLACEHOLDER = re.compile(r"미확인|확인\s*중|확인\s*필요|후보|부족|^-$")
+STOP_PATHS = ("/search", "/category", "/categories", "/certificationsearch", "/itemsearch")
 
-def is_direct_product_url(url: str) -> bool:
-    if not url.startswith(("http://","https://")):
+
+def sha(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def real(value: object) -> bool:
+    text = str(value or "").strip()
+    return bool(text) and not PLACEHOLDER.search(text)
+
+
+def direct_url(value: object) -> bool:
+    url = str(value or "")
+    if not url.startswith(("https://", "http://")):
         return False
     parsed = urlparse(url)
-    path = parsed.path.lower()
-    blocked = ["/search", "/category", "/categories", "/itemsearch", "/certificationsearch"]
-    return not any(part in path for part in blocked)
+    return bool(parsed.netloc) and not any(part in parsed.path.lower() for part in STOP_PATHS)
+
+
+def kc_applies(product: dict) -> bool:
+    text = " ".join(str(product.get(key, "")) for key in ("kcApplicable", "regulatoryRegime", "kcType"))
+    if re.search(r"비대상|해당\s*없음", text):
+        return False
+    return bool(re.search(r"어린이제품|완구|안전확인|안전인증|공급자적합|전기용품", text))
+
+
+def included_errors(product: dict) -> list[str]:
+    failures: list[str] = []
+    origin = str(product.get("countryOfManufacture", ""))
+    age = str(product.get("ageRange", ""))
+    people = [product.get("manufacturer"), product.get("importer")]
+    for certification in product.get("certifications", []):
+        if isinstance(certification, dict):
+            people.extend([certification.get("manufacturer"), certification.get("importer")])
+    if "대한민국" not in origin and "한국" not in origin:
+        failures.append("finished product is not confirmed Korean manufacture")
+    if not re.search(r"\d+\s*개월|3\s*세\s*미만|신생아|출생", age) or re.search(r"36\s*개월\s*이상|3\s*세\s*이상", age):
+        failures.append("official 0-35 month age is absent")
+    if not any(real(value) for value in people):
+        failures.append("manufacturer/importer is absent")
+    if not real(product.get("regulatoryRegime")):
+        failures.append("regulatory regime is absent")
+    sale_urls = [
+        url for url in product.get("officialUrls", [])
+        if "safetykorea.kr" not in str(url) and direct_url(url)
+    ]
+    if not sale_urls or re.search(r"종료|단종|직구|품절|구매\s*불가", str(product.get("saleStatus", ""))):
+        failures.append("current Korean sale evidence is absent")
+    if not str(product.get("reason", "")).strip():
+        failures.append("decision reason is absent")
+    if product.get("revalidationMissingFields"):
+        failures.append("included product still has missingFields")
+    if kc_applies(product):
+        number = str(product.get("kcNumber", "")).strip()
+        if not KC_PATTERN.fullmatch(number):
+            failures.append("exact KC number is absent")
+        active = [
+            cert for cert in product.get("certifications", [])
+            if isinstance(cert, dict) and cert.get("found") and cert.get("status") == "적합"
+            and "/release/certDetail" in str(cert.get("url", ""))
+        ]
+        if not active:
+            failures.append("active Safety Korea same-model detail is absent")
+    return failures
+
 
 def main() -> None:
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     errors: list[str] = []
-    ids: set[str] = set()
-    unique_keys: set[tuple[str,str,str]] = set()
-
-    for product in products:
-        pid = str(product.get("id","")).strip()
-        if not pid:
-            errors.append("missing internal id")
-        elif pid in ids:
-            errors.append(f"duplicate id: {pid}")
-        ids.add(pid)
-        key = (
-            re.sub(r"\s+","",str(product.get("category","")).lower()),
-            re.sub(r"\s+","",str(product.get("brand","")).lower()),
-            re.sub(r"\s+","",str(product.get("name","")).lower()),
+    ids = [str(product.get("id", "")) for product in products]
+    if not all(ids):
+        errors.append("blank canonical ID")
+    if len(ids) != len(set(ids)):
+        errors.append("exact canonical ID duplicate")
+    if len(products) < MINIMUM_RECOVERED_RECORDS:
+        errors.append(
+            f"raw count {len(products)} is below recovered floor {MINIMUM_RECOVERED_RECORDS}"
         )
-        if key in unique_keys:
-            errors.append(f"duplicate product key: {key}")
-        unique_keys.add(key)
 
-        if product.get("status") != "포함":
-            continue
-        checks = {
-            "made in Korea": "대한민국" in str(product.get("origin","")),
-            "exact KC": bool(KC_PATTERN.fullmatch(str(product.get("kcNumber","")).strip())),
-            "fit status": product.get("kcStatus") == "적합",
-            "certification date": bool(product.get("kcDate")),
-            "certification type": bool(product.get("kcType")),
-            "authority": bool(product.get("kcAuthority")),
-            "manufacturer": bool(product.get("manufacturer")),
-            "Safety Korea detail": "/release/certDetail" in str(product.get("safetyKoreaUrl","")),
-            "number in reason": str(product.get("kcNumber","")) in str(product.get("reason","")),
-            "specific reason": not any(generic == str(product.get("reason","")).strip() for generic in GENERIC_REASONS),
-            "age": bool(re.search(r"\d+\s*개월|0~35", str(product.get("age","")))),
-            "current sale evidence": any(is_direct_product_url(url) for url in product.get("evidenceUrls",[]) if "safetykorea" not in url),
-        }
-        failed = [name for name, ok in checks.items() if not ok]
-        if failed:
-            errors.append(f"{pid}: {', '.join(failed)}")
+    by_id = {product.get("id"): product for product in products}
+    duplicate_map = {product["id"]: product.get("duplicateOf") for product in products if product.get("duplicateOf")}
+    for product_id, canonical_id in EXPECTED_DUPLICATES.items():
+        if duplicate_map.get(product_id) != canonical_id:
+            errors.append(
+                f"known duplicate mapping mismatch: {product_id} -> "
+                f"{duplicate_map.get(product_id)!r}, expected {canonical_id!r}"
+            )
+    for product in products:
+        expected_canonical = product.get("duplicateOf") or product.get("id")
+        if product.get("canonicalProductId") != expected_canonical:
+            errors.append(f"{product.get('id')}: canonicalProductId mismatch")
+        if product.get("duplicateOf") and product.get("duplicateOf") not in by_id:
+            errors.append(f"{product.get('id')}: missing duplicate target")
+        if product.get("status") not in {"포함", "보류", "제외"}:
+            errors.append(f"{product.get('id')}: invalid status")
+        if product.get("category") not in CANONICAL_CATEGORIES:
+            errors.append(f"{product.get('id')}: noncanonical category {product.get('category')!r}")
+        if product.get("status") == "보류" and not product.get("revalidationMissingFields"):
+            errors.append(f"{product.get('id')}: pending product has no structured missingFields")
+        if product.get("status") == "포함":
+            for failure in included_errors(product):
+                errors.append(f"{product.get('id')}: {failure}")
+        if product.get("status") == "제외" and not str(product.get("reason", "")).strip():
+            errors.append(f"{product.get('id')}: excluded reason is absent")
 
-    for relative in ["public/index.html","public/app.js"]:
-        text = (ROOT / relative).read_text(encoding="utf-8")
-        for term in BANNED_UI_TERMS:
-            if term in text:
-                errors.append(f"{relative}: banned UI term {term}")
+    unique_products = [product for product in products if not product.get("duplicateOf")]
+    duplicate_count = len(products) - len(unique_products)
+    unique_status = Counter(product.get("status") for product in unique_products)
+    raw_status = Counter(product.get("status") for product in products)
+    if len(products) != len(unique_products) + duplicate_count:
+        errors.append(
+            f"raw/unique/duplicate invariant failed: "
+            f"{len(products)}/{len(unique_products)}/{duplicate_count}"
+        )
+    if duplicate_count < len(EXPECTED_DUPLICATES):
+        errors.append(f"duplicate count {duplicate_count} is below known floor 4")
+    if sum(unique_status.values()) != len(unique_products) or sum(raw_status.values()) != len(products):
+        errors.append("status totals do not reconcile")
 
-    public_data = json.loads((ROOT/"public/data/fallback-products.json").read_text(encoding="utf-8"))
-    if len(public_data) != len(products):
-        errors.append("public data count does not match canonical data")
-    if not products:
-        errors.append("empty database")
+    fallback_paths = [
+        DATA / "fallback-products.json",
+        ROOT / "fallback-products.json",
+        PUBLIC / "fallback-products.json",
+        PUBLIC / "data/fallback-products.json",
+    ]
+    fallback_hashes = {sha(path) for path in fallback_paths}
+    if len(fallback_hashes) != 1:
+        errors.append("fallback JSON copies differ")
+    for path in fallback_paths:
+        if json.loads(path.read_text(encoding="utf-8")) != products:
+            errors.append(f"{path.relative_to(ROOT)} does not equal canonical products")
+
+    script_paths = [ROOT / "kbaby-data.js", PUBLIC / "kbaby-data.js"]
+    if sha(script_paths[0]) != sha(script_paths[1]):
+        errors.append("kbaby-data.js copies differ")
+    script = script_paths[0].read_text(encoding="utf-8")
+    prefix = "window.KBABY_DATA="
+    if not script.startswith(prefix) or ";\nwindow.KBABY_DATA_READY" not in script:
+        errors.append("embedded data wrapper is invalid")
+        embedded = {}
+    else:
+        embedded = json.loads(script[len(prefix):].split(";\nwindow.KBABY_DATA_READY", 1)[0])
+        decoded = gzip.decompress(base64.b64decode(embedded["fallback"]["data"]))
+        if json.loads(decoded) != products:
+            errors.append("embedded fallback does not equal canonical products")
+        if hashlib.sha256(decoded).hexdigest() != embedded["validation"].get("sha256"):
+            errors.append("embedded data SHA mismatch")
+        if embedded.get("build") != EXPECTED_BUILD:
+            errors.append("embedded build mismatch")
+
+    csv_paths = [DATA / "master-db-419-final.csv", PUBLIC / "data/master-db-419-final.csv", PUBLIC / "master-db-sync.csv"]
+    if len({sha(path) for path in csv_paths}) != 1:
+        errors.append("CSV copies differ")
+    with csv_paths[0].open(encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if len(rows) != len(products) or [row.get("ID") for row in rows] != ids:
+        errors.append("CSV row IDs do not match canonical order")
+    if not {"duplicateOf", "canonicalProductId", "KC 제조사", "KC 수입업체", "KC 인증변경사유", "Safety Korea 상세 URL"}.issubset(rows[0]):
+        errors.append("CSV required bridge/duplicate headers are absent")
+    for row, product in zip(rows, products):
+        if row.get("현재 판정") != product.get("status") or row.get("duplicateOf", "") != product.get("duplicateOf", ""):
+            errors.append(f"{product.get('id')}: CSV decision/duplicate mismatch")
+
+    meta_paths = [DATA / "meta.json", ROOT / "meta.json", PUBLIC / "data/meta.json", PUBLIC / "meta.json"]
+    if len({sha(path) for path in meta_paths}) != 1:
+        errors.append("meta JSON copies differ")
+    meta = json.loads(meta_paths[0].read_text(encoding="utf-8"))
+    expected_counts = {
+        "rawRecords": len(products),
+        "uniqueProducts": len(unique_products),
+        "included": unique_status["포함"],
+        "pending": unique_status["보류"],
+        "excluded": unique_status["제외"],
+        "duplicateRecords": duplicate_count,
+        "excludedAndDuplicate": unique_status["제외"] + duplicate_count,
+    }
+    for key, value in expected_counts.items():
+        if meta.get(key) != value:
+            errors.append(f"meta {key} {meta.get(key)} != {value}")
+    if meta.get("build") != EXPECTED_BUILD:
+        errors.append("meta build mismatch")
+
+    health_paths = [ROOT / "health.json", PUBLIC / "health.json"]
+    if sha(health_paths[0]) != sha(health_paths[1]):
+        errors.append("health JSON copies differ")
+    health = json.loads(health_paths[0].read_text(encoding="utf-8"))
+    if health.get("build") != EXPECTED_BUILD or health.get("status") != "ok":
+        errors.append("health build/status mismatch")
+
+    missing_report = json.loads((DATA / "missing-fields-report.json").read_text(encoding="utf-8"))
+    if missing_report.get("pendingProducts") != unique_status["보류"]:
+        errors.append("missingFields report pending count mismatch")
+    if missing_report.get("pendingWithStructuredMissingFields") != unique_status["보류"]:
+        errors.append("not every pending product has structured missingFields")
+
+    proof = json.loads((DATA / "strict-419-production-final-proof.json").read_text(encoding="utf-8"))
+    if any(proof.get(key) != value for key, value in {
+        "rawRecords": len(products),
+        "uniqueProducts": len(unique_products),
+        "duplicateRecords": duplicate_count,
+        "uniqueIncluded": unique_status["포함"],
+        "uniquePending": unique_status["보류"],
+        "uniqueExcluded": unique_status["제외"],
+    }.items()):
+        errors.append("production proof counts mismatch")
 
     report = {
         "status": "failed" if errors else "passed",
-        "rawRows": len(products),
-        "uniqueProducts": len(ids),
-        "included": sum(item.get("status") == "포함" for item in products),
-        "pending": sum(item.get("status") == "보류" for item in products),
-        "excluded": sum(item.get("status") == "제외" for item in products),
+        "build": EXPECTED_BUILD,
+        "rawRecords": len(products),
+        "uniqueProducts": len(unique_products),
+        "duplicateRecords": duplicate_count,
+        "uniqueStatusCounts": {key: unique_status[key] for key in ("포함", "보류", "제외")},
+        "rawStatusCounts": {key: raw_status[key] for key in ("포함", "보류", "제외")},
         "violations": errors,
     }
-    (ROOT/"data/strict-validation-report.json").write_text(
+    (DATA / "strict-validation-report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     if errors:
         raise SystemExit("\n".join(errors))
     print(json.dumps(report, ensure_ascii=False))
+
 
 if __name__ == "__main__":
     main()

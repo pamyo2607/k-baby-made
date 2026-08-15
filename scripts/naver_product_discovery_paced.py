@@ -15,7 +15,6 @@ from bs4 import BeautifulSoup
 
 import naver_product_discovery as base
 
-TARGET_PER_CATEGORY = 20
 SUFFIXES = ("", "스마트스토어", "국내생산", "KC 인증")
 
 
@@ -67,57 +66,61 @@ def collect_query(category: str, query: str) -> list[tuple[str, str, str]]:
     return combined
 
 
-def existing_candidate_count(category: str, products: list[dict]) -> int:
-    return sum(
-        str(item.get("id", "")).startswith("DISC-")
-        and item.get("status") == "보류"
-        and item.get("category") == category
-        for item in products
-    )
-
-
 def build_candidate(category: str, title: str, final_url: str, query: str) -> dict:
     brand = base.infer_brand(title)
     digest = hashlib.sha1(f"{category}|{final_url}".encode()).hexdigest()[:12].upper()
     today = date.today().isoformat()
+    product_id = f"DISC-{digest}"
     return {
-        "id": f"DISC-{digest}",
+        "id": product_id,
         "category": category,
         "subtype": "",
         "brand": brand,
         "name": title,
         "status": "보류",
-        "origin": "확인 중",
+        "countryOfManufacture": "확인 중",
         "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
-        "age": "확인 중",
-        "ageBasis": "",
+        "ageRange": "확인 중",
+        "ageEvidence": "",
+        "kcApplicable": "제품별 법령 확인 필요",
         "kcNumber": "",
-        "kcStatus": "",
-        "kcDate": "",
         "kcType": "",
-        "kcAuthority": "",
-        "kcItem": "",
-        "kcModel": "",
+        "certStatusSummary": "",
+        "certDateSummary": "",
+        "certTypeSummary": "",
+        "certAuthoritySummary": "",
+        "certifications": [],
+        "officialModel": "",
         "manufacturer": "",
-        "safetyKoreaUrl": "",
+        "importer": "",
+        "safetyKoreaSearchUrl": "",
         "checkedAt": today,
         "reason": (
             f"네이버 검색어 '{query}'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. "
             "국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 "
             "Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다."
         ),
-        "evidenceUrls": [final_url],
+        "officialUrls": [final_url],
+        "saleUrls": [final_url],
         "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
-        "history": f"{today} 네이버 특정 상품 후보 조사",
-        "researchStatus": "최극상 전면 재검증 대기",
-        "group": category,
+        "historySummary": f"{today} 네이버 특정 상품 후보 조사",
+        "revalidationState": "최극상 전면 재검증 대기",
+        "revalidationResolved": False,
+        "revalidationMissingFields": [
+            "currentSale", "officialAge", "countryOfManufacture",
+            "manufacturerOrImporter", "regulatoryRegime", "officialEvidence",
+        ],
+        "dashboardGroup": category,
+        "canonicalProductId": product_id,
+        "duplicateOf": "",
         "discoveryProvider": "Naver",
     }
 
 
-def discover(category: str, products: list[dict], requested_limit: int = 20) -> list[dict]:
-    current = existing_candidate_count(category, products)
-    needed = min(requested_limit, max(0, TARGET_PER_CATEGORY - current))
+def discover(category: str, products: list[dict], requested_limit: int = 5) -> list[dict]:
+    # The runner owns the cross-category total cap.  Existing cumulative DISC
+    # rows must not be mistaken for this run's target or output.
+    needed = max(0, requested_limit)
     if needed == 0:
         return []
 

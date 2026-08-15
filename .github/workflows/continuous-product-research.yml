@@ -3,9 +3,8 @@ name: K-Baby Made ultra-strict product research
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions가 허용하는 최단 간격 5분.
-    # 매시 정각 혼잡을 피하기 위해 2분부터 5분 간격으로 실행한다.
-    - cron: "2-59/5 * * * *"
+    # 매시 정각의 GitHub Actions 혼잡을 피한 시간당 1회 실행.
+    - cron: "17 * * * *"
   push:
     branches: [main]
     paths:
@@ -25,6 +24,8 @@ jobs:
     timeout-minutes: 330
     env:
       KBABY_QUALITY_MODE: ultra
+      KBABY_PENDING_LIMIT: "50"
+      KBABY_NEW_CANDIDATE_LIMIT: "30"
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -44,7 +45,7 @@ jobs:
       - name: Reconcile cumulative database
         run: python scripts/bootstrap_from_sheet.py
 
-      - name: Revalidate 50 pending products and discover real candidates
+      - name: Revalidate up to 50 pending products and discover up to 30 exact candidates
         run: python scripts/run_ultra_naver.py
 
       - name: Sanitize irrelevant and duplicate candidates
@@ -53,14 +54,14 @@ jobs:
       - name: Verify effective research progress
         run: python scripts/verify_research_effectiveness.py
 
+      - name: Enforce per-run research limits and metric consistency
+        run: python scripts/enforce_research_targets.py
+
       - name: Enforce ultra-quality inclusion gate
         run: python scripts/enforce_ultra_quality.py
 
-      - name: Rebuild deployable assets
-        run: python scripts/build_assets.py
-
-      - name: Existing strict validation
-        run: python scripts/validate_data.py
+      - name: Rebuild and run the complete repository check contract
+        run: npm run check
 
       - name: Final ultra-quality verification
         run: python scripts/verify_ultra_quality.py
@@ -76,21 +77,5 @@ jobs:
             echo "No verified cumulative changes"
           else
             git commit -m "data: persist verified cumulative research progress"
-            git pull --rebase origin main
             git push
           fi
-
-      - name: Enforce and record cumulative research targets
-        shell: bash
-        run: |
-          set +e
-          python scripts/enforce_research_targets.py
-          code=$?
-          set -e
-          git add data/research-effectiveness-report.json
-          if ! git diff --cached --quiet; then
-            git commit -m "data: record cumulative research target status"
-            git pull --rebase origin main
-            git push
-          fi
-          exit "$code"

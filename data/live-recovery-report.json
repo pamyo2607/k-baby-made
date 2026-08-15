@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "recoveredAt": "2026-08-15T00:00:00+09:00",
+  "source": "https://k-baby-made.pamyo-2607.workers.dev/kbaby-data.js?recovery=20260815",
+  "sourceBuild": "20260804-strict419-fix1",
+  "sourceScriptSha256": "3acd800d737b9077e5fdcb5a2fd148c6f4ba03ad1ce9c564654ddd8ac3404088",
+  "sourceDecodedSha256": "077d487e57f585c2954de2639922ec4fb9aefb7e28e8de71fb351a3699b528b7",
+  "sourceRawRecords": 459,
+  "sourceUniqueProducts": 455,
+  "repositoryBaseline": {
+    "mainSha": "01900b1050ee866cc646b283c5d63a9fd254a5cb",
+    "rawRecords": 350,
+    "uniqueProductsAfterKnownDuplicateMapping": 346,
+    "duplicateRecords": 4,
+    "included": 9,
+    "pending": 305,
+    "uniqueExcluded": 32
+  },
+  "concurrentRemoteMainDuringRecovery": {
+    "sha": "7d211dc586736b4021eacb4eae28ae9478fbdccb",
+    "rawRecords": 573,
+    "distinctIds": 573,
+    "legacyCandidates": 120,
+    "nonCandidateRows": 453,
+    "uniqueProductsAfterKnownDuplicateMapping": 449,
+    "finding": "복구 중 구 자동 워크플로가 Sheet를 다시 부트스트랩했지만 ID 대신 제품 키로 6개 행을 잘못 합치고 120개 오염 후보를 유지했다. 원격 커밋 이력은 보존하되 데이터는 검증된 459행 canonical로 대체한다."
+  },
+  "recoveryRunInputSha256": "0e0cba068333f31816b0bfd8cf1a190f7093ba6207f9648beab348b07700e312",
+  "recoveryRunInputRecords": 459,
+  "quarantinedNonProducts": 120,
+  "reviewedOverrides": 16,
+  "statusTransitions": {
+    "보류→보류": 2,
+    "보류→제외": 10,
+    "보류→포함": 2,
+    "포함→보류": 1,
+    "포함→제외": 1
+  },
+  "changedFieldCounts": {
+    "ageRange": 10,
+    "countryOfManufacture": 2,
+    "importer": 1,
+    "kcNumber": 4,
+    "manufacturer": 4,
+    "saleStatus": 15,
+    "status": 14
+  },
+  "reviewedEvidenceMetrics": {
+    "countryOfManufactureReviewed": 15,
+    "currentSaleReviewed": 14,
+    "kcNumberNewOrCorrected": 2,
+    "manufacturerOrImporterReviewed": 7,
+    "officialAgeReviewed": 14,
+    "safetyKoreaSameModelReviewed": 11
+  },
+  "finalRawRecords": 459,
+  "finalUniqueProducts": 455,
+  "duplicateRecords": 4
+}

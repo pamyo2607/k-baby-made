@@ -1,9 +1,18 @@
 {
   "status": "passed",
-  "rawRows": 350,
-  "uniqueProducts": 350,
-  "included": 9,
-  "pending": 305,
-  "excluded": 36,
+  "build": "20260815-live459-recovery1",
+  "rawRecords": 459,
+  "uniqueProducts": 455,
+  "duplicateRecords": 4,
+  "uniqueStatusCounts": {
+    "포함": 9,
+    "보류": 399,
+    "제외": 47
+  },
+  "rawStatusCounts": {
+    "포함": 9,
+    "보류": 399,
+    "제외": 51
+  },
   "violations": []
 }

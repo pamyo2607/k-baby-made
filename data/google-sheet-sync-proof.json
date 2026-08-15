@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-08-15T16:31:23+09:00",
+  "spreadsheetId": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
+  "spreadsheetTitle": "K-Baby Made Live DB",
+  "backup": {
+    "status": "created-before-write",
+    "fileId": "1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4",
+    "url": "https://docs.google.com/spreadsheets/d/1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4/edit?usp=drivesdk"
+  },
+  "before": {
+    "masterRawRecords": 230,
+    "masterUniqueProductsAfterKnownDuplicateMapping": 226,
+    "included": 15,
+    "pending": 204,
+    "uniqueExcluded": 7,
+    "duplicateRecords": 4,
+    "strictSyncError": "#REF!",
+    "queueRows": 219
+  },
+  "strategy": "기존 230개 ID의 물리 행 위치와 누적 이력을 보존하고, 누락 229개 ID만 추가한 뒤 검증된 canonical 값을 ID 기준으로 동기화",
+  "after": {
+    "masterRange": "A1:AL460",
+    "masterColumns": 38,
+    "rawRecords": 459,
+    "distinctIds": 459,
+    "uniqueProducts": 455,
+    "included": 9,
+    "pending": 399,
+    "uniqueExcluded": 47,
+    "duplicateRecords": 4,
+    "excludedAndDuplicate": 51,
+    "fullRevalidationTargetRows": 408,
+    "revalidationQueueRows": 399,
+    "revalidationQueueDistinctIds": 399,
+    "strictSync": "459-row verified snapshot; no external IMPORTDATA authorization dependency",
+    "dashboardFormulaCounts": {
+      "rawRecords": 459,
+      "uniqueProducts": 455,
+      "included": 9,
+      "pending": 399,
+      "uniqueExcluded": 47,
+      "duplicateRecords": 4,
+      "excludedAndDuplicate": 51,
+      "fullRevalidationTargetRows": 408
+    }
+  },
+  "duplicateMap": {
+    "TOY-20260729-115": "TOY-20260729-024",
+    "TOY-20260729-124": "TOY-20260729-123",
+    "TOY-20260729-125": "TOY-20260729-053",
+    "TOY-20260729-155": "TOY-20260729-154"
+  },
+  "dataSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
+  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2",
+  "remainingBlockers": []
+}

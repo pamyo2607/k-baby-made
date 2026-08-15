@@ -1,33 +1,15 @@
 {
-  "lastRun": "2026-08-15",
-  "qualityMode": "ultra",
-  "executionMode": "alternate-url-bounded-parallel",
-  "scheduleTarget": "5분 최단 주기",
-  "currentCategories": [
-    "완구",
-    "구강치발기",
-    "턱받이",
-    "수유용품",
-    "이유식용품",
-    "위생용품"
-  ],
-  "nextCategory": "완구",
-  "categoryIndex": 0,
-  "pendingSelected": 50,
-  "effectiveRevalidations": 50,
-  "verifiedThisRun": 50,
-  "includedThisRun": 9,
-  "newCandidates": 120,
-  "newCandidatesByCategory": {
-    "완구": 20,
-    "구강치발기": 20,
-    "턱받이": 20,
-    "수유용품": 20,
-    "이유식용품": 20,
-    "위생용품": 20
-  },
-  "errors": 41,
-  "totalProducts": 350,
-  "rawNewCandidates": 0,
-  "removedInvalidCandidates": 0
+  "status": "reset-after-live-recovery",
+  "metricsVersion": 2,
+  "resetAt": "2026-08-15T16:31:23+09:00",
+  "lastRun": null,
+  "scheduleTarget": "매시간 1회",
+  "pendingLimit": 50,
+  "newCandidateLimit": 30,
+  "newCandidateLimitPerCategory": 5,
+  "canonicalProducts": 459,
+  "pendingProducts": 399,
+  "stagedCandidates": 0,
+  "quarantinedLegacyCandidates": 120,
+  "note": "복구 전 누적값을 실행 성과로 오인하던 v1 지표를 폐기했다. 다음 시간당 실행이 실제 시도·성공·오류·전환·신규 후보 지표를 새로 기록한다."
 }

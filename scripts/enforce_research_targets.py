@@ -1,44 +1,57 @@
 #!/usr/bin/env python3
-"""Fail closed until cumulative valid candidates and all 50 rechecks are done."""
+"""Fail closed when a single research run exceeds its bounded scope."""
 from __future__ import annotations
 
 import json
-from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = ROOT / "data/research-effectiveness-report.json"
-SOURCE = ROOT / "data/master-products.json"
-CATEGORIES = ["완구", "구강치발기", "턱받이", "수유용품", "이유식용품", "위생용품"]
-TARGET = 20
+MAX_PENDING = 50
+MAX_NEW_CANDIDATES = 30
+MAX_NEW_PER_CATEGORY = 5
 
-report = json.loads(REPORT.read_text(encoding="utf-8"))
-products = json.loads(SOURCE.read_text(encoding="utf-8"))
-counts = Counter(
-    str(item.get("category", ""))
-    for item in products
-    if str(item.get("id", "")).startswith("DISC-") and item.get("status") == "보류"
-)
-shortfall = {category: max(0, TARGET - counts.get(category, 0)) for category in CATEGORIES}
-errors = list(report.get("errors", []))
-if not report.get("scopeExecuted"):
-    errors.append("requested research scope did not execute")
-if int(report.get("effectiveRevalidations", 0)) != 50:
-    errors.append(
-        f"effectiveRevalidations={report.get('effectiveRevalidations')} expected=50"
+
+def main() -> None:
+    report = json.loads(REPORT.read_text(encoding="utf-8"))
+    errors = [str(value) for value in report.get("errors", [])]
+    pending = int(report.get("pendingSelectedThisRun", -1))
+    new_candidates = int(report.get("newCandidatesThisRun", -1))
+    by_category = {
+        str(key): int(value)
+        for key, value in dict(report.get("newCandidatesByCategoryThisRun", {})).items()
+    }
+
+    if not report.get("scopeExecuted"):
+        errors.append("research scope or metric verification failed")
+    if not 0 <= pending <= MAX_PENDING:
+        errors.append(f"pendingSelectedThisRun={pending} exceeds {MAX_PENDING}")
+    if not 0 <= new_candidates <= MAX_NEW_CANDIDATES:
+        errors.append(
+            f"newCandidatesThisRun={new_candidates} exceeds {MAX_NEW_CANDIDATES}"
+        )
+    if any(value > MAX_NEW_PER_CATEGORY for value in by_category.values()):
+        errors.append(
+            f"new candidate category cap exceeded: {by_category} > {MAX_NEW_PER_CATEGORY}"
+        )
+
+    errors = list(dict.fromkeys(errors))
+    report["perRunLimits"] = {
+        "pendingProducts": MAX_PENDING,
+        "newExactCandidates": MAX_NEW_CANDIDATES,
+        "newExactCandidatesPerCategory": MAX_NEW_PER_CATEGORY,
+    }
+    report["limitsEnforced"] = not errors
+    report["passed"] = not errors
+    report["errors"] = errors
+    REPORT.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
-if any(shortfall.values()):
-    errors.append(f"cumulative valid candidate target not met: {shortfall}")
+    print(json.dumps(report, ensure_ascii=False))
+    if errors:
+        raise SystemExit("; ".join(errors))
 
-report["cumulativeValidCandidatesByCategory"] = {
-    category: counts.get(category, 0) for category in CATEGORIES
-}
-report["candidateTargetPerCategory"] = TARGET
-report["candidateTargetMet"] = not any(shortfall.values())
-report["candidateShortfallByCategory"] = shortfall
-report["passed"] = not errors
-report["errors"] = errors
-REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(json.dumps(report, ensure_ascii=False))
-if errors:
-    raise SystemExit("; ".join(errors))
+
+if __name__ == "__main__":
+    main()

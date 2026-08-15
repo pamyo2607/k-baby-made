@@ -1,36 +1,47 @@
 {
-  "status": "partial_recovery_ready",
-  "recoveredAt": "2026-08-05T22:20:00+09:00",
+  "status": "recovered-and-verified",
+  "recoveredAt": "2026-08-15T16:31:23+09:00",
   "targetRepository": "pamyo2607/k-baby-made",
   "sources": [
+    {
+      "type": "production-embedded-payload",
+      "build": "20260804-strict419-fix1",
+      "rawRecords": 459,
+      "uniqueProducts": 455,
+      "sha256": "077d487e57f585c2954de2639922ec4fb9aefb7e28e8de71fb351a3699b528b7"
+    },
     {
       "type": "Google Sheet",
       "title": "K-Baby Made Live DB",
       "id": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
-      "recoverableProducts": 230
-    },
-    {
-      "type": "File Library",
-      "files": ["index.html", "app.js", "styles.css"]
+      "syncedProducts": 459,
+      "backupId": "1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4"
     }
   ],
-  "previousKnownUniqueProducts": 455,
-  "recoverableUniqueProducts": 230,
-  "missingFromCurrentSources": 225,
+  "rawRecords": 459,
+  "uniqueProducts": 455,
+  "duplicateRecords": 4,
+  "missingFromCurrentSources": 0,
   "missingProductsFabricated": false,
-  "verifiedIncludedSeed": 9,
-  "policy": "Only products with current domestic sale evidence, 0–35 month eligibility, finished-product manufacture in Korea, and an exact fit Safety Korea detail may be included.",
+  "uniqueStatusCounts": {
+    "included": 9,
+    "pending": 399,
+    "excluded": 47
+  },
+  "quarantinedNonProducts": 120,
+  "policy": "Only products with current domestic sale evidence, 0–35 month eligibility, finished-product manufacture in Korea, manufacturer/importer, applicable law, official evidence, and an exact Safety Korea same-model detail when KC applies may be included.",
   "mergeRules": [
-    "Preserve internal IDs only in canonical data",
-    "Never expose internal model or ranking fields in the UI",
+    "Preserve every recovered source ID and history entry",
+    "Keep raw, unique, duplicate, and excluded-plus-duplicate counts separate",
     "Downgrade insufficient evidence to pending",
     "Preserve excluded records and reasons",
+    "Never promote unverified discovered candidates into canonical data",
     "Rebuild all public assets from one canonical source"
   ],
   "nextActions": [
-    "Recover 230 rows from the public Google Sheet",
-    "Revalidate up to 50 pending products each run",
-    "Discover up to 30 candidates per category",
-    "Continue until the historical recovery gap is resolved"
+    "Revalidate up to 50 pending products per hourly run",
+    "Stage up to 30 new candidates in total and at most 5 per category",
+    "Require exact product identity and official evidence before any canonical promotion",
+    "Run all data, JavaScript, deployment, and Chromium gates before release"
   ]
 }

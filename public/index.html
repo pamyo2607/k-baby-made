@@ -1,91 +1,98 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#f7f7f4" />
-  <title>K-Baby Made | 대한민국 제조 영유아 제품 검증 DB</title>
-  <meta name="description" content="대한민국에서 현재 판매되는 0~35개월 국내 제조 영유아 제품의 KC 근거를 확인하는 데이터베이스" />
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
-  <link rel="stylesheet" href="/styles.css?v=20260805-recovery-v1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F6F2">
+  <meta name="kbaby-build" content="20260815-live459-recovery1">
+  <title>K-Baby Made | 대한민국 영유아 제품 검증 DB</title>
+  <meta name="description" content="대한민국에서 현재 판매되는 0~35개월 영유아 제품을 월령과 제조국과 KC 정보와 공식 근거로 비교합니다.">
+  <link rel="stylesheet" href="styles.css?v=20260815-live459-recovery1">
+  <style>[hidden]{display:none!important}</style>
 </head>
 <body>
+  <a class="skip-link" href="#catalog">제품 목록으로 바로가기</a>
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="#top" aria-label="K-Baby Made 홈">
-        <span class="brand-mark" aria-hidden="true">K</span>
-        <span>K-Baby Made</span>
+        <span class="brand-mark">K</span>
+        <span><strong>K-Baby Made</strong><small>대한민국 영유아 제품 검증 DB</small></span>
       </a>
-      <div class="header-meta"><span class="live-dot" aria-hidden="true"></span><span>공식 근거 검증 DB</span></div>
+      <nav aria-label="주요 메뉴">
+        <a href="#baby-fit">월령 맞춤</a><a href="#categories">카테고리</a><a href="#catalog">제품 찾기</a><a href="#updates">최근 업데이트</a><a href="#progress">조사 현황</a><a href="#criteria">조사 기준</a>
+      </nav>
+      <div class="live-state"><span></span><strong>LIVE DB</strong><small id="headerDate">업데이트 확인 중</small></div>
     </div>
   </header>
 
-  <main id="top" class="page-shell">
-    <section class="hero" aria-labelledby="hero-title">
+  <main id="top">
+    <section class="hero shell">
       <div class="hero-copy">
-        <p class="eyebrow">MADE IN KOREA · 0–35 MONTHS</p>
-        <h1 id="hero-title">아기용품의 근거를<br />한눈에 확인하세요</h1>
-        <p class="hero-sub">현재 국내 판매와 0~35개월 대상과 대한민국 제조와 동일 제품 KC 근거를 제품별로 검증합니다.</p>
-        <div class="hero-points" aria-label="서비스 특징">
-          <span>현재 판매 확인</span><span>대상 월령 확인</span><span>Safety Korea 대조</span>
+        <p class="eyebrow">0~35개월 영유아 제품 최신 조사</p>
+        <h1>우리 아기에게 맞는 제품을<br>근거와 함께 비교하세요</h1>
+        <p>대한민국에서 현재 판매되는 제품을 대상으로 월령과 제조국과 KC 정보와 공식 근거를 정리합니다.</p>
+        <div class="source-state" id="sourceState" role="status"><span></span>제품 검증 데이터 불러오는 중</div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="art-orbit"></div><div class="art-card"><span>🧸</span><strong>근거 기반 제품 DB</strong><small>판매 · 월령 · KC · 제조국</small></div></div>
+    </section>
+
+    <section class="stats shell" aria-label="전체 조사 통계">
+      <article><span>전체 조사 제품</span><strong id="totalStat">0</strong></article>
+      <article><span>현재 판매 제품</span><strong id="saleStat">0</strong></article>
+      <button type="button" class="summary-stat green" data-summary-status="포함" aria-label="완료 제품 보기"><span>완료</span><strong id="includedStat">0</strong></button>
+      <button type="button" class="summary-stat orange" data-summary-status="보류" aria-label="확인 진행 중 제품 보기"><span>ing</span><strong id="pendingStat">0</strong></button>
+      <button type="button" class="summary-stat red" data-summary-status="제외" aria-label="기준 제외 및 중복 제품 보기"><span>❗ 기준 제외·중복</span><strong id="excludedStat">0</strong></button>
+      <article><span>카테고리</span><strong id="categoryStat">6</strong></article>
+      <article><span>최근 업데이트</span><strong id="updatedStat">-</strong></article>
+    </section>
+
+    <section id="baby-fit" class="baby-fit shell section-card">
+      <div><p class="eyebrow">BABY AGE FIT</p><h2>아기 생년월일로 월령 맞춤</h2><p>생년월일은 이 기기에만 저장되고 서버로 전송되지 않습니다.</p></div>
+      <div class="baby-controls"><label>아기 생년월일<input id="birthDate" type="date" aria-label="아기 생년월일"></label><button id="saveBirth" type="button">월령 계산</button><button id="removeBirth" class="ghost" type="button">삭제</button></div>
+      <div id="babyResult" class="baby-result">생년월일을 입력하면 현재 월령에 맞는 제품을 우선 표시합니다.</div>
+      <label class="switch"><input id="ageFitToggle" type="checkbox" checked><span></span>월령 맞춤 켜기</label>
+    </section>
+
+    <section id="categories" class="shell section-block">
+      <div class="section-heading"><div><p class="eyebrow">CATEGORY ROADMAP</p><h2>전체 카테고리 로드맵</h2></div><p>데이터가 없는 카테고리도 숨기지 않습니다.</p></div>
+      <div id="categoryRoadmap" class="roadmap-grid"></div>
+    </section>
+
+    <section id="catalog" class="catalog-wrap">
+      <div class="shell">
+        <div class="section-heading"><div><p class="eyebrow">PRODUCT DATABASE</p><h2>제품 찾기</h2></div><p id="resultCount" aria-live="polite">데이터를 불러오는 중입니다.</p></div>
+        <div class="search-panel">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="제품명, 브랜드, 제조사, KC 번호 검색" aria-label="제품 검색"></label>
+          <button id="mobileFilterButton" class="mobile-filter" type="button">필터 <span id="activeFilterCount">0</span></button>
+          <div id="filterPanel" class="filters">
+            <label>카테고리<select id="categoryFilter"><option value="">전체</option></select></label>
+            <label>판정<select id="statusFilter"><option value="">완료·ing</option><option value="포함">완료</option><option value="보류">ing</option><option value="제외">❗ 기준 제외·중복</option></select></label>
+            <label>세부 제품군<select id="subtypeFilter"><option value="">전체</option></select></label>
+            <label>대상 월령<select id="ageFilter"><option value="">전체</option><option value="fit">현재 월령 적합</option><option value="verified">공식 월령 확인</option><option value="checking">월령 확인 중</option></select></label>
+            <label>완제품 제조국<select id="countryFilter"><option value="">전체</option></select></label>
+            <label>KC 인증상태<select id="kcFilter"><option value="">전체</option><option value="active">적합</option><option value="expired">기간만료</option><option value="verified">Safety Korea 상세 확인</option><option value="checking">상세 확인 중</option></select></label>
+            <label>국내 판매 상태<select id="saleFilter"><option value="">전체</option><option value="current">현재 판매 확인</option><option value="archive">이전 조사 제품</option></select></label>
+            <label>데이터 품질<select id="qualityFilter"><option value="">전체</option><option value="high">공식 근거 충실</option><option value="checking">보강 필요</option></select></label>
+            <label>정렬<select id="sortFilter"><option value="recent">최신 검증순</option><option value="included">완료 우선</option><option value="evidence">공식 근거 충실순</option><option value="name">제품명순</option></select></label>
+            <label class="check-row"><input id="showExcluded" type="checkbox">기준 제외·중복 보기</label>
+            <button id="resetFilters" class="ghost" type="button">필터 초기화</button>
+          </div>
         </div>
-      </div>
-      <aside class="hero-stats" aria-label="등록 제품 현황">
-        <div class="glass-stat">
-          <span class="glass-label">복구된 누적 제품</span>
-          <div class="glass-number"><strong id="heroCount">0</strong><span>개</span></div>
-          <p id="heroStatus">데이터 불러오는 중</p>
-        </div>
-        <div class="mini-category-row" id="heroCategoryPreview"></div>
-      </aside>
-    </section>
-
-    <section class="recovery-note" id="recoveryNote" hidden>
-      <strong>데이터 복구와 전수 재검증을 진행하고 있어요</strong>
-      <p id="recoveryText"></p>
-    </section>
-
-    <section class="control-panel" aria-label="제품 검색과 필터">
-      <div class="search-row">
-        <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="브랜드 또는 제품명 검색" autocomplete="off" /></label>
-        <button id="clearBtn" class="clear-btn" type="button">초기화</button>
-      </div>
-      <div class="category-tabs" id="categoryTabs" role="tablist"></div>
-      <div class="secondary-filters">
-        <label><span>판정</span><select id="statusFilter"><option value="">전체</option><option value="포함">포함</option><option value="보류">보류</option><option value="제외">제외</option></select></label>
-        <label><span>제조국</span><select id="originFilter"><option value="">전체</option></select></label>
+        <div id="loadingSkeleton" class="skeleton-grid" aria-label="제품 불러오는 중"></div>
+        <div id="productGrid" class="product-grid"></div>
+        <div id="emptyState" class="empty-state" hidden><strong>조건에 맞는 제품이 없습니다.</strong><p>검색어나 필터를 바꿔 다시 확인해 주세요.</p><button id="retryButton" type="button">다시 불러오기</button></div>
+        <button id="loadMore" class="load-more" type="button">제품 더 보기</button>
       </div>
     </section>
 
-    <section class="summary-grid" aria-label="검증 현황">
-      <article><span>전체</span><strong id="productCount">0</strong></article>
-      <article class="is-ok"><span>포함</span><strong id="includedCount">0</strong></article>
-      <article class="is-pending"><span>보류</span><strong id="pendingCount">0</strong></article>
-      <article><span>제외</span><strong id="excludedCount">0</strong></article>
-    </section>
+    <section id="updates" class="shell section-block two-column"><div><div class="section-heading"><div><p class="eyebrow">RECENT VERIFICATION</p><h2>최근 검증 업데이트</h2></div></div><div id="updatesList" class="timeline"></div></div><div id="progress"><div class="section-heading"><div><p class="eyebrow">RESEARCH PROGRESS</p><h2>조사 현황</h2></div></div><div id="progressList" class="progress-list"></div></div></section>
 
-    <section class="trust-note"><div class="trust-icon" aria-hidden="true">✓</div><div><strong>포함 제품은 동일 제품의 공식 KC 번호까지 확인합니다</strong><p>현재 판매와 0~35개월 대상과 대한민국 제조와 Safety Korea 적합 상세가 모두 연결된 제품만 포함합니다.</p></div></section>
-
-    <section class="catalog" aria-labelledby="catalog-title">
-      <div class="section-heading"><div><p class="eyebrow">VERIFIED PRODUCTS</p><h2 id="catalog-title">제품 목록</h2></div><span id="resultCount">0개 표시</span></div>
-      <div id="productGrid" class="product-grid"></div>
-      <div id="emptyState" class="empty-state" hidden><span aria-hidden="true">⌕</span><strong>조건에 맞는 제품이 없어요</strong><p>검색어나 필터를 바꿔보세요.</p></div>
-      <div class="load-more-wrap"><button id="loadMoreBtn" class="load-more" type="button">제품 더 보기</button></div>
-    </section>
-
-    <section class="method" aria-labelledby="method-title">
-      <div class="section-heading"><div><p class="eyebrow">HOW WE CHECK</p><h2 id="method-title">제품별로 이렇게 확인해요</h2></div></div>
-      <div class="method-grid">
-        <article><span class="method-num">01</span><strong>국내 판매</strong><p>개별 상품 페이지에서 현재 구매 가능한지 확인합니다.</p></article>
-        <article><span class="method-num">02</span><strong>월령과 제조국</strong><p>0~35개월 대상과 완제품 대한민국 제조 근거를 분리해 확인합니다.</p></article>
-        <article><span class="method-num">03</span><strong>KC 동일성</strong><p>판매 제품과 Safety Korea 인증 모델이 같은 제품인지 교차 대조합니다.</p></article>
-      </div>
-    </section>
+    <section id="criteria" class="criteria shell section-card"><div><p class="eyebrow">HOW WE VERIFY</p><h2>판정 기준</h2></div><div class="criteria-grid"><article><span class="badge included">완료</span><p>공식 근거가 충분하고 현재 판매 및 월령 조건을 충족합니다.</p></article><article><span class="badge pending">ing</span><p>현재 판매는 확인됐으나 일부 공식 정보가 부족합니다.</p></article><article><span class="badge excluded">❗ 기준 제외·중복</span><p>월령 초과와 판매 종료와 직구 전용과 중복 등에 해당합니다.</p></article></div><p class="notice">완료 제품은 제품별 적용 법령에 맞는 안전 근거를 확인합니다. 해당 법령상 KC 적용 제품은 동일 모델의 적합 인증번호와 Safety Korea 공식 상세를 확인하며, 필수 근거가 부족하면 자동으로 ing로 되돌려 공식 자료 재조회를 계속합니다.</p></section>
   </main>
 
-  <dialog id="detailDialog"><button class="dialog-close" id="closeDialog" aria-label="상세창 닫기">×</button><div id="dialogContent"></div></dialog>
-  <footer><strong>K-Baby Made</strong><p id="updatedAt">제품 정보는 확인일 기준입니다.</p></footer>
-  <script src="/app.js?v=20260805-recovery-v1" defer></script>
+  <dialog id="detailDialog" aria-labelledby="detailTitle"><div class="dialog-head"><strong id="detailTitle">제품 상세 검증</strong><button id="closeDialog" type="button" aria-label="상세 닫기">×</button></div><div id="detailContent"></div></dialog>
+  <footer><div class="shell"><strong>K-Baby Made</strong><p>공식 출처와 확인일을 기준으로 계속 보강되는 영유아 제품 검증 데이터베이스입니다.</p></div></footer>
+  <script src="kbaby-data.js?v=20260815-live459-recovery1"></script>
+  <script src="app.js?v=20260815-live459-recovery1" defer></script>
 </body>
 </html>

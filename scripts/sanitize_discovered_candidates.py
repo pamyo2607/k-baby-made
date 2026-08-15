@@ -15,6 +15,7 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/master-products.json"
+STAGING = ROOT / "data/discovered-candidate-staging.json"
 STATE = ROOT / "data/continuous-research-state.json"
 AUDIT = ROOT / "data/research-last-run.json"
 REPORT = ROOT / "data/discovered-candidate-sanitization.json"
@@ -34,11 +35,11 @@ DIRECT_HINTS = (
 )
 CATEGORY_TERMS = {
     "완구": ("완구", "장난감", "딸랑이", "모빌", "촉감", "래틀", "놀이"),
-    "구강치발기": ("치발기", "구강", "잇몸", "티더", "teether"),
+    "구강·치발기": ("치발기", "구강", "잇몸", "티더", "teether"),
     "턱받이": ("턱받이", "빕", "bib"),
     "수유용품": ("수유", "젖병", "분유", "빨대컵", "수유쿠션", "유축"),
-    "이유식용품": ("이유식", "흡착식판", "스푼", "유아식기", "아기식기", "이유식기"),
-    "위생용품": ("위생", "물티슈", "기저귀", "손수건", "목욕", "세정", "면봉"),
+    "이유식·식기": ("이유식", "흡착식판", "스푼", "유아식기", "아기식기", "이유식기"),
+    "위생·기저귀": ("위생", "물티슈", "기저귀", "손수건", "목욕", "세정", "면봉"),
 }
 
 
@@ -108,24 +109,69 @@ def generic_candidate(item: dict) -> bool:
 
 
 def candidate_url(item: dict) -> str:
-    for raw in item.get("evidenceUrls", []):
+    for raw in list(item.get("officialUrls", [])) + list(item.get("evidenceUrls", [])):
         decoded = decode_bing_target(str(raw))
         if direct_product_url(decoded):
             return decoded
     return ""
 
 
-def update_state_files(valid_counts: dict[str, int], removed_count: int, output_count: int) -> None:
-    valid_total = sum(valid_counts.values())
+def update_run_metrics(
+    state: dict,
+    kept: list[dict],
+    cumulative_counts: dict[str, int],
+    removed_count: int,
+    canonical_count: int,
+) -> None:
+    """Keep per-run candidate metrics separate from cumulative inventory."""
+    discovered_ids = {
+        str(value) for value in state.get("candidateIdsDiscoveredThisRun", [])
+    }
+    accepted = [
+        item for item in kept if str(item.get("id", "")) in discovered_ids
+    ]
+    accepted_ids = [str(item.get("id", "")) for item in accepted]
+    accepted_counts = Counter(str(item.get("category", "")) for item in accepted)
+    categories = [str(value) for value in state.get("currentCategories", [])]
+    per_run_counts = {
+        category: int(accepted_counts.get(category, 0)) for category in categories
+    }
+    raw_found = int(
+        state.get(
+            "rawCandidatesFoundThisRun",
+            state.get("rawNewCandidates", len(discovered_ids)),
+        )
+    )
 
+    state["rawCandidatesFoundThisRun"] = raw_found
+    state["rawNewCandidates"] = raw_found
+    state["newCandidatesAcceptedBeforeSanitizationThisRun"] = int(
+        state.get("newCandidatesAcceptedBeforeSanitizationThisRun", len(discovered_ids))
+    )
+    state["newCandidatesRejectedBySanitizationThisRun"] = max(
+        0, len(discovered_ids) - len(accepted_ids)
+    )
+    state["newCandidatesThisRun"] = len(accepted_ids)
+    state["newCandidates"] = len(accepted_ids)
+    state["newCandidatesByCategory"] = per_run_counts
+    state["candidateIdsAcceptedThisRun"] = accepted_ids
+    state["removedInvalidCandidates"] = removed_count
+    state["candidateTotalAfterRun"] = sum(cumulative_counts.values())
+    state["candidateTotalsByCategoryAfterRun"] = {
+        category: int(cumulative_counts.get(category, 0)) for category in categories
+    }
+    state["totalProducts"] = canonical_count
+
+
+def update_state_files(
+    kept: list[dict],
+    cumulative_counts: dict[str, int],
+    removed_count: int,
+    canonical_count: int,
+) -> None:
     if STATE.exists():
         state = json.loads(STATE.read_text(encoding="utf-8"))
-        raw_total = int(state.get("newCandidates", 0))
-        state["rawNewCandidates"] = raw_total
-        state["newCandidates"] = valid_total
-        state["newCandidatesByCategory"] = valid_counts
-        state["removedInvalidCandidates"] = removed_count
-        state["totalProducts"] = output_count
+        update_run_metrics(state, kept, cumulative_counts, removed_count, canonical_count)
         STATE.write_text(
             json.dumps(state, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
@@ -134,12 +180,7 @@ def update_state_files(valid_counts: dict[str, int], removed_count: int, output_
     if AUDIT.exists():
         audit = json.loads(AUDIT.read_text(encoding="utf-8"))
         state = audit.setdefault("state", {})
-        raw_total = int(state.get("newCandidates", 0))
-        state["rawNewCandidates"] = raw_total
-        state["newCandidates"] = valid_total
-        state["newCandidatesByCategory"] = valid_counts
-        state["removedInvalidCandidates"] = removed_count
-        state["totalProducts"] = output_count
+        update_run_metrics(state, kept, cumulative_counts, removed_count, canonical_count)
         AUDIT.write_text(
             json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
@@ -148,6 +189,7 @@ def update_state_files(valid_counts: dict[str, int], removed_count: int, output_
 
 def main() -> None:
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
+    candidates = json.loads(STAGING.read_text(encoding="utf-8")) if STAGING.exists() else []
     existing_keys = {
         product_key(item)
         for item in products
@@ -157,11 +199,18 @@ def main() -> None:
     kept: list[dict] = []
     removed: list[dict] = []
 
-    for item in products:
+    for item in candidates:
         pid = str(item.get("id", ""))
         is_candidate = pid.startswith("DISC-") and item.get("status") == "보류"
         if not is_candidate:
-            kept.append(item)
+            removed.append({
+                "id": pid,
+                "category": item.get("category"),
+                "brand": item.get("brand"),
+                "name": item.get("name"),
+                "key": product_key(item),
+                "reasons": ["invalid_staging_row"],
+            })
             continue
 
         key = product_key(item)
@@ -191,11 +240,15 @@ def main() -> None:
             })
             continue
 
-        item["evidenceUrls"] = [resolved_url] + [
-            str(value) for value in item.get("evidenceUrls", [])
+        item["officialUrls"] = [resolved_url] + [
+            str(value)
+            for value in list(item.get("officialUrls", [])) + list(item.get("evidenceUrls", []))
             if decode_bing_target(str(value)) != resolved_url
             and "bing.com/ck/" not in str(value)
         ]
+        item["saleUrls"] = list(dict.fromkeys(
+            [resolved_url] + [str(value) for value in item.get("saleUrls", [])]
+        ))
         seen_discovered.add(key)
         kept.append(item)
 
@@ -206,15 +259,32 @@ def main() -> None:
         and item.get("status") == "보류"
     )
     valid_counts = {str(key): int(value) for key, value in remaining_counts.items()}
-    SOURCE.write_text(
+    STAGING.write_text(
         json.dumps(kept, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    update_state_files(valid_counts, len(removed), len(kept))
+    state = (
+        json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
+    )
+    discovered_ids = {
+        str(value) for value in state.get("candidateIdsDiscoveredThisRun", [])
+    }
+    accepted_run_ids = [
+        str(item.get("id", ""))
+        for item in kept
+        if str(item.get("id", "")) in discovered_ids
+    ]
+    update_state_files(kept, valid_counts, len(removed), len(products))
     report = {
-        "inputCount": len(products),
+        "canonicalCountUnchanged": len(products),
+        "inputCount": len(candidates),
         "outputCount": len(kept),
         "removedCount": len(removed),
+        "candidateIdsDiscoveredThisRun": sorted(discovered_ids),
+        "candidateIdsAcceptedThisRun": accepted_run_ids,
+        "newCandidatesRejectedThisRun": max(
+            0, len(discovered_ids) - len(accepted_run_ids)
+        ),
         "remainingCandidateCount": sum(valid_counts.values()),
         "remainingCandidatesByCategory": valid_counts,
         "removed": removed,

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "build": "20260815-live459-recovery1",
+  "legacyStrict419Filename": true,
+  "rawRecords": 459,
+  "uniqueProducts": 455,
+  "duplicateRecords": 4,
+  "strict419TargetRows": 408,
+  "uniqueIncluded": 9,
+  "uniquePending": 399,
+  "uniqueExcluded": 47,
+  "verifiedTotal": 455,
+  "transport": "verified-csv",
+  "liveConnected": true,
+  "buildError": null,
+  "expectedRenderedCards": 24,
+  "includedTile": 9,
+  "pendingTile": 399,
+  "excludedAndDuplicateTile": 51,
+  "dataSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
+  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2",
+  "deploymentVerification": "pending"
+}

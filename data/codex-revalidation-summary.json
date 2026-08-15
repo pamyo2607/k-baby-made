@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "build": "20260815-live459-recovery1",
+  "baseline": {
+    "build": "20260804-strict419-fix1",
+    "rawRecords": 459,
+    "uniqueProducts": 455,
+    "included": 9,
+    "pending": 410,
+    "excluded": 36,
+    "duplicateRecords": 4
+  },
+  "baselineInventory": {
+    "productionLive": {
+      "rawRecords": 459,
+      "uniqueProducts": 455,
+      "included": 9,
+      "pending": 410,
+      "uniqueExcluded": 36,
+      "duplicateRecords": 4
+    },
+    "repositoryMain01900b1": {
+      "rawRecords": 350,
+      "uniqueProductsAfterKnownDuplicateMapping": 346,
+      "included": 9,
+      "pending": 305,
+      "uniqueExcluded": 32,
+      "duplicateRecords": 4,
+      "quarantinedNonProducts": 120
+    },
+    "googleSheetBeforeSync": {
+      "rawRecords": 230,
+      "uniqueProductsAfterKnownDuplicateMapping": 226,
+      "included": 15,
+      "pending": 204,
+      "uniqueExcluded": 7,
+      "duplicateRecords": 4
+    }
+  },
+  "reportScope": "closed 2026-08-15 recovery batch plus current generated inventory",
+  "recoveryBatch": {
+    "reviewedExistingProducts": 16,
+    "newProductsReviewed": 0,
+    "statusTransitions": {
+      "pendingToIncluded": 2,
+      "includedToPending": 1,
+      "pendingToExcluded": 10,
+      "includedToExcluded": 1,
+      "pendingMaintained": 2
+    },
+    "changedProducts": 16,
+    "statusChangedProducts": 14,
+    "verifiedFields": {
+      "kcNumberNewOrCorrected": 2,
+      "safetyKoreaSameModel": 11,
+      "countryOfManufacture": 15,
+      "officialAge": 14,
+      "currentSale": 14,
+      "manufacturerOrImporter": 7
+    },
+    "changedFieldCounts": {
+      "ageRange": 10,
+      "countryOfManufacture": 2,
+      "importer": 1,
+      "kcNumber": 4,
+      "manufacturer": 4,
+      "saleStatus": 15,
+      "status": 14
+    }
+  },
+  "final": {
+    "rawRecords": 459,
+    "uniqueProducts": 455,
+    "included": 9,
+    "pending": 399,
+    "excluded": 47,
+    "duplicateRecords": 4,
+    "excludedAndDuplicate": 51,
+    "fullRevalidationTargetRows": 408
+  },
+  "missingFields": {
+    "pendingProducts": 399,
+    "structured": 399,
+    "counts": {
+      "countryOfManufacture": 328,
+      "manufacturerOrImporter": 295,
+      "safetyKoreaSameModel": 232,
+      "officialAge": 200,
+      "exactKcNumber": 192,
+      "currentSale": 46,
+      "officialEvidence": 30,
+      "sameProductIdentity": 4
+    }
+  },
+  "dataSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
+  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2"
+}

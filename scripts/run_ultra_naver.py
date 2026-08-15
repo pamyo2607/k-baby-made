@@ -5,7 +5,6 @@ from __future__ import annotations
 import re
 from urllib.parse import parse_qs, urlparse
 
-import naver_pending_revalidation as pending
 import naver_product_discovery as naver
 import naver_product_discovery_paced as paced
 import run_ultra_parallel as pipeline
@@ -44,21 +43,13 @@ def infer_brand(title: str) -> str:
 
 
 def revalidate(product: dict) -> dict:
-    try:
-        result = _original_revalidate(product)
-    except Exception:
-        result = {"checked": False, "changed": False, "errors": ["primary_revalidation_exception"]}
-    if result.get("checked"):
-        return result
-    return pending.revalidate(product)
+    # The rich canonical verifier owns the decision. A marketplace-only
+    # fallback must not be counted as a successful official revalidation.
+    return _original_revalidate(product)
 
 
 def discover(category: str, products: list[dict]) -> list[dict]:
-    try:
-        return paced.discover(category, products, pipeline.NEW_PER_CATEGORY)
-    except Exception as exc:
-        print(f"naver discovery failed for {category}: {type(exc).__name__}: {exc}")
-        return []
+    return paced.discover(category, products, pipeline.NEW_PER_CATEGORY)
 
 
 naver.resolve_product_url = resolve_product_url

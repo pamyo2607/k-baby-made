@@ -1,31 +1,37 @@
 {
-  "project": "K-Baby Made",
-  "recoveredAt": "2026-08-05",
-  "source": "K-Baby Made Live DB Google Sheet export",
-  "sourceSheetId": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
-  "rawRecords": 350,
-  "uniqueProducts": 350,
-  "previousKnownUniqueProducts": 455,
-  "recoveryGap": 225,
+  "build": "20260815-live459-recovery1",
+  "lastUpdated": "2026-08-15",
+  "rawRecords": 459,
+  "totalInvestigated": 455,
+  "uniqueProducts": 455,
+  "currentSale": 193,
+  "included": 9,
+  "pending": 399,
+  "excluded": 47,
+  "duplicateRecords": 4,
+  "excludedAndDuplicate": 51,
+  "fullRevalidationTargetRows": 408,
   "statusCounts": {
-    "보류": 305,
-    "제외": 36,
-    "포함": 9
+    "포함": 9,
+    "보류": 399,
+    "제외": 47
   },
-  "categoryCounts": {
-    "완구": 220,
-    "구강치발기": 50,
-    "턱받이": 20,
-    "수유용품": 20,
-    "이유식용품": 20,
-    "위생용품": 20
+  "rawStatusCounts": {
+    "포함": 9,
+    "보류": 399,
+    "제외": 51
   },
-  "policy": {
-    "domesticSaleRequired": true,
-    "ageUnder36MonthsRequired": true,
-    "madeInKoreaRequired": true,
-    "exactSafetyKoreaRequiredForEveryIncludedProduct": true,
-    "genericRecoveryReasonForbidden": true
+  "categories": {
+    "완구": 196,
+    "구강·치발기": 72,
+    "턱받이": 9,
+    "수유용품": 54,
+    "이유식·식기": 71,
+    "위생·기저귀": 53
   },
-  "bootstrapPending": false
+  "dataSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
+  "canonicalSha256": "63a7474d717a223d954d107337a1932414a8d5c4f3db6663b0ce1509856dedd8",
+  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2",
+  "transport": "verified-csv",
+  "quarantinedCandidates": 120
 }

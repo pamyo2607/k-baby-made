@@ -4,7 +4,8 @@
   "private": true,
   "description": "대한민국 제조 0~35개월 영유아 제품 공식 근거 검증 DB",
   "scripts": {
-    "check": "python scripts/build_assets.py && python scripts/validate_data.py",
+    "check": "python3 scripts/build_assets.py && python3 scripts/validate_data.py && node --check public/app.js && node --check public/kbaby-data.js",
+    "verify:assets": "python3 scripts/validate_data.py && node --check public/app.js && node --check public/kbaby-data.js",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {

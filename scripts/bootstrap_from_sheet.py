@@ -18,7 +18,6 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/master-products.json"
-SEED = ROOT / "data/verified-seed.json"
 REPORT = ROOT / "data/bootstrap-report.json"
 SHEET_ID = "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I"
 MASTER_GID = "344727200"
@@ -73,44 +72,108 @@ def recovered_product(row: dict[str, str], index: int) -> dict:
     name = text(row, "정확한 제품명", "제품명") or f"복구 제품 {index}"
     product_urls = urls(row)
     status = "제외" if is_explicit_exclusion(row) else "보류"
+    product_id = text(row, "ID", "제품 ID") or f"RECOVER-{index:04d}"
+    certification_url = text(
+        row, "Safety Korea 상세 URL", "Safety Korea URL", "인증 상세 URL"
+    )
+    certification_number = text(row, "KC 인증번호", "KC 번호")
+    certification_status = text(row, "KC 인증상태", "인증상태")
+    certifications = []
+    if certification_url or certification_number:
+        certifications.append({
+            "found": bool(certification_number and "/release/certDetail" in certification_url),
+            "certNumber": certification_number,
+            "status": certification_status,
+            "certDate": text(row, "KC 인증일자", "인증일자"),
+            "changedDate": text(row, "KC 인증변경일자", "인증변경일자"),
+            "changedReason": text(row, "KC 인증변경사유", "인증변경사유"),
+            "certType": text(row, "KC 인증구분", "인증구분"),
+            "authority": text(row, "KC 인증기관", "인증기관"),
+            "url": certification_url,
+            "itemName": text(row, "KC 품목명", "품목명"),
+            "modelName": text(row, "KC 모델명", "공식 모델명", "모델명"),
+            "manufacturer": text(row, "KC 제조사", "제조사", "제조업체"),
+            "country": text(row, "완제품 제조국", "제조국"),
+            "importer": text(row, "KC 수입업체", "수입업체"),
+            "relatedCertificates": [
+                value.strip()
+                for value in text(row, "연관 인증번호").splitlines()
+                if value.strip()
+            ],
+        })
+    duplicate_of = text(row, "duplicateOf")
     return {
-        "id": text(row, "ID", "제품 ID") or f"RECOVER-{index:04d}",
+        "id": product_id,
+        "sequence": index,
         "category": category,
         "subtype": text(row, "세부 유형", "완구 유형"),
         "brand": brand,
         "name": name,
         "status": status,
-        "origin": text(row, "완제품 제조국", "제조국") or "확인 중",
+        "countryOfManufacture": text(row, "완제품 제조국", "제조국") or "확인 중",
         "saleStatus": text(row, "국내 판매 상태", "판매 상태") or "현재 판매 재확인 필요",
-        "age": text(row, "대상 월령", "대상연령") or "확인 중",
-        "ageBasis": text(row, "월령 근거", "대상연령 근거"),
-        "kcNumber": text(row, "KC 인증번호", "KC 번호"),
-        "kcStatus": text(row, "KC 인증상태", "인증상태"),
-        "kcDate": text(row, "KC 인증일자", "인증일자"),
+        "ageRange": text(row, "대상 월령", "대상연령") or "확인 중",
+        "ageEvidence": text(row, "월령 근거", "대상연령 근거"),
+        "kcApplicable": text(row, "KC 대상 여부"),
+        "kcNumber": certification_number,
         "kcType": text(row, "KC 인증구분", "인증구분", "적용 안전제도"),
-        "kcAuthority": text(row, "KC 인증기관", "인증기관"),
-        "kcItem": text(row, "KC 품목명", "품목명"),
-        "kcModel": text(row, "공식 모델명", "인증 모델명", "모델명"),
-        "manufacturer": text(row, "제조사", "제조업체"),
-        "safetyKoreaUrl": text(row, "Safety Korea 상세 URL", "Safety Korea URL", "인증 상세 URL"),
+        "officialModel": text(row, "KC 모델명", "공식 모델명", "인증 모델명", "모델명"),
+        "manufacturer": text(row, "KC 제조사", "제조사", "제조업체"),
+        "importer": text(row, "KC 수입업체", "수입업체"),
+        "safetyKoreaSearchUrl": certification_url,
+        "certifications": certifications,
+        "certStatusSummary": certification_status,
+        "certDateSummary": text(row, "KC 인증일자", "인증일자"),
+        "certChangedDateSummary": text(row, "KC 인증변경일자", "인증변경일자"),
+        "certChangedReasonSummary": text(row, "KC 인증변경사유", "인증변경사유"),
+        "certTypeSummary": text(row, "KC 인증구분", "인증구분"),
+        "certAuthoritySummary": text(row, "KC 인증기관", "인증기관"),
         "checkedAt": text(row, "확인일", "마지막 확인일"),
+        "platform": text(row, "확인 플랫폼"),
         "reason": text(row, "판정·검증 사유", "판정 사유", "검증 사유") or "공식 근거 재검증 대기",
-        "evidenceUrls": product_urls,
+        "officialUrls": product_urls,
+        "saleUrls": [url for url in product_urls if "safetykorea.kr" not in url],
         "quality": text(row, "데이터 품질") or "복구 데이터 · 엄격 재검증 필요",
-        "history": text(row, "누적 이력", "검증 이력") or "Google Sheet 복구",
-        "researchStatus": "전면 재검증 대기" if status == "보류" else "제외 근거 재확인 대기",
-        "group": text(row, "대시보드 그룹") or category,
+        "historySummary": text(row, "누적 이력", "검증 이력") or "Google Sheet 복구",
+        "dashboardGroup": text(row, "대시보드 그룹") or category,
+        "regulatoryRegime": text(row, "적용 안전제도"),
+        "regulatoryNote": text(row, "규제 기준 메모"),
+        "statusDisplay": text(row, "사용자 판정명"),
+        "revalidationState": text(row, "재검증 상태") or (
+            "전면 재검증 대기" if status == "보류" else "제외 근거 재확인 대기"
+        ),
+        "revalidationResolved": status != "보류",
+        "revalidationMissingFields": ["officialEvidence"] if status == "보류" else [],
+        "duplicateOf": duplicate_of,
+        "canonicalProductId": text(row, "canonicalProductId") or duplicate_of or product_id,
+        "aliases": [],
+        "archive": False,
     }
 
 
 def merge_backfill(existing: dict, recovered: dict) -> dict:
     """Preserve reviewed data and fill only blanks from the sheet."""
     merged = dict(existing)
+    intentionally_empty = {
+        "aliases", "duplicateOf", "revalidationMissingFields", "officialModel",
+        "manufacturer", "importer", "kcNumber", "certifications",
+    }
     for key, value in recovered.items():
-        if key == "evidenceUrls":
+        if key in {"officialUrls", "saleUrls"}:
             current = [str(item) for item in merged.get(key, []) if str(item).strip()]
-            incoming = [str(item) for item in value if str(item).strip()]
-            merged[key] = list(dict.fromkeys(current + incoming))
+            incoming = [
+                str(item) for item in value
+                if str(item).strip() and "/certificationsearch" not in str(item)
+            ]
+            # A nonblank reviewed local URL set is authoritative. Sheet URLs
+            # only recover a genuinely empty list; they never expand it with
+            # generic searches or older evidence.
+            if not current and incoming:
+                merged[key] = list(dict.fromkeys(incoming))
+            continue
+        if key in intentionally_empty and key in merged:
+            continue
+        if value in (None, "", [], {}):
             continue
         current = merged.get(key)
         if current in (None, "", [], {}):
@@ -138,10 +201,6 @@ def main() -> None:
         raise SystemExit(f"recovery source unexpectedly small: {len(rows)} rows")
 
     recovered_rows = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
-    verified = json.loads(SEED.read_text(encoding="utf-8")) if SEED.exists() else []
-    verified_by_id = {str(item.get("id")): item for item in verified if item.get("id")}
-    verified_by_key = {product_key(item): item for item in verified if all(product_key(item))}
-
     products = [dict(item) for item in existing]
     index_by_id = {
         str(item.get("id")): index
@@ -163,7 +222,9 @@ def main() -> None:
     for recovered in recovered_rows:
         pid = str(recovered.get("id", "")).strip()
         key = product_key(recovered)
-        if (pid and pid in seen_source_ids) or (all(key) and key in seen_source_keys):
+        if (pid and pid in seen_source_ids) or (
+            not pid and all(key) and key in seen_source_keys
+        ):
             duplicate_source_rows += 1
             continue
         if pid:
@@ -171,16 +232,7 @@ def main() -> None:
         if all(key):
             seen_source_keys.add(key)
 
-        seed = verified_by_id.get(pid) or verified_by_key.get(key)
-        if seed:
-            promoted = dict(recovered)
-            promoted.update(seed)
-            promoted["id"] = recovered["id"]
-            recovered = promoted
-
-        match_index = index_by_id.get(pid) if pid else None
-        if match_index is None and all(key):
-            match_index = index_by_key.get(key)
+        match_index = index_by_id.get(pid) if pid else index_by_key.get(key)
 
         if match_index is not None:
             products[match_index] = merge_backfill(products[match_index], recovered)

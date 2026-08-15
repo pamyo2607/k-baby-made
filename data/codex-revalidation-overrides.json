@@ -1,0 +1,623 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-08-15",
+  "policy": "공식·동일 제품 근거로 확인된 필드만 갱신하고 근거 부족은 보류로 유지",
+  "changes": [
+    {
+      "id": "TOY-20260729-043",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "reason": "Safety Korea 동일 제품 CB065R0169-9006R와 판매 상품고시에서 완제품 제조국 중국 및 수입업체 주식회사 아이존을 확인했다. 현재 판매와 3개월 이상은 확인되지만 대한민국 완제품 제조 기준을 충족하지 않아 제외한다.",
+        "quality": "동일 제품 KC·중국 제조·3개월 이상·현재 판매 교차 확인"
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065R0169-9006R",
+        "https://www.coupang.com/vp/products/7619718129",
+        "https://item.gmarket.co.kr/Item?goodscode=3559864654"
+      ],
+      "historyEntry": "2026-08-15 Codex 운영 재검증 · 포함 → 제외 · 동일 제품 중국 제조 확인"
+    },
+    {
+      "id": "TEETHER-20260801-011",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "saleStatus": "모윰 공식 제품 페이지 품절 · 판매 종료 확정 전 보류",
+        "reason": "모윰 공식 동일 제품 페이지에서 3개월 이상과 KC CB061A443-2002는 유지 확인되지만 현재 품절 상태다. 다른 현재 구매 가능 공식몰 또는 독립 판매처 근거를 확보할 때까지 보류한다.",
+        "quality": "동일 제품 KC·월령 확인 · 현재 구매 가능 근거 추가 확인 필요"
+      },
+      "officialUrls": [
+        "https://m.moyuum.com/views/shop/shopview?iniCategory=690&pack_content_id=14617&thisCategory=1124",
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2002"
+      ],
+      "historyEntry": "2026-08-15 Codex 운영 재검증 · 포함 → 보류 · 공식 제품 페이지 품절"
+    },
+    {
+      "id": "TEETHER-20260801-016",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "saleStatus": "심통 공식 제품 페이지의 현행 공식 구매 링크 및 국내 판매처 확인",
+        "ageRange": "3개월 이상",
+        "ageEvidence": "심통 공식 제품 페이지에서 권장연령 3개월 이상 확인",
+        "kcApplicable": "어린이제품 안전확인 대상",
+        "kcNumber": "CB062H022-7001R",
+        "kcType": "어린이제품 특별법 대상 · 안전확인 대상",
+        "testInstitute": "한국화학융합시험연구원(KTR)",
+        "manufacturer": "(주)심통",
+        "officialModel": "심통치발기(SIMTONG TEETHER)",
+        "regulatoryRegime": "어린이제품안전특별법 · 완구 안전확인",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB062H022-7001R&certUid=5486486",
+        "certStatusSummary": "적합",
+        "certDateSummary": "20221220",
+        "certTypeSummary": "어린이제품 특별법 대상 · 안전확인 대상",
+        "certAuthoritySummary": "한국화학융합시험연구원(KTR)",
+        "activeCertificateCount": 1,
+        "reason": "심통 공식 큐피드 손목 치발기 페이지에서 3개월 이상, KC CB062H022-7001R, 공식 구매 링크를 확인했다. Safety Korea에서 동일 인증의 적합 상태, 모델 심통치발기(SIMTONG TEETHER), 제조사 (주)심통, 제조국 대한민국, KTR 인증을 대조해 완료 처리한다.",
+        "quality": "제조사 공식 동일 제품·월령·구매 링크와 Safety Korea 적합·대한민국 제조 교차 확인"
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB062H022-7001R&certUid=5486486",
+        "https://www.simtongstory.com/product/view01.php",
+        "https://smartstore.naver.com/simtongstore/products/5240588407",
+        "https://www.11st.co.kr/products/3205331838"
+      ],
+      "certification": {
+        "found": true,
+        "certNumber": "CB062H022-7001R",
+        "status": "적합",
+        "certDate": "20221220",
+        "changedDate": "",
+        "certType": "어린이제품 특별법 대상 · 안전확인 대상",
+        "authority": "한국화학융합시험연구원(KTR)",
+        "changedReason": "",
+        "recallStatus": "해당 없음",
+        "itemName": "완구",
+        "modelName": "심통치발기(SIMTONG TEETHER)",
+        "manufacturer": "(주)심통",
+        "country": "대한민국 🇰🇷",
+        "importer": "",
+        "classification": "어린이제품 · 완구",
+        "relatedCertificates": [],
+        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB062H022-7001R&certUid=5486486"
+      },
+      "historyEntry": "2026-08-15 Codex 운영 재검증 · 보류 → 포함 · 공식 제품과 Safety Korea 동일 모델 확인"
+    },
+    {
+      "id": "TEETHER-20260801-021",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "saleStatus": "심통 공식 치즈 치발기 페이지의 현행 공식 구매 링크 확인",
+        "ageRange": "3개월 이상",
+        "ageEvidence": "심통 공식 치즈 치발기 페이지에서 권장연령 3개월 이상 확인",
+        "kcApplicable": "어린이제품 안전확인 대상",
+        "kcNumber": "CB062H022-7001R",
+        "kcType": "어린이제품 특별법 대상 · 안전확인 대상",
+        "testInstitute": "한국화학융합시험연구원(KTR)",
+        "manufacturer": "(주)심통",
+        "officialModel": "심통치발기(SIMTONG TEETHER)",
+        "regulatoryRegime": "어린이제품안전특별법 · 완구 안전확인",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB062H022-7001R&certUid=5486486",
+        "certStatusSummary": "적합",
+        "certDateSummary": "20221220",
+        "certTypeSummary": "어린이제품 특별법 대상 · 안전확인 대상",
+        "certAuthoritySummary": "한국화학융합시험연구원(KTR)",
+        "activeCertificateCount": 1,
+        "reason": "심통 공식 치즈 치발기 페이지에서 정확한 제품명, 3개월 이상, KC CB062H022-7001R, 공식 구매 링크를 확인했다. Safety Korea에서 같은 인증의 적합 상태, 모델 심통치발기(SIMTONG TEETHER), 제조사 (주)심통, 제조국 대한민국, KTR 인증을 대조해 완료 처리한다.",
+        "quality": "제조사 공식 동일 제품·월령·구매 링크와 Safety Korea 적합·대한민국 제조 교차 확인"
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB062H022-7001R&certUid=5486486",
+        "https://www.simtongstory.com/product/view03.php",
+        "https://smartstore.naver.com/simtongstore/products/5240386644"
+      ],
+      "certification": {
+        "found": true,
+        "certNumber": "CB062H022-7001R",
+        "status": "적합",
+        "certDate": "20221220",
+        "changedDate": "",
+        "certType": "어린이제품 특별법 대상 · 안전확인 대상",
+        "authority": "한국화학융합시험연구원(KTR)",
+        "changedReason": "",
+        "recallStatus": "해당 없음",
+        "itemName": "완구",
+        "modelName": "심통치발기(SIMTONG TEETHER)",
+        "manufacturer": "(주)심통",
+        "country": "대한민국 🇰🇷",
+        "importer": "",
+        "classification": "어린이제품 · 완구",
+        "relatedCertificates": [],
+        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB062H022-7001R&certUid=5486486"
+      },
+      "historyEntry": "2026-08-15 Codex 운영 재검증 · 보류 → 포함 · 공식 제품과 Safety Korea 동일 모델 확인"
+    },
+    {
+      "id": "TOY-20260729-101",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "18개월 이상 · 판매 고시 연령 문구 상충",
+        "kcNumber": "CB067R287-9004",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB067R287-9004",
+        "certStatusSummary": "적합 · 리콜 실시 중",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB067R287-9004",
+            "status": "적합",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "",
+            "recallStatus": "리콜 실시 중",
+            "itemName": "완구",
+            "modelName": "DISMT-TOY-190501",
+            "manufacturer": "",
+            "country": "중국",
+            "importer": "주식회사 동인에스엠티",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB067R287-9004"
+          }
+        ],
+        "saleStatus": "오늘의집 동일 모델 현재 국내 판매 확인",
+        "reason": "Safety Korea 적합 CB067R287-9004의 모델 DISMT-TOY-190501, 제조국 중국, 수입업체 주식회사 동인에스엠티와 제품 사진을 오늘의집 동일 상품·모델·KC에 대조했다. 연령 문구는 상충하지만 중국 완제품으로 대한민국 제조 기준에서 제외하며 리콜 진행 표시도 함께 경고한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB067R287-9004",
+        "https://store.ohou.se/goods/1416555"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 동일 모델 중국 제조 및 리콜 진행 확인"
+    },
+    {
+      "id": "TOY-20260729-117",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "이스라엘 🇮🇱",
+        "ageRange": "3개월 이상",
+        "officialModel": "MP102",
+        "kcNumber": "",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=B361U009-0002",
+        "certStatusSummary": "기간만료 · 포괄 모델",
+        "activeCertificateCount": 0,
+        "expiredCertificateCount": 1,
+        "certifications": [
+          {
+            "found": false,
+            "certNumber": "B361U009-0002",
+            "status": "기간만료 · 동일 모델 미확인",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "",
+            "authority": "",
+            "changedReason": "인증 유효기간 만료",
+            "recallStatus": "",
+            "itemName": "완구",
+            "modelName": "아가소리",
+            "manufacturer": "",
+            "country": "이스라엘",
+            "importer": "",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=B361U009-0002"
+          }
+        ],
+        "saleStatus": "공식 Halilit MP102와 국내 동일 SKU 판매 페이지 확인",
+        "reason": "Halilit 공식 Rainboshaker SKU MP102와 3개월 이상 안내를 국내 동일 SKU 판매 페이지 및 Intertek 시험보고서에 대조했다. 완제품 원산지가 이스라엘로 확인돼 대한민국 제조 기준에서 제외한다. 과거 Safety Korea B361U009-0002는 기간만료이며 포괄 모델이므로 유효 인증으로 표시하지 않는다."
+      },
+      "officialUrls": [
+        "https://trade.halilit.co.uk/products/halilit-rainboshaker",
+        "https://spmi.co.kr/product/detail.html?cate_no=309&display_group=1&product_no=2557",
+        "https://www.rompa.com/media/pdf/safety-certificate/19721.pdf",
+        "https://www.safetykorea.kr/release/certDetail?certNum=B361U009-0002"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 공식 SKU MP102 비한국 제조 확인"
+    },
+    {
+      "id": "MASTER-0188",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "태국 🇹🇭",
+        "ageRange": "0개월 이상",
+        "kcApplicable": "어린이제품 KC 해당 없음 · 식품 접촉 제품 기준 확인",
+        "regulatoryRegime": "식품위생법 · 기구 및 용기·포장 기준",
+        "saleStatus": "더블하트 공식몰 동일 3세대 PPSU 트윈팩 현재 판매 확인",
+        "reason": "더블하트 공식 3세대 PPSU 트윈팩 페이지에서 0개월부터와 원산지 태국을 확인하고 240ml 동일 제품군 판매 고시의 THAI PIGEON 제조·태국 원산지로 교차 확인했다. KC 번호 유무가 아니라 태국 완제품이므로 대한민국 제조 기준에서 제외한다."
+      },
+      "officialUrls": [
+        "https://m.doubleheart.co.kr/product/%EB%AA%A8%EC%9C%A0%EC%8B%A4%EA%B0%90-3%EC%84%B8%EB%8C%80-ppsu-%EC%83%88%EB%B2%BD%EA%B7%B8%EB%A0%88%EC%9D%B4-160ml-%ED%8A%B8%EC%9C%88%ED%8C%A9-%EC%A0%96%EA%BC%AD%EC%A7%80%EB%AF%B8%ED%8F%AC%ED%95%A8/362/display/2/",
+        "https://store.ohou.se/goods/2059700"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 공식몰 태국 제조 확인"
+    },
+    {
+      "id": "MASTER-0201",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "0개월 이상",
+        "kcNumber": "CB065R3172-26002",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065R3172-26002",
+        "certStatusSummary": "적합",
+        "certDateSummary": "2026-01-23",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB065R3172-26002",
+            "status": "적합",
+            "certDate": "2026-01-23",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "",
+            "recallStatus": "",
+            "itemName": "치아발육기",
+            "modelName": "SUAVINEX TEETHER",
+            "manufacturer": "YI SHING",
+            "country": "중국",
+            "importer": "주식회사 비앤씨컴퍼니",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065R3172-26002"
+          }
+        ],
+        "saleStatus": "SSG·11번가 동일 제품과 버터플라이 옵션 현재 판매 확인",
+        "reason": "Safety Korea 적합 CB065R3172-26002의 모델 SUAVINEX TEETHER, 중국 제조, 수입업체 비앤씨컴퍼니를 SSG 동일 제품·KC와 11번가 버터플라이 옵션에 대조했다. 현재 판매와 영아 월령은 확인되지만 중국 완제품이라 대한민국 제조 기준에서 제외한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065R3172-26002",
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000454708049",
+        "https://www.11st.co.kr/products/4742607796"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 동일 모델 중국 제조 확인"
+    },
+    {
+      "id": "MASTER-0185",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "ageRange": "3세 미만",
+        "manufacturer": "고그린라이프",
+        "kcApplicable": "어린이제품 KC 해당 없음 · 식품 접촉 제품 기준 확인",
+        "regulatoryRegime": "식품위생법 · 기구 및 용기·포장 기준",
+        "saleStatus": "롯데·SSG 동일 300ml 제품 현재 국내 판매 확인",
+        "reason": "롯데 동일 Grosmimi Feeding Bottle 300ml 및 SSG 그로미미 PPSU 300ml 페이지에서 제조국 대한민국을 교차 확인해 기존 중국 표기를 폐기했다. 다만 canonical 행의 generic SKU를 정확한 공식 모델과 연결하는 근거가 더 필요해 보류한다."
+      },
+      "officialUrls": [
+        "https://m.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=1189556667",
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000273709213",
+        "https://grosmimi.kr/category/%EC%A0%96%EB%B3%91/28/"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 중국 표기 반증 · 대한민국 제조 후보로 보류 유지"
+    },
+    {
+      "id": "RUN18-008",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "ageRange": "3개월 이상",
+        "ageEvidence": "앙쥬 공식 현행 세트와 동일 제품 판매 고시에서 3개월·6kg 이상 영유아 안내",
+      "kcNumber": "CB065B0002-9001R",
+      "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
+      "certStatusSummary": "적합",
+      "certDateSummary": "2024-04-05",
+      "activeCertificateCount": 1,
+      "expiredCertificateCount": 0,
+      "certifications": [
+        {
+          "found": true,
+          "certNumber": "CB065B0002-9001R",
+          "status": "적합",
+          "certDate": "2024-04-05",
+          "changedDate": "",
+          "certType": "안전확인",
+          "authority": "",
+          "changedReason": "",
+          "recallStatus": "",
+          "itemName": "치아발육기",
+          "modelName": "3D 딸기 치발기",
+          "manufacturer": "앙쥬 주식회사",
+          "country": "대한민국",
+          "importer": "",
+          "classification": "어린이제품",
+          "relatedCertificates": [],
+          "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
+        }
+      ],
+        "manufacturer": "앙쥬 주식회사",
+        "regulatoryRegime": "어린이제품안전특별법 · 안전확인",
+        "saleStatus": "앙쥬 공식 현행 세트의 3D 딸기 옵션 및 SSG 동일 제품 판매 확인",
+        "reason": "앙쥬 공식 3D 딸기 치발기와 현행 세트 옵션, Safety Korea 갱신 CB065B0002-9001R의 적합·대한민국 제조, SSG 동일 제품 고시를 확인해 기존 만 3세 이상·제조국 미확인 표기를 반증했다. 구번호와 갱신번호의 정확한 동일 제품 연결을 최종 확인할 때까지 보류한다."
+      },
+      "officialUrls": [
+        "http://www.angekorea.com/ko/m/products/product_view.php?it_id=1573809466",
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-%EB%94%B8%EA%B8%B0-%EA%B8%B0%EB%A6%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000538183301"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 잘못된 3세 이상·제조국 미확인 표기 정정 · 보류 유지"
+    },
+    {
+      "id": "TOY-20260729-004",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "37개월 이상",
+        "kcNumber": "CB065R0700-4013",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065R0700-4013",
+        "certStatusSummary": "적합",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB065R0700-4013",
+            "status": "적합",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "",
+            "recallStatus": "",
+            "itemName": "완구",
+            "modelName": "딸랑이 볼 미니카",
+            "manufacturer": "MINGXINBAO",
+            "country": "중국",
+            "importer": "아이윌",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065R0700-4013"
+          }
+        ],
+        "saleStatus": "공식 제품명과 국내 동일 3P 판매 페이지 확인",
+        "reason": "Safety Korea 적합 CB065R0700-4013의 딸랑이 볼 미니카·중국 제조를 YES24 동일 3P 상품의 같은 KC, 제조사 MINGXINBAO, 중국, 37개월 이상·3세 미만 사용 금지 고시에 대조했다. 대한민국 제조와 0~35개월 기준을 모두 충족하지 않아 제외한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065R0700-4013",
+        "https://www.yes24.com/product/goods/147561025",
+        "https://store.pinkfong.com/1096/",
+        "https://www.elandmall.co.kr/i/item?itemNo=2604375435&lowerVendNo=LV26021179"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 중국 제조 및 37개월 이상 확인"
+    },
+    {
+      "id": "TOY-20260729-016",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "6개월 이상",
+        "kcNumber": "CB067R1826-4003",
+        "manufacturer": "HUADA",
+        "importer": "(주)원앤원",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB067R1826-4003",
+        "certStatusSummary": "적합",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB067R1826-4003",
+            "status": "적합",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "",
+            "recallStatus": "",
+            "itemName": "유아완구",
+            "modelName": "",
+            "manufacturer": "HUADA",
+            "country": "중국",
+            "importer": "(주)원앤원",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB067R1826-4003"
+          }
+        ],
+        "saleStatus": "GS·SSG 동일 제품 현재 판매 확인",
+        "reason": "Safety Korea 적합 CB067R1826-4003의 유아완구·중국 제조를 GS와 SSG 동일 조이앤그로우 흡착 회전 딸랑이의 같은 KC, HUADA 제조, 원앤원 수입, 중국, 6개월 이상 고시에 대조했다. 중국 완제품이라 대한민국 제조 기준에서 제외한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB067R1826-4003",
+        "https://www.gsshop.com/prd/prd.gs?prdid=1060061235",
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000607623640"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 동일 제품 중국 제조 확인"
+    },
+    {
+      "id": "TOY-20260729-018",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "0~24개월",
+        "kcNumber": "CB064R650-6001",
+        "manufacturer": "비앤비플러스",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB064R650-6001",
+        "certStatusSummary": "기간만료",
+        "activeCertificateCount": 0,
+        "expiredCertificateCount": 1,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB064R650-6001",
+            "status": "기간만료",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "인증 유효기간 만료",
+            "recallStatus": "",
+            "itemName": "봉제인형",
+            "modelName": "곰 토끼 인형 딸랑이 2P",
+            "manufacturer": "비앤비플러스",
+            "country": "중국",
+            "importer": "비앤비플러스",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB064R650-6001"
+          }
+        ],
+        "saleStatus": "GS·다나와 동일 2P 제품 판매 확인",
+        "reason": "Safety Korea 기간만료 CB064R650-6001의 봉제인형·중국 제조를 GS 동일 곰 토끼 인형 딸랑이 2P의 같은 KC, 비앤비플러스, 중국, 0~24개월 고시와 다나와 동일 제품에 대조했다. 월령은 대상이지만 중국 완제품이라 제외하며 최신 유효 KC 미확인 경고를 유지한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB064R650-6001",
+        "https://www.gsshop.com/prd/prd.gs?prdid=27546432",
+        "https://prod.danawa.com/info/?pcode=20817125"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 동일 제품 중국 제조·KC 기간만료 확인"
+    },
+    {
+      "id": "TOY-20260729-025",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "10개월 이상",
+      "kcNumber": "CB063R3414-20008",
+      "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB063R3414-20008",
+      "certStatusSummary": "기간만료",
+      "activeCertificateCount": 0,
+      "expiredCertificateCount": 1,
+      "certifications": [
+        {
+          "found": true,
+          "certNumber": "CB063R3414-20008",
+          "status": "기간만료",
+          "certDate": "",
+          "changedDate": "",
+          "certType": "안전확인",
+          "authority": "",
+          "changedReason": "인증 유효기간 만료",
+          "recallStatus": "",
+          "itemName": "완구",
+          "modelName": "Classic Music(A)",
+          "manufacturer": "WOODENTOYFACTORY",
+          "country": "중국",
+          "importer": "키움하우스",
+          "classification": "어린이제품",
+          "relatedCertificates": [],
+          "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB063R3414-20008"
+        }
+      ],
+        "saleStatus": "롯데·오늘의집 동일 우든 마라카스 판매 확인",
+        "reason": "기존 KC CB063R3414-20004는 다른 퍼즐 모델이어서 폐기했다. Safety Korea CB063R3414-20008의 Classic Music(A) 인증사진에서 동일 마라카스 형상을 확인하고 롯데·오늘의집 동일 우든 마라카스의 같은 KC, 중국 제조, 10개월 이상 고시에 대조했다. KC는 기간만료이며 중국 완제품이므로 제외한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB063R3414-20008",
+        "https://office.safetykorea.kr/fileData/certInfo/2020/05/CB063R3414-20008_1.jpg",
+        "https://m.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=1832659127",
+        "https://store.ohou.se/goods/2216454"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 오염 KC 교정 및 중국 제조·기간만료 확인"
+    },
+    {
+      "id": "TOY-20260729-027",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "중국 🇨🇳",
+        "ageRange": "0개월 이상",
+        "kcNumber": "CB065R2574-4001",
+        "importer": "굿줄라이",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065R2574-4001",
+        "certStatusSummary": "적합",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB065R2574-4001",
+            "status": "적합",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "",
+            "recallStatus": "",
+            "itemName": "완구",
+            "modelName": "베니르아이 실리콘 장난감",
+            "manufacturer": "",
+            "country": "중국",
+            "importer": "굿줄라이",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065R2574-4001"
+          }
+        ],
+        "saleStatus": "운영사 공식몰 및 SSG 동일 실리콘볼 판매 확인",
+        "reason": "Safety Korea 적합 CB065R2574-4001의 베니르아이 실리콘 장난감·중국 제조·굿줄라이 수입과 인증사진을 운영사 공식몰의 베이지·민트·크림 실리콘볼 및 SSG 동일 상품고시에 대조했다. 0개월 이상이지만 중국 완제품이므로 대한민국 제조 기준에서 제외한다."
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065R2574-4001",
+        "https://kidzmall.co.kr/product/%EB%B2%A0%EB%8B%88%EB%A5%B4%EC%95%84%EC%9D%B4-%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B3%BC/1081/",
+        "https://m.ssg.com/item/appItemInfoPopup.ssg?infoType=12&itemId=1000634344113&salestrNo=6005&siteNo=6004"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 동일 제품 중국 제조 확인"
+    },
+    {
+      "id": "TOY-20260729-086",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "ageRange": "10세 이상",
+        "officialModel": "YM732",
+        "kcNumber": "",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=B362M004-8003A",
+        "certStatusSummary": "기간만료 · 동일 모델 미확인",
+        "activeCertificateCount": 0,
+        "expiredCertificateCount": 1,
+        "certifications": [
+          {
+            "found": false,
+            "certNumber": "B362M004-8003A",
+            "status": "기간만료 · 동일 모델 미확인",
+            "certDate": "",
+            "changedDate": "",
+            "certType": "",
+            "authority": "",
+            "changedReason": "인증 유효기간 만료",
+            "recallStatus": "",
+            "itemName": "완구",
+            "modelName": "YM-861-1 외11종",
+            "manufacturer": "영공방",
+            "country": "대한민국",
+            "importer": "",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=B362M004-8003A"
+          }
+        ],
+        "saleStatus": "영공방 공식 제품 주문 가능 및 동일 SKU 판매 확인",
+        "reason": "영공방 공식 미니공룡모빌 YM732의 현재 주문 가능 상태와 대한민국 제조를 확인하고 동일 SKU 판매 고시의 사용연령 10세 이상을 대조했다. 0~35개월 대상이 아니므로 제외한다. 기존 Safety Korea B362M004-8003A는 기간만료이며 공개 파생모델·사진으로 YM732 연결이 확인되지 않아 제품 KC로 확정하지 않는다."
+      },
+      "officialUrls": [
+        "https://www.youngmodeler.co.kr/272/?idx=387",
+        "https://hobbydamoa.com/product/ym732-%EC%98%81%EA%B3%B5%EB%B0%A9-%EC%95%84%EB%B9%A0%EC%99%80-%ED%95%A8%EA%BB%98-%EB%AF%B8%EB%8B%88%EA%B3%B5%EB%A3%A1%EB%AA%A8%EB%B9%8C/7366/",
+        "https://www.safetykorea.kr/release/certDetail?certNum=B362M004-8003A"
+      ],
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 공식 SKU 10세 이상 확인"
+    }
+  ]
+}

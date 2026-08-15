@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = ROOT / "data/search-provider-diagnostics.json"
-CATEGORIES = ["완구", "구강치발기", "턱받이", "수유용품", "이유식용품", "위생용품"]
+CATEGORIES = ["완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀"]
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131 Safari/537.36",
     "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.6",

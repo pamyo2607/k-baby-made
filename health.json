@@ -1,26 +1,27 @@
 {
   "status": "ok",
-  "rawRecords": 350,
-  "uniqueProducts": 350,
-  "duplicateRecords": 0,
+  "build": "20260815-live459-recovery1",
+  "rawRecords": 459,
+  "uniqueProducts": 455,
+  "duplicateRecords": 4,
+  "fullRevalidationTargetRows": 408,
+  "strict419TargetRows": 408,
   "statusCounts": {
-    "보류": 305,
-    "제외": 36,
-    "포함": 9
+    "포함": 9,
+    "보류": 399,
+    "제외": 47
   },
-  "categoryCounts": {
-    "완구": 220,
-    "구강치발기": 50,
-    "턱받이": 20,
-    "수유용품": 20,
-    "이유식용품": 20,
-    "위생용품": 20
+  "rawStatusCounts": {
+    "포함": 9,
+    "보류": 399,
+    "제외": 51
   },
-  "includedEvidenceViolations": 0,
-  "recovery": {
-    "sourceRecords": 350,
-    "previousKnownUniqueProducts": 455,
-    "missingFromCurrentRecovery": 105,
-    "complete": false
-  }
+  "sha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
+  "fallbackSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
+  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2",
+  "excludedAndDuplicate": 51,
+  "transport": "verified-csv",
+  "lastUpdated": "2026-08-15",
+  "quarantinedCandidates": 120,
+  "includedEvidenceViolations": 0
 }

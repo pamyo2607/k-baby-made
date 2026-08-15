@@ -1,15 +1,12 @@
 {
-  "inputCount": 350,
-  "outputCount": 350,
+  "status": "reset-after-live-recovery",
+  "canonicalCountUnchanged": 459,
+  "inputCount": 0,
+  "outputCount": 0,
   "removedCount": 0,
-  "remainingCandidateCount": 120,
-  "remainingCandidatesByCategory": {
-    "완구": 20,
-    "구강치발기": 20,
-    "턱받이": 20,
-    "수유용품": 20,
-    "이유식용품": 20,
-    "위생용품": 20
-  },
+  "remainingCandidateCount": 0,
+  "remainingCandidatesByCategory": {},
+  "legacyCandidatesQuarantined": 120,
+  "legacyQuarantineFile": "data/discovered-candidate-quarantine.json",
   "removed": []
 }
