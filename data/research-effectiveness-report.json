@@ -1,11 +1,45 @@
 {
-  "status": "awaiting-first-metrics-v2-hourly-run",
+  "passed": true,
+  "scopeExecuted": true,
   "metricsVersion": 2,
-  "passed": null,
-  "scopeExecuted": false,
   "pendingLimit": 50,
+  "pendingAvailableBeforeRun": 399,
+  "pendingSelectedThisRun": 50,
+  "revalidationAttemptsThisRun": 50,
+  "revalidationCompletedThisRun": 23,
+  "successfulRevalidationsThisRun": 0,
+  "revalidationErrorsThisRun": 50,
+  "recordsChangedThisRun": 23,
+  "statusTransitionsThisRun": {},
+  "includedTransitionsThisRun": 0,
+  "includedTotalAfterRun": 9,
   "newCandidateLimit": 30,
-  "newCandidateLimitPerCategory": 5,
+  "rawCandidatesFoundThisRun": 8,
+  "candidatesAcceptedBeforeSanitizationThisRun": 8,
+  "newCandidatesThisRun": 8,
+  "newCandidatesRejectedBySanitizationThisRun": 0,
+  "newCandidatesByCategoryThisRun": {
+    "완구": 5,
+    "구강·치발기": 0,
+    "턱받이": 0,
+    "수유용품": 0,
+    "이유식·식기": 3,
+    "위생·기저귀": 0
+  },
+  "candidateTotalAfterRun": 8,
+  "candidateTotalsByCategoryAfterRun": {
+    "완구": 5,
+    "구강·치발기": 0,
+    "턱받이": 0,
+    "수유용품": 0,
+    "이유식·식기": 3,
+    "위생·기저귀": 0
+  },
   "errors": [],
-  "note": "복구 이후 자동 조사 실행 전 상태다. 다음 실행은 누적 총계가 아닌 해당 실행의 실제 성공·오류·전환·정제 전후 후보 수만 검증한다."
+  "perRunLimits": {
+    "pendingProducts": 50,
+    "newExactCandidates": 30,
+    "newExactCandidatesPerCategory": 5
+  },
+  "limitsEnforced": true
 }

@@ -1,12 +1,33 @@
 {
-  "status": "reset-after-live-recovery",
   "canonicalCountUnchanged": 459,
-  "inputCount": 0,
-  "outputCount": 0,
+  "inputCount": 8,
+  "outputCount": 8,
   "removedCount": 0,
-  "remainingCandidateCount": 0,
-  "remainingCandidatesByCategory": {},
-  "legacyCandidatesQuarantined": 120,
-  "legacyQuarantineFile": "data/discovered-candidate-quarantine.json",
+  "candidateIdsDiscoveredThisRun": [
+    "DISC-0D652C02C2BE",
+    "DISC-0FFC909E7DD0",
+    "DISC-32075DE21B0B",
+    "DISC-3DA88049BA91",
+    "DISC-54435E7EE8EE",
+    "DISC-905C4994F81D",
+    "DISC-F0DAC70BB0D5",
+    "DISC-F378DA55AA82"
+  ],
+  "candidateIdsAcceptedThisRun": [
+    "DISC-0D652C02C2BE",
+    "DISC-0FFC909E7DD0",
+    "DISC-32075DE21B0B",
+    "DISC-3DA88049BA91",
+    "DISC-F378DA55AA82",
+    "DISC-54435E7EE8EE",
+    "DISC-905C4994F81D",
+    "DISC-F0DAC70BB0D5"
+  ],
+  "newCandidatesRejectedThisRun": 0,
+  "remainingCandidateCount": 8,
+  "remainingCandidatesByCategory": {
+    "완구": 5,
+    "이유식·식기": 3
+  },
   "removed": []
 }

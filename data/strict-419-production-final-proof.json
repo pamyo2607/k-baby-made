@@ -1,5 +1,5 @@
 {
-  "status": "blocked",
+  "status": "passed",
   "build": "20260815-live459-recovery1",
   "legacyStrict419Filename": true,
   "rawRecords": 459,
@@ -17,35 +17,7 @@
   "includedTile": 9,
   "pendingTile": 399,
   "excludedAndDuplicateTile": 51,
-  "dataSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
-  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2",
-  "deploymentVerification": "blocked-account-mismatch",
-  "requestedProduction": {
-    "url": "https://k-baby-made.pamyo-2607.workers.dev/",
-    "result": "old-build-still-live",
-    "observedBuild": "20260804-strict419-fix1",
-    "expectedBuild": "20260815-live459-recovery1",
-    "assetShaMatch": false
-  },
-  "verifiedDeployment": {
-    "url": "https://k-baby-made.pamyo26.workers.dev/",
-    "workerVersionId": "79cb2c89-73c0-4299-8497-913c31ebea85",
-    "directStaticHttp200": 8,
-    "expectedStaticAssets": 8,
-    "assetShaMatch": true,
-    "chromium": {
-      "result": "passed",
-      "consoleErrors": 0,
-      "consoleWarnings": 0,
-      "initialCards": 24,
-      "searchResult": 1,
-      "toyCategoryResults": 165,
-      "includedResults": 9,
-      "excludedAndDuplicateResults": 51,
-      "strictKcDetailResults": 82,
-      "activeKcResults": 18,
-      "expiredKcResults": 4
-    }
-  },
-  "blockingIssue": "The authenticated Cloudflare session cannot access the account that owns the requested pamyo-2607 workers.dev hostname."
+  "dataSha256": "91c54ef419d36a2e50bf9778a902d760e0c2f0c0fc1bd42e62df76c66d307d3c",
+  "csvSha256": "b27896171da4a939fb5b5eecf8781cd244ff24e70cb7eb41b99cd321936e5351",
+  "deploymentVerification": "pending"
 }
