@@ -1,4 +1,4 @@
-# K-Baby Made `ing` 전수 재조사 실행 프롬프트
+# K-Baby Made `ing` 50개 배치 반복 전수 재조사 프롬프트
 
 아래 내용을 새 Codex 작업의 첫 메시지로 그대로 사용한다. 실행 시점의 데이터가 기준이며, 이 문서에 적힌 예전 숫자를 기준값으로 고정하지 않는다.
 
@@ -12,12 +12,34 @@
 
 한 번의 실행 단위는 최대 50개이지만, 이 작업의 완료 조건은 첫 50개 처리가 아니다. 영속 cursor와 ID별 조사 상태를 사용해 시작 시점의 전체 보류 ID를 모두 순회할 때까지 다음 묶음을 계속 처리한다.
 
+## 고효율 50개 배치 계약
+
+시작 시점의 전체 보류 ID를 immutable `targetIdsSnapshot`으로 저장하고 숫자 인덱스가 아니라 ID 집합으로 진행률을 관리한다.
+
+```json
+{
+  "campaignId": "YYYYMMDD-HHMM-ing-all",
+  "targetIdsSnapshot": [],
+  "attemptedIds": [],
+  "remainingIds": [],
+  "currentBatchIds": [],
+  "batchSize": 50,
+  "batchIndex": 1
+}
+```
+
+각 배치는 `min(50, remainingIds.length)`개다. missing field와 주 출처 도메인으로 묶어 공유 URL cache 재사용률을 높인 뒤 서로 겹치지 않는 3개 조사 lane에 최대 17·17·16개로 배분한다. 같은 ID를 두 조사자에게 배정하지 않는다.
+
+먼저 로컬 코드로 missing fields, 기존 공식 URL, 확인일, KC 적용 여부를 필터·조인·정렬한다. 각 lane은 이미 해결된 필드를 다시 조사하지 말고 남은 필드만 조사한다. 상위 공식 근거가 판정을 충분히 지지하면 검색을 멈춘다. lane은 제품별 구조화 JSON만 반환하고 canonical patch는 coordinator 한 곳에서 ID 기반으로 한 번만 적용한다.
+
+한 배치가 검증과 동기화를 통과하면 그 결과를 즉시 게시하고 다음 배치로 진행한다. `outcome ID 집합 == currentBatchIds`가 아니면 배치 전체를 반영하지 않는다. `remainingIds=[]`는 `coverageComplete`일 뿐이며, 모든 대상이 `포함|제외`가 되어 보류가 0일 때만 `resolutionComplete`다. `attemptedIds`는 조사 시도 수이고 `포함` 수가 아니다.
+
 ## 운영 대상
 
 - 저장소: `pamyo2607/k-baby-made`
 - canonical: `data/master-products.json`
 - 조사 큐: `data/revalidation-queue.json`
-- 실행 상태: `data/continuous-research-state.json`
+- 전용 campaign checkpoint: `data/campaign-ing-revalidation.json`
 - Google Sheet ID: `1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I`
 - 운영 URL: `https://k-baby-made.pamyo26.workers.dev/`
 
@@ -33,7 +55,13 @@ GitHub 사용자명과 Workers 서브도메인은 별개다. `pamyo-2607` GitHub
 4. Google Sheet의 현재 ID·판정·행 위치
 5. 운영 `meta.json`, `health.json`, 정적 자산 SHA와 UI 통계
 
-기존 미커밋 변경, 제품 ID, 원문 판정 사유, 누적 이력, 사용자 입력값을 삭제하거나 초기화하지 않는다.
+기존 미커밋 변경, 제품 ID, 원문 판정 사유, 누적 이력, 사용자 입력값을 삭제하거나 초기화하지 않는다. 시간당 runner가 덮어쓰는 `data/continuous-research-state.json`에 campaign 상태를 저장하지 않는다.
+
+## 실행 전 호환성·잠금 gate
+
+현재 validator가 과거 고정 449·상태·카테고리·currentSale·queue·build만 허용하면 정상 `보류→포함|제외` 전환도 실패한다. 첫 제품 변경 전에 고정 숫자를 `실행 전 기준선 + 검증된 batch delta`, 상태합, 연속 sequence, ID 집합, 중복 0, queue 재계산, 동적 build/SHA 불변식으로 바꾸고 회귀 테스트한다. 품질 기준은 낮추지 않는다.
+
+시간당 Action과 수동 campaign의 동시 쓰기를 막는 공용 gate도 먼저 구현한다. workflow가 origin/main의 `data/manual-research-lock.json`을 확인해 활성 lock이면 쓰기 단계를 건너뛰게 한다. 실행 순서는 `lock 획득 제어 커밋 → 조사·Sheet·배포·proof → 조사 데이터+proof 단일 커밋 → lock 해제 제어 커밋`이다. lock에는 `campaignId`, owner, baseSha, createdAt, expiresAt을 기록하며 실행 중 Action 0건과 원격 lock readback 뒤에만 시작한다. TTL 만료 lock은 원격 상태를 사람이 확인하기 전 자동 해제하지 않는다.
 
 ## 조사 우선순위
 
@@ -157,6 +185,8 @@ git diff --check
 
 각 묶음과 전체 전수조사에 다음을 분리해 기록한다.
 
+- campaign ID, batch index, immutable target ID 수
+- currentBatchIds, attemptedIds, remainingIds
 - 시작 보류 수와 시작 대상 ID 수
 - 선택·시도·공식 근거 확인·실패 수
 - 보류→포함, 보류→제외, 보류 유지 수
@@ -172,6 +202,6 @@ git diff --check
 
 상위 출처에서 필수 사실이 충분히 확인되면 불필요한 검색을 멈춘다. 일시 오류는 최대 두 번 의미 있게 재시도하고 그래도 실패하면 row를 보존한 채 다음 ID로 진행한다.
 
-최종 완료 선언은 시작 시점의 모든 보류 ID가 최소 한 번 조사되고, 모든 변경이 검증·Sheet·GitHub·Cloudflare·Chromium에 일치할 때만 한다. 여전히 보류인 제품은 실패로 숨기지 말고 정확한 blocker와 다음 조사 경로를 보고한다.
+배치 완료는 현재 batch의 모든 ID가 결과 계약을 충족하고 변경이 검증·Sheet·GitHub·Cloudflare·Chromium에 일치할 때다. 시작 대상 전체를 최소 한 번 조사해 `remainingIds=[]`이면 `coverageComplete`라고만 보고한다. 시작 대상이 모두 `포함|제외`이고 보류가 0일 때만 `resolutionComplete` 또는 “ING 전수 해결 완료”라고 선언한다. 여전히 보류인 제품은 정확한 blocker와 다음 조사 경로를 보고하고 다음 재조사 cycle 대상으로 넘긴다.
 
 지금 설명만 하지 말고 기준선 조사부터 실행하라.

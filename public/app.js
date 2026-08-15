@@ -413,7 +413,11 @@ function activeFilters() {
 }
 
 function updates() {
-  const items = S.history.filter(item => item.productId).sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 10);
+  const activeProductIds = new Set(S.products.filter(product => !product.duplicateOf).map(product => product.id));
+  const items = S.history
+    .filter(item => activeProductIds.has(item.productId) && Object.hasOwn(STATUS_LABELS, item.newStatus))
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)))
+    .slice(0, 10);
   $("updatesList").innerHTML = items.map(item => `<article><time>${esc(item.date)}</time><strong>${esc(item.productName || item.productId)}</strong><p>${esc(item.summary || item.reason || "")}</p></article>`).join("");
 }
 

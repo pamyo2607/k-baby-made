@@ -75,10 +75,11 @@ Google Sheet와 운영 배포를 확인한 최종 릴리스에서는 `npm run ve
 
 ## 운영 프롬프트
 
-- [`prompts/ing-full-revalidation.md`](prompts/ing-full-revalidation.md): 실행 시작 시점의 모든 `보류` ID를 누락 없이 순회하고, 공식 근거가 충족된 행만 `포함` 또는 `제외`로 전환하는 전수 재조사 프롬프트
-- [`prompts/continuous-new-product-research.md`](prompts/continuous-new-product-research.md): 신규 후보를 실행당 전체 30개·카테고리당 5개 이내로 staging하고, exact identity·중복·범위·공식 근거 검증 뒤에만 canonical로 승격하는 지속 조사 프롬프트
+- [`prompts/efficient-research-50-cycle.md`](prompts/efficient-research-50-cycle.md): `ing` 최대 50개 재검증과 신규 canonical 승격 50개를 한 작업에서 조정하는 복사·실행용 통합 프롬프트
+- [`prompts/ing-full-revalidation.md`](prompts/ing-full-revalidation.md): 시작 시점의 모든 `보류` ID를 immutable ID 집합으로 고정하고, 50개 배치를 반복해 공식 근거가 충족된 행만 `포함` 또는 `제외`로 전환하는 전수 재조사 프롬프트
+- [`prompts/continuous-new-product-research.md`](prompts/continuous-new-product-research.md): 신규 `포함` canonical 50개를 campaign 목표로 삼고, 웨이브당 최대 30개를 반복해 staging·identity·중복·범위·공식 근거·승격을 검증하는 지속 조사 프롬프트
 
-두 프롬프트 모두 현재 데이터에서 숫자를 다시 계산하며, 완료 수를 늘리기 위해 판정 기준을 낮추지 않습니다. 시간당 GitHub Actions는 동일한 상한과 fail-closed 규칙을 코드로 집행합니다.
+모든 프롬프트는 현재 데이터에서 숫자를 다시 계산하며, 완료 수를 늘리기 위해 판정 기준을 낮추지 않습니다. 시간당 GitHub Actions의 한 실행은 기존대로 신규 후보 30개·카테고리당 5개를 staging하는 fail-closed 계약입니다. 수동 신규 50개 campaign은 이 상한을 우회하지 않고 여러 웨이브를 조정하며, canonical에 실제 승격된 고유 ID만 50개에 포함합니다.
 
 ## Cloudflare 배포
 

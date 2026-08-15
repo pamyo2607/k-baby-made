@@ -21,9 +21,9 @@
   "csvSha256": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e",
   "deploymentVerification": "passed",
   "verifiedDeployment": {
-    "verifiedAt": "2026-08-15T20:21:28+09:00",
+    "verifiedAt": "2026-08-15T21:43:43+09:00",
     "url": "https://k-baby-made.pamyo26.workers.dev/",
-    "cloudflareVersionId": "4b2cdccf-1da1-4059-a36d-99c7c7249aa8",
+    "cloudflareVersionId": "f0932923-595a-473f-a37a-6fa9242a9639",
     "artifactMatchesCurrentBuild": true,
     "http200": [
       "/",
@@ -39,7 +39,7 @@
     ],
     "sha256": {
       "index.html": "6bf233f9037d2cfeb86bedbd63eaeb2a9537715aee06b5304042685c1618e1a8",
-      "app.js": "4fc345182000e437c960416779c47e34bb261e316664c6dbf268295cdc4b4c3f",
+      "app.js": "d4ab75b94625c31735a8f19ef1fc924354f048a554cf488b38a4d605d0fe7e95",
       "styles.css": "e9cb41f14f0517393b608f923d6c2b4dd54815ffdad0a0f9a238366c98e87661",
       "kbaby-data.js": "60fe1ce6930b1ac32859ec34166c991d70918c1fc1e53811c962468b16a69036",
       "csv": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e",
@@ -58,15 +58,12 @@
       "includedFilter": 21,
       "pendingFilter": 382,
       "excludedAndDuplicateFilter": 46,
-      "legacyDeletedIdSearches": 10,
-      "legacyDeletedIdSearchesMappedToRetainedCanonical": 10,
-      "retainedCompletedProduct": "RUN18-008",
-      "exactKcDetail": "passed",
+      "recentVerificationEntries": 10,
+      "recentMaintenanceEntriesVisible": 0,
       "autoSyncAfter30Seconds": "passed",
       "consoleScope": "current build 20260815-dedup449-final1",
       "consoleErrors": 0,
-      "consoleWarnings": 0,
-      "historicalWarningsFromSupersededBuild": 17
+      "consoleWarnings": 0
     }
   }
 }

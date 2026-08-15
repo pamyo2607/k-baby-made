@@ -12,6 +12,7 @@
 - 자동 조사에서는 기존 보류 제품 최대 50개와 신규 후보 최대 30개만 다룬다. 새 후보는 exact product identity를 확인하기 전 canonical DB에 넣지 않는다.
 - 빌드와 검증이 모두 통과하지 않으면 생성물을 커밋하거나 배포하지 않는다. 네트워크 일시 오류를 데이터 판정으로 바꾸지 않는다.
 - 배포 뒤 운영 정적 파일의 SHA-256과 Chromium 초기화, 24개 카드, 검색·필터·상세·KC 필드·공식 링크를 실제로 검증한다.
+- 운영 UI의 `최근 검증 업데이트`에는 현재 활성 제품의 판정·근거 변경만 표시한다. 중복 삭제, 백업, 동기화, 배포, batch 요약 같은 유지보수 이력은 proof·tombstone·내부 감사에는 보존하되 공개 최근 검증 목록에는 표시하지 않는다.
 - `.env`, API key, 토큰, cookie, session, credential, authorization header를 저장소·proof·로그에 기록하지 않는다.
 
 기본 검증 명령은 `npm run check`다. 배포 전 `npm run verify:assets`와 `npx wrangler deploy --dry-run`도 실행한다.
