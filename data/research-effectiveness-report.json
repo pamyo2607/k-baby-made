@@ -11,8 +11,11 @@
   "revalidationErrorsThisRun": 50,
   "recordsChangedThisRun": 23,
   "statusTransitionsThisRun": {},
+  "researchOutcome": "partial-evidence-only",
   "includedTransitionsThisRun": 0,
   "includedTotalAfterRun": 9,
+  "snapshotMatchesCanonical": false,
+  "snapshotMatchesStaging": false,
   "newCandidateLimit": 30,
   "rawCandidatesFoundThisRun": 8,
   "candidatesAcceptedBeforeSanitizationThisRun": 8,
@@ -35,11 +38,5 @@
     "이유식·식기": 3,
     "위생·기저귀": 0
   },
-  "errors": [],
-  "perRunLimits": {
-    "pendingProducts": 50,
-    "newExactCandidates": 30,
-    "newExactCandidatesPerCategory": 5
-  },
-  "limitsEnforced": true
+  "errors": []
 }

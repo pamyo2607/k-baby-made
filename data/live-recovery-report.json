@@ -16,44 +16,38 @@
     "pending": 305,
     "uniqueExcluded": 32
   },
-  "concurrentRemoteMainDuringRecovery": {
-    "sha": "7d211dc586736b4021eacb4eae28ae9478fbdccb",
-    "rawRecords": 573,
-    "distinctIds": 573,
-    "legacyCandidates": 120,
-    "nonCandidateRows": 453,
-    "uniqueProductsAfterKnownDuplicateMapping": 449,
-    "finding": "복구 중 구 자동 워크플로가 Sheet를 다시 부트스트랩했지만 ID 대신 제품 키로 6개 행을 잘못 합치고 120개 오염 후보를 유지했다. 원격 커밋 이력은 보존하되 데이터는 검증된 459행 canonical로 대체한다."
-  },
-  "recoveryRunInputSha256": "0e0cba068333f31816b0bfd8cf1a190f7093ba6207f9648beab348b07700e312",
+  "recoveryRunInputSha256": "b0f722bac30c53c2e07acbd0b588f1485e7ca2c705577a5b7309827261aca4be",
   "recoveryRunInputRecords": 459,
   "quarantinedNonProducts": 120,
-  "reviewedOverrides": 16,
+  "reviewedOverrides": 42,
+  "normalizedNonKcRecords": 130,
+  "newlyStructuredDuplicateRecords": 6,
   "statusTransitions": {
-    "보류→보류": 2,
-    "보류→제외": 10,
-    "보류→포함": 2,
-    "포함→보류": 1,
-    "포함→제외": 1
+    "보류→보류": 11,
+    "보류→제외": 15,
+    "보류→포함": 13,
+    "제외→제외": 1,
+    "포함→제외": 1,
+    "포함→포함": 1
   },
   "changedFieldCounts": {
-    "ageRange": 10,
-    "countryOfManufacture": 2,
-    "importer": 1,
-    "kcNumber": 4,
-    "manufacturer": 4,
-    "saleStatus": 15,
-    "status": 14
+    "ageRange": 29,
+    "countryOfManufacture": 12,
+    "importer": 23,
+    "kcNumber": 24,
+    "manufacturer": 25,
+    "saleStatus": 35,
+    "status": 29
   },
   "reviewedEvidenceMetrics": {
-    "countryOfManufactureReviewed": 15,
-    "currentSaleReviewed": 14,
+    "countryOfManufactureReviewed": 37,
+    "currentSaleReviewed": 35,
     "kcNumberNewOrCorrected": 2,
-    "manufacturerOrImporterReviewed": 7,
-    "officialAgeReviewed": 14,
-    "safetyKoreaSameModelReviewed": 11
+    "manufacturerOrImporterReviewed": 29,
+    "officialAgeReviewed": 36,
+    "safetyKoreaSameModelReviewed": 14
   },
   "finalRawRecords": 459,
-  "finalUniqueProducts": 455,
-  "duplicateRecords": 4
+  "finalUniqueProducts": 449,
+  "duplicateRecords": 10
 }

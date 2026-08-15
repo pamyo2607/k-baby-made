@@ -29,7 +29,8 @@ LIVE_URL = "https://k-baby-made.pamyo-2607.workers.dev/kbaby-data.js?recovery=20
 LIVE_CSV_URL = "https://k-baby-made.pamyo-2607.workers.dev/data/master-db-419-final.csv?recovery=20260815"
 EXPECTED_BUILD = "20260804-strict419-fix1"
 EXPECTED_RAW = 459
-EXPECTED_UNIQUE = 455
+EXPECTED_SOURCE_UNIQUE = 455
+EXPECTED_UNIQUE = 449
 EXPECTED_DATA_SHA = "077d487e57f585c2954de2639922ec4fb9aefb7e28e8de71fb351a3699b528b7"
 EXPECTED_SCRIPT_SHA = "3acd800d737b9077e5fdcb5a2fd148c6f4ba03ad1ce9c564654ddd8ac3404088"
 EXPECTED_CSV_SHA = "9edfbc3526cfb38e297b3ad9893fcdf6573100cd1f1a8a0a9688ca0cb69bde43"
@@ -41,6 +42,16 @@ DUPLICATES = {
     "TOY-20260729-124": "TOY-20260729-123",
     "TOY-20260729-125": "TOY-20260729-053",
     "TOY-20260729-155": "TOY-20260729-154",
+    "TEETHER-20260801-015": "RUN18-008",
+    "RUN18-011": "MASTER-0195",
+    "TEETHER-20260801-005": "MASTER-0195",
+    "RUN18-013": "MASTER-0196",
+    "RUN18-012": "MASTER-0197",
+    "TEETHER-20260801-026": "MASTER-0135",
+}
+NEWLY_STRUCTURED_DUPLICATES = {
+    "TEETHER-20260801-015", "RUN18-011", "TEETHER-20260801-005",
+    "RUN18-013", "RUN18-012", "TEETHER-20260801-026",
 }
 
 
@@ -214,6 +225,36 @@ def kc_applies(product: dict) -> bool:
     return bool(re.search(r"어린이제품|완구|안전확인|안전인증|공급자적합|전기용품", text))
 
 
+def declared_non_kc(product: dict) -> bool:
+    text = " ".join(
+        str(product.get(key, ""))
+        for key in ("kcApplicable", "regulatoryRegime")
+    )
+    return bool(re.search(r"비대상|해당\s*없음", text))
+
+
+def normalize_non_kc_certification(product: dict) -> None:
+    """Remove inherited Safety Korea placeholders from explicit non-KC rows."""
+    if not declared_non_kc(product):
+        return
+    product.update({
+        "kcNumber": "",
+        "kcType": "",
+        "testInstitute": "",
+        "safetyKoreaSearchUrl": "",
+        "certStatusSummary": "KC 비대상",
+        "certDateSummary": "",
+        "certTypeSummary": "",
+        "certAuthoritySummary": "",
+        "certChangedDateSummary": "",
+        "certChangedReasonSummary": "",
+        "activeCertificateCount": 0,
+        "expiredCertificateCount": 0,
+        "certifications": [],
+        "certificationEvidenceLevel": "not-applicable",
+    })
+
+
 def missing_fields(product: dict) -> list[str]:
     if product.get("status") == "제외" or product.get("duplicateOf"):
         return []
@@ -256,6 +297,16 @@ def apply_override(product: dict, change: dict) -> None:
     product.update(change.get("fields", {}))
     product["officialUrls"] = unique_urls(change.get("officialUrls"), product.get("officialUrls"))
     product["saleUrls"] = unique_urls(change.get("saleUrls"), product.get("saleUrls"), change.get("officialUrls"))
+    removed_urls = {
+        str(value).strip() for value in change.get("removeUrls", []) if str(value).strip()
+    }
+    if removed_urls:
+        product["officialUrls"] = [
+            url for url in product["officialUrls"] if url not in removed_urls
+        ]
+        product["saleUrls"] = [
+            url for url in product["saleUrls"] if url not in removed_urls
+        ]
     certification = change.get("certification")
     if isinstance(certification, dict):
         product["certifications"] = [certification]
@@ -349,7 +400,11 @@ def main() -> None:
         if safety_urls and not uncertainty:
             reviewed_metrics["safetyKoreaSameModelReviewed"] += 1
 
+    normalized_non_kc = 0
     for product in products:
+        if declared_non_kc(product):
+            normalize_non_kc_certification(product)
+            normalized_non_kc += 1
         product["revalidationMissingFields"] = missing_fields(product)
         product["strict419Applied"] = product.get("status") == "보류"
         product["strict419Status"] = (
@@ -375,7 +430,7 @@ def main() -> None:
         "sourceScriptSha256": EXPECTED_SCRIPT_SHA,
         "sourceDecodedSha256": EXPECTED_DATA_SHA,
         "sourceRawRecords": EXPECTED_RAW,
-        "sourceUniqueProducts": EXPECTED_UNIQUE,
+        "sourceUniqueProducts": EXPECTED_SOURCE_UNIQUE,
         "repositoryBaseline": {
             "mainSha": "01900b1050ee866cc646b283c5d63a9fd254a5cb",
             "rawRecords": 350,
@@ -389,6 +444,8 @@ def main() -> None:
         "recoveryRunInputRecords": len(previous),
         "quarantinedNonProducts": len(quarantine),
         "reviewedOverrides": len(override_doc.get("changes", [])),
+        "normalizedNonKcRecords": normalized_non_kc,
+        "newlyStructuredDuplicateRecords": len(NEWLY_STRUCTURED_DUPLICATES),
         "statusTransitions": dict(sorted(transitions.items())),
         "changedFieldCounts": dict(sorted(changed_fields.items())),
         "reviewedEvidenceMetrics": dict(sorted(reviewed_metrics.items())),

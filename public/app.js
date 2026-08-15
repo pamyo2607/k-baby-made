@@ -25,6 +25,10 @@ const normalizeKcNumber = value => {
   const number = String(value || "").trim();
   return /^[A-Z]{1,3}\d[A-Z0-9-]{5,}[A-Z0-9]$/i.test(number) ? number.toUpperCase() : "";
 };
+const declaredNonKc = product => /비대상|해당\s*없음/.test([
+  product?.kcApplicable,
+  product?.regulatoryRegime
+].filter(Boolean).join(" "));
 const matchingSafetyKoreaDetailUrl = (certNumber, ...values) => {
   const expected = normalizeKcNumber(certNumber);
   if (!expected) return "";
@@ -45,6 +49,12 @@ const safetyKoreaDetailLink = (...values) => {
     : '<span class="safetykorea-link safetykorea-unavailable" aria-disabled="true">정확한 Safety Korea 상세 URL 확인 중</span>';
 };
 function safetyInfo(product) {
+  if (declaredNonKc(product)) {
+    return {
+      regime: product.regulatoryRegime || product.kcApplicable || "KC 비대상 · 제품별 적용 법령 확인",
+      detail: "어린이제품 KC 비대상 · 해당 제품의 적용 법령과 공식 근거로 검증"
+    };
+  }
   const info = certificationInfo(product);
   const numbers = info.found.map(item => item.certNumber).filter(Boolean);
   return {
@@ -59,6 +69,17 @@ function formatCertDate(value) {
   return text.length === 8 ? `${text.slice(0, 4)}.${text.slice(4, 6)}.${text.slice(6, 8)}` : (value || "확인 중");
 }
 function certificationInfo(product) {
+  if (declaredNonKc(product)) {
+    return {
+      certifications: [],
+      found: [],
+      primaryStatus: "비대상",
+      statusClass: "cert-not-applicable",
+      certDate: "해당 없음",
+      certType: "해당 없음",
+      authority: "해당 없음"
+    };
+  }
   const certifications = Array.isArray(product.certifications) ? product.certifications : [];
   const found = certifications.filter(item => item?.found === true && matchingSafetyKoreaDetailUrl(
     item.certNumber,
@@ -80,6 +101,7 @@ function certificationInfo(product) {
 }
 function certificationCards(product) {
   const info = certificationInfo(product);
+  if (declaredNonKc(product)) return `<div class="cert-empty"><strong>KC 비대상</strong><p>${esc(safetyInfo(product).regime)}에 따라 검증하며 Safety Korea 인증번호를 필수로 요구하지 않습니다.</p></div>`;
   if (!info.certifications.length) return `<div class="cert-empty"><strong>Safety Korea 상세 확인 중</strong><p>${esc(product.kcNumber || "인증번호 미확인")}</p>${safetyKoreaDetailLink(product.safetyKoreaSearchUrl, product.officialUrls)}</div>`;
   return info.certifications.map(cert => {
     const related = (cert.relatedCertificates || []).map(item => `<li><span>${esc(item.certNumber)}</span><strong class="${item.status === "적합" ? "text-active" : item.status === "기간만료" ? "text-expired" : ""}">${esc(item.status)}</strong></li>`).join("");
@@ -223,7 +245,7 @@ function bounds(text) {
 
 const ageFit = (product, months) => { const range = bounds(product.ageRange); return range ? months >= range.min && months <= range.max : null; };
 const SALE_STATUS_BLOCKED = /재검증|확인\s*(?:필요|중)|미확인|품절|종료|단종|직구|구매\s*불가/;
-const SALE_STATUS_CONFIRMED = /판매.*확인|구매.*(?:링크|가능|확인)/;
+const SALE_STATUS_CONFIRMED = /판매.*확인|구매.*(?:링크|가능|확인)|주문.*(?:가능|확인)/;
 const current = product => {
   const saleStatus = String(product.saleStatus || "");
   return !product.archive
@@ -232,7 +254,7 @@ const current = product => {
     && !SALE_STATUS_BLOCKED.test(saleStatus)
     && SALE_STATUS_CONFIRMED.test(saleStatus);
 };
-const evidence = product => (product.kcNumber && product.kcNumber !== "미확인" ? 3 : 0) + (product.officialUrls?.length ? 2 : 0) + (product.countryOfManufacture && !/미확인/.test(product.countryOfManufacture) ? 1 : 0) + (product.ageEvidence && !/부족|재검증/.test(product.ageEvidence) ? 1 : 0);
+const evidence = product => (declaredNonKc(product) ? (product.regulatoryRegime ? 3 : 0) : (normalizeKcNumber(product.kcNumber) ? 3 : 0)) + (product.officialUrls?.length ? 2 : 0) + (product.countryOfManufacture && !/미확인/.test(product.countryOfManufacture) ? 1 : 0) + (product.ageEvidence && !/부족|재검증/.test(product.ageEvidence) ? 1 : 0);
 const blob = product => norm([product.id, product.name, product.brand, product.manufacturer, product.officialModel, product.officialSku, product.kcNumber, product.certStatusSummary, product.certTypeSummary, product.certAuthoritySummary, product.countryOfManufacture, product.subtype, ...(product.aliases || [])].join(" "));
 
 function filters() {
@@ -260,7 +282,8 @@ function list() {
     if (filter.kc === "verified" && !certificationInfo(product).found.length) return false;
     if (filter.kc === "active" && !certificationInfo(product).found.some(item => item.status === "적합")) return false;
     if (filter.kc === "expired" && !certificationInfo(product).found.some(item => item.status === "기간만료")) return false;
-    if (filter.kc === "checking" && certificationInfo(product).found.length) return false;
+    if (filter.kc === "checking" && (certificationInfo(product).found.length || declaredNonKc(product))) return false;
+    if (filter.kc === "not-applicable" && !declaredNonKc(product)) return false;
     if (filter.quality === "high" && evidence(product) < 4) return false;
     if (filter.quality === "checking" && evidence(product) >= 4) return false;
     if (filter.age === "verified" && !bounds(product.ageRange)) return false;
@@ -404,7 +427,12 @@ function detail(id) {
   const urls = uniq([...(product.officialUrls || []), ...(product.saleUrls || [])]);
   const cell = (key, value) => `<div><span>${key}</span><strong>${esc(value || "확인 중")}</strong></div>`;
   const cert = certificationInfo(product);
-  $("detailContent").innerHTML = `<div class="detail-body"><div class="card-badges"><span class="badge ${product.status === "포함" ? "included" : product.status === "보류" ? "pending" : "excluded"}">${displayStatus(product.status)}</span><span class="cert-status ${cert.statusClass}">KC ${esc(cert.primaryStatus)}</span></div><h2 class="detail-title">${esc(product.name)}</h2><p>${esc(product.brand)} · ${esc(product.category)} · ${esc(product.subtype)}</p><section class="detail-section"><h3>한눈에 보기</h3><div class="detail-grid">${cell("판정", displayStatus(product.status))}${cell("대상 월령", product.ageRange)}${cell("국내 판매 상태", product.saleStatus)}${cell("완제품 제조국", product.countryOfManufacture)}${cell("최근 확인일", product.checkedAt)}</div></section><section class="detail-section"><h3>Safety Korea 인증 상세</h3><p class="section-note">인증번호별 인증상태와 인증일자와 인증구분과 변경 이력을 Safety Korea 공식 상세에서 확인합니다.</p><div class="certification-list">${certificationCards(product)}</div></section><section class="detail-section"><h3>적용 안전제도와 근거</h3><div class="detail-grid">${cell("적용 안전제도", safetyInfo(product).regime)}${cell("인증·신고 정보", safetyInfo(product).detail)}${cell("시험기관", product.testInstitute)}${cell("KC 대상 여부", product.kcApplicable)}</div><div class="source-links">${urls.map((url, index) => `<a href="${esc(url)}" target="_blank" rel="noopener">근거 자료 ${index + 1} 열기 ↗</a>`).join("") || "공식 URL 보강 중"}</div></section><section class="detail-section"><h3>판정 이유</h3><p>${esc(product.reason)}</p></section><section class="detail-section"><h3>검증 변경 이력</h3>${history.map(item => `<div class="history-item"><strong>${esc(item.date)} · ${esc(displayStatus(item.newStatus || product.status))}</strong><p>${esc(item.summary || item.reason)}</p></div>`).join("") || `<p>${esc(product.historySummary || "변경 이력 보강 중")}</p>`}</section></div>`;
+  const nonKc = declaredNonKc(product);
+  const certificationHeading = nonKc ? "KC 적용 여부" : "Safety Korea 인증 상세";
+  const certificationNote = nonKc
+    ? "KC 비대상 제품은 해당 품목의 적용 법령과 공식 제품 근거로 검증합니다."
+    : "인증번호별 인증상태와 인증일자와 인증구분과 변경 이력을 Safety Korea 공식 상세에서 확인합니다.";
+  $("detailContent").innerHTML = `<div class="detail-body"><div class="card-badges"><span class="badge ${product.status === "포함" ? "included" : product.status === "보류" ? "pending" : "excluded"}">${displayStatus(product.status)}</span><span class="cert-status ${cert.statusClass}">KC ${esc(cert.primaryStatus)}</span></div><h2 class="detail-title">${esc(product.name)}</h2><p>${esc(product.brand)} · ${esc(product.category)} · ${esc(product.subtype)}</p><section class="detail-section"><h3>한눈에 보기</h3><div class="detail-grid">${cell("판정", displayStatus(product.status))}${cell("대상 월령", product.ageRange)}${cell("국내 판매 상태", product.saleStatus)}${cell("완제품 제조국", product.countryOfManufacture)}${cell("최근 확인일", product.checkedAt)}</div></section><section class="detail-section"><h3>${certificationHeading}</h3><p class="section-note">${certificationNote}</p><div class="certification-list">${certificationCards(product)}</div></section><section class="detail-section"><h3>적용 안전제도와 근거</h3><div class="detail-grid">${cell("적용 안전제도", safetyInfo(product).regime)}${cell("인증·신고 정보", safetyInfo(product).detail)}${cell("시험기관", nonKc ? "해당 없음" : product.testInstitute)}${cell("KC 대상 여부", product.kcApplicable)}</div><div class="source-links">${urls.map((url, index) => `<a href="${esc(url)}" target="_blank" rel="noopener">근거 자료 ${index + 1} 열기 ↗</a>`).join("") || "공식 URL 보강 중"}</div></section><section class="detail-section"><h3>판정 이유</h3><p>${esc(product.reason)}</p></section><section class="detail-section"><h3>검증 변경 이력</h3>${history.map(item => `<div class="history-item"><strong>${esc(item.date)} · ${esc(displayStatus(item.newStatus || product.status))}</strong><p>${esc(item.summary || item.reason)}</p></div>`).join("") || `<p>${esc(product.historySummary || "변경 이력 보강 중")}</p>`}</section></div>`;
   $("detailDialog").showModal();
 }
 
@@ -642,7 +670,7 @@ async function init() {
   try {
     const embedded = window.KBABY_DATA;
     if (!embedded?.fallback) throw new Error("내장 검증 DB가 없습니다.");
-    if (!["20260802-full-revalidation2", "20260802-full-revalidation3", "20260804-strict419", "20260804-strict419-fix1", "20260815-live459-recovery1"].includes(embedded.build)) throw new Error(`빌드 불일치: ${embedded.build}`);
+    if (!["20260802-full-revalidation2", "20260802-full-revalidation3", "20260804-strict419", "20260804-strict419-fix1", "20260815-live459-recovery1", "20260815-live459-recovery2"].includes(embedded.build)) throw new Error(`빌드 불일치: ${embedded.build}`);
     KBABY_EXPECTED_RAW = Number(embedded.validation?.rawRecords || embedded.fallback?.records || 0);
     KBABY_EXPECTED_UNIQUE = Number(embedded.validation?.uniqueProducts || 0);
     if (!Number.isInteger(KBABY_EXPECTED_RAW) || KBABY_EXPECTED_RAW < 1 || !Number.isInteger(KBABY_EXPECTED_UNIQUE) || KBABY_EXPECTED_UNIQUE < 1) throw new Error("내장 검증 메타데이터 불일치");
@@ -870,6 +898,9 @@ $("detailDialog").addEventListener("close", () => kbabyDialogReturnFocus?.focus(
 
   certificationCards = function certificationCardsWithLiveFields(product) {
     const info = certificationInfo(product);
+    if (declaredNonKc(product)) {
+      return `<div class="cert-empty"><strong>KC 비대상</strong><p>${esc(safetyInfo(product).regime)}에 따라 검증하며 Safety Korea 인증번호를 필수로 요구하지 않습니다.</p></div>`;
+    }
     if (!info.certifications.length) {
       return `<div class="cert-empty"><strong>Safety Korea 상세 확인 중</strong><p>${esc(product.kcNumber || "인증번호 미확인")}</p>${safetyKoreaDetailLink(product.safetyKoreaSearchUrl, product.officialUrls)}</div>`;
     }

@@ -1,25 +1,25 @@
 {
   "status": "ok",
-  "build": "20260815-live459-recovery1",
+  "build": "20260815-live459-recovery2",
   "rawRecords": 459,
-  "uniqueProducts": 455,
-  "duplicateRecords": 4,
-  "fullRevalidationTargetRows": 408,
-  "strict419TargetRows": 408,
+  "uniqueProducts": 449,
+  "duplicateRecords": 10,
+  "fullRevalidationTargetRows": 403,
+  "strict419TargetRows": 403,
   "statusCounts": {
-    "포함": 9,
-    "보류": 399,
-    "제외": 47
+    "포함": 21,
+    "보류": 382,
+    "제외": 46
   },
   "rawStatusCounts": {
-    "포함": 9,
-    "보류": 399,
-    "제외": 51
+    "포함": 21,
+    "보류": 382,
+    "제외": 56
   },
-  "sha256": "91c54ef419d36a2e50bf9778a902d760e0c2f0c0fc1bd42e62df76c66d307d3c",
-  "fallbackSha256": "91c54ef419d36a2e50bf9778a902d760e0c2f0c0fc1bd42e62df76c66d307d3c",
-  "csvSha256": "b27896171da4a939fb5b5eecf8781cd244ff24e70cb7eb41b99cd321936e5351",
-  "excludedAndDuplicate": 51,
+  "sha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
+  "fallbackSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
+  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d",
+  "excludedAndDuplicate": 56,
   "transport": "verified-csv",
   "lastUpdated": "2026-08-15",
   "quarantinedCandidates": 120,

@@ -95,10 +95,11 @@ def queue_rows() -> list[dict]:
 def history_rows() -> list[dict]:
     products = {item["id"]: item for item in json.loads(PRODUCTS_PATH.read_text(encoding="utf-8"))}
     changes = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))["changes"]
+    duplicate_count = sum(bool(item.get("duplicateOf")) for item in products.values())
     output = [row([
         "2026-08-15 16:31",
         "운영 DB 복구·기준 정정",
-        "라이브 459행 복구, 4개 중복 구조화, 공식 우선 재검증 16건 반영",
+        f"라이브 {len(products)}행 복구, {duplicate_count}개 중복 구조화, 공식 우선 재검증 {len(changes)}건 반영",
         "대한민국 완제품 제조 · 현재 판매 · 0~35개월 · 제품별 적용 법령 · 동일 모델 공식 근거",
         "Master DB · 재검증 대기열 · 웹앱",
     ])]

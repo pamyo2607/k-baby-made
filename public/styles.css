@@ -30,7 +30,7 @@
 .cert-summary span{display:block;margin-bottom:4px;color:var(--sub);font-size:10px;font-weight:800}
 .cert-summary strong{display:block;overflow:hidden;font-size:11px;line-height:1.35;text-overflow:ellipsis;white-space:nowrap}
 .cert-status{display:inline-flex;align-items:center;width:max-content;max-width:100%;padding:5px 9px;border-radius:999px;font-size:11px!important;font-weight:900!important;line-height:1}
-.cert-active{background:var(--green-soft);color:var(--green)}.cert-expired{background:var(--red-soft);color:var(--red)}.cert-checking{background:var(--orange-soft);color:var(--orange)}
+.cert-active{background:var(--green-soft);color:var(--green)}.cert-expired{background:var(--red-soft);color:var(--red)}.cert-checking{background:var(--orange-soft);color:var(--orange)}.cert-not-applicable{background:#eef4ff;color:#315ea8}
 .section-note{margin-top:-4px;color:var(--sub);font-size:13px;line-height:1.6}
 .certification-list{display:grid;gap:14px;margin-top:12px}
 .cert-detail-card{padding:16px;border:1px solid var(--border);border-radius:16px;background:#fff}

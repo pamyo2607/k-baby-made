@@ -1,37 +1,37 @@
 {
-  "build": "20260815-live459-recovery1",
+  "build": "20260815-live459-recovery2",
   "lastUpdated": "2026-08-15",
   "rawRecords": 459,
-  "totalInvestigated": 455,
-  "uniqueProducts": 455,
-  "currentSale": 188,
-  "included": 9,
-  "pending": 399,
-  "excluded": 47,
-  "duplicateRecords": 4,
-  "excludedAndDuplicate": 51,
-  "fullRevalidationTargetRows": 408,
+  "totalInvestigated": 449,
+  "uniqueProducts": 449,
+  "currentSale": 210,
+  "included": 21,
+  "pending": 382,
+  "excluded": 46,
+  "duplicateRecords": 10,
+  "excludedAndDuplicate": 56,
+  "fullRevalidationTargetRows": 403,
   "statusCounts": {
-    "포함": 9,
-    "보류": 399,
-    "제외": 47
+    "포함": 21,
+    "보류": 382,
+    "제외": 46
   },
   "rawStatusCounts": {
-    "포함": 9,
-    "보류": 399,
-    "제외": 51
+    "포함": 21,
+    "보류": 382,
+    "제외": 56
   },
   "categories": {
     "완구": 196,
-    "구강·치발기": 72,
+    "구강·치발기": 66,
     "턱받이": 9,
     "수유용품": 54,
     "이유식·식기": 71,
     "위생·기저귀": 53
   },
-  "dataSha256": "91c54ef419d36a2e50bf9778a902d760e0c2f0c0fc1bd42e62df76c66d307d3c",
-  "canonicalSha256": "cb6643e1fd9cd9591e33300397fccb2131e42b1502676b5439735f73a085f0ae",
-  "csvSha256": "b27896171da4a939fb5b5eecf8781cd244ff24e70cb7eb41b99cd321936e5351",
+  "dataSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
+  "canonicalSha256": "0b2338245935229bf67dc03aa8fc5589384a22f236923b54dce9e027a7afa677",
+  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d",
   "transport": "verified-csv",
   "quarantinedCandidates": 120
 }

@@ -30,12 +30,19 @@ def main() -> None:
     ids = [str(item.get("id", "")).strip() for item in products]
     duplicate_ids = sorted(key for key, count in Counter(ids).items() if key and count > 1)
 
-    product_keys = [
-        normalize(item.get("brand")) + "|" + normalize(item.get("name"))
-        for item in products
-    ]
+    product_keys = [normalize(item.get("brand")) + "|" + normalize(item.get("name")) for item in products]
     duplicate_products = sorted(
         key for key, count in Counter(product_keys).items() if key != "|" and count > 1
+    )
+    key_groups: dict[str, list[dict]] = {}
+    for product, key in zip(products, product_keys):
+        if key != "|":
+            key_groups.setdefault(key, []).append(product)
+    unresolved_duplicate_products = sorted(
+        key
+        for key, group in key_groups.items()
+        if len(group) > 1
+        and len({str(item.get("duplicateOf") or item.get("id")) for item in group}) > 1
     )
 
     report = {
@@ -46,14 +53,16 @@ def main() -> None:
         "includedViolationCount": len(violations),
         "duplicateIdCount": len(duplicate_ids),
         "duplicateProductKeyCount": len(duplicate_products),
+        "unresolvedDuplicateProductKeyCount": len(unresolved_duplicate_products),
         "violations": violations,
         "duplicateIds": duplicate_ids,
         "duplicateProductKeys": duplicate_products,
+        "unresolvedDuplicateProductKeys": unresolved_duplicate_products,
         # Same brand/name text can still be a legitimate distinct model, size,
         # package, or option. Structural duplicate links are validated by the
         # canonical validator; name-key collisions remain a diagnostic only.
         "duplicateProductKeyDiagnosticOnly": True,
-        "passed": not violations and not duplicate_ids,
+        "passed": not violations and not duplicate_ids and not unresolved_duplicate_products,
     }
     REPORT.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",

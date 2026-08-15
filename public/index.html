@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#F7F6F2">
-  <meta name="kbaby-build" content="20260815-live459-recovery1">
+  <meta name="kbaby-build" content="20260815-live459-recovery2">
   <title>K-Baby Made | 대한민국 영유아 제품 검증 DB</title>
   <meta name="description" content="대한민국에서 현재 판매되는 0~35개월 영유아 제품을 월령과 제조국과 KC 정보와 공식 근거로 비교합니다.">
-  <link rel="stylesheet" href="styles.css?v=20260815-live459-recovery1">
+  <link rel="stylesheet" href="styles.css?v=20260815-live459-recovery2">
   <style>[hidden]{display:none!important}</style>
 </head>
 <body>
@@ -70,7 +70,7 @@
             <label>세부 제품군<select id="subtypeFilter"><option value="">전체</option></select></label>
             <label>대상 월령<select id="ageFilter"><option value="">전체</option><option value="fit">현재 월령 적합</option><option value="verified">공식 월령 확인</option><option value="checking">월령 확인 중</option></select></label>
             <label>완제품 제조국<select id="countryFilter"><option value="">전체</option></select></label>
-            <label>KC 인증상태<select id="kcFilter"><option value="">전체</option><option value="active">적합</option><option value="expired">기간만료</option><option value="verified">Safety Korea 상세 확인</option><option value="checking">상세 확인 중</option></select></label>
+            <label>KC 인증상태<select id="kcFilter"><option value="">전체</option><option value="active">적합</option><option value="expired">기간만료</option><option value="verified">Safety Korea 상세 확인</option><option value="not-applicable">KC 비대상</option><option value="checking">상세 확인 중</option></select></label>
             <label>국내 판매 상태<select id="saleFilter"><option value="">전체</option><option value="current">현재 판매 확인</option><option value="archive">이전 조사 제품</option></select></label>
             <label>데이터 품질<select id="qualityFilter"><option value="">전체</option><option value="high">공식 근거 충실</option><option value="checking">보강 필요</option></select></label>
             <label>정렬<select id="sortFilter"><option value="recent">최신 검증순</option><option value="included">완료 우선</option><option value="evidence">공식 근거 충실순</option><option value="name">제품명순</option></select></label>
@@ -92,7 +92,7 @@
 
   <dialog id="detailDialog" aria-labelledby="detailTitle"><div class="dialog-head"><strong id="detailTitle">제품 상세 검증</strong><button id="closeDialog" type="button" aria-label="상세 닫기">×</button></div><div id="detailContent"></div></dialog>
   <footer><div class="shell"><strong>K-Baby Made</strong><p>공식 출처와 확인일을 기준으로 계속 보강되는 영유아 제품 검증 데이터베이스입니다.</p></div></footer>
-  <script src="kbaby-data.js?v=20260815-live459-recovery1"></script>
-  <script src="app.js?v=20260815-live459-recovery1" defer></script>
+  <script src="kbaby-data.js?v=20260815-live459-recovery2"></script>
+  <script src="app.js?v=20260815-live459-recovery2" defer></script>
 </body>
 </html>

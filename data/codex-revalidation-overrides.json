@@ -22,17 +22,51 @@
     {
       "id": "TEETHER-20260801-011",
       "fields": {
-        "status": "보류",
+        "status": "포함",
         "checkedAt": "2026-08-15",
-        "saleStatus": "모윰 공식 제품 페이지 품절 · 판매 종료 확정 전 보류",
-        "reason": "모윰 공식 동일 제품 페이지에서 3개월 이상과 KC CB061A443-2002는 유지 확인되지만 현재 품절 상태다. 다른 현재 구매 가능 공식몰 또는 독립 판매처 근거를 확보할 때까지 보류한다.",
-        "quality": "동일 제품 KC·월령 확인 · 현재 구매 가능 근거 추가 확인 필요"
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)쁘띠엘린",
+        "importer": "(주)쁘띠엘린",
+        "officialModel": "모윰 별 치발기",
+        "ageRange": "3개월 이상",
+        "ageEvidence": "모윰 공식 동일 제품 페이지에서 3개월 이상·6kg 이상 확인",
+        "saleStatus": "모윰 공식 동일 제품과 국내 판매처의 현재 주문 가능 상품 확인",
+        "kcApplicable": "어린이제품 안전확인 대상",
+        "kcNumber": "CB061A443-2002",
+        "regulatoryRegime": "어린이제품안전특별법 · 완구 안전확인",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2002",
+        "certStatusSummary": "적합",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "reason": "모윰 공식 별 손목 치발기 페이지에서 3개월 이상·6kg 이상과 KC CB061A443-2002를 확인했다. Safety Korea의 동일 모델 적합·대한민국 제조·쁘띠엘린 정보와 현재 주문 가능한 국내 동일 상품의 같은 KC를 대조해 완료 처리한다.",
+        "quality": "제조사 공식 동일 제품·월령·KC와 현재 국내 주문 가능 상품 교차 확인"
       },
       "officialUrls": [
         "https://m.moyuum.com/views/shop/shopview?iniCategory=690&pack_content_id=14617&thisCategory=1124",
+        "https://www.moyuum.com/_vir0001/process/shopmain.asp?thisCategory=1350",
+        "https://www.coupang.com/vp/products/109242939?categoryId=371212&itemId=21331295664&sourceType=CATEGORY&vendorItemId=4855592972",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2002"
       ],
-      "historyEntry": "2026-08-15 Codex 운영 재검증 · 포함 → 보류 · 공식 제품 페이지 품절"
+      "certification": {
+        "found": true,
+        "certNumber": "CB061A443-2002",
+        "status": "적합",
+        "certDate": "20220802",
+        "changedDate": "",
+        "certType": "어린이제품 특별법 대상>안전확인 대상",
+        "authority": "한국건설생활환경시험연구원(KCL)",
+        "changedReason": "",
+        "recallStatus": "",
+        "itemName": "완구",
+        "modelName": "모윰 별 치발기",
+        "manufacturer": "(주)쁘띠엘린",
+        "country": "대한민국 🇰🇷",
+        "importer": "(주)쁘띠엘린",
+        "classification": "어린이제품 · 완구",
+        "relatedCertificates": [],
+        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2002"
+      },
+      "historyEntry": "2026-08-15 Codex 운영 재검증 · 보류 → 포함 · 현재 판매·동일 KC 재확인"
     },
     {
       "id": "TEETHER-20260801-016",
@@ -289,27 +323,44 @@
     {
       "id": "MASTER-0185",
       "fields": {
-        "status": "보류",
+        "status": "포함",
         "checkedAt": "2026-08-15",
         "countryOfManufacture": "대한민국 🇰🇷",
-        "ageRange": "3세 미만",
-        "manufacturer": "고그린라이프",
+        "ageRange": "0개월 이상",
+        "ageEvidence": "동일 300ml 현행 판매 정보에서 0세 이상 확인",
+        "manufacturer": "(주)고그린라이프",
+        "importer": "해당 없음",
+        "officialModel": "그로미미 PPSU 젖병 300ml",
         "kcApplicable": "어린이제품 KC 해당 없음 · 식품 접촉 제품 기준 확인",
+        "kcNumber": "",
         "regulatoryRegime": "식품위생법 · 기구 및 용기·포장 기준",
-        "saleStatus": "롯데·SSG 동일 300ml 제품 현재 국내 판매 확인",
-        "reason": "롯데 동일 Grosmimi Feeding Bottle 300ml 및 SSG 그로미미 PPSU 300ml 페이지에서 제조국 대한민국을 교차 확인해 기존 중국 표기를 폐기했다. 다만 canonical 행의 generic SKU를 정확한 공식 모델과 연결하는 근거가 더 필요해 보류한다."
+        "safetyKoreaSearchUrl": "",
+        "certStatusSummary": "KC 비대상",
+        "certDateSummary": "",
+        "certTypeSummary": "",
+        "certAuthoritySummary": "",
+        "certChangedDateSummary": "",
+        "certChangedReasonSummary": "",
+        "activeCertificateCount": 0,
+        "expiredCertificateCount": 0,
+        "certifications": [],
+        "certificationEvidenceLevel": "not-applicable",
+        "saleStatus": "공식 구매처와 롯데·SSG·오늘의집의 동일 300ml 제품 현재 국내 판매 확인",
+        "reason": "그로미미 공식 구매처와 롯데·SSG·오늘의집의 동일 PPSU 젖병 300ml를 대조해 모델·용량·현재 판매를 고정했다. 제조사 (주)고그린라이프, 제조국 대한민국, 0개월 이상 및 식품 접촉 제품 기준을 확인해 완료 처리한다."
       },
       "officialUrls": [
         "https://m.lotteimall.com/goods/viewGoodsDetail.lotte?goods_no=1189556667",
         "https://www.ssg.com/item/itemView.ssg?itemId=1000273709213",
+        "https://store.ohou.se/goods/3496061",
+        "https://smartstore.naver.com/grosmimi/products/6037969301",
         "https://grosmimi.kr/category/%EC%A0%96%EB%B3%91/28/"
       ],
-      "historyEntry": "2026-08-15 Codex 우선 재검증 · 중국 표기 반증 · 대한민국 제조 후보로 보류 유지"
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 포함 · 동일 300ml 모델·대한민국 제조·0개월 이상 확인"
     },
     {
       "id": "RUN18-008",
       "fields": {
-        "status": "보류",
+        "status": "포함",
         "checkedAt": "2026-08-15",
         "countryOfManufacture": "대한민국 🇰🇷",
         "ageRange": "3개월 이상",
@@ -340,19 +391,23 @@
           "relatedCertificates": [],
           "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
         }
-      ],
+        ],
         "manufacturer": "앙쥬 주식회사",
+        "importer": "해당 없음",
+        "officialModel": "앙쥬 3D 딸기 치발기",
+        "kcApplicable": "어린이제품 안전확인 대상",
         "regulatoryRegime": "어린이제품안전특별법 · 안전확인",
-        "saleStatus": "앙쥬 공식 현행 세트의 3D 딸기 옵션 및 SSG 동일 제품 판매 확인",
-        "reason": "앙쥬 공식 3D 딸기 치발기와 현행 세트 옵션, Safety Korea 갱신 CB065B0002-9001R의 적합·대한민국 제조, SSG 동일 제품 고시를 확인해 기존 만 3세 이상·제조국 미확인 표기를 반증했다. 구번호와 갱신번호의 정확한 동일 제품 연결을 최종 확인할 때까지 보류한다."
+        "saleStatus": "앙쥬 공식 현행 세트와 국내 판매처의 3D 딸기 옵션 현재 판매 확인",
+        "reason": "앙쥬 공식 현행 세트의 3D 딸기 옵션과 국내 동일 상품의 제품명·KC·제조사·제조국·3개월 이상을 대조했다. Safety Korea 갱신 CB065B0002-9001R의 적합·대한민국 제조·앙쥬 주식회사도 일치해 동일 제품으로 완료 처리한다."
       },
       "officialUrls": [
         "http://www.angekorea.com/ko/m/products/product_view.php?it_id=1573809466",
         "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-%EB%94%B8%EA%B8%B0-%EA%B8%B0%EB%A6%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
-        "https://www.ssg.com/item/itemView.ssg?itemId=1000538183301"
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000538183301",
+        "https://www.coupang.com/vp/products/8589848399?categoryId=331697&itemId=24165739170&sourceType=CATEGORY&vendorItemId=91184137442"
       ],
-      "historyEntry": "2026-08-15 Codex 우선 재검증 · 잘못된 3세 이상·제조국 미확인 표기 정정 · 보류 유지"
+      "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 포함 · 동일 제품·유효 KC·3개월 이상 확인"
     },
     {
       "id": "TOY-20260729-004",
@@ -618,6 +673,647 @@
         "https://www.safetykorea.kr/release/certDetail?certNum=B362M004-8003A"
       ],
       "historyEntry": "2026-08-15 Codex 우선 재검증 · 보류 → 제외 · 공식 SKU 10세 이상 확인"
+    },
+    {
+      "id": "MASTER-0016",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "유한킴벌리(주) 대전공장",
+        "importer": "해당 없음",
+        "officialModel": "하기스 네이처메이드 팬티 여아 5단계 88매",
+        "ageRange": "유아·11~16kg · 공식 숫자 월령 미확인",
+        "ageEvidence": "공식몰은 유아·11~16kg만 고지하며 이를 월령으로 환산하지 않음",
+        "saleStatus": "하기스 공식몰과 국내 동일 상품의 현재 주문 가능 상태 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 위생용품",
+        "kcNumber": "",
+        "regulatoryRegime": "위생용품관리법 · 어린이용 기저귀",
+        "certifications": [],
+        "reason": "하기스 공식몰과 동일 상품에서 모델·유한킴벌리 대전공장·대한민국 제조·현재 판매를 확인했다. 공식 기준은 유아 11~16kg으로 숫자 월령이 없어 체중을 월령으로 임의 환산하지 않고 보류한다.",
+        "quality": "모델·제조사·제조국·현재 판매 확인 · 공식 숫자 월령 추가 확인 필요"
+      },
+      "officialUrls": [
+        "https://www.momq.co.kr/shop/42554",
+        "https://www.coupang.com/vp/products/9335365975?itemId=26513541226&sourceType=gm_crm_mlp%5C%5C%5C%5C&subSourceType=gm_crm_gwc1mainbnr_p1633_b1003306_c488508%5C&vendorItemId=93488048657"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 국내 제조·현재 판매 확인 · 숫자 월령 부족으로 보류"
+    },
+    {
+      "id": "MASTER-0026",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)에이제이",
+        "importer": "해당 없음",
+        "officialModel": "베베숲 시그니처 블루 에코 캡 70매",
+        "ageRange": "모든 피부용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "공식 동일 제품은 모든 피부용만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "베베숲 공식몰 동일 제품 현재 주문 가능 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 화장품",
+        "kcNumber": "",
+        "regulatoryRegime": "화장품법 · 인체세정용 물휴지",
+        "certifications": [],
+        "reason": "베베숲 공식 동일 제품에서 모델·(주)에이제이 제조·대한민국 원산지·현재 판매를 확인했다. 모든 피부용 표기만으로 0~35개월을 추론하지 않고 공식 숫자 월령이 없어 보류한다.",
+        "quality": "공식 동일 제품·제조사·제조국·현재 판매 확인 · 숫자 월령 미확인"
+      },
+      "officialUrls": [
+        "https://www.bebesup.co.kr/goods/view?no=362"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 법 적용·국내 제조·현재 판매 정정 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0028",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)에이제이",
+        "importer": "해당 없음",
+        "officialModel": "베베숲 시그니처 위드 블루 캡 70매",
+        "ageRange": "모든 피부용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "공식 동일 제품은 모든 피부용만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "베베숲 공식몰 동일 제품 현재 주문 가능 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 화장품",
+        "kcNumber": "",
+        "regulatoryRegime": "화장품법 · 인체세정용 물휴지",
+        "certifications": [],
+        "reason": "베베숲 공식 동일 제품에서 모델·(주)에이제이 제조·대한민국 원산지·현재 판매를 확인했다. 모든 피부용 표기만으로 0~35개월을 추론하지 않고 공식 숫자 월령이 없어 보류한다.",
+        "quality": "공식 동일 제품·제조사·제조국·현재 판매 확인 · 숫자 월령 미확인"
+      },
+      "officialUrls": [
+        "https://www.bebesup.co.kr/goods/view?no=347",
+        "https://www.bebesup.co.kr/goods/catalog?code=000800040012&iframe=&popup=&sort=newly"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 법 적용·국내 제조·현재 판매 정정 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0032",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "깨끗한나라(주)",
+        "importer": "해당 없음",
+        "officialModel": "보솜이 펀앤플레이 아기물티슈 캡 70매",
+        "ageRange": "영·유아용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "동일 제품은 영·유아용만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "보솜이·깨끗한나라 공식몰과 국내 동일 상품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 화장품",
+        "kcNumber": "",
+        "regulatoryRegime": "화장품법 · 인체세정용 물휴지",
+        "certifications": [],
+        "reason": "공식몰과 동일 판매 상품에서 모델·깨끗한나라 제조·대한민국 원산지·현재 판매를 확인했다. 영·유아용 문구만으로 0~35개월을 확정하지 않고 공식 숫자 월령이 없어 보류한다.",
+        "quality": "공식 동일 제품·제조사·제조국·현재 판매 확인 · 숫자 월령 미확인"
+      },
+      "officialUrls": [
+        "https://www.bosomimall.co.kr/goods/goods_view.php?goodsNo=1000000665",
+        "https://www.kleannaramall.com/goods/goods_view.php?goodsNo=1000000140",
+        "https://lottemartzetta.com/products/OS8801260610600/details"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 화장품법·국내 제조·현재 판매 정정 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0038",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)지앤티클린",
+        "importer": "해당 없음",
+        "officialModel": "아이러브베베 아이보리 아기물티슈 캡형 72매",
+        "ageRange": "아기·유아용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "공식 동일 제품은 아기·유아용만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "아이러브베베 공식몰과 국내 동일 상품의 현재 주문 가능 상태 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 화장품",
+        "kcNumber": "",
+        "regulatoryRegime": "화장품법 · 인체세정용 물휴지",
+        "certifications": [],
+        "reason": "공식몰과 동일 판매 상품에서 모델·지앤티클린 제조·대한민국 원산지·현재 판매를 확인했다. 아기·유아용 문구만으로 0~35개월을 확정하지 않고 공식 숫자 월령이 없어 보류한다.",
+        "quality": "공식 동일 제품·제조사·제조국·현재 판매 확인 · 숫자 월령 미확인"
+      },
+      "officialUrls": [
+        "https://ilovebebe.co.kr/product/%EC%95%84%EC%9D%B4%EB%9F%AC%EB%B8%8C%EB%B2%A0%EB%B2%A0-%EC%95%84%EA%B8%B0%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%95%84%EC%9D%B4%EB%B3%B4%EB%A6%AC-72%EB%A7%A4-20%ED%8C%A9-%EC%BA%A1%ED%98%95/58/",
+        "https://www.kurly.com/goods/1001507093",
+        "https://prod.danawa.com/info/?pcode=6456227"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 화장품법·국내 제조·현재 판매 정정 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0054",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "",
+        "importer": "",
+        "officialModel": "마더케이 369 PPSU 빨대컵 200ml",
+        "ageRange": "9개월 이상",
+        "ageEvidence": "마더케이 공식 369 라인의 9개월 빨대컵 단계 안내",
+        "saleStatus": "국내 동일 200ml 상품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "정확한 마더케이 369 PPSU 빨대컵 200ml의 대한민국 제조·9개월 이상·현재 판매를 확인하고 기존 오염 제조사 문장을 폐기했다. 제조사는 300ml 용량 변형에서만 확인돼 200ml에 전이하지 않고 정확 제조사·수입업체 근거가 생길 때까지 보류한다.",
+        "quality": "동일 200ml 모델·제조국·월령·현재 판매 확인 · 정확 제조사 추가 확인 필요"
+      },
+      "officialUrls": [
+        "https://www.coupang.com/vp/products/230018516?itemId=729445133&vendorItemId=4844803202",
+        "https://motherk.co.kr/article/news/8/329/page/3/",
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000034234278"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 대한민국·9개월·현재 판매 확인 · 제조사 정확 근거 부족"
+    },
+    {
+      "id": "MASTER-0071",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)고그린라이프",
+        "importer": "해당 없음",
+        "officialModel": "그로미미 스테인리스 흡착 식판 3구·5구",
+        "ageRange": "유아용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "제조사 상세는 타겟 연령을 유아로만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "국내 동일 제품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "제조사 상세 이미지와 동일 판매 상품에서 스테인리스 식판 3구·5구, (주)고그린라이프, 대한민국 제조, 현재 판매를 확인했다. 타겟 연령은 유아로만 표시돼 0~35개월을 추론하지 않고 보류한다.",
+        "quality": "동일 모델·제조사·제조국·현재 판매 확인 · 숫자 월령 추가 확인 필요"
+      },
+      "officialUrls": [
+        "https://www.grosmimi.com/s0101.php",
+        "https://m.danawa.com/product/product.html?code=26453081",
+        "https://www.elandmall.co.kr/i/item?itemNo=2305202282",
+        "https://www.elandmall.co.kr/i/item?itemNo=2305202284",
+        "https://grosmimi.speedgabia.com/grosmimi/3_BF/FOODTRAY/B.jpg"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 국내 제조·현재 판매·제조사 확인 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0072",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)이투컬렉션",
+        "importer": "해당 없음",
+        "officialModel": "데일리라이크 봉봉 스텐 식판 스푼포크 세트",
+        "ageRange": "영유아·키즈용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "공식·판매 메타는 영유아·키즈만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "데일리라이크 공식몰과 국내 동일 상품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "데일리라이크 공식몰과 동일 판매 상품에서 모델·이투컬렉션·대한민국 제조·현재 판매를 확인했다. 영유아·키즈 문구만으로 0~35개월을 확정하지 않고 공식 숫자 월령이 없어 보류한다.",
+        "quality": "공식 동일 제품·제조사·제조국·현재 판매 확인 · 숫자 월령 미확인"
+      },
+      "officialUrls": [
+        "https://www.dailylike.co.kr/shop/shopdetail.html?branduid=1414741",
+        "https://www.coupang.com/vp/products/9424997485",
+        "https://store.ohou.se/goods/341208"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 동일 제품·국내 제조·현재 판매 확인 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0073",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "리파코 주식회사",
+        "importer": "해당 없음",
+        "officialModel": "모모빈 블라썸 냠냠 이유식 흡착 식판",
+        "ageRange": "유아·아동용 · 공식 숫자 월령 미확인",
+        "ageEvidence": "동일 제품은 유아·아동용과 상세페이지 참고만 고지하고 숫자 월령은 고지하지 않음",
+        "saleStatus": "국내 복수 동일 상품의 현재 주문 가능 상태 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "공식 제품과 국내 복수 판매처에서 모델·리파코·대한민국 제조·현재 판매를 확인했다. 유아·아동용 문구만으로 0~35개월을 추론하지 않고 공식 숫자 월령이 없어 보류한다.",
+        "quality": "동일 제품·제조사·제조국·현재 판매 확인 · 숫자 월령 미확인"
+      },
+      "officialUrls": [
+        "https://aguardmall.com/product/%EB%B8%94%EB%9D%BC%EC%8D%B8-%EB%83%A0%EB%83%A0-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%ED%9D%A1%EC%B0%A9-%EC%8B%9D%ED%8C%90/1421/",
+        "https://www.kurly.com/goods/1001430170",
+        "https://store.ohou.se/goods/3312849",
+        "https://www.coupang.com/vp/products/8420808335"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 동일 제품·국내 제조·현재 판매 확인 · 숫자 월령 부족"
+    },
+    {
+      "id": "MASTER-0078",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)맘스트레져",
+        "importer": "해당 없음",
+        "officialModel": "유비맘 꿀떡꿀떡 플래티넘 실리콘 흡착식판 뚜껑 세트",
+        "ageRange": "6개월 이상",
+        "ageEvidence": "동일 제품 정보고시의 권장 사용연령 6개월 이상",
+        "saleStatus": "국내 동일 상품의 현재 주문 가능 상태 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "유비맘 꿀떡꿀떡 플래티넘 흡착식판 뚜껑 세트의 정확 제품 정보고시에서 (주)맘스트레져·대한민국·6개월 이상을 확인하고 별도 동일 상품의 현재 판매를 대조해 완료 처리한다.",
+        "quality": "동일 제품·제조사·대한민국·6개월 이상·현재 판매 교차 확인"
+      },
+      "officialUrls": [
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000182486575",
+        "https://www.coupang.com/vp/products/6107199208",
+        "https://ubmom.com/category/%ED%9D%A1%EC%B0%A9%EC%8B%9D%ED%8C%90%EC%9D%B4%EC%9C%A0%EC%8B%9D%EA%B8%B0/62/"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 대한민국·6개월·현재 판매 확인"
+    },
+    {
+      "id": "MASTER-0085",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "HONG SUNG Co., Ltd. / (주)홍성",
+        "importer": "해당 없음",
+        "officialModel": "홍스파파 실리콘 빠네 흡착식판",
+        "ageRange": "6개월 이상",
+        "ageEvidence": "오늘의집 동일 제품 정보고시의 6개월 이상",
+        "saleStatus": "홍스파파 공식몰과 국내 동일 상품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "홍스파파 공식 동일 제품과 판매 정보고시를 대조해 빠네 흡착식판·(주)홍성·대한민국 제조·6개월 이상·현재 판매를 확인하고 완료 처리한다.",
+        "quality": "공식 동일 제품·제조사·대한민국·6개월 이상·현재 판매 교차 확인"
+      },
+      "officialUrls": [
+        "https://www.hongspapa.co.kr/?idx=96",
+        "https://store.ohou.se/goods/732025",
+        "https://store.ohou.se/goods/3542639"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 공식 제품·6개월 이상 확인"
+    },
+    {
+      "id": "MASTER-0090",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "주식회사 비비또",
+        "importer": "해당 없음",
+        "officialModel": "비비또 실리콘 초기 이유식 스푼",
+        "ageRange": "6개월 이상",
+        "ageEvidence": "동일 단품 판매 정보의 최소연령 6개월",
+        "saleStatus": "국내 동일 단품의 현재 주문 가능 상태 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "비비또 실리콘 초기 이유식 스푼의 정확 단품 정보에서 주식회사 비비또·대한민국·6개월 이상과 현재 판매를 확인해 완료 처리한다.",
+        "quality": "동일 단품·제조사·대한민국·6개월 이상·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://www.coupang.com/vp/products/8342846312",
+        "https://store.ohou.se/goods/3178561"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 대한민국·6개월·현재 판매 확인"
+    },
+    {
+      "id": "MASTER-0113",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)한성컴퍼니",
+        "importer": "해당 없음",
+        "officialModel": "쁘띠누베 실리콘 이유식 멀티큐브 12구",
+        "ageRange": "12개월 이상",
+        "ageEvidence": "동일 12구 제품 정보고시의 사용연령 1세 이상을 12개월로 정규화",
+        "saleStatus": "국내 동일 12구 상품의 현재 주문 가능 상태 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "쁘띠누베 실리콘 멀티큐브 12구의 정확 제품 정보에서 (주)한성컴퍼니·대한민국·1세 이상과 현재 판매를 확인했다. 기존 3~7개월 오염값을 폐기하고 12개월 이상으로 정규화해 완료 처리한다.",
+        "quality": "동일 12구·제조사·대한민국·12개월 이상·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://www.coupang.com/vp/products/8750121628?categoryId=445801&itemId=17907609062&sourceType=CATEGORY&vendorItemId=85070327044",
+        "https://www.ssg.com/item/itemView.ssg?itemId=2097001863299"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 제조사·대한민국·12개월 이상 확인"
+    },
+    {
+      "id": "MASTER-0122",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "name": "이중밀폐 이유식큐브 4구 2P",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)소셜빈 (위탁제조)",
+        "importer": "해당 없음",
+        "officialModel": "퍼기 이중밀폐 이유식큐브 4구 50ml 2P",
+        "ageRange": "10개월 이상",
+        "ageEvidence": "공식 사용표에서 4구를 10~12개월 및 13개월 이상 단계에 권장",
+        "saleStatus": "퍼기 공식몰 현행 2P 상품의 4구 옵션 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "퍼기 공식 현행 2P 상품의 4구 50ml 옵션과 제품 정보 이미지를 대조해 (주)소셜빈 위탁제조·대한민국·10개월 이상·현재 판매를 확인했다. 구형 1P 표기를 현재 판매 단위 2P로 정규화해 완료 처리한다.",
+        "quality": "공식 동일 4구 옵션·제조사·대한민국·10개월 이상·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://kidsmile.co.kr/product/%ED%8D%BC%EA%B8%B0-%EC%9D%B4%EC%A4%91%EB%B0%80%ED%8F%90-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C-2p-4%EA%B5%AC6%EA%B5%AC12%EA%B5%AC/446/",
+        "https://kidsmile.co.kr/web/brand/firgi/babyfoodCube_2024/07.jpg",
+        "https://kidsmile.co.kr/web/brand/firgi/babyfoodCube_2024/20_info.jpg",
+        "https://socialbean.co.kr/html/02_brand/01.php"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 현행 4구 2P·10개월·국내 제조 확인"
+    },
+    {
+      "id": "MASTER-0127",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)모윰",
+        "importer": "해당 없음",
+        "officialModel": "모윰 3세대 NEW PPSU 노꼭지 올인원 베이직 젖병 170ml",
+        "ageRange": "0개월 이상",
+        "ageEvidence": "모윰 공식 동일 제품의 0개월 이상",
+        "saleStatus": "모윰 공식몰 동일 단품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "모윰 공식 3세대 NEW PPSU 노꼭지 올인원 베이직 젖병 170ml에서 모델·0개월 이상·현재 판매를 확인하고 동일 제품군 고시에서 (주)모윰·대한민국 제조를 대조해 완료 처리한다.",
+        "quality": "공식 동일 단품·제조사·대한민국·0개월 이상·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://m.moyuum.com/views/shop/shopview?pack_content_id=18892",
+        "https://item.gmarket.co.kr/Item?goodscode=4517177301",
+        "https://m.moyuum.com/views/shop/shopview?pack_content_id=18893"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 공식 0개월·국내 제조·현재 판매 확인"
+    },
+    {
+      "id": "MASTER-0128",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)모윰",
+        "importer": "해당 없음",
+        "officialModel": "모윰 3세대 NEW PPSU 올인원 베이직 젖병 170ml 젖꼭지 세트",
+        "ageRange": "0개월 이상",
+        "ageEvidence": "모윰 공식 동일 제품과 판매 정보고시의 0개월 이상",
+        "saleStatus": "모윰 공식몰 동일 제품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "모윰 공식 3세대 NEW PPSU 올인원 베이직 젖병 170ml 젖꼭지 세트와 동일 판매 정보고시에서 모델·(주)모윰·대한민국·0개월 이상·현재 판매를 확인해 완료 처리한다.",
+        "quality": "공식 동일 제품·제조사·대한민국·0개월 이상·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://m.moyuum.com/views/shop/shopview?iniCategory=&pack_content_id=18889&thisCategory=",
+        "https://www.coupang.com/vp/products/7143808418?categoryId=485889&itemId=17945098689&sourceType=CATEGORY&vendorItemId=85102929700"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 공식 0개월·국내 제조·현재 판매 확인"
+    },
+    {
+      "id": "MASTER-0129",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)유진메디케어",
+        "importer": "해당 없음",
+        "officialModel": "스펙트라 올셋 PPSU 젖병 260ml",
+        "ageRange": "신생아부터 (0개월 이상)",
+        "ageEvidence": "동일 260ml 제품 정보의 신생아부터 사용 가능",
+        "saleStatus": "스펙트라 공식몰 동일 260ml 제품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "스펙트라 공식 올셋 PPSU 젖병 260ml와 동일 판매 정보고시를 대조해 (주)유진메디케어·대한민국·신생아부터·현재 판매를 확인했다. 기존 다른 160ml 모델 오염값을 폐기하고 완료 처리한다.",
+        "quality": "공식 동일 260ml·제조사·대한민국·신생아부터·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://spectrababy.co.kr/product/%EC%98%AC%EC%85%8B-ppsu-%EC%A0%96%EB%B3%91-260ml/60/",
+        "https://www.ssg.com/item/itemView.ssg?itemId=1000624066192",
+        "https://store.ohou.se/goods/3456509"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 공식 260ml·신생아·국내 제조 확인"
+    },
+    {
+      "id": "MASTER-0130",
+      "fields": {
+        "status": "포함",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "(주)하이비코리아",
+        "importer": "해당 없음",
+        "officialModel": "하이비 PP 에잇벤트 신생아 젖병 130ml 젖꼭지 포함",
+        "ageRange": "1~12개월",
+        "ageEvidence": "동일 제품 정보고시의 베이비 1~12개월",
+        "saleStatus": "하이비 공식몰과 국내 동일 상품의 현재 판매 확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "하이비 공식 PP 에잇벤트 신생아 젖병 130ml 젖꼭지 포함 제품과 동일 정보고시를 대조해 공식 운영 제조사·대한민국·1~12개월·현재 판매를 확인했다. 기존 사용후기·낮은가격 오염값을 폐기하고 완료 처리한다.",
+        "quality": "공식 동일 130ml·제조사·대한민국·1~12개월·현재 판매 확인"
+      },
+      "officialUrls": [
+        "https://hibeekorea.com/category/%EC%A0%96%EB%B3%91%EC%95%85%EC%84%B8%EC%82%AC%EB%A6%AC/51/",
+        "https://store.ohou.se/goods/3032969",
+        "https://itempage3.auction.co.kr/DetailView.aspx?ItemNo=F356655128"
+      ],
+      "removeUrls": [
+        "https://hibeekorea.com/product/%ED%95%98%EC%9D%B4%EB%B9%84-pp-%EC%97%90%EC%9E%87%EB%B2%A4%ED%8A%B8-%EC%A0%96%EB%B3%91-%EC%8B%A0%EC%83%9D%EC%95%84-%EC%A0%96%EB%B3%91-130ml-%EC%A0%96%EA%BC%AD%EC%A7%80%ED%8F%AC%ED%95%A8/184/"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 보류 → 포함 · 공식 130ml·1~12개월·국내 제조 확인"
+    },
+    {
+      "id": "MASTER-0158",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "미확인 ❓",
+        "manufacturer": "신아기업",
+        "importer": "",
+        "officialModel": "맘위즈 PPSU 빨대컵 200ml",
+        "ageRange": "공식 숫자 월령 미확인",
+        "ageEvidence": "정확 동일 제품의 공식 숫자 월령 근거 미확인",
+        "saleStatus": "과거 동일 제품은 확인했으나 현행 판매 미확인",
+        "kcApplicable": "어린이제품 KC 비대상 · 식품 접촉 제품",
+        "kcNumber": "",
+        "regulatoryRegime": "식품위생법 · 식품용 기구 및 용기·포장",
+        "certifications": [],
+        "reason": "맘위즈 PPSU 빨대컵 200ml의 과거 동일 제품과 제조사 신아기업은 확인했지만 정확 제조국·공식 숫자 월령·현행 판매를 확인하지 못했다. 가격비교 중지만으로 판매 종료나 제외를 추정하지 않고 보류한다.",
+        "quality": "정확 과거 제품·제조사 확인 · 제조국·월령·현행 판매 추가 확인 필요"
+      },
+      "officialUrls": [
+        "https://prod.danawa.com/info/?pcode=20828714",
+        "https://www.coupang.com/vp/products/34495092?itemId=128756170&vendorItemId=3267388330"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 근거 부족 제외 금지 · 제조국·월령·현행 판매 보류"
+    },
+    {
+      "id": "TEETHER-20260801-013",
+      "fields": {
+        "status": "보류",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "manufacturer": "한성인터내셔날",
+        "importer": "한성인터내셔날",
+        "officialModel": "베이비앤아이 바나나 실리콘 치발기",
+        "ageRange": "3개월 이상",
+        "ageEvidence": "동일 국내 판매 상품의 3개월 이상",
+        "saleStatus": "국내 동일 바나나 실리콘 치발기의 현재 판매 확인",
+        "kcApplicable": "어린이제품 안전확인 대상",
+        "kcNumber": "CB061H127-8001",
+        "regulatoryRegime": "어린이제품안전특별법 · 완구 안전확인",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB061H127-8001",
+        "certStatusSummary": "기간만료",
+        "activeCertificateCount": 0,
+        "expiredCertificateCount": 1,
+        "certifications": [
+          {
+            "found": true,
+            "certNumber": "CB061H127-8001",
+            "status": "기간만료",
+            "certDate": "2018-05-04",
+            "changedDate": "",
+            "certType": "안전확인",
+            "authority": "",
+            "changedReason": "인증 유효기간 만료",
+            "recallStatus": "",
+            "itemName": "치아발육기",
+            "modelName": "바나나치아발육기",
+            "manufacturer": "한성인터내셔날",
+            "country": "대한민국",
+            "importer": "한성인터내셔날",
+            "classification": "어린이제품",
+            "relatedCertificates": [],
+            "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB061H127-8001"
+          }
+        ],
+        "reason": "베이비앤아이 바나나 실리콘 치발기의 제품·제조사·대한민국·3개월 이상·현재 판매를 확인하고 판매 정보의 KC CB061H127-8001을 Safety Korea 동일 모델·사진에 대조했다. 인증이 기간만료이고 유효 갱신번호를 찾지 못해 안전 완료 기준을 충족할 때까지 보류한다.",
+        "quality": "동일 제품·대한민국·3개월·현재 판매 확인 · KC 기간만료·갱신번호 미확인"
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB061H127-8001",
+        "https://www.coupang.com/vp/products/8750349426",
+        "https://www.coupang.com/vp/products/2016628687?itemId=3430310306&vendorItemId=71416827541",
+        "https://with.gsshop.com/prd/prd.gs?prdid=63580388"
+      ],
+      "historyEntry": "2026-08-15 Codex ING 우선 재검증 · 동일 제품 확인 · KC 기간만료로 보류 유지"
+    },
+    {
+      "id": "TEETHER-20260801-015",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "countryOfManufacture": "대한민국 🇰🇷",
+        "ageRange": "3개월 이상",
+        "ageEvidence": "앙쥬 공식 현행 제품과 동일 KC 판매 정보의 3개월 이상",
+        "manufacturer": "앙쥬 주식회사",
+        "importer": "해당 없음",
+        "officialModel": "앙쥬 3D 딸기 치발기",
+        "kcNumber": "CB065B0002-9001R",
+        "safetyKoreaSearchUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
+        "certStatusSummary": "적합",
+        "certDateSummary": "2024-04-05",
+        "activeCertificateCount": 1,
+        "expiredCertificateCount": 0,
+        "reason": "RUN18-008과 브랜드·정확한 제품명·KC CB065B0002-9001R·제조사·공식 근거가 모두 같은 동일 제품이다. 원본 행은 보존하고 RUN18-008을 canonical로 연결한 중복 레코드로 제외한다.",
+        "quality": "동일 제품명·KC·제조사·공식 근거 일치 · 중복 연결"
+      },
+      "officialUrls": [
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r",
+        "http://www.angekorea.com/ko/m/products/product_view.php?it_id=1573809466",
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-%EB%94%B8%EA%B8%B0-%EA%B8%B0%EB%A6%B0-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/"
+      ],
+      "certification": {
+        "found": true,
+        "certNumber": "CB065B0002-9001R",
+        "status": "적합",
+        "certDate": "2024-04-05",
+        "changedDate": "",
+        "certType": "안전확인",
+        "authority": "",
+        "changedReason": "",
+        "recallStatus": "",
+        "itemName": "치아발육기",
+        "modelName": "3D 딸기 치발기",
+        "manufacturer": "앙쥬 주식회사",
+        "country": "대한민국",
+        "importer": "",
+        "classification": "어린이제품",
+        "relatedCertificates": [],
+        "url": "https://www.safetykorea.kr/release/certDetail?certNum=CB065B0002-9001r"
+      },
+      "historyEntry": "2026-08-15 Codex 중복 재검증 · TEETHER-20260801-015 → RUN18-008 구조화 연결"
+    },
+    {
+      "id": "RUN18-011",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0195를 canonical로 연결한 중복 레코드로 제외한다.",
+        "quality": "동일 제품명·구성·공식 URL 일치 · 중복 연결"
+      },
+      "historyEntry": "2026-08-15 Codex 중복 재검증 · RUN18-011 → MASTER-0195 구조화 연결"
+    },
+    {
+      "id": "TEETHER-20260801-005",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "reason": "MASTER-0195와 브랜드·정확한 제품명·24P와 파우치 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0195를 canonical로 연결한 중복 레코드로 제외한다.",
+        "quality": "동일 제품명·구성·공식 URL 일치 · 중복 연결"
+      },
+      "historyEntry": "2026-08-15 Codex 중복 재검증 · TEETHER-20260801-005 → MASTER-0195 구조화 연결"
+    },
+    {
+      "id": "RUN18-013",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "reason": "MASTER-0196과 브랜드·정확한 제품명·애드 박스 24개입 구성·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0196을 canonical로 연결한 중복 레코드로 제외한다.",
+        "quality": "동일 제품명·포장·공식 URL 일치 · 중복 연결"
+      },
+      "historyEntry": "2026-08-15 Codex 중복 재검증 · RUN18-013 → MASTER-0196 구조화 연결"
+    },
+    {
+      "id": "RUN18-012",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "reason": "MASTER-0197과 브랜드·정확한 제품명·애디 8P 구성·KC CB061E006-8002·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0197을 canonical로 연결한 중복 레코드로 제외한다.",
+        "quality": "동일 제품명·8P 구성·KC·공식 URL 일치 · 중복 연결"
+      },
+      "historyEntry": "2026-08-15 Codex 중복 재검증 · RUN18-012 → MASTER-0197 구조화 연결"
+    },
+    {
+      "id": "TEETHER-20260801-026",
+      "fields": {
+        "status": "제외",
+        "checkedAt": "2026-08-15",
+        "reason": "MASTER-0135와 브랜드·정확한 제품명·오렌지링 옵션·KC CB065B0002-9001R·공식 근거가 같은 동일 제품이다. 원본 행은 보존하고 MASTER-0135를 canonical로 연결한 중복 레코드로 제외한다.",
+        "quality": "동일 제품명·옵션·KC·공식 URL 일치 · 중복 연결"
+      },
+      "historyEntry": "2026-08-15 Codex 중복 재검증 · TEETHER-20260801-026 → MASTER-0135 구조화 연결"
     }
   ]
 }

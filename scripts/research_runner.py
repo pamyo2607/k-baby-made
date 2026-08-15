@@ -552,9 +552,12 @@ def discover(category: str, existing: list[dict], limit: int) -> list[dict]:
 
 def main() -> None:
     raise SystemExit(
-        "Direct research_runner execution is disabled. "
-        "Use scripts/run_ultra_naver.py so the 50/30/5 limits, staging "
-        "isolation, metrics verification, and fail-closed gates are enforced."
+        "Direct research_runner execution is fail-closed and cannot publish data. "
+        "Use .github/workflows/continuous-product-research.yml (hourly; up to 50 "
+        "pending products; up to 30 new candidates total and 5 per category). "
+        "New candidates are staging-only in data/discovered-candidate-staging.json; "
+        "promotion to data/master-products.json is forbidden until a separate "
+        "sanitation and validation gate passes."
     )
 
 

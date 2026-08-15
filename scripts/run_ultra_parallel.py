@@ -7,6 +7,7 @@ probing and a Bing fallback when the primary search endpoint is unavailable.
 from __future__ import annotations
 
 import concurrent.futures
+import hashlib
 import json
 import os
 import re
@@ -45,6 +46,17 @@ HEADERS = {
 LOW_PRIORITY_DOMAINS = ("coupang.com", "gmarket.co.kr", "ssg.com", "danawa.com")
 PLACEHOLDER_BRANDS = {"", "브랜드 확인 중", "확인 중", "미상"}
 STAGING = rr.ROOT / "data/discovered-candidate-staging.json"
+FIELD_PRIORITY = {
+    "safetyKoreaSameModel": 0,
+    "countryOfManufacture": 1,
+    "manufacturerOrImporter": 2,
+    "officialAge": 3,
+    "currentSale": 4,
+    "sameProductIdentity": 5,
+    "exactKcNumber": 6,
+    "officialEvidence": 7,
+    "regulatoryRegime": 8,
+}
 
 
 def session() -> requests.Session:
@@ -236,6 +248,30 @@ def exact_candidate_shape(item: dict) -> bool:
     return False
 
 
+def pending_priority(item: dict) -> tuple:
+    """Put one-field, near-resolution rows first without starving the rest.
+
+    The persistent cursor below advances through this deterministic order on
+    every run. This prevents the first 50 KC-bearing rows from being retried
+    forever while hundreds of later pending rows are never reached.
+    """
+    fields = [
+        str(value) for value in item.get("revalidationMissingFields", [])
+        if str(value)
+    ]
+    field_rank = min(
+        (FIELD_PRIORITY.get(value, len(FIELD_PRIORITY)) for value in fields),
+        default=len(FIELD_PRIORITY),
+    )
+    return (
+        len(fields) != 1,
+        field_rank,
+        len(fields),
+        str(item.get("checkedAt", "")),
+        str(item.get("id", "")),
+    )
+
+
 def main() -> None:
     if not 0 <= PENDING_LIMIT <= 50:
         raise SystemExit(f"KBABY_PENDING_LIMIT must be between 0 and 50: {PENDING_LIMIT}")
@@ -250,13 +286,30 @@ def main() -> None:
     products = json.loads(rr.SOURCE.read_text(encoding="utf-8"))
     staged = json.loads(STAGING.read_text(encoding="utf-8")) if STAGING.exists() else []
 
+    previous_state = (
+        json.loads(rr.STATE.read_text(encoding="utf-8"))
+        if rr.STATE.exists()
+        else {}
+    )
     candidates = [item for item in products if item.get("status") == "보류"]
-    candidates.sort(key=lambda item: (
-        not bool(item.get("kcNumber")),
-        item.get("checkedAt", ""),
-    ))
+    candidates.sort(key=pending_priority)
     pending_available = len(candidates)
-    selected = candidates[:PENDING_LIMIT]
+    cursor_start = int(previous_state.get("pendingCursorNext", 0) or 0)
+    if pending_available:
+        cursor_start %= pending_available
+    else:
+        cursor_start = 0
+    selected = candidates[cursor_start:cursor_start + PENDING_LIMIT]
+    if len(selected) < min(PENDING_LIMIT, pending_available):
+        selected.extend(candidates[:min(
+            cursor_start,
+            min(PENDING_LIMIT, pending_available) - len(selected),
+        )])
+    cursor_next = (
+        (cursor_start + len(selected)) % pending_available
+        if pending_available
+        else 0
+    )
     selected_ids = [str(item.get("id", "")) for item in selected]
     before_status = {
         str(item.get("id", "")): str(item.get("status", ""))
@@ -347,6 +400,8 @@ def main() -> None:
     )
     run_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     included_transitions = sum(item["to"] == "포함" for item in transitions)
+    canonical_text = json.dumps(products, ensure_ascii=False, indent=2) + "\n"
+    staging_text = json.dumps(staged, ensure_ascii=False, indent=2) + "\n"
     new_state = {
         "metricsVersion": 2,
         "lastRun": run_at,
@@ -359,6 +414,8 @@ def main() -> None:
         "nextCategory": rr.CATEGORIES[0],
         "categoryIndex": 0,
         "pendingAvailableBeforeRun": pending_available,
+        "pendingCursorStart": cursor_start,
+        "pendingCursorNext": cursor_next,
         "pendingSelected": len(audits),
         "pendingSelectedIds": selected_ids,
         "revalidationAttempts": len(audits),
@@ -369,6 +426,11 @@ def main() -> None:
         "recordsChangedThisRun": len(changed_ids),
         "recordsChangedIds": changed_ids,
         "statusTransitionsThisRun": dict(sorted(transition_counts.items())),
+        "researchOutcome": (
+            "status-resolved" if transitions
+            else "partial-evidence-only" if changed_ids
+            else "no-verified-progress"
+        ),
         "includedThisRun": included_transitions,
         "includedTotalAfterRun": sum(
             item.get("status") == "포함" for item in products
@@ -388,13 +450,15 @@ def main() -> None:
         },
         "errors": error_count,
         "totalProducts": len(products),
+        "canonicalShaAfterRun": hashlib.sha256(canonical_text.encode("utf-8")).hexdigest(),
+        "stagingShaAfterRun": hashlib.sha256(staging_text.encode("utf-8")).hexdigest(),
     }
     rr.SOURCE.write_text(
-        json.dumps(products, ensure_ascii=False, indent=2) + "\n",
+        canonical_text,
         encoding="utf-8",
     )
     STAGING.write_text(
-        json.dumps(staged, ensure_ascii=False, indent=2) + "\n",
+        staging_text,
         encoding="utf-8",
     )
     rr.STATE.write_text(

@@ -17,7 +17,7 @@ PUBLIC = ROOT / "public"
 SOURCE = DATA / "master-products.json"
 OVERRIDES = DATA / "codex-revalidation-overrides.json"
 RECOVERY_REPORT = DATA / "live-recovery-report.json"
-BUILD = "20260815-live459-recovery1"
+BUILD = "20260815-live459-recovery2"
 CATEGORIES = ["완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀"]
 CSV_FIELDS = [
     "순번", "ID", "제품군", "세부 유형", "브랜드", "정확한 제품명", "현재 판정", "완제품 제조국",
@@ -39,7 +39,9 @@ MISSING_LABELS = {
     "sameProductIdentity": "공식 자료와 canonical 제품의 동일성",
 }
 SALE_STATUS_BLOCKED = re.compile(r"재검증|확인\s*(?:필요|중)|미확인|품절|종료|단종|직구|구매\s*불가")
-SALE_STATUS_CONFIRMED = re.compile(r"판매.*확인|구매.*(?:링크|가능|확인)")
+SALE_STATUS_CONFIRMED = re.compile(
+    r"판매.*확인|구매.*(?:링크|가능|확인)|주문.*(?:가능|확인)"
+)
 
 
 def json_bytes(value: object, *, pretty: bool = True) -> bytes:
@@ -67,6 +69,14 @@ def primary_cert(product: dict) -> dict:
     return active or (certifications[0] if certifications else {})
 
 
+def declared_non_kc(product: dict) -> bool:
+    text = " ".join(
+        str(product.get(key, ""))
+        for key in ("kcApplicable", "regulatoryRegime")
+    )
+    return bool(re.search(r"비대상|해당\s*없음", text))
+
+
 def related_text(certification: dict) -> str:
     output: list[str] = []
     for item in certification.get("relatedCertificates", []):
@@ -82,7 +92,8 @@ def related_text(certification: dict) -> str:
 
 
 def csv_row(product: dict, sequence: int) -> dict[str, object]:
-    cert = primary_cert(product)
+    non_kc = declared_non_kc(product)
+    cert = {} if non_kc else primary_cert(product)
     official_urls = product.get("officialUrls", []) if isinstance(product.get("officialUrls"), list) else []
     return {
         "순번": sequence,
@@ -97,7 +108,7 @@ def csv_row(product: dict, sequence: int) -> dict[str, object]:
         "대상 월령": product.get("ageRange", ""),
         "월령 근거": product.get("ageEvidence", ""),
         "KC 대상 여부": product.get("kcApplicable", ""),
-        "KC 인증번호": product.get("kcNumber", ""),
+        "KC 인증번호": "" if non_kc else product.get("kcNumber", ""),
         "확인 플랫폼": product.get("platform", ""),
         "확인일": product.get("checkedAt", ""),
         "판정·검증 사유": product.get("reason", ""),
@@ -109,18 +120,18 @@ def csv_row(product: dict, sequence: int) -> dict[str, object]:
         "규제 기준 메모": product.get("regulatoryNote", ""),
         "사용자 판정명": product.get("statusDisplay", ""),
         "재검증 상태": product.get("revalidationState", ""),
-        "KC 인증상태": cert.get("status", product.get("certStatusSummary", "")),
-        "KC 인증일자": cert.get("certDate", product.get("certDateSummary", "")),
-        "KC 인증변경일자": cert.get("changedDate", product.get("certChangedDateSummary", "")),
-        "KC 인증변경사유": cert.get("changedReason", product.get("certChangedReasonSummary", "")),
-        "KC 인증구분": cert.get("certType", product.get("certTypeSummary", "")),
-        "KC 인증기관": cert.get("authority", product.get("certAuthoritySummary", "")),
-        "Safety Korea 상세 URL": cert.get("url", product.get("safetyKoreaSearchUrl", "")),
-        "KC 품목명": cert.get("itemName", ""),
-        "KC 모델명": cert.get("modelName", product.get("officialModel", "")),
-        "KC 제조사": cert.get("manufacturer", product.get("manufacturer", "")),
-        "KC 수입업체": cert.get("importer", product.get("importer", "")),
-        "연관 인증번호": related_text(cert),
+        "KC 인증상태": "KC 비대상" if non_kc else cert.get("status", product.get("certStatusSummary", "")),
+        "KC 인증일자": "" if non_kc else cert.get("certDate", product.get("certDateSummary", "")),
+        "KC 인증변경일자": "" if non_kc else cert.get("changedDate", product.get("certChangedDateSummary", "")),
+        "KC 인증변경사유": "" if non_kc else cert.get("changedReason", product.get("certChangedReasonSummary", "")),
+        "KC 인증구분": "" if non_kc else cert.get("certType", product.get("certTypeSummary", "")),
+        "KC 인증기관": "" if non_kc else cert.get("authority", product.get("certAuthoritySummary", "")),
+        "Safety Korea 상세 URL": "" if non_kc else cert.get("url", product.get("safetyKoreaSearchUrl", "")),
+        "KC 품목명": "" if non_kc else cert.get("itemName", ""),
+        "KC 모델명": "" if non_kc else cert.get("modelName", product.get("officialModel", "")),
+        "KC 제조사": "" if non_kc else cert.get("manufacturer", product.get("manufacturer", "")),
+        "KC 수입업체": "" if non_kc else cert.get("importer", product.get("importer", "")),
+        "연관 인증번호": "" if non_kc else related_text(cert),
         "duplicateOf": product.get("duplicateOf", ""),
         "canonicalProductId": product.get("canonicalProductId", product.get("duplicateOf") or product.get("id", "")),
     }
@@ -398,8 +409,22 @@ def main() -> None:
     dump(DATA / "full-revalidation-v3-summary.json", summary)
     dump(DATA / "full-revalidation-v3-report.json", missing_report)
 
+    previous_proof_path = DATA / "codex-production-verification.json"
+    previous_proof = {}
+    if previous_proof_path.exists():
+        try:
+            previous_proof = json.loads(previous_proof_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            previous_proof = {}
+    deployment_verification = str(
+        previous_proof.get("deploymentVerification", "pending")
+    )
     proof = {
-        "status": "passed",
+        "status": (
+            str(previous_proof.get("status", "passed"))
+            if deployment_verification != "pending"
+            else "passed"
+        ),
         "build": BUILD,
         "legacyStrict419Filename": True,
         "rawRecords": len(products),
@@ -419,8 +444,18 @@ def main() -> None:
         "excludedAndDuplicateTile": excluded_and_duplicate,
         "dataSha256": compact_sha,
         "csvSha256": csv_sha,
-        "deploymentVerification": "pending",
+        "deploymentVerification": deployment_verification,
     }
+    for key in ("requestedProduction", "blockingIssue"):
+        if key in previous_proof:
+            proof[key] = previous_proof[key]
+    if isinstance(previous_proof.get("verifiedDeployment"), dict):
+        verified_deployment = dict(previous_proof["verifiedDeployment"])
+        verified_deployment["artifactMatchesCurrentBuild"] = bool(
+            previous_proof.get("dataSha256") == compact_sha
+            and previous_proof.get("csvSha256") == csv_sha
+        )
+        proof["verifiedDeployment"] = verified_deployment
     for name in (
         "strict-419-production-final-proof.json",
         "strict-419-live-sync-proof.json",

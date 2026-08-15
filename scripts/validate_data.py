@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 PUBLIC = ROOT / "public"
 SOURCE = DATA / "master-products.json"
-EXPECTED_BUILD = "20260815-live459-recovery1"
+EXPECTED_BUILD = "20260815-live459-recovery2"
 MINIMUM_RECOVERED_RECORDS = 459
 CANONICAL_CATEGORIES = {
     "완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀",
@@ -26,6 +26,12 @@ EXPECTED_DUPLICATES = {
     "TOY-20260729-124": "TOY-20260729-123",
     "TOY-20260729-125": "TOY-20260729-053",
     "TOY-20260729-155": "TOY-20260729-154",
+    "TEETHER-20260801-015": "RUN18-008",
+    "RUN18-011": "MASTER-0195",
+    "TEETHER-20260801-005": "MASTER-0195",
+    "RUN18-013": "MASTER-0196",
+    "RUN18-012": "MASTER-0197",
+    "TEETHER-20260801-026": "MASTER-0135",
 }
 KC_PATTERN = re.compile(r"^[A-Z]{1,3}\d[A-Z0-9-]*[A-Z0-9]$", re.I)
 PLACEHOLDER = re.compile(r"미확인|확인\s*중|확인\s*필요|후보|부족|^-$")
@@ -54,6 +60,14 @@ def kc_applies(product: dict) -> bool:
     if re.search(r"비대상|해당\s*없음", text):
         return False
     return bool(re.search(r"어린이제품|완구|안전확인|안전인증|공급자적합|전기용품", text))
+
+
+def declared_non_kc(product: dict) -> bool:
+    text = " ".join(
+        str(product.get(key, ""))
+        for key in ("kcApplicable", "regulatoryRegime")
+    )
+    return bool(re.search(r"비대상|해당\s*없음", text))
 
 
 def included_errors(product: dict) -> list[str]:
@@ -134,6 +148,15 @@ def main() -> None:
                 errors.append(f"{product.get('id')}: {failure}")
         if product.get("status") == "제외" and not str(product.get("reason", "")).strip():
             errors.append(f"{product.get('id')}: excluded reason is absent")
+        if declared_non_kc(product):
+            if str(product.get("kcNumber", "")).strip() or product.get("certifications"):
+                errors.append(f"{product.get('id')}: non-KC product retains certification data")
+            if str(product.get("safetyKoreaSearchUrl", "")).strip():
+                errors.append(f"{product.get('id')}: non-KC product retains Safety Korea URL")
+            if product.get("certStatusSummary") != "KC 비대상":
+                errors.append(f"{product.get('id')}: non-KC status summary mismatch")
+            if product.get("certificationEvidenceLevel") != "not-applicable":
+                errors.append(f"{product.get('id')}: non-KC evidence level mismatch")
 
     unique_products = [product for product in products if not product.get("duplicateOf")]
     duplicate_count = len(products) - len(unique_products)

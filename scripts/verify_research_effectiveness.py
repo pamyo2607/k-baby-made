@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from collections import Counter
 from pathlib import Path
@@ -55,6 +56,12 @@ def main() -> None:
     state = dict(audit.get("state", {}))
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     staged = json.loads(STAGING.read_text(encoding="utf-8")) if STAGING.exists() else []
+    canonical_sha = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
+    staging_sha = hashlib.sha256(STAGING.read_bytes()).hexdigest() if STAGING.exists() else ""
+    recorded_canonical_sha = str(state.get("canonicalShaAfterRun", ""))
+    recorded_staging_sha = str(state.get("stagingShaAfterRun", ""))
+    snapshot_matches_canonical = bool(recorded_canonical_sha) and recorded_canonical_sha == canonical_sha
+    snapshot_matches_staging = bool(recorded_staging_sha) and recorded_staging_sha == staging_sha
     candidate_by_id = {str(item.get("id", "")): item for item in staged}
     errors: list[str] = []
 
@@ -195,8 +202,17 @@ def main() -> None:
     )
     if integer(state, "includedThisRun") != included_transitions:
         errors.append("includedThisRun must count status transitions, not total rows")
+    expected_outcome = (
+        "status-resolved" if transitions
+        else "partial-evidence-only" if changed_ids
+        else "no-verified-progress"
+    )
+    if recorded_canonical_sha and str(state.get("researchOutcome", "")) != expected_outcome:
+        errors.append(
+            f"researchOutcome={state.get('researchOutcome')} expected={expected_outcome}"
+        )
     included_total = sum(item.get("status") == "포함" for item in products)
-    if integer(state, "includedTotalAfterRun") != included_total:
+    if snapshot_matches_canonical and integer(state, "includedTotalAfterRun") != included_total:
         errors.append("includedTotalAfterRun does not match canonical data")
 
     cumulative_candidates = [
@@ -211,9 +227,9 @@ def main() -> None:
     cumulative_by_category = Counter(
         str(item.get("category", "")) for item in cumulative_candidates
     )
-    if integer(state, "candidateTotalAfterRun") != len(cumulative_candidates):
+    if snapshot_matches_staging and integer(state, "candidateTotalAfterRun") != len(cumulative_candidates):
         errors.append("candidateTotalAfterRun does not match canonical data")
-    if integer(state, "totalProducts") != len(products):
+    if snapshot_matches_canonical and integer(state, "totalProducts") != len(products):
         errors.append("totalProducts does not match canonical data")
 
     report = {
@@ -229,8 +245,11 @@ def main() -> None:
         "revalidationErrorsThisRun": audit_error_count,
         "recordsChangedThisRun": integer(state, "recordsChangedThisRun"),
         "statusTransitionsThisRun": transitions,
+        "researchOutcome": expected_outcome,
         "includedTransitionsThisRun": included_transitions,
-        "includedTotalAfterRun": included_total,
+        "includedTotalAfterRun": integer(state, "includedTotalAfterRun"),
+        "snapshotMatchesCanonical": snapshot_matches_canonical,
+        "snapshotMatchesStaging": snapshot_matches_staging,
         "newCandidateLimit": candidate_limit,
         "rawCandidatesFoundThisRun": raw_found,
         "candidatesAcceptedBeforeSanitizationThisRun": accepted_before_sanitize,

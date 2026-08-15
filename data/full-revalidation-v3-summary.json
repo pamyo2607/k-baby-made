@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "build": "20260815-live459-recovery1",
+  "build": "20260815-live459-recovery2",
   "baseline": {
     "build": "20260804-strict419-fix1",
     "rawRecords": 459,
@@ -39,59 +39,58 @@
   },
   "reportScope": "closed 2026-08-15 recovery batch plus current generated inventory",
   "recoveryBatch": {
-    "reviewedExistingProducts": 16,
+    "reviewedExistingProducts": 42,
     "newProductsReviewed": 0,
     "statusTransitions": {
-      "pendingToIncluded": 2,
-      "includedToPending": 1,
-      "pendingToExcluded": 10,
+      "pendingToIncluded": 13,
+      "includedToPending": 0,
+      "pendingToExcluded": 15,
       "includedToExcluded": 1,
-      "pendingMaintained": 2
+      "pendingMaintained": 11
     },
-    "changedProducts": 16,
-    "statusChangedProducts": 14,
+    "changedProducts": 42,
+    "statusChangedProducts": 29,
     "verifiedFields": {
       "kcNumberNewOrCorrected": 2,
-      "safetyKoreaSameModel": 11,
-      "countryOfManufacture": 15,
-      "officialAge": 14,
-      "currentSale": 14,
-      "manufacturerOrImporter": 7
+      "safetyKoreaSameModel": 14,
+      "countryOfManufacture": 37,
+      "officialAge": 36,
+      "currentSale": 35,
+      "manufacturerOrImporter": 29
     },
     "changedFieldCounts": {
-      "ageRange": 10,
-      "countryOfManufacture": 2,
-      "importer": 1,
-      "kcNumber": 4,
-      "manufacturer": 4,
-      "saleStatus": 15,
-      "status": 14
+      "ageRange": 29,
+      "countryOfManufacture": 12,
+      "importer": 23,
+      "kcNumber": 24,
+      "manufacturer": 25,
+      "saleStatus": 35,
+      "status": 29
     }
   },
   "final": {
     "rawRecords": 459,
-    "uniqueProducts": 455,
-    "included": 9,
-    "pending": 399,
-    "excluded": 47,
-    "duplicateRecords": 4,
-    "excludedAndDuplicate": 51,
-    "fullRevalidationTargetRows": 408
+    "uniqueProducts": 449,
+    "included": 21,
+    "pending": 382,
+    "excluded": 46,
+    "duplicateRecords": 10,
+    "excludedAndDuplicate": 56,
+    "fullRevalidationTargetRows": 403
   },
   "missingFields": {
-    "pendingProducts": 399,
-    "structured": 399,
+    "pendingProducts": 382,
+    "structured": 382,
     "counts": {
-      "countryOfManufacture": 328,
-      "manufacturerOrImporter": 295,
-      "safetyKoreaSameModel": 232,
-      "officialAge": 206,
-      "exactKcNumber": 193,
-      "currentSale": 57,
-      "officialEvidence": 41,
-      "sameProductIdentity": 4
+      "countryOfManufacture": 325,
+      "manufacturerOrImporter": 291,
+      "safetyKoreaSameModel": 227,
+      "officialAge": 195,
+      "exactKcNumber": 189,
+      "currentSale": 46,
+      "officialEvidence": 30
     }
   },
-  "dataSha256": "91c54ef419d36a2e50bf9778a902d760e0c2f0c0fc1bd42e62df76c66d307d3c",
-  "csvSha256": "b27896171da4a939fb5b5eecf8781cd244ff24e70cb7eb41b99cd321936e5351"
+  "dataSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
+  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d"
 }

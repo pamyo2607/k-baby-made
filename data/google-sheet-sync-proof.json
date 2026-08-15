@@ -1,10 +1,14 @@
 {
   "status": "passed",
-  "verifiedAt": "2026-08-15T16:31:23+09:00",
+  "verifiedAt": "2026-08-15T19:20:30+09:00",
   "spreadsheetId": "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I",
   "spreadsheetTitle": "K-Baby Made Live DB",
   "backup": {
     "status": "created-before-write",
+    "fileId": "1JlhWaOBq2VzF-kK959E0KAH671ALRssQ-dC_GyFIVuY",
+    "url": "https://docs.google.com/spreadsheets/d/1JlhWaOBq2VzF-kK959E0KAH671ALRssQ-dC_GyFIVuY/edit?usp=drivesdk"
+  },
+  "previousRecoveryBackup": {
     "fileId": "1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4",
     "url": "https://docs.google.com/spreadsheets/d/1dova75UcikeihkRrURBIQ0VLhH85xvt3wDq9Nhznnk4/edit?usp=drivesdk"
   },
@@ -24,34 +28,45 @@
     "masterColumns": 38,
     "rawRecords": 459,
     "distinctIds": 459,
-    "uniqueProducts": 455,
-    "included": 9,
-    "pending": 399,
-    "uniqueExcluded": 47,
-    "duplicateRecords": 4,
-    "excludedAndDuplicate": 51,
-    "fullRevalidationTargetRows": 408,
-    "revalidationQueueRows": 399,
-    "revalidationQueueDistinctIds": 399,
+    "uniqueProducts": 449,
+    "included": 21,
+    "pending": 382,
+    "uniqueExcluded": 46,
+    "duplicateRecords": 10,
+    "excludedAndDuplicate": 56,
+    "fullRevalidationTargetRows": 403,
+    "revalidationQueueRows": 382,
+    "revalidationQueueDistinctIds": 382,
     "strictSync": "459-row verified snapshot; no external IMPORTDATA authorization dependency",
     "dashboardFormulaCounts": {
       "rawRecords": 459,
-      "uniqueProducts": 455,
-      "included": 9,
-      "pending": 399,
-      "uniqueExcluded": 47,
-      "duplicateRecords": 4,
-      "excludedAndDuplicate": 51,
-      "fullRevalidationTargetRows": 408
+      "uniqueProducts": 449,
+      "included": 21,
+      "pending": 382,
+      "uniqueExcluded": 46,
+      "duplicateRecords": 10,
+      "excludedAndDuplicate": 56,
+      "fullRevalidationTargetRows": 403
     }
   },
   "duplicateMap": {
     "TOY-20260729-115": "TOY-20260729-024",
     "TOY-20260729-124": "TOY-20260729-123",
     "TOY-20260729-125": "TOY-20260729-053",
-    "TOY-20260729-155": "TOY-20260729-154"
+    "TOY-20260729-155": "TOY-20260729-154",
+    "TEETHER-20260801-015": "RUN18-008",
+    "RUN18-011": "MASTER-0195",
+    "TEETHER-20260801-005": "MASTER-0195",
+    "RUN18-013": "MASTER-0196",
+    "RUN18-012": "MASTER-0197",
+    "TEETHER-20260801-026": "MASTER-0135"
   },
-  "dataSha256": "785cbdc1bd196338c49e41c9cb4c2d60719430a6f91b39bdbd3cbae64facc250",
-  "csvSha256": "67ad7783419370e16639213cb28f220aa1790e981a47689725f775339cd752d2",
+  "dataSha256": "726d045d6baf95cc0046385291183bbef0237bf4fe272710721846ee8475b767",
+  "csvSha256": "69323c173831886271bdd8083efc7e1c0f83c75ca8bb292d4d9553fbe80e075d",
+  "readback": {
+    "masterDb": {"range": "A1:AL460", "rows": 460, "columns": 38, "cellDiffs": 0},
+    "strictSync": {"range": "A1:AL460", "rows": 460, "columns": 38, "cellDiffs": 0},
+    "revalidationQueue": {"range": "A1:X383", "rows": 383, "columns": 24, "cellDiffs": 0}
+  },
   "remainingBlockers": []
 }
