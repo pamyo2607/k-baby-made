@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "passed",
   "build": "20260815-dedup449-final1",
   "legacyStrict419Filename": true,
   "rawRecords": 449,
@@ -11,7 +11,7 @@
   "uniqueExcluded": 46,
   "verifiedTotal": 449,
   "transport": "verified-csv",
-  "liveConnected": false,
+  "liveConnected": true,
   "buildError": null,
   "expectedRenderedCards": 24,
   "includedTile": 21,
@@ -19,6 +19,54 @@
   "excludedAndDuplicateTile": 46,
   "dataSha256": "1fe816db20b85846ccc4449a5281728b0cb11718ad29632a008e3a0831c8edde",
   "csvSha256": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e",
-  "deploymentVerification": "pending",
-  "blockingIssue": "Production deploy and cache-busted endpoint/browser verification required"
+  "deploymentVerification": "passed",
+  "verifiedDeployment": {
+    "verifiedAt": "2026-08-15T20:21:28+09:00",
+    "url": "https://k-baby-made.pamyo26.workers.dev/",
+    "cloudflareVersionId": "4b2cdccf-1da1-4059-a36d-99c7c7249aa8",
+    "artifactMatchesCurrentBuild": true,
+    "http200": [
+      "/",
+      "/index.html",
+      "/app.js",
+      "/styles.css",
+      "/kbaby-data.js",
+      "/data/master-db-419-final.csv",
+      "/master-db-sync.csv",
+      "/data/fallback-products.json",
+      "/health.json",
+      "/meta.json"
+    ],
+    "sha256": {
+      "index.html": "6bf233f9037d2cfeb86bedbd63eaeb2a9537715aee06b5304042685c1618e1a8",
+      "app.js": "4fc345182000e437c960416779c47e34bb261e316664c6dbf268295cdc4b4c3f",
+      "styles.css": "e9cb41f14f0517393b608f923d6c2b4dd54815ffdad0a0f9a238366c98e87661",
+      "kbaby-data.js": "60fe1ce6930b1ac32859ec34166c991d70918c1fc1e53811c962468b16a69036",
+      "csv": "41646e8e4e8ba538328317cca99ff0f4bc0eb7d0b3364bea487288d70f7fe76e",
+      "fallback-products.json": "969644332c25fb2adac1b0163dbf478d6335441f11cc07ed6b1473cc1df2c56d",
+      "health.json": "481265b4730da85d5c900d7d92d9eb4d5ab023b8e63138ece851936c7624de0a",
+      "meta.json": "7da8c921f86366fed86c8c335eff1877e2983408e0b2ea0751bc8337c1214cdc"
+    },
+    "browser": {
+      "transport": "verified-csv",
+      "total": 449,
+      "currentSale": 210,
+      "included": 21,
+      "pending": 382,
+      "excludedAndDuplicate": 46,
+      "initialCards": 24,
+      "includedFilter": 21,
+      "pendingFilter": 382,
+      "excludedAndDuplicateFilter": 46,
+      "legacyDeletedIdSearches": 10,
+      "legacyDeletedIdSearchesMappedToRetainedCanonical": 10,
+      "retainedCompletedProduct": "RUN18-008",
+      "exactKcDetail": "passed",
+      "autoSyncAfter30Seconds": "passed",
+      "consoleScope": "current build 20260815-dedup449-final1",
+      "consoleErrors": 0,
+      "consoleWarnings": 0,
+      "historicalWarningsFromSupersededBuild": 17
+    }
+  }
 }

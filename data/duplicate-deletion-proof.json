@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "verifiedAt": "2026-08-15T20:11:00+09:00",
+  "verifiedAt": "2026-08-15T20:21:28+09:00",
   "build": "20260815-dedup449-final1",
   "sourceCommit": "3159688dda039ba3362c8392bac2fb16a6640371",
   "recoverableBackups": {
@@ -14,6 +14,19 @@
   "after": {"rawRecords": 449, "uniqueProducts": 449, "duplicateRecords": 0, "included": 21, "pending": 382, "excluded": 46, "currentSale": 210, "fullRevalidationTargetRows": 403},
   "sheetReadback": {"masterCellDiffs": 0, "strictSyncCellDiffs": 0, "queueCellDiffs": 0, "deletedIdsFound": 0, "retainedIdsFound": 9},
   "localValidation": {"npmCheck": "passed", "ultraQuality": "passed", "includedViolations": 0, "unresolvedDuplicateGroups": 0},
-  "deploymentVerification": "pending",
-  "production": {"url": "https://k-baby-made.pamyo26.workers.dev/", "status": "pending"}
+  "deploymentVerification": "passed",
+  "production": {
+    "url": "https://k-baby-made.pamyo26.workers.dev/",
+    "status": "passed",
+    "cloudflareVersionId": "4b2cdccf-1da1-4059-a36d-99c7c7249aa8",
+    "liveRows": 449,
+    "liveDuplicateRows": 0,
+    "liveDeletedIdsFound": 0,
+    "legacyIdSearchesMappedToRetainedCanonical": 10,
+    "retainedCompletedProduct": "RUN18-008",
+    "consoleScope": "current build 20260815-dedup449-final1",
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "historicalWarningsFromSupersededBuild": 17
+  }
 }
