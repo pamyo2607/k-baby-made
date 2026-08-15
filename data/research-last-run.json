@@ -1,6 +1,6 @@
 {
   "state": {
-    "lastRun": "2026-08-14",
+    "lastRun": "2026-08-15",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "scheduleTarget": "5분 최단 주기",
@@ -27,7 +27,7 @@
       "이유식용품": 20,
       "위생용품": 20
     },
-    "errors": 32,
+    "errors": 42,
     "totalProducts": 350,
     "rawNewCandidates": 0,
     "removedInvalidCandidates": 0
@@ -93,9 +93,10 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://smartstore.naver.com/main/products/11950699862"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-014",
@@ -130,17 +131,19 @@
       "changed": true,
       "quality": "ultra",
       "errors": [
-        "sale_inactive"
-      ]
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-020",
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000768001458"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-021",
@@ -148,8 +151,9 @@
       "changed": true,
       "quality": "ultra",
       "errors": [
-        "sale_inactive"
-      ]
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-023",
@@ -157,17 +161,19 @@
       "changed": true,
       "quality": "ultra",
       "errors": [
-        "sale_inactive"
-      ]
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-025",
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://kidsmart.or.kr/product/31327-%ED%81%B4%EB%9E%98%EC%8B%9D%EC%9B%94%EB%93%9C%EC%9A%B0%EB%93%A0%EB%A7%88%EB%9D%BC%EC%B9%B4%EC%8A%A4%EB%82%B1%EA%B0%9C%EC%83%89%EC%83%81%EB%9E%9C%EB%8D%A4%EB%A6%AC%EB%93%AC%EC%95%85%EA%B8%B0-%EC%9B%90%EB%AA%A9%EC%95%85%EA%B8%B0/31550"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-030",
@@ -184,18 +190,20 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.coupang.com/vp/products/7767970486"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-032",
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000304918309"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-033",
@@ -221,27 +229,30 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/59716790621"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-036",
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.ssg.com/item/itemView.ssg?itemId=1000304918380"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-037",
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/60661359955"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-038",
@@ -258,9 +269,10 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://search.shopping.naver.com/catalog/59833987818"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-040",
@@ -287,9 +299,10 @@
       "checked": true,
       "changed": true,
       "quality": "ultra",
-      "errors": [],
-      "saleListingConfirmed": true,
-      "replacementSalesUrl": "https://www.coupang.com/vp/products/7756347065"
+      "errors": [
+        "current_sale_listing_not_confirmed"
+      ],
+      "saleListingConfirmed": false
     },
     {
       "id": "TOY-20260729-044",
