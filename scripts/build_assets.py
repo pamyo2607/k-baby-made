@@ -11,6 +11,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from data_contract import current_sale_count
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 PUBLIC = ROOT / "public"
@@ -39,10 +41,6 @@ MISSING_LABELS = {
     "safetyKoreaSameModel": "Safety Korea 동일 모델 연결",
     "sameProductIdentity": "공식 자료와 canonical 제품의 동일성",
 }
-SALE_STATUS_BLOCKED = re.compile(r"재검증|확인\s*(?:필요|중)|미확인|품절|종료|단종|직구|구매\s*불가")
-SALE_STATUS_CONFIRMED = re.compile(
-    r"판매.*확인|구매.*(?:링크|가능|확인)|주문.*(?:가능|확인)"
-)
 
 
 def json_bytes(value: object, *, pretty: bool = True) -> bytes:
@@ -182,13 +180,7 @@ def main() -> None:
     latest = max(str(item.get("checkedAt", "")) for item in products)
     strict_target = unique_status["포함"] + unique_status["보류"]
     excluded_and_duplicate = unique_status["제외"] + len(duplicates)
-    current_sale = sum(
-        item.get("status") != "제외"
-        and not item.get("archive")
-        and not SALE_STATUS_BLOCKED.search(str(item.get("saleStatus", "")))
-        and bool(SALE_STATUS_CONFIRMED.search(str(item.get("saleStatus", ""))))
-        for item in unique_products
-    )
+    current_sale = current_sale_count(unique_products)
 
     compact = json_bytes(products, pretty=False)
     compact_sha = sha(compact)
@@ -282,6 +274,7 @@ def main() -> None:
         "rawRecords": len(products),
         "uniqueProducts": len(unique_products),
         "duplicateRecords": len(duplicates),
+        "currentSale": current_sale,
         "fullRevalidationTargetRows": strict_target,
         "strict419TargetRows": strict_target,
         "statusCounts": unique_status,
@@ -445,6 +438,7 @@ def main() -> None:
         "rawRecords": len(products),
         "uniqueProducts": len(unique_products),
         "duplicateRecords": len(duplicates),
+        "currentSale": current_sale,
         "strict419TargetRows": strict_target,
         "uniqueIncluded": unique_status["포함"],
         "uniquePending": unique_status["보류"],
