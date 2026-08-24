@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-24T14:33:25+00:00",
+    "lastRun": "2026-08-24T14:34:42+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-unattempted",
@@ -18,116 +18,110 @@
     ],
     "nextCategory": "완구",
     "categoryIndex": 0,
-    "pendingAvailableBeforeRun": 205,
+    "pendingAvailableBeforeRun": 155,
     "canonicalPendingBeforeRun": 382,
-    "pendingCursorStart": 177,
-    "pendingCursorNext": 227,
+    "pendingCursorStart": 227,
+    "pendingCursorNext": 277,
     "pendingSelected": 50,
     "pendingSelectedIds": [
-      "MASTER-0001",
-      "MASTER-0002",
-      "MASTER-0003",
-      "MASTER-0004",
-      "MASTER-0005",
-      "MASTER-0006",
-      "MASTER-0008",
-      "MASTER-0011",
-      "MASTER-0012",
-      "MASTER-0013",
-      "MASTER-0014",
-      "MASTER-0017",
-      "MASTER-0018",
-      "MASTER-0019",
-      "MASTER-0020",
-      "MASTER-0021",
-      "MASTER-0023",
-      "MASTER-0031",
-      "MASTER-0035",
-      "MASTER-0037",
-      "MASTER-0040",
-      "MASTER-0042",
-      "MASTER-0044",
-      "MASTER-0046",
-      "MASTER-0048",
-      "MASTER-0049",
-      "MASTER-0051",
-      "MASTER-0052",
-      "MASTER-0053",
-      "MASTER-0056",
-      "MASTER-0058",
-      "MASTER-0060",
-      "MASTER-0061",
-      "MASTER-0063",
-      "MASTER-0064",
-      "MASTER-0065",
-      "MASTER-0066",
-      "MASTER-0069",
-      "MASTER-0077",
-      "MASTER-0082",
-      "MASTER-0083",
-      "MASTER-0089",
-      "MASTER-0091",
-      "MASTER-0093",
-      "MASTER-0099",
-      "MASTER-0110",
-      "MASTER-0111",
-      "MASTER-0115",
-      "MASTER-0119",
-      "MASTER-0120"
+      "MASTER-0121",
+      "MASTER-0123",
+      "MASTER-0124",
+      "MASTER-0125",
+      "MASTER-0126",
+      "MASTER-0131",
+      "MASTER-0132",
+      "MASTER-0141",
+      "MASTER-0142",
+      "MASTER-0143",
+      "MASTER-0144",
+      "MASTER-0146",
+      "MASTER-0148",
+      "MASTER-0153",
+      "MASTER-0160",
+      "MASTER-0178",
+      "MASTER-0180",
+      "MASTER-0186",
+      "MASTER-0190",
+      "MASTER-0007",
+      "MASTER-0010",
+      "MASTER-0015",
+      "MASTER-0022",
+      "MASTER-0024",
+      "MASTER-0025",
+      "MASTER-0027",
+      "MASTER-0029",
+      "MASTER-0030",
+      "MASTER-0033",
+      "MASTER-0034",
+      "MASTER-0036",
+      "MASTER-0041",
+      "MASTER-0043",
+      "MASTER-0045",
+      "MASTER-0050",
+      "MASTER-0055",
+      "MASTER-0057",
+      "MASTER-0062",
+      "MASTER-0070",
+      "MASTER-0074",
+      "MASTER-0075",
+      "MASTER-0076",
+      "MASTER-0079",
+      "MASTER-0087",
+      "MASTER-0092",
+      "MASTER-0094",
+      "MASTER-0095",
+      "MASTER-0096",
+      "MASTER-0098",
+      "MASTER-0101"
     ],
     "revalidationAttempts": 50,
-    "revalidationCompleted": 46,
+    "revalidationCompleted": 40,
     "successfulRevalidations": 0,
     "effectiveRevalidations": 0,
     "revalidationErrorCount": 50,
-    "recordsChangedThisRun": 46,
+    "recordsChangedThisRun": 40,
     "recordsChangedIds": [
-      "MASTER-0001",
-      "MASTER-0002",
-      "MASTER-0003",
-      "MASTER-0004",
-      "MASTER-0005",
-      "MASTER-0006",
-      "MASTER-0008",
-      "MASTER-0011",
-      "MASTER-0012",
-      "MASTER-0013",
-      "MASTER-0014",
-      "MASTER-0017",
-      "MASTER-0018",
-      "MASTER-0019",
-      "MASTER-0020",
-      "MASTER-0021",
-      "MASTER-0023",
-      "MASTER-0035",
-      "MASTER-0037",
-      "MASTER-0040",
-      "MASTER-0042",
-      "MASTER-0044",
-      "MASTER-0046",
-      "MASTER-0048",
-      "MASTER-0049",
-      "MASTER-0051",
-      "MASTER-0052",
-      "MASTER-0053",
-      "MASTER-0056",
-      "MASTER-0058",
-      "MASTER-0060",
-      "MASTER-0061",
-      "MASTER-0063",
-      "MASTER-0064",
-      "MASTER-0065",
-      "MASTER-0066",
-      "MASTER-0077",
-      "MASTER-0082",
-      "MASTER-0083",
-      "MASTER-0089",
-      "MASTER-0091",
-      "MASTER-0093",
-      "MASTER-0111",
-      "MASTER-0115",
-      "MASTER-0119",
-      "MASTER-0120"
+      "MASTER-0121",
+      "MASTER-0123",
+      "MASTER-0124",
+      "MASTER-0126",
+      "MASTER-0131",
+      "MASTER-0141",
+      "MASTER-0142",
+      "MASTER-0143",
+      "MASTER-0144",
+      "MASTER-0146",
+      "MASTER-0148",
+      "MASTER-0153",
+      "MASTER-0160",
+      "MASTER-0180",
+      "MASTER-0186",
+      "MASTER-0190",
+      "MASTER-0015",
+      "MASTER-0025",
+      "MASTER-0027",
+      "MASTER-0029",
+      "MASTER-0030",
+      "MASTER-0033",
+      "MASTER-0034",
+      "MASTER-0036",
+      "MASTER-0041",
+      "MASTER-0043",
+      "MASTER-0045",
+      "MASTER-0055",
+      "MASTER-0057",
+      "MASTER-0062",
+      "MASTER-0070",
+      "MASTER-0075",
+      "MASTER-0076",
+      "MASTER-0079",
+      "MASTER-0087",
+      "MASTER-0092",
+      "MASTER-0094",
+      "MASTER-0095",
+      "MASTER-0096",
+      "MASTER-0101"
     ],
     "statusTransitionsThisRun": {},
     "researchOutcome": "partial-evidence-only",
@@ -135,89 +129,84 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 19,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 19,
-    "newCandidates": 19,
+    "newCandidatesStagedBeforeSanitizationThisRun": 21,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 21,
+    "newCandidates": 21,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-149EB468CD7A",
-      "DISC-2F0FB5D622A0",
-      "DISC-50F31C1CB90D",
-      "DISC-FF9AE6E50B08",
-      "DISC-16DC49BA6338",
-      "DISC-4449E71B04C2",
-      "DISC-6B215A0C2709",
-      "DISC-7FACB6292CEB",
-      "DISC-26ABE9ADD8BF",
-      "DISC-39AD0FD39567",
-      "DISC-4ED7FB43D730",
-      "DISC-8D33B65040F3",
-      "DISC-78ACA2F31D59",
-      "DISC-DDA929FD6308",
-      "DISC-1864D444FFF2",
-      "DISC-303A52E57B37",
-      "DISC-553AE4428315",
-      "DISC-9756E131D146",
-      "DISC-B6FE7E07AE0A"
+      "DISC-0FFD8260E999",
+      "DISC-13108AD35B6C",
+      "DISC-1C16CE9D98A4",
+      "DISC-59B65144AC48",
+      "DISC-4BDFD7103817",
+      "DISC-67CBA6315745",
+      "DISC-903DBF98846F",
+      "DISC-9D2CBA7A5607",
+      "DISC-4E22DEFCEE24",
+      "DISC-70FF26E6F737",
+      "DISC-AB964E904D71",
+      "DISC-FC3294D5D17D",
+      "DISC-00C4D0996470",
+      "DISC-121240A0E387",
+      "DISC-2840373417D5",
+      "DISC-77DC766B4670",
+      "DISC-D1D5B02DE8E4",
+      "DISC-29B1F1FB2299",
+      "DISC-694F0DE371D7",
+      "DISC-80606C891A45",
+      "DISC-DDAEA93BC7CA"
     ],
     "newCandidatesByCategory": {
-      "완구": 1,
-      "구강·치발기": 3,
+      "완구": 4,
+      "구강·치발기": 4,
       "턱받이": 4,
       "수유용품": 4,
-      "이유식·식기": 2,
-      "위생·기저귀": 5
+      "이유식·식기": 1,
+      "위생·기저귀": 4
     },
-    "candidateTotalAfterRun": 120,
+    "candidateTotalAfterRun": 141,
     "candidateTotalsByCategoryAfterRun": {
-      "완구": 22,
-      "구강·치발기": 21,
-      "턱받이": 21,
-      "수유용품": 23,
-      "이유식·식기": 13,
-      "위생·기저귀": 20
+      "완구": 26,
+      "구강·치발기": 25,
+      "턱받이": 25,
+      "수유용품": 27,
+      "이유식·식기": 14,
+      "위생·기저귀": 24
     },
     "errors": 50,
     "totalProducts": 449,
-    "canonicalShaAfterRun": "951a653d4cb83d4bb59ac5f7bbf0eef2f45090b6ef8d880de65f5bdd45e9d77c",
-    "stagingShaAfterRun": "2e5d3460bf7d111aaf8aefcf0f8d2390bb7081af643a7f18c8a030110352ba3f",
+    "canonicalShaAfterRun": "cdae8ec14ba86adb31642c318148726f809ba55293b5bc23c77b524342dff764",
+    "stagingShaAfterRun": "9f1a0ba098ee83441c097c8e851d0f69551cf95b40f7778e4559924e9e6b410d",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 19,
+    "newCandidatesThisRun": 21,
     "candidateIdsAcceptedThisRun": [
-      "DISC-149EB468CD7A",
-      "DISC-2F0FB5D622A0",
-      "DISC-50F31C1CB90D",
-      "DISC-FF9AE6E50B08",
-      "DISC-16DC49BA6338",
-      "DISC-4449E71B04C2",
-      "DISC-6B215A0C2709",
-      "DISC-7FACB6292CEB",
-      "DISC-26ABE9ADD8BF",
-      "DISC-39AD0FD39567",
-      "DISC-4ED7FB43D730",
-      "DISC-8D33B65040F3",
-      "DISC-78ACA2F31D59",
-      "DISC-DDA929FD6308",
-      "DISC-1864D444FFF2",
-      "DISC-303A52E57B37",
-      "DISC-553AE4428315",
-      "DISC-9756E131D146",
-      "DISC-B6FE7E07AE0A"
+      "DISC-0FFD8260E999",
+      "DISC-13108AD35B6C",
+      "DISC-1C16CE9D98A4",
+      "DISC-59B65144AC48",
+      "DISC-4BDFD7103817",
+      "DISC-67CBA6315745",
+      "DISC-903DBF98846F",
+      "DISC-9D2CBA7A5607",
+      "DISC-4E22DEFCEE24",
+      "DISC-70FF26E6F737",
+      "DISC-AB964E904D71",
+      "DISC-FC3294D5D17D",
+      "DISC-00C4D0996470",
+      "DISC-121240A0E387",
+      "DISC-2840373417D5",
+      "DISC-77DC766B4670",
+      "DISC-D1D5B02DE8E4",
+      "DISC-29B1F1FB2299",
+      "DISC-694F0DE371D7",
+      "DISC-80606C891A45",
+      "DISC-DDAEA93BC7CA"
     ],
     "removedInvalidCandidates": 0
   },
   "statusTransitions": [],
   "products": [
     {
-      "id": "MASTER-0001",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0002",
+      "id": "MASTER-0121",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -226,7 +215,7 @@
       ]
     },
     {
-      "id": "MASTER-0003",
+      "id": "MASTER-0123",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -235,43 +224,7 @@
       ]
     },
     {
-      "id": "MASTER-0004",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0005",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0006",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0008",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0011",
+      "id": "MASTER-0124",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -280,88 +233,7 @@
       ]
     },
     {
-      "id": "MASTER-0012",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0013",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0014",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0017",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0018",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0019",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0020",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0021",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0023",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0031",
+      "id": "MASTER-0125",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -370,7 +242,7 @@
       ]
     },
     {
-      "id": "MASTER-0035",
+      "id": "MASTER-0126",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -379,7 +251,7 @@
       ]
     },
     {
-      "id": "MASTER-0037",
+      "id": "MASTER-0131",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -388,160 +260,7 @@
       ]
     },
     {
-      "id": "MASTER-0040",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0042",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0044",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0046",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0048",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0049",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0051",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0052",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0053",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0056",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0058",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0060",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0061",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0063",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0064",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0065",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0066",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0069",
+      "id": "MASTER-0132",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -550,7 +269,7 @@
       ]
     },
     {
-      "id": "MASTER-0077",
+      "id": "MASTER-0141",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -559,25 +278,7 @@
       ]
     },
     {
-      "id": "MASTER-0082",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0083",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0089",
+      "id": "MASTER-0142",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -586,7 +287,7 @@
       ]
     },
     {
-      "id": "MASTER-0091",
+      "id": "MASTER-0143",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -595,16 +296,52 @@
       ]
     },
     {
-      "id": "MASTER-0093",
+      "id": "MASTER-0144",
       "checked": true,
       "changed": true,
       "quality": "ultra",
       "errors": [
-        "age_basis"
+        "sale_inactive"
       ]
     },
     {
-      "id": "MASTER-0099",
+      "id": "MASTER-0146",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0148",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0153",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0160",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0178",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -613,16 +350,7 @@
       ]
     },
     {
-      "id": "MASTER-0110",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ]
-    },
-    {
-      "id": "MASTER-0111",
+      "id": "MASTER-0180",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -631,7 +359,7 @@
       ]
     },
     {
-      "id": "MASTER-0115",
+      "id": "MASTER-0186",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -640,7 +368,7 @@
       ]
     },
     {
-      "id": "MASTER-0119",
+      "id": "MASTER-0190",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -649,12 +377,282 @@
       ]
     },
     {
-      "id": "MASTER-0120",
+      "id": "MASTER-0007",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0010",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0015",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0022",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0024",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0025",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0027",
       "checked": true,
       "changed": true,
       "quality": "ultra",
       "errors": [
         "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0029",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0030",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0033",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0034",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0036",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0041",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0043",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0045",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0050",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0055",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0057",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0062",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0070",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0074",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0075",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0076",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0079",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0087",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0092",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0094",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0095",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0096",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0098",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0101",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
       ]
     }
   ]
