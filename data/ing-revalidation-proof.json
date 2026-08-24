@@ -4,63 +4,13 @@
   "cycleRunId": "20260816-1355-kbaby50-cycle",
   "targetCount": 382,
   "targetIdsSha256": "12d280a2168448eaa8b911b0e0b4f58b68a21f339b6888701af1c1c210cb9407",
-  "attemptedCount": 327,
-  "remainingCount": 55,
+  "attemptedCount": 377,
+  "remainingCount": 5,
   "resolvedCount": 0,
   "includedCount": 0,
   "pendingCount": 382,
   "excludedCount": 0,
   "missingTargetIds": [
-    "TOY-20260729-196",
-    "MASTER-0158",
-    "MASTER-0081",
-    "MASTER-0097",
-    "MASTER-0136",
-    "TOY-20260729-065",
-    "TOY-20260729-067",
-    "TOY-20260729-069",
-    "TOY-20260729-074",
-    "TOY-20260729-077",
-    "TOY-20260729-079",
-    "TOY-20260729-080",
-    "TOY-20260729-081",
-    "TOY-20260729-082",
-    "TOY-20260729-083",
-    "TOY-20260729-084",
-    "TOY-20260729-091",
-    "TOY-20260729-094",
-    "TOY-20260729-095",
-    "TOY-20260729-105",
-    "TOY-20260729-106",
-    "TOY-20260729-107",
-    "TOY-20260729-109",
-    "TOY-20260729-111",
-    "TOY-20260729-112",
-    "TOY-20260729-113",
-    "TOY-20260729-197",
-    "TOY-20260729-198",
-    "TOY-20260729-199",
-    "MASTER-0039",
-    "MASTER-0047",
-    "MASTER-0068",
-    "MASTER-0080",
-    "MASTER-0084",
-    "MASTER-0088",
-    "MASTER-0102",
-    "MASTER-0104",
-    "MASTER-0109",
-    "MASTER-0116",
-    "MASTER-0159",
-    "MASTER-0161",
-    "MASTER-0173",
-    "MASTER-0181",
-    "MASTER-0183",
-    "MASTER-0134",
-    "MASTER-0139",
-    "MASTER-0170",
-    "MASTER-0200",
-    "MASTER-0206",
-    "MASTER-0208",
     "MASTER-0211",
     "RUN18-001",
     "RUN18-005",
@@ -453,13 +403,13 @@
   ],
   "duplicateResultIds": [],
   "activeDuplicateRecords": 0,
-  "resultsWithDirectEvidence": 325,
-  "resultsWithErrors": 327,
+  "resultsWithDirectEvidence": 352,
+  "resultsWithErrors": 377,
   "coverageComplete": false,
   "resolutionComplete": false,
-  "lastRun": "2026-08-24T14:36:22+00:00",
-  "lastAuditRef": "data/revalidation-audits/20260824T143622Z.json",
-  "lastAuditSha256": "eb996f09b371afb391e9bdb4a14cb53c3db7862f01efbca3bd267abf437472a6",
+  "lastRun": "2026-08-24T14:37:55+00:00",
+  "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+  "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b",
   "results": [
     {
       "id": "MASTER-0016",
@@ -5462,6 +5412,111 @@
       "lastAuditSha256": "eb996f09b371afb391e9bdb4a14cb53c3db7862f01efbca3bd267abf437472a6"
     },
     {
+      "id": "TOY-20260729-196",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000823450061&siteNo=6001&salestrNo=2037"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0158",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://search.danawa.com/dsearch.php?query=PPSU+%EB%B9%A8%EB%8C%80%EC%A0%96%EB%B3%91+%EB%B9%A8%EB%8C%80%ED%98%95+200ml&_OC_=rdc_child&logger_kw=rdc_child",
+        "https://prod.danawa.com/info/?pcode=20828714",
+        "https://www.coupang.com/vp/products/34495092?itemId=128756170&vendorItemId=3267388330"
+      ],
+      "reason": "2026-08-24 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://search.danawa.com/dsearch.php?query=PPSU+%EB%B9%A8%EB%8C%80%EC%A0%96%EB%B3%91+%EB%B9%A8%EB%8C%80%ED%98%95+200ml&_OC_=rdc_child&logger_kw=rdc_child",
+      "errors": [
+        "sale_inactive"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0081",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0097",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0136",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
+        "https://www.youtube.com/shorts/ew-zoNJjBak",
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EA%B3%BC%EC%9D%BC%EB%A7%81/2062/"
+      ],
+      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
+      "errors": [
+        "age_basis"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
       "id": "MASTER-0137",
       "finalDecision": "보류",
       "resolved": false,
@@ -6594,6 +6649,476 @@
       "lastAuditSha256": "9b3e291d08dd3129e2a399f010300fac81e5b9f060da2f6b65b2b66f6f21a5fc"
     },
     {
+      "id": "TOY-20260729-065",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000553770231&siteNo=6001&salestrNo=6005",
+        "https://kidzmall.co.kr/"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-067",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://prod.danawa.com/info/?pcode=25963361",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000553770171&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=25963361",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-069",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000552908914&siteNo=6001&salestrNo=6005",
+        "https://m.aisarang.co.kr/",
+        "https://playmax01.openhost.cafe24.com/",
+        "https://momiliter.co.kr/shop/item.php?it_id=1691720619"
+      ],
+      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/",
+      "errors": [
+        "age_basis"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-074",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000684956740&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품과 직접 연결된 공식 제조국 또는 정제된 36개월 이상 연령 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-077",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://www.shoppingntmall.com/display/goods/12347779",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000524531378&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://www.shoppingntmall.com/display/goods/12347779",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-079",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000821272538&siteNo=6001&salestrNo=2037"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-080",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://tookytoycn.com/push-pull/",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000615104046&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-081",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://hansolpia.co.kr/product/%ED%88%AC%ED%82%A4%ED%86%A0%EC%9D%B4%EB%89%B4%ED%92%80%EC%96%B4%EB%A1%B1%EC%BD%94%EB%81%BC%EB%A6%AC007/4507/",
+        "https://tookytoycn.com/push-pull/",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000615104034&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://hansolpia.co.kr/product/%ED%88%AC%ED%82%A4%ED%86%A0%EC%9D%B4%EB%89%B4%ED%92%80%EC%96%B4%EB%A1%B1%EC%BD%94%EB%81%BC%EB%A6%AC007/4507/",
+      "errors": [
+        "age_basis"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-082",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://tookytoycn.com/push-pull/",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000615104058&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-083",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://tookytoycn.com/push-pull/",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000615104068&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-084",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000709644656&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-091",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://www.safetykorea.kr/release/certSearch",
+        "https://www.safetykorea.kr/release/certDetail?certNum=CB065R0246-8001"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-094",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%98%81%EC%9C%A0%EC%95%84-%EC%82%91%EC%82%91%EC%9D%B4-%EB%94%B8%EB%9E%91%EC%9D%B4-%ED%86%A0%EB%81%BC/9285/",
+        "https://www.safetykorea.kr/release/certSearch",
+        "https://toymiso.com/product/detail.html?product_no=9285&cate_no=144&display_group=1",
+        "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%82%91%EC%82%91%EC%9D%B4-%EC%86%90%EB%AA%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%ED%86%A0%EB%81%BC-%EC%84%B8%ED%8A%B8/9272/",
+        "https://www.ipoomgo.com/shop/plan.html?plan_id=3150",
+        "https://www.wrapuppro.com/partner/view/srch_zawR4gV2WVTzUuF"
+      ],
+      "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%98%81%EC%9C%A0%EC%95%84-%EC%82%91%EC%82%91%EC%9D%B4-%EB%94%B8%EB%9E%91%EC%9D%B4-%ED%86%A0%EB%81%BC/9285/",
+      "errors": [
+        "sale_inactive"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-095",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%98%81%EC%9C%A0%EC%95%84-%EC%82%91%EC%82%91%EC%9D%B4-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%96%91/9284/",
+        "https://www.safetykorea.kr/release/certSearch",
+        "https://toymiso.com/product/list.html?cate_no=49&page=3",
+        "https://toymiso.com/product/detail.html?product_no=9284&cate_no=144&display_group=1",
+        "https://www.ipoomgo.com/shop/plan.html?plan_id=3150"
+      ],
+      "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%98%81%EC%9C%A0%EC%95%84-%EC%82%91%EC%82%91%EC%9D%B4-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%96%91/9284/",
+      "errors": [
+        "sale_inactive"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-105",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://toymiso.com/product/detail.html?product_no=9287&cate_no=1&display_group=4",
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000764092890&siteNo=6001&salestrNo=6005",
+        "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%B4%89%EA%B0%90-%EB%94%B8%EB%9E%91%EC%9D%B4-%ED%94%8C%EB%A0%88%EC%9D%B4%EB%B3%BC/9287/",
+        "https://toymiso.com/product/detail.html?product_no=9287&cate_no=1&display_group=17",
+        "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%B4%89%EA%B0%90-%EB%94%B8%EB%9E%91%EC%9D%B4-%ED%94%8C%EB%A0%88%EC%9D%B4%EB%B3%BC%EC%82%91%EC%82%91%EC%9D%B4-%EC%86%90%EB%AA%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EB%9E%9C%EB%8D%A4-%EC%A6%9D%EC%A0%95/9287/",
+        "https://www.ipoomgo.com/shop/plan.html?plan_id=3150"
+      ],
+      "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://toymiso.com/product/detail.html?product_no=9287&cate_no=1&display_group=4",
+      "errors": [
+        "sale_inactive"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-106",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://kidsmile.co.kr/product/%EB%A6%AC%ED%8B%80%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8B%A4%EB%8B%B4%EC%95%84-%EC%9A%95%EC%8B%A4%EA%B7%B8%EB%AC%BC%EB%A7%9D/1188/",
+        "https://www.safetykorea.kr/release/certSearch",
+        "https://choicehalls.com/littlecloud-baby-bath-spinner-rattle-3set/"
+      ],
+      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://kidsmile.co.kr/product/%EB%A6%AC%ED%8B%80%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8B%A4%EB%8B%B4%EC%95%84-%EC%9A%95%EC%8B%A4%EA%B7%B8%EB%AC%BC%EB%A7%9D/1188/",
+      "errors": [
+        "age_basis"
+      ],
+      "checkedAt": "2026-08-24",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-107",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000517980128&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-109",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000768001545&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-111",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000570142665&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-112",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000570150142&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-113",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000570143338&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
       "id": "TOY-20260729-120",
       "finalDecision": "보류",
       "resolved": false,
@@ -7707,6 +8232,259 @@
       "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
     },
     {
+      "id": "TOY-20260729-197",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000524531304&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-198",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000524531342&siteNo=6001&salestrNo=6005"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "TOY-20260729-199",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [
+        "https://papachart.com/?page_id=53&board_page=17&vid=19264"
+      ],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품과 직접 연결된 공식 제조국 또는 정제된 36개월 이상 연령 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0039",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0047",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0068",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0080",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0084",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품과 직접 연결된 공식 제조국 또는 정제된 36개월 이상 연령 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0088",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0102",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0104",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품과 직접 연결된 공식 제조국 또는 정제된 36개월 이상 연령 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0109",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0116",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
       "id": "MASTER-0138",
       "finalDecision": "보류",
       "resolved": false,
@@ -7779,6 +8557,44 @@
       "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
     },
     {
+      "id": "MASTER-0159",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0161",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
       "id": "MASTER-0165",
       "finalDecision": "보류",
       "resolved": false,
@@ -7824,6 +8640,63 @@
       ],
       "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
       "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+    },
+    {
+      "id": "MASTER-0173",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0181",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0183",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
     },
     {
       "id": "MASTER-0198",
@@ -8293,6 +9166,120 @@
       ],
       "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
       "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+    },
+    {
+      "id": "MASTER-0134",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0139",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0170",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0200",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0206",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0208",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143755Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
+      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
     }
   ]
 }

@@ -8,10 +8,10 @@
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 297,
     "safetyKoreaSameModel": 227,
-    "officialAge": 197,
+    "officialAge": 200,
     "exactKcNumber": 189,
-    "currentSale": 172,
-    "officialEvidence": 158,
+    "currentSale": 175,
+    "officialEvidence": 162,
     "regulatoryRegime": 10
   },
   "labels": {
@@ -979,24 +979,6 @@
       "priority": 3
     },
     {
-      "id": "MASTER-0158",
-      "category": "수유용품",
-      "brand": "맘위즈",
-      "name": "PPSU 빨대컵 200ml",
-      "checkedAt": "2026-08-15",
-      "missingFields": [
-        "currentSale",
-        "officialAge",
-        "countryOfManufacture"
-      ],
-      "missingFieldLabels": [
-        "현재 구매 가능한 국내 판매 페이지",
-        "0~35개월 공식 월령",
-        "완제품 제조국"
-      ],
-      "priority": 3
-    },
-    {
       "id": "MASTER-0001",
       "category": "위생·기저귀",
       "brand": "르소메",
@@ -1793,26 +1775,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0136",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "완두콩링 치발기",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
       "id": "RUN18-002",
       "category": "구강·치발기",
       "brand": "티지엠",
@@ -2413,70 +2375,10 @@
       "priority": 4
     },
     {
-      "id": "TOY-20260729-067",
-      "category": "완구",
-      "brand": "해피플레이",
-      "name": "헤엄치는 씽씽보트 화이트 강아지",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-069",
-      "category": "완구",
-      "brand": "플레이맥스",
-      "name": "헤엄치는 게",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
       "id": "TOY-20260729-074",
       "category": "완구",
       "brand": "캐스비",
       "name": "네이처 목욕놀이스티커 중장비차 2791",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-077",
-      "category": "완구",
-      "brand": "하늘썬별",
-      "name": "잠수함 타는 곰돌이 HUANHE8029",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "countryOfManufacture",
@@ -2517,26 +2419,6 @@
       "category": "완구",
       "brand": "투키토이",
       "name": "뉴 풀어롱 사자 TJ008A",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-081",
-      "category": "완구",
-      "brand": "투키토이",
-      "name": "뉴 풀어롱 코끼리 TJ007A",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "countryOfManufacture",
@@ -2628,86 +2510,6 @@
         "현재 구매 가능한 국내 판매 페이지",
         "완제품 제조국",
         "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-094",
-      "category": "완구",
-      "brand": "피에스타",
-      "name": "영유아 삑삑이 딸랑이 토끼",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-095",
-      "category": "완구",
-      "brand": "피에스타",
-      "name": "영유아 삑삑이 딸랑이 양",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-105",
-      "category": "완구",
-      "brand": "피에스타",
-      "name": "촉감 딸랑이 플레이볼",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-106",
-      "category": "완구",
-      "brand": "리틀클라우드",
-      "name": "우주선 흡착 회전 딸랑이 돌아기장난감",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
       ],
       "priority": 4
@@ -4073,6 +3875,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0136",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "완두콩링 치발기",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0137",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -4228,6 +4050,26 @@
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0158",
+      "category": "수유용품",
+      "brand": "맘위즈",
+      "name": "PPSU 빨대컵 200ml",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "현재 구매 가능한 국내 판매 페이지",
+        "0~35개월 공식 월령",
+        "완제품 제조국",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 4
@@ -4593,6 +4435,26 @@
       "priority": 4
     },
     {
+      "id": "TOY-20260729-067",
+      "category": "완구",
+      "brand": "해피플레이",
+      "name": "헤엄치는 씽씽보트 화이트 강아지",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 4
+    },
+    {
       "id": "TOY-20260729-068",
       "category": "완구",
       "brand": "플레이맥스",
@@ -4609,6 +4471,26 @@
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "TOY-20260729-077",
+      "category": "완구",
+      "brand": "하늘썬별",
+      "name": "잠수함 타는 곰돌이 HUANHE8029",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
       ],
       "priority": 4
     },
@@ -6607,6 +6489,50 @@
       "priority": 5
     },
     {
+      "id": "TOY-20260729-069",
+      "category": "완구",
+      "brand": "플레이맥스",
+      "name": "헤엄치는 게",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "TOY-20260729-081",
+      "category": "완구",
+      "brand": "투키토이",
+      "name": "뉴 풀어롱 코끼리 TJ007A",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 5
+    },
+    {
       "id": "TOY-20260729-092",
       "category": "완구",
       "brand": "브라이트스타트",
@@ -6691,6 +6617,28 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "TOY-20260729-106",
+      "category": "완구",
+      "brand": "리틀클라우드",
+      "name": "우주선 흡착 회전 딸랑이 돌아기장난감",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
       ],
       "priority": 5
     },
@@ -7114,6 +7062,78 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-094",
+      "category": "완구",
+      "brand": "피에스타",
+      "name": "영유아 삑삑이 딸랑이 토끼",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-095",
+      "category": "완구",
+      "brand": "피에스타",
+      "name": "영유아 삑삑이 딸랑이 양",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-105",
+      "category": "완구",
+      "brand": "피에스타",
+      "name": "촉감 딸랑이 플레이볼",
+      "checkedAt": "2026-08-24",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
