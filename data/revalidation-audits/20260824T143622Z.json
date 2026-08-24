@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "20260816-1355-ing-all",
+  "cycleRunId": "20260816-1355-kbaby50-cycle",
+  "runAt": "2026-08-24T14:36:22+00:00",
+  "workflowRunId": "32739645080",
+  "workflowRunUrl": "https://github.com/pamyo2607/k-baby-made/actions/runs/32739645080",
+  "sourceCommit": "7f6f5d25ac04cddc5b5cec1c75e8937380d54895",
+  "audit": {
+    "state": {
+      "metricsVersion": 2,
+      "lastRun": "2026-08-24T14:36:22+00:00",
+      "qualityMode": "ultra",
+      "executionMode": "alternate-url-bounded-parallel",
+      "selectionMode": "campaign-unattempted",
+      "scheduleTarget": "매시간 1회",
+      "pendingLimit": 50,
+      "newCandidateLimit": 30,
+      "currentCategories": [
+        "완구",
+        "구강·치발기",
+        "턱받이",
+        "수유용품",
+        "이유식·식기",
+        "위생·기저귀"
+      ],
+      "nextCategory": "완구",
+      "categoryIndex": 0,
+      "pendingAvailableBeforeRun": 105,
+      "canonicalPendingBeforeRun": 382,
+      "pendingCursorStart": 277,
+      "pendingCursorNext": 327,
+      "pendingSelected": 50,
+      "pendingSelectedIds": [
+        "MASTER-0103",
+        "MASTER-0105",
+        "MASTER-0107",
+        "MASTER-0108",
+        "MASTER-0112",
+        "MASTER-0114",
+        "MASTER-0117",
+        "MASTER-0118",
+        "MASTER-0145",
+        "MASTER-0147",
+        "MASTER-0149",
+        "MASTER-0150",
+        "MASTER-0151",
+        "MASTER-0154",
+        "MASTER-0155",
+        "MASTER-0156",
+        "MASTER-0157",
+        "MASTER-0162",
+        "MASTER-0163",
+        "MASTER-0164",
+        "MASTER-0174",
+        "MASTER-0175",
+        "MASTER-0176",
+        "MASTER-0182",
+        "MASTER-0184",
+        "MASTER-0191",
+        "MASTER-0192",
+        "MASTER-0213",
+        "TOY-20260729-070",
+        "TOY-20260729-078",
+        "TOY-20260729-085",
+        "TOY-20260729-087",
+        "TOY-20260729-088",
+        "TOY-20260729-092",
+        "TOY-20260729-096",
+        "TOY-20260729-098",
+        "TOY-20260729-099",
+        "TOY-20260729-100",
+        "TOY-20260729-102",
+        "TOY-20260729-108",
+        "TOY-20260729-116",
+        "TOY-20260729-130",
+        "TOY-20260729-136",
+        "TOY-20260729-144",
+        "TOY-20260729-153",
+        "TOY-20260729-156",
+        "TOY-20260729-164",
+        "TOY-20260729-186",
+        "TOY-20260729-188",
+        "TOY-20260729-189"
+      ],
+      "revalidationAttempts": 50,
+      "revalidationCompleted": 31,
+      "successfulRevalidations": 0,
+      "effectiveRevalidations": 0,
+      "revalidationErrorCount": 50,
+      "recordsChangedThisRun": 31,
+      "recordsChangedIds": [
+        "MASTER-0103",
+        "MASTER-0107",
+        "MASTER-0108",
+        "MASTER-0114",
+        "MASTER-0117",
+        "MASTER-0145",
+        "MASTER-0147",
+        "MASTER-0149",
+        "MASTER-0150",
+        "MASTER-0151",
+        "MASTER-0154",
+        "MASTER-0156",
+        "MASTER-0157",
+        "MASTER-0162",
+        "MASTER-0163",
+        "MASTER-0175",
+        "MASTER-0176",
+        "MASTER-0182",
+        "MASTER-0184",
+        "MASTER-0192",
+        "MASTER-0213",
+        "TOY-20260729-092",
+        "TOY-20260729-096",
+        "TOY-20260729-098",
+        "TOY-20260729-099",
+        "TOY-20260729-100",
+        "TOY-20260729-108",
+        "TOY-20260729-153",
+        "TOY-20260729-156",
+        "TOY-20260729-186",
+        "TOY-20260729-189"
+      ],
+      "statusTransitionsThisRun": {},
+      "researchOutcome": "partial-evidence-only",
+      "includedThisRun": 0,
+      "includedTotalAfterRun": 21,
+      "rawCandidatesFoundThisRun": 30,
+      "rawNewCandidates": 30,
+      "newCandidatesStagedBeforeSanitizationThisRun": 16,
+      "newCandidatesAcceptedBeforeSanitizationThisRun": 16,
+      "newCandidates": 16,
+      "candidateIdsDiscoveredThisRun": [
+        "DISC-5CD98192F359",
+        "DISC-8263950BAB96",
+        "DISC-2E12E2DA0798",
+        "DISC-380EED8B78EE",
+        "DISC-3CDA1FCEB050",
+        "DISC-5E44776045F5",
+        "DISC-45AC8C978937",
+        "DISC-9A450E113DDB",
+        "DISC-AD1531F60D74",
+        "DISC-D84C6CF0DF93",
+        "DISC-6742F43AB22C",
+        "DISC-734DD237633E",
+        "DISC-893862A7447F",
+        "DISC-E42542F9AE20",
+        "DISC-FD7DABF39B67",
+        "DISC-E7D6566E7DF4"
+      ],
+      "newCandidatesByCategory": {
+        "완구": 2,
+        "구강·치발기": 4,
+        "턱받이": 4,
+        "수유용품": 4,
+        "이유식·식기": 1,
+        "위생·기저귀": 1
+      },
+      "candidateTotalAfterRun": 157,
+      "candidateTotalsByCategoryAfterRun": {
+        "완구": 28,
+        "구강·치발기": 29,
+        "턱받이": 29,
+        "수유용품": 31,
+        "이유식·식기": 15,
+        "위생·기저귀": 25
+      },
+      "errors": 50,
+      "totalProducts": 449,
+      "canonicalShaAfterRun": "98535bcfa368258a549606a9823b830f69e7b34f0527ed0ff0b8c21560761279",
+      "stagingShaAfterRun": "6c9f78a3dbefc9f13bb19bc4fa7471bd896bec18099e02c1b7471deff3cd9e83",
+      "newCandidatesRejectedBySanitizationThisRun": 0,
+      "newCandidatesThisRun": 16,
+      "candidateIdsAcceptedThisRun": [
+        "DISC-5CD98192F359",
+        "DISC-8263950BAB96",
+        "DISC-2E12E2DA0798",
+        "DISC-380EED8B78EE",
+        "DISC-3CDA1FCEB050",
+        "DISC-5E44776045F5",
+        "DISC-45AC8C978937",
+        "DISC-9A450E113DDB",
+        "DISC-AD1531F60D74",
+        "DISC-D84C6CF0DF93",
+        "DISC-6742F43AB22C",
+        "DISC-734DD237633E",
+        "DISC-893862A7447F",
+        "DISC-E42542F9AE20",
+        "DISC-FD7DABF39B67",
+        "DISC-E7D6566E7DF4"
+      ],
+      "removedInvalidCandidates": 0
+    },
+    "statusTransitions": [],
+    "products": [
+      {
+        "id": "MASTER-0103",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0105",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0107",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0108",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0112",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0114",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0117",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0118",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0145",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0147",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "law_specific_evidence"
+        ]
+      },
+      {
+        "id": "MASTER-0149",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0150",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "age_basis"
+        ]
+      },
+      {
+        "id": "MASTER-0151",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0154",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0155",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0156",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0157",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0162",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "age_basis"
+        ]
+      },
+      {
+        "id": "MASTER-0163",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0164",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0174",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0175",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0176",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "age_basis"
+        ]
+      },
+      {
+        "id": "MASTER-0182",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0184",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "age_basis"
+        ]
+      },
+      {
+        "id": "MASTER-0191",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "MASTER-0192",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "MASTER-0213",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-070",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-078",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-085",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-087",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-088",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-092",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-096",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-098",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-099",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "age_basis"
+        ]
+      },
+      {
+        "id": "TOY-20260729-100",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-102",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-108",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-116",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-130",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-136",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-144",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-153",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-156",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "sale_inactive"
+        ]
+      },
+      {
+        "id": "TOY-20260729-164",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-186",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "kc_number_on_sales_page"
+        ]
+      },
+      {
+        "id": "TOY-20260729-188",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "TOY-20260729-189",
+        "checked": true,
+        "changed": true,
+        "quality": "ultra",
+        "errors": [
+          "age_basis"
+        ]
+      }
+    ]
+  }
+}
