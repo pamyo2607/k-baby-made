@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Reconcile the cumulative database with the public K-Baby Made Google Sheet.
 
-The sheet is a recovery source only. Existing reviewed rows remain byte-for-byte
-authoritative; the Sheet may contribute only previously unseen IDs. Included
-decisions are never promoted from the Sheet.
+The sheet is a recovery comparison source only. Existing reviewed rows remain
+byte-for-byte authoritative. Rows that exist only in the Sheet are preserved in
+a quarantine document, but never enter canonical data without the repository's
+explicit promotion gate and audit ledger.
 """
 from __future__ import annotations
 
@@ -19,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data/master-products.json"
 REPORT = ROOT / "data/bootstrap-report.json"
 TOMBSTONES = ROOT / "data/deleted-duplicate-tombstones.json"
+SHEET_ONLY_QUARANTINE = ROOT / "data/sheet-recovery-quarantine.json"
 SHEET_ID = "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I"
 MASTER_GID = "344727200"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={MASTER_GID}"
@@ -152,31 +154,14 @@ def recovered_product(row: dict[str, str], index: int) -> dict:
 
 
 def merge_backfill(existing: dict, recovered: dict) -> dict:
-    """Existing canonical rows are authoritative; Sheet may only add new IDs."""
+    """Existing canonical rows are authoritative during recovery comparison."""
     return dict(existing)
 
 
-def main() -> None:
-    existing: list[dict] = []
-    if SOURCE.exists():
-        existing = json.loads(SOURCE.read_text(encoding="utf-8"))
-
-    response = requests.get(
-        CSV_URL,
-        timeout=45,
-        headers={
-            "User-Agent": "Mozilla/5.0 (compatible; KBabyMadeRecovery/2.0)",
-            "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
-        },
-    )
-    response.raise_for_status()
-    response.encoding = "utf-8"
-    rows = list(csv.DictReader(io.StringIO(response.text)))
-    if len(rows) < 200:
-        raise SystemExit(f"recovery source unexpectedly small: {len(rows)} rows")
-
-    recovered_rows = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
-    tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8")) if TOMBSTONES.exists() else {}
+def reconcile_rows(
+    existing: list[dict], recovered_rows: list[dict], tombstone_doc: dict
+) -> tuple[list[dict], list[dict], dict[str, int]]:
+    """Compare Sheet rows without allowing an unaudited canonical insertion."""
     tombstone_records = tombstone_doc.get("records", [])
     deleted_ids = {
         str(item.get("deletedId", "")).strip()
@@ -206,10 +191,10 @@ def main() -> None:
         if all(product_key(item))
     }
 
-    added = 0
     merged_count = 0
     duplicate_source_rows = 0
     tombstoned_source_rows = 0
+    sheet_only_rows: list[dict] = []
     seen_source_ids: set[str] = set()
     seen_source_keys: set[tuple[str, str]] = set()
 
@@ -238,28 +223,76 @@ def main() -> None:
             merged_count += 1
             continue
 
-        products.append(recovered)
-        new_index = len(products) - 1
-        if pid:
-            index_by_id[pid] = new_index
-        if all(key):
-            index_by_key[key] = new_index
-        added += 1
+        # A Sheet row is not equivalent to a repository promotion audit. Keep
+        # the complete recovered shape for manual review, while the canonical
+        # list and its immutable campaign target remain unchanged.
+        sheet_only_rows.append(recovered)
+
+    return products, sheet_only_rows, {
+        "matchedAndBackfilled": merged_count,
+        "duplicateSourceRows": duplicate_source_rows,
+        "tombstonedSourceRows": tombstoned_source_rows,
+    }
+
+
+def main() -> None:
+    existing: list[dict] = []
+    if SOURCE.exists():
+        existing = json.loads(SOURCE.read_text(encoding="utf-8"))
+
+    response = requests.get(
+        CSV_URL,
+        timeout=45,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; KBabyMadeRecovery/2.0)",
+            "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
+        },
+    )
+    response.raise_for_status()
+    response.encoding = "utf-8"
+    rows = list(csv.DictReader(io.StringIO(response.text)))
+    if len(rows) < 200:
+        raise SystemExit(f"recovery source unexpectedly small: {len(rows)} rows")
+
+    recovered_rows = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
+    tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8")) if TOMBSTONES.exists() else {}
+    products, sheet_only_rows, stats = reconcile_rows(
+        existing, recovered_rows, tombstone_doc
+    )
 
     SOURCE.parent.mkdir(parents=True, exist_ok=True)
     SOURCE.write_text(
         json.dumps(products, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    SHEET_ONLY_QUARANTINE.write_text(
+        json.dumps(
+            {
+                "schemaVersion": 1,
+                "status": "quarantined",
+                "reason": (
+                    "Google Sheet에만 존재하며 repository promotion audit과 "
+                    "ledger가 없는 행은 canonical에 자동 편입하지 않음"
+                ),
+                "source": CSV_URL,
+                "records": len(sheet_only_rows),
+                "products": sheet_only_rows,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ) + "\n",
+        encoding="utf-8",
+    )
     report = {
-        "status": "reconciled",
+        "status": "reconciled-with-sheet-only-quarantine",
         "sourceRows": len(rows),
-        "sourceUniqueRows": len(rows) - duplicate_source_rows,
-        "duplicateSourceRows": duplicate_source_rows,
-        "tombstonedSourceRows": tombstoned_source_rows,
+        "sourceUniqueRows": len(rows) - stats["duplicateSourceRows"],
+        "duplicateSourceRows": stats["duplicateSourceRows"],
+        "tombstonedSourceRows": stats["tombstonedSourceRows"],
         "existingBefore": len(existing),
-        "matchedAndBackfilled": merged_count,
-        "addedFromSheet": added,
+        "matchedAndBackfilled": stats["matchedAndBackfilled"],
+        "addedFromSheet": 0,
+        "quarantinedFromSheet": len(sheet_only_rows),
         "productsAfter": len(products),
         "included": sum(item.get("status") == "포함" for item in products),
         "pending": sum(item.get("status") == "보류" for item in products),

@@ -21,6 +21,8 @@ PUBLIC = ROOT / "public"
 SOURCE = DATA / "master-products.json"
 ORDER = DATA / "sheet-sync-order.json"
 TOMBSTONES = DATA / "deleted-duplicate-tombstones.json"
+BOOTSTRAP_REPORT = DATA / "bootstrap-report.json"
+SHEET_RECOVERY_QUARANTINE = DATA / "sheet-recovery-quarantine.json"
 CANONICAL_CATEGORY_ORDER = (
     "완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀",
 )
@@ -163,6 +165,40 @@ def main() -> None:
         errors.append("exact canonical ID duplicate")
     if [product.get("sequence") for product in products] != list(range(1, len(products) + 1)):
         errors.append(f"canonical sequence is not contiguous 1..{len(products)}")
+
+    if SHEET_RECOVERY_QUARANTINE.exists():
+        quarantine_doc = json.loads(
+            SHEET_RECOVERY_QUARANTINE.read_text(encoding="utf-8")
+        )
+        quarantine_products = quarantine_doc.get("products", [])
+        if not isinstance(quarantine_products, list):
+            errors.append("Sheet recovery quarantine products must be an array")
+            quarantine_products = []
+        quarantine_ids = [
+            str(item.get("id", ""))
+            for item in quarantine_products
+            if isinstance(item, dict)
+        ]
+        if (
+            quarantine_doc.get("status") != "quarantined"
+            or quarantine_doc.get("records") != len(quarantine_products)
+            or len(quarantine_ids) != len(quarantine_products)
+            or not all(quarantine_ids)
+            or len(quarantine_ids) != len(set(quarantine_ids))
+        ):
+            errors.append("Sheet recovery quarantine structure mismatch")
+        overlap = sorted(set(ids).intersection(quarantine_ids))
+        if overlap:
+            errors.append(f"Sheet-only quarantine overlaps canonical IDs: {overlap}")
+        bootstrap_report = json.loads(
+            BOOTSTRAP_REPORT.read_text(encoding="utf-8")
+        )
+        if (
+            bootstrap_report.get("addedFromSheet") != 0
+            or bootstrap_report.get("quarantinedFromSheet") != len(quarantine_products)
+            or bootstrap_report.get("productsAfter") != len(products)
+        ):
+            errors.append("Sheet recovery quarantine report mismatch")
 
     by_id = {product.get("id"): product for product in products}
     tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8"))
