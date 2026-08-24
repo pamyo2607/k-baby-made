@@ -308,8 +308,7 @@ def select_pending_batch(
             and len(attempted_ids) == len(set(attempted_ids))
             and len(remaining_ids) == len(set(remaining_ids))
             and not set(attempted_ids).intersection(remaining_ids)
-            and attempted_ids + remaining_ids
-            == [value for value in target_ids if value in set(attempted_ids + remaining_ids)]
+            and set(attempted_ids).union(remaining_ids) == set(target_ids)
         ):
             remaining_candidates = [
                 candidate_by_id[value]

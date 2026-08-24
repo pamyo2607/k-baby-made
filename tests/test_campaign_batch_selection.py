@@ -37,6 +37,24 @@ class CampaignBatchSelectionTests(unittest.TestCase):
         self.assertEqual(next_cursor, 4)
         self.assertEqual(mode, "campaign-unattempted")
 
+    def test_accepts_set_partition_when_attempted_ids_are_not_target_prefix(self) -> None:
+        candidates = [{"id": value} for value in ["A", "B", "C", "D"]]
+        campaign = {
+            "targetIdsSnapshot": ["A", "B", "C", "D"],
+            "attemptedIds": ["A", "C"],
+            "remainingIds": ["B", "D"],
+        }
+
+        selected, available, start, next_cursor, mode = runner.select_pending_batch(
+            candidates, {"pendingCursorNext": 2}, campaign
+        )
+
+        self.assertEqual([item["id"] for item in selected], ["B", "D"])
+        self.assertEqual(available, 2)
+        self.assertEqual(start, 2)
+        self.assertEqual(next_cursor, 4)
+        self.assertEqual(mode, "campaign-unattempted")
+
     def test_invalid_campaign_falls_back_to_rotating_retry(self) -> None:
         candidates = [{"id": value} for value in ["A", "B", "C"]]
         invalid_campaign = {
