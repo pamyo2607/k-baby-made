@@ -795,20 +795,8 @@
     "RUN18-009"
   ],
   "remainingIds": [],
-  "currentBatchIds": [
-    "MASTER-0211",
-    "RUN18-001",
-    "RUN18-005",
-    "RUN18-006",
-    "RUN18-009"
-  ],
-  "selectedIds": [
-    "MASTER-0211",
-    "RUN18-001",
-    "RUN18-005",
-    "RUN18-006",
-    "RUN18-009"
-  ],
+  "currentBatchIds": [],
+  "selectedIds": [],
   "lanes": {
     "A": [
       "MASTER-0016",
@@ -873,17 +861,12 @@
   "cursorNext": 382,
   "coverageComplete": true,
   "resolutionComplete": false,
-  "status": "coverage-complete-resolution-pending",
+  "status": "coverage-complete-proof-incomplete",
   "createdAt": "2026-08-16T04:55:35Z",
-  "updatedAt": "2026-08-24T14:39:04+00:00",
-  "lastBatchIds": [
-    "MASTER-0211",
-    "RUN18-001",
-    "RUN18-005",
-    "RUN18-006",
-    "RUN18-009"
-  ],
-  "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
-  "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f",
-  "completedBatchCount": 9
+  "updatedAt": "2026-08-24T14:48:54+00:00",
+  "lastBatchIds": [],
+  "lastAuditRef": "data/revalidation-audits/20260824T144854Z.json",
+  "lastAuditSha256": "75f8e34d9d20d76675258937846d4d03dc38da2c9b8e05f57bef60e367fc834a",
+  "completedBatchCount": 9,
+  "verificationComplete": false
 }
