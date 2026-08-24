@@ -4,19 +4,13 @@
   "cycleRunId": "20260816-1355-kbaby50-cycle",
   "targetCount": 382,
   "targetIdsSha256": "12d280a2168448eaa8b911b0e0b4f58b68a21f339b6888701af1c1c210cb9407",
-  "attemptedCount": 377,
-  "remainingCount": 5,
+  "attemptedCount": 382,
+  "remainingCount": 0,
   "resolvedCount": 0,
   "includedCount": 0,
   "pendingCount": 382,
   "excludedCount": 0,
-  "missingTargetIds": [
-    "MASTER-0211",
-    "RUN18-001",
-    "RUN18-005",
-    "RUN18-006",
-    "RUN18-009"
-  ],
+  "missingTargetIds": [],
   "unresolvedIds": [
     "MASTER-0016",
     "MASTER-0026",
@@ -404,12 +398,12 @@
   "duplicateResultIds": [],
   "activeDuplicateRecords": 0,
   "resultsWithDirectEvidence": 352,
-  "resultsWithErrors": 377,
-  "coverageComplete": false,
+  "resultsWithErrors": 382,
+  "coverageComplete": true,
   "resolutionComplete": false,
-  "lastRun": "2026-08-24T14:37:55+00:00",
-  "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-  "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b",
+  "lastRun": "2026-08-24T14:39:04+00:00",
+  "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
+  "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f",
   "results": [
     {
       "id": "MASTER-0016",
@@ -9280,6 +9274,101 @@
       ],
       "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
       "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+    },
+    {
+      "id": "MASTER-0211",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143904Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
+      "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f"
+    },
+    {
+      "id": "RUN18-001",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143904Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
+      "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f"
+    },
+    {
+      "id": "RUN18-005",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143904Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
+      "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f"
+    },
+    {
+      "id": "RUN18-006",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143904Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
+      "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f"
+    },
+    {
+      "id": "RUN18-009",
+      "finalDecision": "보류",
+      "resolved": false,
+      "checked": false,
+      "changed": false,
+      "directEvidenceUrls": [],
+      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "checkedAt": "2026-08-04",
+      "attemptCount": 1,
+      "auditRefs": [
+        "data/revalidation-audits/20260824T143904Z.json"
+      ],
+      "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
+      "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f"
     }
   ]
 }

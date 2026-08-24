@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "20260816-1355-ing-all",
+  "cycleRunId": "20260816-1355-kbaby50-cycle",
+  "runAt": "2026-08-24T14:39:04+00:00",
+  "workflowRunId": "32739956377",
+  "workflowRunUrl": "https://github.com/pamyo2607/k-baby-made/actions/runs/32739956377",
+  "sourceCommit": "6cf74477f98de32f721dc67c277e33750cd1e512",
+  "audit": {
+    "state": {
+      "metricsVersion": 2,
+      "lastRun": "2026-08-24T14:39:04+00:00",
+      "qualityMode": "ultra",
+      "executionMode": "alternate-url-bounded-parallel",
+      "selectionMode": "campaign-unattempted",
+      "scheduleTarget": "매시간 1회",
+      "pendingLimit": 50,
+      "newCandidateLimit": 30,
+      "currentCategories": [
+        "완구",
+        "구강·치발기",
+        "턱받이",
+        "수유용품",
+        "이유식·식기",
+        "위생·기저귀"
+      ],
+      "nextCategory": "완구",
+      "categoryIndex": 0,
+      "pendingAvailableBeforeRun": 5,
+      "canonicalPendingBeforeRun": 382,
+      "pendingCursorStart": 377,
+      "pendingCursorNext": 382,
+      "pendingSelected": 5,
+      "pendingSelectedIds": [
+        "MASTER-0211",
+        "RUN18-001",
+        "RUN18-005",
+        "RUN18-006",
+        "RUN18-009"
+      ],
+      "revalidationAttempts": 5,
+      "revalidationCompleted": 0,
+      "successfulRevalidations": 0,
+      "effectiveRevalidations": 0,
+      "revalidationErrorCount": 5,
+      "recordsChangedThisRun": 0,
+      "recordsChangedIds": [],
+      "statusTransitionsThisRun": {},
+      "researchOutcome": "no-verified-progress",
+      "includedThisRun": 0,
+      "includedTotalAfterRun": 21,
+      "rawCandidatesFoundThisRun": 30,
+      "rawNewCandidates": 30,
+      "newCandidatesStagedBeforeSanitizationThisRun": 14,
+      "newCandidatesAcceptedBeforeSanitizationThisRun": 14,
+      "newCandidates": 14,
+      "candidateIdsDiscoveredThisRun": [
+        "DISC-8C694293A523",
+        "DISC-CC63BEEDD4C3",
+        "DISC-D9C917584FDF",
+        "DISC-14F99D516F42",
+        "DISC-304A94853B15",
+        "DISC-7AC987876EB9",
+        "DISC-CF5E4828E735",
+        "DISC-0008B6574459",
+        "DISC-44F36A749C06",
+        "DISC-EFA75285F4C8",
+        "DISC-C1CCBF8AF507",
+        "DISC-391857937E83",
+        "DISC-B90D0FF0A47F",
+        "DISC-E2785DDB83DF"
+      ],
+      "newCandidatesByCategory": {
+        "완구": 0,
+        "구강·치발기": 3,
+        "턱받이": 4,
+        "수유용품": 3,
+        "이유식·식기": 1,
+        "위생·기저귀": 3
+      },
+      "candidateTotalAfterRun": 187,
+      "candidateTotalsByCategoryAfterRun": {
+        "완구": 29,
+        "구강·치발기": 35,
+        "턱받이": 37,
+        "수유용품": 37,
+        "이유식·식기": 17,
+        "위생·기저귀": 32
+      },
+      "errors": 5,
+      "totalProducts": 449,
+      "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
+      "stagingShaAfterRun": "b203da642b124718963185e6ed24800b591bec7d42f1b8a0848ec6cfb31bf606",
+      "newCandidatesRejectedBySanitizationThisRun": 0,
+      "newCandidatesThisRun": 14,
+      "candidateIdsAcceptedThisRun": [
+        "DISC-8C694293A523",
+        "DISC-CC63BEEDD4C3",
+        "DISC-D9C917584FDF",
+        "DISC-14F99D516F42",
+        "DISC-304A94853B15",
+        "DISC-7AC987876EB9",
+        "DISC-CF5E4828E735",
+        "DISC-0008B6574459",
+        "DISC-44F36A749C06",
+        "DISC-EFA75285F4C8",
+        "DISC-C1CCBF8AF507",
+        "DISC-391857937E83",
+        "DISC-B90D0FF0A47F",
+        "DISC-E2785DDB83DF"
+      ],
+      "removedInvalidCandidates": 0
+    },
+    "statusTransitions": [],
+    "products": [
+      {
+        "id": "MASTER-0211",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "RUN18-001",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "RUN18-005",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "RUN18-006",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      },
+      {
+        "id": "RUN18-009",
+        "checked": false,
+        "changed": false,
+        "quality": "ultra",
+        "errors": [
+          "all_sales_urls_unreachable"
+        ]
+      }
+    ]
+  }
+}
