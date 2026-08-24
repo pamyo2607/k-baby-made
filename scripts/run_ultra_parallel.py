@@ -47,6 +47,7 @@ LOW_PRIORITY_DOMAINS = ("coupang.com", "gmarket.co.kr", "ssg.com", "danawa.com")
 PLACEHOLDER_BRANDS = {"", "브랜드 확인 중", "확인 중", "미상"}
 STAGING = rr.ROOT / "data/discovered-candidate-staging.json"
 TOMBSTONES = rr.ROOT / "data/deleted-duplicate-tombstones.json"
+ING_CAMPAIGN = rr.ROOT / "data/campaign-ing-revalidation.json"
 FIELD_PRIORITY = {
     "safetyKoreaSameModel": 0,
     "countryOfManufacture": 1,
@@ -291,6 +292,62 @@ def tombstone_dedupe_rows() -> list[dict]:
     return rows
 
 
+def select_pending_batch(
+    candidates: list[dict], previous_state: dict, campaign: dict | None
+) -> tuple[list[dict], int, int, int, str]:
+    """Prefer never-attempted immutable campaign IDs before rotating retries."""
+    candidate_by_id = {str(item.get("id", "")): item for item in candidates}
+    if isinstance(campaign, dict):
+        target_ids = [str(value) for value in campaign.get("targetIdsSnapshot", [])]
+        attempted_ids = [str(value) for value in campaign.get("attemptedIds", [])]
+        remaining_ids = [str(value) for value in campaign.get("remainingIds", [])]
+        if (
+            target_ids
+            and all(target_ids)
+            and len(target_ids) == len(set(target_ids))
+            and len(attempted_ids) == len(set(attempted_ids))
+            and len(remaining_ids) == len(set(remaining_ids))
+            and not set(attempted_ids).intersection(remaining_ids)
+            and attempted_ids + remaining_ids
+            == [value for value in target_ids if value in set(attempted_ids + remaining_ids)]
+        ):
+            remaining_candidates = [
+                candidate_by_id[value]
+                for value in remaining_ids
+                if value in candidate_by_id
+            ]
+            if remaining_candidates:
+                selected = remaining_candidates[:PENDING_LIMIT]
+                cursor_start = len(attempted_ids)
+                cursor_next = cursor_start + len(selected)
+                return (
+                    selected,
+                    len(remaining_candidates),
+                    cursor_start,
+                    cursor_next,
+                    "campaign-unattempted",
+                )
+
+    pending_available = len(candidates)
+    cursor_start = int(previous_state.get("pendingCursorNext", 0) or 0)
+    if pending_available:
+        cursor_start %= pending_available
+    else:
+        cursor_start = 0
+    selected = candidates[cursor_start:cursor_start + PENDING_LIMIT]
+    if len(selected) < min(PENDING_LIMIT, pending_available):
+        selected.extend(candidates[:min(
+            cursor_start,
+            min(PENDING_LIMIT, pending_available) - len(selected),
+        )])
+    cursor_next = (
+        (cursor_start + len(selected)) % pending_available
+        if pending_available
+        else 0
+    )
+    return selected, pending_available, cursor_start, cursor_next, "rotating-retry"
+
+
 def main() -> None:
     if not 0 <= PENDING_LIMIT <= 50:
         raise SystemExit(f"KBABY_PENDING_LIMIT must be between 0 and 50: {PENDING_LIMIT}")
@@ -313,22 +370,13 @@ def main() -> None:
     )
     candidates = [item for item in products if item.get("status") == "보류"]
     candidates.sort(key=pending_priority)
-    pending_available = len(candidates)
-    cursor_start = int(previous_state.get("pendingCursorNext", 0) or 0)
-    if pending_available:
-        cursor_start %= pending_available
-    else:
-        cursor_start = 0
-    selected = candidates[cursor_start:cursor_start + PENDING_LIMIT]
-    if len(selected) < min(PENDING_LIMIT, pending_available):
-        selected.extend(candidates[:min(
-            cursor_start,
-            min(PENDING_LIMIT, pending_available) - len(selected),
-        )])
-    cursor_next = (
-        (cursor_start + len(selected)) % pending_available
-        if pending_available
-        else 0
+    campaign = (
+        json.loads(ING_CAMPAIGN.read_text(encoding="utf-8"))
+        if ING_CAMPAIGN.exists()
+        else None
+    )
+    selected, pending_available, cursor_start, cursor_next, selection_mode = (
+        select_pending_batch(candidates, previous_state, campaign)
     )
     selected_ids = [str(item.get("id", "")) for item in selected]
     before_status = {
@@ -427,6 +475,7 @@ def main() -> None:
         "lastRun": run_at,
         "qualityMode": QUALITY,
         "executionMode": "alternate-url-bounded-parallel",
+        "selectionMode": selection_mode,
         "scheduleTarget": "매시간 1회",
         "pendingLimit": PENDING_LIMIT,
         "newCandidateLimit": NEW_TOTAL_LIMIT,
@@ -434,6 +483,7 @@ def main() -> None:
         "nextCategory": rr.CATEGORIES[0],
         "categoryIndex": 0,
         "pendingAvailableBeforeRun": pending_available,
+        "canonicalPendingBeforeRun": len(candidates),
         "pendingCursorStart": cursor_start,
         "pendingCursorNext": cursor_next,
         "pendingSelected": len(audits),
