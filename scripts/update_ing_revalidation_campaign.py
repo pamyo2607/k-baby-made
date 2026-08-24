@@ -252,6 +252,37 @@ def update(root: Path) -> dict:
     )
     coverage_complete = not remaining_ids
     resolution_complete = coverage_complete and not unresolved_ids
+    missing_final_decision_ids = [
+        item["id"] for item in ordered_results
+        if str(item.get("finalDecision", "")) not in {"포함", "보류", "제외"}
+    ]
+    missing_reason_ids = [
+        item["id"] for item in ordered_results
+        if not str(item.get("reason", "")).strip()
+    ]
+    missing_direct_evidence_ids = [
+        item["id"] for item in ordered_results
+        if not item.get("directEvidenceUrls")
+    ]
+    missing_audit_ids = [
+        item["id"] for item in ordered_results
+        if not item.get("auditRefs")
+        or not str(item.get("lastAuditRef", "")).strip()
+        or not re.fullmatch(r"[0-9a-f]{64}", str(item.get("lastAuditSha256", "")))
+    ]
+    duplicate_processing_ids = [
+        item["id"] for item in ordered_results
+        if int(item.get("attemptCount", 0) or 0) > 1
+    ]
+    verification_complete = (
+        coverage_complete
+        and not missing_final_decision_ids
+        and not missing_reason_ids
+        and not missing_direct_evidence_ids
+        and not missing_audit_ids
+        and not duplicate_processing_ids
+        and active_duplicate_records == 0
+    )
     completed_batch_count = len({
         ref for item in ordered_results for ref in item.get("auditRefs", [])
     })
@@ -269,10 +300,11 @@ def update(root: Path) -> dict:
         "cursorNext": int(state.get("pendingCursorNext", 0) or 0),
         "coverageComplete": coverage_complete,
         "resolutionComplete": resolution_complete,
+        "verificationComplete": verification_complete,
         "status": (
-            "completed"
-            if resolution_complete
-            else "coverage-complete-resolution-pending"
+            "verified-complete"
+            if verification_complete
+            else "coverage-complete-proof-incomplete"
             if coverage_complete
             else "in-progress"
         ),
@@ -294,13 +326,20 @@ def update(root: Path) -> dict:
         "missingTargetIds": remaining_ids,
         "unresolvedIds": unresolved_ids,
         "duplicateResultIds": [],
+        "duplicateProcessingIds": duplicate_processing_ids,
+        "duplicateProcessingCount": len(duplicate_processing_ids),
         "activeDuplicateRecords": active_duplicate_records,
+        "missingFinalDecisionIds": missing_final_decision_ids,
+        "missingReasonIds": missing_reason_ids,
+        "missingDirectEvidenceIds": missing_direct_evidence_ids,
+        "missingAuditIds": missing_audit_ids,
         "resultsWithDirectEvidence": sum(
             bool(item.get("directEvidenceUrls")) for item in ordered_results
         ),
         "resultsWithErrors": sum(bool(item.get("errors")) for item in ordered_results),
         "coverageComplete": coverage_complete,
         "resolutionComplete": resolution_complete,
+        "verificationComplete": verification_complete,
         "lastRun": run_at,
         "lastAuditRef": audit_ref,
         "lastAuditSha256": immutable_sha,
@@ -314,7 +353,7 @@ def update(root: Path) -> dict:
     }
     atomic_replace(documents)
     return {
-        "status": proof["resolutionComplete"] and "completed" or "in-progress",
+        "status": proof["verificationComplete"] and "completed" or "in-progress",
         "targetCount": proof["targetCount"],
         "attemptedCount": proof["attemptedCount"],
         "remainingCount": proof["remainingCount"],
@@ -323,6 +362,8 @@ def update(root: Path) -> dict:
         "pendingCount": proof["pendingCount"],
         "excludedCount": proof["excludedCount"],
         "duplicateResultIds": proof["duplicateResultIds"],
+        "duplicateProcessingCount": proof["duplicateProcessingCount"],
+        "missingDirectEvidenceCount": len(proof["missingDirectEvidenceIds"]),
         "activeDuplicateRecords": proof["activeDuplicateRecords"],
         "lastAuditRef": proof["lastAuditRef"],
     }

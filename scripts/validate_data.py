@@ -306,6 +306,45 @@ def main() -> None:
         ).hexdigest()
         expected_coverage_complete = not remaining_ids
         expected_resolution_complete = expected_coverage_complete and not unresolved_ids
+        ordered_result_rows = [
+            item for item in result_rows if isinstance(item, dict)
+        ]
+        missing_final_decision_ids = [
+            str(item.get("id", "")) for item in ordered_result_rows
+            if str(item.get("finalDecision", "")) not in {"포함", "보류", "제외"}
+        ]
+        missing_reason_ids = [
+            str(item.get("id", "")) for item in ordered_result_rows
+            if not str(item.get("reason", "")).strip()
+        ]
+        missing_direct_evidence_ids = [
+            str(item.get("id", "")) for item in ordered_result_rows
+            if not item.get("directEvidenceUrls")
+        ]
+        missing_audit_ids = [
+            str(item.get("id", "")) for item in ordered_result_rows
+            if not item.get("auditRefs")
+            or not str(item.get("lastAuditRef", "")).strip()
+            or not re.fullmatch(
+                r"[0-9a-f]{64}", str(item.get("lastAuditSha256", ""))
+            )
+        ]
+        duplicate_processing_ids = [
+            str(item.get("id", "")) for item in ordered_result_rows
+            if int(item.get("attemptCount", 0) or 0) > 1
+        ]
+        active_duplicate_records = sum(
+            bool(item.get("duplicateOf")) for item in products
+        )
+        expected_verification_complete = (
+            expected_coverage_complete
+            and not missing_final_decision_ids
+            and not missing_reason_ids
+            and not missing_direct_evidence_ids
+            and not missing_audit_ids
+            and not duplicate_processing_ids
+            and active_duplicate_records == 0
+        )
         if any(ing_proof.get(key) != value for key, value in {
             "campaignId": campaign.get("campaignId"),
             "cycleRunId": campaign.get("cycleRunId"),
@@ -320,16 +359,24 @@ def main() -> None:
             "missingTargetIds": remaining_ids,
             "unresolvedIds": unresolved_ids,
             "duplicateResultIds": [],
-            "activeDuplicateRecords": sum(bool(item.get("duplicateOf")) for item in products),
+            "duplicateProcessingIds": duplicate_processing_ids,
+            "duplicateProcessingCount": len(duplicate_processing_ids),
+            "activeDuplicateRecords": active_duplicate_records,
+            "missingFinalDecisionIds": missing_final_decision_ids,
+            "missingReasonIds": missing_reason_ids,
+            "missingDirectEvidenceIds": missing_direct_evidence_ids,
+            "missingAuditIds": missing_audit_ids,
             "resultsWithDirectEvidence": sum(bool(item.get("directEvidenceUrls")) for item in result_rows),
             "resultsWithErrors": sum(bool(item.get("errors")) for item in result_rows),
             "coverageComplete": expected_coverage_complete,
             "resolutionComplete": expected_resolution_complete,
+            "verificationComplete": expected_verification_complete,
         }.items()):
             errors.append("ING campaign proof summary mismatch")
         if (
             campaign.get("coverageComplete") != expected_coverage_complete
             or campaign.get("resolutionComplete") != expected_resolution_complete
+            or campaign.get("verificationComplete") != expected_verification_complete
             or campaign.get("lastAuditRef") != ing_proof.get("lastAuditRef")
             or campaign.get("lastAuditSha256") != ing_proof.get("lastAuditSha256")
         ):

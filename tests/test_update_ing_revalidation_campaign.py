@@ -86,10 +86,14 @@ class UpdateIngCampaignTests(unittest.TestCase):
         self.assertEqual(proof["remainingCount"], 0)
         self.assertEqual(proof["resolvedCount"], 1)
         self.assertFalse(proof["resolutionComplete"])
+        self.assertTrue(proof["verificationComplete"])
+        self.assertEqual(proof["missingDirectEvidenceIds"], [])
+        self.assertEqual(proof["duplicateProcessingCount"], 0)
         self.assertEqual(campaign["attemptedIds"], ["A", "B"])
         self.assertEqual(campaign["remainingIds"], [])
         self.assertTrue(campaign["coverageComplete"])
         self.assertFalse(campaign["resolutionComplete"])
+        self.assertTrue(campaign["verificationComplete"])
         self.assertTrue(
             (self.root / "data/revalidation-audits/20260824T141203Z.json").exists()
         )
@@ -106,6 +110,21 @@ class UpdateIngCampaignTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("unique", result.stderr)
         self.assertFalse((self.root / "data/ing-revalidation-proof.json").exists())
+
+    def test_missing_direct_evidence_blocks_verification_completion(self) -> None:
+        source_path = self.root / "data/master-products.json"
+        products = json.loads(source_path.read_text(encoding="utf-8"))
+        products[0]["officialUrls"] = []
+        write_json(source_path, products)
+
+        result = self.run_script()
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        proof = json.loads(
+            (self.root / "data/ing-revalidation-proof.json").read_text(encoding="utf-8")
+        )
+        self.assertFalse(proof["verificationComplete"])
+        self.assertEqual(proof["missingDirectEvidenceIds"], ["A"])
 
 
 if __name__ == "__main__":

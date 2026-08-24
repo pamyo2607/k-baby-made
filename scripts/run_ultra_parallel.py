@@ -310,22 +310,25 @@ def select_pending_batch(
             and not set(attempted_ids).intersection(remaining_ids)
             and set(attempted_ids).union(remaining_ids) == set(target_ids)
         ):
-            remaining_candidates = [
-                candidate_by_id[value]
-                for value in remaining_ids
-                if value in candidate_by_id
+            missing_remaining_ids = [
+                value for value in remaining_ids if value not in candidate_by_id
             ]
-            if remaining_candidates:
-                selected = remaining_candidates[:PENDING_LIMIT]
-                cursor_start = len(attempted_ids)
-                cursor_next = cursor_start + len(selected)
-                return (
-                    selected,
-                    len(remaining_candidates),
-                    cursor_start,
-                    cursor_next,
-                    "campaign-unattempted",
+            if missing_remaining_ids:
+                raise ValueError(
+                    "unattempted campaign IDs are absent from pending candidates: "
+                    f"{missing_remaining_ids}"
                 )
+            remaining_candidates = [candidate_by_id[value] for value in remaining_ids]
+            selected = remaining_candidates[:PENDING_LIMIT]
+            cursor_start = len(attempted_ids)
+            cursor_next = cursor_start + len(selected)
+            return (
+                selected,
+                len(remaining_candidates),
+                cursor_start,
+                cursor_next,
+                "campaign-unattempted" if selected else "campaign-covered",
+            )
 
     pending_available = len(candidates)
     cursor_start = int(previous_state.get("pendingCursorNext", 0) or 0)
