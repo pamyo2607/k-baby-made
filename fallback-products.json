@@ -24106,14 +24106,14 @@
     "name": "프리미엄 밴드형 중형 96매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://lesommet.com/product/detail.html?product_no=15",
     "officialUrls": [
       "https://lesommet.com/product/detail.html?product_no=15",
       "https://drseoauto.github.io/shopping/2024/01/28/%EB%A5%B4%EC%86%8C%EB%A9%94-%EC%A0%80%EB%A0%B4%ED%95%9C-%EC%83%81%ED%92%88-TOP-10-%ED%99%95%EC%9D%B8.html",
@@ -24161,8 +24161,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"르소메\" \"프리미엄 밴드형 중형 96매\"",
@@ -24257,7 +24258,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0001"
   },
   {
@@ -24285,14 +24286,14 @@
     "name": "리프가닉 밴드형 4단계 300매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.lgcaremall.com/product/list/10353",
     "officialUrls": [
       "https://www.lgcaremall.com/product/list/10353",
       "https://www.enuri.com/list.jsp?cate=10072905&tabType=2",
@@ -24321,7 +24322,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"마미포코\" \"리프가닉 밴드형 4단계 300매\"",
@@ -24399,7 +24402,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0002"
   },
   {
@@ -24425,14 +24428,14 @@
     "name": "골드 신생아 밴드형 1단계 60매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "판매 종료·단종",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://search.danawa.com/dsearch.php?query=%EB%B0%B4%EB%93%9C+%EA%B8%B0%EC%A0%80%EA%B7%80+1%EB%8B%A8%EA%B3%84(%EC%8B%A0%EC%83%9D%EC%95%84)+60%EB%A7%A4",
     "officialUrls": [
       "https://search.danawa.com/dsearch.php?query=%EB%B0%B4%EB%93%9C+%EA%B8%B0%EC%A0%80%EA%B7%80+1%EB%8B%A8%EA%B3%84(%EC%8B%A0%EC%83%9D%EC%95%84)+60%EB%A7%A4"
     ],
@@ -24479,7 +24482,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"백조슈퍼베비\" \"골드 신생아 밴드형 1단계 60매\"",
@@ -24506,7 +24511,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "판매 종료·단종 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0003"
   },
   {
@@ -24539,14 +24544,14 @@
     "name": "메가드라이 팬티",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://bebe-box.co.kr/shop/item.php?it_id=90005003218",
     "officialUrls": [
       "https://bebe-box.co.kr/shop/item.php?it_id=90005003218",
       "https://todayhotdeal.com/products/1947a11a-fe0d-456d-9011-e6c03dddfabd",
@@ -24684,7 +24689,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0004"
   },
   {
@@ -24716,14 +24721,14 @@
     "name": "모달썸머 팬티",
     "status": "보류",
     "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://bebe-box.co.kr/shop/list.php?ca_id=p090",
     "officialUrls": [
       "https://bebe-box.co.kr/shop/list.php?ca_id=p090",
       "https://ive.co.kr/hotdeals/5210",
@@ -24775,8 +24780,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"보솜이\" \"모달썸머 팬티\"",
@@ -24869,7 +24875,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0005"
   },
   {
@@ -24906,14 +24912,14 @@
     "name": "액션핏 팬티",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://bebe-box.co.kr/shop/list.php?ca_id=p090",
     "officialUrls": [
       "https://bebe-box.co.kr/shop/list.php?ca_id=p090",
       "https://best.kyumdoctor.co.kr/7",
@@ -24970,8 +24976,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"보솜이\" \"액션핏 팬티\"",
@@ -25112,7 +25119,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0006"
   },
   {
@@ -25244,10 +25251,10 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
+      "https://onnurishop.co.kr/shop/goods/1545596",
       "https://cafe.dkevent.kr/%ED%82%A8%EB%8F%84%EC%97%85%EC%95%A4%ED%94%8C%EB%A0%88%EC%9D%B4-%EC%B6%94%EC%B2%9C-%EC%9D%B8%EA%B8%B0-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%88%9C%EC%9C%84-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90-%EC%A0%9C/",
       "https://kindoh.co.kr/category/%EB%89%B4%EC%98%AC%EB%8D%B0%EC%9D%B4%EB%B0%B4%EB%93%9C%ED%98%95%ED%8C%AC%ED%8B%B0%ED%98%95/169/",
       "https://kindoh.co.kr/product/1%EB%B0%95%EC%8A%A4-%ED%82%A8%EB%8F%84-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EB%89%B4%EC%98%AC%EB%8D%B0%EC%9D%B4-%ED%8C%AC%ED%8B%B0%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-5%EB%8B%A8%EA%B3%84/1025/category/213/display/1/",
-      "https://onnurishop.co.kr/shop/goods/1545596",
       "https://gmautoworld.co.kr/picks/16407/",
       "https://a.artechnic.co.kr/3854",
       "https://gmautoworld.co.kr/picks/19565/"
@@ -25264,19 +25271,19 @@
     "name": "프리미엄 뉴올데이 팬티형 24매",
     "status": "보류",
     "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품과 직접 연결된 공식 제조국 또는 정제된 36개월 이상 연령 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://onnurishop.co.kr/shop/goods/1545596",
     "officialUrls": [
+      "https://onnurishop.co.kr/shop/goods/1545596",
       "https://cafe.dkevent.kr/%ED%82%A8%EB%8F%84%EC%97%85%EC%95%A4%ED%94%8C%EB%A0%88%EC%9D%B4-%EC%B6%94%EC%B2%9C-%EC%9D%B8%EA%B8%B0-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%88%9C%EC%9C%84-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90-%EC%A0%9C/",
       "https://kindoh.co.kr/category/%EB%89%B4%EC%98%AC%EB%8D%B0%EC%9D%B4%EB%B0%B4%EB%93%9C%ED%98%95%ED%8C%AC%ED%8B%B0%ED%98%95/169/",
       "https://kindoh.co.kr/product/1%EB%B0%95%EC%8A%A4-%ED%82%A8%EB%8F%84-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EB%89%B4%EC%98%AC%EB%8D%B0%EC%9D%B4-%ED%8C%AC%ED%8B%B0%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-5%EB%8B%A8%EA%B3%84/1025/category/213/display/1/",
-      "https://onnurishop.co.kr/shop/goods/1545596",
       "https://gmautoworld.co.kr/picks/16407/",
       "https://a.artechnic.co.kr/3854",
       "https://gmautoworld.co.kr/picks/19565/"
@@ -25455,7 +25462,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0008"
   },
   {
@@ -25781,14 +25788,14 @@
     "name": "2025 네이처메이드",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://mfront.homeplus.co.kr/item?itemNo=071209251&storeType=HYPER",
     "officialUrls": [
       "https://mfront.homeplus.co.kr/item?itemNo=071209251&storeType=HYPER",
       "https://www.enuri.com/detail.jsp?modelno=133878285",
@@ -25829,7 +25836,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"2025 네이처메이드\"",
@@ -25946,7 +25955,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0011"
   },
   {
@@ -25958,10 +25967,10 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
+      "https://www.enuri.com/detail.jsp?modelno=130164908",
       "https://chic-up.co.kr/tag/%ED%95%98%EA%B8%B0%EC%8A%A4-new-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1/",
       "https://bizmark.co.kr/household-goods/%EC%9A%B0%EB%A6%AC-%EC%95%84%EA%B8%B0-%EA%BF%80%EC%9E%A0-%EB%B3%B4%EC%9E%A5-%ED%95%98%EA%B8%B0%EC%8A%A4-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%EA%B8%B0%EC%A0%80%EA%B7%80-204%EB%A7%A4-%ED%8A%B9/",
       "https://cafe.dkevent.kr/%ED%95%98%EA%B8%B0%EC%8A%A4%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A13%EB%8B%A8%EA%B3%84-%EC%B6%94%EC%B2%9C-2024%EB%85%84-top10-%EC%9D%B8%EA%B8%B0%EC%88%9C%EC%9C%84-%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90/",
-      "https://www.enuri.com/detail.jsp?modelno=130164908",
       "https://iris.mohany-creator.com/%ED%95%98%EA%B8%B0%EC%8A%A4-2022-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%EB%B0%B4%EB%93%9C%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-%EA%B3%B5%EC%9A%A9-2%EB%8B%A8%EA%B3%84-204%EB%A7%A4/",
       "https://wa.dddayy.com/%ED%95%98%EA%B8%B0%EC%8A%A4%EA%B8%B0%EC%A0%80%EA%B7%802%EB%8B%A8%EA%B3%84-%EB%82%B4%EB%8F%88%EB%82%B4%EC%82%B0-%EC%B6%94%EC%B2%9C-%EA%B0%80%EC%84%B1%EB%B9%84-%EC%A2%8B%EC%9D%80-5%EA%B0%80%EC%A7%80/",
       "https://kimmari.com/%ED%95%98%EA%B8%B0%EC%8A%A4-2022-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%EB%B0%B4%EB%93%9C%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-%EA%B3%B5%EC%9A%A9-2%EB%8B%A8%EA%B3%84-204%EB%A7%A4-%EC%B6%9C%EC%82%B0/"
@@ -25978,19 +25987,19 @@
     "name": "NEW 보송보송 밴드형 2단계 204매",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=130164908",
     "officialUrls": [
+      "https://www.enuri.com/detail.jsp?modelno=130164908",
       "https://chic-up.co.kr/tag/%ED%95%98%EA%B8%B0%EC%8A%A4-new-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1/",
       "https://bizmark.co.kr/household-goods/%EC%9A%B0%EB%A6%AC-%EC%95%84%EA%B8%B0-%EA%BF%80%EC%9E%A0-%EB%B3%B4%EC%9E%A5-%ED%95%98%EA%B8%B0%EC%8A%A4-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%EA%B8%B0%EC%A0%80%EA%B7%80-204%EB%A7%A4-%ED%8A%B9/",
       "https://cafe.dkevent.kr/%ED%95%98%EA%B8%B0%EC%8A%A4%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A13%EB%8B%A8%EA%B3%84-%EC%B6%94%EC%B2%9C-2024%EB%85%84-top10-%EC%9D%B8%EA%B8%B0%EC%88%9C%EC%9C%84-%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90/",
-      "https://www.enuri.com/detail.jsp?modelno=130164908",
       "https://iris.mohany-creator.com/%ED%95%98%EA%B8%B0%EC%8A%A4-2022-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%EB%B0%B4%EB%93%9C%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-%EA%B3%B5%EC%9A%A9-2%EB%8B%A8%EA%B3%84-204%EB%A7%A4/",
       "https://wa.dddayy.com/%ED%95%98%EA%B8%B0%EC%8A%A4%EA%B8%B0%EC%A0%80%EA%B7%802%EB%8B%A8%EA%B3%84-%EB%82%B4%EB%8F%88%EB%82%B4%EC%82%B0-%EC%B6%94%EC%B2%9C-%EA%B0%80%EC%84%B1%EB%B9%84-%EC%A2%8B%EC%9D%80-5%EA%B0%80%EC%A7%80/",
       "https://kimmari.com/%ED%95%98%EA%B8%B0%EC%8A%A4-2022-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%EB%B0%B4%EB%93%9C%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-%EA%B3%B5%EC%9A%A9-2%EB%8B%A8%EA%B3%84-204%EB%A7%A4-%EC%B6%9C%EC%82%B0/"
@@ -26018,7 +26027,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"NEW 보송보송 밴드형 2단계 204매\"",
@@ -26105,7 +26116,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0012"
   },
   {
@@ -26117,8 +26128,8 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://www.costco.co.kr/BabyKidsToysPets/Diapers/Diapers/Huggies-Naturemade-Bamboo-Panty-Type-Stage-5-44x2-BOY/p/690505-BOY",
       "https://bebe-box.co.kr/shop/item.php?it_id=9000100556",
+      "https://www.costco.co.kr/BabyKidsToysPets/Diapers/Diapers/Huggies-Naturemade-Bamboo-Panty-Type-Stage-5-44x2-BOY/p/690505-BOY",
       "https://maximchoice.com/?page_id=3337&board_page=436&vid=46073",
       "https://www.daangn.com/kr/buy-sell/?search=%ED%95%98%EA%B8%B0%EC%8A%A4",
       "https://42k.coindeskkorea.com/10088/",
@@ -26137,17 +26148,17 @@
     "name": "네이처메이드 밤부 팬티형 남아 5단계 176매",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://bebe-box.co.kr/shop/item.php?it_id=9000100556",
     "officialUrls": [
-      "https://www.costco.co.kr/BabyKidsToysPets/Diapers/Diapers/Huggies-Naturemade-Bamboo-Panty-Type-Stage-5-44x2-BOY/p/690505-BOY",
       "https://bebe-box.co.kr/shop/item.php?it_id=9000100556",
+      "https://www.costco.co.kr/BabyKidsToysPets/Diapers/Diapers/Huggies-Naturemade-Bamboo-Panty-Type-Stage-5-44x2-BOY/p/690505-BOY",
       "https://maximchoice.com/?page_id=3337&board_page=436&vid=46073",
       "https://www.daangn.com/kr/buy-sell/?search=%ED%95%98%EA%B8%B0%EC%8A%A4",
       "https://42k.coindeskkorea.com/10088/",
@@ -26240,7 +26251,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0013"
   },
   {
@@ -26279,14 +26290,14 @@
     "name": "네이처메이드 썸머",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.daangn.com/kr/buy-sell/?search=%ED%95%98%EA%B8%B0%EC%8A%A4",
     "officialUrls": [
       "https://www.daangn.com/kr/buy-sell/?search=%ED%95%98%EA%B8%B0%EC%8A%A4",
       "https://mfront.homeplus.co.kr/item?itemNo=071389860&storeType=HYPER",
@@ -26326,7 +26337,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"네이처메이드 썸머\"",
@@ -26467,7 +26480,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0014"
   },
   {
@@ -26749,14 +26762,14 @@
     "name": "네이처메이드 퓨어코튼 썸머",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "판매 종료·단종",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=133878285",
     "officialUrls": [
       "https://www.enuri.com/detail.jsp?modelno=133878285",
       "https://www.newsspace.kr/news/article.html?no=6061",
@@ -26818,7 +26831,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"네이처메이드 퓨어코튼 썸머\"",
@@ -26941,7 +26956,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "판매 종료·단종 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0017"
   },
   {
@@ -26970,14 +26985,14 @@
     "name": "뉴 보송보송 밴드형 5단계 480매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=130164939",
     "officialUrls": [
       "https://www.enuri.com/detail.jsp?modelno=130164939",
       "https://www.lowchart.com/7663342470-15843705905",
@@ -27027,7 +27042,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"뉴 보송보송 밴드형 5단계 480매\"",
@@ -27072,7 +27089,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0018"
   },
   {
@@ -27109,14 +27126,14 @@
     "name": "매직컴포트 썸머",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://mfront.homeplus.co.kr/item?itemNo=071389923&storeType=HYPER",
     "officialUrls": [
       "https://mfront.homeplus.co.kr/item?itemNo=071389923&storeType=HYPER",
       "https://www.daangn.com/kr/buy-sell/?search=%ED%95%98%EA%B8%B0%EC%8A%A4",
@@ -27154,7 +27171,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"매직컴포트 썸머\"",
@@ -27253,7 +27272,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0019"
   },
   {
@@ -27284,14 +27303,14 @@
     "name": "보송보송 팬티형 4단계 224매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1713341022",
     "officialUrls": [
       "https://momiliter.co.kr/shop/item.php?it_id=1713341022",
       "https://cafe.dkevent.kr/%ED%95%98%EA%B8%B0%EC%8A%A4%EA%B8%B0%EC%A0%80%EA%B7%804%EB%8B%A8%EA%B3%84-%EC%B6%94%EC%B2%9C-%EC%88%9C%EC%9C%84-top-10-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90-%ED%9B%84%EA%B8%B0-%EC%A0%95%EB%A6%AC/",
@@ -27406,7 +27425,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0020"
   },
   {
@@ -27439,14 +27458,14 @@
     "name": "보송보송 팬티형 4단계 336매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://m.oasis.co.kr/product/detail/83968-1100449",
     "officialUrls": [
       "https://m.oasis.co.kr/product/detail/83968-1100449",
       "https://fallcent.com/product/search/?keyword=%ED%95%98%EA%B8%B0%EC%8A%A4+4%EB%8B%A8%EA%B3%84",
@@ -27500,7 +27519,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하기스\" \"보송보송 팬티형 4단계 336매\"",
@@ -27655,7 +27676,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0021"
   },
   {
@@ -27829,8 +27850,8 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://sosircurr.com/%EC%9C%A1%EC%95%84-%ED%95%84%EC%88%98%ED%85%9C-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EB%93%9D%ED%85%9C-%EC%B0%AC%EC%8A%A4-%EB%9E%84%EB%9E%84%EB%9D%BC-%EB%AC%BC%ED%8B%B0%EC%8A%88-100%EA%B0%9C%EC%9E%85-10/",
       "https://prod.danawa.com/info/?pcode=92080685",
+      "https://sosircurr.com/%EC%9C%A1%EC%95%84-%ED%95%84%EC%88%98%ED%85%9C-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EB%93%9D%ED%85%9C-%EC%B0%AC%EC%8A%A4-%EB%9E%84%EB%9E%84%EB%9D%BC-%EB%AC%BC%ED%8B%B0%EC%8A%88-100%EA%B0%9C%EC%9E%85-10/",
       "https://prod.danawa.com/info/?pcode=92047097"
     ],
     "estimatedRank": "미공개",
@@ -27847,17 +27868,17 @@
     "name": "엠보싱 넘버5 베이지 아기물티슈",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://prod.danawa.com/info/?pcode=92080685",
     "officialUrls": [
-      "https://sosircurr.com/%EC%9C%A1%EC%95%84-%ED%95%84%EC%88%98%ED%85%9C-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EB%93%9D%ED%85%9C-%EC%B0%AC%EC%8A%A4-%EB%9E%84%EB%9E%84%EB%9D%BC-%EB%AC%BC%ED%8B%B0%EC%8A%88-100%EA%B0%9C%EC%9E%85-10/",
       "https://prod.danawa.com/info/?pcode=92080685",
+      "https://sosircurr.com/%EC%9C%A1%EC%95%84-%ED%95%84%EC%88%98%ED%85%9C-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EB%93%9D%ED%85%9C-%EC%B0%AC%EC%8A%A4-%EB%9E%84%EB%9E%84%EB%9D%BC-%EB%AC%BC%ED%8B%B0%EC%8A%88-100%EA%B0%9C%EC%9E%85-10/",
       "https://prod.danawa.com/info/?pcode=92047097"
     ],
     "quality": "추가 확인 필요",
@@ -27973,7 +27994,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0023"
   },
   {
@@ -29776,10 +29797,10 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
+      "https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
       "https://kimmari.com/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88-4/",
       "https://kr.pinterest.com/pin/20230913-11490--727964727293852808/",
       "https://buyaimall.com/%EB%B2%A0%EB%B2%A0%EC%88%B2-%ED%9C%B4%EB%8C%80%EC%9A%A9-%EC%B6%94%EC%B2%9C-%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90/",
-      "https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
       "https://8949ok.kr/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88/",
       "https://iris.mohany-creator.com/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88/"
     ],
@@ -29795,19 +29816,19 @@
     "name": "오리지널 소프트 유아물티슈",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
     "officialUrls": [
+      "https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
       "https://kimmari.com/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88-4/",
       "https://kr.pinterest.com/pin/20230913-11490--727964727293852808/",
       "https://buyaimall.com/%EB%B2%A0%EB%B2%A0%EC%88%B2-%ED%9C%B4%EB%8C%80%EC%9A%A9-%EC%B6%94%EC%B2%9C-%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90/",
-      "https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
       "https://8949ok.kr/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88/",
       "https://iris.mohany-creator.com/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88/"
     ],
@@ -29834,7 +29855,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"블랑슈\" \"오리지널 소프트 유아물티슈\"",
@@ -29927,7 +29950,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0035"
   },
   {
@@ -30129,8 +30152,8 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://www.review101.kr/review/d0ba834f-4d66-4d77-b9d1-9102d4fb6ade",
       "https://www.elandmall.co.kr/i/item?itemNo=2507000309&lowerVendNo=LV23002868",
+      "https://www.review101.kr/review/d0ba834f-4d66-4d77-b9d1-9102d4fb6ade",
       "https://toolsshop.co.kr/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%97%90%EC%BD%94-%EC%8D%A8%EB%B0%8B-%ED%8D%BC%ED%94%8C-75g-%EC%97%A0%EB%B3%B4-77%EB%A7%A4-20%ED%8C%A9-%EC%BA%A1%ED%98%95-%EC%95%84%EA%B8%B0-%EB%AC%BC%ED%8B%B0%EC%8A%88",
       "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu&no=694192",
       "https://www.kurly.com/goods/1001725383"
@@ -30147,17 +30170,17 @@
     "name": "써밋 아기물티슈 퍼플",
     "status": "보류",
     "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.elandmall.co.kr/i/item?itemNo=2507000309&lowerVendNo=LV23002868",
     "officialUrls": [
-      "https://www.review101.kr/review/d0ba834f-4d66-4d77-b9d1-9102d4fb6ade",
       "https://www.elandmall.co.kr/i/item?itemNo=2507000309&lowerVendNo=LV23002868",
+      "https://www.review101.kr/review/d0ba834f-4d66-4d77-b9d1-9102d4fb6ade",
       "https://toolsshop.co.kr/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%97%90%EC%BD%94-%EC%8D%A8%EB%B0%8B-%ED%8D%BC%ED%94%8C-75g-%EC%97%A0%EB%B3%B4-77%EB%A7%A4-20%ED%8C%A9-%EC%BA%A1%ED%98%95-%EC%95%84%EA%B8%B0-%EB%AC%BC%ED%8B%B0%EC%8A%88",
       "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu&no=694192",
       "https://www.kurly.com/goods/1001725383"
@@ -30185,7 +30208,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"스마트에코\" \"써밋 아기물티슈 퍼플\"",
@@ -30230,7 +30255,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0037"
   },
   {
@@ -30542,14 +30567,14 @@
     "name": "시그니처 아기물티슈 엠보싱 캡형",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "12~24개월",
+    "ageEvidence": "공식 판매 페이지: 12~24개월",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/XbnVn-eIiUJ7GEn31BSR6Q6VzJexRly6rZFh4domoy8",
     "officialUrls": [
       "https://timing.im/product/XbnVn-eIiUJ7GEn31BSR6Q6VzJexRly6rZFh4domoy8",
       "https://cashflowa.mycafe24.com/%EC%BD%94%EB%A9%A7-%EC%A0%80%EC%9E%90%EA%B7%B9-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EC%95%84%EA%B8%B0%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%97%A0%EB%B3%B4%EC%8B%B1-%EC%BA%A1%ED%98%95-%EB%8D%94%EB%A7%88/",
@@ -30582,8 +30607,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"코멧\" \"시그니처 아기물티슈 엠보싱 캡형\"",
@@ -30664,7 +30690,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0040"
   },
   {
@@ -30855,8 +30881,8 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://asda.co.kr/19273",
       "https://www.hansbiz.co.kr/news/articleView.html?idxno=20492",
+      "https://asda.co.kr/19273",
       "https://hongshinpark.me/5768"
     ],
     "estimatedRank": "미공개",
@@ -30871,17 +30897,17 @@
     "name": "기프트 컬렉션 프리미엄 아기물티슈",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.hansbiz.co.kr/news/articleView.html?idxno=20492",
     "officialUrls": [
-      "https://asda.co.kr/19273",
       "https://www.hansbiz.co.kr/news/articleView.html?idxno=20492",
+      "https://asda.co.kr/19273",
       "https://hongshinpark.me/5768"
     ],
     "quality": "추가 확인 필요",
@@ -30907,7 +30933,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"페넬로페\" \"기프트 컬렉션 프리미엄 아기물티슈\"",
@@ -30965,7 +30993,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0042"
   },
   {
@@ -31212,9 +31240,9 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
+      "https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
       "https://pusandate.com/2133",
       "https://dinosion.co.kr/%ED%8E%98%EB%84%AC%EB%A1%9C%ED%8E%98-%EB%B0%94%EC%9D%B4%ED%83%88-%ED%94%8C%EB%9F%AC%EC%8A%A4-%EB%A3%A8%EC%9D%B4%EC%82%AC-%EC%BA%90%EB%A6%AC%ED%8C%A9-%EC%95%84%EA%B8%B0%EB%AC%BC%ED%8B%B0%EC%8A%88/",
-      "https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
       "https://www.firsttouch.co.kr/category/%ED%8E%98%EB%84%AC%EB%A1%9C%ED%8E%98-%EB%AC%BC%ED%8B%B0%EC%8A%88/216/",
       "https://asda.co.kr/6800",
       "https://aoaiyo.com/top-10-%ED%8E%98%EB%84%AC%EB%A1%9C%ED%8E%98-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%B6%94%EC%B2%9C-%EA%B0%80%EC%84%B1%EB%B9%84-%EC%A2%85%EB%A5%98-%EC%88%9C%EC%9C%84-best-2022/",
@@ -31235,18 +31263,18 @@
     "name": "프르미에 포레 리필형",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
     "officialUrls": [
+      "https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
       "https://pusandate.com/2133",
       "https://dinosion.co.kr/%ED%8E%98%EB%84%AC%EB%A1%9C%ED%8E%98-%EB%B0%94%EC%9D%B4%ED%83%88-%ED%94%8C%EB%9F%AC%EC%8A%A4-%EB%A3%A8%EC%9D%B4%EC%82%AC-%EC%BA%90%EB%A6%AC%ED%8C%A9-%EC%95%84%EA%B8%B0%EB%AC%BC%ED%8B%B0%EC%8A%88/",
-      "https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
       "https://www.firsttouch.co.kr/category/%ED%8E%98%EB%84%AC%EB%A1%9C%ED%8E%98-%EB%AC%BC%ED%8B%B0%EC%8A%88/216/",
       "https://asda.co.kr/6800",
       "https://aoaiyo.com/top-10-%ED%8E%98%EB%84%AC%EB%A1%9C%ED%8E%98-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%B6%94%EC%B2%9C-%EA%B0%80%EC%84%B1%EB%B9%84-%EC%A2%85%EB%A5%98-%EC%88%9C%EC%9C%84-best-2022/",
@@ -31278,7 +31306,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"페넬로페\" \"프르미에 포레 리필형\"",
@@ -31366,7 +31396,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0044"
   },
   {
@@ -31482,14 +31512,14 @@
     "name": "PPSU 다크시리즈 빨대컵 200ml + 스트랩",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.elandmall.co.kr/i/item?itemNo=2303024498&lowerVendNo=LV23037037",
     "officialUrls": [
       "https://www.elandmall.co.kr/i/item?itemNo=2303024498&lowerVendNo=LV23037037",
       "https://buyaimall.com/%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8-%EC%B6%94%EB%B9%A8%EB%8C%80-%EC%B6%94%EC%B2%9C-%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5%EC%B6%94%EB%8C%80%EB%A1%B1-%ED%8F%AC%ED%95%A8/",
@@ -31518,7 +31548,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"그로미미\" \"PPSU 다크시리즈 빨대컵 200ml + 스트랩\"",
@@ -31593,7 +31625,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0046"
   },
   {
@@ -31709,14 +31741,14 @@
     "name": "PPSU 빨대컵 200ml",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
     "officialUrls": [
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
       "https://www.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
@@ -31754,7 +31786,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"그로미미\" \"PPSU 빨대컵 200ml\"",
@@ -31923,7 +31957,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0048"
   },
   {
@@ -31949,14 +31983,14 @@
     "name": "노티드 PPSU 유아용 빨대컵 1단계",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.ggulcoupon.com/products/cmjrpcyjm00138vwv1jqvcljh",
     "officialUrls": [
       "https://www.ggulcoupon.com/products/cmjrpcyjm00138vwv1jqvcljh"
     ],
@@ -31983,7 +32017,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"그로미미\" \"노티드 PPSU 유아용 빨대컵 1단계\"",
@@ -32029,7 +32065,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0049"
   },
   {
@@ -32174,14 +32210,14 @@
     "name": "리틀럽 실리콘 스파우트 빨대컵 200ml",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kolonmall.com/Product/K1681286265475069NO01",
     "officialUrls": [
       "https://www.kolonmall.com/Product/K1681286265475069NO01",
       "https://www.kolonmall.com/Product/K1681286265475069IV01",
@@ -32339,7 +32375,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0051"
   },
   {
@@ -32351,8 +32387,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://lietokorea.com/",
       "https://fallcent.com/product/4rxZyHsXOfCItWmwHuF8DAzhv9klcqi1/",
+      "https://lietokorea.com/",
       "https://lietokorea.com/category/%EB%B9%A8%EB%8C%80%EC%BB%B5/337/"
     ],
     "estimatedRank": "미공개",
@@ -32367,17 +32403,17 @@
     "name": "PPSU 빨대컵 200ml",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/4rxZyHsXOfCItWmwHuF8DAzhv9klcqi1/",
     "officialUrls": [
-      "https://lietokorea.com/",
       "https://fallcent.com/product/4rxZyHsXOfCItWmwHuF8DAzhv9klcqi1/",
+      "https://lietokorea.com/",
       "https://lietokorea.com/category/%EB%B9%A8%EB%8C%80%EC%BB%B5/337/"
     ],
     "quality": "추가 확인 필요",
@@ -32403,7 +32439,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"리에또\" \"PPSU 빨대컵 200ml\"",
@@ -32557,7 +32595,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0052"
   },
   {
@@ -32569,8 +32607,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://cafe.dkevent.kr/%EB%A6%AC%ED%8B%80%EB%B0%A5%EB%8F%85-%EC%B6%94%EC%B2%9C-%EB%B0%8F-%EA%B5%AC%EB%A7%A4%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%9E%A5%EC%A0%90-%EB%8B%A8%EC%A0%90-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90/",
       "https://fallcent.com/product/lplhbZiNW32eSTRK4FjywbzqnrspU9GV/",
+      "https://cafe.dkevent.kr/%EB%A6%AC%ED%8B%80%EB%B0%A5%EB%8F%85-%EC%B6%94%EC%B2%9C-%EB%B0%8F-%EA%B5%AC%EB%A7%A4%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%9E%A5%EC%A0%90-%EB%8B%A8%EC%A0%90-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90/",
       "https://prod.danawa.com/info/?pcode=40587779"
     ],
     "estimatedRank": "미공개",
@@ -32585,17 +32623,17 @@
     "name": "플립 컬러 빨대컵",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/lplhbZiNW32eSTRK4FjywbzqnrspU9GV/",
     "officialUrls": [
-      "https://cafe.dkevent.kr/%EB%A6%AC%ED%8B%80%EB%B0%A5%EB%8F%85-%EC%B6%94%EC%B2%9C-%EB%B0%8F-%EA%B5%AC%EB%A7%A4%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%9E%A5%EC%A0%90-%EB%8B%A8%EC%A0%90-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90/",
       "https://fallcent.com/product/lplhbZiNW32eSTRK4FjywbzqnrspU9GV/",
+      "https://cafe.dkevent.kr/%EB%A6%AC%ED%8B%80%EB%B0%A5%EB%8F%85-%EC%B6%94%EC%B2%9C-%EB%B0%8F-%EA%B5%AC%EB%A7%A4%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%9E%A5%EC%A0%90-%EB%8B%A8%EC%A0%90-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90/",
       "https://prod.danawa.com/info/?pcode=40587779"
     ],
     "quality": "추가 확인 필요",
@@ -32621,7 +32659,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"리틀밥독\" \"플립 컬러 빨대컵\"",
@@ -32703,7 +32743,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0053"
   },
   {
@@ -33066,14 +33106,14 @@
     "name": "PPSU 추 빨대컵 캐럿",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/1wSP9aoFRpyuJV9bm2fDaCiKzLYdGB8s/",
     "officialUrls": [
       "https://fallcent.com/product/1wSP9aoFRpyuJV9bm2fDaCiKzLYdGB8s/",
       "https://momiliter.co.kr/shop/item.php?it_id=1733118484"
@@ -33101,7 +33141,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"아이별프렌즈\" \"PPSU 추 빨대컵 캐럿\"",
@@ -33161,7 +33203,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0056"
   },
   {
@@ -33294,9 +33336,9 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
+      "https://ubmom.cafe24.com/product/list.html?cate_no=48",
       "https://www.ubmom.com/",
       "https://ubmom.com/",
-      "https://ubmom.cafe24.com/product/list.html?cate_no=48",
       "https://ubmom.com/product/%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%8B%88-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-200ml-%EC%B4%88%EC%BD%941p/302/category/1/display/2/?icid=MAIN.product_listmain_1"
     ],
     "estimatedRank": "미공개",
@@ -33311,18 +33353,18 @@
     "name": "리틀포니 PPSU 원터치 빨대컵",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "6개월 이상",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "확인 중",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://ubmom.cafe24.com/product/list.html?cate_no=48",
     "officialUrls": [
+      "https://ubmom.cafe24.com/product/list.html?cate_no=48",
       "https://www.ubmom.com/",
       "https://ubmom.com/",
-      "https://ubmom.cafe24.com/product/list.html?cate_no=48",
       "https://ubmom.com/product/%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%8B%88-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-200ml-%EC%B4%88%EC%BD%941p/302/category/1/display/2/?icid=MAIN.product_listmain_1"
     ],
     "quality": "추가 확인 필요",
@@ -33348,7 +33390,8 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "countryOfManufacture",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "officialAge"
     ],
     "revalidationQueries": [
       "\"유비맘\" \"리틀포니 PPSU 원터치 빨대컵\"",
@@ -33430,7 +33473,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0058"
   },
   {
@@ -33626,8 +33669,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://xirinet.com/%EC%9C%A0%ED%94%BC%EC%8A%A4%EC%A0%96%EB%B3%91-202407281324/",
-      "https://prod.danawa.com/info/?pcode=35305055"
+      "https://prod.danawa.com/info/?pcode=35305055",
+      "https://xirinet.com/%EC%9C%A0%ED%94%BC%EC%8A%A4%EC%A0%96%EB%B3%91-202407281324/"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
@@ -33641,17 +33684,17 @@
     "name": "PPSU 빨대컵 6M",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=35305055",
     "officialUrls": [
-      "https://xirinet.com/%EC%9C%A0%ED%94%BC%EC%8A%A4%EC%A0%96%EB%B3%91-202407281324/",
-      "https://prod.danawa.com/info/?pcode=35305055"
+      "https://prod.danawa.com/info/?pcode=35305055",
+      "https://xirinet.com/%EC%9C%A0%ED%94%BC%EC%8A%A4%EC%A0%96%EB%B3%91-202407281324/"
     ],
     "quality": "추가 확인 필요",
     "historySummary": "2026-08-04 원본 압축 DB 복원 · 포함 판정 유지 | 2026-08-04 전 제품 KC 근거 정책 적용 · 포함 → 보류 · Safety Korea 동일 모델 재검증 시작",
@@ -33675,8 +33718,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"유피스\" \"PPSU 빨대컵 6M\"",
@@ -33734,7 +33778,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0060"
   },
   {
@@ -33764,14 +33808,14 @@
     "name": "돗람이 PPSU 빨대컵",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/LX4y3O0JlEZ2yRkO9xowKg57CGI8YsNu/?from=recommend",
     "officialUrls": [
       "https://fallcent.com/product/LX4y3O0JlEZ2yRkO9xowKg57CGI8YsNu/?from=recommend",
       "https://boyown7615.tistory.com/entry/%EC%95%88-%EC%83%88%EB%8A%94-%ED%86%A0%EB%B9%84%EC%95%A4%EB%AA%B0%EB%A6%AC-%EB%8F%97%EB%9E%8C%EC%9D%B4-%EB%B9%A8%EB%8C%80%EC%BB%B5-%ED%8A%B9%EC%A7%95%EA%B3%BC-%EB%8B%A8%EA%B3%84%EB%B3%84-%EB%A6%AC%ED%95%84-%EC%84%B8%ED%8A%B8-%EA%B5%90%EC%B2%B4-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC",
@@ -33802,7 +33846,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"토비앤몰리\" \"돗람이 PPSU 빨대컵\"",
@@ -33873,7 +33919,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0061"
   },
   {
@@ -33996,14 +34042,14 @@
     "name": "PPSU 이지유 간편 빨대컵 2단계",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/BfXJlxbuXfHVSoMdLyEYJeWhOsCFURPB/",
     "officialUrls": [
       "https://fallcent.com/product/BfXJlxbuXfHVSoMdLyEYJeWhOsCFURPB/",
       "https://prod.danawa.com/info/?pcode=29496860"
@@ -34031,7 +34077,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"하이비\" \"PPSU 이지유 간편 빨대컵 2단계\"",
@@ -34077,7 +34125,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0063"
   },
   {
@@ -34107,14 +34155,14 @@
     "name": "빨대컵 꼭지 리필 2개",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=106887085",
     "officialUrls": [
       "https://www.enuri.com/detail.jsp?modelno=106887085",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2305167698&lowerVendNo=LV20025870",
@@ -34145,7 +34193,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"유비맘\" \"빨대컵 꼭지 리필 2개\"",
@@ -34251,7 +34301,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0064"
   },
   {
@@ -34282,14 +34332,14 @@
     "name": "빨대컵 뚜껑세트",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2106031382&lowerVendNo=LV20025870",
     "officialUrls": [
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2106031382&lowerVendNo=LV20025870",
       "https://www.elandmall.co.kr/i/item?itemNo=2106031382",
@@ -34321,7 +34371,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"유비맘\" \"빨대컵 뚜껑세트\"",
@@ -34420,7 +34472,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0065"
   },
   {
@@ -34432,10 +34484,10 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
+      "https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false",
       "https://a.artechnic.co.kr/10991",
       "https://ubmom.com/",
-      "https://bestgoodnice.com/%EC%9C%A0%EB%B9%84%EB%A7%98-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-280ml-1%EA%B0%9C-%EC%9A%94%EA%B1%B0%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80-%EC%BB%B5-%ED%85%80/",
-      "https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false"
+      "https://bestgoodnice.com/%EC%9C%A0%EB%B9%84%EB%A7%98-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-280ml-1%EA%B0%9C-%EC%9A%94%EA%B1%B0%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80-%EC%BB%B5-%ED%85%80/"
     ],
     "estimatedRank": "미공개",
     "rankEvidence": "판매량 미공개 · 임의 수치 미표시",
@@ -34449,19 +34501,19 @@
     "name": "시그니처 빨대컵용 손잡이",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false",
     "officialUrls": [
+      "https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false",
       "https://a.artechnic.co.kr/10991",
       "https://ubmom.com/",
-      "https://bestgoodnice.com/%EC%9C%A0%EB%B9%84%EB%A7%98-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-280ml-1%EA%B0%9C-%EC%9A%94%EA%B1%B0%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80-%EC%BB%B5-%ED%85%80/",
-      "https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false"
+      "https://bestgoodnice.com/%EC%9C%A0%EB%B9%84%EB%A7%98-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-280ml-1%EA%B0%9C-%EC%9A%94%EA%B1%B0%ED%8A%B8%EB%B2%A0%EC%9D%B4%EC%A7%80-%EC%BB%B5-%ED%85%80/"
     ],
     "quality": "추가 확인 필요",
     "historySummary": "2026-08-03 엄격 2차 전수검증 · 보류 → 보류 | 2026-08-04 상위권·ING 엄격 재검증 · 보류 → 보류",
@@ -34486,7 +34538,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"유비맘\" \"시그니처 빨대컵용 손잡이\"",
@@ -34563,7 +34617,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0066"
   },
   {
@@ -35827,8 +35881,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://newsmeta.kr/13590/",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
+      "https://newsmeta.kr/13590/",
       "https://www.elandmall.co.kr/i/item?itemNo=2205724780&lowerVendNo=LV21033354",
       "https://edisoni.kr/",
       "https://www.momq.co.kr/shop/29080"
@@ -35845,17 +35899,17 @@
     "name": "실리콘 흡착 플레이트 & 뚜껑 세트",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
     "officialUrls": [
-      "https://newsmeta.kr/13590/",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
+      "https://newsmeta.kr/13590/",
       "https://www.elandmall.co.kr/i/item?itemNo=2205724780&lowerVendNo=LV21033354",
       "https://edisoni.kr/",
       "https://www.momq.co.kr/shop/29080"
@@ -35883,7 +35937,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"에디슨\" \"실리콘 흡착 플레이트 & 뚜껑 세트\"",
@@ -35958,7 +36014,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0077"
   },
   {
@@ -36375,14 +36431,14 @@
     "name": "123 실리콘 식판 + 밥볼 + 국볼 세트",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://tackaon.com/product/%ED%83%81%EA%B0%80%EC%98%A8-123-%EC%8B%A4%EB%A6%AC%EC%BD%98-%ED%9D%A1%EC%B0%A9%EC%8B%9D%ED%8C%90-3%EA%B5%AC-%EC%8B%9D%ED%8C%90/388/",
     "officialUrls": [
       "https://tackaon.com/product/%ED%83%81%EA%B0%80%EC%98%A8-123-%EC%8B%A4%EB%A6%AC%EC%BD%98-%ED%9D%A1%EC%B0%A9%EC%8B%9D%ED%8C%90-3%EA%B5%AC-%EC%8B%9D%ED%8C%90/388/",
       "https://fallcent.com/product/IrgoEKrCtB7RzK6sVNDYyeh1TpwnfgEZ/",
@@ -36420,7 +36476,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"탁가온\" \"123 실리콘 식판 + 밥볼 + 국볼 세트\"",
@@ -36504,7 +36562,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0082"
   },
   {
@@ -36537,14 +36595,14 @@
     "name": "123 실리콘 흡착 1구 식판 + 토핑볼 3p",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/twB8d7Eqp8UkVQTx3DZny2cbAl916RGw/",
     "officialUrls": [
       "https://fallcent.com/product/twB8d7Eqp8UkVQTx3DZny2cbAl916RGw/",
       "https://tackaon.com/category/123-%EC%9C%A0%EC%95%84-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%8B%9D%EA%B8%B0/237/",
@@ -36578,7 +36636,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "countryOfManufacture"
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"탁가온\" \"123 실리콘 흡착 1구 식판 + 토핑볼 3p\"",
@@ -36667,7 +36727,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0083"
   },
   {
@@ -37346,6 +37406,7 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
+      "https://momiliter.co.kr/shop/item.php?it_id=1722846471",
       "http://questquiver.kro.kr/%EC%88%98%EC%A7%91%ED%92%88/262435",
       "https://gmautoworld.co.kr/picks/24681/",
       "https://a.artechnic.co.kr/4838",
@@ -37353,7 +37414,6 @@
       "https://newsmeta.kr/7289/",
       "https://blog.munbbok.kr/%EB%AA%A8%EC%9C%B0%EC%8A%A4%ED%91%BC/",
       "https://42k.coindeskkorea.com/19032/",
-      "https://momiliter.co.kr/shop/item.php?it_id=1722846471",
       "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1340&thisCategory=1340"
     ],
     "estimatedRank": "미공개",
@@ -37368,15 +37428,16 @@
     "name": "실리콘 이유식 스푼 2종 + 케이스",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1722846471",
     "officialUrls": [
+      "https://momiliter.co.kr/shop/item.php?it_id=1722846471",
       "http://questquiver.kro.kr/%EC%88%98%EC%A7%91%ED%92%88/262435",
       "https://gmautoworld.co.kr/picks/24681/",
       "https://a.artechnic.co.kr/4838",
@@ -37384,7 +37445,6 @@
       "https://newsmeta.kr/7289/",
       "https://blog.munbbok.kr/%EB%AA%A8%EC%9C%B0%EC%8A%A4%ED%91%BC/",
       "https://42k.coindeskkorea.com/19032/",
-      "https://momiliter.co.kr/shop/item.php?it_id=1722846471",
       "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1340&thisCategory=1340"
     ],
     "quality": "추가 확인 필요",
@@ -37527,7 +37587,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0089"
   },
   {
@@ -37722,14 +37782,14 @@
     "name": "실리콘 이유식스푼 세트",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "판매 종료·단종",
     "ageRange": "4개월 가격 3만800원 쁘띠누베 실리콘 밥그릇 이유식스푼",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=24780233",
     "officialUrls": [
       "https://www.enuri.com/detail.jsp?modelno=24780233",
       "https://a.artechnic.co.kr/9865",
@@ -37758,7 +37818,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "countryOfManufacture",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"쁘띠누베\" \"실리콘 이유식스푼 세트\"",
@@ -37815,7 +37877,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "판매 종료·단종 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0091"
   },
   {
@@ -37961,14 +38023,14 @@
     "name": "크림 실리콘 이유식스푼 2종세트",
     "status": "보류",
     "countryOfManufacture": "대한민국",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1002059516",
     "officialUrls": [
       "https://www.kurly.com/goods/1002059516"
     ],
@@ -38034,7 +38096,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0093"
   },
   {
@@ -39987,14 +40049,14 @@
     "name": "이중밀폐 이유식 큐브 6구",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/lUHM8ZiNW32eSTRK4FjywbzqnrspU9GV/",
     "officialUrls": [
       "https://fallcent.com/product/lUHM8ZiNW32eSTRK4FjywbzqnrspU9GV/",
       "https://v.daum.net/v/20250418090003024",
@@ -40031,7 +40093,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"모윰\" \"이중밀폐 이유식 큐브 6구\"",
@@ -40148,7 +40212,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0111"
   },
   {
@@ -40573,14 +40637,14 @@
     "name": "이중 밀폐 실리콘 큐브 6구",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품 국내 판매 페이지 · 정제된 0~35개월 공식 연령 근거 · 동일 제품 대한민국 완제품 제조 근거 · 동일 제품 제조사 또는 수입업체가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/gqtJMTaTjBJ9CVbLo017lfthYkQqxuNe/",
     "officialUrls": [
       "https://fallcent.com/product/gqtJMTaTjBJ9CVbLo017lfthYkQqxuNe/",
       "https://www.kurly.com/goods/1000429275",
@@ -40609,7 +40673,9 @@
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
       "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"실리콘스토리\" \"이중 밀폐 실리콘 큐브 6구\"",
@@ -40648,7 +40714,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0115"
   },
   {
@@ -40987,14 +41053,14 @@
     "name": "이중밀폐 이유식큐브 6구",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
-    "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "2~4개월",
+    "ageEvidence": "공식 판매 페이지: 2~4개월",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
     "officialUrls": [
       "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
       "https://www.kurly.com/goods/1000429275",
@@ -41023,8 +41089,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"인콕\" \"이중밀폐 이유식큐브 6구\"",
@@ -41093,7 +41160,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0119"
   },
   {
@@ -41121,14 +41188,14 @@
     "name": "실리콘 멀티큐브 12구",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "과거 누적 공식 월령 재검증 필요",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "완료 판정을 임시 해제함. 동일 제품의 Safety Korea 적합 인증번호와 공식 상세 연결을 OCR과 공식 자료 검색으로 재검증 중임.",
+    "checkedAt": "2026-08-24",
+    "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://jammuk.com/product/%EC%9E%BC%EB%A8%B9-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C/81/",
     "officialUrls": [
       "https://jammuk.com/product/%EC%9E%BC%EB%A8%B9-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C/81/",
       "https://prod.danawa.com/info/?pcode=26458985",
@@ -41232,7 +41299,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "KC 동일 모델 자동 재검증 중",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0120"
   },
   {
