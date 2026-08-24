@@ -23,6 +23,8 @@ ORDER = DATA / "sheet-sync-order.json"
 TOMBSTONES = DATA / "deleted-duplicate-tombstones.json"
 BOOTSTRAP_REPORT = DATA / "bootstrap-report.json"
 SHEET_RECOVERY_QUARANTINE = DATA / "sheet-recovery-quarantine.json"
+ING_CAMPAIGN = DATA / "campaign-ing-revalidation.json"
+ING_PROOF = DATA / "ing-revalidation-proof.json"
 CANONICAL_CATEGORY_ORDER = (
     "완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀",
 )
@@ -201,6 +203,138 @@ def main() -> None:
             errors.append("Sheet recovery quarantine report mismatch")
 
     by_id = {product.get("id"): product for product in products}
+    if ING_PROOF.exists():
+        campaign = json.loads(ING_CAMPAIGN.read_text(encoding="utf-8"))
+        ing_proof = json.loads(ING_PROOF.read_text(encoding="utf-8"))
+        target_ids = [str(value) for value in campaign.get("targetIdsSnapshot", [])]
+        attempted_ids = [str(value) for value in campaign.get("attemptedIds", [])]
+        remaining_ids = [str(value) for value in campaign.get("remainingIds", [])]
+        result_rows = ing_proof.get("results", [])
+        if not isinstance(result_rows, list):
+            errors.append("ING proof results must be an array")
+            result_rows = []
+        result_ids = [
+            str(item.get("id", "")) for item in result_rows if isinstance(item, dict)
+        ]
+        expected_attempted = [value for value in target_ids if value in set(result_ids)]
+        expected_remaining = [value for value in target_ids if value not in set(result_ids)]
+        if (
+            not target_ids
+            or not all(target_ids)
+            or len(target_ids) != len(set(target_ids))
+            or any(value not in by_id for value in target_ids)
+        ):
+            errors.append("ING campaign target IDs are invalid or missing from canonical")
+        if (
+            len(result_ids) != len(result_rows)
+            or not all(result_ids)
+            or len(result_ids) != len(set(result_ids))
+            or not set(result_ids).issubset(target_ids)
+            or attempted_ids != expected_attempted
+            or remaining_ids != expected_remaining
+        ):
+            errors.append("ING proof result coverage/order mismatch")
+
+        status_counts = Counter(str(by_id[value].get("status", "")) for value in target_ids)
+        unresolved_ids: list[str] = []
+        for product_id in target_ids:
+            product = by_id[product_id]
+            values: list[object] = []
+            for field in (
+                "officialUrls",
+                "saleUrls",
+                "revalidationEvidenceUrls",
+                "evidenceUrls",
+            ):
+                candidate = product.get(field, [])
+                if isinstance(candidate, list):
+                    values.extend(candidate)
+            if product.get("safetyKoreaSearchUrl"):
+                values.append(product["safetyKoreaSearchUrl"])
+            for certification in product.get("certifications", []):
+                if isinstance(certification, dict) and certification.get("url"):
+                    values.append(certification["url"])
+            has_evidence = any(direct_url(value) for value in values)
+            if (
+                product.get("status") not in {"포함", "제외"}
+                or not str(product.get("reason", "")).strip()
+                or not has_evidence
+            ):
+                unresolved_ids.append(product_id)
+
+        for result in result_rows:
+            if not isinstance(result, dict):
+                continue
+            product_id = str(result.get("id", ""))
+            product = by_id.get(product_id, {})
+            result_urls = result.get("directEvidenceUrls", [])
+            if (
+                not isinstance(result_urls, list)
+                or any(not direct_url(value) for value in result_urls)
+                or result.get("finalDecision") != product.get("status")
+                or result.get("resolved")
+                != (
+                    product_id not in unresolved_ids
+                    and product.get("status") in {"포함", "제외"}
+                )
+            ):
+                errors.append(f"{product_id}: ING result decision/evidence mismatch")
+            audit_refs = result.get("auditRefs", [])
+            if not isinstance(audit_refs, list) or not audit_refs:
+                errors.append(f"{product_id}: ING result audit refs are absent")
+                continue
+            for audit_ref in audit_refs:
+                relative = Path(str(audit_ref))
+                audit_path = ROOT / relative
+                if (
+                    relative.is_absolute()
+                    or relative.parts[:2] != ("data", "revalidation-audits")
+                    or not audit_path.exists()
+                ):
+                    errors.append(f"{product_id}: ING immutable audit is missing")
+            last_audit_ref = str(result.get("lastAuditRef", ""))
+            last_audit_path = ROOT / last_audit_ref
+            if (
+                not last_audit_ref
+                or not last_audit_path.exists()
+                or result.get("lastAuditSha256") != sha(last_audit_path)
+            ):
+                errors.append(f"{product_id}: ING last audit hash mismatch")
+
+        target_sha = hashlib.sha256(
+            (json.dumps(target_ids, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+        ).hexdigest()
+        expected_coverage_complete = not remaining_ids
+        expected_resolution_complete = expected_coverage_complete and not unresolved_ids
+        if any(ing_proof.get(key) != value for key, value in {
+            "campaignId": campaign.get("campaignId"),
+            "cycleRunId": campaign.get("cycleRunId"),
+            "targetCount": len(target_ids),
+            "targetIdsSha256": target_sha,
+            "attemptedCount": len(attempted_ids),
+            "remainingCount": len(remaining_ids),
+            "resolvedCount": len(target_ids) - len(unresolved_ids),
+            "includedCount": status_counts["포함"],
+            "pendingCount": status_counts["보류"],
+            "excludedCount": status_counts["제외"],
+            "missingTargetIds": remaining_ids,
+            "unresolvedIds": unresolved_ids,
+            "duplicateResultIds": [],
+            "activeDuplicateRecords": sum(bool(item.get("duplicateOf")) for item in products),
+            "resultsWithDirectEvidence": sum(bool(item.get("directEvidenceUrls")) for item in result_rows),
+            "resultsWithErrors": sum(bool(item.get("errors")) for item in result_rows),
+            "coverageComplete": expected_coverage_complete,
+            "resolutionComplete": expected_resolution_complete,
+        }.items()):
+            errors.append("ING campaign proof summary mismatch")
+        if (
+            campaign.get("coverageComplete") != expected_coverage_complete
+            or campaign.get("resolutionComplete") != expected_resolution_complete
+            or campaign.get("lastAuditRef") != ing_proof.get("lastAuditRef")
+            or campaign.get("lastAuditSha256") != ing_proof.get("lastAuditSha256")
+        ):
+            errors.append("ING campaign checkpoint/proof mismatch")
+
     tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8"))
     if (
         tombstone_doc.get("sourceCommit") != TOMBSTONE_SOURCE_COMMIT

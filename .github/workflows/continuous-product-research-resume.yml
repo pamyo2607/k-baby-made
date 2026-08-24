@@ -65,6 +65,10 @@ jobs:
         if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
         run: python scripts/verify_research_effectiveness.py
 
+      - name: Persist immutable ING campaign audit and checkpoint
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/update_ing_revalidation_campaign.py
+
       - name: Enforce per-run research limits and metric consistency
         if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
         run: python scripts/enforce_research_targets.py
