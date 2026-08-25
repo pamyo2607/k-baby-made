@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-25T17:48:37+00:00",
+    "lastRun": "2026-08-25T19:02:42+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-covered",
@@ -37,34 +37,42 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 0,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 0,
-    "newCandidates": 0,
-    "candidateIdsDiscoveredThisRun": [],
+    "newCandidatesStagedBeforeSanitizationThisRun": 3,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 3,
+    "newCandidates": 3,
+    "candidateIdsDiscoveredThisRun": [
+      "DISC-7CE3202FC332",
+      "DISC-EF00C63EE5A3",
+      "DISC-ACEB1EC2F219"
+    ],
     "newCandidatesByCategory": {
       "완구": 0,
-      "구강·치발기": 0,
+      "구강·치발기": 1,
       "턱받이": 0,
       "수유용품": 0,
-      "이유식·식기": 0,
-      "위생·기저귀": 0
+      "이유식·식기": 1,
+      "위생·기저귀": 1
     },
-    "candidateTotalAfterRun": 437,
+    "candidateTotalAfterRun": 440,
     "candidateTotalsByCategoryAfterRun": {
       "완구": 45,
-      "구강·치발기": 69,
+      "구강·치발기": 70,
       "턱받이": 89,
       "수유용품": 104,
-      "이유식·식기": 52,
-      "위생·기저귀": 78
+      "이유식·식기": 53,
+      "위생·기저귀": 79
     },
     "errors": 0,
     "totalProducts": 449,
     "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-    "stagingShaAfterRun": "073dadbbf8828263b3bb46596d2d8346046c6d5077d24e9b3436579a34b8f2e4",
+    "stagingShaAfterRun": "171e573a6322d64ddca17be2256170008f8e623b116cca286d7ff1bc74b1e96f",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 0,
-    "candidateIdsAcceptedThisRun": [],
+    "newCandidatesThisRun": 3,
+    "candidateIdsAcceptedThisRun": [
+      "DISC-7CE3202FC332",
+      "DISC-EF00C63EE5A3",
+      "DISC-ACEB1EC2F219"
+    ],
     "removedInvalidCandidates": 0
   },
   "statusTransitions": [],

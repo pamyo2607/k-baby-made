@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "20260816-1355-ing-all",
+  "cycleRunId": "20260816-1355-kbaby50-cycle",
+  "runAt": "2026-08-25T19:02:42+00:00",
+  "workflowRunId": "32887245894",
+  "workflowRunUrl": "https://github.com/pamyo2607/k-baby-made/actions/runs/32887245894",
+  "sourceCommit": "1c7f1a45b916053869e7ecc25a9bd722cda09ead",
+  "audit": {
+    "state": {
+      "metricsVersion": 2,
+      "lastRun": "2026-08-25T19:02:42+00:00",
+      "qualityMode": "ultra",
+      "executionMode": "alternate-url-bounded-parallel",
+      "selectionMode": "campaign-covered",
+      "scheduleTarget": "매시간 1회",
+      "pendingLimit": 50,
+      "newCandidateLimit": 30,
+      "currentCategories": [
+        "완구",
+        "구강·치발기",
+        "턱받이",
+        "수유용품",
+        "이유식·식기",
+        "위생·기저귀"
+      ],
+      "nextCategory": "완구",
+      "categoryIndex": 0,
+      "pendingAvailableBeforeRun": 0,
+      "canonicalPendingBeforeRun": 382,
+      "pendingCursorStart": 382,
+      "pendingCursorNext": 382,
+      "pendingSelected": 0,
+      "pendingSelectedIds": [],
+      "revalidationAttempts": 0,
+      "revalidationCompleted": 0,
+      "successfulRevalidations": 0,
+      "effectiveRevalidations": 0,
+      "revalidationErrorCount": 0,
+      "recordsChangedThisRun": 0,
+      "recordsChangedIds": [],
+      "statusTransitionsThisRun": {},
+      "researchOutcome": "no-verified-progress",
+      "includedThisRun": 0,
+      "includedTotalAfterRun": 21,
+      "rawCandidatesFoundThisRun": 30,
+      "rawNewCandidates": 30,
+      "newCandidatesStagedBeforeSanitizationThisRun": 3,
+      "newCandidatesAcceptedBeforeSanitizationThisRun": 3,
+      "newCandidates": 3,
+      "candidateIdsDiscoveredThisRun": [
+        "DISC-7CE3202FC332",
+        "DISC-EF00C63EE5A3",
+        "DISC-ACEB1EC2F219"
+      ],
+      "newCandidatesByCategory": {
+        "완구": 0,
+        "구강·치발기": 1,
+        "턱받이": 0,
+        "수유용품": 0,
+        "이유식·식기": 1,
+        "위생·기저귀": 1
+      },
+      "candidateTotalAfterRun": 440,
+      "candidateTotalsByCategoryAfterRun": {
+        "완구": 45,
+        "구강·치발기": 70,
+        "턱받이": 89,
+        "수유용품": 104,
+        "이유식·식기": 53,
+        "위생·기저귀": 79
+      },
+      "errors": 0,
+      "totalProducts": 449,
+      "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
+      "stagingShaAfterRun": "171e573a6322d64ddca17be2256170008f8e623b116cca286d7ff1bc74b1e96f",
+      "newCandidatesRejectedBySanitizationThisRun": 0,
+      "newCandidatesThisRun": 3,
+      "candidateIdsAcceptedThisRun": [
+        "DISC-7CE3202FC332",
+        "DISC-EF00C63EE5A3",
+        "DISC-ACEB1EC2F219"
+      ],
+      "removedInvalidCandidates": 0
+    },
+    "statusTransitions": [],
+    "products": []
+  }
+}
