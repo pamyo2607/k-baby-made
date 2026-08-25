@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-25T01:56:25+00:00",
+    "lastRun": "2026-08-25T03:15:27+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-covered",
@@ -37,49 +37,47 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 7,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 7,
-    "newCandidates": 7,
+    "newCandidatesStagedBeforeSanitizationThisRun": 6,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 6,
+    "newCandidates": 6,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-1287456D15AF",
-      "DISC-BA039DD642E2",
-      "DISC-1600EFD2EE61",
-      "DISC-DF8781C38DB9",
-      "DISC-DFB5B4F1E8EE",
-      "DISC-4E7FAFF85200",
-      "DISC-27ED71709962"
+      "DISC-2971333B9B17",
+      "DISC-95A9D7C6C59B",
+      "DISC-66739D6ADF1A",
+      "DISC-D480F89598D9",
+      "DISC-FBED5BF92CB7",
+      "DISC-6B68D004A1DC"
     ],
     "newCandidatesByCategory": {
-      "완구": 2,
-      "구강·치발기": 1,
+      "완구": 0,
+      "구강·치발기": 0,
       "턱받이": 2,
-      "수유용품": 1,
+      "수유용품": 3,
       "이유식·식기": 0,
       "위생·기저귀": 1
     },
-    "candidateTotalAfterRun": 311,
+    "candidateTotalAfterRun": 317,
     "candidateTotalsByCategoryAfterRun": {
       "완구": 40,
       "구강·치발기": 54,
-      "턱받이": 60,
-      "수유용품": 68,
+      "턱받이": 62,
+      "수유용품": 71,
       "이유식·식기": 32,
-      "위생·기저귀": 57
+      "위생·기저귀": 58
     },
     "errors": 0,
     "totalProducts": 449,
     "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-    "stagingShaAfterRun": "498101207cfa080e96e15a6747018a493aab1583725e049e76e8761f8ac89f1a",
+    "stagingShaAfterRun": "c1f33b06aad3be7b45ddaf54e60c30cbc1474cf51ab32cabdfb5fae9fe357475",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 7,
+    "newCandidatesThisRun": 6,
     "candidateIdsAcceptedThisRun": [
-      "DISC-1287456D15AF",
-      "DISC-BA039DD642E2",
-      "DISC-1600EFD2EE61",
-      "DISC-DF8781C38DB9",
-      "DISC-DFB5B4F1E8EE",
-      "DISC-4E7FAFF85200",
-      "DISC-27ED71709962"
+      "DISC-2971333B9B17",
+      "DISC-95A9D7C6C59B",
+      "DISC-66739D6ADF1A",
+      "DISC-D480F89598D9",
+      "DISC-FBED5BF92CB7",
+      "DISC-6B68D004A1DC"
     ],
     "removedInvalidCandidates": 0
   },
