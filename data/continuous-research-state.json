@@ -1,6 +1,6 @@
 {
   "metricsVersion": 2,
-  "lastRun": "2026-08-25T15:09:19+00:00",
+  "lastRun": "2026-08-25T16:04:14+00:00",
   "qualityMode": "ultra",
   "executionMode": "alternate-url-bounded-parallel",
   "selectionMode": "campaign-covered",
@@ -36,41 +36,47 @@
   "includedTotalAfterRun": 21,
   "rawCandidatesFoundThisRun": 30,
   "rawNewCandidates": 30,
-  "newCandidatesStagedBeforeSanitizationThisRun": 3,
-  "newCandidatesAcceptedBeforeSanitizationThisRun": 3,
-  "newCandidates": 3,
+  "newCandidatesStagedBeforeSanitizationThisRun": 6,
+  "newCandidatesAcceptedBeforeSanitizationThisRun": 6,
+  "newCandidates": 6,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-CC5179105432",
-    "DISC-A6DBEF01425D",
-    "DISC-3C25B2A3506D"
+    "DISC-E0E2BA185CE4",
+    "DISC-407A160FC4EE",
+    "DISC-74CB57508801",
+    "DISC-8B39C54F55B3",
+    "DISC-8CD2B937D15C",
+    "DISC-F39DA2AABD5F"
   ],
   "newCandidatesByCategory": {
     "완구": 0,
     "구강·치발기": 0,
     "턱받이": 1,
-    "수유용품": 1,
-    "이유식·식기": 1,
-    "위생·기저귀": 0
+    "수유용품": 2,
+    "이유식·식기": 0,
+    "위생·기저귀": 3
   },
-  "candidateTotalAfterRun": 429,
+  "candidateTotalAfterRun": 435,
   "candidateTotalsByCategoryAfterRun": {
     "완구": 45,
     "구강·치발기": 68,
-    "턱받이": 88,
-    "수유용품": 101,
+    "턱받이": 89,
+    "수유용품": 103,
     "이유식·식기": 52,
-    "위생·기저귀": 75
+    "위생·기저귀": 78
   },
   "errors": 0,
   "totalProducts": 449,
   "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-  "stagingShaAfterRun": "009d1514ddf74dda030765f617c4796b58983eeb3952965204a68a2fc3a50704",
+  "stagingShaAfterRun": "3c48758d975be9f78016c454956e9fcd0c42ae8d68961ff7b662e1f193a80415",
   "newCandidatesRejectedBySanitizationThisRun": 0,
-  "newCandidatesThisRun": 3,
+  "newCandidatesThisRun": 6,
   "candidateIdsAcceptedThisRun": [
-    "DISC-CC5179105432",
-    "DISC-A6DBEF01425D",
-    "DISC-3C25B2A3506D"
+    "DISC-E0E2BA185CE4",
+    "DISC-407A160FC4EE",
+    "DISC-74CB57508801",
+    "DISC-8B39C54F55B3",
+    "DISC-8CD2B937D15C",
+    "DISC-F39DA2AABD5F"
   ],
   "removedInvalidCandidates": 0
 }
