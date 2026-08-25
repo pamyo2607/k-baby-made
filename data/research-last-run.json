@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-25T16:59:16+00:00",
+    "lastRun": "2026-08-25T17:48:37+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-covered",
@@ -37,18 +37,15 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 2,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 2,
-    "newCandidates": 2,
-    "candidateIdsDiscoveredThisRun": [
-      "DISC-E70E87680748",
-      "DISC-463C4DA4F061"
-    ],
+    "newCandidatesStagedBeforeSanitizationThisRun": 0,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 0,
+    "newCandidates": 0,
+    "candidateIdsDiscoveredThisRun": [],
     "newCandidatesByCategory": {
       "완구": 0,
-      "구강·치발기": 1,
+      "구강·치발기": 0,
       "턱받이": 0,
-      "수유용품": 1,
+      "수유용품": 0,
       "이유식·식기": 0,
       "위생·기저귀": 0
     },
@@ -66,11 +63,8 @@
     "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
     "stagingShaAfterRun": "073dadbbf8828263b3bb46596d2d8346046c6d5077d24e9b3436579a34b8f2e4",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 2,
-    "candidateIdsAcceptedThisRun": [
-      "DISC-E70E87680748",
-      "DISC-463C4DA4F061"
-    ],
+    "newCandidatesThisRun": 0,
+    "candidateIdsAcceptedThisRun": [],
     "removedInvalidCandidates": 0
   },
   "statusTransitions": [],
