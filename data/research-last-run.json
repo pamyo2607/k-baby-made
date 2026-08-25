@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-25T19:49:21+00:00",
+    "lastRun": "2026-08-25T20:50:03+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-covered",
@@ -37,43 +37,37 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 4,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 4,
-    "newCandidates": 4,
+    "newCandidatesStagedBeforeSanitizationThisRun": 1,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 1,
+    "newCandidates": 1,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-3268AD99ED4F",
-      "DISC-23E61789C13C",
-      "DISC-CAF54D007A70",
-      "DISC-B4C1A2D89C41"
+      "DISC-8EC54AC91538"
     ],
     "newCandidatesByCategory": {
-      "완구": 1,
-      "구강·치발기": 1,
-      "턱받이": 1,
-      "수유용품": 0,
+      "완구": 0,
+      "구강·치발기": 0,
+      "턱받이": 0,
+      "수유용품": 1,
       "이유식·식기": 0,
-      "위생·기저귀": 1
+      "위생·기저귀": 0
     },
-    "candidateTotalAfterRun": 444,
+    "candidateTotalAfterRun": 445,
     "candidateTotalsByCategoryAfterRun": {
       "완구": 46,
       "구강·치발기": 71,
       "턱받이": 90,
-      "수유용품": 104,
+      "수유용품": 105,
       "이유식·식기": 53,
       "위생·기저귀": 80
     },
     "errors": 0,
     "totalProducts": 449,
     "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-    "stagingShaAfterRun": "1f2d8b5cb74a24e572fa0e7ea8f06ed74f93110f235b21feb9bf343918871f56",
+    "stagingShaAfterRun": "a786b3c94366ec093ec86d3ff9c0711d51a50852c953d9f3eb1d105ae7797a33",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 4,
+    "newCandidatesThisRun": 1,
     "candidateIdsAcceptedThisRun": [
-      "DISC-3268AD99ED4F",
-      "DISC-23E61789C13C",
-      "DISC-CAF54D007A70",
-      "DISC-B4C1A2D89C41"
+      "DISC-8EC54AC91538"
     ],
     "removedInvalidCandidates": 0
   },
