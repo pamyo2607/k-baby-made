@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-25T19:02:42+00:00",
+    "lastRun": "2026-08-25T19:49:21+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-covered",
@@ -37,41 +37,43 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 3,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 3,
-    "newCandidates": 3,
+    "newCandidatesStagedBeforeSanitizationThisRun": 4,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 4,
+    "newCandidates": 4,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-7CE3202FC332",
-      "DISC-EF00C63EE5A3",
-      "DISC-ACEB1EC2F219"
+      "DISC-3268AD99ED4F",
+      "DISC-23E61789C13C",
+      "DISC-CAF54D007A70",
+      "DISC-B4C1A2D89C41"
     ],
     "newCandidatesByCategory": {
-      "완구": 0,
+      "완구": 1,
       "구강·치발기": 1,
-      "턱받이": 0,
+      "턱받이": 1,
       "수유용품": 0,
-      "이유식·식기": 1,
+      "이유식·식기": 0,
       "위생·기저귀": 1
     },
-    "candidateTotalAfterRun": 440,
+    "candidateTotalAfterRun": 444,
     "candidateTotalsByCategoryAfterRun": {
-      "완구": 45,
-      "구강·치발기": 70,
-      "턱받이": 89,
+      "완구": 46,
+      "구강·치발기": 71,
+      "턱받이": 90,
       "수유용품": 104,
       "이유식·식기": 53,
-      "위생·기저귀": 79
+      "위생·기저귀": 80
     },
     "errors": 0,
     "totalProducts": 449,
     "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-    "stagingShaAfterRun": "171e573a6322d64ddca17be2256170008f8e623b116cca286d7ff1bc74b1e96f",
+    "stagingShaAfterRun": "1f2d8b5cb74a24e572fa0e7ea8f06ed74f93110f235b21feb9bf343918871f56",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 3,
+    "newCandidatesThisRun": 4,
     "candidateIdsAcceptedThisRun": [
-      "DISC-7CE3202FC332",
-      "DISC-EF00C63EE5A3",
-      "DISC-ACEB1EC2F219"
+      "DISC-3268AD99ED4F",
+      "DISC-23E61789C13C",
+      "DISC-CAF54D007A70",
+      "DISC-B4C1A2D89C41"
     ],
     "removedInvalidCandidates": 0
   },
