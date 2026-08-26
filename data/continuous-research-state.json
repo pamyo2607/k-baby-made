@@ -1,6 +1,6 @@
 {
   "metricsVersion": 2,
-  "lastRun": "2026-08-26T05:53:51+00:00",
+  "lastRun": "2026-08-26T07:12:34+00:00",
   "qualityMode": "ultra",
   "executionMode": "alternate-url-bounded-parallel",
   "selectionMode": "campaign-covered",
@@ -34,39 +34,45 @@
   "researchOutcome": "no-verified-progress",
   "includedThisRun": 0,
   "includedTotalAfterRun": 21,
-  "rawCandidatesFoundThisRun": 30,
-  "rawNewCandidates": 30,
-  "newCandidatesStagedBeforeSanitizationThisRun": 1,
-  "newCandidatesAcceptedBeforeSanitizationThisRun": 1,
-  "newCandidates": 1,
+  "rawCandidatesFoundThisRun": 29,
+  "rawNewCandidates": 29,
+  "newCandidatesStagedBeforeSanitizationThisRun": 4,
+  "newCandidatesAcceptedBeforeSanitizationThisRun": 4,
+  "newCandidates": 4,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-691A78B509CA"
+    "DISC-77193C2F7C5E",
+    "DISC-80BCE99B0C96",
+    "DISC-A3C2162C9EEF",
+    "DISC-E36998818FFF"
   ],
   "newCandidatesByCategory": {
     "완구": 0,
-    "구강·치발기": 1,
-    "턱받이": 0,
-    "수유용품": 0,
+    "구강·치발기": 0,
+    "턱받이": 1,
+    "수유용품": 2,
     "이유식·식기": 0,
-    "위생·기저귀": 0
+    "위생·기저귀": 1
   },
-  "candidateTotalAfterRun": 465,
+  "candidateTotalAfterRun": 469,
   "candidateTotalsByCategoryAfterRun": {
     "완구": 48,
     "구강·치발기": 75,
-    "턱받이": 95,
-    "수유용품": 107,
+    "턱받이": 96,
+    "수유용품": 109,
     "이유식·식기": 55,
-    "위생·기저귀": 85
+    "위생·기저귀": 86
   },
   "errors": 0,
   "totalProducts": 449,
   "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-  "stagingShaAfterRun": "f04500c46de683ea987a4a3a1529465271c692012d29674114e3b7c4613cb66f",
+  "stagingShaAfterRun": "04b28e0b512fd4b063124401e091080b9a818c6b3e2216e50ccfa607625bcda5",
   "newCandidatesRejectedBySanitizationThisRun": 0,
-  "newCandidatesThisRun": 1,
+  "newCandidatesThisRun": 4,
   "candidateIdsAcceptedThisRun": [
-    "DISC-691A78B509CA"
+    "DISC-77193C2F7C5E",
+    "DISC-80BCE99B0C96",
+    "DISC-A3C2162C9EEF",
+    "DISC-E36998818FFF"
   ],
   "removedInvalidCandidates": 0
 }
