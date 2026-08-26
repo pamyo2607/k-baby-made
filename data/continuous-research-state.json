@@ -1,6 +1,6 @@
 {
   "metricsVersion": 2,
-  "lastRun": "2026-08-26T07:12:34+00:00",
+  "lastRun": "2026-08-26T08:03:43+00:00",
   "qualityMode": "ultra",
   "executionMode": "alternate-url-bounded-parallel",
   "selectionMode": "campaign-covered",
@@ -34,45 +34,49 @@
   "researchOutcome": "no-verified-progress",
   "includedThisRun": 0,
   "includedTotalAfterRun": 21,
-  "rawCandidatesFoundThisRun": 29,
-  "rawNewCandidates": 29,
-  "newCandidatesStagedBeforeSanitizationThisRun": 4,
-  "newCandidatesAcceptedBeforeSanitizationThisRun": 4,
-  "newCandidates": 4,
+  "rawCandidatesFoundThisRun": 30,
+  "rawNewCandidates": 30,
+  "newCandidatesStagedBeforeSanitizationThisRun": 6,
+  "newCandidatesAcceptedBeforeSanitizationThisRun": 6,
+  "newCandidates": 6,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-77193C2F7C5E",
-    "DISC-80BCE99B0C96",
-    "DISC-A3C2162C9EEF",
-    "DISC-E36998818FFF"
+    "DISC-7456FE9BB314",
+    "DISC-D3D7946BB87A",
+    "DISC-D4B60DCDEBF1",
+    "DISC-65D4251821F1",
+    "DISC-95B56B6DEDBC",
+    "DISC-A8B98EC9C10B"
   ],
   "newCandidatesByCategory": {
-    "완구": 0,
-    "구강·치발기": 0,
-    "턱받이": 1,
-    "수유용품": 2,
+    "완구": 1,
+    "구강·치발기": 2,
+    "턱받이": 0,
+    "수유용품": 0,
     "이유식·식기": 0,
-    "위생·기저귀": 1
+    "위생·기저귀": 3
   },
-  "candidateTotalAfterRun": 469,
+  "candidateTotalAfterRun": 475,
   "candidateTotalsByCategoryAfterRun": {
-    "완구": 48,
-    "구강·치발기": 75,
+    "완구": 49,
+    "구강·치발기": 77,
     "턱받이": 96,
     "수유용품": 109,
     "이유식·식기": 55,
-    "위생·기저귀": 86
+    "위생·기저귀": 89
   },
   "errors": 0,
   "totalProducts": 449,
   "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-  "stagingShaAfterRun": "04b28e0b512fd4b063124401e091080b9a818c6b3e2216e50ccfa607625bcda5",
+  "stagingShaAfterRun": "5e2e57970cb92e97dda68e76fe227fac490b2efe1e77163d4ad167ca907b4f76",
   "newCandidatesRejectedBySanitizationThisRun": 0,
-  "newCandidatesThisRun": 4,
+  "newCandidatesThisRun": 6,
   "candidateIdsAcceptedThisRun": [
-    "DISC-77193C2F7C5E",
-    "DISC-80BCE99B0C96",
-    "DISC-A3C2162C9EEF",
-    "DISC-E36998818FFF"
+    "DISC-7456FE9BB314",
+    "DISC-D3D7946BB87A",
+    "DISC-D4B60DCDEBF1",
+    "DISC-65D4251821F1",
+    "DISC-95B56B6DEDBC",
+    "DISC-A8B98EC9C10B"
   ],
   "removedInvalidCandidates": 0
 }
