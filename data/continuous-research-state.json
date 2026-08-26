@@ -1,6 +1,6 @@
 {
   "metricsVersion": 2,
-  "lastRun": "2026-08-26T03:28:30+00:00",
+  "lastRun": "2026-08-26T04:59:13+00:00",
   "qualityMode": "ultra",
   "executionMode": "alternate-url-bounded-parallel",
   "selectionMode": "campaign-covered",
@@ -36,39 +36,49 @@
   "includedTotalAfterRun": 21,
   "rawCandidatesFoundThisRun": 30,
   "rawNewCandidates": 30,
-  "newCandidatesStagedBeforeSanitizationThisRun": 2,
-  "newCandidatesAcceptedBeforeSanitizationThisRun": 2,
-  "newCandidates": 2,
+  "newCandidatesStagedBeforeSanitizationThisRun": 7,
+  "newCandidatesAcceptedBeforeSanitizationThisRun": 7,
+  "newCandidates": 7,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-0F84ED2B206C",
-    "DISC-B21F33C0C27B"
+    "DISC-E5D45F7DE741",
+    "DISC-30C81807783E",
+    "DISC-8D60043FE1FA",
+    "DISC-C626D04B1C8A",
+    "DISC-AD7C7BE6A761",
+    "DISC-0E6BB0BC5D2E",
+    "DISC-376B9889A1C9"
   ],
   "newCandidatesByCategory": {
     "완구": 1,
-    "구강·치발기": 0,
-    "턱받이": 1,
-    "수유용품": 0,
+    "구강·치발기": 1,
+    "턱받이": 2,
+    "수유용품": 1,
     "이유식·식기": 0,
-    "위생·기저귀": 0
+    "위생·기저귀": 2
   },
-  "candidateTotalAfterRun": 457,
+  "candidateTotalAfterRun": 464,
   "candidateTotalsByCategoryAfterRun": {
-    "완구": 47,
-    "구강·치발기": 73,
-    "턱받이": 93,
-    "수유용품": 106,
+    "완구": 48,
+    "구강·치발기": 74,
+    "턱받이": 95,
+    "수유용품": 107,
     "이유식·식기": 55,
-    "위생·기저귀": 83
+    "위생·기저귀": 85
   },
   "errors": 0,
   "totalProducts": 449,
   "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-  "stagingShaAfterRun": "392599bc3b557ab4c9fc4acbb4052f3a1a1c25fcc8fe6c607422cebb40f0e005",
+  "stagingShaAfterRun": "d6aa878ed2b3a704589180c69b78c8ca655169d7383f2ad6e3cec86ecb95e43c",
   "newCandidatesRejectedBySanitizationThisRun": 0,
-  "newCandidatesThisRun": 2,
+  "newCandidatesThisRun": 7,
   "candidateIdsAcceptedThisRun": [
-    "DISC-0F84ED2B206C",
-    "DISC-B21F33C0C27B"
+    "DISC-E5D45F7DE741",
+    "DISC-30C81807783E",
+    "DISC-8D60043FE1FA",
+    "DISC-C626D04B1C8A",
+    "DISC-AD7C7BE6A761",
+    "DISC-0E6BB0BC5D2E",
+    "DISC-376B9889A1C9"
   ],
   "removedInvalidCandidates": 0
 }
