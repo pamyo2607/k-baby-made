@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-26T08:03:43+00:00",
+    "lastRun": "2026-08-26T09:06:27+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-covered",
@@ -41,43 +41,43 @@
     "newCandidatesAcceptedBeforeSanitizationThisRun": 6,
     "newCandidates": 6,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-7456FE9BB314",
-      "DISC-D3D7946BB87A",
-      "DISC-D4B60DCDEBF1",
-      "DISC-65D4251821F1",
-      "DISC-95B56B6DEDBC",
-      "DISC-A8B98EC9C10B"
+      "DISC-38B38BF05D66",
+      "DISC-E041F9670DA7",
+      "DISC-2A5C954DBB3F",
+      "DISC-44E2C61C39E4",
+      "DISC-8A3CEBE10030",
+      "DISC-E6D4141918FB"
     ],
     "newCandidatesByCategory": {
-      "완구": 1,
-      "구강·치발기": 2,
-      "턱받이": 0,
+      "완구": 0,
+      "구강·치발기": 1,
+      "턱받이": 1,
       "수유용품": 0,
       "이유식·식기": 0,
-      "위생·기저귀": 3
+      "위생·기저귀": 4
     },
-    "candidateTotalAfterRun": 475,
+    "candidateTotalAfterRun": 481,
     "candidateTotalsByCategoryAfterRun": {
       "완구": 49,
-      "구강·치발기": 77,
-      "턱받이": 96,
+      "구강·치발기": 78,
+      "턱받이": 97,
       "수유용품": 109,
       "이유식·식기": 55,
-      "위생·기저귀": 89
+      "위생·기저귀": 93
     },
     "errors": 0,
     "totalProducts": 449,
     "canonicalShaAfterRun": "518681a880074beab7af78880416fa7c34bfb6a035966dd1ceea227ef3c2bd8d",
-    "stagingShaAfterRun": "5e2e57970cb92e97dda68e76fe227fac490b2efe1e77163d4ad167ca907b4f76",
+    "stagingShaAfterRun": "4b951385b909241093965bb66c8bc47ece0782c9f0f5a3437c551d98c087ef12",
     "newCandidatesRejectedBySanitizationThisRun": 0,
     "newCandidatesThisRun": 6,
     "candidateIdsAcceptedThisRun": [
-      "DISC-7456FE9BB314",
-      "DISC-D3D7946BB87A",
-      "DISC-D4B60DCDEBF1",
-      "DISC-65D4251821F1",
-      "DISC-95B56B6DEDBC",
-      "DISC-A8B98EC9C10B"
+      "DISC-38B38BF05D66",
+      "DISC-E041F9670DA7",
+      "DISC-2A5C954DBB3F",
+      "DISC-44E2C61C39E4",
+      "DISC-8A3CEBE10030",
+      "DISC-E6D4141918FB"
     ],
     "removedInvalidCandidates": 0
   },
