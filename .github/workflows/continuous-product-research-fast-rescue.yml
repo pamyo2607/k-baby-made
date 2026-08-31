@@ -2,6 +2,8 @@ name: K-Baby Made fast rescue research
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/20 * * * *"
   push:
     branches: [main]
     paths:

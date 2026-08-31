@@ -18,7 +18,9 @@ import naver_product_discovery as base
 SUFFIXES = ("", "스마트스토어", "국내생산", "KC 인증")
 
 
-def collect_from_url(category: str, query: str, search_url: str) -> list[tuple[str, str, str]]:
+def collect_from_url(
+    category: str, query: str, search_url: str
+) -> list[tuple[str, str, str, int]]:
     try:
         response = base.session().get(search_url, timeout=20)
     except requests.RequestException:
@@ -27,7 +29,7 @@ def collect_from_url(category: str, query: str, search_url: str) -> list[tuple[s
         return []
     response.encoding = response.apparent_encoding or response.encoding
     soup = BeautifulSoup(response.text, "html.parser")
-    found: list[tuple[str, str, str]] = []
+    found: list[tuple[str, str, str, int]] = []
     seen: set[str] = set()
     for anchor in soup.select("a[href]"):
         title = base.clean_title(anchor.get_text(" ", strip=True))
@@ -43,17 +45,17 @@ def collect_from_url(category: str, query: str, search_url: str) -> list[tuple[s
         if href in seen:
             continue
         seen.add(href)
-        found.append((title, href, query))
+        found.append((title, href, query, len(found) + 1))
     return found
 
 
-def collect_query(category: str, query: str) -> list[tuple[str, str, str]]:
+def collect_query(category: str, query: str) -> list[tuple[str, str, str, int]]:
     encoded = quote(query)
     urls = (
         f"https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query={encoded}",
         f"https://m.search.naver.com/search.naver?where=m&query={encoded}",
     )
-    combined: list[tuple[str, str, str]] = []
+    combined: list[tuple[str, str, str, int]] = []
     seen: set[tuple[str, str]] = set()
     for url in urls:
         for item in collect_from_url(category, query, url):
@@ -66,7 +68,13 @@ def collect_query(category: str, query: str) -> list[tuple[str, str, str]]:
     return combined
 
 
-def build_candidate(category: str, title: str, final_url: str, query: str) -> dict:
+def build_candidate(
+    category: str,
+    title: str,
+    final_url: str,
+    query: str,
+    result_rank: int,
+) -> dict:
     brand = base.infer_brand(title)
     digest = hashlib.sha1(f"{category}|{final_url}".encode()).hexdigest()[:12].upper()
     today = date.today().isoformat()
@@ -103,6 +111,13 @@ def build_candidate(category: str, title: str, final_url: str, query: str) -> di
         "officialUrls": [final_url],
         "saleUrls": [final_url],
         "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+        "estimatedRank": f"네이버 검색 결과 노출 순번 {result_rank}",
+        "rankEvidence": (
+            f"{today} 네이버 검색어 '{query}'의 상품 상세 후보 중 "
+            f"{result_rank}번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용"
+        ),
+        "discoveryQuery": query,
+        "discoveryResultRank": result_rank,
         "historySummary": f"{today} 네이버 특정 상품 후보 조사",
         "revalidationState": "최극상 전면 재검증 대기",
         "revalidationResolved": False,
@@ -129,7 +144,7 @@ def discover(category: str, products: list[dict], requested_limit: int = 5) -> l
         for base_query in base.CATEGORY_QUERIES.get(category, [category])
         for suffix in SUFFIXES
     ]
-    raw: list[tuple[str, str, str]] = []
+    raw: list[tuple[str, str, str, int]] = []
     raw_seen: set[tuple[str, str]] = set()
     for offset in range(0, len(queries), 4):
         chunk = queries[offset:offset + 4]
@@ -161,21 +176,19 @@ def discover(category: str, products: list[dict], requested_limit: int = 5) -> l
 
     for offset in range(0, len(raw), 12):
         chunk = raw[offset:offset + 12]
+
+        def resolve(item: tuple[str, str, str, int]) -> tuple[str, str, str, int]:
+            title, href, query, result_rank = item
+            try:
+                return title, base.resolve_product_url(href), query, result_rank
+            except Exception:
+                return title, "", query, result_rank
+
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-            futures = {
-                executor.submit(base.resolve_product_url, href): (title, query)
-                for title, href, query in chunk
-            }
-            resolved = []
-            for future in concurrent.futures.as_completed(futures):
-                title, query = futures[future]
-                try:
-                    url = future.result()
-                except Exception:
-                    url = ""
-                if url:
-                    resolved.append((title, url, query))
-        for title, final_url, query in resolved:
+            resolved = list(executor.map(resolve, chunk))
+        for title, final_url, query, result_rank in resolved:
+            if not final_url:
+                continue
             brand = base.infer_brand(title)
             key = re.sub(r"[^0-9a-z가-힣]+", "", f"{brand}|{title}".lower())
             if (
@@ -185,7 +198,9 @@ def discover(category: str, products: list[dict], requested_limit: int = 5) -> l
                 or key in seen_keys
             ):
                 continue
-            output.append(build_candidate(category, title, final_url, query))
+            output.append(build_candidate(
+                category, title, final_url, query, result_rank
+            ))
             seen_urls.add(final_url)
             seen_keys.add(key)
             if len(output) >= needed:

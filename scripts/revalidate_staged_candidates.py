@@ -19,6 +19,7 @@ from copy import deepcopy
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlparse
 
 from promote_verified_candidates import (
     PromotionError,
@@ -30,6 +31,17 @@ from validate_data import included_errors
 CATEGORIES = ["완구", "구강·치발기", "턱받이", "수유용품", "이유식·식기", "위생·기저귀"]
 KC_CATEGORIES = {"완구", "구강·치발기"}
 PLACEHOLDERS = {"", "확인 중", "미상", "해당 없음", "브랜드 확인 중"}
+LOW_VALUE_SOURCE_PARTS = (
+    "itemscout.io", "nstoreprice.co.kr", "fallcent.com", "salefinder.co.kr",
+    "alltimeprice.com", "nid.naver.com", "search.shopping.naver.com",
+)
+HIGH_VALUE_RETAIL_HOST_PARTS = (
+    "brand.naver.com", "smartstore.naver.com", "11st.co.kr", "coupang.com",
+    "ssg.com", "lotteon.com", "gmarket.co.kr", "auction.co.kr",
+)
+DEMAND_SIGNAL_TERMS = (
+    "누적 판매", "판매 1위", "베스트", "인기", "랭킹", "국민", "리뷰",
+)
 
 
 class StagedResearchError(RuntimeError):
@@ -79,6 +91,58 @@ def atomic_replace(documents: dict[Path, bytes]) -> None:
 def clean_value(value: str) -> str:
     value = re.sub(r"\s+", " ", value or "").strip(" |:：;,").strip()
     return value[:180]
+
+
+def candidate_source_priority(item: dict) -> tuple[int, int, int, int, int, str]:
+    """Rank likely exact retail evidence ahead of aggregators and dead bridges.
+
+    This ranking never grants inclusion. It only decides which candidates are
+    researched first within the same attempt count. The strict evidence gate
+    below remains authoritative.
+    """
+    urls = list(dict.fromkeys(
+        str(value).strip()
+        for field in ("officialUrls", "saleUrls", "revalidationEvidenceUrls", "evidenceUrls")
+        for value in (item.get(field, []) if isinstance(item.get(field, []), list) else [])
+        if str(value).strip().startswith(("http://", "https://"))
+    ))
+
+    ranks: list[int] = []
+    for url in urls:
+        parsed = urlparse(url)
+        host = parsed.netloc.lower()
+        path = parsed.path.lower()
+        if (
+            any(value in host for value in LOW_VALUE_SOURCE_PARTS)
+            or "block_state" in path
+            or (host == "m.smartstore.naver.com" and path.startswith("/main/products/"))
+        ):
+            ranks.append(4)
+        elif any(value in host for value in HIGH_VALUE_RETAIL_HOST_PARTS):
+            ranks.append(0)
+        elif any(value in path for value in (
+            "/products/", "/product/", "/goods/", "/item/", "/detail/", "/shopdetail",
+        )):
+            ranks.append(1)
+        else:
+            ranks.append(3)
+
+    best_source_rank = min(ranks, default=5)
+    known_sale_and_age = int(not (
+        "현재 구매 가능" in str(item.get("saleStatus", ""))
+        and bool(re.search(r"(?:신생아|\d+\s*개월)", str(item.get("ageRange", ""))))
+    ))
+    text = f"{item.get('name', '')} {item.get('reason', '')} {item.get('rankEvidence', '')}"
+    demand_signal_rank = int(not any(term in text for term in DEMAND_SIGNAL_TERMS))
+    discovery_rank = int(item.get("discoveryResultRank", 10**6) or 10**6)
+    return (
+        best_source_rank,
+        known_sale_and_age,
+        demand_signal_rank,
+        discovery_rank,
+        -len(urls),
+        str(item.get("id", "")),
+    )
 
 
 def labeled_value(text: str, labels: tuple[str, ...], stops: tuple[str, ...]) -> str:
@@ -425,6 +489,7 @@ def process(
         ]
         eligible.sort(key=lambda item: (
             attempts.get(str(item.get("id", "")), 0),
+            candidate_source_priority(item),
             order.get(str(item.get("id", "")), 10**9),
             str(item.get("id", "")),
         ))

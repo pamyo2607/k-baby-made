@@ -15,7 +15,8 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from initialize_top30_campaign import CATEGORIES, reconcile
-from revalidate_staged_candidates import process
+from naver_product_discovery_paced import build_candidate
+from revalidate_staged_candidates import candidate_source_priority, process
 
 
 def write_json(path: Path, value: object) -> None:
@@ -71,6 +72,32 @@ class Top30CampaignTests(unittest.TestCase):
         self.assertEqual(len(json.loads(
             (self.data / "discovered-candidate-staging.json").read_text(encoding="utf-8")
         )), 1)
+
+    def test_exact_retail_candidate_is_prioritized_over_aggregator(self) -> None:
+        aggregator = {
+            "id": "DISC-AGGREGATOR",
+            "name": "아기 치발기",
+            "officialUrls": ["https://itemscout.io/register/sourcing/1688/product/123"],
+        }
+        retail = {
+            "id": "DISC-RETAIL",
+            "name": "국민 아기 치발기 누적 판매 1위",
+            "saleStatus": "현재 구매 가능",
+            "ageRange": "3개월 이상",
+            "officialUrls": ["https://brand.naver.com/example/products/456"],
+        }
+        self.assertLess(candidate_source_priority(retail), candidate_source_priority(aggregator))
+
+    def test_discovery_candidate_persists_naver_rank_basis(self) -> None:
+        candidate = build_candidate(
+            "턱받이",
+            "국산 아기 턱받이 베스트",
+            "https://brand.naver.com/example/products/789",
+            "아기 턱받이 국내생산",
+            2,
+        )
+        self.assertEqual(candidate["discoveryResultRank"], 2)
+        self.assertIn("수요 프록시", candidate["rankEvidence"])
 
     def test_strict_ready_candidate_gets_immutable_gate_and_promotes(self) -> None:
         campaign = "20260831-top30-per-category"
