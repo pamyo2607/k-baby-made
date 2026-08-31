@@ -12,6 +12,7 @@ on:
       - "package.json"
       - "package-lock.json"
       - "scripts/verify_production_deployment.py"
+      - "production-verify-trigger.txt"
       - ".github/workflows/deploy-production.yml"
 
 permissions:
