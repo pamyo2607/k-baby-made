@@ -2,16 +2,16 @@
   "status": "passed",
   "build": "20260815-dedup449-final1",
   "generatedAt": "2026-08-31T00:00:00+09:00",
-  "pendingProducts": 381,
-  "pendingWithStructuredMissingFields": 381,
+  "pendingProducts": 380,
+  "pendingWithStructuredMissingFields": 380,
   "missingFieldCounts": {
-    "countryOfManufacture": 331,
-    "manufacturerOrImporter": 303,
-    "safetyKoreaSameModel": 226,
+    "countryOfManufacture": 330,
+    "manufacturerOrImporter": 302,
+    "safetyKoreaSameModel": 225,
     "exactKcNumber": 194,
-    "officialEvidence": 186,
+    "officialEvidence": 187,
     "officialAge": 184,
-    "currentSale": 142,
+    "currentSale": 143,
     "regulatoryRegime": 21
   },
   "labels": {
@@ -703,24 +703,6 @@
       "priority": 3
     },
     {
-      "id": "TOY-20260729-019",
-      "category": "완구",
-      "brand": "하늘썬별",
-      "name": "우주선 흡착 회전 스피너 딸랑이 치발기 3P",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
       "id": "TOY-20260729-036",
       "category": "완구",
       "brand": "스윗하트",
@@ -842,24 +824,6 @@
       "missingFieldLabels": [
         "완제품 제조국",
         "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "TOY-20260729-130",
-      "category": "완구",
-      "brand": "해피플레이",
-      "name": "파닥파닥 개구리 3종",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
         "Safety Korea 동일 모델 연결"
       ],
       "priority": 3
@@ -6017,6 +5981,28 @@
       "priority": 5
     },
     {
+      "id": "TOY-20260729-019",
+      "category": "완구",
+      "brand": "하늘썬별",
+      "name": "우주선 흡착 회전 스피너 딸랑이 치발기 3P",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
       "id": "TOY-20260729-041",
       "category": "완구",
       "brand": "리틀히어로",
@@ -6043,28 +6029,6 @@
       "category": "완구",
       "brand": "아이존",
       "name": "뽀로로 미니오뚝이 뽀로로+패티",
-      "checkedAt": "2026-08-31",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "TOY-20260729-054",
-      "category": "완구",
-      "brand": "조이키즈",
-      "name": "아기 큐티 동물 물총",
       "checkedAt": "2026-08-31",
       "missingFields": [
         "countryOfManufacture",
@@ -6307,6 +6271,28 @@
       "category": "완구",
       "brand": "오너클랜",
       "name": "출산용품 아기 장난감 국민 딸랑이 신생아 완구",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "TOY-20260729-130",
+      "category": "완구",
+      "brand": "해피플레이",
+      "name": "파닥파닥 개구리 3종",
       "checkedAt": "2026-08-31",
       "missingFields": [
         "countryOfManufacture",
