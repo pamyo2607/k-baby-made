@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Downgrade included rows that do not meet the ultra-quality evidence gate."""
+"""Downgrade invalid inclusions and normalize display fields for final decisions."""
 from __future__ import annotations
 
 import json
@@ -22,10 +22,24 @@ FAILURE_TO_MISSING = {
 }
 
 
+def normalize_excluded_display(product: dict) -> bool:
+    if product.get("status") != "제외":
+        return False
+    changed = False
+    for field in ("statusDisplay", "strict419Status"):
+        if product.get(field) != "기준 제외":
+            product[field] = "기준 제외"
+            changed = True
+    return changed
+
+
 def main() -> None:
     products = json.loads(SOURCE.read_text(encoding="utf-8"))
     downgraded = []
+    normalized_excluded_ids = []
     for product in products:
+        if normalize_excluded_display(product):
+            normalized_excluded_ids.append(str(product.get("id", "")))
         if product.get("status") != "포함":
             continue
         missing = included_errors(product)
@@ -53,16 +67,23 @@ def main() -> None:
         json.dumps(products, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    report = {
+        "checkedAt": date.today().isoformat(),
+        "qualityMode": "ultra",
+        "downgradedCount": len(downgraded),
+        "downgraded": downgraded,
+        "normalizedExcludedDisplayCount": len(normalized_excluded_ids),
+        "normalizedExcludedDisplayIds": normalized_excluded_ids,
+    }
     REPORT.write_text(
-        json.dumps({
-            "checkedAt": date.today().isoformat(),
-            "qualityMode": "ultra",
-            "downgradedCount": len(downgraded),
-            "downgraded": downgraded,
-        }, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(json.dumps({"downgradedCount": len(downgraded)}, ensure_ascii=False))
+    print(json.dumps({
+        "downgradedCount": len(downgraded),
+        "normalizedExcludedDisplayCount": len(normalized_excluded_ids),
+        "normalizedExcludedDisplayIds": normalized_excluded_ids,
+    }, ensure_ascii=False))
 
 
 if __name__ == "__main__":
