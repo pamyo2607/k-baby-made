@@ -910,24 +910,6 @@
     "priority": 3
   },
   {
-    "id": "MASTER-0017",
-    "category": "위생·기저귀",
-    "brand": "하기스",
-    "name": "네이처메이드 퓨어코튼 썸머",
-    "checkedAt": "2026-08-31",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 3
-  },
-  {
     "id": "MASTER-0019",
     "category": "위생·기저귀",
     "brand": "하기스",
@@ -2944,6 +2926,26 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0017",
+    "category": "위생·기저귀",
+    "brand": "하기스",
+    "name": "네이처메이드 퓨어코튼 썸머",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "officialEvidence",
+      "currentSale"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL",
+      "현재 구매 가능한 국내 판매 페이지"
     ],
     "priority": 4
   },
@@ -5058,28 +5060,6 @@
     "priority": 5
   },
   {
-    "id": "TOY-20260729-174",
-    "category": "완구",
-    "brand": "클래식월드",
-    "name": "하이웨이 롤러코스터 원목 자동차 블록 돌 선물",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "currentSale",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
     "id": "MASTER-0015",
     "category": "위생·기저귀",
     "brand": "하기스",
@@ -5828,6 +5808,28 @@
     "priority": 5
   },
   {
+    "id": "TEETHER-20260801-018",
+    "category": "구강·치발기",
+    "brand": "아가츄",
+    "name": "아기 고리 치발기 세트 컬러풀다이노",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 5
+  },
+  {
     "id": "TEETHER-20260801-024",
     "category": "구강·치발기",
     "brand": "마마스템",
@@ -6376,30 +6378,6 @@
       "동일 제품 공식 근거 URL"
     ],
     "priority": 5
-  },
-  {
-    "id": "TEETHER-20260801-018",
-    "category": "구강·치발기",
-    "brand": "아가츄",
-    "name": "아기 고리 치발기 세트 컬러풀다이노",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "currentSale",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 6
   },
   {
     "id": "TEETHER-20260801-023",
@@ -7242,6 +7220,30 @@
     "priority": 6
   },
   {
+    "id": "TOY-20260729-174",
+    "category": "완구",
+    "brand": "클래식월드",
+    "name": "하이웨이 롤러코스터 원목 자동차 블록 돌 선물",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "currentSale",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
     "id": "TOY-20260729-176",
     "category": "완구",
     "brand": "하늘썬별",
@@ -7436,58 +7438,6 @@
     "priority": 7
   },
   {
-    "id": "MASTER-0139",
-    "category": "구강·치발기",
-    "brand": "티지엠",
-    "name": "시그니처 고리 치발기 20개입",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 7
-  },
-  {
-    "id": "MASTER-0170",
-    "category": "턱받이",
-    "brand": "클라우드 아일랜드",
-    "name": "BPA 프리 실리콘 턱받이 2종세트",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 7
-  },
-  {
     "id": "MASTER-0200",
     "category": "구강·치발기",
     "brand": "쁘띠누베",
@@ -7571,6 +7521,58 @@
     "brand": "앙쥬",
     "name": "3D기린 옐로우 + 초코바나나 + 3D딸기 3종 세트",
     "checkedAt": "2026-08-04",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "MASTER-0139",
+    "category": "구강·치발기",
+    "brand": "티지엠",
+    "name": "시그니처 고리 치발기 20개입",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "MASTER-0170",
+    "category": "턱받이",
+    "brand": "클라우드 아일랜드",
+    "name": "BPA 프리 실리콘 턱받이 2종세트",
+    "checkedAt": "2026-08-31",
     "missingFields": [
       "currentSale",
       "officialAge",
