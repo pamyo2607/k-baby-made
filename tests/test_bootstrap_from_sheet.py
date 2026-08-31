@@ -8,10 +8,38 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from bootstrap_from_sheet import reconcile_rows  # noqa: E402
+from bootstrap_from_sheet import fetch_sheet_rows, reconcile_rows  # noqa: E402
 
 
 class BootstrapFromSheetTests(unittest.TestCase):
+    def test_sheet_fetch_retries_after_timeout(self) -> None:
+        calls: list[int] = []
+
+        class Response:
+            encoding = ""
+            text = "ID,브랜드,정확한 제품명\n" + "\n".join(
+                f"P-{index},브랜드{index},제품{index}" for index in range(200)
+            )
+
+            def raise_for_status(self) -> None:
+                return None
+
+        def request_get(_url: str, *, timeout: int, headers: dict) -> Response:
+            calls.append(timeout)
+            if len(calls) == 1:
+                import requests
+                raise requests.ReadTimeout("temporary timeout")
+            return Response()
+
+        rows, errors = fetch_sheet_rows(
+            request_get=request_get,
+            sleeper=lambda _value: None,
+            attempts=((1, 0), (2, 0)),
+        )
+        self.assertEqual(calls, [1, 2])
+        self.assertEqual(len(rows or []), 200)
+        self.assertEqual(len(errors), 1)
+
     def test_sheet_only_rows_are_quarantined_without_canonical_insertion(self) -> None:
         existing = [
             {

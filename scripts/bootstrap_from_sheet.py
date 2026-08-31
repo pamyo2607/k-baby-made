@@ -12,6 +12,7 @@ import csv
 import io
 import json
 import re
+import time
 from pathlib import Path
 
 import requests
@@ -24,6 +25,7 @@ SHEET_ONLY_QUARANTINE = ROOT / "data/sheet-recovery-quarantine.json"
 SHEET_ID = "1eXWn2qhdL2iX6nDi60Uov7sotgkoM0veieE2CTdBT8I"
 MASTER_GID = "344727200"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={MASTER_GID}"
+FETCH_ATTEMPTS = ((20, 0), (35, 3), (50, 8))
 
 
 def text(row: dict[str, str], *names: str) -> str:
@@ -235,24 +237,70 @@ def reconcile_rows(
     }
 
 
+def fetch_sheet_rows(
+    request_get=requests.get,
+    sleeper=time.sleep,
+    attempts: tuple[tuple[int, int], ...] = FETCH_ATTEMPTS,
+) -> tuple[list[dict[str, str]] | None, list[str]]:
+    errors: list[str] = []
+    for timeout, pause in attempts:
+        if pause:
+            sleeper(pause)
+        try:
+            response = request_get(
+                CSV_URL,
+                timeout=timeout,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (compatible; KBabyMadeRecovery/2.0)",
+                    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
+                },
+            )
+            response.raise_for_status()
+            response.encoding = "utf-8"
+            rows = list(csv.DictReader(io.StringIO(response.text)))
+            if len(rows) < 200:
+                raise ValueError(f"recovery source unexpectedly small: {len(rows)} rows")
+            return rows, errors
+        except (requests.RequestException, ValueError) as exc:
+            errors.append(f"timeout={timeout}: {type(exc).__name__}: {exc}")
+    return None, errors
+
+
+def existing_reconciliation_is_safe(existing: list[dict]) -> bool:
+    if not existing or not SHEET_ONLY_QUARANTINE.exists() or not REPORT.exists():
+        return False
+    try:
+        quarantine = json.loads(SHEET_ONLY_QUARANTINE.read_text(encoding="utf-8"))
+        report = json.loads(REPORT.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False
+    products = quarantine.get("products", [])
+    return (
+        quarantine.get("status") == "quarantined"
+        and isinstance(products, list)
+        and quarantine.get("records") == len(products)
+        and report.get("addedFromSheet") == 0
+        and report.get("quarantinedFromSheet") == len(products)
+        and report.get("productsAfter") == len(existing)
+    )
+
+
 def main() -> None:
     existing: list[dict] = []
     if SOURCE.exists():
         existing = json.loads(SOURCE.read_text(encoding="utf-8"))
 
-    response = requests.get(
-        CSV_URL,
-        timeout=45,
-        headers={
-            "User-Agent": "Mozilla/5.0 (compatible; KBabyMadeRecovery/2.0)",
-            "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.7",
-        },
-    )
-    response.raise_for_status()
-    response.encoding = "utf-8"
-    rows = list(csv.DictReader(io.StringIO(response.text)))
-    if len(rows) < 200:
-        raise SystemExit(f"recovery source unexpectedly small: {len(rows)} rows")
+    rows, fetch_errors = fetch_sheet_rows()
+    if rows is None:
+        if existing_reconciliation_is_safe(existing):
+            print(json.dumps({
+                "status": "sheet-temporarily-unavailable-existing-reconciliation-preserved",
+                "productsAfter": len(existing),
+                "errors": fetch_errors,
+                "source": CSV_URL,
+            }, ensure_ascii=False))
+            return
+        raise SystemExit("; ".join(fetch_errors) or "Sheet recovery source unavailable")
 
     recovered_rows = [recovered_product(row, index) for index, row in enumerate(rows, 1)]
     tombstone_doc = json.loads(TOMBSTONES.read_text(encoding="utf-8")) if TOMBSTONES.exists() else {}
