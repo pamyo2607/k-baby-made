@@ -46,6 +46,11 @@ def main() -> None:
 
     subprocess.run([
         sys.executable,
+        str(ROOT / "scripts/refresh_sheet_metadata.py"),
+        "--root", str(ROOT),
+    ], check=True)
+    subprocess.run([
+        sys.executable,
         str(ROOT / "scripts/verify_promoted_candidates.py"),
         "--root", str(ROOT),
         "--campaign-id", campaign,

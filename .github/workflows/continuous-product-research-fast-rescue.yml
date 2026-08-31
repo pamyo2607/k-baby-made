@@ -1,6 +1,6 @@
 name: K-Baby Made fast rescue research
 
-# Active rescue lane applies bounded search to canonical and staged candidates.
+# Active rescue lane bounds evidence search and refreshes Sheet metadata after promotions.
 
 on:
   workflow_dispatch:
