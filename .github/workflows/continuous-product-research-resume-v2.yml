@@ -1,0 +1,105 @@
+name: K-Baby Made ultra-strict product research v2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "research-trigger.txt"
+      - ".github/workflows/continuous-product-research-resume-v2.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: k-baby-made-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      KBABY_QUALITY_MODE: ultra
+      KBABY_PENDING_LIMIT: "50"
+      KBABY_NEW_CANDIDATE_LIMIT: "30"
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout cumulative database
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Check shared manual research lock
+        id: manual_lock
+        run: python3 scripts/check_manual_research_lock.py
+
+      - name: Set up Python
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install research dependencies
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Reconcile cumulative database
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/bootstrap_from_sheet.py
+
+      - name: Revalidate up to 50 unresolved products and discover up to 30 exact candidates
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/run_ultra_naver.py
+
+      - name: Sanitize irrelevant and duplicate candidates
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/sanitize_naver_candidates.py
+
+      - name: Verify effective research progress
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/verify_research_effectiveness.py
+
+      - name: Persist immutable ING campaign audit and checkpoint
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/update_ing_revalidation_campaign.py
+
+      - name: Normalize legitimate retry proof while preserving immutable history
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/normalize_ing_retry_proof.py
+
+      - name: Enforce per-run research limits and metric consistency
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/enforce_research_targets.py
+
+      - name: Enforce ultra-quality inclusion gate
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/enforce_ultra_quality.py
+
+      - name: Rebuild and run the complete repository check contract
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: npm run check
+
+      - name: Final ultra-quality verification
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/verify_ultra_quality.py
+
+      - name: Commit safe cumulative research progress
+        if: steps.manual_lock.outcome == 'success' && steps.manual_lock.outputs.locked == 'false'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "k-baby-made-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data public fallback-products.json kbaby-data.js meta.json health.json
+          if git diff --cached --quiet; then
+            echo "No verified cumulative changes"
+          else
+            git commit -m "data: persist verified cumulative research progress"
+            git push
+          fi
