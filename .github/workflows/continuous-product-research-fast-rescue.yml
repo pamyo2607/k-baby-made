@@ -114,6 +114,14 @@ jobs:
           set -euo pipefail
           git config user.name "k-baby-made-bot"
           git config user.email "actions@users.noreply.github.com"
+          production_proofs=(
+            data/codex-production-verification.json
+            data/strict-419-production-final-proof.json
+            data/strict-419-live-sync-proof.json
+            data/strict-419-app-activation-proof.json
+            data/strict-419-unique-meta-proof.json
+          )
+          git restore --source=HEAD -- "${production_proofs[@]}"
           git add data public fallback-products.json kbaby-data.js meta.json health.json
           if git diff --cached --quiet; then
             echo "No verified cumulative changes"

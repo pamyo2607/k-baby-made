@@ -698,12 +698,12 @@ def select_pending_batch(
 def normalize_schedule_metadata() -> None:
     if pipeline.rr.STATE.exists():
         state = json.loads(pipeline.rr.STATE.read_text(encoding="utf-8"))
-        state["scheduleTarget"] = "5분 주기"
+        state["scheduleTarget"] = "10분 주기"
         pipeline.rr.STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if pipeline.rr.AUDIT.exists():
         audit = json.loads(pipeline.rr.AUDIT.read_text(encoding="utf-8"))
         if isinstance(audit.get("state"), dict):
-            audit["state"]["scheduleTarget"] = "5분 주기"
+            audit["state"]["scheduleTarget"] = "10분 주기"
         pipeline.rr.AUDIT.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
