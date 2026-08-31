@@ -1,6 +1,6 @@
 name: K-Baby Made fast rescue research
 
-# Active rescue lane bounds every evidence request and keeps only the latest run.
+# Active rescue lane caps direct and discovered evidence pages per candidate.
 
 on:
   workflow_dispatch:

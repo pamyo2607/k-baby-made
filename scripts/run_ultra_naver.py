@@ -38,6 +38,9 @@ NON_OFFICIAL_HOST_PARTS = (
     "youtube.com", "instagram.com", "facebook.com", "tiktok.com",
     "shinailbo.co.kr", "slist.kr",
 )
+MAX_DIRECT_EVIDENCE_PAGES = 3
+MAX_SEARCH_RESULTS_PER_QUERY = 4
+MAX_DISCOVERED_IDENTITY_PAGES = 2
 
 
 def resolve_product_url(url: str) -> str:
@@ -170,7 +173,7 @@ def page_record(product: dict, url: str) -> dict | None:
 def fetch_pages(product: dict) -> list[dict]:
     pages: list[dict] = []
     seen: set[str] = set()
-    for url in candidate_evidence_urls(product)[:14]:
+    for url in candidate_evidence_urls(product)[:MAX_DIRECT_EVIDENCE_PAGES]:
         page = page_record(product, url)
         if page is None or page["url"] in seen:
             continue
@@ -203,17 +206,19 @@ def discover_identity_pages(product: dict, existing: list[dict]) -> list[dict]:
         core_tokens.append(lowered)
     core = " ".join(core_tokens[:8]) or name
     search_brand = brand if brand.lower() not in ignored else infer_brand(core)
-    queries = [
-        f"{search_brand} {core} KC 인증번호 제조국",
-        f"{search_brand} {core} 제조사 사용연령 제품상세",
-    ]
+    if str(product.get("category", "")) in {"완구", "구강·치발기"}:
+        queries = [f"{search_brand} {core} KC 인증번호 제조국"]
+    else:
+        queries = [
+            f"{search_brand} {core} 제조사 제조국 사용연령 법령 제품상세"
+        ]
     found: list[dict] = []
     for query in queries:
         try:
             results = pipeline.rr.ddg_results(query)
         except Exception:
             continue
-        for title, url in results[:8]:
+        for title, url in results[:MAX_SEARCH_RESULTS_PER_QUERY]:
             url = str(url).strip()
             if (
                 not url.startswith(("http://", "https://"))
@@ -231,7 +236,7 @@ def discover_identity_pages(product: dict, existing: list[dict]) -> list[dict]:
             found.append(page)
             if pipeline.rr.KC_PATTERN.search(page["text"]):
                 return found
-            if len(found) >= 6:
+            if len(found) >= MAX_DISCOVERED_IDENTITY_PAGES:
                 return found
     return found
 
