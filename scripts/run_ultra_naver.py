@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Run the ultra pipeline with real Naver discovery and sale rechecks."""
+"""Run the ultra pipeline with real Naver discovery and strict cross-source rechecks."""
 from __future__ import annotations
 
 import json
 import re
 from copy import deepcopy
+from datetime import date
 from urllib.parse import parse_qs, urlparse
 
 import naver_pending_revalidation as pending_sale
@@ -29,6 +30,14 @@ ERROR_PRIORITY = {
     "age_basis": 4,
     "sale_inactive": 5,
 }
+NON_OFFICIAL_HOST_PARTS = (
+    "shopping.naver.com", "smartstore.naver.com", "brand.naver.com",
+    "coupang.com", "11st.co.kr", "gmarket.co.kr", "auction.co.kr",
+    "ssg.com", "lotteon.com", "kurly.com", "danawa.com", "enuri.com",
+    "fallcent.com", "wrapuppro.com", "blog.naver.com", "post.naver.com",
+    "youtube.com", "instagram.com", "facebook.com", "tiktok.com",
+    "shinailbo.co.kr", "slist.kr",
+)
 
 
 def resolve_product_url(url: str) -> str:
@@ -82,16 +91,387 @@ def evidence_score(working: dict, result: dict) -> tuple[int, int, int, int]:
     return resolved_rank, len(missing), checked_rank, error_rank
 
 
-def revalidate(product: dict) -> dict:
-    """Evaluate all known direct evidence pages and keep the strongest result.
+def identity_threshold(product: dict) -> int:
+    tokens = pipeline.rr.product_tokens(product)
+    return 2 if len(tokens) >= 2 else 1
 
-    The old runner stopped at the first reachable URL. That caused a product to
-    remain pending when a marketplace page lacked age/KC text even though a
-    second official product page contained stronger evidence. Every known
-    direct URL is now evaluated independently under the same fail-closed gate.
-    No marketplace-only result can promote a product to included.
+
+def identity_matches(product: dict, text: str) -> bool:
+    return pipeline.rr.token_overlap(product, text) >= identity_threshold(product)
+
+
+def trusted_official_url(url: str) -> bool:
+    parsed = urlparse(url)
+    host = parsed.netloc.lower()
+    path = parsed.path.lower()
+    if not host or any(value in host for value in NON_OFFICIAL_HOST_PARTS):
+        return False
+    if any(value in path for value in ("/news/", "/article", "/blog/", "/review/")):
+        return False
+    return True
+
+
+def candidate_evidence_urls(product: dict) -> list[str]:
+    values: list[str] = []
+    for field in (
+        "officialUrls", "saleUrls", "revalidationEvidenceUrls", "evidenceUrls",
+    ):
+        raw = product.get(field, [])
+        if isinstance(raw, list):
+            values.extend(str(value).strip() for value in raw if str(value).strip())
+    return list(dict.fromkeys(
+        value for value in values
+        if value.startswith(("http://", "https://"))
+        and "safetykorea.kr" not in value
+        and pipeline.rr.direct_product_url(value)
+    ))
+
+
+def canonical_kc_numbers(product: dict) -> list[str]:
+    values: list[str] = []
+    if product.get("kcNumber"):
+        values.append(str(product.get("kcNumber")))
+    for cert in product.get("certifications", []):
+        if not isinstance(cert, dict):
+            continue
+        for key in ("certNumber", "number", "kcNumber", "certNum", "certificateNumber"):
+            if cert.get(key):
+                values.append(str(cert.get(key)))
+        raw_url = str(cert.get("url", ""))
+        values.extend(parse_qs(urlparse(raw_url).query).get("certNum", []))
+    safety_url = str(product.get("safetyKoreaSearchUrl", ""))
+    values.extend(parse_qs(urlparse(safety_url).query).get("certNum", []))
+    return list(dict.fromkeys(
+        match.upper()
+        for value in values
+        for match in pipeline.rr.KC_PATTERN.findall(value)
+    ))
+
+
+def fetch_pages(product: dict) -> list[dict]:
+    pages: list[dict] = []
+    for url in candidate_evidence_urls(product)[:14]:
+        status, body, final_url = pipeline.probe(url)
+        if status != 200 or not body:
+            continue
+        text = pipeline.rr.plain(body)
+        pages.append({
+            "url": final_url or url,
+            "sourceUrl": url,
+            "body": body,
+            "text": text,
+            "identity": identity_matches(product, text),
+            "official": trusted_official_url(final_url or url),
+        })
+    return pages
+
+
+def safety_record(product: dict, number: str) -> dict | None:
+    url = pipeline.rr.cert_detail_url(number)
+    status, html, final_url = pipeline.rr.fetch(url)
+    if status != 200 or not html:
+        return None
+    official = pipeline.rr.plain(html)
+    if number.lower() not in official.lower():
+        return None
+    if not re.search(r"인증상태\s*[|:]?\s*적합", official):
+        return None
+    overlap = pipeline.rr.token_overlap(product, official)
+    if overlap < identity_threshold(product):
+        return None
+
+    authority = pipeline.rr.parse_label(
+        official, "인증기관", ["인증구분", "인증번호"]
+    )
+    cert_type = pipeline.rr.parse_label(
+        official, "인증구분", ["인증번호", "인증상태"]
+    )
+    cert_date = pipeline.rr.normalize_date(pipeline.rr.parse_label(
+        official, "인증일자", ["인증변경일자", "인증변경사유"]
+    ))
+    item = pipeline.rr.parse_label(
+        official, "품목명", ["모델명", "상세정보"]
+    )
+    model = pipeline.rr.parse_label(
+        official, "모델명", ["상세정보", "제품분류코드", "파생모델"]
+    )
+    manufacturer = pipeline.rr.parse_label(
+        official, "제조사", ["제조국", "수입업체"]
+    )
+    country = pipeline.rr.parse_label(
+        official, "제조국", ["수입업체", "제품분류코드", "파생모델"]
+    )
+    importer = pipeline.rr.parse_label(
+        official, "수입업체", ["제품분류코드", "파생모델"]
+    )
+    if not country:
+        match = re.search(r"제조국\s*[|:]?\s*([가-힣A-Za-z ]{2,30})", official)
+        country = match.group(1).strip() if match else ""
+    if not all((authority, cert_type, cert_date, item, model, manufacturer)):
+        return None
+    if "/release/certDetail" not in final_url:
+        return None
+    return {
+        "number": number,
+        "url": final_url,
+        "authority": authority,
+        "certType": cert_type,
+        "certDate": cert_date,
+        "itemName": item,
+        "model": model,
+        "manufacturer": manufacturer,
+        "country": country,
+        "importer": importer,
+        "overlap": overlap,
+    }
+
+
+def cross_source_revalidate(product: dict) -> dict | None:
+    """Resolve KC rows by combining independent official evidence sources.
+
+    Current sale may come from an exact live Korean listing. Official age may
+    come from a separate brand product page. KC identity, certificate status,
+    manufacturer and finished-product country must come from the exact Safety
+    Korea certificate detail. A missing component keeps the row pending.
     """
+    if not pipeline.rr.kc_applies(product):
+        return None
+
     original = deepcopy(product)
+    pages = fetch_pages(original)
+    tried = [page["url"] for page in pages]
+
+    sale_url = ""
+    sale_basis = ""
+    for page in pages:
+        if not page["identity"]:
+            continue
+        active, basis = pipeline.rr.active_sales_page(page["text"])
+        if active:
+            sale_url = page["url"]
+            sale_basis = basis
+            break
+    if not sale_url:
+        title, fresh_url = pending_sale.exact_listing(original)
+        if fresh_url:
+            status, body, final_url = pipeline.probe(fresh_url)
+            if status == 200 and body:
+                sale_url = final_url or fresh_url
+                sale_basis = f"네이버 정확 제품명 현재 판매 확인: {title}"
+                tried.append(sale_url)
+
+    missing_fields = {
+        str(value) for value in original.get("revalidationMissingFields", [])
+        if str(value)
+    }
+    age_text = ""
+    age_url = ""
+    if "officialAge" not in missing_fields:
+        existing_age = str(original.get("ageRange", "")).strip()
+        age_ok, existing_basis = pipeline.rr.age_basis(existing_age)
+        if age_ok:
+            age_text = existing_basis or existing_age
+            age_url = next(
+                (str(value) for value in original.get("officialUrls", [])
+                 if trusted_official_url(str(value))),
+                "",
+            )
+    if not age_text:
+        for page in pages:
+            if not page["official"] or not page["identity"]:
+                continue
+            age_ok, basis = pipeline.rr.age_basis(page["text"])
+            if age_ok:
+                age_text = basis
+                age_url = page["url"]
+                break
+            if basis == "36개월 이상 전용":
+                product.update({
+                    "status": "제외",
+                    "checkedAt": date.today().isoformat(),
+                    "revalidationResolved": True,
+                    "revalidationState": "공식 월령 기준 제외 완료",
+                    "revalidationMissingFields": [],
+                    "reason": (
+                        f"공식 제품 페이지 {page['url']}에서 36개월 이상 전용으로 확인되어 "
+                        "0~35개월 대상 기준을 충족하지 않아 제외했다."
+                    ),
+                })
+                evidence = [page["url"]] + [
+                    str(value) for value in product.get("evidenceUrls", [])
+                ]
+                product["evidenceUrls"] = list(dict.fromkeys(evidence))
+                return {
+                    "id": product.get("id"),
+                    "checked": True,
+                    "changed": product != original,
+                    "quality": pipeline.QUALITY,
+                    "errors": [],
+                    "evidencePagesTried": list(dict.fromkeys(tried)),
+                    "crossSourceResolved": True,
+                    "resolution": "excluded_age_36_plus",
+                }
+
+    kc_numbers = canonical_kc_numbers(original)
+    for page in pages:
+        if not page["identity"]:
+            continue
+        for number in pipeline.rr.KC_PATTERN.findall(page["text"]):
+            normalized = number.upper()
+            if normalized not in kc_numbers:
+                kc_numbers.append(normalized)
+
+    records: list[dict] = []
+    for number in kc_numbers[:8]:
+        record = safety_record(original, number)
+        if record:
+            records.append(record)
+
+    for record in records:
+        country = str(record.get("country", "")).strip()
+        korea = bool(re.search(r"대한민국|한국", country))
+        if country and not korea:
+            product.update({
+                "status": "제외",
+                "checkedAt": date.today().isoformat(),
+                "countryOfManufacture": country,
+                "manufacturer": record["manufacturer"],
+                "importer": record["importer"],
+                "officialModel": record["model"],
+                "kcNumber": record["number"],
+                "kcApplicable": record["certType"],
+                "kcType": record["certType"],
+                "regulatoryRegime": record["certType"],
+                "safetyKoreaSearchUrl": record["url"],
+                "revalidationResolved": True,
+                "revalidationState": "Safety Korea 동일 모델 해외 제조 확인",
+                "revalidationMissingFields": [],
+                "reason": (
+                    f"Safety Korea 동일 인증번호 {record['number']}의 적합 인증 상세에서 "
+                    f"모델 {record['model']}과 제조사 {record['manufacturer']}를 대조했고 "
+                    f"완제품 제조국이 {country}로 확인되어 대한민국 제조 기준에서 제외했다."
+                ),
+            })
+            product["certifications"] = [{
+                "certNumber": record["number"],
+                "found": True,
+                "status": "적합",
+                "certDate": record["certDate"],
+                "certType": record["certType"],
+                "authority": record["authority"],
+                "itemName": record["itemName"],
+                "modelName": record["model"],
+                "manufacturer": record["manufacturer"],
+                "country": country,
+                "importer": record["importer"],
+                "url": record["url"],
+            }]
+            evidence = [record["url"]] + tried + [
+                str(value) for value in product.get("evidenceUrls", [])
+            ]
+            product["evidenceUrls"] = list(dict.fromkeys(value for value in evidence if value))
+            return {
+                "id": product.get("id"),
+                "checked": True,
+                "changed": product != original,
+                "quality": pipeline.QUALITY,
+                "errors": [],
+                "evidencePagesTried": list(dict.fromkeys(tried + [record["url"]])),
+                "crossSourceResolved": True,
+                "resolution": "excluded_foreign_manufacture",
+            }
+
+        if not (korea and sale_url and age_text):
+            continue
+
+        official_urls = [sale_url]
+        if age_url:
+            official_urls.append(age_url)
+        official_urls.extend(str(value) for value in original.get("officialUrls", []))
+        sale_urls = [sale_url] + [str(value) for value in original.get("saleUrls", [])]
+        evidence_urls = [sale_url, age_url, record["url"]] + [
+            str(value) for value in original.get("evidenceUrls", [])
+        ]
+        regulatory = str(record["certType"]).strip()
+        normalized_age = pipeline.rr.normalize_age_label(age_text)
+        product.update({
+            "status": "포함",
+            "countryOfManufacture": "대한민국 🇰🇷",
+            "saleStatus": f"현재 국내 판매 확인 · {sale_basis}",
+            "ageRange": normalized_age,
+            "ageEvidence": (
+                f"공식 제품 페이지 {age_url}: {age_text}"
+                if age_url else str(original.get("ageEvidence", "")) or age_text
+            ),
+            "kcNumber": record["number"],
+            "kcApplicable": regulatory,
+            "kcType": regulatory,
+            "testInstitute": record["authority"],
+            "manufacturer": record["manufacturer"],
+            "importer": record["importer"],
+            "officialModel": record["model"],
+            "regulatoryRegime": regulatory,
+            "safetyKoreaSearchUrl": record["url"],
+            "certStatusSummary": "적합",
+            "certDateSummary": record["certDate"],
+            "certTypeSummary": regulatory,
+            "certAuthoritySummary": record["authority"],
+            "activeCertificateCount": 1,
+            "checkedAt": date.today().isoformat(),
+            "revalidationResolved": True,
+            "revalidationState": "공식 판매·월령·Safety Korea 교차검증 완료",
+            "revalidationMissingFields": [],
+            "quality": "공식 판매·공식 월령·Safety Korea 동일 모델·대한민국 제조 교차검증",
+            "reason": (
+                f"현재 국내 판매 페이지 {sale_url}에서 구매 가능성을 확인했다. "
+                f"공식 월령 근거 {age_text}를 확인했다. Safety Korea {record['url']}에서 "
+                f"동일 인증번호 {record['number']}의 적합 상태와 모델 {record['model']}과 "
+                f"제조사 {record['manufacturer']}와 제조국 대한민국을 교차 확인해 포함했다."
+            ),
+        })
+        product["officialUrls"] = list(dict.fromkeys(value for value in official_urls if value))
+        product["saleUrls"] = list(dict.fromkeys(value for value in sale_urls if value))
+        product["evidenceUrls"] = list(dict.fromkeys(value for value in evidence_urls if value))
+        product["revalidationEvidenceUrls"] = list(dict.fromkeys(
+            value for value in (sale_url, age_url, record["url"]) if value
+        ))
+        product["certifications"] = [{
+            "certNumber": record["number"],
+            "found": True,
+            "status": "적합",
+            "certDate": record["certDate"],
+            "certType": regulatory,
+            "authority": record["authority"],
+            "itemName": record["itemName"],
+            "modelName": record["model"],
+            "manufacturer": record["manufacturer"],
+            "country": "대한민국 🇰🇷",
+            "importer": record["importer"],
+            "url": record["url"],
+        }]
+        return {
+            "id": product.get("id"),
+            "checked": True,
+            "changed": product != original,
+            "quality": pipeline.QUALITY,
+            "errors": [],
+            "evidencePagesTried": list(dict.fromkeys(tried + [record["url"]])),
+            "crossSourceResolved": True,
+            "resolution": "included_cross_source",
+        }
+
+    return None
+
+
+def revalidate(product: dict) -> dict:
+    """Try cross-source official resolution then preserve best partial evidence."""
+    original = deepcopy(product)
+    cross = cross_source_revalidate(product)
+    if cross is not None:
+        return cross
+
+    product.clear()
+    product.update(original)
     urls = pipeline.candidate_sales_urls(original)
     best: tuple[tuple[int, int, int, int], dict, dict] | None = None
     tried: list[str] = []
@@ -113,9 +493,6 @@ def revalidate(product: dict) -> dict:
             break
 
     if best is None:
-        # Recover a fresh exact Korean listing only as a current-sale lead.
-        # It is then sent through the same canonical ultra verifier rather than
-        # being trusted as official manufacturing/KC evidence by itself.
         _, fresh_url = pending_sale.exact_listing(original)
         if fresh_url:
             status, body, final_url = pipeline.probe(fresh_url)
@@ -145,14 +522,7 @@ def discover(category: str, products: list[dict]) -> list[dict]:
 def select_pending_batch(
     candidates: list[dict], previous_state: dict, campaign: dict | None
 ) -> tuple[list[dict], int, int, int, str]:
-    """Keep retrying unresolved campaign rows after first-pass coverage.
-
-    The original selector correctly prioritizes never-attempted campaign IDs.
-    Once every target has been attempted it returns an empty batch even when
-    targets are still pending. That stranded the ING campaign at
-    coverage-complete-proof-incomplete. In that state rotate through the fixed
-    campaign snapshot and retry only rows that are still canonical pending.
-    """
+    """Keep retrying unresolved campaign rows after first-pass coverage."""
     if (
         isinstance(campaign, dict)
         and campaign.get("coverageComplete") is True
@@ -169,7 +539,6 @@ def select_pending_batch(
             target_count = len(target_ids)
             cursor_start = int(previous_state.get("pendingCursorNext", 0) or 0)
             cursor_start %= target_count
-
             selected_ids: list[str] = []
             last_offset = -1
             for offset in range(target_count):
@@ -179,12 +548,10 @@ def select_pending_batch(
                     last_offset = offset
                     if len(selected_ids) >= pipeline.PENDING_LIMIT:
                         break
-
             selected = [candidate_by_id[value] for value in selected_ids]
             cursor_next = (
                 (cursor_start + last_offset + 1) % target_count
-                if last_offset >= 0
-                else cursor_start
+                if last_offset >= 0 else cursor_start
             )
             return (
                 selected,
@@ -193,7 +560,6 @@ def select_pending_batch(
                 cursor_next,
                 "campaign-unresolved-retry",
             )
-
     return _original_select_pending_batch(candidates, previous_state, campaign)
 
 
