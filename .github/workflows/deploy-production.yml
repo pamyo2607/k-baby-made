@@ -35,15 +35,6 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Require configured Cloudflare deployment credentials
-        shell: bash
-        run: |
-          set -euo pipefail
-          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
-            echo "::error::Repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID are required"
-            exit 1
-          fi
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
@@ -56,10 +47,39 @@ jobs:
       - name: Rebuild and verify deployable assets
         run: npm run check
 
+      - name: Check whether production already matches current assets
+        id: readback
+        shell: bash
+        run: |
+          set +e
+          python scripts/verify_production_deployment.py \
+            --base-url "$PRODUCTION_URL" \
+            --source-commit "$GITHUB_SHA" > production-readback.log 2>&1
+          status=$?
+          set -e
+          cat production-readback.log
+          if [ "$status" -eq 0 ]; then
+            echo "current=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "current=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Require Cloudflare credentials only when production is stale
+        if: steps.readback.outputs.current != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Production is stale and repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID are required"
+            exit 1
+          fi
+
       - name: Deploy current verified assets to Cloudflare Workers
+        if: steps.readback.outputs.current != 'true'
         run: npx wrangler deploy
 
-      - name: Verify production byte-for-byte and write proof
+      - name: Verify deployed production byte-for-byte and write proof
+        if: steps.readback.outputs.current != 'true'
         run: |
           python scripts/verify_production_deployment.py \
             --base-url "$PRODUCTION_URL" \
