@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "campaignId": "20260831-top30-per-category",
-  "lastRun": "2026-08-31T16:15:25+00:00",
   "waveIndex": 1,
-  "auditRef": "data/new-product-audits/20260831T161525Z-wave-001.json",
-  "auditSha256": "031a480ca00e03977671c707bfa82981b63bb9259400347565649449c291eac4",
+  "runAt": "2026-08-31T16:15:25+00:00",
+  "sourceCommit": "b9afad176218b65dcd2306030ae8fb25e9caed85",
+  "workflowRunId": "33411775956",
   "selectedCandidateIdsByCategory": {
     "완구": [
       "DISC-0FFD8260E999",
@@ -49,72 +49,8 @@
       "DISC-0BBE5B6F36F3"
     ]
   },
-  "selectedCount": 30,
   "promotionReadyCandidateIds": [],
-  "promotionReadyCount": 0,
-  "attemptsById": {
-    "DISC-0008B6574459": 1,
-    "DISC-00194BE6874F": 1,
-    "DISC-02B823B62175": 1,
-    "DISC-04826E6558A2": 1,
-    "DISC-05F1D3C2F1A8": 1,
-    "DISC-0680E4CAAA78": 1,
-    "DISC-0802D153E489": 1,
-    "DISC-0A701E122925": 1,
-    "DISC-0BBE5B6F36F3": 1,
-    "DISC-0C8F59ED36BD": 1,
-    "DISC-0D652C02C2BE": 1,
-    "DISC-0FFC909E7DD0": 1,
-    "DISC-0FFD8260E999": 1,
-    "DISC-14280AA6E3F0": 1,
-    "DISC-14FC380C0F27": 1,
-    "DISC-278A55060736": 1,
-    "DISC-2883C4D2DA8E": 1,
-    "DISC-28D675E79077": 1,
-    "DISC-2A7644143A7C": 1,
-    "DISC-32075DE21B0B": 1,
-    "DISC-3C25B2A3506D": 1,
-    "DISC-3DA88049BA91": 1,
-    "DISC-40C07F7A3515": 1,
-    "DISC-42C11F685419": 1,
-    "DISC-54435E7EE8EE": 1,
-    "DISC-58552710EFE2": 1,
-    "DISC-59B65144AC48": 1,
-    "DISC-5ACE2F1C2875": 1,
-    "DISC-5B11B842246D": 1,
-    "DISC-5D48F99CB50C": 1,
-    "DISC-627D390A3163": 1,
-    "DISC-63C4F8BFA558": 1,
-    "DISC-670F568AA816": 1,
-    "DISC-691A78B509CA": 1,
-    "DISC-71CBA252B5BF": 1,
-    "DISC-77DC766B4670": 1,
-    "DISC-7CE3202FC332": 1,
-    "DISC-7D4647D7325F": 1,
-    "DISC-7E6546C39E44": 1,
-    "DISC-80E4E21B7893": 1,
-    "DISC-84E5AFD80504": 1,
-    "DISC-8571C57C78F2": 1,
-    "DISC-8708A3D0F71B": 1,
-    "DISC-905C4994F81D": 1,
-    "DISC-9679F377CFB5": 1,
-    "DISC-978644AD6BA9": 1,
-    "DISC-A8214A2DB2FD": 1,
-    "DISC-AA5EAB567D2F": 1,
-    "DISC-ACD83134A82E": 1,
-    "DISC-B3B5900EA15C": 1,
-    "DISC-B6FE7E07AE0A": 1,
-    "DISC-BE9A49B040A1": 1,
-    "DISC-DB55E60DC029": 1,
-    "DISC-DB8036571FA3": 1,
-    "DISC-E10FCE42B806": 1,
-    "DISC-E49EFB3625E2": 1,
-    "DISC-F0DAC70BB0D5": 1,
-    "DISC-F378DA55AA82": 1,
-    "DISC-F9DB747C3093": 1,
-    "DISC-FD96D5EECEDD": 1
-  },
-  "results": [
+  "products": [
     {
       "candidateId": "DISC-0FFD8260E999",
       "category": "완구",
@@ -563,22 +499,5 @@
       "evidencePagesTried": [],
       "promotionReadyBeforeDedupe": false
     }
-  ],
-  "categoryTargets": {
-    "완구": 30,
-    "구강·치발기": 30,
-    "턱받이": 30,
-    "수유용품": 30,
-    "이유식·식기": 30,
-    "위생·기저귀": 30
-  },
-  "categoryRemainingBeforeRun": {
-    "완구": 30,
-    "구강·치발기": 30,
-    "턱받이": 30,
-    "수유용품": 30,
-    "이유식·식기": 30,
-    "위생·기저귀": 30
-  },
-  "stagingCount": 541
+  ]
 }
