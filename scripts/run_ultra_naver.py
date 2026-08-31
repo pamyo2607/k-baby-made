@@ -12,6 +12,7 @@ import run_ultra_parallel as pipeline
 _original_revalidate = pipeline.safe_revalidate
 _original_resolve = naver.resolve_product_url
 _original_title_matches = naver.title_matches
+_original_select_pending_batch = pipeline.select_pending_batch
 naver.DIRECT_HINTS = tuple(dict.fromkeys(naver.DIRECT_HINTS + ("/catalog/",)))
 GENERIC_BRAND_TOKENS = {
     "국내", "국내생산", "국산", "생산", "아기", "유아", "신생아", "공식",
@@ -52,9 +53,65 @@ def discover(category: str, products: list[dict]) -> list[dict]:
     return paced.discover(category, products, pipeline.NEW_PER_CATEGORY)
 
 
+def select_pending_batch(
+    candidates: list[dict], previous_state: dict, campaign: dict | None
+) -> tuple[list[dict], int, int, int, str]:
+    """Keep retrying unresolved campaign rows after first-pass coverage.
+
+    The original selector correctly prioritizes never-attempted campaign IDs.
+    Once every target has been attempted it returns an empty batch even when
+    targets are still pending. That stranded the ING campaign at
+    coverage-complete-proof-incomplete. In that state rotate through the fixed
+    campaign snapshot and retry only rows that are still canonical pending.
+    """
+    if (
+        isinstance(campaign, dict)
+        and campaign.get("coverageComplete") is True
+        and campaign.get("resolutionComplete") is not True
+    ):
+        target_ids = [str(value) for value in campaign.get("targetIdsSnapshot", [])]
+        candidate_by_id = {
+            str(item.get("id", "")): item
+            for item in candidates
+            if str(item.get("id", ""))
+        }
+        if target_ids and len(target_ids) == len(set(target_ids)):
+            unresolved_ids = [value for value in target_ids if value in candidate_by_id]
+            target_count = len(target_ids)
+            cursor_start = int(previous_state.get("pendingCursorNext", 0) or 0)
+            cursor_start %= target_count
+
+            selected_ids: list[str] = []
+            last_offset = -1
+            for offset in range(target_count):
+                product_id = target_ids[(cursor_start + offset) % target_count]
+                if product_id in candidate_by_id:
+                    selected_ids.append(product_id)
+                    last_offset = offset
+                    if len(selected_ids) >= pipeline.PENDING_LIMIT:
+                        break
+
+            selected = [candidate_by_id[value] for value in selected_ids]
+            cursor_next = (
+                (cursor_start + last_offset + 1) % target_count
+                if last_offset >= 0
+                else cursor_start
+            )
+            return (
+                selected,
+                len(unresolved_ids),
+                cursor_start,
+                cursor_next,
+                "campaign-unresolved-retry",
+            )
+
+    return _original_select_pending_batch(candidates, previous_state, campaign)
+
+
 naver.resolve_product_url = resolve_product_url
 naver.title_matches = strict_title_matches
 naver.infer_brand = infer_brand
 pipeline.safe_revalidate = revalidate
 pipeline.safe_discover = discover
+pipeline.select_pending_batch = select_pending_batch
 pipeline.main()
