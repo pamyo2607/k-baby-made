@@ -3996,8 +3996,8 @@
     "kcType": "미확인",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://prod.danawa.com/info/?pcode=20785400",
       "https://hottracks.kyobobook.co.kr/gift/detail/S000053767156",
+      "https://prod.danawa.com/info/?pcode=20785400",
       "https://emart.ssg.com/item/itemView.ssg?itemId=1000008610248&siteNo=6001&salestrNo=6005",
       "https://sweet-heart.co.kr/category/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%9D%B8%ED%98%95/116/",
       "https://sweet-heart.co.kr/product/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%95%84%EA%B8%B0%EA%B3%B0-%EB%94%B8%EB%9E%91%EC%9D%B4%EC%9D%B8%ED%98%95/62/",
@@ -4017,16 +4017,16 @@
     "status": "보류",
     "countryOfManufacture": "대한민국",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "0개월 이상",
-    "ageEvidence": "공식 판매 페이지: 신생아",
+    "ageRange": "확인 중",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "어린이제품 확인 필요",
     "kcNumber": "미확인",
     "platform": "이마트몰 SSG.COM",
     "checkedAt": "2026-08-31",
-    "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=20785400",
+    "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://hottracks.kyobobook.co.kr/gift/detail/S000053767156",
     "officialUrls": [
-      "https://prod.danawa.com/info/?pcode=20785400",
       "https://hottracks.kyobobook.co.kr/gift/detail/S000053767156",
+      "https://prod.danawa.com/info/?pcode=20785400",
       "https://emart.ssg.com/item/itemView.ssg?itemId=1000008610248&siteNo=6001&salestrNo=6005",
       "https://sweet-heart.co.kr/category/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%9D%B8%ED%98%95/116/",
       "https://sweet-heart.co.kr/product/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%95%84%EA%B8%B0%EA%B3%B0-%EB%94%B8%EB%9E%91%EC%9D%B4%EC%9D%B8%ED%98%95/62/",
@@ -4079,7 +4079,8 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "exactKcNumber",
-      "safetyKoreaSameModel"
+      "safetyKoreaSameModel",
+      "officialAge"
     ],
     "revalidationSearchQueries": [
       "\"스윗하트\" \"오가닉 아기곰 딸랑이인형\"",
@@ -4157,7 +4158,7 @@
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "판매 페이지 동일 제품 KC 번호 확인 필요",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "TOY-20260729-033"
   },
   {
@@ -32254,6 +32255,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
+      "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61358392450",
+      "https://search.shopping.naver.com/catalog/61358392450",
       "https://pusandate.com/1492",
       "https://bestgoodnice.com/%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8%EB%B9%A8%EB%8C%80%EC%BB%B5-%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-300ml/",
       "https://newsmeta.kr/6118/",
@@ -32271,15 +32274,17 @@
     "name": "리틀 카카오프렌즈 PPSU 빨대컵 200ml 세트",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "이전 조사 기준 · 현재 판매 재검증 필요",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-08-04",
-    "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61358392450",
     "officialUrls": [
+      "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61358392450",
+      "https://search.shopping.naver.com/catalog/61358392450",
       "https://pusandate.com/1492",
       "https://bestgoodnice.com/%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8%EB%B9%A8%EB%8C%80%EC%BB%B5-%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%94%84%EB%A0%8C%EC%A6%88-ppsu-%EB%B9%A8%EB%8C%80%EC%BB%B5-300ml/",
       "https://newsmeta.kr/6118/",
@@ -32309,7 +32314,9 @@
     "revalidationMissingFields": [
       "officialAge",
       "countryOfManufacture",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
     ],
     "revalidationQueries": [
       "\"그로미미\" \"리틀 카카오프렌즈 PPSU 빨대컵 200ml 세트\"",
@@ -32354,7 +32361,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "엄격 근거 부족 · 추가 확인 중",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0050"
   },
   {
@@ -40672,10 +40679,10 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
+      "https://www.kurly.com/goods/1001764731",
       "https://prod.danawa.com/info/?pcode=20835110",
       "https://www.enuri.com/detail.jsp?modelno=129274424",
       "https://web.joongna.com/product/20201980",
-      "https://www.kurly.com/goods/1001764731",
       "https://www.kurly.com/goods/1001183027"
     ],
     "estimatedRank": "미공개",
@@ -40691,18 +40698,18 @@
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "0개월 이상",
-    "ageEvidence": "공식 판매 페이지: 신생아",
+    "ageRange": "확인 중",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-08-31",
-    "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=20835110",
+    "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001764731",
     "officialUrls": [
+      "https://www.kurly.com/goods/1001764731",
       "https://prod.danawa.com/info/?pcode=20835110",
       "https://www.enuri.com/detail.jsp?modelno=129274424",
       "https://web.joongna.com/product/20201980",
-      "https://www.kurly.com/goods/1001764731",
       "https://www.kurly.com/goods/1001183027"
     ],
     "quality": "추가 확인 필요",
@@ -40730,7 +40737,8 @@
       "countryOfManufacture",
       "manufacturerOrImporter",
       "officialEvidence",
-      "regulatoryRegime"
+      "regulatoryRegime",
+      "officialAge"
     ],
     "revalidationQueries": [
       "\"쁘띠누베\" \"실리콘 멀티큐브 6구\"",
@@ -40805,7 +40813,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0114"
   },
   {
@@ -43318,8 +43326,8 @@
     "kcType": "미확인",
     "testInstitute": "미확인",
     "saleUrls": [
-      "https://prod.danawa.com/info/?pcode=20832338",
       "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1339&thisCategory=1350",
+      "https://prod.danawa.com/info/?pcode=20832338",
       "https://m.moyuum.com/views/shop/shopview?pack_content_id=16375",
       "https://pikupdeal.tistory.com/entry/%EB%AA%A8%EC%9C%B0-%EC%86%90%EB%AA%A9-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%8D%A8%EB%B3%B4%EB%8B%88%E2%80%A6-%EB%8B%A4%EB%A5%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%9E%91-%EB%AD%90%EA%B0%80-%EB%8B%AC%EB%9D%BC-%EC%86%94%EC%A7%81-%EB%B9%84%EA%B5%90-%ED%9B%84%EA%B8%B0",
       "https://www.moyuum.com/_vir0001/process/shopmain.asp?thisCategory=1124"
@@ -43336,17 +43344,17 @@
     "name": "스윙버드 손목 치발기",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "현재 구매 가능",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "0개월 이상",
     "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "어린이제품 확인 필요",
     "kcNumber": "CB061A322-0001",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-08-31",
-    "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=20832338",
+    "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1339&thisCategory=1350",
     "officialUrls": [
-      "https://prod.danawa.com/info/?pcode=20832338",
       "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1339&thisCategory=1350",
+      "https://prod.danawa.com/info/?pcode=20832338",
       "https://m.moyuum.com/views/shop/shopview?pack_content_id=16375",
       "https://pikupdeal.tistory.com/entry/%EB%AA%A8%EC%9C%B0-%EC%86%90%EB%AA%A9-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%8D%A8%EB%B3%B4%EB%8B%88%E2%80%A6-%EB%8B%A4%EB%A5%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%9E%91-%EB%AD%90%EA%B0%80-%EB%8B%AC%EB%9D%BC-%EC%86%94%EC%A7%81-%EB%B9%84%EA%B5%90-%ED%9B%84%EA%B8%B0",
       "https://www.moyuum.com/_vir0001/process/shopmain.asp?thisCategory=1124"
@@ -43396,7 +43404,8 @@
       "countryOfManufacture",
       "safetyKoreaSameModel",
       "officialEvidence",
-      "exactKcNumber"
+      "exactKcNumber",
+      "currentSale"
     ],
     "revalidationQueries": [
       "\"모윰\" \"스윙버드 손목 치발기\"",
@@ -43486,7 +43495,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "판매 페이지 동일 제품 KC 번호 확인 필요",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0133"
   },
   {

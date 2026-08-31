@@ -392,22 +392,6 @@
     "priority": 2
   },
   {
-    "id": "TOY-20260729-033",
-    "category": "완구",
-    "brand": "스윗하트",
-    "name": "오가닉 아기곰 딸랑이인형",
-    "checkedAt": "2026-08-31",
-    "missingFields": [
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 2
-  },
-  {
     "id": "TOY-20260729-035",
     "category": "완구",
     "brand": "스윗하트",
@@ -464,24 +448,6 @@
     "category": "위생·기저귀",
     "brand": "리벤스",
     "name": "시그니처 도톰한 아기물티슈",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체"
-    ],
-    "priority": 3
-  },
-  {
-    "id": "MASTER-0050",
-    "category": "수유용품",
-    "brand": "그로미미",
-    "name": "리틀 카카오프렌즈 PPSU 빨대컵 200ml 세트",
     "checkedAt": "2026-08-04",
     "missingFields": [
       "officialAge",
@@ -1716,6 +1682,24 @@
       "완제품 제조국",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 3
+  },
+  {
+    "id": "TOY-20260729-033",
+    "category": "완구",
+    "brand": "스윗하트",
+    "name": "오가닉 아기곰 딸랑이인형",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "0~35개월 공식 월령"
     ],
     "priority": 3
   },
@@ -3370,26 +3354,6 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0114",
-    "category": "이유식·식기",
-    "brand": "쁘띠누베",
-    "name": "실리콘 멀티큐브 6구",
-    "checkedAt": "2026-08-31",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "regulatoryRegime"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "적용 안전제도"
-    ],
-    "priority": 4
-  },
-  {
     "id": "MASTER-0124",
     "category": "이유식·식기",
     "brand": "홈하우스",
@@ -3446,26 +3410,6 @@
       "동일 제품 공식 근거 URL",
       "완제품 제조국",
       "적용 안전제도"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0133",
-    "category": "구강·치발기",
-    "brand": "모윰",
-    "name": "스윙버드 손목 치발기",
-    "checkedAt": "2026-08-31",
-    "missingFields": [
-      "countryOfManufacture",
-      "safetyKoreaSameModel",
-      "officialEvidence",
-      "exactKcNumber"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "Safety Korea 동일 모델 연결",
-      "동일 제품 공식 근거 URL",
-      "동일 제품 KC 인증번호"
     ],
     "priority": 4
   },
@@ -5194,6 +5138,28 @@
     "priority": 5
   },
   {
+    "id": "MASTER-0050",
+    "category": "수유용품",
+    "brand": "그로미미",
+    "name": "리틀 카카오프렌즈 PPSU 빨대컵 200ml 세트",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
     "id": "MASTER-0062",
     "category": "수유용품",
     "brand": "티지엠",
@@ -5392,6 +5358,28 @@
     "priority": 5
   },
   {
+    "id": "MASTER-0114",
+    "category": "이유식·식기",
+    "brand": "쁘띠누베",
+    "name": "실리콘 멀티큐브 6구",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "regulatoryRegime",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "적용 안전제도",
+      "0~35개월 공식 월령"
+    ],
+    "priority": 5
+  },
+  {
     "id": "MASTER-0117",
     "category": "이유식·식기",
     "brand": "아이냠",
@@ -5410,6 +5398,28 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0133",
+    "category": "구강·치발기",
+    "brand": "모윰",
+    "name": "스윙버드 손목 치발기",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "countryOfManufacture",
+      "safetyKoreaSameModel",
+      "officialEvidence",
+      "exactKcNumber",
+      "currentSale"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "Safety Korea 동일 모델 연결",
+      "동일 제품 공식 근거 URL",
+      "동일 제품 KC 인증번호",
+      "현재 구매 가능한 국내 판매 페이지"
     ],
     "priority": 5
   },
