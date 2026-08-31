@@ -16,7 +16,11 @@ if str(SCRIPTS) not in sys.path:
 
 from initialize_top30_campaign import CATEGORIES, reconcile
 from naver_product_discovery_paced import build_candidate
-from revalidate_staged_candidates import candidate_source_priority, process
+from revalidate_staged_candidates import (
+    candidate_selection_priority,
+    candidate_source_priority,
+    process,
+)
 
 
 def write_json(path: Path, value: object) -> None:
@@ -100,6 +104,24 @@ class Top30CampaignTests(unittest.TestCase):
         self.assertLess(
             candidate_source_priority(independent),
             candidate_source_priority(dynamic),
+        )
+
+    def test_reachable_product_page_beats_blocked_marketplace_and_rotates(self) -> None:
+        reachable = {
+            "id": "DISC-OHOUSE",
+            "officialUrls": ["https://store.ohou.se/goods/2571933"],
+        }
+        blocked = {
+            "id": "DISC-BLOCKED",
+            "officialUrls": ["https://www.coupang.com/vp/products/123"],
+        }
+        self.assertLess(
+            candidate_selection_priority(reachable, 0, 1),
+            candidate_selection_priority(blocked, 0, 0),
+        )
+        self.assertGreater(
+            candidate_selection_priority(reachable, 3, 1),
+            candidate_selection_priority(reachable, 0, 1),
         )
 
     def test_discovery_candidate_persists_naver_rank_basis(self) -> None:

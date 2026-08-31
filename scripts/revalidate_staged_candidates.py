@@ -37,6 +37,9 @@ LOW_VALUE_SOURCE_PARTS = (
     "brand.naver.com", "smartstore.naver.com", "shopping.naver.com",
 )
 HIGH_VALUE_RETAIL_HOST_PARTS = (
+    "store.ohou.se", "ohou.se",
+)
+LOW_REACHABILITY_RETAIL_HOST_PARTS = (
     "11st.co.kr", "coupang.com", "ssg.com", "lotteon.com", "gmarket.co.kr",
     "auction.co.kr",
 )
@@ -121,12 +124,14 @@ def candidate_source_priority(item: dict) -> tuple[int, int, int, int, int, str]
             ranks.append(4)
         elif any(value in host for value in HIGH_VALUE_RETAIL_HOST_PARTS):
             ranks.append(0)
+        elif any(value in host for value in LOW_REACHABILITY_RETAIL_HOST_PARTS):
+            ranks.append(3)
         elif any(value in path for value in (
             "/products/", "/product/", "/goods/", "/item/", "/detail/", "/shopdetail",
         )):
             ranks.append(1)
         else:
-            ranks.append(3)
+            ranks.append(2)
 
     best_source_rank = min(ranks, default=5)
     known_sale_and_age = int(not (
@@ -143,6 +148,22 @@ def candidate_source_priority(item: dict) -> tuple[int, int, int, int, int, str]
         discovery_rank,
         -len(urls),
         str(item.get("id", "")),
+    )
+
+
+def candidate_selection_priority(
+    item: dict, attempt_count: int, original_order: int
+) -> tuple:
+    """Balance reachable source quality with bounded retry rotation."""
+    source = candidate_source_priority(item)
+    attempt_count = max(int(attempt_count or 0), 0)
+    effective_source_rank = source[0] + min(attempt_count, 2)
+    return (
+        effective_source_rank,
+        attempt_count,
+        *source[1:-1],
+        original_order,
+        source[-1],
     )
 
 
@@ -489,11 +510,10 @@ def process(
                 and item["promotionGate"].get("promotionReady") is True
             )
         ]
-        eligible.sort(key=lambda item: (
+        eligible.sort(key=lambda item: candidate_selection_priority(
+            item,
             attempts.get(str(item.get("id", "")), 0),
-            candidate_source_priority(item),
             order.get(str(item.get("id", "")), 10**9),
-            str(item.get("id", "")),
         ))
         batch = eligible[:min(per_category, int(remaining.get(category, 0) or 0))]
         selected.extend(batch)
