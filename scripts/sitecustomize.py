@@ -22,7 +22,7 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
 
         _original_fetch = rr.fetch
 
-        def _single_fetch(url: str, timeout: int = 10) -> tuple[int, str, str]:
+        def _single_fetch(url: str, timeout: int = 8) -> tuple[int, str, str]:
             try:
                 response = rr.SESSION.get(url, timeout=timeout, allow_redirects=True)
                 if response.status_code == 200:
@@ -35,7 +35,7 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
         def bounded_official_fetch(url: str) -> tuple[int, str, str]:
             host = urlparse(url).netloc.lower()
             if "safetykorea.kr" in host or "duckduckgo.com" in host:
-                return _single_fetch(url, timeout=8)
+                return _single_fetch(url, timeout=7)
             return _original_fetch(url)
 
         def _extract_search_results(source: str, engine: str) -> list[tuple[str, str]]:
@@ -72,7 +72,7 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
             return results
 
         def _search_endpoint(engine: str, url: str) -> list[tuple[str, str]]:
-            status, body, _ = _single_fetch(url, timeout=8)
+            status, body, _ = _single_fetch(url, timeout=7)
             if status != 200 or not body:
                 return []
             return _extract_search_results(body, engine)
@@ -104,11 +104,6 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
         rr.fetch = bounded_official_fetch
         rr.ddg_results = fast_search_results
 
-        # run_ultra_parallel.main normally replaces rr.fetch with its own
-        # multi-retry bounded_fetch. Patch that function itself so exact
-        # Safety Korea certificate details fail fast and are retried next cycle
-        # instead of blocking one batch for minutes. Non-official pages keep
-        # the original bounded retry policy.
         import run_ultra_parallel as parallel
 
         _original_parallel_bounded_fetch = parallel.bounded_fetch
@@ -119,11 +114,12 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
                 hit = parallel.cached(url)
                 if hit is not None:
                     return hit
-                result = _single_fetch(url, timeout=8)
+                result = _single_fetch(url, timeout=7)
                 return parallel.store(url, result)
             return _original_parallel_bounded_fetch(url)
 
         parallel.bounded_fetch = fast_parallel_bounded_fetch
-        parallel.MAX_REVALIDATE_WORKERS = 20
+        parallel.PROBE_TIMEOUT = 6
+        parallel.MAX_REVALIDATE_WORKERS = 25
     except Exception as exc:  # fail closed; runtime audit will expose unresolved evidence
         print(f"sitecustomize research patch unavailable: {type(exc).__name__}: {exc}", file=sys.stderr)
