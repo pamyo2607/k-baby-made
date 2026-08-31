@@ -2,6 +2,8 @@ name: Deploy verified K-Baby Made production
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "5,15,25,35,45,55 * * * *"
   push:
     branches: [main]
     paths:
