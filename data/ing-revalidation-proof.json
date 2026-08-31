@@ -6,6 +6,9 @@
   "targetIdsSha256": "12d280a2168448eaa8b911b0e0b4f58b68a21f339b6888701af1c1c210cb9407",
   "attemptedCount": 382,
   "remainingCount": 0,
+  "unattemptedCount": 0,
+  "unresolvedCount": 382,
+  "remainingResolutionCount": 382,
   "resolvedCount": 0,
   "includedCount": 0,
   "pendingCount": 382,
@@ -438,10 +441,11 @@
   "resultsWithErrors": 382,
   "coverageComplete": true,
   "resolutionComplete": false,
+  "coverageVerificationComplete": false,
   "verificationComplete": false,
-  "lastRun": "2026-08-31T14:16:27+00:00",
-  "lastAuditRef": "data/revalidation-audits/20260831T141627Z.json",
-  "lastAuditSha256": "4a698d9acb0c1d94d42e3b86031c786c82b466b15db0712f36a031b9e5df0f7a",
+  "lastRun": "2026-08-31T15:32:39+00:00",
+  "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+  "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b",
   "results": [
     {
       "id": "MASTER-0016",
@@ -7715,59 +7719,63 @@
         "https://fallcent.com/product/2o2P5nYBOb4vWKHt968iszJ50pMCLQDc/",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000524527565&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/2o2P5nYBOb4vWKHt968iszJ50pMCLQDc/",
+      "reason": "2026-08-31 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/2o2P5nYBOb4vWKHt968iszJ50pMCLQDc/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-159",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F55464163520",
+        "https://search.shopping.naver.com/catalog/55464163520",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000409592919&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F55464163520",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-160",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F55464163520",
+        "https://search.shopping.naver.com/catalog/55464163520",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000409591174&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F55464163520",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-161",
@@ -7787,10 +7795,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-163",
@@ -7802,17 +7810,17 @@
         "https://fallcent.com/product/JASchtchxCSGuipfZDLYKz0894vsNRld/",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/JASchtchxCSGuipfZDLYKz0894vsNRld/",
+      "reason": "2026-08-31 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/JASchtchxCSGuipfZDLYKz0894vsNRld/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-165",
@@ -7832,10 +7840,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-166",
@@ -7853,10 +7861,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-167",
@@ -7874,10 +7882,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-168",
@@ -7895,10 +7903,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-170",
@@ -7911,17 +7919,17 @@
         "https://www.safetykorea.kr/release/certSearch",
         "https://okmalls.github.io/posts/%EC%95%84%EA%B8%B0%EC%B2%B4%EC%9C%A1%EA%B4%80-%ED%95%98%EB%8A%98%EC%8D%AC%EB%B3%84-%ED%86%A0%EB%81%BC-%EB%B0%9C%EC%B0%A8%EA%B8%B0-%ED%94%BC%EC%95%84%EB%85%B8-%EB%A9%9C%EB%A1%9C%EB%94%94-%EC%9C%84%EC%B9%98%EC%A1%B0%EC%A0%88-%EC%95%84%EA%B8%B0-%EC%B2%B4%EC%9C%A1/"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/OpgVjRmGpYIkNlf26UZMRna1TJ5LAFuH/",
+      "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/OpgVjRmGpYIkNlf26UZMRna1TJ5LAFuH/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-171",
@@ -7940,10 +7948,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-172",
@@ -7961,10 +7969,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-173",
@@ -7983,10 +7991,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-176",
@@ -7998,17 +8006,17 @@
         "https://search.danawa.com/dsearch.php?query=%EA%B1%B8%EC%9D%8C%EB%A7%88+%EB%B6%95%EB%B6%95%EC%B9%B4",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000768000882&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://search.danawa.com/dsearch.php?query=%EA%B1%B8%EC%9D%8C%EB%A7%88+%EB%B6%95%EB%B6%95%EC%B9%B4",
+      "reason": "2026-08-31 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://search.danawa.com/dsearch.php?query=%EA%B1%B8%EC%9D%8C%EB%A7%88+%EB%B6%95%EB%B6%95%EC%B9%B4",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-177",
@@ -8017,21 +8025,21 @@
       "checked": true,
       "changed": true,
       "directEvidenceUrls": [
+        "https://prod.danawa.com/info/?pcode=26615174",
         "https://www.enuri.com/detail.jsp?modelno=45038645",
-        "https://emart.ssg.com/item/itemView.ssg?itemId=1000432592682&siteNo=6001&salestrNo=6005",
-        "https://prod.danawa.com/info/?pcode=26615174"
+        "https://emart.ssg.com/item/itemView.ssg?itemId=1000432592682&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=45038645",
+      "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=26615174",
       "errors": [
-        "sale_inactive"
+        "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-178",
@@ -8049,10 +8057,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-179",
@@ -8070,10 +8078,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-180",
@@ -8091,10 +8099,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-183",
@@ -8103,22 +8111,22 @@
       "checked": true,
       "changed": true,
       "directEvidenceUrls": [
+        "https://m.danawa.com/product/product.html?code=21330689",
         "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=6560943",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000553278635&siteNo=6001&salestrNo=6005",
-        "https://m.danawa.com/product/product.html?code=21330689",
         "https://prod.danawa.com/info/?pcode=25072082"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=6560943",
+      "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.danawa.com/product/product.html?code=21330689",
       "errors": [
-        "sale_inactive"
+        "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-184",
@@ -8136,10 +8144,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-185",
@@ -8151,17 +8159,17 @@
         "https://www.wrapuppro.com/partner/view/srch_Hh6Z6fSczyNqCN1",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000624864151&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-08-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.wrapuppro.com/partner/view/srch_Hh6Z6fSczyNqCN1",
+      "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.wrapuppro.com/partner/view/srch_Hh6Z6fSczyNqCN1",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-187",
@@ -8179,31 +8187,33 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-190",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91281648740",
+        "https://search.shopping.naver.com/catalog/91281648740",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000818857737&siteNo=6001&salestrNo=2037"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91281648740",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-192",
@@ -8221,10 +8231,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-194",
@@ -8242,10 +8252,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-195",
@@ -8263,10 +8273,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142607Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142607Z.json",
-      "lastAuditSha256": "032385bca3795e6445f67d360072aec74b6e266e10fc79956cb57e6875888326"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-197",
@@ -8284,10 +8294,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-198",
@@ -8305,31 +8315,33 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "TOY-20260729-199",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F89905456477",
+        "https://search.shopping.naver.com/catalog/89905456477",
         "https://papachart.com/?page_id=53&board_page=17&vid=19264"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 동일 제품과 직접 연결된 공식 제조국 또는 정제된 36개월 이상 연령 근거가 부족해 보류를 유지함.",
+      "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F89905456477",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0039",
@@ -8345,10 +8357,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0047",
@@ -8364,10 +8376,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0068",
@@ -8383,10 +8395,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0080",
@@ -8402,10 +8414,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0084",
@@ -8421,10 +8433,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0088",
@@ -8440,10 +8452,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0102",
@@ -8459,10 +8471,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0104",
@@ -8478,10 +8490,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0109",
@@ -8497,10 +8509,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0116",
@@ -8516,10 +8528,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0138",
@@ -8534,17 +8546,17 @@
         "https://angemom.com/",
         "https://www.kurly.com/goods/1001396453"
       ],
-      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
+      "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142829Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
-      "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0140",
@@ -8559,17 +8571,17 @@
         "https://www.youtube.com/shorts/Rl6x48an6sQ",
         "https://mom-mom.net/shop/showcases/69def9a4369b9ea8572e78f5"
       ],
-      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.roochas.co.kr/product/fae89fe4-d2db-492b-890c-66f8e4b190ca",
+      "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.roochas.co.kr/product/fae89fe4-d2db-492b-890c-66f8e4b190ca",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142829Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
-      "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0152",
@@ -8581,17 +8593,17 @@
         "https://naturaorganic.co.kr/product/list.html?cate_no=50",
         "https://naturaorganic.co.kr/"
       ],
-      "reason": "2026-08-24 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://naturaorganic.co.kr/product/list.html?cate_no=50",
+      "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://naturaorganic.co.kr/product/list.html?cate_no=50",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142829Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
-      "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0159",
@@ -8607,10 +8619,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0161",
@@ -8626,10 +8638,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0165",
@@ -8640,17 +8652,17 @@
       "directEvidenceUrls": [
         "https://www.kurly.com/goods/1001196694"
       ],
-      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001196694",
+      "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001196694",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142829Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
-      "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0169",
@@ -8673,10 +8685,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142829Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
-      "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0173",
@@ -8692,10 +8704,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0181",
@@ -8711,10 +8723,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0183",
@@ -8730,10 +8742,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T143755Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T143755Z.json",
-      "lastAuditSha256": "3ae93cd7c1e24604b4852ae647b995e6a9a0435eda858b701632dee044b8dc3b"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0198",
@@ -8751,17 +8763,17 @@
         "https://m.blog.naver.com/jiyeonee__/224151167982",
         "https://m.blog.naver.com/js2020kim/224151331598"
       ],
-      "reason": "2026-08-24 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://motherkmall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EA%B3%A0%EB%A6%AC%EC%84%B8%ED%8A%B86p/1798/",
+      "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://motherkmall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EA%B3%A0%EB%A6%AC%EC%84%B8%ED%8A%B86p/1798/",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-08-24",
+      "checkedAt": "2026-08-31",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260824T142829Z.json"
+        "data/revalidation-audits/20260831T153239Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260824T142829Z.json",
-      "lastAuditSha256": "8b295a2b5ef913dc8ff6faa5f61f8fd4a85082df04b2c81d90d21dc99993a041"
+      "lastAuditRef": "data/revalidation-audits/20260831T153239Z.json",
+      "lastAuditSha256": "f86e90393ab6d222b7f3e51520cc005a3f6a70927beded697bdc788cdc37f25b"
     },
     {
       "id": "MASTER-0199",
@@ -9413,9 +9425,5 @@
       "lastAuditRef": "data/revalidation-audits/20260824T143904Z.json",
       "lastAuditSha256": "2d0defb2ff6c8312a145c243072d3b12e54eeae64373f32610d523d8950bca7f"
     }
-  ],
-  "unattemptedCount": 0,
-  "unresolvedCount": 382,
-  "remainingResolutionCount": 382,
-  "coverageVerificationComplete": false
+  ]
 }

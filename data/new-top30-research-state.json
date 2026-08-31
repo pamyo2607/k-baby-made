@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "20260831-top30-per-category",
+  "lastRun": "2026-08-31T15:42:38+00:00",
+  "waveIndex": 1,
+  "auditRef": "data/new-product-audits/20260831T154238Z-wave-001.json",
+  "auditSha256": "88f1582d9aabe30d890fc8108c3cbbc6a78bf59e73cf6fcb95a735c75533715f",
+  "selectedCandidateIdsByCategory": {
+    "완구": [
+      "DISC-0D652C02C2BE",
+      "DISC-0FFC909E7DD0",
+      "DISC-32075DE21B0B",
+      "DISC-3DA88049BA91",
+      "DISC-F378DA55AA82"
+    ],
+    "구강·치발기": [
+      "DISC-14FC380C0F27",
+      "DISC-670F568AA816",
+      "DISC-978644AD6BA9",
+      "DISC-DB55E60DC029",
+      "DISC-E49EFB3625E2"
+    ],
+    "턱받이": [
+      "DISC-2A7644143A7C",
+      "DISC-7E6546C39E44",
+      "DISC-ACD83134A82E",
+      "DISC-B3B5900EA15C",
+      "DISC-E10FCE42B806"
+    ],
+    "수유용품": [
+      "DISC-0802D153E489",
+      "DISC-2883C4D2DA8E",
+      "DISC-84E5AFD80504",
+      "DISC-AA5EAB567D2F",
+      "DISC-DB8036571FA3"
+    ],
+    "이유식·식기": [
+      "DISC-54435E7EE8EE",
+      "DISC-905C4994F81D",
+      "DISC-F0DAC70BB0D5",
+      "DISC-63C4F8BFA558",
+      "DISC-A8214A2DB2FD"
+    ],
+    "위생·기저귀": [
+      "DISC-58552710EFE2",
+      "DISC-5B11B842246D",
+      "DISC-BE9A49B040A1",
+      "DISC-F9DB747C3093",
+      "DISC-FD96D5EECEDD"
+    ]
+  },
+  "selectedCount": 30,
+  "promotionReadyCandidateIds": [],
+  "promotionReadyCount": 0,
+  "attemptsById": {
+    "DISC-0802D153E489": 1,
+    "DISC-0D652C02C2BE": 1,
+    "DISC-0FFC909E7DD0": 1,
+    "DISC-14FC380C0F27": 1,
+    "DISC-2883C4D2DA8E": 1,
+    "DISC-2A7644143A7C": 1,
+    "DISC-32075DE21B0B": 1,
+    "DISC-3DA88049BA91": 1,
+    "DISC-54435E7EE8EE": 1,
+    "DISC-58552710EFE2": 1,
+    "DISC-5B11B842246D": 1,
+    "DISC-63C4F8BFA558": 1,
+    "DISC-670F568AA816": 1,
+    "DISC-7E6546C39E44": 1,
+    "DISC-84E5AFD80504": 1,
+    "DISC-905C4994F81D": 1,
+    "DISC-978644AD6BA9": 1,
+    "DISC-A8214A2DB2FD": 1,
+    "DISC-AA5EAB567D2F": 1,
+    "DISC-ACD83134A82E": 1,
+    "DISC-B3B5900EA15C": 1,
+    "DISC-BE9A49B040A1": 1,
+    "DISC-DB55E60DC029": 1,
+    "DISC-DB8036571FA3": 1,
+    "DISC-E10FCE42B806": 1,
+    "DISC-E49EFB3625E2": 1,
+    "DISC-F0DAC70BB0D5": 1,
+    "DISC-F378DA55AA82": 1,
+    "DISC-F9DB747C3093": 1,
+    "DISC-FD96D5EECEDD": 1
+  },
+  "results": [
+    {
+      "candidateId": "DISC-0D652C02C2BE",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://conyhub.kr/products/173916/"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-0FFC909E7DD0",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://itemscout.io/register/sourcing/1688/product/555964486835"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-32075DE21B0B",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/gift/products/13412276861"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-3DA88049BA91",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/gift/products/310591628"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-F378DA55AA82",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://itemscout.io/register/sourcing/1688/product/717918717836"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-14FC380C0F27",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F81372268645"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-670F568AA816",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://babynimall.co.kr/front/html/block_state.html"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-978644AD6BA9",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://www.nstoreprice.co.kr/products/baby-silicone-teether-strap-10102776508"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-DB55E60DC029",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "age_basis"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/logistics/products/8322339918"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-E49EFB3625E2",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://www.nstoreprice.co.kr/products/baby-teething-toy-silicone-brush-set-2172260653"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-2A7644143A7C",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-7E6546C39E44",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-ACD83134A82E",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-B3B5900EA15C",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-E10FCE42B806",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-0802D153E489",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-2883C4D2DA8E",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/gift/products/12488003296"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-84E5AFD80504",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-AA5EAB567D2F",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-DB8036571FA3",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/logistics/products/9946290177"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-54435E7EE8EE",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-905C4994F81D",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-F0DAC70BB0D5",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-63C4F8BFA558",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/logistics/products/6364682441"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-A8214A2DB2FD",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [
+        "https://shopping.naver.com/gift/products/3069592751"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-58552710EFE2",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-5B11B842246D",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-BE9A49B040A1",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-F9DB747C3093",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-FD96D5EECEDD",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 1,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    }
+  ],
+  "categoryTargets": {
+    "완구": 30,
+    "구강·치발기": 30,
+    "턱받이": 30,
+    "수유용품": 30,
+    "이유식·식기": 30,
+    "위생·기저귀": 30
+  },
+  "categoryRemainingBeforeRun": {
+    "완구": 30,
+    "구강·치발기": 30,
+    "턱받이": 30,
+    "수유용품": 30,
+    "이유식·식기": 30,
+    "위생·기저귀": 30
+  },
+  "stagingCount": 538
+}
