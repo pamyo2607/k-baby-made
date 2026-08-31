@@ -1,11 +1,11 @@
 name: K-Baby Made fast rescue research
 
-# Active rescue lane uses bounded evidence probes on a five-minute cumulative cadence.
+# Active rescue lane uses bounded evidence probes on a ten-minute cumulative cadence.
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/10 * * * *"
   push:
     branches: [main]
     paths:
