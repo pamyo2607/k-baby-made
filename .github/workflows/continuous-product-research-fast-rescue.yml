@@ -1,0 +1,104 @@
+name: K-Baby Made fast rescue research
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "fast-research-trigger.txt"
+      - ".github/workflows/continuous-product-research-fast-rescue.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: k-baby-made-fast-rescue
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      KBABY_QUALITY_MODE: ultra
+      KBABY_PENDING_LIMIT: "50"
+      KBABY_NEW_CANDIDATE_LIMIT: "30"
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout latest cumulative database
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Check shared manual research lock
+        id: manual_lock
+        run: python3 scripts/check_manual_research_lock.py
+
+      - name: Set up Python
+        if: steps.manual_lock.outputs.locked == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install research dependencies
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Reconcile cumulative database
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/bootstrap_from_sheet.py
+
+      - name: Revalidate unresolved products and discover exact candidates
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/run_ultra_naver.py
+
+      - name: Sanitize candidates
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/sanitize_naver_candidates.py
+
+      - name: Verify effective progress
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/verify_research_effectiveness.py
+
+      - name: Persist immutable campaign audit
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/update_ing_revalidation_campaign.py
+
+      - name: Normalize legitimate retry proof
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/normalize_ing_retry_proof.py
+
+      - name: Enforce research limits
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/enforce_research_targets.py
+
+      - name: Enforce ultra-quality inclusion gate
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/enforce_ultra_quality.py
+
+      - name: Rebuild and run complete repository checks
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: npm run check
+
+      - name: Final ultra-quality verification
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/verify_ultra_quality.py
+
+      - name: Commit only verified cumulative progress
+        if: steps.manual_lock.outputs.locked == 'false'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "k-baby-made-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data public fallback-products.json kbaby-data.js meta.json health.json
+          if git diff --cached --quiet; then
+            echo "No verified cumulative changes"
+            exit 0
+          fi
+          git commit -m "data: persist verified fast-rescue research progress"
+          git pull --rebase origin main
+          git push origin main
