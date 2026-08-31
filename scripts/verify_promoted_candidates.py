@@ -196,6 +196,40 @@ def main() -> None:
     remaining = target - len(final_ids)
     if checkpoint.get("remainingToTarget", checkpoint.get("newRemaining")) != remaining:
         raise PromotionError("checkpoint remaining count is inconsistent")
+    category_counts = Counter(str(by_id[value].get("category", "")) for value in final_ids)
+    category_targets = checkpoint.get("categoryTargets")
+    category_remaining: dict[str, int] | None = None
+    if category_targets is not None:
+        if not isinstance(category_targets, dict):
+            raise PromotionError("checkpoint categoryTargets must be an object")
+        normalized_targets: dict[str, int] = {}
+        for category, raw in category_targets.items():
+            try:
+                value = int(raw)
+            except (TypeError, ValueError) as exc:
+                raise PromotionError(f"invalid category target for {category}") from exc
+            if value <= 0:
+                raise PromotionError(f"category target must be positive for {category}")
+            normalized_targets[str(category)] = value
+        if sum(normalized_targets.values()) != target:
+            raise PromotionError("categoryTargets total differs from campaign target")
+        if any(category not in normalized_targets for category in category_counts):
+            raise PromotionError("promoted product has no category target")
+        category_remaining = {
+            category: normalized_targets[category] - category_counts[category]
+            for category in sorted(normalized_targets)
+        }
+        if any(value < 0 for value in category_remaining.values()):
+            raise PromotionError("a category promotion target was exceeded")
+        expected_counts = {
+            category: category_counts[category] for category in sorted(normalized_targets)
+        }
+        if checkpoint.get("categoryPromotedCounts") != expected_counts:
+            raise PromotionError("checkpoint category promotion counts are inconsistent")
+        if checkpoint.get("categoryRemaining") != category_remaining:
+            raise PromotionError("checkpoint category remaining counts are inconsistent")
+        if sum(category_remaining.values()) != remaining:
+            raise PromotionError("category remaining total differs from campaign remaining")
     if args.require_target and (len(final_ids) != target or remaining != 0):
         raise PromotionError(
             f"campaign target is incomplete: {len(final_ids)}/{target}, remaining {remaining}"
@@ -221,7 +255,8 @@ def main() -> None:
         "currentActive": len(canonical),
         "deletedExistingDuplicatesAfterBaseline": deleted_after_baseline,
         "waveCounts": dict(sorted(Counter(int(item.get("waveIndex")) for item in entries).items())),
-        "categoryCounts": dict(sorted(Counter(by_id[value].get("category") for value in final_ids).items())),
+        "categoryCounts": dict(sorted(category_counts.items())),
+        "categoryRemaining": category_remaining,
         "canonicalSha256": file_sha(args.canonical),
         "stagingSha256": file_sha(args.staging),
         "ledgerSha256": file_sha(args.ledger),

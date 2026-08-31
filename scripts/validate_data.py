@@ -336,7 +336,7 @@ def main() -> None:
         active_duplicate_records = sum(
             bool(item.get("duplicateOf")) for item in products
         )
-        expected_verification_complete = (
+        expected_coverage_verification_complete = (
             expected_coverage_complete
             and not missing_final_decision_ids
             and not missing_reason_ids
@@ -345,6 +345,10 @@ def main() -> None:
             and not duplicate_processing_ids
             and active_duplicate_records == 0
         )
+        expected_verification_complete = (
+            expected_resolution_complete
+            and expected_coverage_verification_complete
+        )
         if any(ing_proof.get(key) != value for key, value in {
             "campaignId": campaign.get("campaignId"),
             "cycleRunId": campaign.get("cycleRunId"),
@@ -352,6 +356,9 @@ def main() -> None:
             "targetIdsSha256": target_sha,
             "attemptedCount": len(attempted_ids),
             "remainingCount": len(remaining_ids),
+            "unattemptedCount": len(remaining_ids),
+            "unresolvedCount": len(unresolved_ids),
+            "remainingResolutionCount": len(unresolved_ids),
             "resolvedCount": len(target_ids) - len(unresolved_ids),
             "includedCount": status_counts["포함"],
             "pendingCount": status_counts["보류"],
@@ -370,12 +377,18 @@ def main() -> None:
             "resultsWithErrors": sum(bool(item.get("errors")) for item in result_rows),
             "coverageComplete": expected_coverage_complete,
             "resolutionComplete": expected_resolution_complete,
+            "coverageVerificationComplete": expected_coverage_verification_complete,
             "verificationComplete": expected_verification_complete,
         }.items()):
             errors.append("ING campaign proof summary mismatch")
         if (
-            campaign.get("coverageComplete") != expected_coverage_complete
+            campaign.get("unattemptedCount") != len(remaining_ids)
+            or campaign.get("unresolvedCount") != len(unresolved_ids)
+            or campaign.get("remainingResolutionCount") != len(unresolved_ids)
+            or campaign.get("coverageComplete") != expected_coverage_complete
             or campaign.get("resolutionComplete") != expected_resolution_complete
+            or campaign.get("coverageVerificationComplete")
+            != expected_coverage_verification_complete
             or campaign.get("verificationComplete") != expected_verification_complete
             or campaign.get("lastAuditRef") != ing_proof.get("lastAuditRef")
             or campaign.get("lastAuditSha256") != ing_proof.get("lastAuditSha256")

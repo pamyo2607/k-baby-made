@@ -848,6 +848,54 @@ def main() -> None:
         )
     prospective_checkpoint["promotedIncludedCanonicalIds"] = all_campaign_ids
     prospective_checkpoint["remainingToTarget"] = target - len(all_campaign_ids)
+    category_targets = prospective_checkpoint.get("categoryTargets")
+    if category_targets is not None:
+        if (
+            not isinstance(category_targets, dict)
+            or set(category_targets) != ALLOWED_CATEGORIES
+        ):
+            raise PromotionError("categoryTargets must contain the six canonical categories")
+        normalized_targets: dict[str, int] = {}
+        for category in ALLOWED_CATEGORIES:
+            try:
+                value = int(category_targets[category])
+            except (TypeError, ValueError) as exc:
+                raise PromotionError(f"invalid category target for {category}") from exc
+            if value <= 0:
+                raise PromotionError(f"category target must be positive for {category}")
+            normalized_targets[category] = value
+        if sum(normalized_targets.values()) != target:
+            raise PromotionError("categoryTargets total differs from campaign target")
+        prospective_by_id = {
+            str(item.get("id", "")): item for item in prospective_canonical
+        }
+        category_counts = Counter(
+            str(prospective_by_id[value].get("category", ""))
+            for value in all_campaign_ids
+            if value in prospective_by_id
+        )
+        over_target = {
+            category: category_counts[category]
+            for category in ALLOWED_CATEGORIES
+            if category_counts[category] > normalized_targets[category]
+        }
+        if over_target:
+            raise PromotionError(f"category campaign target exceeded: {over_target}")
+        category_remaining = {
+            category: normalized_targets[category] - category_counts[category]
+            for category in sorted(ALLOWED_CATEGORIES)
+        }
+        prospective_checkpoint["categoryPromotedCounts"] = {
+            category: category_counts[category]
+            for category in sorted(ALLOWED_CATEGORIES)
+        }
+        prospective_checkpoint["categoryRemaining"] = category_remaining
+        prospective_checkpoint["remainingToTarget"] = sum(category_remaining.values())
+        prospective_checkpoint["status"] = (
+            "verified-complete"
+            if not any(category_remaining.values())
+            else "in-progress"
+        )
     if "newRemaining" in prospective_checkpoint or "newCycleTarget" in prospective_checkpoint:
         prospective_checkpoint["newRemaining"] = target - len(all_campaign_ids)
     prospective_checkpoint["waveIndex"] = max(int(checkpoint.get("waveIndex", 0)), wave)

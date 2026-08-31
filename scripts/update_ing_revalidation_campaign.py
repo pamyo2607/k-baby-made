@@ -274,7 +274,7 @@ def update(root: Path) -> dict:
         item["id"] for item in ordered_results
         if int(item.get("attemptCount", 0) or 0) > 1
     ]
-    verification_complete = (
+    coverage_verification_complete = (
         coverage_complete
         and not missing_final_decision_ids
         and not missing_reason_ids
@@ -283,6 +283,12 @@ def update(root: Path) -> dict:
         and not duplicate_processing_ids
         and active_duplicate_records == 0
     )
+    # ``coverageComplete`` only proves that every target was attempted at
+    # least once.  The user-facing campaign must never report full
+    # verification while any target is still pending.  Keep the coverage
+    # proof as a separate diagnostic and reserve ``verificationComplete`` for
+    # a fully resolved campaign.
+    verification_complete = resolution_complete and coverage_verification_complete
     completed_batch_count = len({
         ref for item in ordered_results for ref in item.get("auditRefs", [])
     })
@@ -298,8 +304,12 @@ def update(root: Path) -> dict:
         "completedBatchCount": completed_batch_count,
         "batchIndex": completed_batch_count + 1,
         "cursorNext": int(state.get("pendingCursorNext", 0) or 0),
+        "unattemptedCount": len(remaining_ids),
+        "unresolvedCount": len(unresolved_ids),
+        "remainingResolutionCount": len(unresolved_ids),
         "coverageComplete": coverage_complete,
         "resolutionComplete": resolution_complete,
+        "coverageVerificationComplete": coverage_verification_complete,
         "verificationComplete": verification_complete,
         "status": (
             "verified-complete"
@@ -319,6 +329,9 @@ def update(root: Path) -> dict:
         "targetIdsSha256": sha256_bytes(document_bytes(target_ids)),
         "attemptedCount": len(attempted_ids),
         "remainingCount": len(remaining_ids),
+        "unattemptedCount": len(remaining_ids),
+        "unresolvedCount": len(unresolved_ids),
+        "remainingResolutionCount": len(unresolved_ids),
         "resolvedCount": len(target_ids) - len(unresolved_ids),
         "includedCount": final_counts["포함"],
         "pendingCount": final_counts["보류"],
@@ -339,6 +352,7 @@ def update(root: Path) -> dict:
         "resultsWithErrors": sum(bool(item.get("errors")) for item in ordered_results),
         "coverageComplete": coverage_complete,
         "resolutionComplete": resolution_complete,
+        "coverageVerificationComplete": coverage_verification_complete,
         "verificationComplete": verification_complete,
         "lastRun": run_at,
         "lastAuditRef": audit_ref,
@@ -357,6 +371,9 @@ def update(root: Path) -> dict:
         "targetCount": proof["targetCount"],
         "attemptedCount": proof["attemptedCount"],
         "remainingCount": proof["remainingCount"],
+        "unattemptedCount": proof["unattemptedCount"],
+        "unresolvedCount": proof["unresolvedCount"],
+        "remainingResolutionCount": proof["remainingResolutionCount"],
         "resolvedCount": proof["resolvedCount"],
         "includedCount": proof["includedCount"],
         "pendingCount": proof["pendingCount"],

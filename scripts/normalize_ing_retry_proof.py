@@ -124,7 +124,7 @@ def main() -> None:
         for item in results if isinstance(item, dict)
     )
 
-    verification_complete = (
+    coverage_verification_complete = (
         bool(proof.get("coverageComplete"))
         and not missing_final_decision_ids
         and not missing_reason_ids
@@ -132,7 +132,22 @@ def main() -> None:
         and not missing_audit_ids
         and int(proof.get("activeDuplicateRecords", 0) or 0) == 0
     )
+    verification_complete = (
+        bool(proof.get("resolutionComplete"))
+        and coverage_verification_complete
+    )
+    unresolved_ids = [
+        str(value) for value in proof.get("unresolvedIds", []) if str(value)
+    ]
+    proof["unattemptedCount"] = int(proof.get("remainingCount", 0) or 0)
+    proof["unresolvedCount"] = len(unresolved_ids)
+    proof["remainingResolutionCount"] = len(unresolved_ids)
+    proof["coverageVerificationComplete"] = coverage_verification_complete
     proof["verificationComplete"] = verification_complete
+    campaign["unattemptedCount"] = proof["unattemptedCount"]
+    campaign["unresolvedCount"] = len(unresolved_ids)
+    campaign["remainingResolutionCount"] = len(unresolved_ids)
+    campaign["coverageVerificationComplete"] = coverage_verification_complete
     campaign["verificationComplete"] = verification_complete
     campaign["status"] = (
         "verified-complete"
@@ -157,6 +172,7 @@ def main() -> None:
         "results": len(results),
         "retryHistoryRows": len(history_rows),
         "duplicateProcessingCount": 0,
+        "unresolvedCount": len(unresolved_ids),
         "verificationComplete": verification_complete,
         "resolutionComplete": bool(proof.get("resolutionComplete")),
     }, ensure_ascii=False))

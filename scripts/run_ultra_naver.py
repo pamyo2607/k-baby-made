@@ -630,11 +630,25 @@ def normalize_schedule_metadata() -> None:
         pipeline.rr.AUDIT.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-naver.resolve_product_url = resolve_product_url
-naver.title_matches = strict_title_matches
-naver.infer_brand = infer_brand
-pipeline.safe_revalidate = revalidate
-pipeline.safe_discover = discover
-pipeline.select_pending_batch = select_pending_batch
-pipeline.main()
-normalize_schedule_metadata()
+def configure_pipeline() -> None:
+    """Install the strict adapters without starting a canonical research run.
+
+    Keeping configuration separate lets the staging-candidate worker reuse the
+    exact same evidence gate.  Importing this module must never mutate data.
+    """
+    naver.resolve_product_url = resolve_product_url
+    naver.title_matches = strict_title_matches
+    naver.infer_brand = infer_brand
+    pipeline.safe_revalidate = revalidate
+    pipeline.safe_discover = discover
+    pipeline.select_pending_batch = select_pending_batch
+
+
+def main() -> None:
+    configure_pipeline()
+    pipeline.main()
+    normalize_schedule_metadata()
+
+
+if __name__ == "__main__":
+    main()

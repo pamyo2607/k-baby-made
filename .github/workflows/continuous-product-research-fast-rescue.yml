@@ -13,8 +13,8 @@ permissions:
   actions: read
 
 concurrency:
-  group: k-baby-made-fast-rescue-v2
-  cancel-in-progress: true
+  group: k-baby-made-research-v3
+  cancel-in-progress: false
 
 jobs:
   research:
@@ -74,6 +74,18 @@ jobs:
       - name: Enforce research limits
         if: steps.manual_lock.outputs.locked == 'false'
         run: python scripts/enforce_research_targets.py
+
+      - name: Reconcile cumulative 30-per-category campaign
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/initialize_top30_campaign.py
+
+      - name: Revalidate staged top candidates across all six categories
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/revalidate_staged_candidates.py
+
+      - name: Promote only evidence-complete top candidates
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python scripts/promote_current_top30_wave.py
 
       - name: Enforce ultra-quality inclusion gate
         if: steps.manual_lock.outputs.locked == 'false'
