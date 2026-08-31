@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-08-31T13:22:06+00:00",
+    "lastRun": "2026-08-31T13:24:12+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-unresolved-retry",
@@ -20,115 +20,109 @@
     "categoryIndex": 0,
     "pendingAvailableBeforeRun": 382,
     "canonicalPendingBeforeRun": 382,
-    "pendingCursorStart": 0,
-    "pendingCursorNext": 50,
+    "pendingCursorStart": 50,
+    "pendingCursorNext": 100,
     "pendingSelected": 50,
     "pendingSelectedIds": [
-      "MASTER-0016",
-      "MASTER-0026",
-      "MASTER-0028",
-      "MASTER-0032",
-      "MASTER-0038",
-      "MASTER-0054",
-      "MASTER-0071",
-      "MASTER-0072",
-      "MASTER-0073",
-      "TEETHER-20260801-013",
-      "MASTER-0001",
-      "MASTER-0002",
-      "MASTER-0003",
-      "MASTER-0004",
-      "MASTER-0005",
-      "MASTER-0006",
-      "MASTER-0008",
-      "MASTER-0011",
-      "MASTER-0012",
-      "MASTER-0013",
-      "MASTER-0014",
-      "MASTER-0017",
-      "MASTER-0018",
-      "MASTER-0019",
-      "MASTER-0020",
-      "MASTER-0021",
-      "MASTER-0023",
-      "MASTER-0031",
-      "MASTER-0035",
-      "MASTER-0037",
-      "MASTER-0040",
-      "MASTER-0042",
-      "MASTER-0044",
-      "MASTER-0046",
-      "MASTER-0048",
-      "MASTER-0049",
-      "MASTER-0051",
-      "MASTER-0052",
-      "MASTER-0053",
-      "MASTER-0056",
-      "MASTER-0058",
-      "MASTER-0060",
-      "MASTER-0061",
-      "MASTER-0063",
-      "MASTER-0064",
-      "MASTER-0065",
-      "MASTER-0066",
-      "MASTER-0069",
-      "MASTER-0077",
-      "MASTER-0082"
+      "MASTER-0083",
+      "MASTER-0089",
+      "MASTER-0091",
+      "MASTER-0093",
+      "MASTER-0099",
+      "MASTER-0110",
+      "MASTER-0111",
+      "MASTER-0115",
+      "MASTER-0119",
+      "MASTER-0120",
+      "MASTER-0121",
+      "MASTER-0123",
+      "MASTER-0124",
+      "MASTER-0125",
+      "MASTER-0126",
+      "MASTER-0131",
+      "MASTER-0132",
+      "MASTER-0141",
+      "MASTER-0142",
+      "MASTER-0143",
+      "MASTER-0144",
+      "MASTER-0146",
+      "MASTER-0148",
+      "MASTER-0153",
+      "MASTER-0160",
+      "MASTER-0172",
+      "MASTER-0178",
+      "MASTER-0180",
+      "MASTER-0186",
+      "MASTER-0190",
+      "MASTER-0197",
+      "RUN18-015",
+      "TEETHER-20260801-001",
+      "TEETHER-20260801-006",
+      "TEETHER-20260801-007",
+      "TEETHER-20260801-017",
+      "TEETHER-20260801-025",
+      "TEETHER-20260801-030",
+      "TOY-20260729-006",
+      "TOY-20260729-010",
+      "TOY-20260729-033",
+      "TOY-20260729-034",
+      "TOY-20260729-035",
+      "MASTER-0007",
+      "MASTER-0010",
+      "MASTER-0015",
+      "MASTER-0022",
+      "MASTER-0024",
+      "MASTER-0025",
+      "MASTER-0027"
     ],
     "revalidationAttempts": 50,
-    "revalidationCompleted": 47,
+    "revalidationCompleted": 41,
     "successfulRevalidations": 0,
     "effectiveRevalidations": 0,
     "revalidationErrorCount": 50,
-    "recordsChangedThisRun": 47,
+    "recordsChangedThisRun": 41,
     "recordsChangedIds": [
-      "MASTER-0016",
-      "MASTER-0026",
-      "MASTER-0028",
-      "MASTER-0032",
-      "MASTER-0038",
-      "MASTER-0071",
-      "MASTER-0072",
-      "MASTER-0073",
-      "TEETHER-20260801-013",
-      "MASTER-0001",
-      "MASTER-0002",
-      "MASTER-0003",
-      "MASTER-0004",
-      "MASTER-0005",
-      "MASTER-0006",
-      "MASTER-0008",
-      "MASTER-0011",
-      "MASTER-0012",
-      "MASTER-0013",
-      "MASTER-0014",
-      "MASTER-0017",
-      "MASTER-0018",
-      "MASTER-0019",
-      "MASTER-0020",
-      "MASTER-0021",
-      "MASTER-0023",
-      "MASTER-0035",
-      "MASTER-0037",
-      "MASTER-0040",
-      "MASTER-0042",
-      "MASTER-0044",
-      "MASTER-0046",
-      "MASTER-0048",
-      "MASTER-0049",
-      "MASTER-0051",
-      "MASTER-0052",
-      "MASTER-0053",
-      "MASTER-0056",
-      "MASTER-0058",
-      "MASTER-0060",
-      "MASTER-0061",
-      "MASTER-0063",
-      "MASTER-0064",
-      "MASTER-0065",
-      "MASTER-0066",
-      "MASTER-0077",
-      "MASTER-0082"
+      "MASTER-0083",
+      "MASTER-0089",
+      "MASTER-0091",
+      "MASTER-0093",
+      "MASTER-0111",
+      "MASTER-0115",
+      "MASTER-0119",
+      "MASTER-0120",
+      "MASTER-0121",
+      "MASTER-0123",
+      "MASTER-0124",
+      "MASTER-0126",
+      "MASTER-0131",
+      "MASTER-0141",
+      "MASTER-0142",
+      "MASTER-0143",
+      "MASTER-0144",
+      "MASTER-0146",
+      "MASTER-0148",
+      "MASTER-0153",
+      "MASTER-0160",
+      "MASTER-0172",
+      "MASTER-0180",
+      "MASTER-0186",
+      "MASTER-0190",
+      "MASTER-0197",
+      "RUN18-015",
+      "TEETHER-20260801-001",
+      "TEETHER-20260801-006",
+      "TEETHER-20260801-007",
+      "TEETHER-20260801-017",
+      "TEETHER-20260801-025",
+      "TEETHER-20260801-030",
+      "TOY-20260729-006",
+      "TOY-20260729-010",
+      "TOY-20260729-033",
+      "TOY-20260729-034",
+      "TOY-20260729-035",
+      "MASTER-0015",
+      "MASTER-0025",
+      "MASTER-0027"
     ],
     "statusTransitionsThisRun": {},
     "researchOutcome": "partial-evidence-only",
@@ -136,106 +130,58 @@
     "includedTotalAfterRun": 21,
     "rawCandidatesFoundThisRun": 30,
     "rawNewCandidates": 30,
-    "newCandidatesStagedBeforeSanitizationThisRun": 14,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 14,
-    "newCandidates": 14,
+    "newCandidatesStagedBeforeSanitizationThisRun": 8,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 8,
+    "newCandidates": 8,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-F17EB8B0F227",
-      "DISC-08A689408FC3",
-      "DISC-85EE04078E57",
-      "DISC-97FFE78E200F",
-      "DISC-4E9797E858C4",
-      "DISC-B9C3E219BC06",
-      "DISC-FBB2090854D4",
-      "DISC-3490B6164996",
-      "DISC-A010DEF3EC12",
-      "DISC-D425D65E72A6",
-      "DISC-EBE83778A335",
-      "DISC-2286F41C0C5F",
-      "DISC-3E7BFB24260E",
-      "DISC-FD5B9048FFB8"
+      "DISC-7D4647D7325F",
+      "DISC-07C2F69B3667",
+      "DISC-29F5B09705C3",
+      "DISC-6CC63987D262",
+      "DISC-725354A0B0BC",
+      "DISC-182E66881E09",
+      "DISC-2D18A5EF28B6",
+      "DISC-C0C3460B4447"
     ],
     "newCandidatesByCategory": {
       "완구": 1,
-      "구강·치발기": 3,
+      "구강·치발기": 1,
       "턱받이": 3,
-      "수유용품": 4,
+      "수유용품": 3,
       "이유식·식기": 0,
-      "위생·기저귀": 3
+      "위생·기저귀": 0
     },
-    "candidateTotalAfterRun": 506,
+    "candidateTotalAfterRun": 514,
     "candidateTotalsByCategoryAfterRun": {
-      "완구": 52,
-      "구강·치발기": 84,
-      "턱받이": 102,
-      "수유용품": 113,
+      "완구": 53,
+      "구강·치발기": 85,
+      "턱받이": 105,
+      "수유용품": 116,
       "이유식·식기": 56,
       "위생·기저귀": 99
     },
     "errors": 50,
     "totalProducts": 449,
-    "canonicalShaAfterRun": "5975c6a3c4c2f98f5e8c88cc83ca943fb092f99284ea2b9d678f013fc66490ac",
-    "stagingShaAfterRun": "77139ac08893bc129259da5e809686801aa67a5f6f3b5bf51f1693fef669d48c",
+    "canonicalShaAfterRun": "532bf4fb00a1d5a5fe1d3c55d6397359ca2cc9bd9231532328ff651cf2db6dc0",
+    "stagingShaAfterRun": "9aec7634911accf14ffab686f44f8d9c7a12d86b94939eba30f02ba5b69db00e",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 14,
+    "newCandidatesThisRun": 8,
     "candidateIdsAcceptedThisRun": [
-      "DISC-F17EB8B0F227",
-      "DISC-08A689408FC3",
-      "DISC-85EE04078E57",
-      "DISC-97FFE78E200F",
-      "DISC-4E9797E858C4",
-      "DISC-B9C3E219BC06",
-      "DISC-FBB2090854D4",
-      "DISC-3490B6164996",
-      "DISC-A010DEF3EC12",
-      "DISC-D425D65E72A6",
-      "DISC-EBE83778A335",
-      "DISC-2286F41C0C5F",
-      "DISC-3E7BFB24260E",
-      "DISC-FD5B9048FFB8"
+      "DISC-7D4647D7325F",
+      "DISC-07C2F69B3667",
+      "DISC-29F5B09705C3",
+      "DISC-6CC63987D262",
+      "DISC-725354A0B0BC",
+      "DISC-182E66881E09",
+      "DISC-2D18A5EF28B6",
+      "DISC-C0C3460B4447"
     ],
     "removedInvalidCandidates": 0
   },
   "statusTransitions": [],
   "products": [
     {
-      "id": "MASTER-0016",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0026",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0028",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0032",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0038",
+      "id": "MASTER-0083",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -244,7 +190,34 @@
       ]
     },
     {
-      "id": "MASTER-0054",
+      "id": "MASTER-0089",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0091",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0093",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0099",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -253,7 +226,16 @@
       ]
     },
     {
-      "id": "MASTER-0071",
+      "id": "MASTER-0110",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0111",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -262,7 +244,7 @@
       ]
     },
     {
-      "id": "MASTER-0072",
+      "id": "MASTER-0115",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -271,7 +253,16 @@
       ]
     },
     {
-      "id": "MASTER-0073",
+      "id": "MASTER-0119",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "law_specific_evidence"
+      ]
+    },
+    {
+      "id": "MASTER-0120",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -280,7 +271,223 @@
       ]
     },
     {
-      "id": "TEETHER-20260801-013",
+      "id": "MASTER-0121",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0123",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0124",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0125",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0126",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0131",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0132",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0141",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0142",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0143",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0144",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0146",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0148",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0153",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0160",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0172",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "MASTER-0178",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0180",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0186",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0190",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "law_specific_evidence"
+      ]
+    },
+    {
+      "id": "MASTER-0197",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ]
+    },
+    {
+      "id": "RUN18-015",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "TEETHER-20260801-001",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "TEETHER-20260801-006",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "TEETHER-20260801-007",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -289,16 +496,7 @@
       ]
     },
     {
-      "id": "MASTER-0001",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0002",
+      "id": "TEETHER-20260801-017",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -307,7 +505,7 @@
       ]
     },
     {
-      "id": "MASTER-0003",
+      "id": "TEETHER-20260801-025",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -316,7 +514,25 @@
       ]
     },
     {
-      "id": "MASTER-0004",
+      "id": "TEETHER-20260801-030",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ]
+    },
+    {
+      "id": "TOY-20260729-006",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "kc_number_on_sales_page"
+      ]
+    },
+    {
+      "id": "TOY-20260729-010",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -325,25 +541,7 @@
       ]
     },
     {
-      "id": "MASTER-0005",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0006",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0008",
+      "id": "TOY-20260729-033",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -352,25 +550,7 @@
       ]
     },
     {
-      "id": "MASTER-0011",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0012",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0013",
+      "id": "TOY-20260729-034",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -379,43 +559,7 @@
       ]
     },
     {
-      "id": "MASTER-0014",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0017",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0018",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0019",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0020",
+      "id": "TOY-20260729-035",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -424,25 +568,7 @@
       ]
     },
     {
-      "id": "MASTER-0021",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0023",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0031",
+      "id": "MASTER-0007",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -451,178 +577,7 @@
       ]
     },
     {
-      "id": "MASTER-0035",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0037",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0040",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0042",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0044",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0046",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0048",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0049",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0051",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0052",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0053",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0056",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0058",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ]
-    },
-    {
-      "id": "MASTER-0060",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ]
-    },
-    {
-      "id": "MASTER-0061",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0063",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0064",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0065",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0066",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ]
-    },
-    {
-      "id": "MASTER-0069",
+      "id": "MASTER-0010",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -631,7 +586,7 @@
       ]
     },
     {
-      "id": "MASTER-0077",
+      "id": "MASTER-0015",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -640,12 +595,39 @@
       ]
     },
     {
-      "id": "MASTER-0082",
+      "id": "MASTER-0022",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0024",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ]
+    },
+    {
+      "id": "MASTER-0025",
       "checked": true,
       "changed": true,
       "quality": "ultra",
       "errors": [
         "sale_inactive"
+      ]
+    },
+    {
+      "id": "MASTER-0027",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
       ]
     }
   ]
