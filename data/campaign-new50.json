@@ -5,9 +5,11 @@
   "baseCommit": "69cb9e968db7a403a8c5b20b00e8221eaaf761fe",
   "canonicalShaBefore": "396e4fb58593c20d1cf6c64115a0e3641130e98900bf61278bc4d7d5261104ae",
   "targetCanonicalPromotions": 180,
-  "promotedIncludedCanonicalIds": [],
-  "remainingToTarget": 180,
-  "waveIndex": 0,
+  "promotedIncludedCanonicalIds": [
+    "KBM-20260831-0001"
+  ],
+  "remainingToTarget": 179,
+  "waveIndex": 3,
   "waveLimit": 30,
   "perCategoryWaveLimit": 5,
   "completedQueries": [],
@@ -1019,7 +1021,7 @@
   },
   "status": "in-progress",
   "createdAt": "2026-08-31T15:32:40+00:00",
-  "updatedAt": "2026-08-31T16:22:21+00:00",
+  "updatedAt": "2026-08-31T17:39:22+00:00",
   "categoryTargets": {
     "완구": 30,
     "구강·치발기": 30,
@@ -1029,25 +1031,56 @@
     "위생·기저귀": 30
   },
   "categoryPromotedCounts": {
-    "완구": 0,
     "구강·치발기": 0,
-    "턱받이": 0,
     "수유용품": 0,
+    "완구": 1,
+    "위생·기저귀": 0,
     "이유식·식기": 0,
-    "위생·기저귀": 0
+    "턱받이": 0
   },
   "categoryRemaining": {
-    "완구": 30,
     "구강·치발기": 30,
-    "턱받이": 30,
     "수유용품": 30,
+    "완구": 29,
+    "위생·기저귀": 30,
     "이유식·식기": 30,
-    "위생·기저귀": 30
+    "턱받이": 30
   },
-  "promotionAuditFreezes": [],
+  "promotionAuditFreezes": [
+    {
+      "campaignId": "20260831-top30-per-category",
+      "waveIndex": 3,
+      "auditRef": "data/new-product-audits/20260831T173922Z-wave-003.json",
+      "auditSha256": "b354402058967365df674516f74ff3a2f78bd18c328e82054e18c7407ea66629",
+      "candidateIds": [
+        "DISC-22349E907052"
+      ],
+      "finalCanonicalIds": [
+        "KBM-20260831-0001"
+      ],
+      "canonicalSha256Before": "bc86d7cfc78fb28a30c73f5e2170f5b91b99bbede9f5fda25ee0e8ab32204418",
+      "stagingSha256Before": "718beb1c5b3f8db88104c416e14857a8d67abae2295a382bb67016627d92866a",
+      "ledgerSha256Before": "1a1f4818cd267ad45cb8add049a87f179e43adda32a79076f8c5eaef675feabf",
+      "checkpointSha256Before": "a79e78295ae2628914c91986018b3c958bb5a01a7b7901416f0f6a77dd92bddd",
+      "canonicalCountBefore": 449,
+      "stagingCountBefore": 544,
+      "frozenAt": "2026-08-31T17:39:22+00:00"
+    }
+  ],
   "rankingBasis": {
     "provider": "Naver",
     "method": "국내 상품 검색 상위 노출 후보를 순차 검증",
     "limitation": "공개 판매량 수치가 없는 상품은 검색 노출 순위를 상위권 대리 지표로 사용"
+  },
+  "lastPromotion": {
+    "waveIndex": 3,
+    "candidateIds": [
+      "DISC-22349E907052"
+    ],
+    "finalCanonicalIds": [
+      "KBM-20260831-0001"
+    ],
+    "count": 1,
+    "promotedAt": "2026-08-31T17:39:22+00:00"
   }
 }

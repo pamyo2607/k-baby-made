@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
   "campaignId": "20260831-top30-per-category",
-  "promotions": [],
+  "promotions": [
+    {
+      "candidateId": "DISC-22349E907052",
+      "finalCanonicalId": "KBM-20260831-0001",
+      "campaignId": "20260831-top30-per-category",
+      "waveIndex": 3,
+      "promotedAt": "2026-08-31T17:39:22+00:00",
+      "evidenceSha256": "9aeebedf8244232de55849d1d5d90bf4d4841b4e76e64ac886af16f9019bdb42",
+      "sourceCandidateSha256": "e08b67d14bd0839daaa24e05ec6bf6aa3d052592b0671d0e3b6cb73eff25b66b",
+      "auditRef": "data/new-product-audits/20260831T173922Z-wave-003.json",
+      "auditSha256": "b354402058967365df674516f74ff3a2f78bd18c328e82054e18c7407ea66629"
+    }
+  ],
   "createdAt": "2026-08-31T15:32:40+00:00",
-  "updatedAt": "2026-08-31T16:22:21+00:00"
+  "updatedAt": "2026-08-31T17:39:22+00:00"
 }

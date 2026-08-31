@@ -1,10 +1,10 @@
 {
   "version": 1,
   "generatedAt": "2026-08-15",
-  "strategy": "기존 동기화 순서를 보존하되 확정 중복 10행만 제거",
+  "strategy": "기존 동기화 순서를 보존하고 검증 승격 제품을 canonical 순서로 누적",
   "existingRows": 223,
-  "appendedRows": 226,
-  "totalRows": 449,
+  "appendedRows": 227,
+  "totalRows": 450,
   "ids": [
     "TOY-20260729-001",
     "TOY-20260729-002",
@@ -454,9 +454,10 @@
     "RUN18-010",
     "RUN18-014",
     "RUN18-015",
-    "RUN18-016"
+    "RUN18-016",
+    "KBM-20260831-0001"
   ],
-  "status": "deduplicated",
+  "status": "deduplicated-and-promotion-synced",
   "removedDuplicateRows": 10,
   "removedDuplicateMap": {
     "TOY-20260729-115": "TOY-20260729-024",
