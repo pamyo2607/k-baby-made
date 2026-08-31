@@ -2428,26 +2428,6 @@
     "priority": 4
   },
   {
-    "id": "TOY-20260729-083",
-    "category": "완구",
-    "brand": "투키토이",
-    "name": "뉴 풀어롱 얼룩말 TJ010A",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 4
-  },
-  {
     "id": "TOY-20260729-084",
     "category": "완구",
     "brand": "캐스비",
@@ -6894,6 +6874,30 @@
     "category": "완구",
     "brand": "투키토이",
     "name": "뉴 풀어롱 기린 TJ009A",
+    "checkedAt": "2026-08-31",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "TOY-20260729-083",
+    "category": "완구",
+    "brand": "투키토이",
+    "name": "뉴 풀어롱 얼룩말 TJ010A",
     "checkedAt": "2026-08-31",
     "missingFields": [
       "countryOfManufacture",

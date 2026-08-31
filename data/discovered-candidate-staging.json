@@ -709,12 +709,12 @@
     "checkedAt": "2026-08-31",
     "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://babynimall.co.kr/front/html/block_state.html",
     "officialUrls": [
-      "https://babynimall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EA%B5%AD%EB%AF%BC-%EA%B3%BC%EC%9D%BC-%EC%B9%98%EB%B0%9C%EA%B8%B0/1295",
-      "https://babynimall.co.kr/front/html/block_state.html"
+      "https://babynimall.co.kr/front/html/block_state.html",
+      "https://babynimall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EA%B5%AD%EB%AF%BC-%EA%B3%BC%EC%9D%BC-%EC%B9%98%EB%B0%9C%EA%B8%B0/1295"
     ],
     "saleUrls": [
-      "https://babynimall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EA%B5%AD%EB%AF%BC-%EA%B3%BC%EC%9D%BC-%EC%B9%98%EB%B0%9C%EA%B8%B0/1295",
-      "https://babynimall.co.kr/front/html/block_state.html"
+      "https://babynimall.co.kr/front/html/block_state.html",
+      "https://babynimall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EA%B5%AD%EB%AF%BC-%EA%B3%BC%EC%9D%BC-%EC%B9%98%EB%B0%9C%EA%B8%B0/1295"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
@@ -1821,12 +1821,12 @@
     "checkedAt": "2026-08-31",
     "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://babynimall.co.kr/front/html/block_state.html",
     "officialUrls": [
-      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426",
-      "https://babynimall.co.kr/front/html/block_state.html"
+      "https://babynimall.co.kr/front/html/block_state.html",
+      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426"
     ],
     "saleUrls": [
-      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426",
-      "https://babynimall.co.kr/front/html/block_state.html"
+      "https://babynimall.co.kr/front/html/block_state.html",
+      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
@@ -5289,8 +5289,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 젖병'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.komazon.kr/product/babyzzaspoon"
     ],
@@ -5299,20 +5299,23 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "sameProductIdentity",
+      "regulatoryRegime"
     ],
     "dashboardGroup": "수유용품",
     "canonicalProductId": "DISC-39AD0FD39567",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://www.komazon.kr/product/babyzzaspoon"
+    ]
   },
   {
     "id": "DISC-4ED7FB43D730",
@@ -13344,8 +13347,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 젖병 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://conyhub.kr/products/5952"
     ],
@@ -13354,20 +13357,22 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "sameProductIdentity",
+      "regulatoryRegime"
     ],
     "dashboardGroup": "수유용품",
     "canonicalProductId": "DISC-A563FD60D463",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://conyhub.kr/products/5952/"
+    ]
   },
   {
     "id": "DISC-BB36292BDD98",
@@ -15888,8 +15893,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '아기 물티슈 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale 근거가 남아 보류한다.",
     "officialUrls": [
       "https://m.skstoa.com/display/goods/43729273"
     ],
@@ -15898,20 +15903,18 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "currentSale"
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-6AE33A761DBE",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "http://www.skstoa.com/display/goods/43729273"
+    ]
   },
   {
     "id": "DISC-045218875C46",
@@ -16761,8 +16764,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '아기 물티슈 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture, manufacturerOrImporter, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://jongey1001.cafe24.com/product/list.html"
     ],
@@ -16771,20 +16774,21 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "regulatoryRegime"
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-AACA5A40E222",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://jongey1001.cafe24.com/product/list.html"
+    ]
   },
   {
     "id": "DISC-DEFC5DCAD7B6",
@@ -18157,8 +18161,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '아기 턱받이 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/7cc74872-47c7-4fca-b7bb-0bb3a95bd33f"
     ],
@@ -18167,20 +18171,18 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "countryOfManufacture"
     ],
     "dashboardGroup": "턱받이",
     "canonicalProductId": "DISC-B8B1FEB80A07",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://www.idus.com/v2/product/7cc74872-47c7-4fca-b7bb-0bb3a95bd33f"
+    ]
   },
   {
     "id": "DISC-EEB35FD5DC97",
@@ -18205,8 +18207,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '아기 턱받이 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/cb461b20-31cf-4599-98dc-6d93adc4256b"
     ],
@@ -18215,20 +18217,18 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "countryOfManufacture"
     ],
     "dashboardGroup": "턱받이",
     "canonicalProductId": "DISC-EEB35FD5DC97",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://www.idus.com/v2/product/cb461b20-31cf-4599-98dc-6d93adc4256b"
+    ]
   },
   {
     "id": "DISC-BF5D6F6C31E4",
@@ -20515,8 +20515,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '아기 젖병 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture, manufacturerOrImporter, sameProductIdentity 근거가 남아 보류한다.",
     "officialUrls": [
       "http://shop1.littlebaby.cafe24.com/product/detail.html"
     ],
@@ -20525,20 +20525,20 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "sameProductIdentity"
     ],
     "dashboardGroup": "수유용품",
     "canonicalProductId": "DISC-A6DBEF01425D",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://doongi.co.kr/"
+    ]
   },
   {
     "id": "DISC-3C25B2A3506D",
@@ -22103,8 +22103,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-26",
-    "reason": "네이버 검색어 '아기 턱받이 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://moomooz.co.kr/products/129008312"
     ],
@@ -22113,20 +22113,20 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-26 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
       "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "regulatoryRegime"
     ],
     "dashboardGroup": "턱받이",
     "canonicalProductId": "DISC-C626D04B1C8A",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://moomooz.co.kr/products/129008312"
+    ]
   },
   {
     "id": "DISC-AD7C7BE6A761",
@@ -22371,50 +22371,6 @@
     "canonicalProductId": "DISC-77193C2F7C5E",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
-  },
-  {
-    "id": "DISC-80BCE99B0C96",
-    "category": "수유용품",
-    "subtype": "",
-    "brand": "3세대",
-    "name": "3세대 젖병 이유실감 빨대꼭지 STEP1(6개월) STEP2(12개월)",
-    "status": "제외",
-    "countryOfManufacture": "중국",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
-    "ageRange": "확인 중",
-    "ageEvidence": "",
-    "kcApplicable": "제품별 법령 확인 필요",
-    "kcNumber": "",
-    "kcType": "",
-    "certStatusSummary": "",
-    "certDateSummary": "",
-    "certTypeSummary": "",
-    "certAuthoritySummary": "",
-    "certifications": [],
-    "officialModel": "",
-    "manufacturer": "",
-    "importer": "",
-    "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-31",
-    "reason": "동일 제품 정보고시 https://store.ohou.se/goods/3049407에서 완제품 제조국이 중국로 확인되어 대한민국 제조 기준에서 제외했다.",
-    "officialUrls": [
-      "https://store.ohou.se/goods/3049407"
-    ],
-    "saleUrls": [
-      "https://store.ohou.se/goods/3049407"
-    ],
-    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
-    "historySummary": "2026-08-26 네이버 특정 상품 후보 조사",
-    "revalidationState": "동일 제품 고시 해외 제조 확인",
-    "revalidationResolved": true,
-    "revalidationMissingFields": [],
-    "dashboardGroup": "수유용품",
-    "canonicalProductId": "DISC-80BCE99B0C96",
-    "duplicateOf": "",
-    "discoveryProvider": "Naver",
-    "evidenceUrls": [
-      "https://store.ohou.se/goods/3049407"
-    ]
   },
   {
     "id": "DISC-A3C2162C9EEF",
@@ -26412,6 +26368,58 @@
     ],
     "dashboardGroup": "완구",
     "canonicalProductId": "DISC-5CB993345441",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-5E9B9619829E",
+    "category": "구강·치발기",
+    "subtype": "",
+    "brand": "티지엠",
+    "name": "티지엠 플래티넘 실리콘 과일 치발기",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-08-31",
+    "reason": "네이버 검색어 '아기 치발기 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://search.shopping.naver.com/catalog/60325483693"
+    ],
+    "saleUrls": [
+      "https://search.shopping.naver.com/catalog/60325483693"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 8",
+    "rankEvidence": "2026-08-31 네이버 검색어 '아기 치발기 국내생산'의 상품 상세 후보 중 8번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 치발기 국내생산",
+    "discoveryResultRank": 8,
+    "historySummary": "2026-08-31 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "구강·치발기",
+    "canonicalProductId": "DISC-5E9B9619829E",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }

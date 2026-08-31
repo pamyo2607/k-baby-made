@@ -1,23 +1,34 @@
 {
-  "canonicalCountUnchanged": 450,
+  "canonicalCountUnchanged": 451,
   "inputCount": 548,
-  "outputCount": 548,
-  "removedCount": 0,
+  "outputCount": 547,
+  "removedCount": 1,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-5CB993345441"
+    "DISC-5E9B9619829E"
   ],
   "candidateIdsAcceptedThisRun": [
-    "DISC-5CB993345441"
+    "DISC-5E9B9619829E"
   ],
   "newCandidatesRejectedThisRun": 0,
-  "remainingCandidateCount": 548,
+  "remainingCandidateCount": 547,
   "remainingCandidatesByCategory": {
     "완구": 59,
     "이유식·식기": 59,
     "구강·치발기": 91,
     "턱받이": 111,
-    "수유용품": 122,
+    "수유용품": 121,
     "위생·기저귀": 106
   },
-  "removed": []
+  "removed": [
+    {
+      "id": "DISC-80BCE99B0C96",
+      "category": "수유용품",
+      "brand": "3세대",
+      "name": "3세대 젖병 이유실감 빨대꼭지 STEP1(6개월) STEP2(12개월)",
+      "key": "3세대|3세대젖병이유실감빨대꼭지step16개월step212개월",
+      "reasons": [
+        "invalid_staging_row"
+      ]
+    }
+  ]
 }
