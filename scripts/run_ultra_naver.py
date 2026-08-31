@@ -206,8 +206,6 @@ def discover_identity_pages(product: dict, existing: list[dict]) -> list[dict]:
     queries = [
         f"{search_brand} {core} KC 인증번호 제조국",
         f"{search_brand} {core} 제조사 사용연령 제품상세",
-        f'"{brand}" "{name}" "KC 인증정보"',
-        f'"{brand}" "{name}" "KC" "제조국"',
     ]
     found: list[dict] = []
     for query in queries:

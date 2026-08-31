@@ -1,5 +1,7 @@
 name: K-Baby Made fast rescue research
 
+# Active rescue lane uses bounded external search probes.
+
 on:
   workflow_dispatch:
   schedule:

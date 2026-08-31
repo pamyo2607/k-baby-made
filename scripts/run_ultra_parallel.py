@@ -16,7 +16,7 @@ import time
 from collections import Counter
 from copy import deepcopy
 from datetime import datetime, timezone
-from urllib.parse import quote, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -153,28 +153,36 @@ def select_reachable_sales_url(product: dict) -> bool:
 
 
 def multi_search(query: str) -> list[tuple[str, str]]:
-    primary = ORIGINAL_DDG_RESULTS(query)
-    if primary:
-        return primary
-    try:
-        response = session().get(
-            "https://www.bing.com/search?q=" + quote(query),
-            timeout=PROBE_TIMEOUT,
-            allow_redirects=True,
-        )
+    sources = (
+        ("https://html.duckduckgo.com/html/?q=" + quote(query), "a.result__a"),
+        ("https://www.bing.com/search?q=" + quote(query), "li.b_algo h2 a"),
+    )
+    for search_url, selector in sources:
+        try:
+            response = session().get(
+                search_url,
+                timeout=PROBE_TIMEOUT,
+                allow_redirects=True,
+            )
+        except requests.RequestException:
+            continue
         if response.status_code != 200:
-            return []
+            continue
         response.encoding = response.apparent_encoding or response.encoding
         soup = BeautifulSoup(response.text, "html.parser")
         results: list[tuple[str, str]] = []
-        for anchor in soup.select("li.b_algo h2 a"):
+        for anchor in soup.select(selector):
             href = str(anchor.get("href", "")).strip()
             title = anchor.get_text(" ", strip=True)
+            if "duckduckgo.com/l/" in href:
+                href = unquote(parse_qs(urlparse(href).query).get("uddg", [""])[0])
+            if href.startswith("//"):
+                href = "https:" + href
             if href.startswith(("http://", "https://")) and title:
                 results.append((title, href))
-        return results
-    except requests.RequestException:
-        return []
+        if results:
+            return results[:8]
+    return []
 
 
 def safe_revalidate(product: dict) -> dict:
