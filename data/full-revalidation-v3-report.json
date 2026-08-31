@@ -11,7 +11,7 @@
     "exactKcNumber": 194,
     "officialEvidence": 193,
     "officialAge": 183,
-    "currentSale": 147,
+    "currentSale": 148,
     "regulatoryRegime": 21
   },
   "labels": {
@@ -3277,26 +3277,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0064",
-      "category": "수유용품",
-      "brand": "유비맘",
-      "name": "빨대컵 꼭지 리필 2개",
-      "checkedAt": "2026-08-31",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0065",
       "category": "수유용품",
       "brand": "유비맘",
@@ -5259,6 +5239,28 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0064",
+      "category": "수유용품",
+      "brand": "유비맘",
+      "name": "빨대컵 꼭지 리필 2개",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 5
     },
