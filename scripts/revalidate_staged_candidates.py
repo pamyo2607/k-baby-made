@@ -34,10 +34,11 @@ PLACEHOLDERS = {"", "확인 중", "미상", "해당 없음", "브랜드 확인 �
 LOW_VALUE_SOURCE_PARTS = (
     "itemscout.io", "nstoreprice.co.kr", "fallcent.com", "salefinder.co.kr",
     "alltimeprice.com", "nid.naver.com", "search.shopping.naver.com",
+    "brand.naver.com", "smartstore.naver.com", "shopping.naver.com",
 )
 HIGH_VALUE_RETAIL_HOST_PARTS = (
-    "brand.naver.com", "smartstore.naver.com", "11st.co.kr", "coupang.com",
-    "ssg.com", "lotteon.com", "gmarket.co.kr", "auction.co.kr",
+    "11st.co.kr", "coupang.com", "ssg.com", "lotteon.com", "gmarket.co.kr",
+    "auction.co.kr",
 )
 DEMAND_SIGNAL_TERMS = (
     "누적 판매", "판매 1위", "베스트", "인기", "랭킹", "국민", "리뷰",
@@ -234,6 +235,7 @@ def non_kc_revalidate(product: dict) -> dict:
 
     original = deepcopy(product)
     pages = strict.fetch_pages(product)
+    pages.extend(strict.discover_identity_pages(product, pages))
     identity_pages = [page for page in pages if page.get("identity")]
     tried = [str(page.get("url", "")) for page in pages if page.get("url")]
     if not identity_pages:
@@ -562,7 +564,10 @@ def process(
 
     run_at = (now or datetime.now(timezone.utc)).astimezone(timezone.utc).replace(microsecond=0)
     run_iso = run_at.isoformat()
-    wave_index = int(checkpoint.get("waveIndex", 0) or 0) + 1
+    wave_index = max(
+        int(checkpoint.get("waveIndex", 0) or 0),
+        int(previous_state.get("waveIndex", 0) or 0),
+    ) + 1
     slug = run_at.strftime("%Y%m%dT%H%M%SZ")
     audit_relative = Path("data/new-product-audits") / f"{slug}-wave-{wave_index:03d}.json"
     audit_path = root / audit_relative

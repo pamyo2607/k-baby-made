@@ -191,7 +191,21 @@ def discover_identity_pages(product: dict, existing: list[dict]) -> list[dict]:
     name = str(product.get("name", "")).strip()
     if not name:
         return []
+    ignored = GENERIC_BRAND_TOKENS | {
+        "네이버페이", "n배송", "선물샵", "예약", "가격비교", "최저가", "무료배송",
+        "스토어", "공식스토어", "새", "창", "열림",
+    }
+    core_tokens: list[str] = []
+    for token in re.findall(r"[가-힣A-Za-z0-9]{2,}", name):
+        lowered = token.lower()
+        if lowered in ignored or lowered in core_tokens:
+            continue
+        core_tokens.append(lowered)
+    core = " ".join(core_tokens[:8]) or name
+    search_brand = brand if brand.lower() not in ignored else infer_brand(core)
     queries = [
+        f"{search_brand} {core} KC 인증번호 제조국",
+        f"{search_brand} {core} 제조사 사용연령 제품상세",
         f'"{brand}" "{name}" "KC 인증정보"',
         f'"{brand}" "{name}" "KC" "제조국"',
     ]

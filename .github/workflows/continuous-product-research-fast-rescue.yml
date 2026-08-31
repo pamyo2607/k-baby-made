@@ -49,6 +49,10 @@ jobs:
         if: steps.manual_lock.outputs.locked == 'false'
         run: python -m pip install --disable-pip-version-check -r requirements.txt
 
+      - name: Run campaign regression tests
+        if: steps.manual_lock.outputs.locked == 'false'
+        run: python -m unittest discover -s tests -p 'test_*.py'
+
       - name: Reconcile cumulative database
         if: steps.manual_lock.outputs.locked == 'false'
         run: python scripts/bootstrap_from_sheet.py

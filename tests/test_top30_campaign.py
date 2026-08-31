@@ -88,6 +88,20 @@ class Top30CampaignTests(unittest.TestCase):
         }
         self.assertLess(candidate_source_priority(retail), candidate_source_priority(aggregator))
 
+    def test_independent_retail_is_prioritized_over_dynamic_naver_store(self) -> None:
+        independent = {
+            "id": "DISC-INDEPENDENT",
+            "officialUrls": ["https://www.ssg.com/item/itemView.ssg?itemId=123"],
+        }
+        dynamic = {
+            "id": "DISC-DYNAMIC",
+            "officialUrls": ["https://brand.naver.com/example/products/456"],
+        }
+        self.assertLess(
+            candidate_source_priority(independent),
+            candidate_source_priority(dynamic),
+        )
+
     def test_discovery_candidate_persists_naver_rank_basis(self) -> None:
         candidate = build_candidate(
             "턱받이",
