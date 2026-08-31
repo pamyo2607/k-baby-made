@@ -13,7 +13,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: k-baby-made-fast-rescue
+  group: k-baby-made-fast-rescue-v2
   cancel-in-progress: true
 
 jobs:
