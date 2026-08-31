@@ -1,6 +1,6 @@
 name: K-Baby Made fast rescue research
 
-# Active rescue lane uses bounded external search probes.
+# Active rescue lane applies bounded search to canonical and staged candidates.
 
 on:
   workflow_dispatch:

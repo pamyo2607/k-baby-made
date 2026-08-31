@@ -651,6 +651,7 @@ def configure_pipeline() -> None:
     naver.resolve_product_url = resolve_product_url
     naver.title_matches = strict_title_matches
     naver.infer_brand = infer_brand
+    pipeline.rr.ddg_results = pipeline.multi_search
     pipeline.safe_revalidate = revalidate
     pipeline.safe_discover = discover
     pipeline.select_pending_batch = select_pending_batch
