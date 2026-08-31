@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: k-baby-made-research
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'push' }}
 
 jobs:
   research:
