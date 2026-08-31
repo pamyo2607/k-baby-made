@@ -1,11 +1,11 @@
 name: K-Baby Made fast rescue research
 
-# Active rescue lane caps direct and discovered evidence pages per candidate.
+# Active rescue lane uses bounded evidence probes on a five-minute cumulative cadence.
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/5 * * * *"
   push:
     branches: [main]
     paths:

@@ -266,28 +266,33 @@ def discover_safety_numbers(product: dict) -> list[str]:
         core_tokens.append(lowered)
     core = " ".join(core_tokens[:6]) or name
     search_brand = brand if brand.lower() not in ignored else infer_brand(core)
-    query = f'site:safetykorea.kr/release/certDetail "{search_brand} {core}"'
-    try:
-        results = pipeline.rr.ddg_results(query)
-    except Exception:
-        return []
-
+    queries = [
+        f"site:safetykorea.kr/release/certDetail {search_brand} {core}",
+        f"site:safetykorea.kr/release/certDetail {core}",
+    ]
     numbers: list[str] = []
-    for title, url in results[:MAX_SAFETY_SEARCH_RESULTS]:
-        parsed = urlparse(str(url).strip())
-        host = parsed.netloc.lower().split(":", 1)[0]
-        if (
-            not (host == "safetykorea.kr" or host.endswith(".safetykorea.kr"))
-            or not parsed.path.startswith("/release/certDetail")
-        ):
+    for query in queries:
+        try:
+            results = pipeline.rr.ddg_results(query)
+        except Exception:
             continue
-        values = list(parse_qs(parsed.query).get("certNum", []))
-        values.append(str(title))
-        for value in values:
-            for match in pipeline.rr.KC_PATTERN.findall(value):
-                normalized = match.upper()
-                if normalized not in numbers:
-                    numbers.append(normalized)
+        for title, url in results[:MAX_SAFETY_SEARCH_RESULTS]:
+            parsed = urlparse(str(url).strip())
+            host = parsed.netloc.lower().split(":", 1)[0]
+            if (
+                not (host == "safetykorea.kr" or host.endswith(".safetykorea.kr"))
+                or not parsed.path.startswith("/release/certDetail")
+            ):
+                continue
+            values = list(parse_qs(parsed.query).get("certNum", []))
+            values.append(str(title))
+            for value in values:
+                for match in pipeline.rr.KC_PATTERN.findall(value):
+                    normalized = match.upper()
+                    if normalized not in numbers:
+                        numbers.append(normalized)
+        if len(numbers) >= MAX_SAFETY_SEARCH_RESULTS:
+            break
     return numbers
 
 
