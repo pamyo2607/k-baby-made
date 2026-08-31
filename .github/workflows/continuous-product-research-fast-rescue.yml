@@ -1,6 +1,6 @@
 name: K-Baby Made fast rescue research
 
-# Active rescue lane prioritizes reachable evidence and normalizes final display metadata.
+# Active rescue lane bounds every evidence request and keeps only the latest run.
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: k-baby-made-research-v3
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   research:

@@ -32,9 +32,10 @@ NEW_PER_CATEGORY = max(
 QUALITY = "ultra"
 MAX_REVALIDATE_WORKERS = 10
 MAX_DISCOVERY_WORKERS = 6
-TIMEOUT = 18
-PROBE_TIMEOUT = 12
-RETRY_PAUSES = (0, 4, 12, 30)
+TIMEOUT = 10
+PROBE_TIMEOUT = 6
+MAX_SALES_URLS = 3
+RETRY_PAUSES = (0, 2)
 THREAD_LOCAL = threading.local()
 CACHE_LOCK = threading.Lock()
 FETCH_CACHE: dict[str, tuple[int, str, str]] = {}
@@ -131,7 +132,7 @@ def candidate_sales_urls(product: dict) -> list[str]:
             any(domain in urlparse(url).netloc for domain in LOW_PRIORITY_DOMAINS),
             urls.index(url),
         ),
-    )
+    )[:MAX_SALES_URLS]
 
 
 def select_reachable_sales_url(product: dict) -> bool:
