@@ -87,5 +87,26 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
 
         rr.fetch = bounded_official_fetch
         rr.ddg_results = fast_search_results
+
+        # run_ultra_parallel.main normally replaces rr.fetch with its own
+        # multi-retry bounded_fetch. Patch that function itself so exact
+        # Safety Korea certificate details fail fast and are retried next cycle
+        # instead of blocking one batch for minutes. Non-official pages keep
+        # the original bounded retry policy.
+        import run_ultra_parallel as parallel
+
+        _original_parallel_bounded_fetch = parallel.bounded_fetch
+
+        def fast_parallel_bounded_fetch(url: str) -> tuple[int, str, str]:
+            host = urlparse(url).netloc.lower()
+            if "safetykorea.kr" in host:
+                hit = parallel.cached(url)
+                if hit is not None:
+                    return hit
+                result = _single_fetch(url, timeout=12)
+                return parallel.store(url, result)
+            return _original_parallel_bounded_fetch(url)
+
+        parallel.bounded_fetch = fast_parallel_bounded_fetch
     except Exception as exc:  # fail closed; runtime audit will expose unresolved evidence
         print(f"sitecustomize research patch unavailable: {type(exc).__name__}: {exc}", file=sys.stderr)
