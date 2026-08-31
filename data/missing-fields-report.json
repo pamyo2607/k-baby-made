@@ -8,11 +8,11 @@
     "countryOfManufacture": 331,
     "manufacturerOrImporter": 303,
     "safetyKoreaSameModel": 226,
-    "exactKcNumber": 193,
-    "officialAge": 186,
+    "exactKcNumber": 194,
     "officialEvidence": 186,
-    "currentSale": 146,
-    "regulatoryRegime": 20
+    "officialAge": 184,
+    "currentSale": 142,
+    "regulatoryRegime": 21
   },
   "labels": {
     "currentSale": "현재 구매 가능한 국내 판매 페이지",
@@ -3531,6 +3531,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0114",
+      "category": "이유식·식기",
+      "brand": "쁘띠누베",
+      "name": "실리콘 멀티큐브 6구",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0124",
       "category": "이유식·식기",
       "brand": "홈하우스",
@@ -3587,6 +3607,46 @@
         "동일 제품 공식 근거 URL",
         "완제품 제조국",
         "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0133",
+      "category": "구강·치발기",
+      "brand": "모윰",
+      "name": "스윙버드 손목 치발기",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "countryOfManufacture",
+        "safetyKoreaSameModel",
+        "officialEvidence",
+        "exactKcNumber"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0135",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "베스트 치발기 오렌지링",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "officialAge",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 4
     },
@@ -3686,6 +3746,26 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0151",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "NEW 보송보송 팬티형 4단계 224매",
+      "checkedAt": "2026-08-31",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 4
@@ -5497,28 +5577,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0114",
-      "category": "이유식·식기",
-      "brand": "쁘띠누베",
-      "name": "실리콘 멀티큐브 6구",
-      "checkedAt": "2026-08-31",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0117",
       "category": "이유식·식기",
       "brand": "아이냠",
@@ -5535,50 +5593,6 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0133",
-      "category": "구강·치발기",
-      "brand": "모윰",
-      "name": "스윙버드 손목 치발기",
-      "checkedAt": "2026-08-31",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0135",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "베스트 치발기 오렌지링",
-      "checkedAt": "2026-08-31",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
@@ -5655,28 +5669,6 @@
       "category": "위생·기저귀",
       "brand": "슈퍼대디",
       "name": "리얼소프트 밴드형 30매 4팩",
-      "checkedAt": "2026-08-31",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0151",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "NEW 보송보송 팬티형 4단계 224매",
       "checkedAt": "2026-08-31",
       "missingFields": [
         "officialAge",

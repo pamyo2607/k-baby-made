@@ -1821,12 +1821,12 @@
     "checkedAt": "2026-08-31",
     "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://babynimall.co.kr/front/html/block_state.html",
     "officialUrls": [
-      "https://babynimall.co.kr/front/html/block_state.html",
-      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426"
+      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426",
+      "https://babynimall.co.kr/front/html/block_state.html"
     ],
     "saleUrls": [
-      "https://babynimall.co.kr/front/html/block_state.html",
-      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426"
+      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426",
+      "https://babynimall.co.kr/front/html/block_state.html"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
@@ -1853,9 +1853,9 @@
     "name": "와우베이비 wowbaby.co.kr › 애착딸랑이-아기-신생아-원단장난감-돌-백일-오감-발달 새 창 열림",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
-    "ageRange": "확인 중",
-    "ageEvidence": "",
+    "saleStatus": "현재 구매 가능",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "제품별 법령 확인 필요",
     "kcNumber": "",
     "kcType": "",
@@ -1868,8 +1868,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 딸랑이 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://wowbaby.co.kr/product/%EC%95%A0%EC%B0%A9%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%95%84%EA%B8%B0-%EC%8B%A0%EC%83%9D%EC%95%84-%EC%9B%90%EB%8B%A8%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%8F%8C-%EB%B0%B1%EC%9D%BC-%EC%98%A4%EA%B0%90-%EB%B0%9C%EB%8B%AC/465",
     "officialUrls": [
       "https://wowbaby.co.kr/product/%EC%95%A0%EC%B0%A9%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%95%84%EA%B8%B0-%EC%8B%A0%EC%83%9D%EC%95%84-%EC%9B%90%EB%8B%A8%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%8F%8C-%EB%B0%B1%EC%9D%BC-%EC%98%A4%EA%B0%90-%EB%B0%9C%EB%8B%AC/465"
     ],
@@ -1878,15 +1878,15 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "판매 페이지 동일 제품 KC 번호 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "regulatoryRegime",
-      "officialEvidence"
+      "officialEvidence",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
     ],
     "dashboardGroup": "완구",
     "canonicalProductId": "DISC-564F444EF38A",
@@ -1901,7 +1901,7 @@
     "name": "blockbay.maptrail.kr › 오볼-소-딸랑이-치발기-아기-자동차-신생아장난감",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "",
     "kcApplicable": "제품별 법령 확인 필요",
@@ -1916,17 +1916,21 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 딸랑이 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F80858575076",
     "officialUrls": [
+      "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F80858575076",
+      "https://search.shopping.naver.com/catalog/80858575076",
       "https://blockbay.maptrail.kr/product/%EC%98%A4%EB%B3%BC-%EC%86%8C-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%95%84%EA%B8%B0-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%8B%A0%EC%83%9D%EC%95%84%EC%9E%A5%EB%82%9C%EA%B0%90"
     ],
     "saleUrls": [
+      "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F80858575076",
+      "https://search.shopping.naver.com/catalog/80858575076",
       "https://blockbay.maptrail.kr/product/%EC%98%A4%EB%B3%BC-%EC%86%8C-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%95%84%EA%B8%B0-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%8B%A0%EC%83%9D%EC%95%84%EC%9E%A5%EB%82%9C%EA%B0%90"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
@@ -1997,9 +2001,9 @@
     "name": "아기 실리콘 스트랩 치발기 장난감 스트랩 국내생산 유모차 카시트 아기 의자 홀더 새 창 열림",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "제품별 법령 확인 필요",
     "kcNumber": "",
     "kcType": "",
@@ -2012,8 +2016,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 치발기 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://store.ohou.se/goods/3159420",
     "officialUrls": [
       "https://store.ohou.se/goods/3159420"
     ],
@@ -2022,10 +2026,9 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
@@ -2636,8 +2639,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 흡착식판 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 officialAge, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://store.ohou.se/goods/4066234"
     ],
@@ -2646,20 +2649,19 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "regulatoryRegime"
     ],
     "dashboardGroup": "이유식·식기",
     "canonicalProductId": "DISC-E65CE5BC0692",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://store.ohou.se/goods/4066234"
+    ]
   },
   {
     "id": "DISC-FB6EDF724118",
@@ -2684,8 +2686,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 흡착식판 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://melipu.kr/product/흡착-보울-식판/19"
     ],
@@ -2694,20 +2696,22 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "sameProductIdentity",
+      "regulatoryRegime"
     ],
     "dashboardGroup": "이유식·식기",
     "canonicalProductId": "DISC-FB6EDF724118",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://melipu.kr/product/%ED%9D%A1%EC%B0%A9-%EB%B3%B4%EC%9A%B8-%EC%8B%9D%ED%8C%90/19"
+    ]
   },
   {
     "id": "DISC-7F908DD29F33",
@@ -6045,7 +6049,7 @@
     "name": "1+1 모슈아 아기 실리콘 스트랩 국내생산 플래티넘 실리콘 치발기 장난감 걸이 새 창 열림",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "",
     "kcApplicable": "제품별 법령 확인 필요",
@@ -6060,17 +6064,19 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 치발기 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://conyhub.kr/products/22272/",
     "officialUrls": [
+      "https://conyhub.kr/products/22272/",
       "https://conyhub.kr/products/22272"
     ],
     "saleUrls": [
+      "https://conyhub.kr/products/22272/",
       "https://conyhub.kr/products/22272"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
@@ -6141,7 +6147,7 @@
     "name": "티지엠 아기 실리콘 치발기 국내생산 플래티넘 실리콘 수박 치아발육기 보관케이스 포함 새 창 열림",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "",
     "kcApplicable": "제품별 법령 확인 필요",
@@ -6156,17 +6162,19 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 치발기 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://conyhub.kr/products/71265/",
     "officialUrls": [
+      "https://conyhub.kr/products/71265/",
       "https://conyhub.kr/products/71265"
     ],
     "saleUrls": [
+      "https://conyhub.kr/products/71265/",
       "https://conyhub.kr/products/71265"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
@@ -9091,7 +9099,7 @@
     "name": "완비 해바라기 아기 치발기 식품용 실리콘 플라워 입체 KC 출산선물 새 창 열림",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "",
     "kcApplicable": "제품별 법령 확인 필요",
@@ -9106,8 +9114,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 치발기 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://coudeal.shop/product/y7n3P43zxDXkG",
     "officialUrls": [
       "https://coudeal.shop/product/y7n3P43zxDXkG"
     ],
@@ -9116,7 +9124,7 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
@@ -13129,9 +13137,9 @@
     "name": "네이버페이 키즈마일 kidsmile.co.kr/ 최다돌기 퍼기 큐피드 치발기 침독 예방 글러브 치발기",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "제품별 법령 확인 필요",
     "kcNumber": "",
     "kcType": "",
@@ -13144,20 +13152,21 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-24",
-    "reason": "네이버 검색어 '아기 치발기'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://kidsmile.co.kr/product/%ED%8D%BC%EA%B8%B0-%ED%81%90%ED%94%BC%EB%93%9C-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%8F%AC%ED%95%A8/2451",
     "officialUrls": [
+      "https://kidsmile.co.kr/product/%ED%8D%BC%EA%B8%B0-%ED%81%90%ED%94%BC%EB%93%9C-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%8F%AC%ED%95%A8/2451",
       "https://kidsmile.co.kr/product/퍼기-큐피드-치발기-케이스-포함/2451"
     ],
     "saleUrls": [
+      "https://kidsmile.co.kr/product/%ED%8D%BC%EA%B8%B0-%ED%81%90%ED%94%BC%EB%93%9C-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%8F%AC%ED%95%A8/2451",
       "https://kidsmile.co.kr/product/퍼기-큐피드-치발기-케이스-포함/2451"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
@@ -16364,8 +16373,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '수유쿠션 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.lotteon.com/p/product/LO2668800208"
     ],
@@ -16374,20 +16383,22 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "sameProductIdentity",
+      "regulatoryRegime"
     ],
     "dashboardGroup": "수유용품",
     "canonicalProductId": "DISC-87D3B29D9C7A",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://www.lotteon.com/p/product/LO2668800208"
+    ]
   },
   {
     "id": "DISC-C79396997E26",
@@ -16508,8 +16519,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-25",
-    "reason": "네이버 검색어 '아기 흡착식판 국내생산'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://fallcent.com/product/DvTakq0GnrURAjKo65VdbWMJwlTghaEQ"
     ],
@@ -16518,20 +16529,23 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-25 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "sameProductIdentity",
+      "regulatoryRegime"
     ],
     "dashboardGroup": "이유식·식기",
     "canonicalProductId": "DISC-10E8FBB351B8",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://fallcent.com/product/DvTakq0GnrURAjKo65VdbWMJwlTghaEQ/"
+    ]
   },
   {
     "id": "DISC-93D829EC56A9",
@@ -22559,7 +22573,7 @@
     "name": "[하베브릭스] NEW 신생아 잼잼이 딸랑이 장난감 8종",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "구매 기능 확인 불가",
     "ageRange": "확인 중",
     "ageEvidence": "",
     "kcApplicable": "제품별 법령 확인 필요",
@@ -22574,8 +22588,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-26",
-    "reason": "네이버 검색어 '아기 딸랑이 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "2026-08-31 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://locashop.lottecard.co.kr/goods/detail",
     "officialUrls": [
       "https://locashop.lottecard.co.kr/goods/detail"
     ],
@@ -22584,7 +22598,7 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-26 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
@@ -23538,8 +23552,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-08-26",
-    "reason": "네이버 검색어 '아기 물티슈 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "checkedAt": "2026-08-31",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.fashionplus.co.kr/goods/detail/247354691"
     ],
@@ -23548,20 +23562,20 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-26 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
       "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialEvidence"
+      "countryOfManufacture"
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-28C092B5CA0F",
     "duplicateOf": "",
-    "discoveryProvider": "Naver"
+    "discoveryProvider": "Naver",
+    "revalidationEvidenceUrls": [
+      "https://www.fashionplus.co.kr/goods/detail/247354691"
+    ]
   },
   {
     "id": "DISC-6210D51FCFCE",
@@ -25602,9 +25616,9 @@
     "name": "선물샵 : 네이버+ 스토어 : 키저스 빙글빙글 스핀팝 국민 흡착 회전 딸랑이 세트 돌 아기 백일 스피.... 새 창 열림",
     "status": "보류",
     "countryOfManufacture": "확인 중",
-    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "saleStatus": "현재 구매 가능",
     "ageRange": "확인 중",
-    "ageEvidence": "",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "제품별 법령 확인 필요",
     "kcNumber": "",
     "kcType": "",
@@ -25618,7 +25632,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-08-31",
-    "reason": "네이버 검색어 '아기 딸랑이 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "reason": "2026-08-31 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://shopping.naver.com/gift/products/6031665830",
     "officialUrls": [
       "https://shopping.naver.com/gift/products/6031665830"
     ],
@@ -25627,10 +25641,9 @@
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-31 네이버 특정 상품 후보 조사",
-    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale",
       "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
@@ -26191,6 +26204,214 @@
     ],
     "dashboardGroup": "수유용품",
     "canonicalProductId": "DISC-B2C7282E60A4",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-043FA6DCDF70",
+    "category": "완구",
+    "subtype": "",
+    "brand": "리틀클라우드",
+    "name": "리틀클라우드 흡착 회전 딸랑이 3종세트 1개",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-08-31",
+    "reason": "네이버 검색어 '아기 딸랑이 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://search.shopping.naver.com/catalog/60076884013"
+    ],
+    "saleUrls": [
+      "https://search.shopping.naver.com/catalog/60076884013"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 12",
+    "rankEvidence": "2026-08-31 네이버 검색어 '아기 딸랑이 스마트스토어'의 상품 상세 후보 중 12번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 딸랑이 스마트스토어",
+    "discoveryResultRank": 12,
+    "historySummary": "2026-08-31 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "완구",
+    "canonicalProductId": "DISC-043FA6DCDF70",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-F31B2CD83D79",
+    "category": "턱받이",
+    "subtype": "",
+    "brand": "테리빕",
+    "name": "5+1 테리빕 아기 신생아 턱받이 침받이 유아 테리 이유식 턱받이 침받이",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-08-31",
+    "reason": "네이버 검색어 '아기 턱받이'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://search.shopping.naver.com/catalog/83289214123"
+    ],
+    "saleUrls": [
+      "https://search.shopping.naver.com/catalog/83289214123"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 12",
+    "rankEvidence": "2026-08-31 네이버 검색어 '아기 턱받이'의 상품 상세 후보 중 12번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 턱받이",
+    "discoveryResultRank": 12,
+    "historySummary": "2026-08-31 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "턱받이",
+    "canonicalProductId": "DISC-F31B2CD83D79",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-150506F67701",
+    "category": "수유용품",
+    "subtype": "",
+    "brand": "KC인증",
+    "name": "[KC인증]가정용 초음파 안경 세척기 면도기 틀니 젖병 귀금속 유아식기 브러쉬 세척",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-08-31",
+    "reason": "네이버 검색어 '아기 젖병 KC 인증'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://smartstore.naver.com/main/products/11458242547"
+    ],
+    "saleUrls": [
+      "https://smartstore.naver.com/main/products/11458242547"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 14",
+    "rankEvidence": "2026-08-31 네이버 검색어 '아기 젖병 KC 인증'의 상품 상세 후보 중 14번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 젖병 KC 인증",
+    "discoveryResultRank": 14,
+    "historySummary": "2026-08-31 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "수유용품",
+    "canonicalProductId": "DISC-150506F67701",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-F3105AF6A59E",
+    "category": "위생·기저귀",
+    "subtype": "",
+    "brand": "유통기한임박",
+    "name": "*유통기한임박* 라이트 100매 대용량 40팩 캡형 아기물티슈",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-08-31",
+    "reason": "네이버 검색어 '아기 물티슈 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000702764531"
+    ],
+    "saleUrls": [
+      "https://emart.ssg.com/item/itemView.ssg?itemId=1000702764531"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 7",
+    "rankEvidence": "2026-08-31 네이버 검색어 '아기 물티슈 스마트스토어'의 상품 상세 후보 중 7번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 물티슈 스마트스토어",
+    "discoveryResultRank": 7,
+    "historySummary": "2026-08-31 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "위생·기저귀",
+    "canonicalProductId": "DISC-F3105AF6A59E",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }
