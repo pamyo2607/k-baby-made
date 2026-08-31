@@ -7,6 +7,7 @@ pending and is retried on a later campaign rotation.
 """
 from __future__ import annotations
 
+import concurrent.futures
 import os
 import sys
 
@@ -21,7 +22,7 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
 
         _original_fetch = rr.fetch
 
-        def _single_fetch(url: str, timeout: int = 12) -> tuple[int, str, str]:
+        def _single_fetch(url: str, timeout: int = 10) -> tuple[int, str, str]:
             try:
                 response = rr.SESSION.get(url, timeout=timeout, allow_redirects=True)
                 if response.status_code == 200:
@@ -34,7 +35,7 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
         def bounded_official_fetch(url: str) -> tuple[int, str, str]:
             host = urlparse(url).netloc.lower()
             if "safetykorea.kr" in host or "duckduckgo.com" in host:
-                return _single_fetch(url, timeout=12)
+                return _single_fetch(url, timeout=8)
             return _original_fetch(url)
 
         def _extract_search_results(source: str, engine: str) -> list[tuple[str, str]]:
@@ -70,20 +71,35 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
                     break
             return results
 
+        def _search_endpoint(engine: str, url: str) -> list[tuple[str, str]]:
+            status, body, _ = _single_fetch(url, timeout=8)
+            if status != 200 or not body:
+                return []
+            return _extract_search_results(body, engine)
+
         def fast_search_results(query: str) -> list[tuple[str, str]]:
             endpoints = (
                 ("naver", "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&query=" + quote(query)),
                 ("ddg", "https://html.duckduckgo.com/html/?q=" + quote(query)),
                 ("bing", "https://www.bing.com/search?q=" + quote(query)),
             )
-            for engine, url in endpoints:
-                status, body, _ = _single_fetch(url, timeout=10)
-                if status != 200 or not body:
-                    continue
-                results = _extract_search_results(body, engine)
-                if results:
-                    return results
-            return []
+            merged: list[tuple[str, str]] = []
+            seen: set[str] = set()
+            with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+                futures = [executor.submit(_search_endpoint, engine, url) for engine, url in endpoints]
+                for future in concurrent.futures.as_completed(futures):
+                    try:
+                        batch = future.result()
+                    except Exception:
+                        batch = []
+                    for title, href in batch:
+                        if href in seen:
+                            continue
+                        seen.add(href)
+                        merged.append((title, href))
+                        if len(merged) >= 40:
+                            return merged
+            return merged
 
         rr.fetch = bounded_official_fetch
         rr.ddg_results = fast_search_results
@@ -103,10 +119,11 @@ if os.path.basename(sys.argv[0]) == "run_ultra_naver.py":
                 hit = parallel.cached(url)
                 if hit is not None:
                     return hit
-                result = _single_fetch(url, timeout=12)
+                result = _single_fetch(url, timeout=8)
                 return parallel.store(url, result)
             return _original_parallel_bounded_fetch(url)
 
         parallel.bounded_fetch = fast_parallel_bounded_fetch
+        parallel.MAX_REVALIDATE_WORKERS = 20
     except Exception as exc:  # fail closed; runtime audit will expose unresolved evidence
         print(f"sitecustomize research patch unavailable: {type(exc).__name__}: {exc}", file=sys.stderr)
