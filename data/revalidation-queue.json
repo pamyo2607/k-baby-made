@@ -2436,26 +2436,6 @@
     "priority": 4
   },
   {
-    "id": "TOY-20260729-173",
-    "category": "완구",
-    "brand": "클래식월드",
-    "name": "포레스트 원목 롤러코스터 돌 선물 아기 장난감",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 4
-  },
-  {
     "id": "TOY-20260729-178",
     "category": "완구",
     "brand": "하늘썬별",
@@ -6044,6 +6024,28 @@
       "Safety Korea 동일 모델 연결",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "TOY-20260729-173",
+    "category": "완구",
+    "brand": "클래식월드",
+    "name": "포레스트 원목 롤러코스터 돌 선물 아기 장난감",
+    "checkedAt": "2026-09-01",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "0~35개월 공식 월령"
     ],
     "priority": 5
   },
