@@ -894,6 +894,24 @@
     "priority": 3
   },
   {
+    "id": "MASTER-0021",
+    "category": "위생·기저귀",
+    "brand": "하기스",
+    "name": "보송보송 팬티형 4단계 336매",
+    "checkedAt": "2026-09-01",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 3
+  },
+  {
     "id": "MASTER-0026",
     "category": "위생·기저귀",
     "brand": "베베숲",
@@ -2632,26 +2650,6 @@
       "완제품 제조국",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0021",
-    "category": "위생·기저귀",
-    "brand": "하기스",
-    "name": "보송보송 팬티형 4단계 336매",
-    "checkedAt": "2026-09-01",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "officialEvidence",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "동일 제품 공식 근거 URL",
-      "현재 구매 가능한 국내 판매 페이지"
     ],
     "priority": 4
   },
@@ -4624,28 +4622,6 @@
     "category": "완구",
     "brand": "하늘썬별",
     "name": "베이비 터치 스마트 폰 HUANHE8001",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "currentSale",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "TOY-20260729-162",
-    "category": "완구",
-    "brand": "하늘썬별",
-    "name": "2in1 과일 아기걸음마 러닝테이블 그린",
     "checkedAt": "2026-08-04",
     "missingFields": [
       "currentSale",
@@ -7165,6 +7141,30 @@
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결",
       "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "TOY-20260729-162",
+    "category": "완구",
+    "brand": "하늘썬별",
+    "name": "2in1 과일 아기걸음마 러닝테이블 그린",
+    "checkedAt": "2026-09-01",
+    "missingFields": [
+      "currentSale",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
       "동일 제품 공식 근거 URL"
     ],
     "priority": 6
