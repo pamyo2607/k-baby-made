@@ -8,10 +8,10 @@
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 302,
     "safetyKoreaSameModel": 225,
-    "officialEvidence": 208,
+    "officialEvidence": 209,
     "exactKcNumber": 194,
-    "officialAge": 185,
-    "currentSale": 163,
+    "officialAge": 187,
+    "currentSale": 164,
     "regulatoryRegime": 23
   },
   "labels": {
@@ -457,24 +457,6 @@
       "category": "위생·기저귀",
       "brand": "킨도",
       "name": "프리미엄 뉴올데이 팬티형 6단계 80매",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0024",
-      "category": "위생·기저귀",
-      "brand": "리벤스",
-      "name": "시그니처 도톰한 아기물티슈",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "officialAge",
@@ -1241,42 +1223,6 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0095",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "실리콘 땅콩 이유식 스푼",
-      "checkedAt": "2026-09-01",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0096",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "유아용 이유식 떠먹스푼 + 케이스 세트",
-      "checkedAt": "2026-09-01",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -3081,6 +3027,46 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0095",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "실리콘 땅콩 이유식 스푼",
+      "checkedAt": "2026-09-01",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0096",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "유아용 이유식 떠먹스푼 + 케이스 세트",
+      "checkedAt": "2026-09-01",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0124",
       "category": "이유식·식기",
       "brand": "홈하우스",
@@ -4693,6 +4679,28 @@
       "category": "위생·기저귀",
       "brand": "달곰이",
       "name": "데일리 아기물티슈 캡형",
+      "checkedAt": "2026-09-01",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0024",
+      "category": "위생·기저귀",
+      "brand": "리벤스",
+      "name": "시그니처 도톰한 아기물티슈",
       "checkedAt": "2026-09-01",
       "missingFields": [
         "officialAge",
