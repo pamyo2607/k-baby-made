@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-09-01T16:32:05+00:00",
+    "lastRun": "2026-09-01T16:48:20+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-unresolved-retry",
@@ -20,181 +20,147 @@
     "categoryIndex": 0,
     "pendingAvailableBeforeRun": 380,
     "canonicalPendingBeforeRun": 380,
-    "pendingCursorStart": 157,
-    "pendingCursorNext": 208,
+    "pendingCursorStart": 208,
+    "pendingCursorNext": 258,
     "pendingSelected": 50,
     "pendingSelectedIds": [
-      "RUN18-003",
-      "RUN18-010",
-      "RUN18-014",
-      "TEETHER-20260801-004",
-      "TEETHER-20260801-020",
-      "TEETHER-20260801-022",
-      "TEETHER-20260801-024",
-      "TEETHER-20260801-027",
-      "TOY-20260729-001",
-      "TOY-20260729-009",
-      "TOY-20260729-014",
-      "TOY-20260729-015",
-      "TOY-20260729-019",
-      "TOY-20260729-023",
-      "TOY-20260729-036",
-      "TOY-20260729-046",
-      "TOY-20260729-058",
-      "TOY-20260729-059",
-      "TOY-20260729-064",
-      "TOY-20260729-068",
-      "TOY-20260729-070",
-      "TOY-20260729-078",
-      "TOY-20260729-085",
-      "TOY-20260729-087",
-      "TOY-20260729-088",
-      "TOY-20260729-092",
-      "TOY-20260729-096",
-      "TOY-20260729-098",
-      "TOY-20260729-099",
-      "TOY-20260729-100",
-      "TOY-20260729-102",
-      "TOY-20260729-108",
-      "TOY-20260729-116",
-      "TOY-20260729-130",
-      "TOY-20260729-136",
-      "TOY-20260729-144",
-      "TOY-20260729-153",
-      "TOY-20260729-156",
-      "TOY-20260729-164",
-      "TOY-20260729-186",
-      "TOY-20260729-188",
-      "TOY-20260729-189",
-      "TOY-20260729-196",
-      "MASTER-0158",
-      "MASTER-0081",
-      "MASTER-0097",
-      "MASTER-0136",
-      "MASTER-0137",
-      "MASTER-0167",
-      "MASTER-0168"
+      "MASTER-0171",
+      "MASTER-0202",
+      "MASTER-0203",
+      "MASTER-0204",
+      "MASTER-0205",
+      "MASTER-0212",
+      "RUN18-002",
+      "RUN18-004",
+      "RUN18-007",
+      "TEETHER-20260801-003",
+      "TEETHER-20260801-019",
+      "TOY-20260729-002",
+      "TOY-20260729-003",
+      "TOY-20260729-005",
+      "TOY-20260729-007",
+      "TOY-20260729-011",
+      "TOY-20260729-012",
+      "TOY-20260729-017",
+      "TOY-20260729-020",
+      "TOY-20260729-021",
+      "TOY-20260729-022",
+      "TOY-20260729-026",
+      "TOY-20260729-028",
+      "TOY-20260729-029",
+      "TOY-20260729-030",
+      "TOY-20260729-031",
+      "TOY-20260729-032",
+      "TOY-20260729-037",
+      "TOY-20260729-039",
+      "TOY-20260729-040",
+      "TOY-20260729-041",
+      "TOY-20260729-042",
+      "TOY-20260729-044",
+      "TOY-20260729-045",
+      "TOY-20260729-047",
+      "TOY-20260729-048",
+      "TOY-20260729-049",
+      "TOY-20260729-050",
+      "TOY-20260729-051",
+      "TOY-20260729-052",
+      "TOY-20260729-055",
+      "TOY-20260729-056",
+      "TOY-20260729-057",
+      "TOY-20260729-060",
+      "TOY-20260729-061",
+      "TOY-20260729-062",
+      "TOY-20260729-063",
+      "TOY-20260729-065",
+      "TOY-20260729-067",
+      "TOY-20260729-069"
     ],
     "revalidationAttempts": 50,
-    "revalidationCompleted": 39,
+    "revalidationCompleted": 37,
     "successfulRevalidations": 0,
     "effectiveRevalidations": 0,
     "revalidationErrorCount": 50,
-    "recordsChangedThisRun": 39,
+    "recordsChangedThisRun": 24,
     "recordsChangedIds": [
-      "RUN18-010",
-      "RUN18-014",
-      "TEETHER-20260801-004",
-      "TEETHER-20260801-020",
-      "TEETHER-20260801-022",
-      "TEETHER-20260801-024",
-      "TEETHER-20260801-027",
-      "TOY-20260729-001",
-      "TOY-20260729-009",
-      "TOY-20260729-014",
-      "TOY-20260729-015",
-      "TOY-20260729-019",
-      "TOY-20260729-023",
-      "TOY-20260729-046",
-      "TOY-20260729-058",
-      "TOY-20260729-059",
-      "TOY-20260729-068",
-      "TOY-20260729-078",
-      "TOY-20260729-092",
-      "TOY-20260729-096",
-      "TOY-20260729-098",
-      "TOY-20260729-099",
-      "TOY-20260729-100",
-      "TOY-20260729-102",
-      "TOY-20260729-108",
-      "TOY-20260729-130",
-      "TOY-20260729-136",
-      "TOY-20260729-144",
-      "TOY-20260729-153",
-      "TOY-20260729-156",
-      "TOY-20260729-186",
-      "TOY-20260729-188",
-      "TOY-20260729-189",
-      "TOY-20260729-196",
-      "MASTER-0158",
-      "MASTER-0136",
-      "MASTER-0137",
-      "MASTER-0167",
-      "MASTER-0168"
+      "MASTER-0171",
+      "MASTER-0202",
+      "MASTER-0203",
+      "MASTER-0204",
+      "MASTER-0205",
+      "MASTER-0212",
+      "RUN18-002",
+      "RUN18-004",
+      "RUN18-007",
+      "TEETHER-20260801-019",
+      "TOY-20260729-002",
+      "TOY-20260729-003",
+      "TOY-20260729-011",
+      "TOY-20260729-017",
+      "TOY-20260729-022",
+      "TOY-20260729-026",
+      "TOY-20260729-028",
+      "TOY-20260729-029",
+      "TOY-20260729-030",
+      "TOY-20260729-032",
+      "TOY-20260729-037",
+      "TOY-20260729-039",
+      "TOY-20260729-040",
+      "TOY-20260729-065"
     ],
     "statusTransitionsThisRun": {},
     "researchOutcome": "partial-evidence-only",
     "includedThisRun": 0,
     "includedTotalAfterRun": 24,
-    "rawCandidatesFoundThisRun": 30,
-    "rawNewCandidates": 30,
+    "rawCandidatesFoundThisRun": 27,
+    "rawNewCandidates": 27,
     "newCandidatesStagedBeforeSanitizationThisRun": 6,
     "newCandidatesAcceptedBeforeSanitizationThisRun": 6,
     "newCandidates": 6,
     "candidateIdsDiscoveredThisRun": [
-      "DISC-B4C813820E1A",
-      "DISC-E4DCDA854776",
-      "DISC-48900C96D22D",
-      "DISC-983B3EA7D026",
-      "DISC-0F4F63E9179C",
-      "DISC-C2D02BC12E99"
+      "DISC-166B74C62A72",
+      "DISC-F99FB4D3C1CE",
+      "DISC-FF71869F3D1B",
+      "DISC-08C719606CF6",
+      "DISC-19F98FE52967",
+      "DISC-1FA68C3B23AD"
     ],
     "newCandidatesByCategory": {
-      "완구": 2,
-      "구강·치발기": 0,
+      "완구": 0,
+      "구강·치발기": 1,
       "턱받이": 0,
-      "수유용품": 1,
+      "수유용품": 2,
       "이유식·식기": 1,
       "위생·기저귀": 2
     },
-    "candidateTotalAfterRun": 587,
+    "candidateTotalAfterRun": 593,
     "candidateTotalsByCategoryAfterRun": {
       "완구": 69,
-      "구강·치발기": 97,
+      "구강·치발기": 98,
       "턱받이": 113,
-      "수유용품": 130,
-      "이유식·식기": 64,
-      "위생·기저귀": 114
+      "수유용품": 132,
+      "이유식·식기": 65,
+      "위생·기저귀": 116
     },
     "errors": 50,
     "totalProducts": 451,
-    "canonicalShaAfterRun": "f110f9bb2007874f1c6628dec28745cf058de0394742ad4adc9a94bd243f34c2",
-    "stagingShaAfterRun": "4db37fdbf55cf1f7716d85c4054bcd4ecf26f93443896e8c7580e3acd3bd646b",
+    "canonicalShaAfterRun": "e50d207da5b28efa4d761e9a2571bec84690f2b46bab3b6aa246f2162d1d4b53",
+    "stagingShaAfterRun": "bf7d9f39f82acb4d23fa54ac30a34ac826dcec71e59e7352e60842bf03aaf8e1",
     "newCandidatesRejectedBySanitizationThisRun": 0,
     "newCandidatesThisRun": 6,
     "candidateIdsAcceptedThisRun": [
-      "DISC-B4C813820E1A",
-      "DISC-E4DCDA854776",
-      "DISC-48900C96D22D",
-      "DISC-983B3EA7D026",
-      "DISC-0F4F63E9179C",
-      "DISC-C2D02BC12E99"
+      "DISC-166B74C62A72",
+      "DISC-F99FB4D3C1CE",
+      "DISC-FF71869F3D1B",
+      "DISC-08C719606CF6",
+      "DISC-19F98FE52967",
+      "DISC-1FA68C3B23AD"
     ],
     "removedInvalidCandidates": 0
   },
   "statusTransitions": [],
   "products": [
     {
-      "id": "RUN18-003",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://tgmbaby.co.kr/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "RUN18-010",
+      "id": "MASTER-0171",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -202,25 +168,51 @@
         "kc_number_on_sales_page"
       ],
       "evidencePagesTried": [
-        "https://m.kidsning.com/product/112549",
-        "https://angemall.com/product/%EB%B9%84%EB%B0%80%EB%A7%81%ED%81%AC-%ED%95%9C%EC%A0%95-56-%ED%95%A0%EC%9D%B8-%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2110/"
+        "https://blog.naver.com/PostView.naver?blogId=perfect_aj&logNo=223087180586",
+        "https://prod.danawa.com/info/?pcode=30199376"
       ],
       "crossSourceDiagnostic": {
         "saleFound": true,
-        "saleUrl": "https://m.kidsning.com/product/112549",
+        "saleUrl": "https://prod.danawa.com/info/?pcode=30199376",
         "ageFound": true,
-        "ageUrl": "https://m.kidsning.com/product/112549",
+        "ageUrl": "https://store.crd.kr/p/p-6854274597",
         "kcNumbers": [],
         "linkedKcNumbers": [],
         "safetyMatches": [],
         "evidencePagesTried": [
-          "https://m.kidsning.com/product/112549",
-          "https://angemall.com/product/%EB%B9%84%EB%B0%80%EB%A7%81%ED%81%AC-%ED%95%9C%EC%A0%95-56-%ED%95%A0%EC%9D%B8-%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2110/"
+          "https://prod.danawa.com/info/?pcode=30199376",
+          "https://blog.naver.com/PostView.naver?blogId=perfect_aj&logNo=223087180586"
         ]
       }
     },
     {
-      "id": "RUN18-014",
+      "id": "MASTER-0202",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://mom-mom.net/itemsharings/6176b8a713415840384c71bf",
+        "https://mom-mom.net/itemsharings/626760d31502e6a25346e8e1"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://mom-mom.net/itemsharings/6176b8a713415840384c71bf",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://mom-mom.net/itemsharings/6176b8a713415840384c71bf",
+          "https://mom-mom.net/itemsharings/626760d31502e6a25346e8e1"
+        ]
+      }
+    },
+    {
+      "id": "MASTER-0203",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -228,71 +220,25 @@
         "age_basis"
       ],
       "evidencePagesTried": [
-        "https://momiliter.co.kr/shop/item.php?it_id=1679906528"
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-3d%EC%88%98%EB%B0%95-%EB%B2%A0%EC%8A%A4%ED%8A%B8-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2100/",
+        "https://www.fallcent.com/product/DRHETq0GnrURAjKo65VdbWMJwlTghaEQ/"
       ],
       "crossSourceDiagnostic": {
         "saleFound": true,
-        "saleUrl": "https://momiliter.co.kr/shop/item.php?it_id=1679906528",
+        "saleUrl": "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-3d%EC%88%98%EB%B0%95-%EB%B2%A0%EC%8A%A4%ED%8A%B8-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2100/",
         "ageFound": false,
         "ageUrl": "",
         "kcNumbers": [],
         "linkedKcNumbers": [],
         "safetyMatches": [],
         "evidencePagesTried": [
-          "https://momiliter.co.kr/shop/item.php?it_id=1679906528"
+          "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B0%94%EB%82%98%EB%82%98-3d%EC%88%98%EB%B0%95-%EB%B2%A0%EC%8A%A4%ED%8A%B8-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2100/",
+          "https://www.fallcent.com/product/DRHETq0GnrURAjKo65VdbWMJwlTghaEQ/"
         ]
       }
     },
     {
-      "id": "TEETHER-20260801-004",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=20828708"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=20828708",
-        "ageFound": true,
-        "ageUrl": "https://sangkuahn.github.io/2108600331/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=20828708"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-020",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=20801723"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=20801723",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=20801723"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-022",
+      "id": "MASTER-0204",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -300,1019 +246,27 @@
         "age_basis"
       ],
       "evidencePagesTried": [
-        "https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021332&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bmp8W11E",
-        "https://www.kurly.com/goods/1001759742"
+        "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%ED%8C%94%EC%B0%8C-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2092/",
+        "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2102791889",
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EA%B5%AD%EB%AF%BC-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85/2050/"
       ],
       "crossSourceDiagnostic": {
         "saleFound": true,
-        "saleUrl": "https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021332&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bmp8W11E",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB061H387-1001"
-        ],
-        "linkedKcNumbers": [
-          "CB061H387-1001"
-        ],
-        "safetyMatches": [
-          "CB061H387-1001"
-        ],
-        "evidencePagesTried": [
-          "https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021332&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bmp8W11E",
-          "https://www.kurly.com/goods/1001759742"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-024",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://mamastem.com/product/jemjem-monster-origin-%EC%9E%BC%EC%9E%BC%EB%AA%AC%EC%8A%A4%ED%84%B0-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/35/",
-        "https://www.fallcent.com/product/GJtObA2MmCHIahArfTt1JjcE6WxQzDwv/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://mamastem.com/product/jemjem-monster-origin-%EC%9E%BC%EC%9E%BC%EB%AA%AC%EC%8A%A4%ED%84%B0-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/35/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://mamastem.com/product/jemjem-monster-origin-%EC%9E%BC%EC%9E%BC%EB%AA%AC%EC%8A%A4%ED%84%B0-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/35/",
-          "https://www.fallcent.com/product/GJtObA2MmCHIahArfTt1JjcE6WxQzDwv/"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-027",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
-        "http://www.angekorea.com/ko/products/products.html"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB061B009-6001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
-          "http://www.angekorea.com/ko/products/products.html"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-001",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://m.danawa.com/product/product.html?code=26585312"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://m.danawa.com/product/product.html?code=26585312",
-        "ageFound": true,
-        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://m.danawa.com/product/product.html?code=26585312"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-009",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://e-redpoint.com/member/login.html"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB065R0358-8001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://e-redpoint.com/member/login.html"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-014",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://m.danawa.com/product/product.html?code=26618714",
-        "https://prod.danawa.com/info/?pcode=26618714"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://m.danawa.com/product/product.html?code=26618714",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://m.danawa.com/product/product.html?code=26618714",
-          "https://prod.danawa.com/info/?pcode=26618714"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-015",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=20789468"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=20789468",
-        "ageFound": true,
-        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=20789468"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-019",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88450239007"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88450239007",
-        "kcNumbers": [
-          "CB067R1111-4003"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88450239007"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-023",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=26550014"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=26550014",
-        "ageFound": true,
-        "ageUrl": "https://mayaorganic.com/eco-friendly-wooden-toys/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=26550014"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-036",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://sweet-heart.co.kr/category/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%9D%B8%ED%98%95/116/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-046",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.hellomarket.com/item/176421113",
-        "https://search.danawa.com/dsearch.php?query=%EB%BD%80%EB%A1%9C%EB%A1%9C+%EB%AF%B8%EB%8B%88+%EC%98%A4%EB%9A%9D%EC%9D%B4"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://www.hellomarket.com/item/176421113",
-        "kcNumbers": [
-          "CB063R221-5002"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.hellomarket.com/item/176421113",
-          "https://search.danawa.com/dsearch.php?query=%EB%BD%80%EB%A1%9C%EB%A1%9C+%EB%AF%B8%EB%8B%88+%EC%98%A4%EB%9A%9D%EC%9D%B4"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-058",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128",
-        "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2306011468",
-        "https://prod.danawa.com/info/?pcode=21353420"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=21353420",
-        "ageFound": true,
-        "ageUrl": "https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128",
-        "kcNumbers": [
-          "CB064R987-9001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=21353420",
-          "https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128",
-          "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2306011468"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-059",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128",
-        "kcNumbers": [
-          "CB064R987-1001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-064",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB064R987-1001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-068",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://playmax.co.kr/product/%EC%98%A4%EB%A6%AC-%EB%9C%B0%EC%B1%84/295/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://playmax.co.kr/product/%EC%98%A4%EB%A6%AC-%EB%9C%B0%EC%B1%84/295/",
+        "saleUrl": "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%ED%8C%94%EC%B0%8C-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2092/",
         "ageFound": false,
         "ageUrl": "",
         "kcNumbers": [],
         "linkedKcNumbers": [],
         "safetyMatches": [],
         "evidencePagesTried": [
-          "https://playmax.co.kr/product/%EC%98%A4%EB%A6%AC-%EB%9C%B0%EC%B1%84/295/"
+          "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%ED%8C%94%EC%B0%8C-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2092/",
+          "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2102791889",
+          "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EA%B5%AD%EB%AF%BC-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85/2050/"
         ]
       }
     },
     {
-      "id": "TOY-20260729-070",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://kidzmall.co.kr/",
-        "kcNumbers": [
-          "CB064R987-1001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-078",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=25158623",
-        "https://search.danawa.com/dsearch.php?query=%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94+%EB%8F%99%EB%AC%BC+%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=25158623",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=25158623",
-          "https://search.danawa.com/dsearch.php?query=%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94+%EB%8F%99%EB%AC%BC+%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-085",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://coreb2b.cafe24.com/category/%EC%BA%90%EC%8A%A4%EB%B9%84-%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%8B%A0%EC%B2%B4%ED%99%9C%EB%8F%99/260/",
-        "kcNumbers": [
-          "CB061R1705-6002"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-087",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://coreb2b.cafe24.com/category/%EC%BA%90%EC%8A%A4%EB%B9%84-%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%8B%A0%EC%B2%B4%ED%99%9C%EB%8F%99/260/",
-        "kcNumbers": [
-          "CB063R10104-200"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-088",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB061R1705-6002"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-092",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.kids2.com/products/12092-000-bright-starts-rattle-teethe-wrist-pals-toy-monkey-elephant"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://www.kids2.com/products/12092-000-bright-starts-rattle-teethe-wrist-pals-toy-monkey-elephant",
-        "kcNumbers": [
-          "CB063R528-9005"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.kids2.com/products/12092-000-bright-starts-rattle-teethe-wrist-pals-toy-monkey-elephant"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-096",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://www.ipoomgo.com/",
-        "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%98%81%EC%9C%A0%EC%95%84-%EC%82%91%EC%82%91%EC%9D%B4-%EB%94%B8%EB%9E%91%EC%9D%B4-%EA%B3%B0/9283/",
-        "https://toymiso.com/product/list.html?cate_no=49&page=4"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://www.ipoomgo.com/",
-        "ageFound": true,
-        "ageUrl": "https://www.ipoomgo.com/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.ipoomgo.com/",
-          "https://toymiso.co.kr/product/%ED%94%BC%EC%97%90%EC%8A%A4%ED%83%80-%EC%98%81%EC%9C%A0%EC%95%84-%EC%82%91%EC%82%91%EC%9D%B4-%EB%94%B8%EB%9E%91%EC%9D%B4-%EA%B3%B0/9283/",
-          "https://toymiso.com/product/list.html?cate_no=49&page=4"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-098",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://ownerclan.com/V2/product/view.php?selfcode=W545A78",
-        "https://prod.danawa.com/info/?pcode=26644151"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=26644151",
-        "ageFound": true,
-        "ageUrl": "https://ownerclan.com/V2/product/view.php?selfcode=W545A78",
-        "kcNumbers": [
-          "CB065R0246-8001"
-        ],
-        "linkedKcNumbers": [
-          "CB065R0246-8001"
-        ],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=26644151",
-          "https://ownerclan.com/V2/product/view.php?selfcode=W545A78"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-099",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://kidsmile.co.kr/product/%EB%A6%AC%ED%8B%80%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8B%A4%EB%8B%B4%EC%95%84-%EC%9A%95%EC%8B%A4%EA%B7%B8%EB%AC%BC%EB%A7%9D/1188/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://kidsmile.co.kr/product/%EB%A6%AC%ED%8B%80%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8B%A4%EB%8B%B4%EC%95%84-%EC%9A%95%EC%8B%A4%EA%B7%B8%EB%AC%BC%EB%A7%9D/1188/",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://kidsmile.co.kr/product/%EB%A6%AC%ED%8B%80%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8B%A4%EB%8B%B4%EC%95%84-%EC%9A%95%EC%8B%A4%EA%B7%B8%EB%AC%BC%EB%A7%9D/1188/"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-100",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://playmax.co.kr/product/%ED%95%91%EA%BE%B8%ED%95%91%EA%BE%B8-%ED%9D%A1%EC%B0%A9-%ED%9A%8C%EC%A0%84-%EB%94%B8%EB%9E%91%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EA%B5%AD%EB%AF%BC%ED%85%9C-%EC%95%84%EA%B8%B0%EC%9E%A5%EB%82%9C%EA%B0%90/317/",
-        "https://www.enuri.com/detail.jsp?modelno=107885380",
-        "https://www.aisarang.co.kr/product/detail.html?product_no=390&cate_no=1&display_group=8"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://playmax.co.kr/product/%ED%95%91%EA%BE%B8%ED%95%91%EA%BE%B8-%ED%9D%A1%EC%B0%A9-%ED%9A%8C%EC%A0%84-%EB%94%B8%EB%9E%91%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EA%B5%AD%EB%AF%BC%ED%85%9C-%EC%95%84%EA%B8%B0%EC%9E%A5%EB%82%9C%EA%B0%90/317/",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://playmax.co.kr/product/%ED%95%91%EA%BE%B8%ED%95%91%EA%BE%B8-%ED%9D%A1%EC%B0%A9-%ED%9A%8C%EC%A0%84-%EB%94%B8%EB%9E%91%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EA%B5%AD%EB%AF%BC%ED%85%9C-%EC%95%84%EA%B8%B0%EC%9E%A5%EB%82%9C%EA%B0%90/317/",
-          "https://www.enuri.com/detail.jsp?modelno=107885380"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-102",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=26648987"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=26648987",
-        "ageFound": true,
-        "ageUrl": "https://www.safetykorea.kr/release/certSearch",
-        "kcNumbers": [
-          "CB065R0246-8001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=26648987"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-108",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://ownerclan.com/V2/product/view.php?selfcode=WA30043"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://ownerclan.com/V2/product/view.php?selfcode=WA30043",
-        "kcNumbers": [
-          "CB065R0246-8001"
-        ],
-        "linkedKcNumbers": [
-          "CB065R0246-8001"
-        ],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://ownerclan.com/V2/product/view.php?selfcode=WA30043"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-116",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://sweet-heart.co.kr/category/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%9D%B8%ED%98%95/116/",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-130",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61107218000"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61107218000",
-        "kcNumbers": [
-          "CB064R987-1001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61107218000"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-136",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=26613116"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=26613116",
-        "ageFound": true,
-        "ageUrl": "https://www.safetykorea.kr/release/certSearch",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=26613116"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-144",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=26519213"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=26519213",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=26519213"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-153",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.kidsbona.co.kr/goods/view_contents?no=126822&zoom=1",
-        "https://www.kinderheim.kr/shop/shopdetail.html?branduid=2113494",
-        "https://m.hansolpia.co.kr/product/%EC%86%8C%ED%94%84%ED%8A%B8%EB%AA%AC%EC%8A%A4%ED%84%B0%EC%9E%90%EB%8F%99%EC%B0%A85p/6896/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://www.kidsbona.co.kr/goods/view_contents?no=126822&zoom=1",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.kidsbona.co.kr/goods/view_contents?no=126822&zoom=1",
-          "https://www.kinderheim.kr/shop/shopdetail.html?branduid=2113494"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-156",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2603342958&lowerVendNo=LV26021046",
-        "https://www.elandmall.co.kr/i/item?itemNo=2603342958&lowerVendNo=LV26021046"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://kidikidi.elandmall.co.kr/i/item?itemNo=2603342958&lowerVendNo=LV26021046",
-        "kcNumbers": [
-          "CB063R1679-20003A"
-        ],
-        "linkedKcNumbers": [
-          "CB063R1679-20003A"
-        ],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://kidikidi.elandmall.co.kr/i/item?itemNo=2603342958&lowerVendNo=LV26021046",
-          "https://www.elandmall.co.kr/i/item?itemNo=2603342958&lowerVendNo=LV26021046"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-164",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://hearman3.mycafe24.com/2024/01/05/%ED%95%98%EB%8A%98%EC%8D%AC%EB%B3%84-2-in-1-%ED%95%B4%ED%94%BC-%EA%B1%B8%EC%9D%8C%EB%A7%88-%EC%97%90%EB%93%80-%ED%85%8C%EC%9D%B4%EB%B8%94-huanhe0828-%EA%B7%B8%EB%A6%B0/",
-        "kcNumbers": [
-          "CB067R1111-2006"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": []
-      }
-    },
-    {
-      "id": "TOY-20260729-186",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://www.torae.co.kr/shop/shopdetail.html?branduid=726907&xcode=017&mcode=001&scode=&type=X&sort=regdate&cur_code=017001&search=&GfDT=aWh3Vw=="
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://www.torae.co.kr/shop/shopdetail.html?branduid=726907&xcode=017&mcode=001&scode=&type=X&sort=regdate&cur_code=017001&search=&GfDT=aWh3Vw==",
-        "ageFound": true,
-        "ageUrl": "https://www.torae.co.kr/shop/shopdetail.html?branduid=726907&xcode=017&mcode=001&scode=&type=X&sort=regdate&cur_code=017001&search=&GfDT=aWh3Vw==",
-        "kcNumbers": [
-          "CB067R1923-3005"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.torae.co.kr/shop/shopdetail.html?branduid=726907&xcode=017&mcode=001&scode=&type=X&sort=regdate&cur_code=017001&search=&GfDT=aWh3Vw=="
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-188",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60195923787"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60195923787",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60195923787"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-189",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
-        "https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
-        "ageFound": true,
-        "ageUrl": "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
-          "https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-196",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91038804143"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91038804143",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91038804143"
-        ]
-      }
-    },
-    {
-      "id": "MASTER-0158",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://search.danawa.com/dsearch.php?query=PPSU+%EB%B9%A8%EB%8C%80%EC%A0%96%EB%B3%91+%EB%B9%A8%EB%8C%80%ED%98%95+200ml&_OC_=rdc_child&logger_kw=rdc_child",
-        "https://prod.danawa.com/info/?pcode=20828714"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0081",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0097",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0136",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
-        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EA%B3%BC%EC%9D%BC%EB%A7%81/2062/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
-          "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EA%B3%BC%EC%9D%BC%EB%A7%81/2062/"
-        ]
-      }
-    },
-    {
-      "id": "MASTER-0137",
+      "id": "MASTER-0205",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -1336,41 +290,15 @@
       }
     },
     {
-      "id": "MASTER-0167",
+      "id": "MASTER-0212",
       "checked": true,
       "changed": true,
       "quality": "ultra",
       "errors": [
-        "age_basis"
+        "sale_inactive"
       ],
       "evidencePagesTried": [
-        "https://www.kurly.com/goods/1001196694",
-        "https://www.kurly.com/goods/1001442713"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://www.kurly.com/goods/1001196694",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.kurly.com/goods/1001196694",
-          "https://www.kurly.com/goods/1001442713"
-        ]
-      }
-    },
-    {
-      "id": "MASTER-0168",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1001442713"
+        "https://fallcent.com/product/pkvuV0PoeBmjkru59bhHDz6Q1fp2FsIL/"
       ],
       "crossSourceDiagnostic": {
         "saleFound": false,
@@ -1381,7 +309,1025 @@
         "linkedKcNumbers": [],
         "safetyMatches": [],
         "evidencePagesTried": [
-          "https://www.kurly.com/goods/1001442713"
+          "https://fallcent.com/product/pkvuV0PoeBmjkru59bhHDz6Q1fp2FsIL/"
+        ]
+      }
+    },
+    {
+      "id": "RUN18-002",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91279637125"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91279637125"
+        ]
+      }
+    },
+    {
+      "id": "RUN18-004",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-3d-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/2066/",
+        "https://fallcent.com/product/v6z6W4iACGeubfWLPIT0ltvzxrnUg5DR/"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://angemall.com/product/%EC%95%99%EC%A5%AC-3d-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/2066/",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://angemall.com/product/%EC%95%99%EC%A5%AC-3d-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/2066/",
+          "https://fallcent.com/product/v6z6W4iACGeubfWLPIT0ltvzxrnUg5DR/"
+        ]
+      }
+    },
+    {
+      "id": "RUN18-007",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/"
+        ]
+      }
+    },
+    {
+      "id": "TEETHER-20260801-003",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.kids2.com/collections/toys/products/8664-000-bright-starts-lots-of-links-takealong-toys",
+        "kcNumbers": [
+          "CB063R528"
+        ],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TEETHER-20260801-019",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60457839390"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60457839390",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60457839390"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-002",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://minishop.gmarket.co.kr/toyshop/List?Category=200000575&Page=1&PageSize=60&isStarDeliveryItem=False&HasDiscount=False&HasStamp=False&IsInternationalShipping=False&MaxPrice=0&Roles=System.String%5B%5D&NeedToGetSDBrandName=True&OnlyBoughtItem=False"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
+        "kcNumbers": [
+          "XQS2029A-2"
+        ],
+        "linkedKcNumbers": [
+          "XQS2029A-2"
+        ],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://minishop.gmarket.co.kr/toyshop/List?Category=200000575&Page=1&PageSize=60&isStarDeliveryItem=False&HasDiscount=False&HasStamp=False&IsInternationalShipping=False&MaxPrice=0&Roles=System.String%5B%5D&NeedToGetSDBrandName=True&OnlyBoughtItem=False"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-003",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://toymiso.co.kr/product/%EC%95%84%EA%B8%B0-%EB%B0%B1%EC%9D%BC-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EB%AA%A8%EC%9D%8C/8166/"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://toymiso.co.kr/product/%EC%95%84%EA%B8%B0-%EB%B0%B1%EC%9D%BC-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EB%AA%A8%EC%9D%8C/8166/"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-005",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-007",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-011",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.kids2.com/products/12925-000-baby-einstein-tiny-tambourine-musical-toy-rattle-actions",
+        "https://www.momq.co.kr/shop/19293?branduid=19293",
+        "https://fallcent.com/product/ZncBML6cu2XPea9AnCMkF7x3DfRVTQUz/"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.kids2.com/products/12925-000-baby-einstein-tiny-tambourine-musical-toy-rattle-actions",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.kids2.com/products/12925-000-baby-einstein-tiny-tambourine-musical-toy-rattle-actions",
+          "https://www.momq.co.kr/shop/19293?branduid=19293"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-012",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-017",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://jbang.kr/freeboard/view/98676"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-020",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-021",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-022",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://battat.com/products/parum-pum-pum-bx1007"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://battat.com/products/parum-pum-pum-bx1007",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://battat.com/products/parum-pum-pum-bx1007"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-026",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.lfmall.co.kr/app/product/ENPMXX00042",
+        "https://kinderheim.kr/m/product_detail.html?brand_uid=2203177"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.lfmall.co.kr/app/product/ENPMXX00042",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.lfmall.co.kr/app/product/ENPMXX00042",
+          "https://kinderheim.kr/m/product_detail.html?brand_uid=2203177"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-028",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.kids2.com/products/17408-000-disney-baby-winnie-the-pooh-jingle-and-shake-rattle-toy-by-bright-starts",
+        "https://store.ohou.se/goods/3891208"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://www.kids2.com/products/17408-000-disney-baby-winnie-the-pooh-jingle-and-shake-rattle-toy-by-bright-starts",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.kids2.com/products/17408-000-disney-baby-winnie-the-pooh-jingle-and-shake-rattle-toy-by-bright-starts",
+          "https://store.ohou.se/goods/3891208"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-029",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.lotteon.com/p/product/LO2457403711"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://www.lotteon.com/p/product/LO2457403711",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.lotteon.com/p/product/LO2457403711"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-030",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61242752340"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61242752340",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61242752340"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-031",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-032",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "evidencePagesTried": [
+        "https://hottracks.kyobobook.co.kr/gift/detail/S000051935869",
+        "https://www.poom.co.kr/goods/initDetailGoods.action?goods_no=G22020358839",
+        "https://prod.danawa.com/info/?pcode=21474347"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://prod.danawa.com/info/?pcode=21474347",
+        "ageFound": true,
+        "ageUrl": "https://hottracks.kyobobook.co.kr/gift/detail/S000051935869",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://prod.danawa.com/info/?pcode=21474347",
+          "https://hottracks.kyobobook.co.kr/gift/detail/S000051935869"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-037",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60661359955"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60661359955",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60661359955"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-039",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F56684867422"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F56684867422",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F56684867422"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-040",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/A4GmMizPQ9M7rOhVZuNqj5pfTsWD1Yle/"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://fallcent.com/product/A4GmMizPQ9M7rOhVZuNqj5pfTsWD1Yle/",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://fallcent.com/product/A4GmMizPQ9M7rOhVZuNqj5pfTsWD1Yle/"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-041",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "evidencePagesTried": [
+        "https://ownerclan.com/V2/product/view.php?selfcode=WCE916F",
+        "https://prod.danawa.com/info/?pcode=32154566"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://prod.danawa.com/info/?pcode=32154566",
+        "ageFound": true,
+        "ageUrl": "https://ownerclan.com/V2/product/view.php?selfcode=WCE916F",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://prod.danawa.com/info/?pcode=32154566",
+          "https://ownerclan.com/V2/product/view.php?selfcode=WCE916F"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-042",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-044",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61243152643"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61243152643",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61243152643"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-045",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61243229902"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61243229902",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61243229902"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-047",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59324027596"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59324027596",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59324027596",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59324027596"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-048",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-049",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-050",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-051",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://www.modoo-deal.com/products/6712045"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://www.modoo-deal.com/products/6712045",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.modoo-deal.com/products/6712045"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-052",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60116361169"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60116361169",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60116361169",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60116361169"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-055",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-056",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "evidencePagesTried": [
+        "https://prod.danawa.com/info/?pcode=29574290"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://prod.danawa.com/info/?pcode=29574290",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://prod.danawa.com/info/?pcode=29574290"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-057",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://coupickit.com/product/WPkx9pwZ"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://coupickit.com/product/WPkx9pwZ",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [
+          "CB064R987-0002"
+        ],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://coupickit.com/product/WPkx9pwZ"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-060",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59616460291"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59616460291",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59616460291"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-061",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://coupickit.com/product/WPkx9pwZ"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://coupickit.com/product/WPkx9pwZ",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [
+          "CB064R987-9001"
+        ],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://coupickit.com/product/WPkx9pwZ"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-062",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2306005919"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60667959077",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [
+          "CB064R987-1001"
+        ],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.galleria.co.kr/goods/initDetailGoods.action?goods_no=2306005919",
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60667959077"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-063",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": false,
+        "saleUrl": "",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": []
+      }
+    },
+    {
+      "id": "TOY-20260729-065",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F57013944820"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F57013944820",
+        "ageFound": true,
+        "ageUrl": "https://kidzmall.co.kr/",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F57013944820"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-067",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "evidencePagesTried": [
+        "https://prod.danawa.com/info/?pcode=25963361"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://prod.danawa.com/info/?pcode=25963361",
+        "ageFound": true,
+        "ageUrl": "",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://prod.danawa.com/info/?pcode=25963361"
+        ]
+      }
+    },
+    {
+      "id": "TOY-20260729-069",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "evidencePagesTried": [
+        "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
+        "https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
+        "ageFound": true,
+        "ageUrl": "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
+        "kcNumbers": [],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
+          "https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/"
         ]
       }
     }
