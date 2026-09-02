@@ -8,10 +8,10 @@
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 302,
     "safetyKoreaSameModel": 225,
-    "officialEvidence": 211,
+    "officialEvidence": 212,
     "exactKcNumber": 194,
     "officialAge": 189,
-    "currentSale": 164,
+    "currentSale": 165,
     "regulatoryRegime": 23
   },
   "labels": {
@@ -673,24 +673,6 @@
       "category": "완구",
       "brand": "해피플레이",
       "name": "헤엄치는 파닥파닥 개구리 레드",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "TOY-20260729-085",
-      "category": "완구",
-      "brand": "캐스비",
-      "name": "말랑팡팡 쌓기블록 9종 2719",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "countryOfManufacture",
@@ -5689,6 +5671,28 @@
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "0~35개월 공식 월령"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "TOY-20260729-085",
+      "category": "완구",
+      "brand": "캐스비",
+      "name": "말랑팡팡 쌓기블록 9종 2719",
+      "checkedAt": "2026-09-02",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 5
     },
