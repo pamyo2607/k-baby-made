@@ -147,22 +147,6 @@
       "priority": 2
     },
     {
-      "id": "RUN18-010",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "앙쥬 베스트 치발기 2종 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 2
-    },
-    {
       "id": "MASTER-0004",
       "category": "위생·기저귀",
       "brand": "보솜이",
@@ -383,6 +367,22 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "완제품 제조국"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "RUN18-010",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "앙쥬 베스트 치발기 2종 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
       ],
       "priority": 2
     },
@@ -754,222 +754,6 @@
       "missingFieldLabels": [
         "완제품 제조국",
         "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0087",
-      "category": "이유식·식기",
-      "brand": "마더케이",
-      "name": "실리콘 이유식 스푼 2p + 케이스",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0092",
-      "category": "이유식·식기",
-      "brand": "쁘띠누베",
-      "name": "하트 투 하트 이유식 스푼 2P + 케이스 2P",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0094",
-      "category": "이유식·식기",
-      "brand": "아띠래빗",
-      "name": "아기곰 곡선형 이유식 스푼 2종 + 케이스",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0147",
-      "category": "위생·기저귀",
-      "brand": "보솜이",
-      "name": "NEW 리얼코튼 오가니크 팬티",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0150",
-      "category": "위생·기저귀",
-      "brand": "킨도",
-      "name": "프리미엄 뉴오슬림 에어 팬티형 4단계 36매",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0162",
-      "category": "수유용품",
-      "brand": "순수아",
-      "name": "원터치 빨대컵 빨대형",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0176",
-      "category": "이유식·식기",
-      "brand": "퍼기",
-      "name": "안심 디바이더 식판 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0184",
-      "category": "수유용품",
-      "brand": "모윰",
-      "name": "리얼핏 젖꼭지",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "RUN18-014",
-      "category": "구강·치발기",
-      "brand": "꼬꼬노리",
-      "name": "도토링 고리 치발기 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "TEETHER-20260801-004",
-      "category": "구강·치발기",
-      "brand": "메디토이",
-      "name": "젖꼭지 소재 손목치발기 + 케이스",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "TEETHER-20260801-020",
-      "category": "구강·치발기",
-      "brand": "베이비바나나",
-      "name": "실리콘 바나나 치발기",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "TOY-20260729-001",
-      "category": "완구",
-      "brand": "베이비쥬",
-      "name": "안심 우주선딸랑이",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
       ],
       "priority": 3
@@ -1479,6 +1263,60 @@
       "priority": 3
     },
     {
+      "id": "MASTER-0087",
+      "category": "이유식·식기",
+      "brand": "마더케이",
+      "name": "실리콘 이유식 스푼 2p + 케이스",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0092",
+      "category": "이유식·식기",
+      "brand": "쁘띠누베",
+      "name": "하트 투 하트 이유식 스푼 2P + 케이스 2P",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0094",
+      "category": "이유식·식기",
+      "brand": "아띠래빗",
+      "name": "아기곰 곡선형 이유식 스푼 2종 + 케이스",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
+      ],
+      "priority": 3
+    },
+    {
       "id": "MASTER-0111",
       "category": "이유식·식기",
       "brand": "모윰",
@@ -1587,6 +1425,24 @@
       "priority": 3
     },
     {
+      "id": "MASTER-0147",
+      "category": "위생·기저귀",
+      "brand": "보솜이",
+      "name": "NEW 리얼코튼 오가니크 팬티",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도"
+      ],
+      "priority": 3
+    },
+    {
       "id": "MASTER-0148",
       "category": "위생·기저귀",
       "brand": "보솜이",
@@ -1601,6 +1457,24 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0150",
+      "category": "위생·기저귀",
+      "brand": "킨도",
+      "name": "프리미엄 뉴오슬림 에어 팬티형 4단계 36매",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
       ],
       "priority": 3
     },
@@ -1623,6 +1497,24 @@
       "priority": 3
     },
     {
+      "id": "MASTER-0162",
+      "category": "수유용품",
+      "brand": "순수아",
+      "name": "원터치 빨대컵 빨대형",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
+      ],
+      "priority": 3
+    },
+    {
       "id": "MASTER-0172",
       "category": "턱받이",
       "brand": "홍스파파",
@@ -1641,6 +1533,42 @@
       "priority": 3
     },
     {
+      "id": "MASTER-0176",
+      "category": "이유식·식기",
+      "brand": "퍼기",
+      "name": "안심 디바이더 식판 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0184",
+      "category": "수유용품",
+      "brand": "모윰",
+      "name": "리얼핏 젖꼭지",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체"
+      ],
+      "priority": 3
+    },
+    {
       "id": "MASTER-0190",
       "category": "수유용품",
       "brand": "마더케이",
@@ -1655,6 +1583,78 @@
         "제조사 또는 수입업체",
         "완제품 제조국",
         "적용 안전제도"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "RUN18-014",
+      "category": "구강·치발기",
+      "brand": "꼬꼬노리",
+      "name": "도토링 고리 치발기 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "TEETHER-20260801-004",
+      "category": "구강·치발기",
+      "brand": "메디토이",
+      "name": "젖꼭지 소재 손목치발기 + 케이스",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "TEETHER-20260801-020",
+      "category": "구강·치발기",
+      "brand": "베이비바나나",
+      "name": "실리콘 바나나 치발기",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "TOY-20260729-001",
+      "category": "완구",
+      "brand": "베이비쥬",
+      "name": "안심 우주선딸랑이",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
       ],
       "priority": 3
     },
@@ -2451,46 +2451,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0095",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "실리콘 땅콩 이유식 스푼",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0096",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "유아용 이유식 떠먹스푼 + 케이스 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0097",
       "category": "이유식·식기",
       "brand": "티지엠",
@@ -2506,26 +2466,6 @@
         "현재 구매 가능한 국내 판매 페이지",
         "완제품 제조국",
         "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0135",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "베스트 치발기 오렌지링",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 4
@@ -2571,26 +2511,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0151",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "NEW 보송보송 팬티형 4단계 224매",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0158",
       "category": "수유용품",
       "brand": "맘위즈",
@@ -2607,26 +2527,6 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0166",
-      "category": "턱받이",
-      "brand": "모두아이",
-      "name": "실리콘 턱받이",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -2691,26 +2591,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0182",
-      "category": "이유식·식기",
-      "brand": "쁘띠누베",
-      "name": "실리콘 냉동 멀티큐브 20구",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0205",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -2747,66 +2627,6 @@
         "완제품 제조국",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TEETHER-20260801-022",
-      "category": "구강·치발기",
-      "brand": "쁘띠누베",
-      "name": "실리콘 과일 치발기",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TEETHER-20260801-027",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "팔찌 치발기",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "currentSale",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "현재 구매 가능한 국내 판매 페이지",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-009",
-      "category": "완구",
-      "brand": "므몽",
-      "name": "애니멀 카볼",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -3431,6 +3251,46 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0095",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "실리콘 땅콩 이유식 스푼",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0096",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "유아용 이유식 떠먹스푼 + 케이스 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0124",
       "category": "이유식·식기",
       "brand": "홈하우스",
@@ -3487,6 +3347,26 @@
         "동일 제품 공식 근거 URL",
         "완제품 제조국",
         "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0135",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "베스트 치발기 오렌지링",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 4
     },
@@ -3551,6 +3431,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0151",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "NEW 보송보송 팬티형 4단계 224매",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0152",
       "category": "턱받이",
       "brand": "네츄라오가닉",
@@ -3591,6 +3491,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0166",
+      "category": "턱받이",
+      "brand": "모두아이",
+      "name": "실리콘 턱받이",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0169",
       "category": "턱받이",
       "brand": "베베그로우",
@@ -3626,6 +3546,26 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0182",
+      "category": "이유식·식기",
+      "brand": "쁘띠누베",
+      "name": "실리콘 냉동 멀티큐브 20구",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 4
@@ -3711,6 +3651,26 @@
       "priority": 4
     },
     {
+      "id": "TEETHER-20260801-022",
+      "category": "구강·치발기",
+      "brand": "쁘띠누베",
+      "name": "실리콘 과일 치발기",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
       "id": "TEETHER-20260801-025",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -3726,6 +3686,26 @@
         "제조사 또는 수입업체",
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "TEETHER-20260801-027",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "팔찌 치발기",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "currentSale",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "현재 구매 가능한 국내 판매 페이지",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 4
@@ -3747,6 +3727,26 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "TOY-20260729-009",
+      "category": "완구",
+      "brand": "므몽",
+      "name": "애니멀 카볼",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -4511,402 +4511,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0101",
-      "category": "이유식·식기",
-      "brand": "유비맘",
-      "name": "자기주도 실리콘 스푼 + 포크 케이스 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0103",
-      "category": "이유식·식기",
-      "brand": "베베락",
-      "name": "밀폐 눈금 이유식 용기",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0107",
-      "category": "이유식·식기",
-      "brand": "티지엠",
-      "name": "에코젠 이유식 용기 3종",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0108",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "실리콘 이유식 조리도구 5종 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0114",
-      "category": "이유식·식기",
-      "brand": "쁘띠누베",
-      "name": "실리콘 멀티큐브 6구",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0117",
-      "category": "이유식·식기",
-      "brand": "아이냠",
-      "name": "이중밀폐 실리콘 이유식큐브 10구 3종 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0133",
-      "category": "구강·치발기",
-      "brand": "모윰",
-      "name": "스윙버드 손목 치발기",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "safetyKoreaSameModel",
-        "officialEvidence",
-        "exactKcNumber",
-        "currentSale"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "Safety Korea 동일 모델 연결",
-        "동일 제품 공식 근거 URL",
-        "동일 제품 KC 인증번호",
-        "현재 구매 가능한 국내 판매 페이지"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0145",
-      "category": "이유식·식기",
-      "brand": "티지엠",
-      "name": "실리콘 조가비 흡착볼 뚜껑 합본팩",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0149",
-      "category": "위생·기저귀",
-      "brand": "슈퍼대디",
-      "name": "리얼소프트 밴드형 30매 4팩",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0154",
-      "category": "위생·기저귀",
-      "brand": "브라운",
-      "name": "네이처 클래식 블루 캡형",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0156",
-      "category": "수유용품",
-      "brand": "그로미미",
-      "name": "PPSU 빨대컵",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0157",
-      "category": "수유용품",
-      "brand": "락앤락",
-      "name": "피너츠 스누피 리틀럽 PPSU 빨대컵",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0163",
-      "category": "수유용품",
-      "brand": "순수아",
-      "name": "원터치 스파우트컵",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0175",
-      "category": "이유식·식기",
-      "brand": "탁가온",
-      "name": "123 실리콘 흡착 3구 식판 + 토핑볼 세트",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0191",
-      "category": "수유용품",
-      "brand": "스펙트라",
-      "name": "PPSU 160ml 4개 구성",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0192",
-      "category": "수유용품",
-      "brand": "하이비",
-      "name": "PPSU 270ml 트윈팩",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0195",
-      "category": "구강·치발기",
-      "brand": "꼬꼬노리",
-      "name": "도토링 고리 치발기 24P + 파우치",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0196",
-      "category": "구강·치발기",
-      "brand": "꼬꼬노리",
-      "name": "도토링 고리 치발기 애드 박스 24개입",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0203",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -4951,28 +4555,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0213",
-      "category": "이유식·식기",
-      "brand": "글라스락 베이비",
-      "name": "세이프 유리식기 스낵뚜껑 흡착볼",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
       "id": "RUN18-004",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -4990,28 +4572,6 @@
         "완제품 제조국",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "TEETHER-20260801-024",
-      "category": "구강·치발기",
-      "brand": "마마스템",
-      "name": "잼잼몬스터 오리진 손목 치발기",
-      "checkedAt": "2026-09-02",
-      "missingFields": [
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 5
@@ -5699,6 +5259,160 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0101",
+      "category": "이유식·식기",
+      "brand": "유비맘",
+      "name": "자기주도 실리콘 스푼 + 포크 케이스 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0103",
+      "category": "이유식·식기",
+      "brand": "베베락",
+      "name": "밀폐 눈금 이유식 용기",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0107",
+      "category": "이유식·식기",
+      "brand": "티지엠",
+      "name": "에코젠 이유식 용기 3종",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0108",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "실리콘 이유식 조리도구 5종 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0114",
+      "category": "이유식·식기",
+      "brand": "쁘띠누베",
+      "name": "실리콘 멀티큐브 6구",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0117",
+      "category": "이유식·식기",
+      "brand": "아이냠",
+      "name": "이중밀폐 실리콘 이유식큐브 10구 3종 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0133",
+      "category": "구강·치발기",
+      "brand": "모윰",
+      "name": "스윙버드 손목 치발기",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "safetyKoreaSameModel",
+        "officialEvidence",
+        "exactKcNumber",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0138",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -5743,6 +5457,116 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0145",
+      "category": "이유식·식기",
+      "brand": "티지엠",
+      "name": "실리콘 조가비 흡착볼 뚜껑 합본팩",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0149",
+      "category": "위생·기저귀",
+      "brand": "슈퍼대디",
+      "name": "리얼소프트 밴드형 30매 4팩",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0154",
+      "category": "위생·기저귀",
+      "brand": "브라운",
+      "name": "네이처 클래식 블루 캡형",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0156",
+      "category": "수유용품",
+      "brand": "그로미미",
+      "name": "PPSU 빨대컵",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0157",
+      "category": "수유용품",
+      "brand": "락앤락",
+      "name": "피너츠 스누피 리틀럽 PPSU 빨대컵",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0159",
       "category": "수유용품",
       "brand": "비바",
@@ -5760,6 +5584,28 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0163",
+      "category": "수유용품",
+      "brand": "순수아",
+      "name": "원터치 스파우트컵",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 5
@@ -5787,6 +5633,28 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0175",
+      "category": "이유식·식기",
+      "brand": "탁가온",
+      "name": "123 실리콘 흡착 3구 식판 + 토핑볼 세트",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0181",
       "category": "이유식·식기",
       "brand": "아가프라",
@@ -5804,6 +5672,94 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0191",
+      "category": "수유용품",
+      "brand": "스펙트라",
+      "name": "PPSU 160ml 4개 구성",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0192",
+      "category": "수유용품",
+      "brand": "하이비",
+      "name": "PPSU 270ml 트윈팩",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0195",
+      "category": "구강·치발기",
+      "brand": "꼬꼬노리",
+      "name": "도토링 고리 치발기 24P + 파우치",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0196",
+      "category": "구강·치발기",
+      "brand": "꼬꼬노리",
+      "name": "도토링 고리 치발기 애드 박스 24개입",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 5
@@ -5827,6 +5783,28 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0213",
+      "category": "이유식·식기",
+      "brand": "글라스락 베이비",
+      "name": "세이프 유리식기 스낵뚜껑 흡착볼",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 5
     },
@@ -5871,6 +5849,28 @@
         "동일 제품 공식 근거 URL",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "TEETHER-20260801-024",
+      "category": "구강·치발기",
+      "brand": "마마스템",
+      "name": "잼잼몬스터 오리진 손목 치발기",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 5
     },
