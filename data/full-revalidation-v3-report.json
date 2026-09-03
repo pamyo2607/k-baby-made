@@ -8,10 +8,10 @@
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 302,
     "safetyKoreaSameModel": 225,
-    "officialEvidence": 214,
+    "officialEvidence": 215,
     "exactKcNumber": 194,
     "officialAge": 189,
-    "currentSale": 168,
+    "currentSale": 169,
     "regulatoryRegime": 23
   },
   "labels": {
@@ -2115,26 +2115,6 @@
       "category": "완구",
       "brand": "플레이베이비",
       "name": "실리콘 베이비 푸쉬팝 나비 눈",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-123",
-      "category": "완구",
-      "brand": "해피플레이",
-      "name": "파닥파닥 오리 화이트 1000709728334",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "countryOfManufacture",
@@ -7004,6 +6984,30 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-123",
+      "category": "완구",
+      "brand": "해피플레이",
+      "name": "파닥파닥 오리 화이트 1000709728334",
+      "checkedAt": "2026-09-03",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
