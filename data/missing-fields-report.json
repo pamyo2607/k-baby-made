@@ -11,7 +11,7 @@
     "officialEvidence": 217,
     "exactKcNumber": 194,
     "officialAge": 189,
-    "currentSale": 169,
+    "currentSale": 170,
     "regulatoryRegime": 24
   },
   "labels": {
@@ -2789,26 +2789,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0068",
-      "category": "수유용품",
-      "brand": "리틀밥독",
-      "name": "실리콘 첫단계 양손컵",
-      "checkedAt": "2026-09-05",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0069",
       "category": "이유식·식기",
       "brand": "쁘띠누베",
@@ -4578,6 +4558,28 @@
         "동일 제품 공식 근거 URL",
         "제조사 또는 수입업체",
         "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0068",
+      "category": "수유용품",
+      "brand": "리틀밥독",
+      "name": "실리콘 첫단계 양손컵",
+      "checkedAt": "2026-09-05",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
         "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 5
