@@ -1,7 +1,7 @@
 {
   "state": {
     "metricsVersion": 2,
-    "lastRun": "2026-09-05T12:02:49+00:00",
+    "lastRun": "2026-09-05T13:00:38+00:00",
     "qualityMode": "ultra",
     "executionMode": "alternate-url-bounded-parallel",
     "selectionMode": "campaign-unresolved-retry",
@@ -20,153 +20,143 @@
     "categoryIndex": 0,
     "pendingAvailableBeforeRun": 380,
     "canonicalPendingBeforeRun": 380,
-    "pendingCursorStart": 46,
-    "pendingCursorNext": 97,
+    "pendingCursorStart": 97,
+    "pendingCursorNext": 147,
     "pendingSelected": 50,
     "pendingSelectedIds": [
-      "MASTER-0066",
-      "MASTER-0069",
-      "MASTER-0077",
-      "MASTER-0082",
-      "MASTER-0083",
-      "MASTER-0089",
-      "MASTER-0091",
-      "MASTER-0093",
-      "MASTER-0099",
-      "MASTER-0110",
-      "MASTER-0111",
-      "MASTER-0115",
-      "MASTER-0119",
-      "MASTER-0120",
-      "MASTER-0121",
-      "MASTER-0123",
-      "MASTER-0124",
-      "MASTER-0125",
-      "MASTER-0126",
-      "MASTER-0131",
-      "MASTER-0132",
-      "MASTER-0141",
-      "MASTER-0142",
-      "MASTER-0143",
-      "MASTER-0144",
-      "MASTER-0146",
-      "MASTER-0148",
-      "MASTER-0153",
-      "MASTER-0160",
-      "MASTER-0172",
-      "MASTER-0178",
-      "MASTER-0180",
-      "MASTER-0186",
-      "MASTER-0190",
-      "RUN18-015",
-      "TEETHER-20260801-001",
-      "TEETHER-20260801-006",
-      "TEETHER-20260801-007",
-      "TEETHER-20260801-017",
-      "TEETHER-20260801-025",
-      "TEETHER-20260801-030",
-      "TOY-20260729-006",
-      "TOY-20260729-010",
-      "TOY-20260729-033",
-      "TOY-20260729-034",
-      "TOY-20260729-035",
-      "MASTER-0007",
-      "MASTER-0010",
-      "MASTER-0015",
-      "MASTER-0022"
+      "MASTER-0024",
+      "MASTER-0025",
+      "MASTER-0027",
+      "MASTER-0029",
+      "MASTER-0030",
+      "MASTER-0033",
+      "MASTER-0034",
+      "MASTER-0036",
+      "MASTER-0041",
+      "MASTER-0043",
+      "MASTER-0045",
+      "MASTER-0050",
+      "MASTER-0055",
+      "MASTER-0057",
+      "MASTER-0062",
+      "MASTER-0070",
+      "MASTER-0074",
+      "MASTER-0075",
+      "MASTER-0076",
+      "MASTER-0079",
+      "MASTER-0087",
+      "MASTER-0092",
+      "MASTER-0094",
+      "MASTER-0095",
+      "MASTER-0096",
+      "MASTER-0098",
+      "MASTER-0101",
+      "MASTER-0103",
+      "MASTER-0105",
+      "MASTER-0107",
+      "MASTER-0108",
+      "MASTER-0112",
+      "MASTER-0114",
+      "MASTER-0117",
+      "MASTER-0118",
+      "MASTER-0133",
+      "MASTER-0135",
+      "MASTER-0145",
+      "MASTER-0147",
+      "MASTER-0149",
+      "MASTER-0150",
+      "MASTER-0151",
+      "MASTER-0154",
+      "MASTER-0155",
+      "MASTER-0156",
+      "MASTER-0157",
+      "MASTER-0162",
+      "MASTER-0163",
+      "MASTER-0164",
+      "MASTER-0166"
     ],
     "revalidationAttempts": 50,
-    "revalidationCompleted": 44,
+    "revalidationCompleted": 43,
     "successfulRevalidations": 0,
     "effectiveRevalidations": 0,
     "revalidationErrorCount": 50,
-    "recordsChangedThisRun": 44,
+    "recordsChangedThisRun": 28,
     "recordsChangedIds": [
-      "MASTER-0066",
-      "MASTER-0069",
-      "MASTER-0077",
-      "MASTER-0082",
-      "MASTER-0083",
-      "MASTER-0089",
-      "MASTER-0091",
-      "MASTER-0093",
-      "MASTER-0111",
-      "MASTER-0115",
-      "MASTER-0119",
-      "MASTER-0120",
-      "MASTER-0121",
-      "MASTER-0123",
-      "MASTER-0124",
-      "MASTER-0126",
-      "MASTER-0131",
-      "MASTER-0132",
-      "MASTER-0141",
-      "MASTER-0142",
-      "MASTER-0143",
-      "MASTER-0144",
-      "MASTER-0146",
-      "MASTER-0148",
-      "MASTER-0153",
-      "MASTER-0160",
-      "MASTER-0172",
-      "MASTER-0180",
-      "MASTER-0186",
-      "MASTER-0190",
-      "RUN18-015",
-      "TEETHER-20260801-001",
-      "TEETHER-20260801-006",
-      "TEETHER-20260801-007",
-      "TEETHER-20260801-017",
-      "TEETHER-20260801-025",
-      "TEETHER-20260801-030",
-      "TOY-20260729-006",
-      "TOY-20260729-010",
-      "TOY-20260729-033",
-      "TOY-20260729-034",
-      "TOY-20260729-035",
-      "MASTER-0015",
-      "MASTER-0022"
+      "MASTER-0024",
+      "MASTER-0025",
+      "MASTER-0027",
+      "MASTER-0029",
+      "MASTER-0030",
+      "MASTER-0033",
+      "MASTER-0034",
+      "MASTER-0036",
+      "MASTER-0041",
+      "MASTER-0043",
+      "MASTER-0045",
+      "MASTER-0050",
+      "MASTER-0055",
+      "MASTER-0057",
+      "MASTER-0062",
+      "MASTER-0070",
+      "MASTER-0075",
+      "MASTER-0076",
+      "MASTER-0079",
+      "MASTER-0087",
+      "MASTER-0092",
+      "MASTER-0094",
+      "MASTER-0095",
+      "MASTER-0096",
+      "MASTER-0101",
+      "MASTER-0103",
+      "MASTER-0107",
+      "MASTER-0145"
     ],
     "statusTransitionsThisRun": {},
     "researchOutcome": "partial-evidence-only",
     "includedThisRun": 0,
     "includedTotalAfterRun": 24,
-    "rawCandidatesFoundThisRun": 28,
-    "rawNewCandidates": 28,
-    "newCandidatesStagedBeforeSanitizationThisRun": 0,
-    "newCandidatesAcceptedBeforeSanitizationThisRun": 0,
-    "newCandidates": 0,
-    "candidateIdsDiscoveredThisRun": [],
+    "rawCandidatesFoundThisRun": 30,
+    "rawNewCandidates": 30,
+    "newCandidatesStagedBeforeSanitizationThisRun": 2,
+    "newCandidatesAcceptedBeforeSanitizationThisRun": 2,
+    "newCandidates": 2,
+    "candidateIdsDiscoveredThisRun": [
+      "DISC-C096CCEF36D7",
+      "DISC-FA82F5DF5469"
+    ],
     "newCandidatesByCategory": {
       "완구": 0,
       "구강·치발기": 0,
       "턱받이": 0,
-      "수유용품": 0,
+      "수유용품": 2,
       "이유식·식기": 0,
       "위생·기저귀": 0
     },
-    "candidateTotalAfterRun": 677,
+    "candidateTotalAfterRun": 679,
     "candidateTotalsByCategoryAfterRun": {
       "완구": 78,
       "구강·치발기": 105,
       "턱받이": 133,
-      "수유용품": 161,
+      "수유용품": 163,
       "이유식·식기": 70,
       "위생·기저귀": 130
     },
     "errors": 50,
     "totalProducts": 451,
-    "canonicalShaAfterRun": "c50179208e210947f162d51c2de5bf13be1088179239f01e8d3a984de3f7de69",
-    "stagingShaAfterRun": "dbe28a8553033d9506849c04d6752d96e08d82df884dedb140a027b08990184f",
+    "canonicalShaAfterRun": "964ea63bd6a6fa8b4840df61a55b70251c618aded158e4d391120f41364e33f6",
+    "stagingShaAfterRun": "ce6999affb0ecf31cdcfeb90f3e253e5441a4426b11662f20932c1dc5ff44990",
     "newCandidatesRejectedBySanitizationThisRun": 0,
-    "newCandidatesThisRun": 0,
-    "candidateIdsAcceptedThisRun": [],
+    "newCandidatesThisRun": 2,
+    "candidateIdsAcceptedThisRun": [
+      "DISC-C096CCEF36D7",
+      "DISC-FA82F5DF5469"
+    ],
     "removedInvalidCandidates": 0
   },
   "statusTransitions": [],
   "products": [
     {
-      "id": "MASTER-0066",
+      "id": "MASTER-0024",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -174,14 +164,14 @@
         "sale_inactive"
       ],
       "evidencePagesTried": [
-        "https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false"
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59589058474"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0069",
+      "id": "MASTER-0025",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -189,169 +179,16 @@
         "sale_inactive"
       ],
       "evidencePagesTried": [
-        "https://m.bunjang.co.kr/products/216107129"
+        "https://funiz.com/goods/14883853",
+        "https://geniealert.co.kr/goods/detail/7455919074?itemId=18854921300&vendorItemId=85984112985",
+        "https://fallcent.com/product/rw3bjxOfV46JFBUny0b8kZAD9vGEqltK/"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0077",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
-        "https://www.elandmall.co.kr/i/item?itemNo=2205724780&lowerVendNo=LV21033354"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0082",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://m.tackaon.com/product/list.html?cate_no=65",
-        "https://tackaon.com/product/%ED%83%81%EA%B0%80%EC%98%A8-123-%EC%8B%A4%EB%A6%AC%EC%BD%98-%ED%9D%A1%EC%B0%A9%EC%8B%9D%ED%8C%90-3%EA%B5%AC-%EC%8B%9D%ED%8C%90/388/",
-        "https://fallcent.com/product/IrgoEKrCtB7RzK6sVNDYyeh1TpwnfgEZ/"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0083",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1001423035",
-        "https://fallcent.com/product/twB8d7Eqp8UkVQTx3DZny2cbAl916RGw/",
-        "https://tackaon.com/product/%ED%83%81%EA%B0%80%EC%98%A8-123-%EC%8B%A4%EB%A6%AC%EC%BD%98-%ED%9D%A1%EC%B0%A9%EC%8B%9D%ED%8C%90-3%EA%B5%AC-%EC%8B%9D%ED%8C%90/388/"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0089",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://momiliter.co.kr/shop/item.php?it_id=1722846471",
-        "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1340&thisCategory=1340"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0091",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1001183062",
-        "https://www.enuri.com/detail.jsp?modelno=24780233"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0093",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1002059516"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0099",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0110",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0111",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1000429275",
-        "https://fallcent.com/product/lUHM8ZiNW32eSTRK4FjywbzqnrspU9GV/",
-        "https://www.ibabynews.com/news/articleView.html?idxno=130303"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0115",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1000429275",
-        "https://fallcent.com/product/gqtJMTaTjBJ9CVbLo017lfthYkQqxuNe/",
-        "https://www.kurly.com/goods/1001430171"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0119",
+      "id": "MASTER-0027",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -359,16 +196,16 @@
         "law_specific_evidence"
       ],
       "evidencePagesTried": [
-        "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
-        "https://www.kurly.com/goods/1000429275",
-        "https://blog.naver.com/PostView.naver?blogId=terrace5842&logNo=223702287696"
+        "https://www.bebesup.co.kr/goods/view?no=441",
+        "https://www.bebesup.co.kr/goods/catalog?sort=low_price&code=000800040012&popup=&iframe=",
+        "https://www.bebesup.co.kr/goods/catalog?sort=popular_sales&code=000800040012&popup=&iframe="
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0120",
+      "id": "MASTER-0029",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -376,65 +213,467 @@
         "age_basis"
       ],
       "evidencePagesTried": [
-        "https://jammuk.com/product/%EC%9E%BC%EB%A8%B9-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C/81/",
-        "https://www.kurly.com/goods/1001764730",
-        "https://prod.danawa.com/info/?pcode=26458985"
+        "https://fallcent.com/product/tXFO7Eqp8UkVQTx3DZny2cbAl916RGwJ/",
+        "https://prod.danawa.com/info/?pcode=102015206"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0121",
+      "id": "MASTER-0030",
       "checked": true,
       "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://ddcou.com/items/3838"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0033",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/QfgFkBKDpWlxL7jMe1C5TNHd4ROm2UZk/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0034",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/TwiRrD0DuhHLzRlQwUv16gnmtb3B9jpG/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0036",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://mall.suomi.co.kr/goods/goods_main.php?sno=43",
+        "https://m.mall.suomi.co.kr/goods/goods_search.php?keyword=%EC%97%A0%EB%B3%B4%EC%8B%B1"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0041",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://make-issue.com/detail/1278",
+        "https://party.inven.co.kr/hotdeal/view/7703?pg=23"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0043",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2309592948",
+        "https://www.enuri.com/detail.jsp?modelno=57436043",
+        "https://prod.danawa.com/info/?pcode=12880592"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0045",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/1Xy1eaoFRpyuJV9bm2fDaCiKzLYdGB8s/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0050",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61358392450"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0055",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "law_specific_evidence"
+      ],
+      "evidencePagesTried": [
+        "https://www.enuri.com/detail.jsp?modelno=75540996",
+        "https://blog.naver.com/PostView.naver?blogId=sina1994&logNo=221663634626",
+        "https://prod.danawa.com/info/?pcode=26431334"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0057",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://ubmom.cafe24.com/product/list.html?cate_no=48"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0062",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/KpxE11HqiPNsdTzQ2lMR9yFBImhUnj67/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0070",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://agafura.co.kr/product/list.html?cate_no=112",
+        "https://fallcent.com/product/8as5zo9ekVW4j5nuyYa0fCZF7TPciRLK/",
+        "https://fallcent.com/product/kQV8oGCYrbneB80GuLpgmtj71ixIoZ6h/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0074",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0075",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/MAs2XJhmCQlSxHaGbvO7dwFnBDKLYEzf/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0076",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://www.kurly.com/goods/1001442928",
+        "https://www.kurly.com/goods/1001442911",
+        "https://blog.naver.com/PostView.naver?blogId=rapampa&logNo=222201470565&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0079",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/dT2RjuwFIkKS0BiRUH8nyr1oWZxQb5XA/",
+        "https://fallcent.com/product/vPM1B4iACGeubfWLPIT0ltvzxrnUg5DR/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0087",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://motherkmall.co.kr/product/%EB%A0%88%EC%9D%B4%EC%98%A8%EA%B1%B4%ED%8B%B0%EC%8A%88-%EC%A6%9D%EC%A0%95%F0%9F%8D%92%ED%97%88%EA%B7%B8-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EC%B2%98%EC%9D%8C%EC%8A%A4%ED%91%BC2p-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%8F%AC%ED%95%A84m/479/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0092",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021283&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bm11W19E",
+        "https://www.kurly.com/goods/1001183059"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0094",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://www.kurly.com/goods/1001628586"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0095",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0096",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0098",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0101",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.elandmall.co.kr/i/item?itemNo=2202274387&lowerVendNo=LV20025870"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0103",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.wrapuppro.com/zcontent/view/srch_rVDqmA3yUU5cga0"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0105",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0107",
+      "checked": true,
+      "changed": true,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/1TG6raoFRpyuJV9bm2fDaCiKzLYdGB8s/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0108",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/7WV46gsLTItYVElcgFO90GWpC4SXBykN/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0112",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0114",
+      "checked": true,
+      "changed": false,
       "quality": "ultra",
       "errors": [
         "age_basis"
       ],
       "evidencePagesTried": [
         "https://www.kurly.com/goods/1001764731",
-        "https://www.fallcent.com/product/1gRd9aoFRpyuJV9bm2fDaCiKzLYdGB8s/",
-        "https://www.kurly.com/goods/1001183027"
+        "https://www.enuri.com/detail.jsp?modelno=129274424",
+        "https://web.joongna.com/product/20201980"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0123",
+      "id": "MASTER-0117",
       "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.kurly.com/goods/1000429275",
-        "https://mom-mom.net/shop/products/132097820"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0124",
-      "checked": true,
-      "changed": true,
+      "changed": false,
       "quality": "ultra",
       "errors": [
         "sale_inactive"
       ],
       "evidencePagesTried": [
-        "https://fallcent.com/product/BPkC8xbuXfHVSoMdLyEYJeWhOsCFURPB/",
-        "https://www.wrapuppro.com/partner/view/srch_d6YknGVpAJ5JEN7"
+        "https://fallcent.com/product/7VxRTgsLTItYVElcgFO90GWpC4SXBykN/"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0125",
+      "id": "MASTER-0118",
       "checked": false,
       "changed": false,
       "quality": "ultra",
@@ -446,7 +685,67 @@
       }
     },
     {
-      "id": "MASTER-0126",
+      "id": "MASTER-0133",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1339&thisCategory=1350",
+        "https://m.moyuum.com/views/shop/shopview?pack_content_id=16375",
+        "https://www.moyuum.com/_vir0001/process/shopmain.asp?thisCategory=1124"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://prod.danawa.com/info/?pcode=20832338",
+        "ageFound": true,
+        "ageUrl": "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1339&thisCategory=1350",
+        "kcNumbers": [
+          "CB061A322-0001"
+        ],
+        "linkedKcNumbers": [
+          "CB061A322-0001"
+        ],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.moyuum.com/_vir0001/process/shopmain.asp?iniCategory=1339&thisCategory=1350",
+          "https://prod.danawa.com/info/?pcode=20832338",
+          "https://m.moyuum.com/views/shop/shopview?pack_content_id=16375"
+        ]
+      }
+    },
+    {
+      "id": "MASTER-0135",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://www.kurly.com/goods/1001396453",
+        "https://mom-mom.net/shop/products/131782566"
+      ],
+      "crossSourceDiagnostic": {
+        "saleFound": true,
+        "saleUrl": "https://www.kurly.com/goods/1001396453",
+        "ageFound": false,
+        "ageUrl": "",
+        "kcNumbers": [
+          "CB065B0002-9001R"
+        ],
+        "linkedKcNumbers": [],
+        "safetyMatches": [],
+        "evidencePagesTried": [
+          "https://www.kurly.com/goods/1001396453",
+          "https://mom-mom.net/shop/products/131782566"
+        ]
+      }
+    },
+    {
+      "id": "MASTER-0145",
       "checked": true,
       "changed": true,
       "quality": "ultra",
@@ -454,121 +753,24 @@
         "sale_inactive"
       ],
       "evidencePagesTried": [
-        "https://fallcent.com/product/0n5Atywf7vgeKnV983JAQUTaysZcYLCM/"
+        "https://fallcent.com/product/wVVPHYAxcMd8H0YsovRjDSKyzimBtnTb/",
+        "https://www.wrapuppro.com/partner/view/srch_5xFRlzBDFPr1ibE",
+        "https://fallcent.com/product/ZVKEfL6cu2XPea9AnCMkF7x3DfRVTQUz/"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0131",
+      "id": "MASTER-0147",
       "checked": true,
-      "changed": true,
+      "changed": false,
       "quality": "ultra",
       "errors": [
         "law_specific_evidence"
       ],
       "evidencePagesTried": [
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209272720&lowerVendNo=LV21031240",
-        "https://www.enuri.com/detail.jsp?modelno=119055535",
-        "https://prod.danawa.com/info/?pcode=77318630"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0132",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.salefinder.co.kr/products/712558"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0141",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://m.edisoni.kr/goods/goods_view.php?goodsNo=630&mtn=10%5E%7C%5E%ED%83%80%EC%9E%84%EC%84%B8%EC%9D%BC%5E%7C%5Ey",
-        "https://www.elandmall.co.kr/i/item?itemNo=2206832586&lowerVendNo=LV21033354",
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2206832586&lowerVendNo=LV21033354"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0142",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://motherscorn.co.kr/product/%EC%8D%A8%EB%8B%88%ED%9D%A1%EC%B0%A9%EB%B3%BC-420ml/488/",
-        "https://fallcent.com/product/HWcR73HaLpoewjsVNlQz1E527xFDdTnm/"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0143",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ],
-      "evidencePagesTried": [
-        "https://fallcent.com/product/3HDU8pQmfPd5R0LKHrqDZCaATlOvxXtc/",
-        "https://fallcent.com/product/SJT1kCgdvJ4fjH5pGo1Yzhqb9n7kTNxB/",
-        "https://prod.danawa.com/info/?pcode=26457119"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0144",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://fallcent.com/product/FScM6Nf0ovNeTzHuYqtW8DJOnUVs4hw3/",
-        "https://fallcent.com/product/RN09cVwBfjtsmFGNp8UIX2bPlVD1y5kq/",
-        "https://blog.naver.com/PostView.naver?blogId=limbomee&logNo=223502822066&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0146",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://nurimarket.co.kr/shop/item.php?it_id=1768458352",
+        "https://bebe-box.co.kr/shop/list.php?ca_id=p090",
         "https://www.newsis.com/view/NISX20250708_0003242961"
       ],
       "crossSourceDiagnostic": {
@@ -576,528 +778,176 @@
       }
     },
     {
-      "id": "MASTER-0148",
+      "id": "MASTER-0149",
       "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.bosomimall.co.kr/goods/goods_list.php?cateCd=001",
-        "https://www.enuri.com/detail.jsp?modelno=147086270",
-        "https://bebe-box.co.kr/shop/list.php?ca_id=p090"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0153",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
-        "https://www.bebesup.co.kr/goods/view?no=443",
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2402002031&lowerVendNo=LV18011674"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0160",
-      "checked": true,
-      "changed": true,
+      "changed": false,
       "quality": "ultra",
       "errors": [
         "sale_inactive"
       ],
       "evidencePagesTried": [
-        "https://fallcent.com/product/91NxqSGzcjsFeuU7fDVOl6bIhBMqHgoa/",
-        "https://toymiso.com/product/detail.html?product_no=9301&cate_no=1&display_group=3"
+        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2211554982"
       ],
       "crossSourceDiagnostic": {
         "kcApplicable": false
       }
     },
     {
-      "id": "MASTER-0172",
+      "id": "MASTER-0150",
       "checked": true,
-      "changed": true,
+      "changed": false,
       "quality": "ultra",
       "errors": [
         "age_basis"
       ],
       "evidencePagesTried": [
-        "https://hongspapa.co.kr/?redirect=no",
-        "https://hongspapa.imweb.me/?idx=93",
+        "https://onnurichance.com/?pn=product.view&pcode=A5530-A2347-Q1347",
+        "https://www.kurly.com/goods/1000208147"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0151",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://momiliter.co.kr/shop/item.php?it_id=1713341022",
+        "https://www.daangn.com/kr/buy-sell/%ED%95%98%EA%B8%B0%EC%8A%A4-%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1-%ED%8C%AC%ED%8B%B0-4%EB%8B%A8%EA%B3%84-%EA%B8%B0%EC%A0%80%EA%B7%80-7otoj9nkfku4/?in=%EC%86%A1%EB%8F%841%EB%8F%99-887"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0154",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.hellomarket.com/item/180274601"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0155",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0156",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2306247360",
+        "https://www.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0157",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://www.thebigdata.co.kr/view.php?ud=2025102409443429684aca46cea9_23",
+        "https://www.insightkorea.co.kr/news/articleView.html?idxno=234123",
+        "https://www.ttlnews.com/news/articleView.html?idxno=3041317"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0162",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
+        "https://soonsooa.com/product/%EC%88%9C%EC%88%98%EC%95%84-%EB%B2%A0%EC%9D%B4%EC%A7%81-%EB%B9%A8%EB%8C%80%EC%BB%B5-%EC%B6%94-%EB%B9%A8%EB%8C%80-240ml/204/display/2/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0163",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "sale_inactive"
+      ],
+      "evidencePagesTried": [
+        "https://fallcent.com/product/knHrHGCYrbneB80GuLpgmtj71ixIoZ6h/"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0164",
+      "checked": false,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "crossSourceDiagnostic": {
+        "kcApplicable": false
+      }
+    },
+    {
+      "id": "MASTER-0166",
+      "checked": true,
+      "changed": false,
+      "quality": "ultra",
+      "errors": [
+        "age_basis"
+      ],
+      "evidencePagesTried": [
         "https://www.kurly.com/goods/1001442713"
       ],
       "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://hongspapa.co.kr/?redirect=no",
+        "saleFound": false,
+        "saleUrl": "",
         "ageFound": false,
         "ageUrl": "",
         "kcNumbers": [],
         "linkedKcNumbers": [],
         "safetyMatches": [],
         "evidencePagesTried": [
-          "https://hongspapa.co.kr/?redirect=no",
-          "https://hongspapa.imweb.me/?idx=93",
           "https://www.kurly.com/goods/1001442713"
         ]
-      }
-    },
-    {
-      "id": "MASTER-0178",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0180",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=21766733"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0186",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.elandmall.co.kr/i/item?itemNo=2303024484",
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2303024490",
-        "https://todayhotdeal.com/products/6c8fc4fd-6631-4013-83b4-6e1c9d95471d"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0190",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "law_specific_evidence"
-      ],
-      "evidencePagesTried": [
-        "https://www.motherkmall.co.kr/product/%EB%B2%A0%EC%9D%B4%EC%A7%81-ppsu-%EC%A0%96%EB%B3%91-280ml-%ED%8A%B8%EC%9C%88%ED%8C%A92%EA%B0%9C%EC%9E%85%EB%85%B8%EA%BC%AD%EC%A7%80/423/",
-        "https://www.motherkmall.co.kr/product/%F0%9F%8D%BC%ED%86%A0%EB%81%BC%EC%97%90%EB%94%94%EC%85%98%F0%9F%90%B0-ppsu-%EC%98%AC%EC%9D%B8%EC%9B%90-%EC%A0%96%EB%B3%91-280ml-%ED%8A%B8%EC%9C%88%ED%8C%A9%EB%85%B8%EA%BC%AD%EC%A7%80%EC%95%84%EA%B8%B0%EC%A7%80%ED%8D%BC%EB%B0%B1s-%EC%A6%9D%EC%A0%95/956/",
-        "https://www.kurly.com/goods/1000319697"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "RUN18-015",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.enuri.com/detail.jsp?modelno=78810763",
-        "https://conyhub.kr/products/21106/",
-        "https://kidikidi.elandmall.co.kr/i/item?itemNo=2208172427"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://conyhub.kr/products/21106/",
-        "ageFound": true,
-        "ageUrl": "https://coconory.com/",
-        "kcNumbers": [
-          "CB061E006-7001"
-        ],
-        "linkedKcNumbers": [
-          "CB061E006-7001"
-        ],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.enuri.com/detail.jsp?modelno=78810763",
-          "https://conyhub.kr/products/21106/",
-          "https://kidikidi.elandmall.co.kr/i/item?itemNo=2208172427"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-001",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.hellomarket.com/item/168238612",
-        "http://www.angekorea.com/ko/products/products.html?1=1&sca=70"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://www.hellomarket.com/item/168238612",
-        "kcNumbers": [
-          "CB065B0002-9001R"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.hellomarket.com/item/168238612",
-          "http://www.angekorea.com/ko/products/products.html?1=1&sca=70"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-006",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.wrapuppro.com/partner/view/srch_ZK3iUbUFXj1TPBD",
-        "https://fallcent.com/product/LzpiaO0JlEZ2yRkO9xowKg57CGI8YsNu/"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61373338638",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB061H127-6001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.wrapuppro.com/partner/view/srch_ZK3iUbUFXj1TPBD",
-          "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61373338638"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-007",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=63427493"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=63427493",
-        "ageFound": true,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=63427493"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-017",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
-        "https://mom-mom.net/shop/products/131782566",
-        "https://todayhotdeal.com/products/72fb358e-f3ff-4a50-b333-c0160bdd3de8"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
-          "https://mom-mom.net/shop/products/131782566",
-          "https://todayhotdeal.com/products/72fb358e-f3ff-4a50-b333-c0160bdd3de8"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-025",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://mom-mom.net/shop/products/131782566"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://mom-mom.net/shop/products/131782566",
-        "kcNumbers": [
-          "CB065B0002-9001R"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://mom-mom.net/shop/products/131782566"
-        ]
-      }
-    },
-    {
-      "id": "TEETHER-20260801-030",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://fallcent.com/product/ki8KFGCYrbneB80GuLpgmtj71ixIoZ6h/",
-        "https://fallcent.com/product/TrrcD0DuhHLzRlQwUv16gnmtb3B9jpGc/?from=recommend"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": false,
-        "saleUrl": "",
-        "ageFound": true,
-        "ageUrl": "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
-        "kcNumbers": [
-          "CB061A443-2001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [
-          "CB061A443-2001"
-        ],
-        "evidencePagesTried": [
-          "https://fallcent.com/product/ki8KFGCYrbneB80GuLpgmtj71ixIoZ6h/",
-          "https://fallcent.com/product/TrrcD0DuhHLzRlQwUv16gnmtb3B9jpGc/?from=recommend"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-006",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://prod.danawa.com/info/?pcode=26584274"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=26584274",
-        "ageFound": true,
-        "ageUrl": "https://www.safetykorea.kr/release/certificationsearch",
-        "kcNumbers": [
-          "CB065R0358-8001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=26584274"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-010",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://kidsmart.or.kr/product/28443-%EC%95%A0%EB%8B%88%EB%A9%80-%EB%94%B8%EB%9E%91%EC%9D%B4%ED%83%80%EC%9E%85%EC%84%A0%ED%83%9D/28527/",
-        "https://search.danawa.com/dsearch.php?query=%EA%B5%AD%EB%AF%BC%EB%94%B8%EB%9E%91%EC%9D%B4"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://kidsmart.or.kr/product/28443-%EC%95%A0%EB%8B%88%EB%A9%80-%EB%94%B8%EB%9E%91%EC%9D%B4%ED%83%80%EC%9E%85%EC%84%A0%ED%83%9D/28527/",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [
-          "CB065R0358-8001"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://kidsmart.or.kr/product/28443-%EC%95%A0%EB%8B%88%EB%A9%80-%EB%94%B8%EB%9E%91%EC%9D%B4%ED%83%80%EC%9E%85%EC%84%A0%ED%83%9D/28527/",
-          "https://search.danawa.com/dsearch.php?query=%EA%B5%AD%EB%AF%BC%EB%94%B8%EB%9E%91%EC%9D%B4"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-033",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "age_basis"
-      ],
-      "evidencePagesTried": [
-        "https://hottracks.kyobobook.co.kr/gift/detail/S000053767156",
-        "https://sweet-heart.co.kr/product/%EC%98%A4%EA%B0%80%EB%8B%89-%EC%95%84%EA%B8%B0%EA%B3%B0-%EB%94%B8%EB%9E%91%EC%9D%B4%EC%9D%B8%ED%98%95/62/",
-        "https://www.fashionplus.co.kr/goods/detail/37829065"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://hottracks.kyobobook.co.kr/gift/detail/S000053767156",
-        "ageFound": false,
-        "ageUrl": "",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://hottracks.kyobobook.co.kr/gift/detail/S000053767156",
-          "https://prod.danawa.com/info/?pcode=20785400"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-034",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://hottracks.kyobobook.co.kr/gift/detail/S000051935864",
-        "https://prod.danawa.com/info/?pcode=21475556"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://prod.danawa.com/info/?pcode=21475556",
-        "ageFound": true,
-        "ageUrl": "https://hottracks.kyobobook.co.kr/gift/detail/S000051935864",
-        "kcNumbers": [
-          "B045A406-8001A"
-        ],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://prod.danawa.com/info/?pcode=21475556",
-          "https://hottracks.kyobobook.co.kr/gift/detail/S000051935864"
-        ]
-      }
-    },
-    {
-      "id": "TOY-20260729-035",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "kc_number_on_sales_page"
-      ],
-      "evidencePagesTried": [
-        "https://www.shoppingntmall.com/display/goods/11537669",
-        "https://hottracks.kyobobook.co.kr/gift/detail/S000051935866",
-        "https://www.fashionplus.co.kr/goods/detail/37829063"
-      ],
-      "crossSourceDiagnostic": {
-        "saleFound": true,
-        "saleUrl": "https://www.shoppingntmall.com/display/goods/11537669",
-        "ageFound": true,
-        "ageUrl": "https://www.shoppingntmall.com/display/goods/11537669",
-        "kcNumbers": [],
-        "linkedKcNumbers": [],
-        "safetyMatches": [],
-        "evidencePagesTried": [
-          "https://www.shoppingntmall.com/display/goods/11537669",
-          "https://hottracks.kyobobook.co.kr/gift/detail/S000051935866"
-        ]
-      }
-    },
-    {
-      "id": "MASTER-0007",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0010",
-      "checked": false,
-      "changed": false,
-      "quality": "ultra",
-      "errors": [
-        "all_sales_urls_unreachable"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0015",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://www.daangn.com/kr/buy-sell/?search=%ED%95%98%EA%B8%B0%EC%8A%A4"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
-      }
-    },
-    {
-      "id": "MASTER-0022",
-      "checked": true,
-      "changed": true,
-      "quality": "ultra",
-      "errors": [
-        "sale_inactive"
-      ],
-      "evidencePagesTried": [
-        "https://m.dongwonmall.com/product/detail.do"
-      ],
-      "crossSourceDiagnostic": {
-        "kcApplicable": false
       }
     }
   ]
