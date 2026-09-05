@@ -424,9 +424,9 @@
   "resolutionComplete": false,
   "coverageVerificationComplete": false,
   "verificationComplete": false,
-  "lastRun": "2026-09-05T21:11:46+00:00",
-  "lastAuditRef": "data/revalidation-audits/20260905T211146Z.json",
-  "lastAuditSha256": "b1f97daf0480768f5b1390ee8ee42709fe28ba0f051aee7652d788cacd114802",
+  "lastRun": "2026-09-05T21:38:32+00:00",
+  "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+  "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d",
   "results": [
     {
       "id": "MASTER-0016",
@@ -3465,7 +3465,7 @@
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://motherkmall.co.kr/product/%EB%A0%88%EC%9D%B4%EC%98%A8%EA%B1%B4%ED%8B%B0%EC%8A%88-%EC%A6%9D%EC%A0%95%F0%9F%8D%92%ED%97%88%EA%B7%B8-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EC%B2%98%EC%9D%8C%EC%8A%A4%ED%91%BC2p-%EC%BC%80%EC%9D%B4%EC%8A%A4-%ED%8F%AC%ED%95%A84m/479/"
       ],
@@ -3476,17 +3476,17 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0092",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021283&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bm11W19E",
         "https://www.kurly.com/goods/1001183059"
@@ -3498,17 +3498,17 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0094",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.kurly.com/goods/1001628586"
       ],
@@ -3519,10 +3519,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0095",
@@ -3534,17 +3534,17 @@
         "https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0",
         "https://jammuk.com/"
       ],
-      "reason": "2026-09-05 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0",
+      "reason": "2026-09-05 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0",
       "errors": [
-        "age_basis"
+        "law_specific_evidence"
       ],
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0096",
@@ -3555,17 +3555,17 @@
       "directEvidenceUrls": [
         "https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0"
       ],
-      "reason": "2026-09-05 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0",
+      "reason": "2026-09-05 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/edP_jCHOVS6mTp5MeeKXQPochAeR0x6Hm_XCmd82_y0",
       "errors": [
-        "age_basis"
+        "law_specific_evidence"
       ],
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0098",
@@ -3583,17 +3583,17 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0101",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.elandmall.co.kr/i/item?itemNo=2202274387&lowerVendNo=LV20025870"
       ],
@@ -3604,17 +3604,17 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0103",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.wrapuppro.com/zcontent/view/srch_rVDqmA3yUU5cga0",
         "https://bestgoodnice.com/%EB%B2%A0%EB%B2%A0%EB%9D%BD-%EB%B0%80%ED%8F%90%EB%88%88%EA%B8%88-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EC%9A%A9%EA%B8%B0-240ml-%ED%8D%BC%ED%94%8C-8%EA%B0%9C%EC%9E%85/",
@@ -3630,10 +3630,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0105",
@@ -3651,17 +3651,17 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0107",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://fallcent.com/product/1TG6raoFRpyuJV9bm2fDaCiKzLYdGB8s/"
       ],
@@ -3672,10 +3672,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0108",
@@ -3694,10 +3694,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0112",
@@ -3715,10 +3715,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0114",
@@ -3740,10 +3740,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0117",
@@ -3761,10 +3761,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0118",
@@ -3782,10 +3782,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0133",
@@ -3808,10 +3808,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0135",
@@ -3835,10 +3835,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0145",
@@ -3851,17 +3851,17 @@
         "https://www.wrapuppro.com/partner/view/srch_5xFRlzBDFPr1ibE",
         "https://fallcent.com/product/ZVKEfL6cu2XPea9AnCMkF7x3DfRVTQUz/"
       ],
-      "reason": "2026-09-05 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/wVVPHYAxcMd8H0YsovRjDSKyzimBtnTb/",
+      "reason": "2026-09-05 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/wVVPHYAxcMd8H0YsovRjDSKyzimBtnTb/",
       "errors": [
         "sale_inactive"
       ],
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0147",
@@ -3885,10 +3885,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0149",
@@ -3907,10 +3907,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0150",
@@ -3930,10 +3930,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0151",
@@ -3955,10 +3955,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0154",
@@ -3984,10 +3984,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0155",
@@ -4010,10 +4010,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0156",
@@ -4034,10 +4034,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0157",
@@ -4060,10 +4060,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0162",
@@ -4083,10 +4083,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0163",
@@ -4106,10 +4106,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0164",
@@ -4128,10 +4128,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0166",
@@ -4151,10 +4151,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T130038Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T130038Z.json",
-      "lastAuditSha256": "1d77deae81147510b2eb3b1b42874b3c3192094934ed51f12b9806da25fac9b7"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0174",
@@ -4172,10 +4172,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0175",
@@ -4194,10 +4194,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0176",
@@ -4210,17 +4210,17 @@
         "https://mom-mom.net/shop/products/132097681",
         "https://fallcent.com/product/4sjChHsXOfCItWmwHuF8DAzhv9klcqi1/"
       ],
-      "reason": "2026-09-05 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/yDtD2NxiK3JwZBzByQLBSjoO0-9BtbcZ3NP0M1TLyXs",
+      "reason": "2026-09-05 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://timing.im/product/yDtD2NxiK3JwZBzByQLBSjoO0-9BtbcZ3NP0M1TLyXs",
       "errors": [
-        "law_specific_evidence"
+        "age_basis"
       ],
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0182",
@@ -4241,10 +4241,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0184",
@@ -4271,10 +4271,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0191",
@@ -4294,10 +4294,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0192",
@@ -4318,10 +4318,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0195",
@@ -4342,10 +4342,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0196",
@@ -4365,10 +4365,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "MASTER-0213",
@@ -4392,10 +4392,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "RUN18-003",
@@ -4414,10 +4414,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "RUN18-010",
@@ -4440,10 +4440,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "RUN18-014",
@@ -4466,10 +4466,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TEETHER-20260801-004",
@@ -4495,10 +4495,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TEETHER-20260801-020",
@@ -4516,10 +4516,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TEETHER-20260801-022",
@@ -4540,10 +4540,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TEETHER-20260801-024",
@@ -4562,10 +4562,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TEETHER-20260801-027",
@@ -4591,10 +4591,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TOY-20260729-001",
@@ -4617,10 +4617,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TOY-20260729-009",
@@ -4643,10 +4643,10 @@
       "checkedAt": "2026-09-05",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260905T150628Z.json"
+        "data/revalidation-audits/20260905T213832Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260905T150628Z.json",
-      "lastAuditSha256": "29491546fe51468215fb43270bcd1241ee9b38aea32ab9a563ad015c09bdef63"
+      "lastAuditRef": "data/revalidation-audits/20260905T213832Z.json",
+      "lastAuditSha256": "465abc391e58628ae1d5ec3f29bf57eb41f49e6ebc380a4dfabd159ae865470d"
     },
     {
       "id": "TOY-20260729-014",
