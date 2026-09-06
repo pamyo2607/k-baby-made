@@ -41423,8 +41423,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
       "https://www.kurly.com/goods/1000429275",
+      "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
       "https://prod.danawa.com/info/?pcode=51823934",
       "https://blog.naver.com/PostView.naver?blogId=terrace5842&logNo=223702287696"
     ],
@@ -41441,16 +41441,16 @@
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "2~4개월",
-    "ageEvidence": "공식 판매 페이지: 2~4개월",
+    "ageRange": "확인 중",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
+    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
     "officialUrls": [
-      "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
       "https://www.kurly.com/goods/1000429275",
+      "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
       "https://prod.danawa.com/info/?pcode=51823934",
       "https://blog.naver.com/PostView.naver?blogId=terrace5842&logNo=223702287696"
     ],
@@ -41478,7 +41478,8 @@
     "revalidationMissingFields": [
       "manufacturerOrImporter",
       "countryOfManufacture",
-      "regulatoryRegime"
+      "regulatoryRegime",
+      "officialAge"
     ],
     "revalidationQueries": [
       "\"인콕\" \"이중밀폐 이유식큐브 6구\"",
@@ -41547,7 +41548,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0119"
   },
   {
