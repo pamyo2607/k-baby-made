@@ -422,9 +422,9 @@
   "resolutionComplete": false,
   "coverageVerificationComplete": false,
   "verificationComplete": false,
-  "lastRun": "2026-09-06T22:12:02+00:00",
-  "lastAuditRef": "data/revalidation-audits/20260906T221202Z.json",
-  "lastAuditSha256": "98cb4772926cb879db82b3f1169e5fc1a29213bc386cf13eba3407e16df142f3",
+  "lastRun": "2026-09-06T22:14:22+00:00",
+  "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+  "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3",
   "results": [
     {
       "id": "MASTER-0016",
@@ -6777,7 +6777,7 @@
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsmartstore.naver.com%2Fmain%2Fproducts%2F12360906708",
         "https://smartstore.naver.com/main/products/12360906708",
@@ -6790,17 +6790,17 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-077",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.shoppingntmall.com/display/goods/12347779",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000524531378&siteNo=6001&salestrNo=6005"
@@ -6812,10 +6812,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-079",
@@ -6833,39 +6833,41 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-080",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91057525934",
+        "https://search.shopping.naver.com/catalog/91057525934",
         "https://tookytoycn.com/push-pull/",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000615104046&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "reason": "2026-09-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91057525934",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-081",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://hansolpia.co.kr/product/%ED%88%AC%ED%82%A4%ED%86%A0%EC%9D%B4%EB%89%B4%ED%92%80%EC%96%B4%EB%A1%B1%EC%BD%94%EB%81%BC%EB%A6%AC007/4507/",
         "https://tookytoycn.com/push-pull/",
@@ -6878,17 +6880,17 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-082",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91057584807",
         "https://search.shopping.naver.com/catalog/91057584807",
@@ -6902,17 +6904,17 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-083",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91057607700",
         "https://search.shopping.naver.com/catalog/91057607700",
@@ -6926,31 +6928,33 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-084",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://coreshop.kr/",
+        "https://coreshop.kr/product/detail.html",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000709644656&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "reason": "2026-09-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://coreshop.kr/",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-091",
@@ -6969,17 +6973,17 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-094",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.ipoomgo.com/",
         "https://www.ipoomgo.com/shop/plan.html?plan_id=3150",
@@ -6996,10 +7000,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-095",
@@ -7022,10 +7026,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-105",
@@ -7049,10 +7053,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-106",
@@ -7072,10 +7076,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-107",
@@ -7093,10 +7097,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-109",
@@ -7116,10 +7120,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-111",
@@ -7137,10 +7141,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-112",
@@ -7158,10 +7162,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-113",
@@ -7180,17 +7184,17 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-120",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.elandmall.co.kr/s/srch?bi-from=popularKeyword&q=%EC%97%90%EB%B8%94%EB%A6%BF",
         "https://m.danawa.com/product/product.html?code=75863495",
@@ -7203,10 +7207,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-121",
@@ -7229,10 +7233,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-122",
@@ -7255,10 +7259,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-123",
@@ -7281,10 +7285,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-131",
@@ -7305,10 +7309,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-132",
@@ -7326,10 +7330,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-133",
@@ -7351,10 +7355,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-134",
@@ -7372,10 +7376,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-135",
@@ -7394,10 +7398,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-137",
@@ -7416,10 +7420,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-138",
@@ -7438,10 +7442,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-140",
@@ -7460,10 +7464,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T130547Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T130547Z.json",
-      "lastAuditSha256": "783c917be4b7c093edfe05f6443b4e5b6d64b40540dd7e6159ceec2e4fb73d6d"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-141",
@@ -7483,10 +7487,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-142",
@@ -7505,10 +7509,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-143",
@@ -7527,10 +7531,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-145",
@@ -7549,10 +7553,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-146",
@@ -7571,10 +7575,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-147",
@@ -7595,10 +7599,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-148",
@@ -7617,10 +7621,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-149",
@@ -7639,10 +7643,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-150",
@@ -7663,10 +7667,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-151",
@@ -7686,10 +7690,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-152",
@@ -7708,10 +7712,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-154",
@@ -7731,10 +7735,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-158",
@@ -7753,10 +7757,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-159",
@@ -7776,10 +7780,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-160",
@@ -7799,10 +7803,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-161",
@@ -7822,10 +7826,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-163",
@@ -7844,10 +7848,10 @@
       "checkedAt": "2026-09-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-165",
@@ -7867,10 +7871,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-166",
@@ -7888,10 +7892,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-167",
@@ -7909,10 +7913,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20260906T160006Z.json"
+        "data/revalidation-audits/20260906T221422Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20260906T160006Z.json",
-      "lastAuditSha256": "75545216274c5c3bbffba94df9e7947125ba0bc3faa03846bf9e6d1a80b24d35"
+      "lastAuditRef": "data/revalidation-audits/20260906T221422Z.json",
+      "lastAuditSha256": "a6add4c787f989855f9dca98a7ba31249cab7fc7cc0b827f830184bc0e0318e3"
     },
     {
       "id": "TOY-20260729-168",
