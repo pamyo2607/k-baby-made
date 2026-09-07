@@ -10,7 +10,7 @@
     "safetyKoreaSameModel": 225,
     "officialEvidence": 219,
     "exactKcNumber": 194,
-    "officialAge": 190,
+    "officialAge": 191,
     "currentSale": 175,
     "regulatoryRegime": 25
   },
@@ -45,7 +45,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "네이처메이드 팬티형 여아 5단계 88매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge"
       ],
@@ -59,7 +59,7 @@
       "category": "위생·기저귀",
       "brand": "보솜이",
       "name": "펀앤플레이 아기물티슈 70매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge"
       ],
@@ -73,7 +73,7 @@
       "category": "이유식·식기",
       "brand": "모모빈",
       "name": "블라썸 냠냠 이유식 흡착식판",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge"
       ],
@@ -151,7 +151,7 @@
       "category": "위생·기저귀",
       "brand": "보솜이",
       "name": "메가드라이 팬티",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "countryOfManufacture"
@@ -167,7 +167,7 @@
       "category": "위생·기저귀",
       "brand": "킨도",
       "name": "프리미엄 뉴올데이 팬티형 24매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "manufacturerOrImporter"
@@ -183,7 +183,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "네이처메이드 밤부 팬티형 남아 5단계 176매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "manufacturerOrImporter"
@@ -199,7 +199,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "보송보송 팬티형 4단계 224매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "countryOfManufacture"
@@ -207,54 +207,6 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "완제품 제조국"
-      ],
-      "priority": 2
-    },
-    {
-      "id": "MASTER-0038",
-      "category": "위생·기저귀",
-      "brand": "아이러브베베",
-      "name": "아이보리 캡형 72매",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 2
-    },
-    {
-      "id": "MASTER-0072",
-      "category": "이유식·식기",
-      "brand": "데일리라이크",
-      "name": "봉봉 스텐 식판 스푼포크 세트",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 2
-    },
-    {
-      "id": "TEETHER-20260801-013",
-      "category": "구강·치발기",
-      "brand": "베이비앤아이",
-      "name": "바나나 실리콘 치발기",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "safetyKoreaSameModel",
-        "exactKcNumber"
-      ],
-      "missingFieldLabels": [
-        "Safety Korea 동일 모델 연결",
-        "동일 제품 KC 인증번호"
       ],
       "priority": 2
     },
@@ -275,6 +227,22 @@
       "priority": 2
     },
     {
+      "id": "MASTER-0038",
+      "category": "위생·기저귀",
+      "brand": "아이러브베베",
+      "name": "아이보리 캡형 72매",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 2
+    },
+    {
       "id": "MASTER-0051",
       "category": "수유용품",
       "brand": "락앤락",
@@ -287,6 +255,22 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "완제품 제조국"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "MASTER-0072",
+      "category": "이유식·식기",
+      "brand": "데일리라이크",
+      "name": "봉봉 스텐 식판 스푼포크 세트",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 2
     },
@@ -399,6 +383,22 @@
       "missingFieldLabels": [
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "TEETHER-20260801-013",
+      "category": "구강·치발기",
+      "brand": "베이비앤아이",
+      "name": "바나나 실리콘 치발기",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "safetyKoreaSameModel",
+        "exactKcNumber"
+      ],
+      "missingFieldLabels": [
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 KC 인증번호"
       ],
       "priority": 2
     },
@@ -747,7 +747,7 @@
       "category": "위생·기저귀",
       "brand": "르소메",
       "name": "프리미엄 밴드형 중형 96매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "countryOfManufacture",
         "manufacturerOrImporter",
@@ -765,7 +765,7 @@
       "category": "위생·기저귀",
       "brand": "보솜이",
       "name": "모달썸머 팬티",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "manufacturerOrImporter",
         "countryOfManufacture",
@@ -783,7 +783,7 @@
       "category": "위생·기저귀",
       "brand": "보솜이",
       "name": "액션핏 팬티",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "countryOfManufacture",
         "manufacturerOrImporter",
@@ -801,7 +801,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "2025 네이처메이드",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "manufacturerOrImporter",
@@ -819,7 +819,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "네이처메이드 썸머",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "manufacturerOrImporter",
@@ -837,7 +837,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "매직컴포트 썸머",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "manufacturerOrImporter",
@@ -855,7 +855,7 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "보송보송 팬티형 4단계 336매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "officialAge",
         "countryOfManufacture",
@@ -873,7 +873,7 @@
       "category": "위생·기저귀",
       "brand": "베베숲",
       "name": "시그니처 블루 에코 캡형 70매",
-      "checkedAt": "2026-09-06",
+      "checkedAt": "2026-09-07",
       "missingFields": [
         "countryOfManufacture",
         "manufacturerOrImporter",
@@ -883,42 +883,6 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "적용 안전제도"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0028",
-      "category": "위생·기저귀",
-      "brand": "베베숲",
-      "name": "시그니처 위드 블루 캡형 70매",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0071",
-      "category": "이유식·식기",
-      "brand": "그로미미",
-      "name": "스테인리스 식판 3구·5구 + 파우치",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
       ],
       "priority": 3
     },
@@ -941,19 +905,19 @@
       "priority": 3
     },
     {
-      "id": "MASTER-0031",
+      "id": "MASTER-0028",
       "category": "위생·기저귀",
-      "brand": "베베앙",
-      "name": "120 유아물티슈",
+      "brand": "베베숲",
+      "name": "시그니처 위드 블루 캡형 70매",
       "checkedAt": "2026-09-07",
       "missingFields": [
-        "manufacturerOrImporter",
         "countryOfManufacture",
+        "manufacturerOrImporter",
         "regulatoryRegime"
       ],
       "missingFieldLabels": [
-        "제조사 또는 수입업체",
         "완제품 제조국",
+        "제조사 또는 수입업체",
         "적용 안전제도"
       ],
       "priority": 3
@@ -1081,6 +1045,24 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "적용 안전제도"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0071",
+      "category": "이유식·식기",
+      "brand": "그로미미",
+      "name": "스테인리스 식판 3구·5구 + 파우치",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 3
     },
@@ -2315,106 +2297,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0002",
-      "category": "위생·기저귀",
-      "brand": "마미포코",
-      "name": "리프가닉 밴드형 4단계 300매",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0003",
-      "category": "위생·기저귀",
-      "brand": "백조슈퍼베비",
-      "name": "골드 신생아 밴드형 1단계 60매",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0012",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "NEW 보송보송 밴드형 2단계 204매",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0017",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "네이처메이드 퓨어코튼 썸머",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "officialEvidence",
-        "currentSale"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "현재 구매 가능한 국내 판매 페이지"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0018",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "뉴 보송보송 밴드형 5단계 480매",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
       "id": "TOY-20260729-135",
       "category": "완구",
       "brand": "하늘썬별",
@@ -2595,6 +2477,106 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0002",
+      "category": "위생·기저귀",
+      "brand": "마미포코",
+      "name": "리프가닉 밴드형 4단계 300매",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0003",
+      "category": "위생·기저귀",
+      "brand": "백조슈퍼베비",
+      "name": "골드 신생아 밴드형 1단계 60매",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0012",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "NEW 보송보송 밴드형 2단계 204매",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0017",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "네이처메이드 퓨어코튼 썸머",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0018",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "뉴 보송보송 밴드형 5단계 480매",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0029",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -2611,6 +2593,26 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0031",
+      "category": "위생·기저귀",
+      "brand": "베베앙",
+      "name": "120 유아물티슈",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -5963,30 +5965,6 @@
       "priority": 6
     },
     {
-      "id": "RUN18-006",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "3D기린 옐로우 + 바나나 + 3D포도 3종 세트",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 6
-    },
-    {
       "id": "TOY-20260729-017",
       "category": "완구",
       "brand": "하늘썬별",
@@ -6127,6 +6105,30 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "RUN18-006",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "3D기린 옐로우 + 바나나 + 3D포도 3종 세트",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
       ],
       "priority": 6
     },
@@ -7701,58 +7703,6 @@
       "priority": 7
     },
     {
-      "id": "RUN18-001",
-      "category": "구강·치발기",
-      "brand": "티지엠",
-      "name": "촉감 발달 시그니처 고리 치발기 고리 친구들 20개입",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "currentSale",
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "현재 구매 가능한 국내 판매 페이지",
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 7
-    },
-    {
-      "id": "RUN18-009",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "앙쥬 바나나 치발기 + 전용케이스 + 집게끈",
-      "checkedAt": "2026-09-06",
-      "missingFields": [
-        "currentSale",
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "현재 구매 가능한 국내 판매 페이지",
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 7
-    },
-    {
       "id": "MASTER-0139",
       "category": "구강·치발기",
       "brand": "티지엠",
@@ -7861,6 +7811,58 @@
       "category": "구강·치발기",
       "brand": "앙쥬",
       "name": "입술치발기 B226",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "현재 구매 가능한 국내 판매 페이지",
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "RUN18-001",
+      "category": "구강·치발기",
+      "brand": "티지엠",
+      "name": "촉감 발달 시그니처 고리 치발기 고리 친구들 20개입",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "현재 구매 가능한 국내 판매 페이지",
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "RUN18-009",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "앙쥬 바나나 치발기 + 전용케이스 + 집게끈",
       "checkedAt": "2026-09-07",
       "missingFields": [
         "currentSale",
