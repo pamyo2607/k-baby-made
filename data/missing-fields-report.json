@@ -8,10 +8,10 @@
     "countryOfManufacture": 331,
     "manufacturerOrImporter": 302,
     "safetyKoreaSameModel": 225,
-    "officialEvidence": 219,
+    "officialEvidence": 220,
     "exactKcNumber": 194,
     "officialAge": 192,
-    "currentSale": 175,
+    "currentSale": 176,
     "regulatoryRegime": 25
   },
   "labels": {
@@ -567,24 +567,6 @@
       "category": "수유용품",
       "brand": "그로미미",
       "name": "유아용 빨대 100p + 홀더 2p",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0174",
-      "category": "이유식·식기",
-      "brand": "브랜드 미확인",
-      "name": "유아 강력 실리콘 흡착식판 3색상",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "officialAge",
@@ -5101,6 +5083,28 @@
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "0~35개월 공식 월령"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0174",
+      "category": "이유식·식기",
+      "brand": "브랜드 미확인",
+      "name": "유아 강력 실리콘 흡착식판 3색상",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 5
     },
