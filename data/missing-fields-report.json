@@ -10,7 +10,7 @@
     "safetyKoreaSameModel": 225,
     "officialEvidence": 219,
     "exactKcNumber": 194,
-    "officialAge": 191,
+    "officialAge": 192,
     "currentSale": 175,
     "regulatoryRegime": 25
   },
@@ -1207,24 +1207,6 @@
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0119",
-      "category": "이유식·식기",
-      "brand": "인콕",
-      "name": "이중밀폐 이유식큐브 6구",
-      "checkedAt": "2026-09-07",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "완제품 제조국",
-        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -3053,6 +3035,26 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0119",
+      "category": "이유식·식기",
+      "brand": "인콕",
+      "name": "이중밀폐 이유식큐브 6구",
+      "checkedAt": "2026-09-07",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
