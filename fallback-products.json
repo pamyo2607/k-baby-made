@@ -28177,8 +28177,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://prod.danawa.com/info/?pcode=92080685",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://prod.danawa.com/info/?pcode=92080685",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=92080685",
       "https://sosircurr.com/%EC%9C%A1%EC%95%84-%ED%95%84%EC%88%98%ED%85%9C-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EB%93%9D%ED%85%9C-%EC%B0%AC%EC%8A%A4-%EB%9E%84%EB%9E%84%EB%9D%BC-%EB%AC%BC%ED%8B%B0%EC%8A%88-100%EA%B0%9C%EC%9E%85-10/",
@@ -29639,13 +29639,13 @@
     "status": "보류",
     "countryOfManufacture": "대한민국",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "확인 중",
-    "ageEvidence": "0~35개월 공식 연령 근거 없음",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.salefinder.co.kr/products/219",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.salefinder.co.kr/products/219",
     "officialUrls": [
       "https://www.salefinder.co.kr/products/219",
       "https://angelrental.co.kr/24555/",
@@ -29700,8 +29700,9 @@
     "activeCertificateCount": 0,
     "expiredCertificateCount": 0,
     "revalidationMissingFields": [
-      "officialAge",
-      "manufacturerOrImporter"
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"베베앙\" \"120 유아물티슈\"",
@@ -29752,7 +29753,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0031"
   },
   {
@@ -30142,8 +30143,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
     "officialUrls": [
       "https://geniealert.co.kr/goods/detail/7420648438?itemId=19248537252&vendorItemId=85201539788",
       "https://kimmari.com/%EB%B8%94%EB%9E%91%EC%8A%88-%EC%A0%80%EC%9E%90%EA%B7%B9-%EB%8C%80%EC%9A%A9%EB%9F%89-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%9C%A0%EC%95%84%EB%AC%BC%ED%8B%B0%EC%8A%88-4/",
@@ -30496,8 +30497,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001725383",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001725383",
     "officialUrls": [
       "https://www.kurly.com/goods/1001725383",
       "https://www.elandmall.co.kr/i/item?itemNo=2507000309&lowerVendNo=LV23002868",
@@ -30891,8 +30892,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://timing.im/product/XbnVn-eIiUJ7GEn31BSR6Q6VzJexRly6rZFh4domoy8",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://timing.im/product/XbnVn-eIiUJ7GEn31BSR6Q6VzJexRly6rZFh4domoy8",
     "officialUrls": [
       "https://timing.im/product/XbnVn-eIiUJ7GEn31BSR6Q6VzJexRly6rZFh4domoy8",
       "https://cashflowa.mycafe24.com/%EC%BD%94%EB%A9%A7-%EC%A0%80%EC%9E%90%EA%B7%B9-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EC%95%84%EA%B8%B0%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%97%A0%EB%B3%B4%EC%8B%B1-%EC%BA%A1%ED%98%95-%EB%8D%94%EB%A7%88/",
@@ -31224,8 +31225,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.hansbiz.co.kr/news/articleView.html?idxno=20492",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.hansbiz.co.kr/news/articleView.html?idxno=20492",
     "officialUrls": [
       "https://www.hansbiz.co.kr/news/articleView.html?idxno=20492",
       "https://asda.co.kr/19273",
@@ -31591,8 +31592,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
     "officialUrls": [
       "https://fallcent.com/product/Lcc9JO0JlEZ2yRkO9xowKg57CGI8YsNu/",
       "https://pusandate.com/2133",
@@ -31842,8 +31843,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=20848904",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=20848904",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=20848904",
       "https://www.elandmall.co.kr/i/item?itemNo=2303024498&lowerVendNo=LV23037037",
@@ -32077,8 +32078,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
     "officialUrls": [
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
       "https://www.elandmall.co.kr/i/item?itemNo=2306247360&lowerVendNo=LV23037037",
@@ -32319,8 +32320,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.ggulcoupon.com/products/cmjrpcyjm00138vwv1jqvcljh",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.ggulcoupon.com/products/cmjrpcyjm00138vwv1jqvcljh",
     "officialUrls": [
       "https://www.ggulcoupon.com/products/cmjrpcyjm00138vwv1jqvcljh"
     ],
@@ -32552,8 +32553,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kolonmall.com/Product/K1681286265475069NO01",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kolonmall.com/Product/K1681286265475069NO01",
     "officialUrls": [
       "https://www.kolonmall.com/Product/K1681286265475069NO01",
       "https://www.kolonmall.com/Product/K1681286265475069IV01",
@@ -32745,8 +32746,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/4rxZyHsXOfCItWmwHuF8DAzhv9klcqi1/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/4rxZyHsXOfCItWmwHuF8DAzhv9klcqi1/",
     "officialUrls": [
       "https://fallcent.com/product/4rxZyHsXOfCItWmwHuF8DAzhv9klcqi1/",
       "https://lietokorea.com/",
@@ -32965,8 +32966,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=40587779",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=40587779",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=40587779",
       "https://fallcent.com/product/lplhbZiNW32eSTRK4FjywbzqnrspU9GV/",
@@ -33449,8 +33450,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1733118484",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1733118484",
     "officialUrls": [
       "https://momiliter.co.kr/shop/item.php?it_id=1733118484",
       "https://fallcent.com/product/1wSP9aoFRpyuJV9bm2fDaCiKzLYdGB8s/"
@@ -33695,8 +33696,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://ubmom.cafe24.com/product/list.html?cate_no=48",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://ubmom.cafe24.com/product/list.html?cate_no=48",
     "officialUrls": [
       "https://ubmom.cafe24.com/product/list.html?cate_no=48",
       "https://www.ubmom.com/",
@@ -34026,8 +34027,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=35305055",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=35305055",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=35305055",
       "https://xirinet.com/%EC%9C%A0%ED%94%BC%EC%8A%A4%EC%A0%96%EB%B3%91-202407281324/"
@@ -34150,8 +34151,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/onC-JNweRaD2wirOnvC9NJhOWnyHL7k1an9u583CKVg",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/onC-JNweRaD2wirOnvC9NJhOWnyHL7k1an9u583CKVg",
     "officialUrls": [
       "https://timing.im/product/onC-JNweRaD2wirOnvC9NJhOWnyHL7k1an9u583CKVg",
       "https://fallcent.com/product/LX4y3O0JlEZ2yRkO9xowKg57CGI8YsNu/?from=recommend",
@@ -34386,8 +34387,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=29496860",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=29496860",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=29496860",
       "https://fallcent.com/product/BfXJlxbuXfHVSoMdLyEYJeWhOsCFURPB/"
@@ -34499,8 +34500,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=106887085",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.enuri.com/detail.jsp?modelno=106887085",
     "officialUrls": [
       "https://www.enuri.com/detail.jsp?modelno=106887085",
       "https://prod.danawa.com/info/?pcode=26429210",
@@ -34672,13 +34673,13 @@
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "6개월이상",
-    "ageEvidence": "공식 판매 페이지: 6개월이상",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/ufeA_vblsiG6yXJ0bwU7DtX1aZdenSdlKtKijUD52y8",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://timing.im/product/ufeA_vblsiG6yXJ0bwU7DtX1aZdenSdlKtKijUD52y8",
     "officialUrls": [
       "https://timing.im/product/ufeA_vblsiG6yXJ0bwU7DtX1aZdenSdlKtKijUD52y8",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2106031382&lowerVendNo=LV20025870",
@@ -34846,8 +34847,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false",
     "officialUrls": [
       "https://blog.naver.com/PostView.naver?blogId=uni_1119&logNo=223009820246&redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false",
       "https://a.artechnic.co.kr/10991",
@@ -35265,8 +35266,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://m.bunjang.co.kr/products/216107129",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://m.bunjang.co.kr/products/216107129",
     "officialUrls": [
       "https://m.bunjang.co.kr/products/216107129",
       "https://a.artechnic.co.kr/9865"
@@ -36254,8 +36255,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
     "officialUrls": [
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2205724780",
       "https://newsmeta.kr/13590/",
@@ -36792,8 +36793,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.tackaon.com/product/list.html?cate_no=65",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.tackaon.com/product/list.html?cate_no=65",
     "officialUrls": [
       "https://m.tackaon.com/product/list.html?cate_no=65",
       "https://tackaon.com/product/%ED%83%81%EA%B0%80%EC%98%A8-123-%EC%8B%A4%EB%A6%AC%EC%BD%98-%ED%9D%A1%EC%B0%A9%EC%8B%9D%ED%8C%90-3%EA%B5%AC-%EC%8B%9D%ED%8C%90/388/",
@@ -36955,8 +36956,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001423035",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001423035",
     "officialUrls": [
       "https://www.kurly.com/goods/1001423035",
       "https://fallcent.com/product/twB8d7Eqp8UkVQTx3DZny2cbAl916RGw/",
@@ -37799,8 +37800,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1722846471",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1722846471",
     "officialUrls": [
       "https://momiliter.co.kr/shop/item.php?it_id=1722846471",
       "http://questquiver.kro.kr/%EC%88%98%EC%A7%91%ED%92%88/262435",
@@ -38153,8 +38154,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001183062",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001183062",
     "officialUrls": [
       "https://www.kurly.com/goods/1001183062",
       "https://www.enuri.com/detail.jsp?modelno=24780233",
@@ -38394,8 +38395,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1002059516",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1002059516",
     "officialUrls": [
       "https://www.kurly.com/goods/1002059516"
     ],
@@ -40446,8 +40447,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
     "officialUrls": [
       "https://www.kurly.com/goods/1000429275",
       "https://fallcent.com/product/lUHM8ZiNW32eSTRK4FjywbzqnrspU9GV/",
@@ -41035,8 +41036,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
     "officialUrls": [
       "https://www.kurly.com/goods/1000429275",
       "https://fallcent.com/product/gqtJMTaTjBJ9CVbLo017lfthYkQqxuNe/",
@@ -41435,8 +41436,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://www.kurly.com/goods/1000429275",
       "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
+      "https://www.kurly.com/goods/1000429275",
       "https://prod.danawa.com/info/?pcode=51823934",
       "https://blog.naver.com/PostView.naver?blogId=terrace5842&logNo=223702287696"
     ],
@@ -41453,16 +41454,16 @@
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "확인 중",
-    "ageEvidence": "0~35개월 공식 연령 근거 없음",
+    "ageRange": "2~4개월",
+    "ageEvidence": "공식 판매 페이지: 2~4개월",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
     "officialUrls": [
-      "https://www.kurly.com/goods/1000429275",
       "https://www.livingpick.com/shop/shopdetail.html?branduid=1989278",
+      "https://www.kurly.com/goods/1000429275",
       "https://prod.danawa.com/info/?pcode=51823934",
       "https://blog.naver.com/PostView.naver?blogId=terrace5842&logNo=223702287696"
     ],
@@ -41490,8 +41491,7 @@
     "revalidationMissingFields": [
       "manufacturerOrImporter",
       "countryOfManufacture",
-      "regulatoryRegime",
-      "officialAge"
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"인콕\" \"이중밀폐 이유식큐브 6구\"",
@@ -41560,7 +41560,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0119"
   },
   {
@@ -41594,8 +41594,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://jammuk.com/product/%EC%9E%BC%EB%A8%B9-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C/81/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://jammuk.com/product/%EC%9E%BC%EB%A8%B9-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C/81/",
     "officialUrls": [
       "https://jammuk.com/product/%EC%9E%BC%EB%A8%B9-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%9D%B4%EC%9C%A0%EC%8B%9D%ED%81%90%EB%B8%8C/81/",
       "https://prod.danawa.com/info/?pcode=26458985",
@@ -41734,8 +41734,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001764731",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001764731",
     "officialUrls": [
       "https://www.kurly.com/goods/1001764731",
       "https://www.fallcent.com/product/1gRd9aoFRpyuJV9bm2fDaCiKzLYdGB8s/",
@@ -42159,8 +42159,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1000429275",
     "officialUrls": [
       "https://www.kurly.com/goods/1000429275",
       "https://mom-mom.net/shop/products/132097820",
@@ -42330,8 +42330,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/BPkC8xbuXfHVSoMdLyEYJeWhOsCFURPB/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/BPkC8xbuXfHVSoMdLyEYJeWhOsCFURPB/",
     "officialUrls": [
       "https://fallcent.com/product/BPkC8xbuXfHVSoMdLyEYJeWhOsCFURPB/",
       "https://www.wrapuppro.com/partner/view/srch_d6YknGVpAJ5JEN7"
@@ -42651,8 +42651,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/0n5Atywf7vgeKnV983JAQUTaysZcYLCM/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/0n5Atywf7vgeKnV983JAQUTaysZcYLCM/",
     "officialUrls": [
       "https://fallcent.com/product/0n5Atywf7vgeKnV983JAQUTaysZcYLCM/",
       "https://kbay.co.kr/%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8-ppsu-%EC%A0%96%EB%B3%91-%ED%8A%B8%EC%9C%88%ED%8C%A9-%EB%8F%97%EA%BC%BC%ED%99%94%EC%9D%B4%ED%8A%B8-300ml-1%EC%84%B8%ED%8A%B8-%EC%99%B8-%EA%B7%B8%EB%A1%9C/",
@@ -43303,8 +43303,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=77318630",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=77318630",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=77318630",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209272720&lowerVendNo=LV21031240",
@@ -43418,8 +43418,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.salefinder.co.kr/products/712558",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.salefinder.co.kr/products/712558",
     "officialUrls": [
       "https://www.salefinder.co.kr/products/712558",
       "https://hibeekorea.com/product/%ED%95%98%EC%9D%B4%EB%B9%84-ppsu-%EC%97%90%EC%9E%87%EB%B2%A4%ED%8A%B8-%EB%B0%B0%EC%95%93%EC%9D%B4%EB%B0%A9%EC%A7%80-%EC%A0%96%EB%B3%91-270ml-%ED%8A%B8%EB%A6%AC%ED%94%8C%ED%8C%A9-%EB%B4%84%EC%97%90%EB%94%94%EC%85%98-%EB%B3%BC%EB%B9%B5%EA%B3%B0/177/",
@@ -44827,8 +44827,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.edisoni.kr/goods/goods_view.php?goodsNo=630&mtn=10%5E%7C%5E%ED%83%80%EC%9E%84%EC%84%B8%EC%9D%BC%5E%7C%5Ey",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.edisoni.kr/goods/goods_view.php?goodsNo=630&mtn=10%5E%7C%5E%ED%83%80%EC%9E%84%EC%84%B8%EC%9D%BC%5E%7C%5Ey",
     "officialUrls": [
       "https://m.edisoni.kr/goods/goods_view.php?goodsNo=630&mtn=10%5E%7C%5E%ED%83%80%EC%9E%84%EC%84%B8%EC%9D%BC%5E%7C%5Ey",
       "https://www.elandmall.co.kr/i/item?itemNo=2206832586&lowerVendNo=LV21033354",
@@ -45045,8 +45045,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://motherscorn.co.kr/product/%EC%8D%A8%EB%8B%88%ED%9D%A1%EC%B0%A9%EB%B3%BC-420ml/488/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://motherscorn.co.kr/product/%EC%8D%A8%EB%8B%88%ED%9D%A1%EC%B0%A9%EB%B3%BC-420ml/488/",
     "officialUrls": [
       "https://motherscorn.co.kr/product/%EC%8D%A8%EB%8B%88%ED%9D%A1%EC%B0%A9%EB%B3%BC-420ml/488/",
       "https://fallcent.com/product/HWcR73HaLpoewjsVNlQz1E527xFDdTnm/"
@@ -45162,8 +45162,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=26457119",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=26457119",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=26457119",
       "https://fallcent.com/product/3HDU8pQmfPd5R0LKHrqDZCaATlOvxXtc/",
@@ -45291,14 +45291,14 @@
     "name": "실리콘 흡착볼 이유식 식판",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "구매 기능 확인 불가",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "과거 누적 공식 월령 재검증 필요",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/FScM6Nf0ovNeTzHuYqtW8DJOnUVs4hw3/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/FScM6Nf0ovNeTzHuYqtW8DJOnUVs4hw3/",
     "officialUrls": [
       "https://fallcent.com/product/FScM6Nf0ovNeTzHuYqtW8DJOnUVs4hw3/",
       "https://specs-review.tistory.com/126",
@@ -45419,7 +45419,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "구매 기능 확인 불가 · 공식 근거 추가 확인 필요",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0144"
   },
   {
@@ -45555,8 +45555,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nurimarket.co.kr/shop/item.php?it_id=1768458352",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nurimarket.co.kr/shop/item.php?it_id=1768458352",
     "officialUrls": [
       "https://nurimarket.co.kr/shop/item.php?it_id=1768458352",
       "https://www.asiae.co.kr/article/2025070809183851018",
@@ -45850,8 +45850,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.bosomimall.co.kr/goods/goods_list.php?cateCd=001",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.bosomimall.co.kr/goods/goods_list.php?cateCd=001",
     "officialUrls": [
       "https://www.bosomimall.co.kr/goods/goods_list.php?cateCd=001",
       "https://www.enuri.com/detail.jsp?modelno=147086270",
@@ -46534,8 +46534,8 @@
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
     "officialUrls": [
       "https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
       "https://www.bebesup.co.kr/goods/view?no=443",
@@ -47601,8 +47601,8 @@
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/91NxqSGzcjsFeuU7fDVOl6bIhBMqHgoa/",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/91NxqSGzcjsFeuU7fDVOl6bIhBMqHgoa/",
     "officialUrls": [
       "https://fallcent.com/product/91NxqSGzcjsFeuU7fDVOl6bIhBMqHgoa/",
       "https://toymiso.com/product/detail.html?product_no=9301&cate_no=1&display_group=3"
@@ -49341,8 +49341,8 @@
     "kcApplicable": "확인 필요",
     "kcNumber": "미확인",
     "platform": "과거 누적 Master DB",
-    "checkedAt": "2026-09-06",
-    "reason": "2026-09-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://hongspapa.co.kr/?redirect=no",
+    "checkedAt": "2026-09-07",
+    "reason": "2026-09-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://hongspapa.co.kr/?redirect=no",
     "officialUrls": [
       "https://hongspapa.co.kr/?redirect=no",
       "https://hongspapa.imweb.me/?idx=93",
