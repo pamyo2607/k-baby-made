@@ -1193,6 +1193,24 @@
       "priority": 3
     },
     {
+      "id": "MASTER-0119",
+      "category": "이유식·식기",
+      "brand": "인콕",
+      "name": "이중밀폐 이유식큐브 6구",
+      "checkedAt": "2026-09-08",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도"
+      ],
+      "priority": 3
+    },
+    {
       "id": "MASTER-0121",
       "category": "이유식·식기",
       "brand": "잼먹",
@@ -2803,26 +2821,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0119",
-      "category": "이유식·식기",
-      "brand": "인콕",
-      "name": "이중밀폐 이유식큐브 6구",
-      "checkedAt": "2026-09-08",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "countryOfManufacture",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "완제품 제조국",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0124",
       "category": "이유식·식기",
       "brand": "홈하우스",
@@ -3039,26 +3037,6 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0153",
-      "category": "위생·기저귀",
-      "brand": "베베숲",
-      "name": "캘리그라피 골드 캡형",
-      "checkedAt": "2026-09-08",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "완제품 제조국",
-        "적용 안전제도"
       ],
       "priority": 4
     },
@@ -4867,6 +4845,28 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0153",
+      "category": "위생·기저귀",
+      "brand": "베베숲",
+      "name": "캘리그라피 골드 캡형",
+      "checkedAt": "2026-09-08",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "완제품 제조국",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 5
     },
