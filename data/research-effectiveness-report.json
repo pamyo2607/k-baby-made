@@ -15,28 +15,28 @@
   "includedTransitionsThisRun": 0,
   "includedTotalAfterRun": 24,
   "snapshotMatchesCanonical": true,
-  "snapshotMatchesStaging": true,
+  "snapshotMatchesStaging": false,
   "newCandidateLimit": 30,
   "rawCandidatesFoundThisRun": 30,
-  "candidatesAcceptedBeforeSanitizationThisRun": 0,
-  "newCandidatesThisRun": 0,
+  "candidatesAcceptedBeforeSanitizationThisRun": 4,
+  "newCandidatesThisRun": 4,
   "newCandidatesRejectedBySanitizationThisRun": 0,
   "newCandidatesByCategoryThisRun": {
     "완구": 0,
     "구강·치발기": 0,
     "턱받이": 0,
-    "수유용품": 0,
+    "수유용품": 1,
     "이유식·식기": 0,
-    "위생·기저귀": 0
+    "위생·기저귀": 3
   },
-  "candidateTotalAfterRun": 721,
+  "candidateTotalAfterRun": 725,
   "candidateTotalsByCategoryAfterRun": {
     "완구": 82,
     "구강·치발기": 113,
     "턱받이": 147,
-    "수유용품": 172,
+    "수유용품": 173,
     "이유식·식기": 71,
-    "위생·기저귀": 136
+    "위생·기저귀": 139
   },
   "errors": [],
   "perRunLimits": {
