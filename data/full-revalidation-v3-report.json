@@ -8,10 +8,10 @@
     "countryOfManufacture": 332,
     "manufacturerOrImporter": 302,
     "safetyKoreaSameModel": 225,
-    "officialEvidence": 221,
+    "officialEvidence": 222,
     "exactKcNumber": 194,
     "officialAge": 190,
-    "currentSale": 174,
+    "currentSale": 175,
     "regulatoryRegime": 26
   },
   "labels": {
@@ -4055,28 +4055,6 @@
       "priority": 5
     },
     {
-      "id": "TOY-20260729-038",
-      "category": "완구",
-      "brand": "미확인",
-      "name": "삐약삐약 오뚝이",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 5
-    },
-    {
       "id": "TOY-20260729-093",
       "category": "완구",
       "brand": "그린라이프",
@@ -7893,6 +7871,32 @@
       "category": "구강·치발기",
       "brand": "쁘띠누베",
       "name": "국내 제조 실리콘 꽃게 손목 치발기",
+      "checkedAt": "2026-09-08",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "TOY-20260729-038",
+      "category": "완구",
+      "brand": "미확인",
+      "name": "삐약삐약 오뚝이",
       "checkedAt": "2026-09-08",
       "missingFields": [
         "officialAge",
