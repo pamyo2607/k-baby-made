@@ -10,7 +10,7 @@
     "safetyKoreaSameModel": 225,
     "officialEvidence": 222,
     "exactKcNumber": 194,
-    "officialAge": 191,
+    "officialAge": 190,
     "currentSale": 175,
     "regulatoryRegime": 26
   },
@@ -5311,6 +5311,28 @@
       "priority": 5
     },
     {
+      "id": "TEETHER-20260801-018",
+      "category": "구강·치발기",
+      "brand": "아가츄",
+      "name": "아기 고리 치발기 세트 컬러풀다이노",
+      "checkedAt": "2026-09-09",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 5
+    },
+    {
       "id": "TEETHER-20260801-024",
       "category": "구강·치발기",
       "brand": "마마스템",
@@ -6089,30 +6111,6 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 6
-    },
-    {
-      "id": "TEETHER-20260801-018",
-      "category": "구강·치발기",
-      "brand": "아가츄",
-      "name": "아기 고리 치발기 세트 컬러풀다이노",
-      "checkedAt": "2026-09-09",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
       ],
       "priority": 6
     },
