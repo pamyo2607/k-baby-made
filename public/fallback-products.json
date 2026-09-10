@@ -46550,13 +46550,13 @@
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "0개월 이상",
-    "ageEvidence": "공식 판매 페이지: 신생아",
+    "ageRange": "확인 중",
+    "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-09-10",
-    "reason": "2026-09-10 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
+    "reason": "2026-09-10 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
     "officialUrls": [
       "https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
       "https://www.bebesup.co.kr/goods/view?no=443",
@@ -46596,7 +46596,8 @@
       "manufacturerOrImporter",
       "officialEvidence",
       "countryOfManufacture",
-      "regulatoryRegime"
+      "regulatoryRegime",
+      "officialAge"
     ],
     "revalidationSearchQueries": [
       "\"베베숲\" \"캘리그라피 골드 캡형\"",
@@ -46662,7 +46663,7 @@
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
+    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0153"
   },
   {

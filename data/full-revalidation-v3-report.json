@@ -10,7 +10,7 @@
     "safetyKoreaSameModel": 225,
     "officialEvidence": 224,
     "exactKcNumber": 194,
-    "officialAge": 188,
+    "officialAge": 189,
     "currentSale": 175,
     "regulatoryRegime": 26
   },
@@ -3045,26 +3045,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0153",
-      "category": "위생·기저귀",
-      "brand": "베베숲",
-      "name": "캘리그라피 골드 캡형",
-      "checkedAt": "2026-09-10",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "완제품 제조국",
-        "적용 안전제도"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0158",
       "category": "수유용품",
       "brand": "맘위즈",
@@ -4889,6 +4869,28 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0153",
+      "category": "위생·기저귀",
+      "brand": "베베숲",
+      "name": "캘리그라피 골드 캡형",
+      "checkedAt": "2026-09-10",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "완제품 제조국",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 5
     },
