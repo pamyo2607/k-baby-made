@@ -11,7 +11,7 @@
     "officialEvidence": 224,
     "exactKcNumber": 194,
     "officialAge": 188,
-    "currentSale": 180,
+    "currentSale": 175,
     "regulatoryRegime": 26
   },
   "labels": {
@@ -821,6 +821,24 @@
       "category": "위생·기저귀",
       "brand": "하기스",
       "name": "보송보송 팬티형 4단계 336매",
+      "checkedAt": "2026-09-10",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0023",
+      "category": "위생·기저귀",
+      "brand": "델리프",
+      "name": "엠보싱 넘버5 베이지 아기물티슈",
       "checkedAt": "2026-09-10",
       "missingFields": [
         "officialAge",
@@ -2307,26 +2325,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0023",
-      "category": "위생·기저귀",
-      "brand": "델리프",
-      "name": "엠보싱 넘버5 베이지 아기물티슈",
-      "checkedAt": "2026-09-10",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0029",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -2467,6 +2465,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0046",
+      "category": "수유용품",
+      "brand": "그로미미",
+      "name": "PPSU 다크시리즈 빨대컵 200ml + 스트랩",
+      "checkedAt": "2026-09-10",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0048",
       "category": "수유용품",
       "brand": "그로미미",
@@ -2527,6 +2545,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0053",
+      "category": "수유용품",
+      "brand": "리틀밥독",
+      "name": "플립 컬러 빨대컵",
+      "checkedAt": "2026-09-10",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0055",
       "category": "수유용품",
       "brand": "아이별프렌즈",
@@ -2547,10 +2585,50 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0060",
+      "category": "수유용품",
+      "brand": "유피스",
+      "name": "PPSU 빨대컵 6M",
+      "checkedAt": "2026-09-10",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0061",
       "category": "수유용품",
       "brand": "토비앤몰리",
       "name": "돗람이 PPSU 빨대컵",
+      "checkedAt": "2026-09-10",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0063",
+      "category": "수유용품",
+      "brand": "하이비",
+      "name": "PPSU 이지유 간편 빨대컵 2단계",
       "checkedAt": "2026-09-10",
       "missingFields": [
         "countryOfManufacture",
@@ -4287,28 +4365,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0046",
-      "category": "수유용품",
-      "brand": "그로미미",
-      "name": "PPSU 다크시리즈 빨대컵 200ml + 스트랩",
-      "checkedAt": "2026-09-10",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "currentSale"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "현재 구매 가능한 국내 판매 페이지"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0047",
       "category": "수유용품",
       "brand": "그로미미",
@@ -4353,50 +4409,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0053",
-      "category": "수유용품",
-      "brand": "리틀밥독",
-      "name": "플립 컬러 빨대컵",
-      "checkedAt": "2026-09-10",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "currentSale"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "현재 구매 가능한 국내 판매 페이지"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0060",
-      "category": "수유용품",
-      "brand": "유피스",
-      "name": "PPSU 빨대컵 6M",
-      "checkedAt": "2026-09-10",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0062",
       "category": "수유용품",
       "brand": "티지엠",
@@ -4415,28 +4427,6 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0063",
-      "category": "수유용품",
-      "brand": "하이비",
-      "name": "PPSU 이지유 간편 빨대컵 2단계",
-      "checkedAt": "2026-09-10",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "currentSale"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 5
     },
