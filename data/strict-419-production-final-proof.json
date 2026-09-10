@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "passed",
   "build": "20260815-dedup449-final1",
   "legacyStrict419Filename": true,
   "rawRecords": 451,
@@ -12,14 +12,51 @@
   "uniqueExcluded": 47,
   "verifiedTotal": 451,
   "transport": "verified-csv",
-  "liveConnected": false,
+  "liveConnected": true,
   "buildError": null,
   "expectedRenderedCards": 24,
   "includedTile": 24,
   "pendingTile": 380,
   "excludedAndDuplicateTile": 47,
-  "dataSha256": "dad43cb1fe70688eac59162d7f7dcb4efdd710b90a67d7ac5d04dbd77734eb7d",
-  "csvSha256": "c7821555a6de21498e363396057df45d1f877e449368b677df55b757fa38687e",
-  "deploymentVerification": "pending",
-  "blockingIssue": "Production deploy and cache-busted endpoint/browser verification required"
+  "dataSha256": "2a6419e9abab2050daf11a1859b2f3bf3fefd2e307945e3e1c25ac19e42ba179",
+  "csvSha256": "cf7f3c0041b3324d9085442f5c94542bdf7d4ac6d867dc8a2ed823ef90e03b21",
+  "deploymentVerification": "passed",
+  "verifiedDeployment": {
+    "verifiedAt": "2026-09-10T21:59:10.329457+00:00",
+    "url": "https://k-baby-made.pamyo26.workers.dev/",
+    "sourceCommit": "32798c0447547f48cdf92ffa2e5d51c753cba6ff",
+    "artifactMatchesCurrentBuild": true,
+    "verificationMode": "cache-busted HTTP byte-for-byte readback",
+    "http200": [
+      "/",
+      "/index.html",
+      "/app.js",
+      "/styles.css",
+      "/kbaby-data.js",
+      "/data/master-db-419-final.csv",
+      "/data/fallback-products.json",
+      "/health.json",
+      "/meta.json"
+    ],
+    "sha256": {
+      "index.html": "6bf233f9037d2cfeb86bedbd63eaeb2a9537715aee06b5304042685c1618e1a8",
+      "app.js": "d4ab75b94625c31735a8f19ef1fc924354f048a554cf488b38a4d605d0fe7e95",
+      "styles.css": "e9cb41f14f0517393b608f923d6c2b4dd54815ffdad0a0f9a238366c98e87661",
+      "kbaby-data.js": "739f6e54dcb08554b4c611aa628009461e42e61a27ac33f40cf6796446b5c709",
+      "csv": "cf7f3c0041b3324d9085442f5c94542bdf7d4ac6d867dc8a2ed823ef90e03b21",
+      "fallback-products.json": "01d43b267de7290520ebbab419e5ce3a7f89f94f75126bf5b12ddc177ee72c1c",
+      "health.json": "ef3b28fc02049b244cecdd714c8c910f55560d5f368b1ec09e72d374ec3a4e81",
+      "meta.json": "26271ce805fa348a7e45c30b6f9754b003cac3ca3570a48136c9d8f402347e76"
+    },
+    "browser": {
+      "transport": "verified-csv",
+      "total": 451,
+      "currentSale": 325,
+      "included": 24,
+      "pending": 380,
+      "excludedAndDuplicate": 47,
+      "initialCards": 24,
+      "verificationMode": "HTTP asset and metadata readback"
+    }
+  }
 }
