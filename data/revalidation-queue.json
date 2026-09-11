@@ -232,22 +232,6 @@
     "priority": 2
   },
   {
-    "id": "MASTER-0089",
-    "category": "이유식·식기",
-    "brand": "모윰",
-    "name": "실리콘 이유식 스푼 2종 + 케이스",
-    "checkedAt": "2026-09-11",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국"
-    ],
-    "priority": 2
-  },
-  {
     "id": "MASTER-0093",
     "category": "이유식·식기",
     "brand": "실리만",
@@ -912,24 +896,6 @@
       "0~35개월 공식 월령",
       "완제품 제조국",
       "제조사 또는 수입업체"
-    ],
-    "priority": 3
-  },
-  {
-    "id": "MASTER-0056",
-    "category": "수유용품",
-    "brand": "아이별프렌즈",
-    "name": "PPSU 추 빨대컵 캐럿",
-    "checkedAt": "2026-09-11",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "동일 제품 공식 근거 URL"
     ],
     "priority": 3
   },
@@ -2578,6 +2544,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0056",
+    "category": "수유용품",
+    "brand": "아이별프렌즈",
+    "name": "PPSU 추 빨대컵 캐럿",
+    "checkedAt": "2026-09-11",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "officialEvidence",
+      "currentSale"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL",
+      "현재 구매 가능한 국내 판매 페이지"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0060",
     "category": "수유용품",
     "brand": "유피스",
@@ -2722,6 +2708,26 @@
     "category": "이유식·식기",
     "brand": "에디슨",
     "name": "실리콘 흡착 플레이트 & 뚜껑 세트",
+    "checkedAt": "2026-09-11",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0089",
+    "category": "이유식·식기",
+    "brand": "모윰",
+    "name": "실리콘 이유식 스푼 2종 + 케이스",
     "checkedAt": "2026-09-11",
     "missingFields": [
       "officialAge",
