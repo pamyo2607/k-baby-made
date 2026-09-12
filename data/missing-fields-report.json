@@ -2,16 +2,16 @@
   "status": "passed",
   "build": "20260815-dedup449-final1",
   "generatedAt": "2026-09-12T00:00:00+09:00",
-  "pendingProducts": 380,
-  "pendingWithStructuredMissingFields": 380,
+  "pendingProducts": 379,
+  "pendingWithStructuredMissingFields": 379,
   "missingFieldCounts": {
-    "countryOfManufacture": 332,
-    "manufacturerOrImporter": 302,
-    "officialEvidence": 226,
-    "safetyKoreaSameModel": 225,
-    "exactKcNumber": 194,
+    "countryOfManufacture": 331,
+    "manufacturerOrImporter": 301,
+    "officialEvidence": 225,
+    "safetyKoreaSameModel": 224,
+    "exactKcNumber": 193,
     "officialAge": 191,
-    "currentSale": 176,
+    "currentSale": 175,
     "regulatoryRegime": 26
   },
   "labels": {
@@ -6227,30 +6227,6 @@
       "category": "완구",
       "brand": "하늘썬별",
       "name": "우주선 소프트 딸랑이 치발기 HEANHE0104",
-      "checkedAt": "2026-09-12",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 6
-    },
-    {
-      "id": "TOY-20260729-020",
-      "category": "완구",
-      "brand": "하늘썬별",
-      "name": "토끼 아기 딸랑이 삑삑이 피젯 스피너 A",
       "checkedAt": "2026-09-12",
       "missingFields": [
         "countryOfManufacture",
