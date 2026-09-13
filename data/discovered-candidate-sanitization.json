@@ -1,13 +1,11 @@
 {
   "canonicalCountUnchanged": 451,
-  "inputCount": 833,
+  "inputCount": 832,
   "outputCount": 832,
-  "removedCount": 1,
-  "candidateIdsDiscoveredThisRun": [
-    "DISC-978A3A8917B2"
-  ],
+  "removedCount": 0,
+  "candidateIdsDiscoveredThisRun": [],
   "candidateIdsAcceptedThisRun": [],
-  "newCandidatesRejectedThisRun": 1,
+  "newCandidatesRejectedThisRun": 0,
   "remainingCandidateCount": 832,
   "remainingCandidatesByCategory": {
     "완구": 94,
@@ -17,16 +15,5 @@
     "수유용품": 190,
     "위생·기저귀": 165
   },
-  "removed": [
-    {
-      "id": "DISC-978A3A8917B2",
-      "category": "턱받이",
-      "brand": "아기턱받이",
-      "name": "아기턱받이 새 창 열림",
-      "key": "아기턱받이|아기턱받이새창열림",
-      "reasons": [
-        "no_direct_korean_sales_candidate_url"
-      ]
-    }
-  ]
+  "removed": []
 }
