@@ -11,7 +11,7 @@
     "safetyKoreaSameModel": 224,
     "exactKcNumber": 193,
     "officialAge": 188,
-    "currentSale": 175,
+    "currentSale": 176,
     "regulatoryRegime": 28
   },
   "labels": {
@@ -4073,28 +4073,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0015",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "네이처메이드 썸머 팬티형 6단계 136매",
-      "checkedAt": "2026-09-16",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0022",
       "category": "위생·기저귀",
       "brand": "달곰이",
@@ -6009,6 +5987,30 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "MASTER-0015",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "네이처메이드 썸머 팬티형 6단계 136매",
+      "checkedAt": "2026-09-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "regulatoryRegime",
+        "officialAge",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "적용 안전제도",
+        "0~35개월 공식 월령",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 6
     },
