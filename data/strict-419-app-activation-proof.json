@@ -18,13 +18,13 @@
   "includedTile": 24,
   "pendingTile": 379,
   "excludedAndDuplicateTile": 48,
-  "dataSha256": "041344de09cfbd7d8fedcffdf5b01bfac342ef6b6e6d155733bda10284dc71d8",
-  "csvSha256": "9a8e2eced2109f2e5a82454a2e5461adc50733e466a1786f4c1558e6fc0e850f",
+  "dataSha256": "cb8aaf5e9060d99c48d924158c7808fefe9d19bba944ed91003b66a00c7de919",
+  "csvSha256": "ef8b9770d3f49a4d0ca60cd2dbb352b167cb4a8ac111f6e1eea421e7b6e41c03",
   "deploymentVerification": "passed",
   "verifiedDeployment": {
-    "verifiedAt": "2026-09-16T12:13:23.027985+00:00",
+    "verifiedAt": "2026-09-16T16:59:28.373783+00:00",
     "url": "https://k-baby-made.pamyo26.workers.dev/",
-    "sourceCommit": "8c38830533b145746b3f97b7f9ede6b1e4870f4a",
+    "sourceCommit": "47826fa59f1d87101532ebcb226028465252bf4f",
     "artifactMatchesCurrentBuild": true,
     "verificationMode": "cache-busted HTTP byte-for-byte readback",
     "http200": [
@@ -42,11 +42,11 @@
       "index.html": "6bf233f9037d2cfeb86bedbd63eaeb2a9537715aee06b5304042685c1618e1a8",
       "app.js": "d4ab75b94625c31735a8f19ef1fc924354f048a554cf488b38a4d605d0fe7e95",
       "styles.css": "e9cb41f14f0517393b608f923d6c2b4dd54815ffdad0a0f9a238366c98e87661",
-      "kbaby-data.js": "0a6df599943427f6b9d53efafe2c875dcb486aed1a2b2886c757d88d63d218d1",
-      "csv": "9a8e2eced2109f2e5a82454a2e5461adc50733e466a1786f4c1558e6fc0e850f",
-      "fallback-products.json": "1ae522910bc3b71099010bbf336320a658d0a0cdabb781e3c3e8db35fd779789",
-      "health.json": "914f1543426654036013e83e603390a1553256fc49a953e724badfdfe32be9a8",
-      "meta.json": "cdf39a358c65659aa9a5948ad3276f3b6d26f842a208061049803be1bd7d5f12"
+      "kbaby-data.js": "60b9a455695648ab32849dd02afcec621d68f692927b86b15e164c7bfd1dcc23",
+      "csv": "ef8b9770d3f49a4d0ca60cd2dbb352b167cb4a8ac111f6e1eea421e7b6e41c03",
+      "fallback-products.json": "2aed1934946b6cdd2232134d9ec80014ecc5fb4f4fe1e5c9a66c434f7d106fe1",
+      "health.json": "4ca2153d408596689dbb5d387433a6ee2e031baaa1507f817cde7956ada71770",
+      "meta.json": "af6045f91c0c67c6614cae7025d4db6f0ccb586d01b05f3559e3181a629dc48c"
     },
     "browser": {
       "transport": "verified-csv",
