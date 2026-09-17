@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "passed",
   "build": "20260815-dedup449-final1",
   "legacyStrict419Filename": true,
   "rawRecords": 451,
@@ -12,7 +12,7 @@
   "uniqueExcluded": 48,
   "verifiedTotal": 451,
   "transport": "verified-csv",
-  "liveConnected": false,
+  "liveConnected": true,
   "buildError": null,
   "expectedRenderedCards": 24,
   "includedTile": 24,
@@ -20,6 +20,43 @@
   "excludedAndDuplicateTile": 48,
   "dataSha256": "f263056da2bafad2333216765036c1424496f0f339d3f671fbe0079195f97a56",
   "csvSha256": "d8ec624d4559f2a78601ef737d9de080d7bb367c43be7ee7d7cba7fc0d0aead9",
-  "deploymentVerification": "pending",
-  "blockingIssue": "Production deploy and cache-busted endpoint/browser verification required"
+  "deploymentVerification": "passed",
+  "verifiedDeployment": {
+    "verifiedAt": "2026-09-17T19:16:29.887313+00:00",
+    "url": "https://k-baby-made.pamyo26.workers.dev/",
+    "sourceCommit": "bf33a86b4f5d2e51e10270eaf6dd5cf8a1812cfc",
+    "artifactMatchesCurrentBuild": true,
+    "verificationMode": "cache-busted HTTP byte-for-byte readback",
+    "http200": [
+      "/",
+      "/index.html",
+      "/app.js",
+      "/styles.css",
+      "/kbaby-data.js",
+      "/data/master-db-419-final.csv",
+      "/data/fallback-products.json",
+      "/health.json",
+      "/meta.json"
+    ],
+    "sha256": {
+      "index.html": "6bf233f9037d2cfeb86bedbd63eaeb2a9537715aee06b5304042685c1618e1a8",
+      "app.js": "d4ab75b94625c31735a8f19ef1fc924354f048a554cf488b38a4d605d0fe7e95",
+      "styles.css": "e9cb41f14f0517393b608f923d6c2b4dd54815ffdad0a0f9a238366c98e87661",
+      "kbaby-data.js": "b97436a01edcb87131b4d1e7ebabbe4a234701531c0e6c3d971f3be71eef3e92",
+      "csv": "d8ec624d4559f2a78601ef737d9de080d7bb367c43be7ee7d7cba7fc0d0aead9",
+      "fallback-products.json": "03efe90b737c2faaffbd523ce586f58d120355296971050c941c835eee43dc63",
+      "health.json": "87efc17797b8daa0fd51427d14cf68c2b9de98feebca020b0f77a22e3e8e9cfd",
+      "meta.json": "7afed81ca5060e3025989ffd90bdcf1505e310305174a8e5d81c6ed122f96372"
+    },
+    "browser": {
+      "transport": "verified-csv",
+      "total": 451,
+      "currentSale": 327,
+      "included": 24,
+      "pending": 379,
+      "excludedAndDuplicate": 48,
+      "initialCards": 24,
+      "verificationMode": "HTTP asset and metadata readback"
+    }
+  }
 }
