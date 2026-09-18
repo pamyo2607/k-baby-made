@@ -10,8 +10,8 @@
     "officialEvidence": 231,
     "safetyKoreaSameModel": 224,
     "exactKcNumber": 193,
-    "officialAge": 187,
-    "currentSale": 175,
+    "officialAge": 186,
+    "currentSale": 177,
     "regulatoryRegime": 29
   },
   "labels": {
@@ -801,24 +801,6 @@
       "priority": 3
     },
     {
-      "id": "MASTER-0021",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "보송보송 팬티형 4단계 336매",
-      "checkedAt": "2026-09-18",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
       "id": "MASTER-0023",
       "category": "위생·기저귀",
       "brand": "델리프",
@@ -923,6 +905,24 @@
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0040",
+      "category": "위생·기저귀",
+      "brand": "코멧",
+      "name": "시그니처 아기물티슈 엠보싱 캡형",
+      "checkedAt": "2026-09-18",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -2365,6 +2365,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0021",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "보송보송 팬티형 4단계 336매",
+      "checkedAt": "2026-09-18",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0029",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -2421,26 +2441,6 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0040",
-      "category": "위생·기저귀",
-      "brand": "코멧",
-      "name": "시그니처 아기물티슈 엠보싱 캡형",
-      "checkedAt": "2026-09-18",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "countryOfManufacture",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "완제품 제조국",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -2649,26 +2649,6 @@
       "category": "수유용품",
       "brand": "하이비",
       "name": "PPSU 이지유 간편 빨대컵 2단계",
-      "checkedAt": "2026-09-18",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0064",
-      "category": "수유용품",
-      "brand": "유비맘",
-      "name": "빨대컵 꼭지 리필 2개",
       "checkedAt": "2026-09-18",
       "missingFields": [
         "countryOfManufacture",
@@ -4285,6 +4265,28 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0064",
+      "category": "수유용품",
+      "brand": "유비맘",
+      "name": "빨대컵 꼭지 리필 2개",
+      "checkedAt": "2026-09-18",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 5
     },
