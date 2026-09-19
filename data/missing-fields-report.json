@@ -1235,24 +1235,6 @@
       "priority": 3
     },
     {
-      "id": "MASTER-0124",
-      "category": "이유식·식기",
-      "brand": "홈하우스",
-      "name": "브로니 삼중밀폐 실리콘 이유식큐브",
-      "checkedAt": "2026-09-19",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
       "id": "MASTER-0141",
       "category": "수유용품",
       "brand": "에디슨",
@@ -2263,6 +2245,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0025",
+      "category": "위생·기저귀",
+      "brand": "베베숲",
+      "name": "시그니처 레드 유아물티슈",
+      "checkedAt": "2026-09-19",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0029",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -2759,6 +2761,26 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0124",
+      "category": "이유식·식기",
+      "brand": "홈하우스",
+      "name": "브로니 삼중밀폐 실리콘 이유식큐브",
+      "checkedAt": "2026-09-19",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 4
     },
@@ -4073,28 +4095,6 @@
       "category": "위생·기저귀",
       "brand": "리벤스",
       "name": "시그니처 도톰한 아기물티슈",
-      "checkedAt": "2026-09-19",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0025",
-      "category": "위생·기저귀",
-      "brand": "베베숲",
-      "name": "시그니처 레드 유아물티슈",
       "checkedAt": "2026-09-19",
       "missingFields": [
         "officialAge",
