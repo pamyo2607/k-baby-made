@@ -11,7 +11,7 @@
     "safetyKoreaSameModel": 224,
     "exactKcNumber": 195,
     "officialAge": 184,
-    "currentSale": 172,
+    "currentSale": 171,
     "regulatoryRegime": 29
   },
   "labels": {
@@ -5827,6 +5827,28 @@
       "priority": 5
     },
     {
+      "id": "TOY-20260729-186",
+      "category": "완구",
+      "brand": "오즈토이",
+      "name": "목욕놀이 오리 5cm 12P DC098",
+      "checkedAt": "2026-09-19",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "safetyKoreaSameModel",
+        "exactKcNumber",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 KC 인증번호",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
       "id": "TOY-20260729-188",
       "category": "완구",
       "brand": "해피플레이",
@@ -7401,30 +7423,6 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 6
-    },
-    {
-      "id": "TOY-20260729-186",
-      "category": "완구",
-      "brand": "오즈토이",
-      "name": "목욕놀이 오리 5cm 12P DC098",
-      "checkedAt": "2026-09-19",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "safetyKoreaSameModel",
-        "exactKcNumber",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "Safety Korea 동일 모델 연결",
-        "동일 제품 KC 인증번호",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
