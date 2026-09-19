@@ -686,6 +686,24 @@
     "priority": 3
   },
   {
+    "id": "MASTER-0017",
+    "category": "위생·기저귀",
+    "brand": "하기스",
+    "name": "네이처메이드 퓨어코튼 썸머",
+    "checkedAt": "2026-09-19",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 3
+  },
+  {
     "id": "MASTER-0018",
     "category": "위생·기저귀",
     "brand": "하기스",
@@ -2212,26 +2230,6 @@
     "missingFieldLabels": [
       "0~35개월 공식 월령",
       "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "현재 구매 가능한 국내 판매 페이지"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0017",
-    "category": "위생·기저귀",
-    "brand": "하기스",
-    "name": "네이처메이드 퓨어코튼 썸머",
-    "checkedAt": "2026-09-19",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "officialEvidence",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
       "동일 제품 공식 근거 URL",
       "현재 구매 가능한 국내 판매 페이지"
     ],
