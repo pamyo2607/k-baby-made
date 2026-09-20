@@ -2764,6 +2764,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0131",
+    "category": "수유용품",
+    "brand": "하이비",
+    "name": "PPSU 에잇벤트 170ml",
+    "checkedAt": "2026-09-20",
+    "missingFields": [
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "countryOfManufacture",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "완제품 제조국",
+      "적용 안전제도"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0135",
     "category": "구강·치발기",
     "brand": "앙쥬",
@@ -4554,28 +4574,6 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0131",
-    "category": "수유용품",
-    "brand": "하이비",
-    "name": "PPSU 에잇벤트 170ml",
-    "checkedAt": "2026-09-20",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "countryOfManufacture",
-      "regulatoryRegime",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "완제품 제조국",
-      "적용 안전제도",
-      "현재 구매 가능한 국내 판매 페이지"
     ],
     "priority": 5
   },
