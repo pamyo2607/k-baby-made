@@ -832,6 +832,24 @@
     "priority": 3
   },
   {
+    "id": "MASTER-0040",
+    "category": "위생·기저귀",
+    "brand": "코멧",
+    "name": "시그니처 아기물티슈 엠보싱 캡형",
+    "checkedAt": "2026-09-21",
+    "missingFields": [
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "제조사 또는 수입업체",
+      "완제품 제조국",
+      "적용 안전제도"
+    ],
+    "priority": 3
+  },
+  {
     "id": "MASTER-0041",
     "category": "위생·기저귀",
     "brand": "코멧",
@@ -2106,11 +2124,11 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0003",
+    "id": "MASTER-0002",
     "category": "위생·기저귀",
-    "brand": "백조슈퍼베비",
-    "name": "골드 신생아 밴드형 1단계 60매",
-    "checkedAt": "2026-09-20",
+    "brand": "마미포코",
+    "name": "리프가닉 밴드형 4단계 300매",
+    "checkedAt": "2026-09-21",
     "missingFields": [
       "officialAge",
       "countryOfManufacture",
@@ -2126,10 +2144,10 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0002",
+    "id": "MASTER-0003",
     "category": "위생·기저귀",
-    "brand": "마미포코",
-    "name": "리프가닉 밴드형 4단계 300매",
+    "brand": "백조슈퍼베비",
+    "name": "골드 신생아 밴드형 1단계 60매",
     "checkedAt": "2026-09-21",
     "missingFields": [
       "officialAge",
@@ -2262,26 +2280,6 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0040",
-    "category": "위생·기저귀",
-    "brand": "코멧",
-    "name": "시그니처 아기물티슈 엠보싱 캡형",
-    "checkedAt": "2026-09-21",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "countryOfManufacture",
-      "regulatoryRegime",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "완제품 제조국",
-      "적용 안전제도",
-      "0~35개월 공식 월령"
     ],
     "priority": 4
   },
