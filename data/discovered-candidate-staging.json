@@ -1821,12 +1821,12 @@
     "checkedAt": "2026-09-22",
     "reason": "2026-09-22 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://babynimall.co.kr/front/html/block_state.html",
     "officialUrls": [
-      "https://babynimall.co.kr/front/html/block_state.html",
-      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426"
+      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426",
+      "https://babynimall.co.kr/front/html/block_state.html"
     ],
     "saleUrls": [
-      "https://babynimall.co.kr/front/html/block_state.html",
-      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426"
+      "https://babynimall.co.kr/product/%EC%95%A0%EC%B0%A9-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%9D%B8%ED%98%95/1426",
+      "https://babynimall.co.kr/front/html/block_state.html"
     ],
     "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
     "historySummary": "2026-08-24 네이버 특정 상품 후보 조사",
@@ -31256,7 +31256,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-09-17",
+    "checkedAt": "2026-09-22",
     "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/253e7e5d-4b35-40ee-a931-cf8f647b2f9c"
@@ -31307,7 +31307,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-09-17",
+    "checkedAt": "2026-09-22",
     "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/0d6a0689-6532-49db-858e-a6569aa6f3d1"
@@ -38206,6 +38206,7 @@
     "reason": "현재 국내 판매 제품 https://www.moyuum.com/_vir0001/process/shopview_2016.asp?pack_content_id=12604에서 구매 가능성을 확인했다. 공식 월령 근거 0개월이상를 확인했다. 정확 제품 페이지에 연결된 KC CB061A443-2001를 Safety Korea https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001에서 재조회해 적합 상태와 제조사 정보 제조사정보 상세 제조사 (주)쁘띠엘린와 제조국 대한민국을 교차 확인해 포함했다.",
     "officialUrls": [
       "https://www.moyuum.com/_vir0001/process/shopview_2016.asp?pack_content_id=12604",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
@@ -49172,6 +49173,162 @@
     ],
     "dashboardGroup": "완구",
     "canonicalProductId": "DISC-3427753CED96",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-B6807BB582D7",
+    "category": "구강·치발기",
+    "subtype": "",
+    "brand": "마마루",
+    "name": "마마루 나무링 아기치발기",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-09-22",
+    "reason": "네이버 검색어 '아기 치발기 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://search.shopping.naver.com/catalog/60432414141"
+    ],
+    "saleUrls": [
+      "https://search.shopping.naver.com/catalog/60432414141"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 8",
+    "rankEvidence": "2026-09-22 네이버 검색어 '아기 치발기 스마트스토어'의 상품 상세 후보 중 8번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 치발기 스마트스토어",
+    "discoveryResultRank": 8,
+    "historySummary": "2026-09-22 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "구강·치발기",
+    "canonicalProductId": "DISC-B6807BB582D7",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-15A0E9240320",
+    "category": "수유용품",
+    "subtype": "",
+    "brand": "스펙트라",
+    "name": "스펙트라 원터치 유아용 베베곰 빨대컵 250ml 밀폐캡포함",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-09-22",
+    "reason": "네이버 검색어 '아기 빨대컵'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://smartstore.naver.com/main/products/9718988384"
+    ],
+    "saleUrls": [
+      "https://smartstore.naver.com/main/products/9718988384"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 4",
+    "rankEvidence": "2026-09-22 네이버 검색어 '아기 빨대컵'의 상품 상세 후보 중 4번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 빨대컵",
+    "discoveryResultRank": 4,
+    "historySummary": "2026-09-22 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "수유용품",
+    "canonicalProductId": "DISC-15A0E9240320",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-C68D60B10503",
+    "category": "위생·기저귀",
+    "subtype": "",
+    "brand": "BROWN",
+    "name": "BROWN 프리미엄 브라운 물티슈 캡형 70매 무형광, 10개",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-09-22",
+    "reason": "네이버 검색어 '아기 물티슈'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://search.shopping.naver.com/catalog/51929278883"
+    ],
+    "saleUrls": [
+      "https://search.shopping.naver.com/catalog/51929278883"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 13",
+    "rankEvidence": "2026-09-22 네이버 검색어 '아기 물티슈'의 상품 상세 후보 중 13번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 물티슈",
+    "discoveryResultRank": 13,
+    "historySummary": "2026-09-22 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "위생·기저귀",
+    "canonicalProductId": "DISC-C68D60B10503",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }
