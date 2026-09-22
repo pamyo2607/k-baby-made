@@ -526,24 +526,6 @@
     "priority": 3
   },
   {
-    "id": "TOY-20260729-088",
-    "category": "완구",
-    "brand": "캐스비",
-    "name": "레인보우 스카프놀이 10종",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 3
-  },
-  {
     "id": "TOY-20260729-116",
     "category": "완구",
     "brand": "스윗하트",
@@ -5418,6 +5400,28 @@
     "category": "완구",
     "brand": "캐스비",
     "name": "말랑팡팡 쌓기블록 9종 2719",
+    "checkedAt": "2026-09-22",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "TOY-20260729-088",
+    "category": "완구",
+    "brand": "캐스비",
+    "name": "레인보우 스카프놀이 10종",
     "checkedAt": "2026-09-22",
     "missingFields": [
       "countryOfManufacture",
