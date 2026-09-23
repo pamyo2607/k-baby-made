@@ -1,25 +1,25 @@
 {
   "build": "20260815-dedup449-final1",
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-09-23",
   "rawRecords": 451,
   "totalInvestigated": 451,
   "uniqueProducts": 451,
-  "currentSale": 339,
+  "currentSale": 338,
   "included": 24,
-  "pending": 379,
-  "excluded": 48,
+  "pending": 378,
+  "excluded": 49,
   "duplicateRecords": 0,
-  "excludedAndDuplicate": 48,
-  "fullRevalidationTargetRows": 403,
+  "excludedAndDuplicate": 49,
+  "fullRevalidationTargetRows": 402,
   "statusCounts": {
     "포함": 24,
-    "보류": 379,
-    "제외": 48
+    "보류": 378,
+    "제외": 49
   },
   "rawStatusCounts": {
     "포함": 24,
-    "보류": 379,
-    "제외": 48
+    "보류": 378,
+    "제외": 49
   },
   "categories": {
     "완구": 197,
@@ -29,9 +29,9 @@
     "이유식·식기": 71,
     "위생·기저귀": 53
   },
-  "dataSha256": "d9e845cae236e7cfcf70658a77264067ab788a3a610c7d36116759bc122e0920",
-  "canonicalSha256": "0c91a3c5e3673fe6155bb7de8bfe9ddcd22aa2733fec9b9d68757e08cab793dd",
-  "csvSha256": "889889a4a0ff846c67ccbb3ead58d943037ef2f26fd2166c7307b2a3a5b20349",
+  "dataSha256": "ebab25ee737695946cbde67937880e0ac73daa1ac1e9fc33fc60ee6f2ef53156",
+  "canonicalSha256": "69e605164c1fe54e0b833654ff1b73e709f2ab6c424ef2567a120ff3ba07952e",
+  "csvSha256": "e9fb45c1e5059c7f2d6807d94e2f4c34fd1573e1968739436fcb614176c2ebdb",
   "transport": "verified-csv",
   "quarantinedCandidates": 120
 }
