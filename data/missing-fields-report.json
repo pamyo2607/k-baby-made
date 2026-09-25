@@ -9,9 +9,9 @@
     "manufacturerOrImporter": 300,
     "officialEvidence": 236,
     "safetyKoreaSameModel": 222,
-    "exactKcNumber": 193,
+    "exactKcNumber": 194,
     "officialAge": 184,
-    "currentSale": 179,
+    "currentSale": 178,
     "regulatoryRegime": 29
   },
   "labels": {
@@ -3141,14 +3141,14 @@
       "missingFields": [
         "manufacturerOrImporter",
         "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
+        "officialEvidence",
+        "exactKcNumber"
       ],
       "missingFieldLabels": [
         "제조사 또는 수입업체",
         "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
+        "동일 제품 공식 근거 URL",
+        "동일 제품 KC 인증번호"
       ],
       "priority": 4
     },
