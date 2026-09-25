@@ -27810,10 +27810,10 @@
     "kcType": "위생용품 기준·규격 및 품목제조보고",
     "testInstitute": "미확인",
     "saleUrls": [
+      "https://fallcent.com/product/dwvfBuwFIkKS0BiRUH8nyr1oWZxQb5XA/",
       "https://m.oasis.co.kr/product/detail/83968-1100449",
       "https://fallcent.com/product/search/?keyword=%ED%95%98%EA%B8%B0%EC%8A%A4+4%EB%8B%A8%EA%B3%84",
       "https://fallcent.com/product/search/?keyword=%ED%95%98%EA%B8%B0%EC%8A%A4+NEW+%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1+%ED%8C%AC%ED%8B%B0%ED%98%95+%EA%B8%B0%EC%A0%80%EA%B7%80+%EA%B3%B5%EC%9A%A9,+4%EB%8B%A8%EA%B3%84,+224%EB%A7%A4+%EC%9D%B4%EB%B2%A4%ED%8A%B8",
-      "https://fallcent.com/product/dwvfBuwFIkKS0BiRUH8nyr1oWZxQb5XA/",
       "https://www.enuri.com/detail.jsp?modelno=133878285",
       "https://www.enuri.com/detail.jsp?modelno=85848408",
       "https://m.danawa.com/product/product.html?code=21232016",
@@ -27831,19 +27831,19 @@
     "name": "보송보송 팬티형 4단계 336매",
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
-    "saleStatus": "현재 구매 가능",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "확인 중",
     "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-09-25",
-    "reason": "2026-09-25 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.oasis.co.kr/product/detail/83968-1100449",
+    "reason": "2026-09-25 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/dwvfBuwFIkKS0BiRUH8nyr1oWZxQb5XA/",
     "officialUrls": [
+      "https://fallcent.com/product/dwvfBuwFIkKS0BiRUH8nyr1oWZxQb5XA/",
       "https://m.oasis.co.kr/product/detail/83968-1100449",
       "https://fallcent.com/product/search/?keyword=%ED%95%98%EA%B8%B0%EC%8A%A4+4%EB%8B%A8%EA%B3%84",
       "https://fallcent.com/product/search/?keyword=%ED%95%98%EA%B8%B0%EC%8A%A4+NEW+%EB%B3%B4%EC%86%A1%EB%B3%B4%EC%86%A1+%ED%8C%AC%ED%8B%B0%ED%98%95+%EA%B8%B0%EC%A0%80%EA%B7%80+%EA%B3%B5%EC%9A%A9,+4%EB%8B%A8%EA%B3%84,+224%EB%A7%A4+%EC%9D%B4%EB%B2%A4%ED%8A%B8",
-      "https://fallcent.com/product/dwvfBuwFIkKS0BiRUH8nyr1oWZxQb5XA/",
       "https://www.enuri.com/detail.jsp?modelno=133878285",
       "https://www.enuri.com/detail.jsp?modelno=85848408",
       "https://m.danawa.com/product/product.html?code=21232016",
@@ -27893,7 +27893,8 @@
     "revalidationMissingFields": [
       "officialAge",
       "countryOfManufacture",
-      "officialEvidence"
+      "officialEvidence",
+      "currentSale"
     ],
     "revalidationQueries": [
       "\"하기스\" \"보송보송 팬티형 4단계 336매\"",
@@ -28048,7 +28049,7 @@
     "revalidationResolved": false,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0021"
   },
   {
@@ -34594,13 +34595,13 @@
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "확인 중",
-    "ageEvidence": "36개월 이상 전용",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-09-25",
-    "reason": "2026-09-25 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://price.enuri.com/catalog/106887085",
+    "reason": "2026-09-25 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://price.enuri.com/catalog/106887085",
     "officialUrls": [
       "https://price.enuri.com/catalog/106887085",
       "https://www.enuri.com/detail.jsp?modelno=106887085",
@@ -34634,8 +34635,7 @@
       "countryOfManufacture",
       "officialEvidence",
       "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialAge"
+      "regulatoryRegime"
     ],
     "revalidationQueries": [
       "\"유비맘\" \"빨대컵 꼭지 리필 2개\"",
@@ -34741,7 +34741,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0064"
   },
   {
@@ -43406,8 +43406,8 @@
     "kcType": "",
     "testInstitute": "",
     "saleUrls": [
-      "https://prod.danawa.com/info/?pcode=77318630",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209272720&lowerVendNo=LV21031240",
+      "https://prod.danawa.com/info/?pcode=77318630",
       "https://www.enuri.com/detail.jsp?modelno=119055535"
     ],
     "estimatedRank": "미공개",
@@ -43422,17 +43422,17 @@
     "name": "PPSU 에잇벤트 170ml",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "현재 구매 가능",
+    "saleStatus": "현재 구매 불가",
     "ageRange": "0개월 이상",
     "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "KC 비대상",
     "kcNumber": "",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-09-25",
-    "reason": "2026-09-25 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://prod.danawa.com/info/?pcode=77318630",
+    "reason": "2026-09-25 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://kidikidi.elandmall.co.kr/i/item?itemNo=2209272720&lowerVendNo=LV21031240",
     "officialUrls": [
-      "https://prod.danawa.com/info/?pcode=77318630",
       "https://kidikidi.elandmall.co.kr/i/item?itemNo=2209272720&lowerVendNo=LV21031240",
+      "https://prod.danawa.com/info/?pcode=77318630",
       "https://www.enuri.com/detail.jsp?modelno=119055535"
     ],
     "quality": "추가 확인 필요",
@@ -43460,7 +43460,8 @@
       "manufacturerOrImporter",
       "officialEvidence",
       "countryOfManufacture",
-      "regulatoryRegime"
+      "regulatoryRegime",
+      "currentSale"
     ],
     "revalidationQueries": [
       "\"하이비\" \"PPSU 에잇벤트 170ml\"",
@@ -43505,7 +43506,7 @@
     "revalidationResolved": true,
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "법령별 비KC 공식 근거 추가 확인 필요",
+    "revalidationState": "현재 구매 불가 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0131"
   },
   {
@@ -46660,14 +46661,14 @@
     "name": "캘리그라피 골드 캡형",
     "status": "보류",
     "countryOfManufacture": "대한민국 🇰🇷",
-    "saleStatus": "현재 구매 가능",
+    "saleStatus": "판매 종료·단종",
     "ageRange": "확인 중",
     "ageEvidence": "0~35개월 공식 연령 근거 없음",
     "kcApplicable": "위생용품관리법 관리 대상",
     "kcNumber": "KC 번호 대신 위생용품 법정관리 정보 확인",
     "platform": "과거 누적 Master DB",
     "checkedAt": "2026-09-25",
-    "reason": "2026-09-25 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
+    "reason": "2026-09-25 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
     "officialUrls": [
       "https://www.seoul.co.kr/news/newsView.php?id=20240213500069&wlog_tag3=naver",
       "https://www.bebesup.co.kr/goods/view?no=443",
@@ -46708,7 +46709,8 @@
       "officialEvidence",
       "countryOfManufacture",
       "regulatoryRegime",
-      "officialAge"
+      "officialAge",
+      "currentSale"
     ],
     "revalidationSearchQueries": [
       "\"베베숲\" \"캘리그라피 골드 캡형\"",
@@ -46774,7 +46776,7 @@
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "판매 종료·단종 · 공식 근거 추가 확인 필요",
     "canonicalProductId": "MASTER-0153"
   },
   {

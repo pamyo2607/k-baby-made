@@ -10,8 +10,8 @@
     "officialEvidence": 236,
     "safetyKoreaSameModel": 222,
     "exactKcNumber": 193,
-    "officialAge": 185,
-    "currentSale": 176,
+    "officialAge": 184,
+    "currentSale": 179,
     "regulatoryRegime": 29
   },
   "labels": {
@@ -746,24 +746,6 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0021",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "보송보송 팬티형 4단계 336매",
-      "checkedAt": "2026-09-25",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 3
@@ -2191,6 +2173,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0021",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "보송보송 팬티형 4단계 336매",
+      "checkedAt": "2026-09-25",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0029",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -2491,6 +2493,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0064",
+      "category": "수유용품",
+      "brand": "유비맘",
+      "name": "빨대컵 꼭지 리필 2개",
+      "checkedAt": "2026-09-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0065",
       "category": "수유용품",
       "brand": "유비맘",
@@ -2747,26 +2769,6 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0131",
-      "category": "수유용품",
-      "brand": "하이비",
-      "name": "PPSU 에잇벤트 170ml",
-      "checkedAt": "2026-09-25",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "완제품 제조국",
-        "적용 안전제도"
       ],
       "priority": 4
     },
@@ -4131,28 +4133,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0064",
-      "category": "수유용품",
-      "brand": "유비맘",
-      "name": "빨대컵 꼭지 리필 2개",
-      "checkedAt": "2026-09-25",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0068",
       "category": "수유용품",
       "brand": "리틀밥독",
@@ -4527,6 +4507,28 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0131",
+      "category": "수유용품",
+      "brand": "하이비",
+      "name": "PPSU 에잇벤트 170ml",
+      "checkedAt": "2026-09-25",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "완제품 제조국",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0133",
       "category": "구강·치발기",
       "brand": "모윰",
@@ -4655,28 +4657,6 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0153",
-      "category": "위생·기저귀",
-      "brand": "베베숲",
-      "name": "캘리그라피 골드 캡형",
-      "checkedAt": "2026-09-25",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "countryOfManufacture",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "완제품 제조국",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
       ],
       "priority": 5
     },
@@ -5912,6 +5892,30 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL",
+        "적용 안전제도",
+        "0~35개월 공식 월령",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "MASTER-0153",
+      "category": "위생·기저귀",
+      "brand": "베베숲",
+      "name": "캘리그라피 골드 캡형",
+      "checkedAt": "2026-09-25",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "완제품 제조국",
         "적용 안전제도",
         "0~35개월 공식 월령",
         "현재 구매 가능한 국내 판매 페이지"
