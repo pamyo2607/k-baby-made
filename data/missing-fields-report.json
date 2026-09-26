@@ -7,11 +7,11 @@
   "missingFieldCounts": {
     "countryOfManufacture": 329,
     "manufacturerOrImporter": 300,
-    "officialEvidence": 236,
+    "officialEvidence": 237,
     "safetyKoreaSameModel": 222,
     "exactKcNumber": 194,
     "officialAge": 187,
-    "currentSale": 173,
+    "currentSale": 174,
     "regulatoryRegime": 29
   },
   "labels": {
@@ -3743,28 +3743,6 @@
       "category": "구강·치발기",
       "brand": "앙쥬",
       "name": "치발기&브러쉬 2종세트 바나나 + 팔찌 기린",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 5
-    },
-    {
-      "id": "MASTER-0210",
-      "category": "구강·치발기",
-      "brand": "티지엠",
-      "name": "손목치발기 꽃게",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "officialAge",
@@ -7757,6 +7735,32 @@
         "동일 제품 공식 근거 URL",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "MASTER-0210",
+      "category": "구강·치발기",
+      "brand": "티지엠",
+      "name": "손목치발기 꽃게",
+      "checkedAt": "2026-09-26",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
       ],
       "priority": 7
     },
