@@ -32463,7 +32463,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-09-27",
-    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://coudeal.shop/product/ZrdlwoenYD407"
     ],
@@ -32480,7 +32480,6 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "sameProductIdentity",
@@ -34798,8 +34797,8 @@
     "status": "보류",
     "countryOfManufacture": "확인 중",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "12개월이상",
-    "ageEvidence": "공식 판매 페이지: 12개월이상",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "제품별 법령 확인 필요",
     "kcNumber": "",
     "kcType": "",
@@ -38211,6 +38210,7 @@
     "reason": "현재 국내 판매 제품 https://www.moyuum.com/_vir0001/process/shopview_2016.asp?pack_content_id=12604에서 구매 가능성을 확인했다. 공식 월령 근거 0개월이상를 확인했다. 정확 제품 페이지에 연결된 KC CB061A443-2001를 Safety Korea https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001에서 재조회해 적합 상태와 제조사 정보 제조사정보 상세 제조사 (주)쁘띠엘린와 제조국 대한민국을 교차 확인해 포함했다.",
     "officialUrls": [
       "https://www.moyuum.com/_vir0001/process/shopview_2016.asp?pack_content_id=12604",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
@@ -45456,7 +45456,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-09-26",
+    "checkedAt": "2026-09-27",
     "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/6260-%EC%98%A4%EB%B3%B4%EA%B8%B0-%EA%B5%AD%EB%AF%BC-%EC%97%84%EB%A7%88-%ED%84%B1%EB%B0%9B%EC%9D%B4-%EC%95%84%EA%B8%B0-%EC%B9%A8%EB%B0%9B%EC%9D%B4-%EC%88%98%EC%9C%A0-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%ED%8A%B8%EB%A6%BC%ED%8C%A8%EB%93%9C-%EB%AC%B4%ED%98%95%EA%B4%91-%EB%88%84%EB%B9%94"
@@ -45718,7 +45718,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-09-26",
+    "checkedAt": "2026-09-27",
     "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/6261-%EC%98%A4%EB%B3%B4%EA%B8%B0-%EA%B5%AD%EB%AF%BC-%EC%97%84%EB%A7%88%ED%84%B1%EB%B0%9B%EC%9D%B4-%EC%88%98%EC%9C%A0-%EC%95%9E%EC%B9%98%EB%A7%88-%EC%B9%A8%EB%B0%9B%EC%9D%B4-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%ED%8A%B8%EB%A6%BC%ED%8C%A8%EB%93%9C-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B3%90-%EC%B2%B4%EB%A6%AC%EB%8F%84%ED%8A%B8"
@@ -52415,6 +52415,110 @@
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-D24056644F1E",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-756F151E61EF",
+    "category": "턱받이",
+    "subtype": "",
+    "brand": "베이비앤아이",
+    "name": "베이비앤아이 & 벨라블 babynimall.co.kr › 베이비앤아이-하트-스퀘어-테리-방수-턱받이 새 창 열림",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-09-27",
+    "reason": "네이버 검색어 '아기 턱받이 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://babynimall.co.kr/product/%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%95%A4%EC%95%84%EC%9D%B4-%ED%95%98%ED%8A%B8-%EC%8A%A4%ED%80%98%EC%96%B4-%ED%85%8C%EB%A6%AC-%EB%B0%A9%EC%88%98-%ED%84%B1%EB%B0%9B%EC%9D%B4/1599"
+    ],
+    "saleUrls": [
+      "https://babynimall.co.kr/product/%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%95%A4%EC%95%84%EC%9D%B4-%ED%95%98%ED%8A%B8-%EC%8A%A4%ED%80%98%EC%96%B4-%ED%85%8C%EB%A6%AC-%EB%B0%A9%EC%88%98-%ED%84%B1%EB%B0%9B%EC%9D%B4/1599"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 4",
+    "rankEvidence": "2026-09-27 네이버 검색어 '아기 턱받이 스마트스토어'의 상품 상세 후보 중 4번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 턱받이 스마트스토어",
+    "discoveryResultRank": 4,
+    "historySummary": "2026-09-27 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "턱받이",
+    "canonicalProductId": "DISC-756F151E61EF",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-C6159E6C52CD",
+    "category": "위생·기저귀",
+    "subtype": "",
+    "brand": "아망떼",
+    "name": "아망떼 퓨어 대용량 아기물티슈 캡형 120매, 20개",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-09-27",
+    "reason": "네이버 검색어 '아기 물티슈'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://search.shopping.naver.com/catalog/88246458792"
+    ],
+    "saleUrls": [
+      "https://search.shopping.naver.com/catalog/88246458792"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 13",
+    "rankEvidence": "2026-09-27 네이버 검색어 '아기 물티슈'의 상품 상세 후보 중 13번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 물티슈",
+    "discoveryResultRank": 13,
+    "historySummary": "2026-09-27 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "위생·기저귀",
+    "canonicalProductId": "DISC-C6159E6C52CD",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }
