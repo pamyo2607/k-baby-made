@@ -9514,7 +9514,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-09-30",
-    "reason": "동일 제품 상세 1개를 확인했으나 currentSale 근거가 남아 보류한다.",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.skstoa.com/display/goods/43729273"
     ],
@@ -9526,7 +9526,8 @@
     "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "currentSale"
+      "currentSale",
+      "officialAge"
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-C6B1C84B7CFF",
@@ -22073,7 +22074,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-09-29",
+    "checkedAt": "2026-09-30",
     "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://moomooz.co.kr/products/129008312"
@@ -32463,7 +32464,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-09-30",
-    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://coudeal.shop/product/ZrdlwoenYD407"
     ],
@@ -32480,6 +32481,7 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
+      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "sameProductIdentity",
@@ -38455,6 +38457,7 @@
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001"
     ],
     "saleUrls": [
@@ -41368,7 +41371,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-09-29",
+    "checkedAt": "2026-09-30",
     "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://display.wconcept.co.kr/spc/product/casual"
