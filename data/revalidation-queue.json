@@ -74,22 +74,6 @@
     "priority": 2
   },
   {
-    "id": "MASTER-0178",
-    "category": "이유식·식기",
-    "brand": "순수아",
-    "name": "실리콘 이유식 스푼 세트",
-    "checkedAt": "2026-09-03",
-    "missingFields": [
-      "officialAge",
-      "manufacturerOrImporter"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "제조사 또는 수입업체"
-    ],
-    "priority": 2
-  },
-  {
     "id": "TEETHER-20260801-007",
     "category": "구강·치발기",
     "brand": "아띠래빗",
@@ -1080,6 +1064,24 @@
       "0~35개월 공식 월령",
       "제조사 또는 수입업체",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 3
+  },
+  {
+    "id": "MASTER-0119",
+    "category": "이유식·식기",
+    "brand": "인콕",
+    "name": "이중밀폐 이유식큐브 6구",
+    "checkedAt": "2026-10-03",
+    "missingFields": [
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "제조사 또는 수입업체",
+      "완제품 제조국",
+      "적용 안전제도"
     ],
     "priority": 3
   },
@@ -2558,26 +2560,6 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0119",
-    "category": "이유식·식기",
-    "brand": "인콕",
-    "name": "이중밀폐 이유식큐브 6구",
-    "checkedAt": "2026-10-03",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "countryOfManufacture",
-      "regulatoryRegime",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "완제품 제조국",
-      "적용 안전제도",
-      "0~35개월 공식 월령"
-    ],
-    "priority": 4
-  },
-  {
     "id": "MASTER-0124",
     "category": "이유식·식기",
     "brand": "홈하우스",
@@ -2618,6 +2600,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0131",
+    "category": "수유용품",
+    "brand": "하이비",
+    "name": "PPSU 에잇벤트 170ml",
+    "checkedAt": "2026-10-03",
+    "missingFields": [
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "countryOfManufacture",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "완제품 제조국",
+      "적용 안전제도"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0136",
     "category": "구강·치발기",
     "brand": "앙쥬",
@@ -2654,6 +2656,26 @@
       "완제품 제조국",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0143",
+    "category": "이유식·식기",
+    "brand": "베베락",
+    "name": "엘파 실리콘 흡착볼 세트",
+    "checkedAt": "2026-10-03",
+    "missingFields": [
+      "countryOfManufacture",
+      "officialEvidence",
+      "manufacturerOrImporter",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL",
+      "제조사 또는 수입업체",
+      "적용 안전제도"
     ],
     "priority": 4
   },
@@ -2814,6 +2836,26 @@
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결",
       "0~35개월 공식 월령"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0178",
+    "category": "이유식·식기",
+    "brand": "순수아",
+    "name": "실리콘 이유식 스푼 세트",
+    "checkedAt": "2026-10-03",
+    "missingFields": [
+      "officialAge",
+      "manufacturerOrImporter",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "제조사 또는 수입업체",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
     ],
     "priority": 4
   },
@@ -4358,28 +4400,6 @@
     "priority": 5
   },
   {
-    "id": "MASTER-0131",
-    "category": "수유용품",
-    "brand": "하이비",
-    "name": "PPSU 에잇벤트 170ml",
-    "checkedAt": "2026-10-03",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "countryOfManufacture",
-      "regulatoryRegime",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "완제품 제조국",
-      "적용 안전제도",
-      "현재 구매 가능한 국내 판매 페이지"
-    ],
-    "priority": 5
-  },
-  {
     "id": "MASTER-0133",
     "category": "구강·치발기",
     "brand": "모윰",
@@ -4464,28 +4484,6 @@
       "제조사 또는 수입업체",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0143",
-    "category": "이유식·식기",
-    "brand": "베베락",
-    "name": "엘파 실리콘 흡착볼 세트",
-    "checkedAt": "2026-10-03",
-    "missingFields": [
-      "countryOfManufacture",
-      "officialEvidence",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "동일 제품 공식 근거 URL",
-      "제조사 또는 수입업체",
-      "적용 안전제도",
-      "현재 구매 가능한 국내 판매 페이지"
     ],
     "priority": 5
   },
