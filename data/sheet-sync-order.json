@@ -3,8 +3,8 @@
   "generatedAt": "2026-08-15",
   "strategy": "기존 동기화 순서를 보존하고 검증 승격 제품을 canonical 순서로 누적",
   "existingRows": 223,
-  "appendedRows": 229,
-  "totalRows": 452,
+  "appendedRows": 230,
+  "totalRows": 453,
   "ids": [
     "TOY-20260729-001",
     "TOY-20260729-002",
@@ -457,7 +457,8 @@
     "RUN18-016",
     "KBM-20260831-0001",
     "KBM-20260831-0002",
-    "KBM-20260831-0003"
+    "KBM-20260831-0003",
+    "KBM-20260831-0004"
   ],
   "status": "deduplicated-and-promotion-synced",
   "removedDuplicateRows": 10,

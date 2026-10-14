@@ -38588,6 +38588,7 @@
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001"
     ],
     "saleUrls": [
@@ -57646,7 +57647,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-10-14",
-    "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
+    "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/10879-%EC%BD%94%EB%84%98-%EB%89%B4-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%95%84%EA%B8%B0-%ED%9D%A1%EC%B0%A9-%EC%8B%9D%ED%8C%90-%EB%B3%BC-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EC%8B%9D%EA%B8%B0"
     ],
@@ -57662,6 +57663,7 @@
     "revalidationState": "비KC 동일 제품 공식 고시 추가 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
+      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "sameProductIdentity",
@@ -60442,6 +60444,110 @@
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-B43BD23215F4",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-14CAAB5CC574",
+    "category": "턱받이",
+    "subtype": "",
+    "brand": "우잉우잉",
+    "name": "우잉우잉 플라워빕 쿨 아기 냉감 기능성 턱받이 침받이 여름 유아 스카프빕",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-10-14",
+    "reason": "네이버 검색어 '아기 턱받이'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://smartstore.naver.com/main/products/13655390448"
+    ],
+    "saleUrls": [
+      "https://smartstore.naver.com/main/products/13655390448"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 14",
+    "rankEvidence": "2026-10-14 네이버 검색어 '아기 턱받이'의 상품 상세 후보 중 14번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 턱받이",
+    "discoveryResultRank": 14,
+    "historySummary": "2026-10-14 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "턱받이",
+    "canonicalProductId": "DISC-14CAAB5CC574",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-0986E413F612",
+    "category": "수유용품",
+    "subtype": "",
+    "brand": "더블하트",
+    "name": "더블하트 모유실감 3세대 PPSU 젖병 160ml 트윈팩 세트(젖병2개+젖꼭지2개)+물티슈",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-10-14",
+    "reason": "네이버 검색어 '아기 젖병 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://smartstore.naver.com/main/products/10917299375"
+    ],
+    "saleUrls": [
+      "https://smartstore.naver.com/main/products/10917299375"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 12",
+    "rankEvidence": "2026-10-14 네이버 검색어 '아기 젖병 스마트스토어'의 상품 상세 후보 중 12번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 젖병 스마트스토어",
+    "discoveryResultRank": 12,
+    "historySummary": "2026-10-14 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "수유용품",
+    "canonicalProductId": "DISC-0986E413F612",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }

@@ -8,10 +8,11 @@
   "promotedIncludedCanonicalIds": [
     "KBM-20260831-0001",
     "KBM-20260831-0002",
-    "KBM-20260831-0003"
+    "KBM-20260831-0003",
+    "KBM-20260831-0004"
   ],
-  "remainingToTarget": 177,
-  "waveIndex": 510,
+  "remainingToTarget": 176,
+  "waveIndex": 519,
   "waveLimit": 30,
   "perCategoryWaveLimit": 5,
   "completedQueries": [],
@@ -1023,7 +1024,7 @@
   },
   "status": "in-progress",
   "createdAt": "2026-08-31T15:32:40+00:00",
-  "updatedAt": "2026-10-14T17:30:14+00:00",
+  "updatedAt": "2026-10-14T20:14:17+00:00",
   "categoryTargets": {
     "완구": 30,
     "구강·치발기": 30,
@@ -1033,20 +1034,20 @@
     "위생·기저귀": 30
   },
   "categoryPromotedCounts": {
-    "완구": 2,
-    "구강·치발기": 1,
-    "턱받이": 0,
+    "구강·치발기": 2,
     "수유용품": 0,
+    "완구": 2,
+    "위생·기저귀": 0,
     "이유식·식기": 0,
-    "위생·기저귀": 0
+    "턱받이": 0
   },
   "categoryRemaining": {
-    "완구": 28,
-    "구강·치발기": 29,
-    "턱받이": 30,
+    "구강·치발기": 28,
     "수유용품": 30,
+    "완구": 28,
+    "위생·기저귀": 30,
     "이유식·식기": 30,
-    "위생·기저귀": 30
+    "턱받이": 30
   },
   "promotionAuditFreezes": [
     {
@@ -1105,6 +1106,25 @@
       "canonicalCountBefore": 451,
       "stagingCountBefore": 1179,
       "frozenAt": "2026-10-13T22:45:45+00:00"
+    },
+    {
+      "campaignId": "20260831-top30-per-category",
+      "waveIndex": 519,
+      "auditRef": "data/new-product-audits/20261014T201417Z-wave-519.json",
+      "auditSha256": "a54db88b03e522f9cc46b664b03699a839ace60d042e6703d85cf2e91c1de2e2",
+      "candidateIds": [
+        "DISC-69E6E190543F"
+      ],
+      "finalCanonicalIds": [
+        "KBM-20260831-0004"
+      ],
+      "canonicalSha256Before": "ac2d6c2c980615268826427664406efffda1a76b8fb7354dc7ed8d0244ae1109",
+      "stagingSha256Before": "d45b58fcb6a15320e3d044a4fee0e00f13cb02f5ae72b88fa78cc94e1016d4f1",
+      "ledgerSha256Before": "ab18e0573044c9aeb898b57e6b5e916bafd3df85cfc856622397936c1736d04e",
+      "checkpointSha256Before": "d045dccffb3340f63afd43c65a7fe23d0f1b7b80e422901ae58bb5b33a197d3c",
+      "canonicalCountBefore": 452,
+      "stagingCountBefore": 1194,
+      "frozenAt": "2026-10-14T20:14:17+00:00"
     }
   ],
   "rankingBasis": {
@@ -1113,14 +1133,14 @@
     "limitation": "공개 판매량 수치가 없는 상품은 검색 노출 순위를 상위권 대리 지표로 사용"
   },
   "lastPromotion": {
-    "waveIndex": 510,
+    "waveIndex": 519,
     "candidateIds": [
-      "DISC-B079265102B2"
+      "DISC-69E6E190543F"
     ],
     "finalCanonicalIds": [
-      "KBM-20260831-0003"
+      "KBM-20260831-0004"
     ],
     "count": 1,
-    "promotedAt": "2026-10-13T22:45:45+00:00"
+    "promotedAt": "2026-10-14T20:14:17+00:00"
   }
 }
