@@ -7,11 +7,11 @@
   "missingFieldCounts": {
     "countryOfManufacture": 329,
     "manufacturerOrImporter": 300,
-    "officialEvidence": 248,
+    "officialEvidence": 249,
     "safetyKoreaSameModel": 222,
     "exactKcNumber": 195,
-    "officialAge": 186,
-    "currentSale": 183,
+    "currentSale": 191,
+    "officialAge": 187,
     "regulatoryRegime": 30
   },
   "labels": {
@@ -145,22 +145,6 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "제조사 또는 수입업체"
-      ],
-      "priority": 2
-    },
-    {
-      "id": "MASTER-0020",
-      "category": "위생·기저귀",
-      "brand": "하기스",
-      "name": "보송보송 팬티형 4단계 224매",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국"
       ],
       "priority": 2
     },
@@ -663,24 +647,6 @@
       "priority": 3
     },
     {
-      "id": "MASTER-0023",
-      "category": "위생·기저귀",
-      "brand": "델리프",
-      "name": "엠보싱 넘버5 베이지 아기물티슈",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
       "id": "MASTER-0026",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -767,24 +733,6 @@
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0040",
-      "category": "위생·기저귀",
-      "brand": "코멧",
-      "name": "시그니처 아기물티슈 엠보싱 캡형",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "완제품 제조국",
-        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -1943,6 +1891,46 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0020",
+      "category": "위생·기저귀",
+      "brand": "하기스",
+      "name": "보송보송 팬티형 4단계 224매",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0023",
+      "category": "위생·기저귀",
+      "brand": "델리프",
+      "name": "엠보싱 넘버5 베이지 아기물티슈",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0029",
       "category": "위생·기저귀",
       "brand": "베베숲",
@@ -1999,6 +1987,26 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0040",
+      "category": "위생·기저귀",
+      "brand": "코멧",
+      "name": "시그니처 아기물티슈 엠보싱 캡형",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -2063,26 +2071,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0046",
-      "category": "수유용품",
-      "brand": "그로미미",
-      "name": "PPSU 다크시리즈 빨대컵 200ml + 스트랩",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0048",
       "category": "수유용품",
       "brand": "그로미미",
@@ -2119,26 +2107,6 @@
         "완제품 제조국",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0053",
-      "category": "수유용품",
-      "brand": "리틀밥독",
-      "name": "플립 컬러 빨대컵",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
       ],
       "priority": 4
     },
@@ -2183,26 +2151,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0060",
-      "category": "수유용품",
-      "brand": "유피스",
-      "name": "PPSU 빨대컵 6M",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0061",
       "category": "수유용품",
       "brand": "토비앤몰리",
@@ -2227,26 +2175,6 @@
       "category": "수유용품",
       "brand": "하이비",
       "name": "PPSU 이지유 간편 빨대컵 2단계",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0064",
-      "category": "수유용품",
-      "brand": "유비맘",
-      "name": "빨대컵 꼭지 리필 2개",
       "checkedAt": "2026-10-15",
       "missingFields": [
         "countryOfManufacture",
@@ -2563,26 +2491,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0131",
-      "category": "수유용품",
-      "brand": "하이비",
-      "name": "PPSU 에잇벤트 170ml",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "officialEvidence",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "동일 제품 공식 근거 URL",
-        "완제품 제조국",
-        "적용 안전제도"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0136",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -2619,26 +2527,6 @@
         "완제품 제조국",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0143",
-      "category": "이유식·식기",
-      "brand": "베베락",
-      "name": "엘파 실리콘 흡착볼 세트",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
       ],
       "priority": 4
     },
@@ -3815,6 +3703,28 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0046",
+      "category": "수유용품",
+      "brand": "그로미미",
+      "name": "PPSU 다크시리즈 빨대컵 200ml + 스트랩",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0047",
       "category": "수유용품",
       "brand": "그로미미",
@@ -3859,6 +3769,50 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0053",
+      "category": "수유용품",
+      "brand": "리틀밥독",
+      "name": "플립 컬러 빨대컵",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0060",
+      "category": "수유용품",
+      "brand": "유피스",
+      "name": "PPSU 빨대컵 6M",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0062",
       "category": "수유용품",
       "brand": "티지엠",
@@ -3877,6 +3831,28 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0064",
+      "category": "수유용품",
+      "brand": "유비맘",
+      "name": "빨대컵 꼭지 리필 2개",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 5
     },
@@ -4277,6 +4253,28 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0131",
+      "category": "수유용품",
+      "brand": "하이비",
+      "name": "PPSU 에잇벤트 170ml",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "officialEvidence",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "동일 제품 공식 근거 URL",
+        "완제품 제조국",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0133",
       "category": "구강·치발기",
       "brand": "모윰",
@@ -4361,6 +4359,28 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0143",
+      "category": "이유식·식기",
+      "brand": "베베락",
+      "name": "엘파 실리콘 흡착볼 세트",
+      "checkedAt": "2026-10-15",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 5
     },
