@@ -7,11 +7,11 @@
   "missingFieldCounts": {
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 300,
-    "officialEvidence": 250,
+    "officialEvidence": 251,
     "safetyKoreaSameModel": 222,
     "exactKcNumber": 195,
-    "currentSale": 188,
-    "officialAge": 184,
+    "currentSale": 189,
+    "officialAge": 183,
     "regulatoryRegime": 31
   },
   "labels": {
@@ -1147,6 +1147,24 @@
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "0~35개월 공식 월령"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0176",
+      "category": "이유식·식기",
+      "brand": "퍼기",
+      "name": "안심 디바이더 식판 세트",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -2747,26 +2765,6 @@
       "priority": 4
     },
     {
-      "id": "MASTER-0176",
-      "category": "이유식·식기",
-      "brand": "퍼기",
-      "name": "안심 디바이더 식판 세트",
-      "checkedAt": "2026-10-16",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0178",
       "category": "이유식·식기",
       "brand": "순수아",
@@ -3063,26 +3061,6 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-068",
-      "category": "완구",
-      "brand": "플레이맥스",
-      "name": "오리 뜰채",
-      "checkedAt": "2026-10-16",
-      "missingFields": [
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
@@ -6671,6 +6649,30 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-068",
+      "category": "완구",
+      "brand": "플레이맥스",
+      "name": "오리 뜰채",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
