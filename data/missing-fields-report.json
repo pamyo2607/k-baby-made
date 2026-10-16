@@ -7,10 +7,10 @@
   "missingFieldCounts": {
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 300,
-    "officialEvidence": 251,
+    "officialEvidence": 252,
     "safetyKoreaSameModel": 222,
     "exactKcNumber": 195,
-    "currentSale": 189,
+    "currentSale": 191,
     "officialAge": 183,
     "regulatoryRegime": 31
   },
@@ -3405,26 +3405,6 @@
       "priority": 4
     },
     {
-      "id": "TOY-20260729-189",
-      "category": "완구",
-      "brand": "플레이맥스",
-      "name": "헤엄치는 거북이 목욕놀이",
-      "checkedAt": "2026-10-16",
-      "missingFields": [
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 4
-    },
-    {
       "id": "MASTER-0104",
       "category": "이유식·식기",
       "brand": "베베락",
@@ -4855,28 +4835,6 @@
       "priority": 5
     },
     {
-      "id": "MASTER-0203",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "3D 수박 치발기 + 바나나 과즙망 세트",
-      "checkedAt": "2026-10-16",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 5
-    },
-    {
       "id": "MASTER-0204",
       "category": "구강·치발기",
       "brand": "앙쥬",
@@ -5959,30 +5917,6 @@
       "priority": 6
     },
     {
-      "id": "TOY-20260729-042",
-      "category": "완구",
-      "brand": "플레이베이비",
-      "name": "엉금엉금 걸음마 친구 라이트앤뮤직 핑크",
-      "checkedAt": "2026-10-15",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "currentSale",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 6
-    },
-    {
       "id": "MASTER-0015",
       "category": "위생·기저귀",
       "brand": "하기스",
@@ -6027,6 +5961,30 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "MASTER-0203",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "3D 수박 치발기 + 바나나 과즙망 세트",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "officialAge",
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialEvidence",
+        "currentSale"
+      ],
+      "missingFieldLabels": [
+        "0~35개월 공식 월령",
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 공식 근거 URL",
+        "현재 구매 가능한 국내 판매 페이지"
       ],
       "priority": 6
     },
@@ -6419,6 +6377,30 @@
       "category": "완구",
       "brand": "플레이베이비",
       "name": "엉금엉금 걸음마 친구 라이트앤뮤직 옐로우",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-042",
+      "category": "완구",
+      "brand": "플레이베이비",
+      "name": "엉금엉금 걸음마 친구 라이트앤뮤직 핑크",
       "checkedAt": "2026-10-16",
       "missingFields": [
         "countryOfManufacture",
@@ -7513,6 +7495,30 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "TOY-20260729-189",
+      "category": "완구",
+      "brand": "플레이맥스",
+      "name": "헤엄치는 거북이 목욕놀이",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
