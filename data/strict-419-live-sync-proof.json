@@ -1,5 +1,5 @@
 {
-  "status": "passed",
+  "status": "pending",
   "build": "20260815-dedup449-final1",
   "legacyStrict419Filename": true,
   "rawRecords": 453,
@@ -12,51 +12,14 @@
   "uniqueExcluded": 50,
   "verifiedTotal": 453,
   "transport": "verified-csv",
-  "liveConnected": true,
+  "liveConnected": false,
   "buildError": null,
   "expectedRenderedCards": 24,
   "includedTile": 26,
   "pendingTile": 377,
   "excludedAndDuplicateTile": 50,
-  "dataSha256": "6a81cb0555325eb89f2318094933b9b329fd2f36633cc175e7f617097fe7c862",
-  "csvSha256": "cc4cab70a6155a21b2807fde8efba514987379b60017e9cce0bd87b97422d5cd",
-  "deploymentVerification": "passed",
-  "verifiedDeployment": {
-    "verifiedAt": "2026-10-16T21:47:58.956093+00:00",
-    "url": "https://k-baby-made.pamyo26.workers.dev/",
-    "sourceCommit": "22aa1e4c9dcd338a2d52dd935262d6fe475e9418",
-    "artifactMatchesCurrentBuild": true,
-    "verificationMode": "cache-busted HTTP byte-for-byte readback",
-    "http200": [
-      "/",
-      "/index.html",
-      "/app.js",
-      "/styles.css",
-      "/kbaby-data.js",
-      "/data/master-db-419-final.csv",
-      "/data/fallback-products.json",
-      "/health.json",
-      "/meta.json"
-    ],
-    "sha256": {
-      "index.html": "6bf233f9037d2cfeb86bedbd63eaeb2a9537715aee06b5304042685c1618e1a8",
-      "app.js": "d4ab75b94625c31735a8f19ef1fc924354f048a554cf488b38a4d605d0fe7e95",
-      "styles.css": "e9cb41f14f0517393b608f923d6c2b4dd54815ffdad0a0f9a238366c98e87661",
-      "kbaby-data.js": "4679dd3af13c12e95ed344d4c8aed257f3d868828a173055ffcb24fbc9db9560",
-      "csv": "cc4cab70a6155a21b2807fde8efba514987379b60017e9cce0bd87b97422d5cd",
-      "fallback-products.json": "6c0d87984957a6ecbe00640995fc97a190868d26c5c79229b3591c3cd66302d9",
-      "health.json": "673b9c63f934a44a2d5185500d295a7ad4b74b52f9f4d48447620a37b44f3ee6",
-      "meta.json": "c106ddc0e84782ce782797763c7c387aa9e51f8987847af7f7cfa28766f957b9"
-    },
-    "browser": {
-      "transport": "verified-csv",
-      "total": 453,
-      "currentSale": 342,
-      "included": 26,
-      "pending": 377,
-      "excludedAndDuplicate": 50,
-      "initialCards": 24,
-      "verificationMode": "HTTP asset and metadata readback"
-    }
-  }
+  "dataSha256": "2a2b262e87eb2e7e6ae5326767b2f49e37aa057f144aaa40f392137538931301",
+  "csvSha256": "90d74690076e1ae65867149b597032f5dfc5bb5a359def530f45b8d314d09383",
+  "deploymentVerification": "pending",
+  "blockingIssue": "Production deploy and cache-busted endpoint/browser verification required"
 }
