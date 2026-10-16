@@ -7,11 +7,11 @@
   "missingFieldCounts": {
     "countryOfManufacture": 330,
     "manufacturerOrImporter": 300,
-    "officialEvidence": 252,
+    "officialEvidence": 253,
     "safetyKoreaSameModel": 222,
     "exactKcNumber": 195,
-    "currentSale": 191,
-    "officialAge": 183,
+    "currentSale": 192,
+    "officialAge": 184,
     "regulatoryRegime": 31
   },
   "labels": {
@@ -1609,26 +1609,6 @@
       "category": "완구",
       "brand": "플레이베이비",
       "name": "실리콘 베이비 푸쉬팝 비행기",
-      "checkedAt": "2026-08-04",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "TOY-20260729-132",
-      "category": "완구",
-      "brand": "하늘썬별",
-      "name": "해마 스프레이 샤워 물조리개 HUANHE0269",
       "checkedAt": "2026-08-04",
       "missingFields": [
         "countryOfManufacture",
@@ -5297,28 +5277,6 @@
       "priority": 5
     },
     {
-      "id": "TOY-20260729-069",
-      "category": "완구",
-      "brand": "플레이맥스",
-      "name": "헤엄치는 게",
-      "checkedAt": "2026-10-16",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 5
-    },
-    {
       "id": "TOY-20260729-081",
       "category": "완구",
       "brand": "투키토이",
@@ -5579,6 +5537,28 @@
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "TOY-20260729-132",
+      "category": "완구",
+      "brand": "하늘썬별",
+      "name": "해마 스프레이 샤워 물조리개 HUANHE0269",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령"
       ],
       "priority": 5
     },
@@ -7953,6 +7933,32 @@
         "제조사 또는 수입업체",
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
+        "현재 구매 가능한 국내 판매 페이지",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "TOY-20260729-069",
+      "category": "완구",
+      "brand": "플레이맥스",
+      "name": "헤엄치는 게",
+      "checkedAt": "2026-10-16",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialAge",
+        "currentSale",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "0~35개월 공식 월령",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
       ],
