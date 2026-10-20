@@ -1,25 +1,13 @@
 {
   "canonicalCountUnchanged": 453,
-  "inputCount": 1247,
+  "inputCount": 1248,
   "outputCount": 1247,
-  "removedCount": 0,
+  "removedCount": 1,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-23602C5368B3",
-    "DISC-45FB035D7D7D",
-    "DISC-7EE04BEE3484",
-    "DISC-94F77C798E72",
-    "DISC-BA0057540F23",
-    "DISC-C236917CD607",
-    "DISC-DCC77C4C6B41"
+    "DISC-30FB31FBF9C5"
   ],
   "candidateIdsAcceptedThisRun": [
-    "DISC-23602C5368B3",
-    "DISC-45FB035D7D7D",
-    "DISC-DCC77C4C6B41",
-    "DISC-7EE04BEE3484",
-    "DISC-94F77C798E72",
-    "DISC-C236917CD607",
-    "DISC-BA0057540F23"
+    "DISC-30FB31FBF9C5"
   ],
   "newCandidatesRejectedThisRun": 0,
   "remainingCandidateCount": 1247,
@@ -31,5 +19,16 @@
     "수유용품": 285,
     "위생·기저귀": 259
   },
-  "removed": []
+  "removed": [
+    {
+      "id": "DISC-23602C5368B3",
+      "category": "구강·치발기",
+      "brand": "실리콘",
+      "name": "실리콘 흡착 아기 스피너 회전 빙글빙글 촉감발달 치발기 장난감 새 창 열림",
+      "key": "실리콘|실리콘흡착아기스피너회전빙글빙글촉감발달치발기장난감새창열림",
+      "reasons": [
+        "invalid_staging_row"
+      ]
+    }
+  ]
 }
