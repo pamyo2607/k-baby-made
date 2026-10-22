@@ -18131,7 +18131,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/7cc74872-47c7-4fca-b7bb-0bb3a95bd33f"
@@ -18177,7 +18177,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-22",
     "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/cb461b20-31cf-4599-98dc-6d93adc4256b"
@@ -38687,6 +38687,7 @@
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001"
     ],
     "saleUrls": [
@@ -52977,8 +52978,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-06",
-    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
+    "checkedAt": "2026-10-22",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://conyhub.kr/products/201311"
     ],
@@ -52995,7 +52996,6 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "sameProductIdentity",
@@ -62558,7 +62558,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-10-22",
-    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://coudeal.shop/product/R8pAPje6LDO95"
     ],
@@ -62575,7 +62575,6 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "sameProductIdentity",
@@ -64272,8 +64271,8 @@
     "status": "보류",
     "countryOfManufacture": "확인 중",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "확인 중",
-    "ageEvidence": "0~35개월 공식 연령 근거 없음",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "제품별 법령 확인 필요",
     "kcNumber": "",
     "kcType": "",
@@ -64287,7 +64286,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-10-22",
-    "reason": "2026-10-22 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://xn--ok0bl1zmlgjpq.xn--9z2b21mbmdt3u.com/product/11320-%EC%95%84%EA%B8%B0-%EC%9E%A5%EB%82%9C%EA%B0%90%EC%A0%95%EB%A6%AC%ED%95%A8-%EC%9E%A5%EB%82%9C%EA%B0%90%ED%86%B5-%EB%AF%B8%EB%8B%88%EC%B9%B4-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%9D%B8%ED%98%95-%EB%B3%B4%EA%B4%80%ED%95%A8",
+    "reason": "2026-10-22 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://xn--ok0bl1zmlgjpq.xn--9z2b21mbmdt3u.com/product/11320-%EC%95%84%EA%B8%B0-%EC%9E%A5%EB%82%9C%EA%B0%90%EC%A0%95%EB%A6%AC%ED%95%A8-%EC%9E%A5%EB%82%9C%EA%B0%90%ED%86%B5-%EB%AF%B8%EB%8B%88%EC%B9%B4-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%9D%B8%ED%98%95-%EB%B3%B4%EA%B4%80%ED%95%A8",
     "officialUrls": [
       "https://xn--ok0bl1zmlgjpq.xn--9z2b21mbmdt3u.com/product/11320-%EC%95%84%EA%B8%B0-%EC%9E%A5%EB%82%9C%EA%B0%90%EC%A0%95%EB%A6%AC%ED%95%A8-%EC%9E%A5%EB%82%9C%EA%B0%90%ED%86%B5-%EB%AF%B8%EB%8B%88%EC%B9%B4-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%9D%B8%ED%98%95-%EB%B3%B4%EA%B4%80%ED%95%A8"
     ],
@@ -64300,14 +64299,15 @@
     "discoveryQuery": "아기 딸랑이 스마트스토어",
     "discoveryResultRank": 4,
     "historySummary": "2026-10-22 네이버 특정 상품 후보 조사",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "판매 페이지 동일 제품 KC 번호 확인 필요",
     "revalidationResolved": false,
     "revalidationMissingFields": [
-      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "regulatoryRegime",
-      "officialEvidence"
+      "officialEvidence",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
     ],
     "dashboardGroup": "완구",
     "canonicalProductId": "DISC-D935A6DAEEE4",
@@ -64728,6 +64728,58 @@
     ],
     "dashboardGroup": "턱받이",
     "canonicalProductId": "DISC-9EE8B20BC3DE",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-2F0BE0F081F3",
+    "category": "위생·기저귀",
+    "subtype": "",
+    "brand": "네이쳐스토리",
+    "name": "네이쳐스토리 소프트판다 아기물티슈 엠보싱 캡형 100매 10개 새 창 열림",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-10-22",
+    "reason": "네이버 검색어 '아기 물티슈 스마트스토어'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://www.nstoreprice.co.kr/products/nature-story-soft-panda-baby-wipes-10153488203"
+    ],
+    "saleUrls": [
+      "https://www.nstoreprice.co.kr/products/nature-story-soft-panda-baby-wipes-10153488203"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 4",
+    "rankEvidence": "2026-10-22 네이버 검색어 '아기 물티슈 스마트스토어'의 상품 상세 후보 중 4번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 물티슈 스마트스토어",
+    "discoveryResultRank": 4,
+    "historySummary": "2026-10-22 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "위생·기저귀",
+    "canonicalProductId": "DISC-2F0BE0F081F3",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }
