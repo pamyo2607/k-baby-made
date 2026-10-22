@@ -3348,26 +3348,24 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0104",
-    "category": "이유식·식기",
-    "brand": "베베락",
-    "name": "트라이탄 이유식 용기 4개",
-    "checkedAt": "2026-08-04",
+    "id": "TOY-20260729-176",
+    "category": "완구",
+    "brand": "하늘썬별",
+    "name": "4in1 과일 걸음마 붕붕카 러닝테이블 푸쉬카 그린",
+    "checkedAt": "2026-10-22",
     "missingFields": [
-      "currentSale",
-      "officialAge",
       "countryOfManufacture",
-      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
       "officialEvidence"
     ],
     "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
       "완제품 제조국",
-      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
       "동일 제품 공식 근거 URL"
     ],
-    "priority": 5
+    "priority": 4
   },
   {
     "id": "MASTER-0173",
@@ -3542,28 +3540,6 @@
       "제조사 또는 수입업체",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0039",
-    "category": "위생·기저귀",
-    "brand": "아이러브베베",
-    "name": "플러스 옐로우 캡형",
-    "checkedAt": "2026-10-21",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
     ],
     "priority": 5
   },
@@ -3761,6 +3737,28 @@
       "완제품 제조국",
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0039",
+    "category": "위생·기저귀",
+    "brand": "아이러브베베",
+    "name": "플러스 옐로우 캡형",
+    "checkedAt": "2026-10-22",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
       "동일 제품 공식 근거 URL"
     ],
     "priority": 5
@@ -4047,6 +4045,28 @@
       "완제품 제조국",
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0104",
+    "category": "이유식·식기",
+    "brand": "베베락",
+    "name": "트라이탄 이유식 용기 4개",
+    "checkedAt": "2026-10-22",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
       "동일 제품 공식 근거 URL"
     ],
     "priority": 5
@@ -5698,28 +5718,6 @@
       "Safety Korea 동일 모델 연결",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "TOY-20260729-176",
-    "category": "완구",
-    "brand": "하늘썬별",
-    "name": "4in1 과일 걸음마 붕붕카 러닝테이블 푸쉬카 그린",
-    "checkedAt": "2026-10-22",
-    "missingFields": [
-      "countryOfManufacture",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialEvidence",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "동일 제품 공식 근거 URL",
-      "현재 구매 가능한 국내 판매 페이지"
     ],
     "priority": 5
   },
