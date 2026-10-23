@@ -532,6 +532,24 @@
     "priority": 3
   },
   {
+    "id": "MASTER-0021",
+    "category": "위생·기저귀",
+    "brand": "하기스",
+    "name": "보송보송 팬티형 4단계 336매",
+    "checkedAt": "2026-10-23",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 3
+  },
+  {
     "id": "MASTER-0023",
     "category": "위생·기저귀",
     "brand": "델리프",
@@ -1770,30 +1788,30 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0017",
+    "id": "MASTER-0012",
     "category": "위생·기저귀",
     "brand": "하기스",
-    "name": "네이처메이드 퓨어코튼 썸머",
+    "name": "NEW 보송보송 밴드형 2단계 204매",
     "checkedAt": "2026-10-23",
     "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
+      "manufacturerOrImporter",
       "officialEvidence",
-      "currentSale"
+      "countryOfManufacture",
+      "regulatoryRegime"
     ],
     "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
+      "제조사 또는 수입업체",
       "동일 제품 공식 근거 URL",
-      "현재 구매 가능한 국내 판매 페이지"
+      "완제품 제조국",
+      "적용 안전제도"
     ],
     "priority": 4
   },
   {
-    "id": "MASTER-0021",
+    "id": "MASTER-0017",
     "category": "위생·기저귀",
     "brand": "하기스",
-    "name": "보송보송 팬티형 4단계 336매",
+    "name": "네이처메이드 퓨어코튼 썸머",
     "checkedAt": "2026-10-23",
     "missingFields": [
       "officialAge",
@@ -3524,28 +3542,6 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0012",
-    "category": "위생·기저귀",
-    "brand": "하기스",
-    "name": "NEW 보송보송 밴드형 2단계 204매",
-    "checkedAt": "2026-10-23",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "countryOfManufacture",
-      "regulatoryRegime",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "완제품 제조국",
-      "적용 안전제도",
-      "0~35개월 공식 월령"
     ],
     "priority": 5
   },
