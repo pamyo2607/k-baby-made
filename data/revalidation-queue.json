@@ -424,6 +424,24 @@
     "priority": 3
   },
   {
+    "id": "MASTER-0007",
+    "category": "위생·기저귀",
+    "brand": "슈퍼대디",
+    "name": "미스터펭 매직슬림 팬티형 키즈형 20매",
+    "checkedAt": "2026-10-24",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "적용 안전제도"
+    ],
+    "priority": 3
+  },
+  {
     "id": "MASTER-0011",
     "category": "위생·기저귀",
     "brand": "하기스",
@@ -1746,26 +1764,6 @@
       "제조사 또는 수입업체",
       "적용 안전제도",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0007",
-    "category": "위생·기저귀",
-    "brand": "슈퍼대디",
-    "name": "미스터펭 매직슬림 팬티형 키즈형 20매",
-    "checkedAt": "2026-10-24",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "적용 안전제도",
-      "0~35개월 공식 월령"
     ],
     "priority": 4
   },
