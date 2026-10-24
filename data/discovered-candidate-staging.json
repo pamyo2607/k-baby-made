@@ -38710,6 +38710,7 @@
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001"
     ],
     "saleUrls": [
@@ -53001,7 +53002,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://conyhub.kr/products/201311"
@@ -58452,7 +58453,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/8084-%EC%95%84%EB%B6%80%EC%97%98%EB%9D%BC-%EC%BB%AC%EB%9F%AC-%ED%85%8C%EB%A6%AC%EB%A9%B4-%ED%84%B1%EB%B0%9B%EC%9D%B4-%EB%A6%AC%EB%AA%AC-%EC%98%90%EB%A1%9C%EC%9A%B0"
@@ -58666,7 +58667,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "reason": "동일 제품 상세 1개를 확인했으나 countryOfManufacture, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/10817-%EB%B9%8C%EB%A6%AC-%EC%86%8C%ED%94%84%ED%8A%B8-%EC%98%A4%EA%B0%80%EB%8B%89-%ED%84%B1%EB%B0%9B%EC%9D%B4"
@@ -65638,6 +65639,58 @@
     ],
     "dashboardGroup": "위생·기저귀",
     "canonicalProductId": "DISC-93A1B73E2751",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-BF0B4511FDFD",
+    "category": "턱받이",
+    "subtype": "",
+    "brand": "톨스토이",
+    "name": "톨스토이 베이비빕/ 아기턱받이 /이유식 - 에누리 가격비교",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-10-24",
+    "reason": "네이버 검색어 '아기 턱받이'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://price.enuri.com/catalog/29316665"
+    ],
+    "saleUrls": [
+      "https://price.enuri.com/catalog/29316665"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 13",
+    "rankEvidence": "2026-10-24 네이버 검색어 '아기 턱받이'의 상품 상세 후보 중 13번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 턱받이",
+    "discoveryResultRank": 13,
+    "historySummary": "2026-10-24 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "턱받이",
+    "canonicalProductId": "DISC-BF0B4511FDFD",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }
