@@ -31263,7 +31263,7 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-24",
     "reason": "동일 제품 상세 1개를 확인했으나 officialAge, countryOfManufacture 근거가 남아 보류한다.",
     "officialUrls": [
       "https://www.idus.com/v2/product/253e7e5d-4b35-40ee-a931-cf8f647b2f9c"
@@ -38222,6 +38222,7 @@
     "reason": "현재 국내 판매 제품 https://www.moyuum.com/_vir0001/process/shopview_2016.asp?pack_content_id=12604에서 구매 가능성을 확인했다. 공식 월령 근거 0개월이상를 확인했다. 정확 제품 페이지에 연결된 KC CB061A443-2001를 Safety Korea https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001에서 재조회해 적합 상태와 제조사 정보 제조사정보 상세 제조사 (주)쁘띠엘린와 제조국 대한민국을 교차 확인해 포함했다.",
     "officialUrls": [
       "https://www.moyuum.com/_vir0001/process/shopview_2016.asp?pack_content_id=12604",
+      "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
       "https://www.safetykorea.kr/release/certDetail?certNum=CB061A443-2001",
@@ -61486,8 +61487,8 @@
     "manufacturer": "",
     "importer": "",
     "safetyKoreaSearchUrl": "",
-    "checkedAt": "2026-10-22",
-    "reason": "2026-10-22 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59943636993",
+    "checkedAt": "2026-10-24",
+    "reason": "2026-10-24 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59943636993",
     "officialUrls": [
       "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59943636993",
       "https://search.shopping.naver.com/catalog/59943636993",
@@ -62588,7 +62589,7 @@
     "importer": "",
     "safetyKoreaSearchUrl": "",
     "checkedAt": "2026-10-24",
-    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
+    "reason": "동일 제품 상세 1개를 확인했으나 currentSale, officialAge, countryOfManufacture, manufacturerOrImporter, sameProductIdentity, regulatoryRegime 근거가 남아 보류한다.",
     "officialUrls": [
       "https://coudeal.shop/product/R8pAPje6LDO95"
     ],
@@ -62605,6 +62606,7 @@
     "revalidationResolved": false,
     "revalidationMissingFields": [
       "currentSale",
+      "officialAge",
       "countryOfManufacture",
       "manufacturerOrImporter",
       "sameProductIdentity",
@@ -65853,6 +65855,58 @@
     ],
     "dashboardGroup": "수유용품",
     "canonicalProductId": "DISC-43C71B23FBCF",
+    "duplicateOf": "",
+    "discoveryProvider": "Naver"
+  },
+  {
+    "id": "DISC-BAE2216FABD0",
+    "category": "수유용품",
+    "subtype": "",
+    "brand": "마이버디x릿첼",
+    "name": "[마이버디x릿첼] 첫걸음 머그 빨대컵 01-02",
+    "status": "보류",
+    "countryOfManufacture": "확인 중",
+    "saleStatus": "네이버에서 특정 상품 상세 URL 확인 · 현재 판매 상태 재검증 대기",
+    "ageRange": "확인 중",
+    "ageEvidence": "",
+    "kcApplicable": "제품별 법령 확인 필요",
+    "kcNumber": "",
+    "kcType": "",
+    "certStatusSummary": "",
+    "certDateSummary": "",
+    "certTypeSummary": "",
+    "certAuthoritySummary": "",
+    "certifications": [],
+    "officialModel": "",
+    "manufacturer": "",
+    "importer": "",
+    "safetyKoreaSearchUrl": "",
+    "checkedAt": "2026-10-24",
+    "reason": "네이버 검색어 '아기 빨대컵'에서 카테고리와 일치하는 특정 상품 상세 URL을 확인했다. 국내 현재 판매와 0~35개월 대상과 대한민국 완제품 제조와 동일 제품 KC 번호와 Safety Korea 상세 근거를 모두 대조하기 전까지 보류한다.",
+    "officialUrls": [
+      "https://smartstore.naver.com/main/products/8682331342"
+    ],
+    "saleUrls": [
+      "https://smartstore.naver.com/main/products/8682331342"
+    ],
+    "quality": "실제 국내 상품 상세 후보 · 최극상 검증 전",
+    "estimatedRank": "네이버 검색 결과 노출 순번 1",
+    "rankEvidence": "2026-10-24 네이버 검색어 '아기 빨대컵'의 상품 상세 후보 중 1번째 노출. 공개 판매량이 없어 상위 노출을 수요 프록시로 사용",
+    "discoveryQuery": "아기 빨대컵",
+    "discoveryResultRank": 1,
+    "historySummary": "2026-10-24 네이버 특정 상품 후보 조사",
+    "revalidationState": "최극상 전면 재검증 대기",
+    "revalidationResolved": false,
+    "revalidationMissingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "regulatoryRegime",
+      "officialEvidence"
+    ],
+    "dashboardGroup": "수유용품",
+    "canonicalProductId": "DISC-BAE2216FABD0",
     "duplicateOf": "",
     "discoveryProvider": "Naver"
   }
