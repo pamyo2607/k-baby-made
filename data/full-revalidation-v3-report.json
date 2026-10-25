@@ -11,7 +11,7 @@
     "safetyKoreaSameModel": 220,
     "exactKcNumber": 196,
     "currentSale": 193,
-    "officialAge": 179,
+    "officialAge": 182,
     "regulatoryRegime": 32
   },
   "labels": {
@@ -421,24 +421,6 @@
       "category": "위생·기저귀",
       "brand": "르소메",
       "name": "프리미엄 밴드형 중형 96매",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0007",
-      "category": "위생·기저귀",
-      "brand": "슈퍼대디",
-      "name": "미스터펭 매직슬림 팬티형 키즈형 20매",
       "checkedAt": "2026-10-25",
       "missingFields": [
         "countryOfManufacture",
@@ -881,42 +863,6 @@
         "0~35개월 공식 월령",
         "완제품 제조국",
         "제조사 또는 수입업체"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0095",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "실리콘 땅콩 이유식 스푼",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0096",
-      "category": "이유식·식기",
-      "brand": "잼먹",
-      "name": "유아용 이유식 떠먹스푼 + 케이스 세트",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -1797,6 +1743,26 @@
       "priority": 4
     },
     {
+      "id": "MASTER-0007",
+      "category": "위생·기저귀",
+      "brand": "슈퍼대디",
+      "name": "미스터펭 매직슬림 팬티형 키즈형 20매",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
       "id": "MASTER-0017",
       "category": "위생·기저귀",
       "brand": "하기스",
@@ -2312,6 +2278,46 @@
         "완제품 제조국",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0095",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "실리콘 땅콩 이유식 스푼",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0096",
+      "category": "이유식·식기",
+      "brand": "잼먹",
+      "name": "유아용 이유식 떠먹스푼 + 케이스 세트",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
         "0~35개월 공식 월령"
       ],
       "priority": 4
