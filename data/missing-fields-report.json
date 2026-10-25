@@ -5,14 +5,14 @@
   "pendingProducts": 375,
   "pendingWithStructuredMissingFields": 375,
   "missingFieldCounts": {
-    "countryOfManufacture": 329,
+    "countryOfManufacture": 330,
     "manufacturerOrImporter": 298,
     "officialEvidence": 255,
     "safetyKoreaSameModel": 220,
     "exactKcNumber": 196,
     "currentSale": 193,
-    "officialAge": 179,
-    "regulatoryRegime": 31
+    "officialAge": 178,
+    "regulatoryRegime": 32
   },
   "labels": {
     "currentSale": "현재 구매 가능한 국내 판매 페이지",
@@ -177,22 +177,6 @@
       "missingFieldLabels": [
         "0~35개월 공식 월령",
         "완제품 제조국"
-      ],
-      "priority": 2
-    },
-    {
-      "id": "MASTER-0054",
-      "category": "수유용품",
-      "brand": "마더케이",
-      "name": "369 PPSU 빨대컵",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "0~35개월 공식 월령"
       ],
       "priority": 2
     },
@@ -717,6 +701,24 @@
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "MASTER-0054",
+      "category": "수유용품",
+      "brand": "마더케이",
+      "name": "369 PPSU 빨대컵",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도"
       ],
       "priority": 3
     },
