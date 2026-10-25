@@ -11,7 +11,7 @@
     "safetyKoreaSameModel": 220,
     "exactKcNumber": 196,
     "currentSale": 193,
-    "officialAge": 182,
+    "officialAge": 179,
     "regulatoryRegime": 31
   },
   "labels": {
@@ -3053,6 +3053,26 @@
       "priority": 4
     },
     {
+      "id": "TOY-20260729-114",
+      "category": "완구",
+      "brand": "하늘썬별",
+      "name": "칼라 소프트 아기 딸랑이 치발기 HEANHE0190",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 4
+    },
+    {
       "id": "TOY-20260729-120",
       "category": "완구",
       "brand": "아가방",
@@ -3317,6 +3337,26 @@
       "category": "완구",
       "brand": "하늘썬별",
       "name": "2in1 해피 걸음마 에듀 테이블 오렌지",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "TOY-20260729-179",
+      "category": "완구",
+      "brand": "하늘썬별",
+      "name": "뮤지컬 동물친구 프로젝션 모빌 하늘",
       "checkedAt": "2026-10-25",
       "missingFields": [
         "countryOfManufacture",
@@ -4851,6 +4891,28 @@
       "priority": 5
     },
     {
+      "id": "MASTER-0207",
+      "category": "구강·치발기",
+      "brand": "앙쥬",
+      "name": "바나나 + 입술 치발기 2종 세트",
+      "checkedAt": "2026-10-25",
+      "missingFields": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "exactKcNumber",
+        "safetyKoreaSameModel",
+        "officialEvidence"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "제조사 또는 수입업체",
+        "동일 제품 KC 인증번호",
+        "Safety Korea 동일 모델 연결",
+        "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
       "id": "MASTER-0213",
       "category": "이유식·식기",
       "brand": "글라스락 베이비",
@@ -5511,28 +5573,6 @@
       "priority": 5
     },
     {
-      "id": "TOY-20260729-114",
-      "category": "완구",
-      "brand": "하늘썬별",
-      "name": "칼라 소프트 아기 딸랑이 치발기 HEANHE0190",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 5
-    },
-    {
       "id": "TOY-20260729-130",
       "category": "완구",
       "brand": "해피플레이",
@@ -5753,28 +5793,6 @@
       "priority": 5
     },
     {
-      "id": "TOY-20260729-179",
-      "category": "완구",
-      "brand": "하늘썬별",
-      "name": "뮤지컬 동물친구 프로젝션 모빌 하늘",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialAge"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
-        "0~35개월 공식 월령"
-      ],
-      "priority": 5
-    },
-    {
       "id": "TOY-20260729-183",
       "category": "완구",
       "brand": "해피플레이",
@@ -5930,30 +5948,6 @@
         "동일 제품 KC 인증번호",
         "Safety Korea 동일 모델 연결",
         "현재 구매 가능한 국내 판매 페이지",
-        "동일 제품 공식 근거 URL"
-      ],
-      "priority": 6
-    },
-    {
-      "id": "MASTER-0207",
-      "category": "구강·치발기",
-      "brand": "앙쥬",
-      "name": "바나나 + 입술 치발기 2종 세트",
-      "checkedAt": "2026-10-25",
-      "missingFields": [
-        "officialAge",
-        "countryOfManufacture",
-        "manufacturerOrImporter",
-        "exactKcNumber",
-        "safetyKoreaSameModel",
-        "officialEvidence"
-      ],
-      "missingFieldLabels": [
-        "0~35개월 공식 월령",
-        "완제품 제조국",
-        "제조사 또는 수입업체",
-        "동일 제품 KC 인증번호",
-        "Safety Korea 동일 모델 연결",
         "동일 제품 공식 근거 URL"
       ],
       "priority": 6
