@@ -1,27 +1,38 @@
 {
   "canonicalCountUnchanged": 453,
-  "inputCount": 1301,
-  "outputCount": 1301,
-  "removedCount": 0,
+  "inputCount": 1304,
+  "outputCount": 1303,
+  "removedCount": 1,
   "candidateIdsDiscoveredThisRun": [
-    "DISC-345A882B15B2",
-    "DISC-373DBE006F72",
-    "DISC-4DCE22F53463"
+    "DISC-371143991E20",
+    "DISC-5B2D7B8ADE97",
+    "DISC-ACD82CC845C4"
   ],
   "candidateIdsAcceptedThisRun": [
-    "DISC-4DCE22F53463",
-    "DISC-373DBE006F72",
-    "DISC-345A882B15B2"
+    "DISC-ACD82CC845C4",
+    "DISC-371143991E20",
+    "DISC-5B2D7B8ADE97"
   ],
   "newCandidatesRejectedThisRun": 0,
-  "remainingCandidateCount": 1301,
+  "remainingCandidateCount": 1303,
   "remainingCandidatesByCategory": {
-    "완구": 146,
+    "완구": 147,
     "이유식·식기": 133,
     "구강·치발기": 191,
-    "턱받이": 249,
-    "수유용품": 299,
-    "위생·기저귀": 283
+    "턱받이": 250,
+    "수유용품": 298,
+    "위생·기저귀": 284
   },
-  "removed": []
+  "removed": [
+    {
+      "id": "DISC-4DCE22F53463",
+      "category": "수유용품",
+      "brand": "아기젖병",
+      "name": "아기젖병 쿠팡 오늘주문 내일도착 로켓배송",
+      "key": "아기젖병|아기젖병쿠팡오늘주문내일도착로켓배송",
+      "reasons": [
+        "invalid_staging_row"
+      ]
+    }
+  ]
 }
