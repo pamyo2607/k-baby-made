@@ -1598,26 +1598,6 @@
     "priority": 4
   },
   {
-    "id": "TOY-20260729-198",
-    "category": "완구",
-    "brand": "하늘썬별",
-    "name": "수영하는 펭귄 태엽 목욕놀이 HUANHE8028",
-    "checkedAt": "2026-08-04",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 4
-  },
-  {
     "id": "TOY-20260729-112",
     "category": "완구",
     "brand": "플레이베이비",
@@ -7440,6 +7420,30 @@
     "category": "완구",
     "brand": "플레이랩즈",
     "name": "소프트 보트물총 3P",
+    "checkedAt": "2026-10-27",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "TOY-20260729-198",
+    "category": "완구",
+    "brand": "하늘썬별",
+    "name": "수영하는 펭귄 태엽 목욕놀이 HUANHE8028",
     "checkedAt": "2026-10-27",
     "missingFields": [
       "countryOfManufacture",
