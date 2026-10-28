@@ -1858,26 +1858,6 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0045",
-    "category": "수유용품",
-    "brand": "리틀그립",
-    "name": "국산 다용도 아기 분유 스푼 20ml",
-    "checkedAt": "2026-10-28",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "regulatoryRegime"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "적용 안전제도"
-    ],
-    "priority": 4
-  },
-  {
     "id": "MASTER-0046",
     "category": "수유용품",
     "brand": "그로미미",
@@ -3668,6 +3648,28 @@
       "완제품 제조국",
       "제조사 또는 수입업체",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0045",
+    "category": "수유용품",
+    "brand": "리틀그립",
+    "name": "국산 다용도 아기 분유 스푼 20ml",
+    "checkedAt": "2026-10-28",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "regulatoryRegime",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "적용 안전제도",
+      "0~35개월 공식 월령"
     ],
     "priority": 5
   },
