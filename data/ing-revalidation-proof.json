@@ -398,19 +398,18 @@
   "missingFinalDecisionIds": [],
   "missingReasonIds": [],
   "missingDirectEvidenceIds": [
-    "MASTER-0173",
     "MASTER-0183"
   ],
   "missingAuditIds": [],
-  "resultsWithDirectEvidence": 380,
+  "resultsWithDirectEvidence": 381,
   "resultsWithErrors": 375,
   "coverageComplete": true,
   "resolutionComplete": false,
   "coverageVerificationComplete": false,
   "verificationComplete": false,
-  "lastRun": "2026-10-29T08:53:36+00:00",
-  "lastAuditRef": "data/revalidation-audits/20261029T085336Z.json",
-  "lastAuditSha256": "4962c967c6f4462c92a7508ea5a0590240eab74bc5d5fb45c81a251b6c8dad51",
+  "lastRun": "2026-10-29T15:21:06+00:00",
+  "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+  "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91",
   "results": [
     {
       "id": "MASTER-0016",
@@ -430,17 +429,17 @@
         "https://www.costco.co.kr/BabyKidsToysPets/Diapers/Diapers/Huggies-Naturemade-Bamboo-Panty-Type-Stage-4-54x2/p/690504",
         "https://lkbos5515.cafe24.com/%ED%95%98%EA%B8%B0%EC%8A%A4-new-%EB%84%A4%EC%9D%B4%EC%B2%98%EB%A9%94%EC%9D%B4%EB%93%9C-%ED%8C%AC%ED%8B%B0%ED%98%95-%EA%B8%B0%EC%A0%80%EA%B7%80-%EB%82%A8%EC%95%84%EC%9A%A9-88%EB%A7%A4-5%EB%8B%A8/"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.coocha.co.kr/detail/detail.do?did=MTkzOTIzNzc1Nw",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.coocha.co.kr/detail/detail.do?did=MTkzOTIzNzc1Nw",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0026",
@@ -460,17 +459,17 @@
         "https://prod.danawa.com/info/?pcode=17340557",
         "https://rpp.auction.co.kr/?exhib=270584"
       ],
-      "reason": "2026-10-28 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.bebesup.co.kr/goods/view?no=362",
+      "reason": "2026-10-29 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.bebesup.co.kr/goods/view?no=362",
       "errors": [
         "law_specific_evidence"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0028",
@@ -493,17 +492,17 @@
         "https://prod.danawa.com/info/?pcode=15755225",
         "https://www.kurly.com/goods/1002148240"
       ],
-      "reason": "2026-10-28 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.bebesup.co.kr/goods/view?no=347",
+      "reason": "2026-10-29 구매 가능한 개별 판매 페이지와 연령 근거는 확인했다. 이 제품군에는 어린이제품 KC 번호를 일괄 적용하지 않고, 해당 법령의 제조국·제조사/수입사·안전제도 공식 근거를 추가 확인할 때까지 보류한다. https://www.bebesup.co.kr/goods/view?no=347",
       "errors": [
         "law_specific_evidence"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0032",
@@ -519,17 +518,17 @@
         "https://ddosajang.com/shop/shopdetail.html?branduid=10622843&xcode=002&mcode=007&scode=002&type=X&sort=viewcnt&cur_code=002&search=&GfDT=a2h3Uw==",
         "https://nonow.kr/3008/"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://store.hanssem.com/goods/1075992",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://store.hanssem.com/goods/1075992",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0038",
@@ -538,8 +537,8 @@
       "checked": true,
       "changed": true,
       "directEvidenceUrls": [
-        "https://jirum-alarm.com/products/25151805",
         "https://www.houseprice.co.kr/goods/baby-water-wipes-ivory-72-count-20pack",
+        "https://jirum-alarm.com/products/25151805",
         "https://ilovebebe.co.kr/product/%EC%95%84%EC%9D%B4%EB%9F%AC%EB%B8%8C%EB%B2%A0%EB%B2%A0-%EC%95%84%EA%B8%B0%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%95%84%EC%9D%B4%EB%B3%B4%EB%A6%AC-72%EB%A7%A4-20%ED%8C%A9-%EC%BA%A1%ED%98%95/58/",
         "https://www.kurly.com/goods/1001507093",
         "https://prod.danawa.com/info/?pcode=6456227",
@@ -553,17 +552,17 @@
         "https://newsmeta.kr/10774/",
         "https://chengsprint.mycafe24.com/%EC%95%84%EC%9D%B4%EB%9F%AC%EB%B8%8C%EB%B2%A0%EB%B2%A0%EB%AC%BC%ED%8B%B0%EC%8A%88-%EB%B3%B4%EC%86%9C%EC%9D%B4-%EB%AC%BC%ED%8B%B0%EC%8A%88-%EC%95%84%EC%9D%B4%EB%9F%AC%EB%B8%8C%EB%B2%A0%EB%B2%A0/"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://jirum-alarm.com/products/25151805",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.houseprice.co.kr/goods/baby-water-wipes-ivory-72-count-20pack",
       "errors": [
-        "sale_inactive"
+        "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0054",
@@ -583,17 +582,17 @@
         "https://shop.haedory.com/%EB%A7%88%EB%8D%94%EC%BC%80%EC%9D%B4-%EB%B2%A0%EC%9D%B4%EC%A7%81-ppsu-%ED%86%A0%EB%81%BC-%EC%9D%BC%EC%9E%90%ED%98%95-%EB%B9%A8%EB%8C%80%EC%BB%B5-2%EC%A2%85-%EC%84%B8%ED%8A%B8-300ml-%EB%B8%94%EB%9D%BC/",
         "https://bestgoodnice.com/%EA%B7%B8%EB%A1%9C%EB%AF%B8%EB%AF%B8%EB%B9%A8%EB%8C%80%EC%BB%B5-%EB%A7%88%EB%8D%94%EC%BC%80%EC%9D%B4-%EB%B2%A0%EC%9D%B4%EC%A7%81-ppsu-%EC%B6%94-%EB%B9%A8%EB%8C%80%EC%BB%B5-200ml-1%EA%B0%9C-%ED%81%AC/"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.modoo-deal.com/products/51121683",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.modoo-deal.com/products/51121683",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0071",
@@ -8617,17 +8616,17 @@
         "https://www.sisopick.com/product/Zhy_-Zix",
         "https://www.sisopick.com/product/%EC%B6%9C%EC%82%B0-%EC%9C%A0%EC%95%84%EB%8F%99/%EC%9D%B4%EC%9C%A0%EC%9A%A9%ED%92%88-%EC%9C%A0%EC%95%84%EC%8B%9D%EA%B8%B0/%EC%9D%B4%EC%9C%A0%EC%8B%9D%EC%9A%A9%ED%92%88/%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EB%B3%B4%EA%B4%80%EC%9A%A9%EA%B8%B0/%EB%B2%A0%EB%B2%A0%EB%9D%BD-%EA%B5%AD%EB%82%B4-%EC%A0%9C%EC%A1%B0-%EA%B5%AD%EC%82%B0-%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%83%84-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EC%9A%A9%EA%B8%B0-130ml-%EC%98%AC%EB%A6%AC%EB%B8%8C-4%EA%B0%9C-Zhy_-Zix"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.sisopick.com/product/Zhy_-Zix",
+      "reason": "2026-10-29 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.sisopick.com/product/Zhy_-Zix",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0109",
@@ -8641,17 +8640,17 @@
         "https://search.shopping.naver.com/catalog/61885099472",
         "https://search.shopping.naver.com/catalog/88561545099"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88561545099",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88561545099",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0116",
@@ -8663,17 +8662,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F90685564997",
         "https://search.shopping.naver.com/catalog/90685564997"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F90685564997",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F90685564997",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0138",
@@ -8688,17 +8687,17 @@
         "https://angemom.com/",
         "https://www.kurly.com/goods/1001396453"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://angemall.com/product/%EC%95%99%EC%A5%AC-%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%84%B8%ED%8A%B8/2056/",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0140",
@@ -8715,17 +8714,17 @@
         "https://www.youtube.com/shorts/Rl6x48an6sQ",
         "https://mom-mom.net/shop/showcases/69def9a4369b9ea8572e78f5"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61845402347",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61845402347",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0152",
@@ -8737,17 +8736,17 @@
         "https://naturaorganic.co.kr/product/list.html?cate_no=50",
         "https://naturaorganic.co.kr/"
       ],
-      "reason": "2026-10-28 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://naturaorganic.co.kr/product/list.html?cate_no=50",
+      "reason": "2026-10-29 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://naturaorganic.co.kr/product/list.html?cate_no=50",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0159",
@@ -8759,17 +8758,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F41660358867",
         "https://search.shopping.naver.com/catalog/41660358867"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F41660358867",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F41660358867",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0161",
@@ -8781,17 +8780,17 @@
         "https://m.danawa.com/index.html",
         "https://m.danawa.com/product/product.html"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.danawa.com/index.html",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.danawa.com/index.html",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0165",
@@ -8802,17 +8801,17 @@
       "directEvidenceUrls": [
         "https://www.kurly.com/goods/1001196694"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001196694",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.kurly.com/goods/1001196694",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0169",
@@ -8843,20 +8842,22 @@
       "id": "MASTER-0173",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
-      "directEvidenceUrls": [],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
-      "errors": [
-        "all_sales_urls_unreachable"
+      "checked": true,
+      "changed": true,
+      "directEvidenceUrls": [
+        "https://www.sisopick.com/product/zwiXI45u"
       ],
-      "checkedAt": "2026-08-04",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.sisopick.com/product/zwiXI45u",
+      "errors": [
+        "age_basis"
+      ],
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0181",
@@ -8868,17 +8869,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F82663328254",
         "https://search.shopping.naver.com/catalog/82663328254"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F82663328254",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F82663328254",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0183",
@@ -8894,10 +8895,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0198",
@@ -8915,17 +8916,17 @@
         "https://m.blog.naver.com/jiyeonee__/224151167982",
         "https://m.blog.naver.com/js2020kim/224151331598"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://motherkmall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EA%B3%A0%EB%A6%AC%EC%84%B8%ED%8A%B86p/1798/",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://motherkmall.co.kr/product/%EC%8B%A4%EB%A6%AC%EC%BD%98-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EA%B3%A0%EB%A6%AC%EC%84%B8%ED%8A%B86p/1798/",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0199",
@@ -8938,17 +8939,17 @@
         "https://fallcent.com/product/tYant7Eqp8UkVQTx3DZny2cbAl916RGw",
         "https://kr.pinterest.com/pin/679902874981001250/"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/tYant7Eqp8UkVQTx3DZny2cbAl916RGw/",
+      "reason": "2026-10-29 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/tYant7Eqp8UkVQTx3DZny2cbAl916RGw/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0207",
@@ -8962,39 +8963,41 @@
         "https://kr.pinterest.com/pin/2-3--701928291909232630/",
         "https://angemall.com/"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.modoo-deal.com/products/409176",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.modoo-deal.com/products/409176",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0209",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": false,
-      "changed": false,
+      "checked": true,
+      "changed": true,
       "directEvidenceUrls": [
+        "https://www.sisopick.com/product/D5iEKnNd",
+        "https://www.sisopick.com/product/%EC%B6%9C%EC%82%B0-%EC%9C%A0%EC%95%84%EB%8F%99/%EC%88%98%EC%9C%A0%EC%9A%A9%ED%92%88/%EB%85%B8%EB%A6%AC%EA%B0%9C%EC%A0%96%EA%BC%AD%EC%A7%80/%EC%B9%98%EB%B0%9C%EA%B8%B0/%EC%95%99%EC%A5%AC-%EC%B9%98%EB%B0%9C%EA%B8%B0%EB%B8%8C%EB%9F%AC%EC%89%AC-2%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EA%B8%B0%EB%A6%B0-%EB%B8%94%EB%A3%A8%ED%8C%94%EC%B0%8C-D5iEKnNd",
         "https://angemall.com/",
         "http://ange.infodu.co.kr/ko/index.html"
       ],
-      "reason": "상위권·ING 엄격 재검증을 완료했으나 확정 판정에 필요한 동일 제품 직접 근거가 부족해 보류를 유지함.",
+      "reason": "2026-10-29 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.sisopick.com/product/D5iEKnNd",
       "errors": [
-        "all_sales_urls_unreachable"
+        "sale_inactive"
       ],
-      "checkedAt": "2026-08-04",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0210",
@@ -9007,17 +9010,17 @@
         "https://search.shopping.naver.com/catalog/60800342246",
         "https://bestgoodnice.com/%ED%8B%B0%EC%A7%80%EC%97%A0-%EC%9C%A0%EC%95%84%EC%9A%A9-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98-%EC%8B%A4%EB%A6%AC%EC%BD%98-%EA%B8%80%EB%9F%AC%EB%B8%8C%ED%98%95-%ED%86%A0%EB%81%BC-%EC%86%90%EB%AA%A9/"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60800342246",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60800342246",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "RUN18-016",
@@ -9029,17 +9032,17 @@
         "https://fallcent.com/product/p9ax60PoeBmjkru59bhHDz6Q1fp2FsIL/",
         "https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021318"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/p9ax60PoeBmjkru59bhHDz6Q1fp2FsIL/",
+      "reason": "2026-10-29 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://fallcent.com/product/p9ax60PoeBmjkru59bhHDz6Q1fp2FsIL/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-038",
@@ -9052,17 +9055,17 @@
         "https://search.shopping.naver.com/catalog/60906015900",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000568300747&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60906015900",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60906015900",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-093",
@@ -9080,10 +9083,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-103",
@@ -9096,17 +9099,17 @@
         "https://search.shopping.naver.com/catalog/52110614024",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F52110614024",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F52110614024",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-104",
@@ -9119,17 +9122,17 @@
         "https://search.shopping.naver.com/catalog/52110649977",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F52110649977",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F52110649977",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-110",
@@ -9142,17 +9145,17 @@
         "https://search.shopping.naver.com/catalog/56542762683",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F56542762683",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F56542762683",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-114",
@@ -9164,17 +9167,17 @@
         "https://www.modoo-deal.com/products/5410424",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.modoo-deal.com/products/5410424",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.modoo-deal.com/products/5410424",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-126",
@@ -9192,10 +9195,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T185328Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T185328Z.json",
-      "lastAuditSha256": "9a49748f29ddb998c29016c14cad6f4e6c9769241a4c87f55000bf5d49bc4dfd"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-127",
@@ -9213,10 +9216,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-128",
@@ -9229,17 +9232,17 @@
         "https://search.shopping.naver.com/catalog/83173291593",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F83173291593",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F83173291593",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-129",
@@ -9257,10 +9260,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-139",
@@ -9273,17 +9276,17 @@
         "https://m.danawa.com/product/product.html",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.danawa.com/index.html",
+      "reason": "2026-10-29 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://m.danawa.com/index.html",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-162",
@@ -9295,17 +9298,17 @@
         "https://jbang.kr/freeboard/view/65185",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://jbang.kr/freeboard/view/65185",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://jbang.kr/freeboard/view/65185",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-169",
@@ -9318,17 +9321,17 @@
         "https://search.shopping.naver.com/catalog/90971325184",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F90971325184",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F90971325184",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TOY-20260729-174",
@@ -9341,17 +9344,17 @@
         "https://search.shopping.naver.com/catalog/34721924434",
         "https://www.safetykorea.kr/release/certSearch"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F34721924434",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F34721924434",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TEETHER-20260801-018",
@@ -9362,17 +9365,17 @@
       "directEvidenceUrls": [
         "https://www.salefinder.co.kr/products/486741"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.salefinder.co.kr/products/486741",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.salefinder.co.kr/products/486741",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "TEETHER-20260801-023",
@@ -9384,17 +9387,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59116096147",
         "https://search.shopping.naver.com/catalog/59116096147"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59116096147",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59116096147",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0134",
@@ -9406,17 +9409,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61679907332",
         "https://search.shopping.naver.com/catalog/61679907332"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61679907332",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61679907332",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0139",
@@ -9428,17 +9431,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60844744529",
         "https://search.shopping.naver.com/catalog/60844744529"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60844744529",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60844744529",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0170",
@@ -9450,17 +9453,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F57426078059",
         "https://search.shopping.naver.com/catalog/57426078059"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F57426078059",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F57426078059",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0200",
@@ -9472,17 +9475,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61920063335",
         "https://search.shopping.naver.com/catalog/61920063335"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61920063335",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61920063335",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0206",
@@ -9494,17 +9497,17 @@
         "https://www.sisopick.com/product/TndKgBl4",
         "https://www.sisopick.com/product/%EC%B6%9C%EC%82%B0-%EC%9C%A0%EC%95%84%EB%8F%99/%EC%88%98%EC%9C%A0%EC%9A%A9%ED%92%88/%EB%85%B8%EB%A6%AC%EA%B0%9C%EC%A0%96%EA%BC%AD%EC%A7%80/%EC%B9%98%EB%B0%9C%EA%B8%B0/%EC%95%99%EC%A5%AC-%EC%B9%98%EB%B0%9C%EA%B8%B02%EC%A2%85%EC%84%B8%ED%8A%B8%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C-%EC%BC%80%EC%9D%B4%EC%8A%A42p%ED%81%B4%EB%A6%BD2p%EC%83%89%EC%83%81%EB%9E%A8%EB%8D%A4-%EB%B0%94%EB%82%98%EB%82%98%ED%8C%94%EC%B0%8C%EC%9B%90%EC%88%AD%EC%9D%B4%ED%95%91%ED%81%AC-1%EA%B0%9C-TndKgBl4"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.sisopick.com/product/TndKgBl4",
+      "reason": "2026-10-29 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.sisopick.com/product/TndKgBl4",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0208",
@@ -9516,17 +9519,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F35675510543",
         "https://search.shopping.naver.com/catalog/35675510543"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F35675510543",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F35675510543",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "MASTER-0211",
@@ -9538,17 +9541,17 @@
         "https://conyhub.kr/products/71265/",
         "https://conyhub.kr/products/71265"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://conyhub.kr/products/71265/",
+      "reason": "2026-10-29 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://conyhub.kr/products/71265/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "RUN18-001",
@@ -9560,17 +9563,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91167083584",
         "https://search.shopping.naver.com/catalog/91167083584"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91167083584",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91167083584",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "RUN18-005",
@@ -9581,17 +9584,17 @@
       "directEvidenceUrls": [
         "https://www.salefinder.co.kr/products/332877"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.salefinder.co.kr/products/332877",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.salefinder.co.kr/products/332877",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     },
     {
       "id": "RUN18-006",
@@ -9622,17 +9625,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59296670486",
         "https://search.shopping.naver.com/catalog/59296670486"
       ],
-      "reason": "2026-10-28 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59296670486",
+      "reason": "2026-10-29 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F59296670486",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261028T193106Z.json"
+        "data/revalidation-audits/20261029T152106Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261028T193106Z.json",
-      "lastAuditSha256": "02b31dc7f3cbb9df1383bc8c4973d47622573be88781a787a4000d8a09f83138"
+      "lastAuditRef": "data/revalidation-audits/20261029T152106Z.json",
+      "lastAuditSha256": "95e667bc0ccfc5c7a5e3028d854145ac68a77c2fe6b45ce9b46fc4549d9fcd91"
     }
   ]
 }
