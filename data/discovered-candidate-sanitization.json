@@ -1,19 +1,25 @@
 {
   "canonicalCountUnchanged": 453,
-  "inputCount": 1348,
-  "outputCount": 1348,
+  "inputCount": 1350,
+  "outputCount": 1350,
   "removedCount": 0,
-  "candidateIdsDiscoveredThisRun": [],
-  "candidateIdsAcceptedThisRun": [],
+  "candidateIdsDiscoveredThisRun": [
+    "DISC-05F218FD194E",
+    "DISC-ADC25D00C680"
+  ],
+  "candidateIdsAcceptedThisRun": [
+    "DISC-ADC25D00C680",
+    "DISC-05F218FD194E"
+  ],
   "newCandidatesRejectedThisRun": 0,
-  "remainingCandidateCount": 1348,
+  "remainingCandidateCount": 1350,
   "remainingCandidatesByCategory": {
     "완구": 155,
     "이유식·식기": 135,
     "구강·치발기": 198,
     "턱받이": 255,
-    "수유용품": 307,
-    "위생·기저귀": 298
+    "수유용품": 308,
+    "위생·기저귀": 299
   },
   "removed": []
 }
