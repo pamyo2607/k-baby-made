@@ -407,9 +407,9 @@
   "resolutionComplete": false,
   "coverageVerificationComplete": false,
   "verificationComplete": false,
-  "lastRun": "2026-11-07T17:30:51+00:00",
-  "lastAuditRef": "data/revalidation-audits/20261107T173051Z.json",
-  "lastAuditSha256": "addc1d0937095956136c77bee004586a7f2e6aa3a8f0dc08074fb495f0571c57",
+  "lastRun": "2026-11-07T18:55:49+00:00",
+  "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+  "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b",
   "results": [
     {
       "id": "MASTER-0016",
@@ -4458,17 +4458,17 @@
         "https://www.youtube.com/shorts/Jxu4Hd3fSvk",
         "https://angemall.com/"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.kidsning.com/product/112549",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.kidsning.com/product/112549",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "RUN18-014",
@@ -4484,17 +4484,17 @@
         "https://live.ecomm-data.com/report/labang/ff175af2a4554c5c01755fb2c9037237",
         "https://m.blog.naver.com/jiyabox/222800862270"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1679906528",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://momiliter.co.kr/shop/item.php?it_id=1679906528",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TEETHER-20260801-004",
@@ -4513,17 +4513,17 @@
         "https://itemproguide.com/%EB%A9%94%EB%94%94%ED%86%A0%EC%9D%B4%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%B6%94%EC%B2%9C-top5-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90-%EC%A0%95%EB%A6%AC/",
         "https://rung2world.tistory.com/244"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://prod.danawa.com/info/?pcode=20828708",
+      "reason": "2026-11-07 개별 판매 페이지에서 판매 종료·단종 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://prod.danawa.com/info/?pcode=20828708",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TEETHER-20260801-020",
@@ -4536,17 +4536,17 @@
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F56669442754",
         "https://search.shopping.naver.com/catalog/56669442754"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=20801723",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=20801723",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TEETHER-20260801-022",
@@ -4560,17 +4560,17 @@
         "https://www.kurly.com/goods/1001759742",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB061H387-1001"
       ],
-      "reason": "2026-11-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021332&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bmp8W11E",
+      "reason": "2026-11-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.pfdbrand.co.kr/shop/shopdetail.html?branduid=11021332&xcode=002&mcode=011&scode=&type=X&sort=manual&cur_code=002011&search=&GfDT=bmp8W11E",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TEETHER-20260801-024",
@@ -4583,17 +4583,17 @@
         "https://mamastem.com/front/html/block_state.html",
         "https://www.fallcent.com/product/GJtObA2MmCHIahArfTt1JjcE6WxQzDwv/"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://mamastem.com/product/jemjem-monster-origin-%EC%9E%BC%EC%9E%BC%EB%AA%AC%EC%8A%A4%ED%84%B0-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/35/",
+      "reason": "2026-11-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://mamastem.com/product/jemjem-monster-origin-%EC%9E%BC%EC%9E%BC%EB%AA%AC%EC%8A%A4%ED%84%B0-%EC%98%A4%EB%A6%AC%EC%A7%84-%EC%86%90%EB%AA%A9%EC%B9%98%EB%B0%9C%EA%B8%B0/35/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TEETHER-20260801-027",
@@ -4612,17 +4612,17 @@
         "http://www.angekorea.com/ko/index.html",
         "http://www.angekorea.com/ko/products/products.html"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. http://www.angekorea.com/ko/products/products.html?&sca=10&save_stx=&page=3",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-001",
@@ -4640,17 +4640,17 @@
         "https://prod.danawa.com/info/?pcode=26585312",
         "https://search.danawa.com/dsearch.php?query=%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%A5%AC"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.danawa.com/product/product.html?code=26585312",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.danawa.com/product/product.html?code=26585312",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-009",
@@ -4666,17 +4666,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000508206464&siteNo=6001&salestrNo=6005",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB065R0358-8001"
       ],
-      "reason": "2026-11-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://e-redpoint.com/member/login.html",
+      "reason": "2026-11-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://e-redpoint.com/member/login.html",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-014",
@@ -4689,17 +4689,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000039234436&siteNo=6001&salestrNo=6005",
         "https://prod.danawa.com/info/?pcode=26618714"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.danawa.com/product/product.html?code=26618714",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://m.danawa.com/product/product.html?code=26618714",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-015",
@@ -4712,17 +4712,17 @@
         "https://www.11st.co.kr/products/6698238",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000536959326&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=20789468",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=20789468",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-019",
@@ -4737,17 +4737,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000768001517&siteNo=6001&salestrNo=6005",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB067R1111-4003"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88450239007",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F88450239007",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-023",
@@ -4764,17 +4764,17 @@
         "https://www.coupang.com/vp/products/9454600151",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000590790105&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=26550014",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=26550014",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-036",
@@ -4787,24 +4787,24 @@
         "https://search.shopping.naver.com/catalog/58046103880",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000008610347&siteNo=6001&salestrNo=6005"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F58046103880",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F58046103880",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-046",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": true,
-      "changed": true,
+      "checked": false,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.sisopick.com/product/NGbOjk0b",
         "https://www.sisopick.com/product/%EC%99%84%EA%B5%AC-%EC%B7%A8%EB%AF%B8/%EC%8B%A0%EC%83%9D%EC%95%84-%EC%98%81%EC%95%84%EC%99%84%EA%B5%AC/%EC%98%A4%EB%9A%9D%EC%9D%B4/%EC%95%84%EC%9D%B4%EC%A1%B4-%EC%A4%91-%ED%83%9D1-%EB%BD%80%EB%A1%9C%EB%A1%9C%EB%AF%B8%EB%8B%88%EC%98%A4%EB%9A%9D%EC%9D%B4%EC%84%B8%ED%8A%B8-%EC%9E%A5%EB%82%9C%EA%B0%90-tu32-%EB%BD%80%EB%A1%9C%EB%A1%9C%ED%8C%A8%ED%8B%B0-NGbOjk0b",
@@ -4817,15 +4817,15 @@
       ],
       "reason": "2026-11-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.sisopick.com/product/NGbOjk0b",
       "errors": [
-        "age_basis"
+        "all_sales_urls_unreachable"
       ],
       "checkedAt": "2026-11-06",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-054",
@@ -4863,17 +4863,17 @@
         "https://kidzmall.kr/",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB064R987-9001"
       ],
-      "reason": "2026-11-06 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=21353420",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=21353420",
       "errors": [
         "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-059",
@@ -4888,17 +4888,17 @@
         "https://kidzmall.kr/",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB064R987-1001"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128",
+      "reason": "2026-11-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://m-shop.kidsnote.com/shop/detail.php?pno=1B62D7B3F8F7235F93AC885532DBDF14&cno1=2128",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-064",
@@ -4917,10 +4917,10 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-068",
@@ -4933,17 +4933,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000556277890&siteNo=6001&salestrNo=6005",
         "https://stores.auction.co.kr/playmax/List"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://playmax.co.kr/product/%EC%98%A4%EB%A6%AC-%EB%9C%B0%EC%B1%84/295/",
+      "reason": "2026-11-07 개별 판매 페이지에서 현재 구매 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://playmax.co.kr/product/%EC%98%A4%EB%A6%AC-%EB%9C%B0%EC%B1%84/295/",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-070",
@@ -4960,17 +4960,17 @@
         "https://bestreview4.mycafe24.com/%ED%95%B4%ED%94%BC%ED%94%8C%EB%A0%88%EC%9D%B4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%ED%8C%8C%EB%8B%A5%ED%8C%8C%EB%8B%A5-%EA%B0%9C%EA%B5%AC%EB%A6%AC-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4%EC%99%84/",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB064R987-1001"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61107230723",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61107230723",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-078",
@@ -4985,17 +4985,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000441153486&siteNo=6001&salestrNo=2096",
         "https://search.danawa.com/dsearch.php?query=%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94+%EB%8F%99%EB%AC%BC+%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4"
       ],
-      "reason": "2026-11-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://prod.danawa.com/info/?pcode=25158623",
+      "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=25158623",
       "errors": [
-        "age_basis"
+        "kc_number_on_sales_page"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-085",
@@ -5009,17 +5009,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000684957317&siteNo=6001&salestrNo=6005",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB061R1705-6002"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61361929189",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61361929189",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-087",
@@ -5032,17 +5032,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000268424968&siteNo=6001&salestrNo=6005",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB063R10104-200"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.musinsa.com/products/4364092",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://www.musinsa.com/products/4364092",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-088",
@@ -5056,17 +5056,17 @@
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000020378625&siteNo=6001&salestrNo=6005",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB061R1705-6002"
       ],
-      "reason": "2026-11-06 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61626802161",
+      "reason": "2026-11-07 개별 판매 페이지에서 구매 기능 확인 불가 표식을 확인했으나 공식 판매 종료·단종 근거를 추가 검증할 때까지 보류한다. https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61626802161",
       "errors": [
         "sale_inactive"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-092",
@@ -5085,24 +5085,24 @@
         "https://bestgoodnice.com/%EB%B8%8C%EB%9D%BC%EC%9D%B4%ED%8A%B8%EC%8A%A4%ED%83%80%ED%8A%B8-%EC%86%90%EB%AA%A9-%EC%9E%90%EC%97%B0-%EB%94%B8%EB%9E%91%EC%9D%B4-2%EC%A2%85-%EC%84%B8%ED%8A%B8-%EB%B8%94%EB%A3%A8-1%EC%84%B8%ED%8A%B8/",
         "https://www.safetykorea.kr/release/certDetail?certNum=CB063R528-9005"
       ],
-      "reason": "2026-11-06 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.lotteimall.com/goods/viewGoodsDetail.lotte",
+      "reason": "2026-11-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://www.lotteimall.com/goods/viewGoodsDetail.lotte",
       "errors": [
         "age_basis"
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261106T220829Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261106T220829Z.json",
-      "lastAuditSha256": "deb031e2088f58c5c344eb718e96c5f9b5c58fea5dafdab0f47465c2d8b3ee6b"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-096",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.ipoomgo.com/",
         "https://www.ipoomgo.com/shop/plan.html?plan_id=3150",
@@ -5117,17 +5117,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-098",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://prod.danawa.com/info/?pcode=26644151",
         "https://ownerclan.com/V2/product/view.php?selfcode=W545A78",
@@ -5141,17 +5141,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-099",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://kidsmile.co.kr/product/%EB%A6%AC%ED%8B%80%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8B%A4%EB%8B%B4%EC%95%84-%EC%9A%95%EC%8B%A4%EA%B7%B8%EB%AC%BC%EB%A7%9D/1188/",
         "https://www.safetykorea.kr/release/certSearch",
@@ -5166,17 +5166,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-100",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://price.enuri.com/catalog/107885380",
         "https://www.enuri.com/detail.jsp?modelno=107885380",
@@ -5193,17 +5193,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-102",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://prod.danawa.com/info/?pcode=26648987",
         "https://www.safetykorea.kr/release/certSearch",
@@ -5216,17 +5216,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-108",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://ownerclan.com/V2/product/view.php?selfcode=WA30043",
         "https://www.safetykorea.kr/release/certSearch",
@@ -5239,10 +5239,10 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-116",
@@ -5260,17 +5260,17 @@
       "checkedAt": "2026-08-04",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-130",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F61107218000",
         "https://search.shopping.naver.com/catalog/61107218000",
@@ -5286,17 +5286,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-136",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://prod.danawa.com/info/?pcode=26613116",
         "https://www.safetykorea.kr/release/certSearch"
@@ -5308,17 +5308,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-144",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://prod.danawa.com/info/?pcode=26519213",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000432600701&siteNo=6001&salestrNo=6005"
@@ -5330,17 +5330,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-153",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.kinderheim.kr/shop/shopdetail.html?branduid=2113494",
         "https://www.kidsbona.co.kr/goods/view_contents?no=126822&zoom=1",
@@ -5354,17 +5354,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-156",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://kidikidi.elandmall.co.kr/i/item?itemNo=2603342958&lowerVendNo=LV26021046",
         "https://emart.ssg.com/item/itemView.ssg?itemId=1000787255791&siteNo=6001&salestrNo=6005",
@@ -5381,17 +5381,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-164",
       "finalDecision": "보류",
       "resolved": false,
-      "checked": true,
-      "changed": true,
+      "checked": false,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.sisopick.com/product/KQKnUbz3",
         "https://www.sisopick.com/product/%EC%99%84%EA%B5%AC-%EC%B7%A8%EB%AF%B8/%EC%8B%A0%EC%83%9D%EC%95%84-%EC%98%81%EC%95%84%EC%99%84%EA%B5%AC/%EA%B1%B8%EC%9D%8C%EB%A7%88%EB%B3%B4%EC%A1%B0%EA%B8%B0/%ED%95%98%EB%8A%98%EC%8D%AC%EB%B3%84-2-in-1-%ED%95%B4%ED%94%BC-%EA%B1%B8%EC%9D%8C%EB%A7%88-%EC%97%90%EB%93%80-%ED%85%8C%EC%9D%B4%EB%B8%94-huanhe0828-%EA%B7%B8%EB%A6%B0-1%EA%B0%9C-KQKnUbz3",
@@ -5406,22 +5406,22 @@
       ],
       "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://www.sisopick.com/product/KQKnUbz3",
       "errors": [
-        "kc_number_on_sales_page"
+        "all_sales_urls_unreachable"
       ],
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-186",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.torae.co.kr/shop/shopdetail.html?branduid=726907&xcode=017&mcode=001&scode=&type=X&sort=regdate&cur_code=017001&search=&GfDT=aWh3Vw==",
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F90479531018",
@@ -5436,17 +5436,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-188",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60195923787",
         "https://search.shopping.naver.com/catalog/60195923787",
@@ -5460,17 +5460,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-189",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://playmax.co.kr/product/%ED%94%8C%EB%A0%88%EC%9D%B4%EB%A7%A5%EC%8A%A4-%ED%97%A4%EC%97%84%EC%B9%98%EB%8A%94-%EA%B1%B0%EB%B6%81%EC%9D%B4-3%EC%A2%85%EC%84%B8%ED%8A%B8-%EB%AA%A9%EC%9A%95%EB%86%80%EC%9D%B4-%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%AC%BC%EB%86%80%EC%9D%B4%EC%9A%A9%ED%92%88/375/",
         "https://momiliter.co.kr/shop/item.php?it_id=1691720619",
@@ -5485,17 +5485,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "TOY-20260729-196",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F91038804143",
         "https://search.shopping.naver.com/catalog/91038804143",
@@ -5508,17 +5508,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0158",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://search.danawa.com/?query=PPSU+%EB%B9%A8%EB%8C%80%EC%A0%96%EB%B3%91+%EB%B9%A8%EB%8C%80%ED%98%95+200ml&_OC_=rdc_child&logger_kw=rdc_child",
         "https://search.danawa.com/dsearch.php?query=PPSU+%EB%B9%A8%EB%8C%80%EC%A0%96%EB%B3%91+%EB%B9%A8%EB%8C%80%ED%98%95+200ml&_OC_=rdc_child&logger_kw=rdc_child",
@@ -5532,17 +5532,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0081",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F50593864906",
         "https://search.shopping.naver.com/catalog/50593864906"
@@ -5554,17 +5554,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0097",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60520377801",
         "https://search.shopping.naver.com/catalog/60520377801"
@@ -5576,17 +5576,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0136",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
         "https://www.youtube.com/shorts/ew-zoNJjBak",
@@ -5599,17 +5599,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0137",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://angemall.com/product/%EF%B8%8F%EC%8B%A0%EA%B7%9C%EA%B0%80%EC%9E%85-%EC%B2%AB%EA%B5%AC%EB%A7%A4-5000%EC%9B%90-%ED%95%A0%EC%9D%B8%EC%BF%A0%ED%8F%B0-%EC%A6%9D%EC%A0%95%EF%B8%8F%EC%95%99%EC%A5%AC-%EC%9E%85%EC%88%A0-%EC%B9%98%EB%B0%9C%EA%B8%B0-2%EC%A2%85-%EC%84%B8%ED%8A%B8/2091/",
         "https://angemall.com/"
@@ -5621,17 +5621,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0167",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.kurly.com/goods/1001196694",
         "https://store.crd.kr/p/p-8750532408",
@@ -5648,17 +5648,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0168",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://www.kurly.com/goods/1001442713",
         "https://cafe.dkevent.kr/%EB%AC%B4%EC%89%AC%ED%84%B1%EB%B0%9B%EC%9D%B4-%EC%B6%94%EC%B2%9C-%EC%9D%B8%EA%B8%B0-%EB%B8%8C%EB%9E%9C%EB%93%9C-%EC%88%9C%EC%9C%84-%EA%B0%80%EA%B2%A9-%EB%B9%84%EA%B5%90/",
@@ -5672,17 +5672,17 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0171",
       "finalDecision": "보류",
       "resolved": false,
       "checked": true,
-      "changed": true,
+      "changed": false,
       "directEvidenceUrls": [
         "https://blog.naver.com/PostView.naver?blogId=perfect_aj&logNo=223087180586",
         "https://prod.danawa.com/info/?pcode=30199376",
@@ -5699,10 +5699,10 @@
       "checkedAt": "2026-11-07",
       "attemptCount": 1,
       "auditRefs": [
-        "data/revalidation-audits/20261107T000237Z.json"
+        "data/revalidation-audits/20261107T185549Z.json"
       ],
-      "lastAuditRef": "data/revalidation-audits/20261107T000237Z.json",
-      "lastAuditSha256": "ab52f94d3d7d01e918b22e759353e4210b5e9760e8dc264f53f8a08642e94c1d"
+      "lastAuditRef": "data/revalidation-audits/20261107T185549Z.json",
+      "lastAuditSha256": "3824c87c943a7b3d5032394dd7dadb40b0c82d9594fdff3f6f4af8c16439150b"
     },
     {
       "id": "MASTER-0202",
