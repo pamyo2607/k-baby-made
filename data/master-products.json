@@ -8313,13 +8313,13 @@
     "status": "보류",
     "countryOfManufacture": "미확인 ❓",
     "saleStatus": "현재 구매 가능",
-    "ageRange": "확인 중",
-    "ageEvidence": "0~35개월 공식 연령 근거 없음",
+    "ageRange": "0개월 이상",
+    "ageEvidence": "공식 판매 페이지: 신생아",
     "kcApplicable": "어린이제품 확인 필요",
     "kcNumber": "미확인",
     "platform": "이마트몰 SSG.COM",
     "checkedAt": "2026-11-07",
-    "reason": "2026-11-07 판매 페이지의 구매 가능 상태는 확인했으나 0~35개월 사용 근거를 확보하지 못해 보류한다. https://prod.danawa.com/info/?pcode=25963361",
+    "reason": "2026-11-07 구매 가능한 개별 판매 페이지와 연령 근거는 확인했으나 판매 페이지에서 동일 제품 KC 번호를 확인하지 못해 보류한다. https://prod.danawa.com/info/?pcode=25963361",
     "officialUrls": [
       "https://prod.danawa.com/info/?pcode=25963361",
       "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F60936580424",
@@ -8355,8 +8355,7 @@
       "manufacturerOrImporter",
       "exactKcNumber",
       "safetyKoreaSameModel",
-      "officialEvidence",
-      "officialAge"
+      "officialEvidence"
     ],
     "revalidationSearchQueries": [
       "\"해피플레이\" \"헤엄치는 씽씽보트 화이트 강아지\"",
@@ -8398,7 +8397,7 @@
     "certificationEvidenceLevel": "safety-korea-detail",
     "strict419Applied": true,
     "strict419Status": "추가 확인 중",
-    "revalidationState": "0~35개월 공식 연령 근거 추가 확인 필요",
+    "revalidationState": "판매 페이지 동일 제품 KC 번호 확인 필요",
     "canonicalProductId": "TOY-20260729-067"
   },
   {
