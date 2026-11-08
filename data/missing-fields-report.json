@@ -11,7 +11,7 @@
     "safetyKoreaSameModel": 220,
     "currentSale": 206,
     "exactKcNumber": 196,
-    "officialAge": 193,
+    "officialAge": 194,
     "regulatoryRegime": 34
   },
   "labels": {
@@ -1741,26 +1741,6 @@
         "완제품 제조국",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 4
-    },
-    {
-      "id": "MASTER-0053",
-      "category": "수유용품",
-      "brand": "리틀밥독",
-      "name": "플립 컬러 빨대컵",
-      "checkedAt": "2026-11-08",
-      "missingFields": [
-        "countryOfManufacture",
-        "officialEvidence",
-        "manufacturerOrImporter",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "완제품 제조국",
-        "동일 제품 공식 근거 URL",
-        "제조사 또는 수입업체",
-        "적용 안전제도"
       ],
       "priority": 4
     },
@@ -3563,6 +3543,28 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "MASTER-0053",
+      "category": "수유용품",
+      "brand": "리틀밥독",
+      "name": "플립 컬러 빨대컵",
+      "checkedAt": "2026-11-08",
+      "missingFields": [
+        "countryOfManufacture",
+        "officialEvidence",
+        "manufacturerOrImporter",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "완제품 제조국",
+        "동일 제품 공식 근거 URL",
+        "제조사 또는 수입업체",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 5
     },
