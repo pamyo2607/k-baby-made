@@ -1436,66 +1436,6 @@
     "priority": 4
   },
   {
-    "id": "MASTER-0104",
-    "category": "이유식·식기",
-    "brand": "베베락",
-    "name": "트라이탄 이유식 용기 4개",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0152",
-    "category": "턱받이",
-    "brand": "네츄라오가닉",
-    "name": "오가닉코튼 머슬린 끈턱받이",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0161",
-    "category": "수유용품",
-    "brand": "뽀로로",
-    "name": "뉴 빨대컵 230ml PR2382",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 4
-  },
-  {
     "id": "MASTER-0002",
     "category": "위생·기저귀",
     "brand": "마미포코",
@@ -2136,6 +2076,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0104",
+    "category": "이유식·식기",
+    "brand": "베베락",
+    "name": "트라이탄 이유식 용기 4개",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0124",
     "category": "이유식·식기",
     "brand": "홈하우스",
@@ -2316,6 +2276,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0152",
+    "category": "턱받이",
+    "brand": "네츄라오가닉",
+    "name": "오가닉코튼 머슬린 끈턱받이",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0158",
     "category": "수유용품",
     "brand": "맘위즈",
@@ -2351,6 +2331,26 @@
       "0~35개월 공식 월령",
       "완제품 제조국",
       "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0161",
+    "category": "수유용품",
+    "brand": "뽀로로",
+    "name": "뉴 빨대컵 230ml PR2382",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
       "동일 제품 공식 근거 URL"
     ],
     "priority": 4
@@ -3270,182 +3270,6 @@
     "priority": 5
   },
   {
-    "id": "MASTER-0109",
-    "category": "이유식·식기",
-    "brand": "네스틱",
-    "name": "토핑 이유식 큐브 용기 모듈플레이트 2구",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0116",
-    "category": "이유식·식기",
-    "brand": "실유니티",
-    "name": "실리콘 이유식 밀폐·큐브 용기",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0138",
-    "category": "구강·치발기",
-    "brand": "앙쥬",
-    "name": "치발기 3종 세트",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0159",
-    "category": "수유용품",
-    "brand": "비바",
-    "name": "PPSU 빨대컵 280ml",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0165",
-    "category": "턱받이",
-    "brand": "리에또",
-    "name": "유아 실리콘 턱받이",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0181",
-    "category": "이유식·식기",
-    "brand": "아가프라",
-    "name": "이유식준비물 C세트",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0198",
-    "category": "구강·치발기",
-    "brand": "마더케이",
-    "name": "실리콘 치발기 잼잼세트 3P",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "TOY-20260729-114",
-    "category": "완구",
-    "brand": "하늘썬별",
-    "name": "칼라 소프트 아기 딸랑이 치발기 HEANHE0190",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "0~35개월 공식 월령"
-    ],
-    "priority": 5
-  },
-  {
     "id": "MASTER-0010",
     "category": "위생·기저귀",
     "brand": "킨도",
@@ -4128,6 +3952,28 @@
     "priority": 5
   },
   {
+    "id": "MASTER-0109",
+    "category": "이유식·식기",
+    "brand": "네스틱",
+    "name": "토핑 이유식 큐브 용기 모듈플레이트 2구",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
     "id": "MASTER-0112",
     "category": "이유식·식기",
     "brand": "비비또",
@@ -4168,6 +4014,28 @@
       "동일 제품 공식 근거 URL",
       "적용 안전제도",
       "0~35개월 공식 월령"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0116",
+    "category": "이유식·식기",
+    "brand": "실유니티",
+    "name": "실리콘 이유식 밀폐·큐브 용기",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL"
     ],
     "priority": 5
   },
@@ -4256,6 +4124,28 @@
       "동일 제품 공식 근거 URL",
       "동일 제품 KC 인증번호",
       "0~35개월 공식 월령"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0138",
+    "category": "구강·치발기",
+    "brand": "앙쥬",
+    "name": "치발기 3종 세트",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
     ],
     "priority": 5
   },
@@ -4436,6 +4326,28 @@
     "priority": 5
   },
   {
+    "id": "MASTER-0159",
+    "category": "수유용품",
+    "brand": "비바",
+    "name": "PPSU 빨대컵 280ml",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
     "id": "MASTER-0163",
     "category": "수유용품",
     "brand": "순수아",
@@ -4476,6 +4388,28 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0165",
+    "category": "턱받이",
+    "brand": "리에또",
+    "name": "유아 실리콘 턱받이",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
     ],
     "priority": 5
   },
@@ -4590,6 +4524,28 @@
     "priority": 5
   },
   {
+    "id": "MASTER-0181",
+    "category": "이유식·식기",
+    "brand": "아가프라",
+    "name": "이유식준비물 C세트",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 5
+  },
+  {
     "id": "MASTER-0184",
     "category": "수유용품",
     "brand": "모윰",
@@ -4674,6 +4630,28 @@
       "동일 제품 공식 근거 URL",
       "동일 제품 KC 인증번호",
       "현재 구매 가능한 국내 판매 페이지"
+    ],
+    "priority": 5
+  },
+  {
+    "id": "MASTER-0198",
+    "category": "구강·치발기",
+    "brand": "마더케이",
+    "name": "실리콘 치발기 잼잼세트 3P",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
     ],
     "priority": 5
   },
@@ -5338,6 +5316,28 @@
     "priority": 5
   },
   {
+    "id": "TOY-20260729-114",
+    "category": "완구",
+    "brand": "하늘썬별",
+    "name": "칼라 소프트 아기 딸랑이 치발기 HEANHE0190",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "0~35개월 공식 월령"
+    ],
+    "priority": 5
+  },
+  {
     "id": "TOY-20260729-130",
     "category": "완구",
     "brand": "해피플레이",
@@ -5740,102 +5740,6 @@
     "priority": 6
   },
   {
-    "id": "MASTER-0207",
-    "category": "구강·치발기",
-    "brand": "앙쥬",
-    "name": "바나나 + 입술 치발기 2종 세트",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialEvidence",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "동일 제품 공식 근거 URL",
-      "0~35개월 공식 월령"
-    ],
-    "priority": 6
-  },
-  {
-    "id": "TOY-20260729-103",
-    "category": "완구",
-    "brand": "베니르아이",
-    "name": "아기 치발기 유아 딸랑이 실리콘볼 민트",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 6
-  },
-  {
-    "id": "TOY-20260729-104",
-    "category": "완구",
-    "brand": "베니르아이",
-    "name": "신생아 치발기 딸랑이 실리콘볼 크림",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 6
-  },
-  {
-    "id": "TOY-20260729-110",
-    "category": "완구",
-    "brand": "에이치플러스몰",
-    "name": "우리아기 딸랑이 종합놀이세트 6P",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "currentSale",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "현재 구매 가능한 국내 판매 페이지",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 6
-  },
-  {
     "id": "MASTER-0031",
     "category": "위생·기저귀",
     "brand": "베베앙",
@@ -5880,6 +5784,30 @@
       "Safety Korea 동일 모델 연결",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "MASTER-0207",
+    "category": "구강·치발기",
+    "brand": "앙쥬",
+    "name": "바나나 + 입술 치발기 2종 세트",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialEvidence",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "동일 제품 공식 근거 URL",
+      "0~35개월 공식 월령"
     ],
     "priority": 6
   },
@@ -6724,6 +6652,54 @@
     "priority": 6
   },
   {
+    "id": "TOY-20260729-103",
+    "category": "완구",
+    "brand": "베니르아이",
+    "name": "아기 치발기 유아 딸랑이 실리콘볼 민트",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "TOY-20260729-104",
+    "category": "완구",
+    "brand": "베니르아이",
+    "name": "신생아 치발기 딸랑이 실리콘볼 크림",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
     "id": "TOY-20260729-109",
     "category": "완구",
     "brand": "하늘썬별",
@@ -6743,6 +6719,30 @@
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결",
       "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 6
+  },
+  {
+    "id": "TOY-20260729-110",
+    "category": "완구",
+    "brand": "에이치플러스몰",
+    "name": "우리아기 딸랑이 종합놀이세트 6P",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "currentSale",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "현재 구매 가능한 국내 판매 페이지",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
       "동일 제품 공식 근거 URL"
     ],
     "priority": 6
@@ -7568,136 +7568,6 @@
     "priority": 7
   },
   {
-    "id": "MASTER-0140",
-    "category": "구강·치발기",
-    "brand": "퍼기",
-    "name": "큐피드 손목 치발기",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "currentSale",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "현재 구매 가능한 국내 판매 페이지",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 7
-  },
-  {
-    "id": "MASTER-0199",
-    "category": "구강·치발기",
-    "brand": "베이비앤아이",
-    "name": "실리콘 치발기 딸기 + 노리개 세트",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "currentSale",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "현재 구매 가능한 국내 판매 페이지",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 7
-  },
-  {
-    "id": "MASTER-0210",
-    "category": "구강·치발기",
-    "brand": "티지엠",
-    "name": "손목치발기 꽃게",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "currentSale",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "현재 구매 가능한 국내 판매 페이지",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 7
-  },
-  {
-    "id": "RUN18-016",
-    "category": "구강·치발기",
-    "brand": "쁘띠누베",
-    "name": "국내 제조 실리콘 꽃게 손목 치발기",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "currentSale",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "현재 구매 가능한 국내 판매 페이지",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 7
-  },
-  {
-    "id": "TOY-20260729-038",
-    "category": "완구",
-    "brand": "미확인",
-    "name": "삐약삐약 오뚝이",
-    "checkedAt": "2026-11-09",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "currentSale",
-      "officialEvidence"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "현재 구매 가능한 국내 판매 페이지",
-      "동일 제품 공식 근거 URL"
-    ],
-    "priority": 7
-  },
-  {
     "id": "MASTER-0134",
     "category": "구강·치발기",
     "brand": "심통",
@@ -7750,6 +7620,32 @@
     "priority": 7
   },
   {
+    "id": "MASTER-0140",
+    "category": "구강·치발기",
+    "brand": "퍼기",
+    "name": "큐피드 손목 치발기",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 7
+  },
+  {
     "id": "MASTER-0170",
     "category": "턱받이",
     "brand": "클라우드 아일랜드",
@@ -7772,6 +7668,32 @@
       "동일 제품 공식 근거 URL",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "MASTER-0199",
+    "category": "구강·치발기",
+    "brand": "베이비앤아이",
+    "name": "실리콘 치발기 딸기 + 노리개 세트",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
     ],
     "priority": 7
   },
@@ -7824,6 +7746,32 @@
       "동일 제품 공식 근거 URL",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "MASTER-0210",
+    "category": "구강·치발기",
+    "brand": "티지엠",
+    "name": "손목치발기 꽃게",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
     ],
     "priority": 7
   },
@@ -7928,6 +7876,58 @@
       "동일 제품 공식 근거 URL",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "RUN18-016",
+    "category": "구강·치발기",
+    "brand": "쁘띠누베",
+    "name": "국내 제조 실리콘 꽃게 손목 치발기",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
+    ],
+    "priority": 7
+  },
+  {
+    "id": "TOY-20260729-038",
+    "category": "완구",
+    "brand": "미확인",
+    "name": "삐약삐약 오뚝이",
+    "checkedAt": "2026-11-10",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "exactKcNumber",
+      "safetyKoreaSameModel",
+      "currentSale",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결",
+      "현재 구매 가능한 국내 판매 페이지",
+      "동일 제품 공식 근거 URL"
     ],
     "priority": 7
   },
