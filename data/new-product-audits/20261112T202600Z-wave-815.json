@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "20260831-top30-per-category",
+  "waveIndex": 815,
+  "runAt": "2026-11-12T20:26:00+00:00",
+  "sourceCommit": "8855384bfa21a80b794653f641e7dc61e1a6c813",
+  "workflowRunId": "43299707773",
+  "selectedCandidateIdsByCategory": {
+    "완구": [
+      "DISC-B13034EB59FB",
+      "DISC-FAC3904B1B89",
+      "DISC-17AF2CC4E76B",
+      "DISC-652708923712",
+      "DISC-F1A7FD373866"
+    ],
+    "구강·치발기": [
+      "DISC-5569855EE205",
+      "DISC-B0ABA27F0F5C",
+      "DISC-A83024869311",
+      "DISC-253C2DA9704D",
+      "DISC-66CF4C0DE0E8"
+    ],
+    "턱받이": [
+      "DISC-A3DA98917F01",
+      "DISC-C3339ABEEC02",
+      "DISC-E7C0649B17F3",
+      "DISC-92AA0C78EF3B",
+      "DISC-FA876D3788D3"
+    ],
+    "수유용품": [
+      "DISC-7E58AEA631D3",
+      "DISC-515DA0A2D6FF",
+      "DISC-298AB50D5724",
+      "DISC-2F2415AB5318",
+      "DISC-59EAEB541317"
+    ],
+    "이유식·식기": [
+      "DISC-E65CE5BC0692",
+      "DISC-38093C9BAB8E",
+      "DISC-7F6C5E31E181",
+      "DISC-6E5642EC0DD9",
+      "DISC-E613D777FA88"
+    ],
+    "위생·기저귀": [
+      "DISC-AB4776742A58",
+      "DISC-60C00A5F5653",
+      "DISC-BAFD1ED7FCC2",
+      "DISC-41D3147313C4",
+      "DISC-E04FCA76657E"
+    ]
+  },
+  "promotionReadyCandidateIds": [],
+  "products": [
+    {
+      "candidateId": "DISC-B13034EB59FB",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "age_basis"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 64,
+      "evidencePagesTried": [
+        "https://kci4848.cafe24.com/product/list.html"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-FAC3904B1B89",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 110,
+      "evidencePagesTried": [
+        "https://dama-bori.com/product/%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%86%8C%EB%A6%AC%EB%82%98%EB%8A%94-%EA%B3%B5-%EC%86%8D%EC%9D%98-%EA%B3%B5-%EC%95%84%EA%B8%B0-%EC%97%B0%EB%91%90-%EC%86%8D%EC%9D%98%EA%B3%B5-%EC%86%8C%EB%A6%AC%EB%82%98%EB%8A%94%EC%86%8D%EC%9D%98/49547"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-17AF2CC4E76B",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 111,
+      "evidencePagesTried": [
+        "https://xn--ok0b07xdio.xn--9z2b21mbmdt3u.com/product/11154-%EC%98%81%EC%95%84-%EC%8A%A4%ED%94%BC%EB%84%88-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%95%84%EA%B8%B0-%EB%94%B8%EB%9E%91%EC%9D%B4%EC%9E%A5%EB%82%9C%EA%B0%90-%EB%8F%8C%EC%95%84%EA%B8%B0-%EA%B5%AD%EB%AF%BC"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-652708923712",
+      "category": "완구",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "all_sales_urls_unreachable"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 111,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-F1A7FD373866",
+      "category": "완구",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 111,
+      "evidencePagesTried": [
+        "https://xn--9k3b23ah5mfzbb20a.xn--9z2b21mbmdt3u.com/product/11993-%EB%8B%B4%EA%B3%B0%EC%9D%B4-%EC%9D%B8%ED%98%95-30cm-%EB%86%8D%EB%8B%B4%EA%B3%B0-m-%EC%86%8C%EB%A6%84-%EA%B3%B0%EB%8F%8C%EC%9D%B4-%EB%B4%89%EC%A0%9C-%EA%B3%B0-%EC%9D%B8%ED%98%95-%EB%82%98%EA%B0%80%EB%85%B8-%EC%BA%90%EB%A6%AD%ED%84%B0-%EA%B5%BF%EC%A6%88"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-5569855EE205",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 811,
+      "evidencePagesTried": [
+        "https://store.ohou.se/goods/3159420"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-B0ABA27F0F5C",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "sale_inactive"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 69,
+      "evidencePagesTried": [
+        "https://m.shoppinghow.kakao.com/m/product/A5286058877"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-A83024869311",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 111,
+      "evidencePagesTried": [
+        "https://xn--ok0b07xdio.xn--9z2b21mbmdt3u.com/product/12731-%EC%9D%B4%EC%95%93%EC%9D%B4-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%9D%B8%ED%98%95-%EC%95%84%EA%B8%B0-%EA%B5%AD%EB%AF%BC-%EC%B2%9C%EC%97%B0%EA%B3%A0%EB%AC%B4-%EA%B5%AC%EA%B0%95%EA%B8%B0-%EC%9E%A5%EB%82%9C%EA%B0%90-a",
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F87945318820"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-253C2DA9704D",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 120,
+      "evidencePagesTried": [
+        "https://xn--ok0b07xdio.xn--9z2b21mbmdt3u.com/product/8761-%EB%8F%8C%EC%A0%84%EC%95%84%EA%B8%B0%EC%9E%A5%EB%82%9C%EA%B0%90-6%EA%B0%9C%EC%9B%94-7%EA%B0%9C%EC%9B%94-%EC%95%84%EA%B8%B0-%EC%9E%A5%EB%82%9C%EA%B0%90-%EC%95%A0%EB%B2%8C%EB%A0%88",
+        "https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.shopping.naver.com%2Fcatalog%2F83779092781"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-66CF4C0DE0E8",
+      "category": "구강·치발기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "kc_number_on_sales_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 120,
+      "evidencePagesTried": [
+        "https://xn--ok0b07xdio.xn--9z2b21mbmdt3u.com/product/8851-%ED%9D%A1%EC%B0%A9%ED%9A%8C%EC%A0%84%EB%94%B8%EB%9E%91%EC%9D%B4-%ED%9D%A1%EC%B0%A9-%ED%9D%A1%EC%B0%A9%EC%8B%9D-%EC%95%84%EA%B8%B0-%EB%94%B8%EB%9E%91%EC%9D%B4-%EC%8B%9D%ED%83%81-%EC%9E%A5%EB%82%9C%EA%B0%90"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-A3DA98917F01",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 69,
+      "evidencePagesTried": [
+        "https://konny.co.kr/product/26holiday.html"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-C3339ABEEC02",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 77,
+      "evidencePagesTried": [
+        "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/6264-%EB%8D%94%EB%A7%88%EB%8D%94-%EC%9E%90%EA%B8%B0%EC%A3%BC%EB%8F%84%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EB%A7%A4%ED%8A%B8-%EC%95%84%EA%B8%B0-%ED%84%B1%EB%B0%9B%EC%9D%B4-%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%82%A4%ED%8A%B8"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-E7C0649B17F3",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 77,
+      "evidencePagesTried": [
+        "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/6269-%ED%94%BC%EB%8B%89%ED%82%A4-%EC%95%84%EA%B8%B0-%ED%84%B1%EB%B0%9B%EC%9D%B4-%ED%85%8C%EB%A6%AC%EB%B9%95-12%EC%83%89%EC%83%81"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-92AA0C78EF3B",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 77,
+      "evidencePagesTried": [
+        "https://web.joongna.com/product/229592812"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-FA876D3788D3",
+      "category": "턱받이",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 77,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-7E58AEA631D3",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 810,
+      "evidencePagesTried": [
+        "https://store.ohou.se/goods/1834306"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-515DA0A2D6FF",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 810,
+      "evidencePagesTried": [
+        "https://store.ohou.se/goods/3559459"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-298AB50D5724",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 102,
+      "evidencePagesTried": [],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-2F2415AB5318",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 110,
+      "evidencePagesTried": [
+        "https://www.komazon.kr/product/picnicsnackcup"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-59EAEB541317",
+      "category": "수유용품",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 110,
+      "evidencePagesTried": [
+        "https://xn--9z2b21mbmdt3u.com/product/10459-%EB%8B%A5%ED%84%B0%EB%B8%8C%EB%9D%BC%EC%9A%B4-%EC%98%A4%ED%94%BC%EC%85%9C-ppsu-%EC%A0%96%EB%B3%91-%EC%99%80%EC%9D%B4%EB%93%9C%EB%84%A5-270ml-4%EA%B0%9C-%EA%BC%AD%EC%A7%80%EC%84%A0%ED%83%9D-%EC%B9%98%EB%B0%9C%EA%B8%B0-%EC%98%B5%EC%85%98%EC%84%A0%EB%AC%BC"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-E65CE5BC0692",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "officialAge",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 811,
+      "evidencePagesTried": [
+        "https://store.ohou.se/goods/4066234"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-38093C9BAB8E",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 811,
+      "evidencePagesTried": [
+        "https://store.ohou.se/goods/3559477"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-7F6C5E31E181",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 110,
+      "evidencePagesTried": [
+        "https://xn--ok0bz7x76gcicd6s.xn--9z2b21mbmdt3u.com/product/8122-100-%EA%B5%AD%EB%82%B4%EC%83%9D%EC%82%B0-urvs-%EA%BD%83-%ED%9D%A1%EC%B0%A9-%EC%8B%9D%ED%8C%90-%EC%8B%A4%EB%A6%AC%EC%BD%98-%ED%94%8C%EB%A1%9C%EB%9F%B4-%ED%8A%B8%EB%A0%88%EC%9D%B4-%EB%9A%9C%EA%BB%91%EC%84%B8%ED%8A%B8-%ED%86%A0%ED%95%91-%EC%9D%B4%EC%9C%A0%EC%8B%9D"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-6E5642EC0DD9",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "currentSale",
+        "officialAge",
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 111,
+      "evidencePagesTried": [
+        "https://coudeal.shop/product/R8pAPje6LDO95"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-E613D777FA88",
+      "category": "이유식·식기",
+      "decision": "보류",
+      "checked": true,
+      "changed": true,
+      "errors": [
+        "countryOfManufacture",
+        "manufacturerOrImporter",
+        "sameProductIdentity",
+        "regulatoryRegime"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 111,
+      "evidencePagesTried": [
+        "https://xn--9k3b23ah5mfzbb20a.xn--9z2b21mbmdt3u.com/product/9214-100-%EA%B5%AD%EB%82%B4%EC%83%9D%EC%82%B0-urvs-new-%EA%B0%80%EB%A6%AC%EB%B9%84%EB%B3%BC-%ED%9D%A1%EC%B0%A9-%EC%8B%9D%ED%8C%90-%ED%86%A0%ED%95%91-%EC%9D%B4%EC%9C%A0%EC%8B%9D-%EC%B6%9C%EC%82%B0-%EC%95%84%EA%B8%B0-%EC%84%A0%EB%AC%BC"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-AB4776742A58",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 13,
+      "evidencePagesTried": [
+        "https://store.ohou.se/goods/1109366"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-60C00A5F5653",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": true,
+      "changed": false,
+      "errors": [
+        "currentSale",
+        "officialAge"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 8,
+      "evidencePagesTried": [
+        "https://www.officeshop.co.kr/item/itemView.do?itemId=1000000026778"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-BAFD1ED7FCC2",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 28,
+      "evidencePagesTried": [
+        "https://korea777.kr/data/goods/912345/thumb-kSt52M96qAK6spKzM44QT1rMsb24wQ_300x300.jpg"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-41D3147313C4",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 67,
+      "evidencePagesTried": [
+        "https://korea777.kr/data/goods/299394/thumb-p8D2NKu7ml82EkC2wkMHLCK1TzRxPL_300x300.jpg"
+      ],
+      "promotionReadyBeforeDedupe": false
+    },
+    {
+      "candidateId": "DISC-E04FCA76657E",
+      "category": "위생·기저귀",
+      "decision": "보류",
+      "checked": false,
+      "changed": false,
+      "errors": [
+        "exact_product_page"
+      ],
+      "includedContractErrors": [],
+      "attemptCount": 67,
+      "evidencePagesTried": [
+        "https://korea777.kr/data/goods/538642/thumb-1792047387_9184_mLCEuFl12rZfXw6HT7CY7e2WUNZWJF_300x300.jpg"
+      ],
+      "promotionReadyBeforeDedupe": false
+    }
+  ]
+}
