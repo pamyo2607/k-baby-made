@@ -218,6 +218,22 @@
     "priority": 2
   },
   {
+    "id": "TEETHER-20260801-007",
+    "category": "구강·치발기",
+    "brand": "아띠래빗",
+    "name": "토끼 치발기 글러브형 + 케이스",
+    "checkedAt": "2026-11-14",
+    "missingFields": [
+      "exactKcNumber",
+      "safetyKoreaSameModel"
+    ],
+    "missingFieldLabels": [
+      "동일 제품 KC 인증번호",
+      "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 2
+  },
+  {
     "id": "TEETHER-20260801-013",
     "category": "구강·치발기",
     "brand": "베이비앤아이",
@@ -754,24 +770,6 @@
     "priority": 3
   },
   {
-    "id": "MASTER-0119",
-    "category": "이유식·식기",
-    "brand": "인콕",
-    "name": "이중밀폐 이유식큐브 6구",
-    "checkedAt": "2026-11-14",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "countryOfManufacture",
-      "regulatoryRegime"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "완제품 제조국",
-      "적용 안전제도"
-    ],
-    "priority": 3
-  },
-  {
     "id": "MASTER-0121",
     "category": "이유식·식기",
     "brand": "잼먹",
@@ -948,24 +946,6 @@
       "제조사 또는 수입업체",
       "완제품 제조국",
       "적용 안전제도"
-    ],
-    "priority": 3
-  },
-  {
-    "id": "TEETHER-20260801-007",
-    "category": "구강·치발기",
-    "brand": "아띠래빗",
-    "name": "토끼 치발기 글러브형 + 케이스",
-    "checkedAt": "2026-11-14",
-    "missingFields": [
-      "exactKcNumber",
-      "safetyKoreaSameModel",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "동일 제품 KC 인증번호",
-      "Safety Korea 동일 모델 연결",
-      "0~35개월 공식 월령"
     ],
     "priority": 3
   },
@@ -1538,6 +1518,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0015",
+    "category": "위생·기저귀",
+    "brand": "하기스",
+    "name": "네이처메이드 썸머 팬티형 6단계 136매",
+    "checkedAt": "2026-11-14",
+    "missingFields": [
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "적용 안전제도"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0017",
     "category": "위생·기저귀",
     "brand": "하기스",
@@ -1554,6 +1554,26 @@
       "완제품 제조국",
       "동일 제품 공식 근거 URL",
       "현재 구매 가능한 국내 판매 페이지"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0029",
+    "category": "위생·기저귀",
+    "brand": "베베숲",
+    "name": "아이캔 트레이닝 유아물티슈",
+    "checkedAt": "2026-11-14",
+    "missingFields": [
+      "officialAge",
+      "countryOfManufacture",
+      "manufacturerOrImporter",
+      "officialEvidence"
+    ],
+    "missingFieldLabels": [
+      "0~35개월 공식 월령",
+      "완제품 제조국",
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL"
     ],
     "priority": 4
   },
@@ -2118,6 +2138,26 @@
     "priority": 4
   },
   {
+    "id": "MASTER-0119",
+    "category": "이유식·식기",
+    "brand": "인콕",
+    "name": "이중밀폐 이유식큐브 6구",
+    "checkedAt": "2026-11-14",
+    "missingFields": [
+      "manufacturerOrImporter",
+      "countryOfManufacture",
+      "regulatoryRegime",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "제조사 또는 수입업체",
+      "완제품 제조국",
+      "적용 안전제도",
+      "0~35개월 공식 월령"
+    ],
+    "priority": 4
+  },
+  {
     "id": "MASTER-0124",
     "category": "이유식·식기",
     "brand": "홈하우스",
@@ -2154,26 +2194,6 @@
       "제조사 또는 수입업체",
       "현재 구매 가능한 국내 판매 페이지",
       "동일 제품 공식 근거 URL"
-    ],
-    "priority": 4
-  },
-  {
-    "id": "MASTER-0131",
-    "category": "수유용품",
-    "brand": "하이비",
-    "name": "PPSU 에잇벤트 170ml",
-    "checkedAt": "2026-11-14",
-    "missingFields": [
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "countryOfManufacture",
-      "regulatoryRegime"
-    ],
-    "missingFieldLabels": [
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "완제품 제조국",
-      "적용 안전제도"
     ],
     "priority": 4
   },
@@ -2234,6 +2254,26 @@
       "완제품 제조국",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
+    ],
+    "priority": 4
+  },
+  {
+    "id": "MASTER-0143",
+    "category": "이유식·식기",
+    "brand": "베베락",
+    "name": "엘파 실리콘 흡착볼 세트",
+    "checkedAt": "2026-11-14",
+    "missingFields": [
+      "countryOfManufacture",
+      "officialEvidence",
+      "manufacturerOrImporter",
+      "regulatoryRegime"
+    ],
+    "missingFieldLabels": [
+      "완제품 제조국",
+      "동일 제품 공식 근거 URL",
+      "제조사 또는 수입업체",
+      "적용 안전제도"
     ],
     "priority": 4
   },
@@ -3296,28 +3336,6 @@
     "priority": 5
   },
   {
-    "id": "MASTER-0015",
-    "category": "위생·기저귀",
-    "brand": "하기스",
-    "name": "네이처메이드 썸머 팬티형 6단계 136매",
-    "checkedAt": "2026-11-14",
-    "missingFields": [
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "regulatoryRegime",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "적용 안전제도",
-      "0~35개월 공식 월령"
-    ],
-    "priority": 5
-  },
-  {
     "id": "MASTER-0022",
     "category": "위생·기저귀",
     "brand": "달곰이",
@@ -3366,28 +3384,6 @@
     "category": "위생·기저귀",
     "brand": "베베숲",
     "name": "시그니처 레드 유아물티슈",
-    "checkedAt": "2026-11-14",
-    "missingFields": [
-      "officialAge",
-      "countryOfManufacture",
-      "manufacturerOrImporter",
-      "officialEvidence",
-      "currentSale"
-    ],
-    "missingFieldLabels": [
-      "0~35개월 공식 월령",
-      "완제품 제조국",
-      "제조사 또는 수입업체",
-      "동일 제품 공식 근거 URL",
-      "현재 구매 가능한 국내 판매 페이지"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0029",
-    "category": "위생·기저귀",
-    "brand": "베베숲",
-    "name": "아이캔 트레이닝 유아물티슈",
     "checkedAt": "2026-11-14",
     "missingFields": [
       "officialAge",
@@ -4066,6 +4062,28 @@
     "priority": 5
   },
   {
+    "id": "MASTER-0131",
+    "category": "수유용품",
+    "brand": "하이비",
+    "name": "PPSU 에잇벤트 170ml",
+    "checkedAt": "2026-11-14",
+    "missingFields": [
+      "manufacturerOrImporter",
+      "officialEvidence",
+      "countryOfManufacture",
+      "regulatoryRegime",
+      "officialAge"
+    ],
+    "missingFieldLabels": [
+      "제조사 또는 수입업체",
+      "동일 제품 공식 근거 URL",
+      "완제품 제조국",
+      "적용 안전제도",
+      "0~35개월 공식 월령"
+    ],
+    "priority": 5
+  },
+  {
     "id": "MASTER-0133",
     "category": "구강·치발기",
     "brand": "모윰",
@@ -4128,28 +4146,6 @@
       "제조사 또는 수입업체",
       "동일 제품 KC 인증번호",
       "Safety Korea 동일 모델 연결"
-    ],
-    "priority": 5
-  },
-  {
-    "id": "MASTER-0143",
-    "category": "이유식·식기",
-    "brand": "베베락",
-    "name": "엘파 실리콘 흡착볼 세트",
-    "checkedAt": "2026-11-14",
-    "missingFields": [
-      "countryOfManufacture",
-      "officialEvidence",
-      "manufacturerOrImporter",
-      "regulatoryRegime",
-      "officialAge"
-    ],
-    "missingFieldLabels": [
-      "완제품 제조국",
-      "동일 제품 공식 근거 URL",
-      "제조사 또는 수입업체",
-      "적용 안전제도",
-      "0~35개월 공식 월령"
     ],
     "priority": 5
   },
