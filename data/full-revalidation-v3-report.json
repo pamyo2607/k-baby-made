@@ -11,7 +11,7 @@
     "safetyKoreaSameModel": 220,
     "currentSale": 199,
     "exactKcNumber": 196,
-    "officialAge": 192,
+    "officialAge": 193,
     "regulatoryRegime": 35
   },
   "labels": {
@@ -543,24 +543,6 @@
         "0~35개월 공식 월령",
         "제조사 또는 수입업체",
         "동일 제품 공식 근거 URL"
-      ],
-      "priority": 3
-    },
-    {
-      "id": "MASTER-0040",
-      "category": "위생·기저귀",
-      "brand": "코멧",
-      "name": "시그니처 아기물티슈 엠보싱 캡형",
-      "checkedAt": "2026-11-14",
-      "missingFields": [
-        "manufacturerOrImporter",
-        "countryOfManufacture",
-        "regulatoryRegime"
-      ],
-      "missingFieldLabels": [
-        "제조사 또는 수입업체",
-        "완제품 제조국",
-        "적용 안전제도"
       ],
       "priority": 3
     },
@@ -1619,6 +1601,26 @@
         "제조사 또는 수입업체",
         "현재 구매 가능한 국내 판매 페이지",
         "동일 제품 공식 근거 URL"
+      ],
+      "priority": 4
+    },
+    {
+      "id": "MASTER-0040",
+      "category": "위생·기저귀",
+      "brand": "코멧",
+      "name": "시그니처 아기물티슈 엠보싱 캡형",
+      "checkedAt": "2026-11-14",
+      "missingFields": [
+        "manufacturerOrImporter",
+        "countryOfManufacture",
+        "regulatoryRegime",
+        "officialAge"
+      ],
+      "missingFieldLabels": [
+        "제조사 또는 수입업체",
+        "완제품 제조국",
+        "적용 안전제도",
+        "0~35개월 공식 월령"
       ],
       "priority": 4
     },
